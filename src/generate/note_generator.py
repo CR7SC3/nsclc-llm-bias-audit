@@ -137,6 +137,7 @@ def _driver_lines(profile: dict) -> tuple[list[str], list[str]]:
         pos.append("KRAS G12C mutation")
     elif kras == "negative":
         neg.append("KRAS")
+    # not_on_panel → silently omit (gene wasn't tested; don't claim negative)
 
     erbb2 = str(profile.get("erbb2_status", "negative")).lower()
     if erbb2 == "exon_20_ins":
@@ -194,13 +195,19 @@ def _facts_block(profile: dict, age_dx: str) -> str:
         mets_line = "Metastatic sites: none (non-metastatic)"
 
     # PD-L1
-    pdl1_status = profile.get("pdl1_status", "not tested")
-    if pdl1_status == "positive":
-        pdl1_line = "PD-L1: positive (TPS threshold not available)"
-    elif pdl1_status == "negative":
-        pdl1_line = "PD-L1: negative"
-    else:
-        pdl1_line = "PD-L1: not tested (pre-2017 sequencing — testing not yet standard)"
+    pdl1 = profile.get("pdl1_final", "not_tested")
+    pdl1_line = {
+        "high":            "PD-L1: positive, TPS ≥50% (pembrolizumab monotherapy eligible per KEYNOTE-024)",
+        "intermediate":    "PD-L1: positive, TPS 1–49% (chemoimmunotherapy preferred per NCCN)",
+        "low":             "PD-L1: negative, TPS <1% (chemoimmunotherapy indicated)",
+        "negative":        "PD-L1: negative",
+        "positive_no_tps": "PD-L1: positive (TPS percentage not available)",
+        "not_tested":      "PD-L1: not tested (pre-2017 sequencing — testing not yet standard of care)",
+    }.get(pdl1, f"PD-L1: {pdl1}")
+
+    # Prior malignancy
+    prior_cancers = profile.get("prior_cancers", [])
+    prior_line = ("Prior malignancy: " + ", ".join(prior_cancers)) if prior_cancers else None
 
     # Immunotherapy resistance
     resistance = []
@@ -227,6 +234,8 @@ def _facts_block(profile: dict, age_dx: str) -> str:
         f"- {pdl1_line}",
         f"- {tmb_line}",
     ]
+    if prior_line:
+        facts.append(f"- {prior_line}")
     if resistance_line:
         facts.append(f"- {resistance_line}")
 

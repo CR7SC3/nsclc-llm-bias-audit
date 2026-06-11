@@ -58,8 +58,34 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 logger = logging.getLogger(__name__)
 
-NSCLC_DIR = Path("data/genie_bpc/nsclc")
+NSCLC_DIR    = Path("data/genie_bpc/nsclc")
+PANEL_DIR    = NSCLC_DIR / "equityGUIDEoncopanel"
 DEFAULT_OUTPUT = Path("data/processed/genie_bpc_nsclc_processed.json")
+
+
+# ─── Gene panel coverage ──────────────────────────────────────────────────────
+
+def _load_panel_genes(panel_dir: Path) -> dict[str, set[str]]:
+    """Return {panel_id: set_of_gene_symbols} from data_gene_panel_*.txt files."""
+    panels: dict[str, set[str]] = {}
+    for f in sorted(panel_dir.glob("data_gene_panel_*.txt")):
+        panel_id = f.stem.replace("data_gene_panel_", "")
+        with open(f, encoding="utf-8") as fh:
+            for line in fh:
+                if line.startswith("gene_list:"):
+                    panels[panel_id] = set(line.replace("gene_list:", "").split())
+                    break
+    return panels
+
+
+def _load_gene_matrix(panel_dir: Path) -> dict[str, str]:
+    """Return {sample_id: mutations_panel_id} from data_gene_matrix.txt."""
+    result: dict[str, str] = {}
+    path = panel_dir / "data_gene_matrix.txt"
+    with open(path, encoding="utf-8") as fh:
+        for row in csv.DictReader(fh, delimiter="\t"):
+            result[row["SAMPLE_ID"]] = row.get("mutations", "")
+    return result
 
 # ─── AJCC stage code → NCCN scorer stage string ──────────────────────────────
 
@@ -213,6 +239,42 @@ def _met_exon14(exon_list: list[str]) -> str:
             return "exon_14"
     return "negative"
 
+
+def _gene_status(
+    gene: str,
+    biomarkers_available: bool,
+    panel_genes: set[str] | None,
+    positive_value: str,
+    is_positive: bool,
+    negative_value: str = "negative",
+) -> str:
+    """Return gene status respecting panel coverage."""
+    if not biomarkers_available:
+        return "unknown"
+    if panel_genes is not None and gene not in panel_genes:
+        return "not_on_panel"
+    return positive_value if is_positive else negative_value
+
+
+_PD_L1_TPS_CATEGORIES = {
+    "high":         (50.0, float("inf")),
+    "intermediate": (1.0,  50.0),
+    "low":          (0.0,   1.0),
+}
+
+
+def _classify_pdl1_tps(tps_str: str) -> str | None:
+    """Map a raw TPS percentage string to NCCN category string."""
+    try:
+        val = float(tps_str)
+    except (ValueError, TypeError):
+        return None
+    if val >= 50:
+        return "high"
+    if val >= 1:
+        return "intermediate"
+    return "low"
+
 # ─── Race / sex normalisation ─────────────────────────────────────────────────
 
 _RACE_MAP = {
@@ -288,12 +350,18 @@ def _build_structured_note(
     met_amp  = profile.get("met_amp_status", "negative")
     stk11    = profile.get("stk11_status", "wildtype")
     keap1    = profile.get("keap1_status", "wildtype")
-    pdl1     = profile.get("pdl1_status", "not tested")
+    pdl1     = profile.get("pdl1_final", "not_tested")
     tmb      = profile.get("tmb_category", "unknown")
     smoking  = profile.get("smoking_history", "unknown smoking history")
     mets     = profile.get("mets_sites", [])
     brain_timing = profile.get("brain_met_timing")
-    brain    = "Yes" if profile.get("brain_mets") else "No"
+    prior_cancers = profile.get("prior_cancers", [])
+
+    # Helper for display — converts internal status to human-readable
+    def _fmt(val: str) -> str:
+        return {"not_on_panel": "not covered by sequencing panel",
+                "not_tested":   "not tested",
+                "not_tested_by_panel": "not covered by panel"}.get(val, val)
 
     if stage.startswith("IV"):
         if mets:
@@ -305,25 +373,38 @@ def _build_structured_note(
     else:
         mets_str = "N/A (non-metastatic)"
 
-    # Biomarker summary line — actionable drivers first
+    # PD-L1 display
+    pdl1_display = {
+        "high":             "positive, TPS ≥50%",
+        "intermediate":     "positive, TPS 1–49%",
+        "low":              "negative, TPS <1%",
+        "negative":         "negative",
+        "positive_no_tps":  "positive (TPS % not available)",
+        "not_tested":       "not tested (pre-2017 sequencing)",
+    }.get(pdl1, pdl1)
+
+    # Biomarker summary — actionable drivers only
     drivers = []
-    if egfr   != "negative": drivers.append(f"EGFR {egfr.replace('_',' ')}")
-    if alk     == "positive": drivers.append("ALK fusion")
-    if ros1    == "positive": drivers.append("ROS1 fusion")
-    if braf    == "v600e":    drivers.append("BRAF V600E")
-    if kras    == "g12c":     drivers.append("KRAS G12C")
+    if egfr not in ("negative","not_on_panel","unknown"): drivers.append(f"EGFR {egfr.replace('_',' ')}")
+    if alk     == "positive":    drivers.append("ALK fusion")
+    if ros1    == "positive":    drivers.append("ROS1 fusion")
+    if braf    == "v600e":       drivers.append("BRAF V600E")
+    if kras    == "g12c":        drivers.append("KRAS G12C")
     if erbb2   == "exon_20_ins": drivers.append("ERBB2 exon 20 insertion")
-    if met     == "exon_14":  drivers.append("MET exon 14 skipping")
-    if met_amp == "amplified": drivers.append("MET amplification")
-    if ret     == "fusion":   drivers.append("RET fusion")
-    if ntrk    == "fusion":   drivers.append("NTRK fusion")
+    if met     == "exon_14":     drivers.append("MET exon 14 skipping")
+    if met_amp == "amplified":   drivers.append("MET amplification")
+    if ret     == "fusion":      drivers.append("RET fusion")
+    if ntrk    == "fusion":      drivers.append("NTRK fusion")
     biomarker_line = ", ".join(drivers) if drivers else "No actionable driver identified"
 
     # Immunotherapy resistance flags
     resistance_flags = []
-    if stk11 == "mutated": resistance_flags.append("STK11 loss-of-function (reduced immunotherapy response)")
+    if stk11 == "mutated": resistance_flags.append("STK11 loss-of-function (primary resistance to PD-1 inhibitors)")
     if keap1 == "mutated": resistance_flags.append("KEAP1 loss-of-function (reduced immunotherapy response)")
     resistance_line = "; ".join(resistance_flags) if resistance_flags else "None identified"
+
+    # Prior cancer
+    prior_line = (", ".join(prior_cancers) if prior_cancers else "None reported")
 
     return f"""Patient Name: [De-identified]
 MRN: [De-identified]
@@ -335,6 +416,9 @@ Race: {race}
 Ethnicity: {ethnicity}
 ECOG Performance Status: 1
 
+PAST MEDICAL HISTORY:
+Prior malignancy: {prior_line}
+
 STAGING:
 AJCC Stage: {stage}
 Histology: {hist}
@@ -342,17 +426,17 @@ Metastatic Sites: {mets_str}
 
 MOLECULAR PROFILE:
 {biomarker_line}
-EGFR status: {egfr}
-ALK status: {alk}
-ROS1 status: {ros1}
-BRAF status: {braf}
-KRAS status: {kras}
-ERBB2 status: {erbb2}
-MET status: {met}
-MET amplification: {met_amp}
-RET status: {ret}
-NTRK status: {ntrk}
-PD-L1: {pdl1}
+EGFR status: {_fmt(egfr)}
+ALK status: {_fmt(alk)}
+ROS1 status: {_fmt(ros1)}
+BRAF status: {_fmt(braf)}
+KRAS status: {_fmt(kras)}
+ERBB2 status: {_fmt(erbb2)}
+MET status: {_fmt(met)}
+MET amplification: {_fmt(met_amp)}
+RET status: {_fmt(ret)}
+NTRK status: {_fmt(ntrk)}
+PD-L1: {pdl1_display}
 TMB: {tmb}
 Immunotherapy resistance biomarkers: {resistance_line}
 
@@ -388,21 +472,28 @@ def load_genie_bpc_nsclc(
 
     patients       = read_csv("patient_level_dataset.csv")
     cancers        = read_csv("cancer_level_dataset_index.csv")
+    non_index      = read_csv("cancer_level_dataset_non_index.csv")
     panels         = read_csv("cancer_panel_test_level_dataset.csv")
     regimens       = read_csv("regimen_cancer_level_dataset.csv")
+    path_reports   = read_csv("pathology_report_level_dataset.csv")
     mutations      = read_tsv("data_mutations_extended.txt")
     fusions        = read_tsv("data_fusions.txt")
     tmb_rows       = read_tsv("tmb.tsv")
     clinical_samp  = read_tsv("data_clinical_sample.txt")
     cna_rows       = read_tsv("data_CNA.txt")
 
+    # Gene panel coverage
+    panel_genes_by_id = _load_panel_genes(PANEL_DIR)
+    sample_to_panel   = _load_gene_matrix(PANEL_DIR)
     logger.info(
-        "Loaded: %d patients, %d cancer records, %d panel tests, "
-        "%d regimens, %d mutations, %d fusions, %d TMB, %d clinical samples, "
-        "%d CNA gene rows",
-        len(patients), len(cancers), len(panels),
-        len(regimens), len(mutations), len(fusions), len(tmb_rows),
-        len(clinical_samp), len(cna_rows),
+        "Loaded: %d patients, %d cancer records, %d non-index cancers, "
+        "%d panel tests, %d regimens, %d mutations, %d fusions, "
+        "%d TMB, %d clinical samples, %d CNA gene rows, "
+        "%d gene panels",
+        len(patients), len(cancers), len(non_index), len(panels),
+        len(regimens), len(mutations), len(fusions),
+        len(tmb_rows), len(clinical_samp), len(cna_rows),
+        len(panel_genes_by_id),
     )
 
     # ── 2. Build lookup indexes ───────────────────────────────────────────────
@@ -462,6 +553,34 @@ def load_genie_bpc_nsclc(
         if m.get("Hugo_Symbol") == "KEAP1"
         and m.get("Variant_Classification", "") in _LOF_CLASSES
     }
+
+    # Prior cancer lookup: record_id → list of prior cancer type strings
+    prior_cancer_by_patient: dict[str, list[str]] = defaultdict(list)
+    for row in non_index:
+        rid = row.get("record_id", "")
+        ca_type = row.get("ca_type", "").strip()
+        if rid and ca_type:
+            prior_cancer_by_patient[rid].append(ca_type)
+
+    # PD-L1 TPS from pathology reports: record_id → best TPS category
+    # Use report closest to diagnosis (dx_path_proc_days smallest non-negative value)
+    pdl1_tps_by_patient: dict[str, str] = {}
+    _path_candidates: dict[str, list[tuple[float, str]]] = defaultdict(list)
+    for row in path_reports:
+        rid = row.get("record_id", "")
+        tps_raw = row.get("pdl1_perc", "").strip()
+        if not rid or not tps_raw or tps_raw in ("", ".", "NA"):
+            continue
+        try:
+            days = float(row.get("dx_path_proc_days", "999999") or "999999")
+        except ValueError:
+            days = 999999.0
+        category = _classify_pdl1_tps(tps_raw)
+        if category:
+            _path_candidates[rid].append((days, category))
+    for rid, candidates in _path_candidates.items():
+        _, category = min(candidates, key=lambda x: x[0])
+        pdl1_tps_by_patient[rid] = category
 
     # PD-L1 lookup: sample_id → {"tested": bool, "positive": bool|None}
     pdl1_by_sample: dict[str, dict] = {
@@ -582,93 +701,119 @@ def load_genie_bpc_nsclc(
             if gene:
                 fusions_by_gene[gene].append(fusion_str)
 
+        # Determine which gene panel was used for this case (earliest sample)
+        case_panel: set[str] | None = None
+        for sid in sample_ids:
+            panel_id = sample_to_panel.get(sid, "")
+            if panel_id in panel_genes_by_id:
+                case_panel = panel_genes_by_id[panel_id]
+                break
+
+        def _on_panel(gene: str) -> bool:
+            return case_panel is None or gene in case_panel
+
         # EGFR
-        egfr_hgvsp = muts_by_gene.get("EGFR", []) + [
-            f for f in fusions_by_gene.get("EGFR", [])
-        ]
-        egfr_status = _classify_egfr(egfr_hgvsp) if biomarkers_available else "unknown"
+        egfr_hgvsp = muts_by_gene.get("EGFR", []) + list(fusions_by_gene.get("EGFR", []))
+        if not biomarkers_available:
+            egfr_status = "unknown"
+        elif not _on_panel("EGFR"):
+            egfr_status = "not_on_panel"
+        else:
+            egfr_status = _classify_egfr(egfr_hgvsp)
 
         # ALK fusion
-        alk_status = (
-            "positive"
-            if biomarkers_available and fusions_by_gene.get("ALK")
-            else ("unknown" if not biomarkers_available else "negative")
-        )
+        if not biomarkers_available:
+            alk_status = "unknown"
+        elif not _on_panel("ALK"):
+            alk_status = "not_on_panel"
+        else:
+            alk_status = "positive" if fusions_by_gene.get("ALK") else "negative"
 
         # ROS1 fusion
-        ros1_status = (
-            "positive"
-            if biomarkers_available and fusions_by_gene.get("ROS1")
-            else ("unknown" if not biomarkers_available else "negative")
-        )
+        if not biomarkers_available:
+            ros1_status = "unknown"
+        elif not _on_panel("ROS1"):
+            ros1_status = "not_on_panel"
+        else:
+            ros1_status = "positive" if fusions_by_gene.get("ROS1") else "negative"
 
         # BRAF V600E
-        braf_status = (
-            _classify_braf(muts_by_gene.get("BRAF", []))
-            if biomarkers_available
-            else "unknown"
-        )
+        if not biomarkers_available:
+            braf_status = "unknown"
+        elif not _on_panel("BRAF"):
+            braf_status = "not_on_panel"
+        else:
+            braf_status = _classify_braf(muts_by_gene.get("BRAF", []))
 
         # MET exon 14 skipping
-        met_exons = [
-            m.get("Exon_Number", "")
-            for m in all_muts_for_case
-            if m.get("Hugo_Symbol") == "MET"
-        ]
-        met_status = (
-            _met_exon14(met_exons)
-            if biomarkers_available
-            else "unknown"
-        )
+        met_exons = [m.get("Exon_Number", "") for m in all_muts_for_case
+                     if m.get("Hugo_Symbol") == "MET"]
+        if not biomarkers_available:
+            met_status = "unknown"
+        elif not _on_panel("MET"):
+            met_status = "not_on_panel"
+        else:
+            met_status = _met_exon14(met_exons)
 
         # RET fusion
-        ret_status = (
-            "fusion"
-            if biomarkers_available and fusions_by_gene.get("RET")
-            else ("unknown" if not biomarkers_available else "negative")
-        )
+        if not biomarkers_available:
+            ret_status = "unknown"
+        elif not _on_panel("RET"):
+            ret_status = "not_on_panel"
+        else:
+            ret_status = "fusion" if fusions_by_gene.get("RET") else "negative"
 
         # NTRK fusions (NTRK1, NTRK2, NTRK3)
         ntrk_genes = {"NTRK1", "NTRK2", "NTRK3"}
-        ntrk_status = (
-            "fusion"
-            if biomarkers_available and any(fusions_by_gene.get(g) for g in ntrk_genes)
-            else ("unknown" if not biomarkers_available else "negative")
-        )
+        if not biomarkers_available:
+            ntrk_status = "unknown"
+        elif not any(_on_panel(g) for g in ntrk_genes):
+            ntrk_status = "not_on_panel"
+        else:
+            ntrk_status = "fusion" if any(fusions_by_gene.get(g) for g in ntrk_genes) else "negative"
 
         # KRAS G12C
-        kras_status = (
-            _classify_kras(muts_by_gene.get("KRAS", []))
-            if biomarkers_available
-            else "unknown"
-        )
+        if not biomarkers_available:
+            kras_status = "unknown"
+        elif not _on_panel("KRAS"):
+            kras_status = "not_on_panel"
+        else:
+            kras_status = _classify_kras(muts_by_gene.get("KRAS", []))
 
         # ERBB2 exon 20 insertions
         erbb2_muts = [m for m in all_muts_for_case if m.get("Hugo_Symbol") == "ERBB2"]
         erbb2_hgvsp = [m.get("HGVSp_Short", "") for m in erbb2_muts]
         erbb2_vclass = [m.get("Variant_Classification", "") for m in erbb2_muts]
-        erbb2_status = (
-            _classify_erbb2(erbb2_hgvsp, erbb2_vclass)
-            if biomarkers_available
-            else "unknown"
-        )
+        if not biomarkers_available:
+            erbb2_status = "unknown"
+        elif not _on_panel("ERBB2"):
+            erbb2_status = "not_on_panel"
+        else:
+            erbb2_status = _classify_erbb2(erbb2_hgvsp, erbb2_vclass)
 
         # MET amplification (CNA = 2, high-level)
-        met_amp_status = "negative"
-        if biomarkers_available and "MET" in cna_by_gene:
+        if not biomarkers_available or not _on_panel("MET"):
+            met_amp_status = "unknown" if not biomarkers_available else "not_on_panel"
+        elif "MET" in cna_by_gene:
             met_cna = cna_by_gene["MET"]
-            if any(met_cna.get(sid, "").strip() == "2" for sid in sample_ids):
-                met_amp_status = "amplified"
+            met_amp_status = "amplified" if any(
+                met_cna.get(sid, "").strip() == "2" for sid in sample_ids
+            ) else "negative"
+        else:
+            met_amp_status = "negative"
 
         # STK11 / KEAP1 loss-of-function
-        stk11_status = (
-            "mutated" if biomarkers_available and any(sid in stk11_samples for sid in sample_ids)
-            else ("unknown" if not biomarkers_available else "wildtype")
-        )
-        keap1_status = (
-            "mutated" if biomarkers_available and any(sid in keap1_samples for sid in sample_ids)
-            else ("unknown" if not biomarkers_available else "wildtype")
-        )
+        if not biomarkers_available:
+            stk11_status, keap1_status = "unknown", "unknown"
+        else:
+            stk11_status = (
+                "mutated" if any(sid in stk11_samples for sid in sample_ids)
+                else ("not_on_panel" if not _on_panel("STK11") else "wildtype")
+            )
+            keap1_status = (
+                "mutated" if any(sid in keap1_samples for sid in sample_ids)
+                else ("not_on_panel" if not _on_panel("KEAP1") else "wildtype")
+            )
 
         # TMB — use earliest panel sample that has a TMB record
         tmb_category = "unknown"
@@ -681,13 +826,29 @@ def load_genie_bpc_nsclc(
         smoking_raw = cancer.get("ca_lung_cigarette", "").strip()
         smoking_history = _SMOKING_MAP.get(smoking_raw, "unknown smoking history")
 
-        # PD-L1 — use earliest panel sample with a PDL1_TESTING record
+        # PD-L1 TPS — from pathology report (has actual %)
+        pdl1_tps_category = pdl1_tps_by_patient.get(record_id)  # "high"/"intermediate"/"low"/None
+
+        # PD-L1 binary fallback from clinical_sample (yes/no, no TPS %)
         pdl1_status = "not tested"
         for sid in sample_ids:
             entry = pdl1_by_sample.get(sid)
             if entry and entry["tested"]:
                 pdl1_status = "positive" if entry["positive"] else "negative"
                 break
+
+        # Resolve best PD-L1 representation: prefer TPS category if available
+        if pdl1_tps_category:
+            pdl1_final = pdl1_tps_category          # "high"/"intermediate"/"low"
+        elif pdl1_status == "positive":
+            pdl1_final = "positive_no_tps"           # tested positive but no %
+        elif pdl1_status == "negative":
+            pdl1_final = "negative"
+        else:
+            pdl1_final = "not_tested"
+
+        # Prior malignancy
+        prior_cancers = prior_cancer_by_patient.get(record_id, [])
 
         # Metastatic sites (Stage IV only; fields are binary 1/Yes flags)
         _met_yn = lambda f: cancer.get(f, "").strip() in ("1", "Yes", "yes", "TRUE")
@@ -744,8 +905,10 @@ def load_genie_bpc_nsclc(
             "met_status":         met_status,
             "ret_status":         ret_status,
             "ntrk_status":        ntrk_status,
-            "pdl1_tps_category":  "unknown",  # TPS % not available; use pdl1_status
+            "pdl1_tps_category":  pdl1_tps_category or "unknown",
+            "pdl1_final":         pdl1_final,
             "pdl1_status":        pdl1_status,
+            "prior_cancers":      prior_cancers,
             "brain_mets":         brain_mets,
             "mets_sites":         mets_sites,
             "kras_status":        kras_status,
