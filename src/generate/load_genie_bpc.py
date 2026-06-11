@@ -264,10 +264,12 @@ def _build_structured_note(
     ret      = profile.get("ret_status", "negative")
     ntrk     = profile.get("ntrk_status", "negative")
     kras     = profile.get("kras_status", "negative")
-    pdl1     = profile.get("pdl1_tps_category", "unknown")
+    pdl1     = profile.get("pdl1_status", "not tested")
     tmb      = profile.get("tmb_category", "unknown")
     smoking  = profile.get("smoking_history", "unknown smoking history")
+    mets     = profile.get("mets_sites", [])
     brain    = "Yes" if profile.get("brain_mets") else "No"
+    mets_str = (", ".join(mets) if mets else "none documented") if stage.startswith("IV") else "N/A (non-metastatic)"
 
     # Biomarker summary line
     drivers = []
@@ -294,7 +296,7 @@ ECOG Performance Status: 1
 STAGING:
 AJCC Stage: {stage}
 Histology: {hist}
-Distant Metastases: {brain} (brain)
+Metastatic Sites: {mets_str}
 
 MOLECULAR PROFILE:
 {biomarker_line}
@@ -306,7 +308,7 @@ KRAS status: {kras}
 MET status: {met}
 RET status: {ret}
 NTRK status: {ntrk}
-PD-L1 TPS: {pdl1}
+PD-L1: {pdl1}
 TMB: {tmb}
 
 SOCIAL HISTORY:
@@ -336,21 +338,24 @@ def load_genie_bpc_nsclc(
     def read_tsv(fname: str) -> list[dict]:
         path = nsclc_dir / fname
         with open(path, newline="", encoding="utf-8-sig") as fh:
-            return list(csv.DictReader(fh, delimiter="\t"))
+            lines = [l for l in fh if not l.startswith("#")]
+        return list(csv.DictReader(lines, delimiter="\t"))
 
-    patients  = read_csv("patient_level_dataset.csv")
-    cancers   = read_csv("cancer_level_dataset_index.csv")
-    panels    = read_csv("cancer_panel_test_level_dataset.csv")
-    regimens  = read_csv("regimen_cancer_level_dataset.csv")
-    mutations = read_tsv("data_mutations_extended.txt")
-    fusions   = read_tsv("data_fusions.txt")
-    tmb_rows  = read_tsv("tmb.tsv")
+    patients       = read_csv("patient_level_dataset.csv")
+    cancers        = read_csv("cancer_level_dataset_index.csv")
+    panels         = read_csv("cancer_panel_test_level_dataset.csv")
+    regimens       = read_csv("regimen_cancer_level_dataset.csv")
+    mutations      = read_tsv("data_mutations_extended.txt")
+    fusions        = read_tsv("data_fusions.txt")
+    tmb_rows       = read_tsv("tmb.tsv")
+    clinical_samp  = read_tsv("data_clinical_sample.txt")
 
     logger.info(
         "Loaded: %d patients, %d cancer records, %d panel tests, "
-        "%d regimens, %d mutations, %d fusions, %d TMB records",
+        "%d regimens, %d mutations, %d fusions, %d TMB, %d clinical samples",
         len(patients), len(cancers), len(panels),
         len(regimens), len(mutations), len(fusions), len(tmb_rows),
+        len(clinical_samp),
     )
 
     # ── 2. Build lookup indexes ───────────────────────────────────────────────
@@ -385,6 +390,17 @@ def load_genie_bpc_nsclc(
 
     # TMB lookup: sample_id → tmb_bin string
     tmb_by_sample: dict[str, str] = {r["SAMPLE_ID"]: r["tmb_bin"] for r in tmb_rows}
+
+    # PD-L1 lookup: sample_id → {"tested": bool, "positive": bool|None}
+    pdl1_by_sample: dict[str, dict] = {
+        r["SAMPLE_ID"]: {
+            "tested":   r.get("PDL1_TESTING", "") == "Yes",
+            "positive": (True  if r.get("PDL1_POSITIVE_ANY") == "Yes"
+                         else False if r.get("PDL1_POSITIVE_ANY") == "No"
+                         else None),
+        }
+        for r in clinical_samp
+    }
 
     # ── 3. Process each cancer record ────────────────────────────────────────
 
@@ -566,6 +582,26 @@ def load_genie_bpc_nsclc(
         smoking_raw = cancer.get("ca_lung_cigarette", "").strip()
         smoking_history = _SMOKING_MAP.get(smoking_raw, "unknown smoking history")
 
+        # PD-L1 — use earliest panel sample with a PDL1_TESTING record
+        pdl1_status = "not tested"
+        for sid in sample_ids:
+            entry = pdl1_by_sample.get(sid)
+            if entry and entry["tested"]:
+                pdl1_status = "positive" if entry["positive"] else "negative"
+                break
+
+        # Metastatic sites (Stage IV only; fields are binary 1/Yes flags)
+        _met_yn = lambda f: cancer.get(f, "").strip() in ("1", "Yes", "yes", "TRUE")
+        mets_sites: list[str] = []
+        if _met_yn("dmets_brain"):   mets_sites.append("brain")
+        if _met_yn("dmets_bone"):    mets_sites.append("bone")
+        if _met_yn("dmets_liver"):   mets_sites.append("liver")
+        if _met_yn("dmets_thorax"):  mets_sites.append("intrathoracic (contralateral lung/pleura/mediastinum)")
+        if _met_yn("dmets_abdomen"): mets_sites.append("abdomen/adrenal")
+        if _met_yn("dmets_head_neck"): mets_sites.append("head/neck")
+        if _met_yn("dmets_pelvis"):  mets_sites.append("pelvis")
+        if _met_yn("dmets_extremity"): mets_sites.append("extremity")
+
         # Store raw biomarkers for reference
         biomarkers_raw = {
             "egfr_mutations": egfr_hgvsp,
@@ -581,8 +617,8 @@ def load_genie_bpc_nsclc(
             "sample_ids":     sample_ids,
         }
 
-        # ── Brain mets ────────────────────────────────────────────────────────
-        brain_mets = cancer.get("dmets_brain", "").strip() in ("1", "Yes", "yes", "TRUE")
+        # ── Brain mets (kept separate for NCCN scorer compatibility) ─────────
+        brain_mets = "brain" in mets_sites
 
         # ── Clinical profile (NCCN scorer format) ─────────────────────────────
         age_dx = cancer.get("age_dx", "").strip()
@@ -600,8 +636,10 @@ def load_genie_bpc_nsclc(
             "met_status":         met_status,
             "ret_status":         ret_status,
             "ntrk_status":        ntrk_status,
-            "pdl1_tps_category":  "unknown",  # not available in GENIE BPC
+            "pdl1_tps_category":  "unknown",  # TPS % not available; use pdl1_status
+            "pdl1_status":        pdl1_status,
             "brain_mets":         brain_mets,
+            "mets_sites":         mets_sites,
             "kras_status":        kras_status,
             "tmb_category":       tmb_category,
             "smoking_history":    smoking_history,

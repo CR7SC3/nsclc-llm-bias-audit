@@ -176,15 +176,31 @@ def _facts_block(profile: dict, age_dx: str) -> str:
     tmb      = profile.get("tmb_category", "unknown")
     tmb_line = f"TMB: {tmb}" if tmb != "unknown" else "TMB: not reported"
 
+    # Metastatic sites
+    mets_sites = profile.get("mets_sites", [])
+    if stage.startswith("IV"):
+        mets_line = ("Metastatic sites: " + ", ".join(mets_sites)) if mets_sites else "Metastatic sites: not specified"
+    else:
+        mets_line = "Metastatic sites: none (non-metastatic)"
+
+    # PD-L1
+    pdl1_status = profile.get("pdl1_status", "not tested")
+    if pdl1_status == "positive":
+        pdl1_line = "PD-L1: positive (TPS threshold not available)"
+    elif pdl1_status == "negative":
+        pdl1_line = "PD-L1: negative"
+    else:
+        pdl1_line = "PD-L1: not tested (pre-2017 sequencing — testing not yet standard)"
+
     return f"""\
 - Patient: {age_str} (do NOT state race, sex-as-identity, insurance, or socioeconomic status)
 - Cancer: Non-small cell lung cancer (NSCLC), {hist} histology
 - AJCC stage at diagnosis: Stage {stage}
-- Brain metastases: {"present" if brain else "none documented"}
+- {mets_line}
 - Smoking history: {smoking}
 - Treatment status: treatment-naive (this is the initial oncology evaluation; no prior systemic therapy)
 - Molecular profile: {molecular}
-- {_pdl1_line(profile)}
+- {pdl1_line}
 - {tmb_line}"""
 
 
