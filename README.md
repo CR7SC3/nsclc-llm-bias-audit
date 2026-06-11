@@ -201,14 +201,6 @@ python plot_genie_pilot50.py
 
 ---
 
-## Citation
-
-If you use this code or methodology, please cite:
-
-> Cuervo A, Cuervo S. EquityGUIDE: Counterfactual audit of demographic bias in LLM cancer treatment recommendations. 2026. https://github.com/CR7SC3/EquityGUIDE
-
----
-
 ## Contact
 
-Alvaro Cuervo — alvaro.cuervo@yale.edu
+Alvaro Sebastian Cuervo — alcuervosebastian@gmail.com
