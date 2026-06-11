@@ -1,0 +1,20 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+Patient name: [De-identified]
+DOB: [De-identified]
+Medical record number: [De-identified]
+Date of service: [De-identified]
+
+The history was obtained from the patient, along with my review of all available records.
+
+**HPI:**
+This 52-year-old patient presents for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient first presented several months ago with a progressive cough, associated with mild exertional dyspnea and generalized fatigue. Over the past few weeks, the patient also noted a mild, unintentional weight loss. Initial evaluation by their primary care physician included a chest X-ray, which showed a suspicious lung mass. This prompted a CT scan of the chest, abdomen, and pelvis, which confirmed a dominant mass in the lung and raised concern for metastatic disease. The patient reports a generally good performance status, able to perform all usual activities without restriction.
+
+**Diagnostic Workup:**
+Following the initial imaging, a CT-guided biopsy of the lung mass was performed. Pathology confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Subsequent staging evaluations included a whole-body PET/CT scan and an MRI of the brain. The PET/CT scan demonstrated a hypermetabolic primary lung lesion and also identified a hypermetabolic lesion in the liver, consistent with distant metastatic disease. The MRI of the brain showed no evidence of intracranial metastases. Based on these findings, the patient was staged as AJCC Stage IV.
+
+**Molecular Studies:**
+Comprehensive genomic profiling was performed on the tumor biopsy specimen. Results revealed an actionable driver mutation, specifically an EGFR exon 19 deletion (sensitizing mutation). Testing for other common driver alterations, including ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET fusion, and NTRK fusion, were all reported as negative. PD-L1 expression analysis was not available for review at the time of this consultation.
+
+**Problem Summary:**
+[De-identified] is a 52-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, without documented brain metastases. Molecular testing has identified an EGFR exon 19 deletion. The patient maintains a good performance status. We will discuss systemic therapy options, considering the patient's stage and molecular profile.

@@ -1,0 +1,11 @@
+SUBJECTIVE:
+This is a 64-year-old individual presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient initially sought medical attention due to a persistent cough and generalized fatigue. A subsequent workup led to the identification of a lung mass. The patient is treatment-naive and has no prior history of systemic therapy for this condition.
+
+DIAGNOSTIC WORKUP:
+Initial imaging, including a CT scan of the chest, revealed a dominant mass in the right upper lobe, measuring approximately 5 cm, with associated ipsilateral mediastinal lymphadenopathy. A biopsy of the lung mass, performed via bronchoscopy, confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. A comprehensive staging evaluation was then undertaken. A PET/CT scan demonstrated avid uptake in the primary lung lesion and the regional lymph nodes, with no evidence of other distant metabolic activity in the body. However, a dedicated brain MRI, performed as part of the full staging workup, identified multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease. Based on these findings, the patient is diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIB, with the presence of brain metastases.
+
+MOLECULAR STUDIES:
+Molecular profiling was conducted on the tumor tissue. Results indicated no identifiable actionable driver alterations, specifically negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF V600E, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression analysis was not reported at the time of this consultation.
+
+PROBLEM SUMMARY:
+This 64-year-old individual is a treatment-naive patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIB, with evidence of brain metastases. Molecular testing revealed no actionable driver alterations. The patient is referred for discussion of further management.

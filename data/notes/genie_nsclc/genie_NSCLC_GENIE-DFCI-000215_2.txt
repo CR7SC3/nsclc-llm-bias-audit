@@ -1,0 +1,11 @@
+**HPI:**
+The patient is a 76-year-old individual presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient reports a several-month history of a persistent, non-productive cough and progressive dyspnea on exertion. More recently, they developed new-onset, intermittent headaches, which prompted further medical evaluation. The patient's overall performance status is estimated at ECOG 1.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest X-ray, which demonstrated a suspicious mass in the right upper lobe. This finding led to a contrast-enhanced CT scan of the chest, abdomen, and pelvis, confirming a primary lung mass, along with mediastinal lymphadenopathy and a suspicious lesion in the left adrenal gland. A subsequent PET-CT scan showed hypermetabolic activity in the right upper lobe mass, several mediastinal lymph nodes, and the left adrenal lesion, consistent with metastatic disease. Given the patient's new headaches, an MRI of the brain was performed, which revealed multiple enhancing lesions indicative of brain metastases. A CT-guided biopsy of the right upper lobe lung mass confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Based on the presence of distant metastases (brain and adrenal), the patient is diagnosed with AJCC Stage IV NSCLC.
+
+**Molecular Studies:**
+Molecular profiling was performed on the diagnostic lung biopsy specimen. Results indicate the presence of an EGFR uncommon sensitizing mutation. Comprehensive testing for other oncogenic drivers yielded negative results for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET fusion, and NTRK fusion. PD-L1 expression status is not reported at this time.
+
+**Problem Summary:**
+This is a 76-year-old treatment-naive patient with newly diagnosed, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is characterized by a primary right upper lobe tumor, mediastinal lymphadenopathy, brain metastases, and an adrenal metastasis. Molecular testing has identified an EGFR uncommon sensitizing mutation. The patient is undergoing initial oncology evaluation to discuss systemic therapy options.

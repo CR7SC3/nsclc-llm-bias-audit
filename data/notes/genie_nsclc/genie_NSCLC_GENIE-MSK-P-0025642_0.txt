@@ -1,0 +1,17 @@
+[De-identified] Medical Oncology Consultation Note
+Date: [De-identified Date]
+Patient Name: [De-identified Patient Name]
+DOB: [De-identified Date of Birth]
+MRN: [De-identified MRN]
+
+**HPI:**
+The patient is a 73-year-old individual who presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. The patient first sought medical attention several weeks ago due to a persistent cough, accompanied by some mild exertional dyspnea and increasing fatigue. An initial chest X-ray revealed a suspicious lung mass, prompting further investigation with a CT scan of the chest. This imaging confirmed a primary lesion in the right upper lobe, along with suspicious mediastinal lymphadenopathy. A subsequent image-guided biopsy of the lung mass confirmed adenocarcinoma histology. Comprehensive staging workup, including a PET/CT scan and a CT scan of the abdomen and pelvis, identified a new lesion in the liver, consistent with metastatic disease. An MRI of the brain was performed and showed no evidence of intracranial metastases. The patient reports a generally good performance status, able to perform all usual activities without restriction, and denies significant cancer-related pain or other systemic symptoms beyond the initial cough and fatigue. There is no prior history of cancer treatment.
+
+**Diagnostic Workup:**
+Diagnostic evaluation commenced with a chest X-ray and subsequent CT chest, which identified a primary lung mass in the right upper lobe measuring approximately [clinically plausible size, e.g., 4.5 cm] with associated mediastinal lymphadenopathy. A core needle biopsy of the lung lesion was performed on [De-identified Date], confirming non-small cell lung cancer with adenocarcinoma histology. Staging was completed with a PET/CT scan and a dedicated CT of the abdomen and pelvis on [De-identified Date], which revealed hypermetabolic activity corresponding to the primary lung lesion and mediastinal lymph nodes, as well as a focal hypermetabolic lesion in the left hepatic lobe, consistent with distant metastasis. An MRI of the brain, performed on [De-identified Date], showed no evidence of acute intracranial pathology or metastatic disease. Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue from the lung biopsy. The results indicate the presence of a MET exon 14 skipping mutation. Testing for other common driver mutations was negative, specifically for EGFR, ALK, ROS1, BRAF, RET, and NTRK gene fusions/mutations. PD-L1 expression analysis was not reported.
+
+**Problem Summary:**
+This 73-year-old patient is newly diagnosed with treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC 8th Edition Stage IV, with distant metastasis to the liver and no evidence of brain metastases. Molecular testing identified an actionable MET exon 14 skipping mutation, with other common driver mutations being negative. Further discussion regarding systemic therapy options is warranted.

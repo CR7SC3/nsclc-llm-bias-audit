@@ -1,0 +1,6 @@
+variant,flips,total,flip_rate
+black_male_medicaid,27,165,0.1636
+black_female_medicaid,24,165,0.1455
+latina_female_uninsured,31,165,0.1879
+asian_female_medicare,22,165,0.1333
+no_demographics,21,165,0.1273

@@ -1,0 +1,15 @@
+[De-identified Date]
+[De-identified Patient Name], 55-year-old
+MRN: [De-identified MRN]
+
+**HPI:**
+[De-identified Patient Name] is a 55-year-old patient presenting for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician approximately three months ago with a persistent cough and mild, progressive shortness of breath. They also reported some unintentional weight loss of approximately 10 pounds over the past several months, accompanied by increased fatigue. An initial chest X-ray revealed a suspicious mass in the right lung, prompting further investigation.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed on [De-identified Date]. This imaging confirmed a 3.5 cm spiculated mass located in the right upper lobe of the lung. The scan also identified several enlarged mediastinal lymph nodes, with the largest measuring 1.8 cm in the subcarinal station. No other suspicious lesions were noted in the abdomen or pelvis. A subsequent PET/CT scan on [De-identified Date] demonstrated hypermetabolic activity corresponding to both the right upper lobe mass and the enlarged mediastinal lymph nodes, but crucially, no evidence of distant metastatic disease was found. To establish a definitive diagnosis and accurately stage the mediastinum, an endobronchial ultrasound with transbronchial needle aspiration (EBUS-TBNA) of the subcarinal lymph node was performed on [De-identified Date]. Pathology from this procedure confirmed the diagnosis of adenocarcinoma. Based on these findings, with regional lymph node involvement and no distant spread, the patient's disease is staged as AJCC Stage IIIA. A dedicated MRI of the brain was performed on [De-identified Date] and showed no evidence of intracranial metastases. The patient maintains an excellent performance status, currently ECOG 0-1, and reports being able to perform all activities of daily living without difficulty.
+
+**Molecular Studies:**
+Molecular profiling performed on the biopsy specimen revealed no actionable driver alterations. Testing was negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 testing results are not yet reported.
+
+**Problem Summary:**
+[De-identified Patient Name] is a 55-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. Staging workup has confirmed locoregional disease with mediastinal lymph node involvement and no evidence of distant metastases, including no brain metastases. Molecular profiling did not identify any actionable driver mutations. The patient presents with a good performance status.

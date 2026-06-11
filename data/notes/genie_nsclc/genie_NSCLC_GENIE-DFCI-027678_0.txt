@@ -1,0 +1,28 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+Patient name: [De-identified]
+DOB: [De-identified]
+Medical record number: [De-identified]
+Date of service: [De-identified]
+Referring Provider: [De-identified]
+
+The patient is a 45-year-old individual presenting for an initial medical oncology consultation following a recent diagnosis of non-small cell lung cancer. The history was obtained from the patient, along with a review of all available medical records.
+
+**HPI:**
+The patient initially presented approximately three months prior to consultation with a persistent cough, increasing dyspnea on exertion, and a generalized sense of fatigue. Over the subsequent weeks, they also noted an unintentional weight loss of approximately 10 pounds. Evaluation by their primary care provider included a chest X-ray, which revealed a suspicious mass in the right lung. This finding prompted further imaging with a CT scan of the chest, which confirmed a dominant mass in the right upper lobe and suggested regional lymphadenopathy. A subsequent image-guided biopsy of the lung mass confirmed adenocarcinoma histology.
+
+Following the diagnosis, the patient began experiencing new-onset headaches, described as persistent and diffuse, accompanied by occasional dizziness. A brain MRI was performed as part of the staging workup, which revealed multiple enhancing lesions consistent with brain metastases. The patient currently reports an ECOG performance status of 1, able to perform all usual activities but with some restriction of more strenuous activities. They deny any focal neurological deficits, seizures, or significant cognitive changes at this time.
+
+**Diagnostic Workup:**
+*   **Initial Imaging:** Chest X-ray demonstrating a right upper lobe mass.
+*   **Staging Imaging:**
+    *   CT chest, abdomen, and pelvis: Confirmed a primary mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. No evidence of metastatic disease was identified in the abdomen or pelvis.
+    *   MRI brain with contrast: Demonstrated multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease.
+*   **Pathology:** Biopsy of the right lung mass confirmed non-small cell lung cancer, adenocarcinoma subtype.
+*   **AJCC Stage:** Based on the presence of distant brain metastases, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling of the tumor tissue was performed. Results indicate no actionable driver alterations, specifically negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutation, MET exon 14 skipping alterations, RET rearrangements, and NTRK fusions. PD-L1 expression testing was not reported at the time of this consultation.
+
+**Problem Summary:**
+The patient is a 45-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology. The disease is staged as AJCC Stage IV due to the presence of brain metastases. Molecular profiling did not identify any currently actionable driver alterations, and PD-L1 status is pending. The purpose of today's visit is to discuss the implications of these findings and outline potential management strategies.

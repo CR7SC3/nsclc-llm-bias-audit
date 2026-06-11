@@ -1,0 +1,19 @@
+[De-identified] Clinic
+[De-identified] Medical Oncology
+
+Date: [De-identified Date]
+
+**Patient Identification:**
+This is an initial consultation for a 67-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer (NSCLC). The patient is referred for discussion of systemic therapy options.
+
+**History of Present Illness:**
+The patient is a 67-year-old individual who presented several weeks ago with a progressive cough, increasing shortness of breath, and generalized fatigue. Over the past few weeks, the patient also reported new-onset headaches, occasionally accompanied by mild dizziness and slight imbalance, prompting further medical evaluation. The patient reports a generally active lifestyle prior to these symptoms, with an ECOG performance status currently estimated at 1. There is no significant weight loss reported.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest X-ray which identified a suspicious left upper lobe mass. This was followed by a CT scan of the chest, which confirmed a [size, e.g., 4.5 cm] mass in the left upper lobe and noted hilar lymphadenopathy. A CT-guided biopsy of the lung lesion was performed, which confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Subsequent staging workup included a full body PET/CT scan, which demonstrated hypermetabolic activity in the primary lung lesion and hilar lymph nodes, as well as a hypermetabolic lesion in the right adrenal gland, indicative of distant metastasis. Given the neurological symptoms, a brain MRI was performed, which revealed multiple enhancing lesions consistent with brain metastases. Based on these findings, the patient is diagnosed with AJCC Stage IV NSCLC.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue. Results indicate the presence of a ROS1 gene rearrangement. Testing for other common driver mutations, including EGFR mutations, ALK rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET rearrangement, and NTRK fusions, were all negative. PD-L1 expression analysis was not reported at this time.
+
+**Problem Summary:**
+This is a 67-year-old patient with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the brain and right adrenal gland. Molecular testing revealed a ROS1 gene rearrangement, with other common driver mutations being negative. The patient is here for initial oncology consultation to discuss management strategies.

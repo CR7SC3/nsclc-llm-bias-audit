@@ -1,0 +1,18 @@
+[De-identified Date]
+
+**Patient:** [De-identified Patient Name], 75 y.o.
+**MRN:** [De-identified MRN]
+
+**HPI:**
+The patient is a 75-year-old individual presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician several months ago with a persistent cough and progressive shortness of breath, noting some mild, unintentional weight loss and generalized fatigue. This prompted initial imaging with a chest X-ray, which revealed a suspicious lung mass. Subsequent CT chest confirmed a dominant lung mass and enlarged regional lymph nodes. The patient reports an ECOG performance status of 1, maintaining independence in daily activities with some exertional dyspnea.
+
+**Diagnostic Workup:**
+Further diagnostic evaluation included a bronchoscopy with endobronchial ultrasound-guided biopsy of the lung mass and associated regional lymph nodes. Histologic examination confirmed the diagnosis of non-small cell lung cancer, specifically squamous cell carcinoma. Comprehensive staging workup was then performed. A whole-body PET/CT scan demonstrated hypermetabolic activity corresponding to the primary lung lesion and several ipsilateral hilar and mediastinal lymph nodes, consistent with regional nodal involvement. Importantly, no distant sites of metastatic disease were identified on the PET/CT. A dedicated brain MRI was also performed and was unremarkable for any intracranial metastases. Based on these findings, the patient is staged as AJCC Stage IIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy underwent molecular profiling for common driver alterations in non-small cell lung cancer. Results indicated no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression analysis was not reported at the time of this consultation.
+
+**Problem Summary:**
+This is a 75-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, squamous cell histology, AJCC Stage IIA. Staging workup confirmed localized disease with regional nodal involvement and no evidence of distant metastases, including no brain metastases. Molecular profiling did not identify any targetable driver alterations. The patient presents for discussion of treatment options.
+
+**Attending Physician:** [De-identified Physician Name], MD

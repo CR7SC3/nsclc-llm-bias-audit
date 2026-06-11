@@ -1,0 +1,15 @@
+[De-identified] [De-identified]
+MRN: [De-identified]
+DOB: [De-identified]
+
+**HPI:**
+This 43-year-old patient presents for initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC). The patient reports a several-month history of a persistent cough and increasing exertional dyspnea, which progressed over recent weeks. More recently, the patient also began experiencing new-onset headaches and occasional episodes of dizziness, prompting further medical evaluation. Performance status is estimated at ECOG 1.
+
+**Diagnostic Workup:**
+Initial evaluation by the patient's primary care physician included a chest X-ray, which revealed a suspicious mass in the lung. This finding was further investigated with a CT scan of the chest, abdomen, and pelvis, which confirmed a primary lung mass, along with evidence of regional lymphadenopathy and several suspicious distant lesions. A CT-guided biopsy of the lung lesion was performed, confirming the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Given the patient's new neurological symptoms, an MRI of the brain was subsequently performed, which identified multiple enhancing lesions consistent with brain metastases. A PET-CT scan was also completed as part of the staging workup, demonstrating hypermetabolic activity in the primary lung lesion, involved mediastinal lymph nodes, and several distant sites, including the previously identified brain lesions. Based on these findings, the patient is diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with brain metastases. The patient is treatment-naive, and this represents the first oncology evaluation.
+
+**Molecular Studies:**
+Comprehensive genomic profiling was performed on the tumor tissue. Results indicate the presence of an ALK rearrangement, which is considered an actionable driver mutation. Testing for other common driver mutations, including EGFR, ROS1, BRAF, MET exon 14 skipping, RET fusion, and NTRK fusion, was negative. PD-L1 expression status was not reported at the time of this consultation.
+
+**Problem Summary:**
+43-year-old patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with brain metastases. Molecular studies confirm an ALK rearrangement. The patient is treatment-naive.

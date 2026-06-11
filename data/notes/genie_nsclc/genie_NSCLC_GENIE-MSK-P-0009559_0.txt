@@ -1,0 +1,25 @@
+[De-identified] Cancer Center Medical Oncology Program
+[De-identified]
+[De-identified]
+[De-identified]
+[De-identified]
+[De-identified]
+
+Initial Consultation [De-identified]
+
+I had the pleasure of seeing a 78-year-old patient for an initial consultation regarding a new diagnosis of non-small cell lung cancer.
+
+**HPI:**
+The patient presents with a recent diagnosis of non-small cell lung cancer. Approximately two months prior to this consultation, the patient began experiencing persistent cough, increasing exertional dyspnea, and generalized fatigue. These symptoms prompted a visit to their primary care physician, where a chest X-ray was performed, revealing a suspicious mass in the right lung. Subsequently, a CT scan of the chest confirmed a dominant mass in the right upper lobe. A CT-guided core needle biopsy of this lung mass was performed, which pathologically confirmed adenocarcinoma. Following the diagnosis, the patient developed new onset headaches and mild, intermittent dizziness, leading to further diagnostic imaging. The patient reports a good performance status, maintaining independence in daily activities.
+
+**Diagnostic Workup:**
+Following the biopsy-proven diagnosis of non-small cell lung cancer, adenocarcinoma histology, a comprehensive staging workup was completed.
+*   **PET/CT scan:** Revealed a hypermetabolic primary mass in the right upper lobe of the lung, along with hypermetabolic mediastinal lymphadenopathy and a hypermetabolic lesion in the right adrenal gland, consistent with metastatic disease.
+*   **MRI Brain:** Performed due to new neurological symptoms, demonstrated multiple enhancing lesions consistent with brain metastases.
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor biopsy tissue. This comprehensive genomic analysis identified no actionable driver alterations, specifically showing negative results for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing results are not yet available.
+
+**Problem Summary:**
+The patient is a 78-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology. The disease is classified as AJCC Stage IV, with evidence of distant metastases including multiple brain metastases and an adrenal gland metastasis. Molecular profiling has revealed no identifiable actionable driver alterations. PD-L1 status is pending.

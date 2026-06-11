@@ -1,0 +1,19 @@
+**Date:** [De-identified Date]
+**Patient Name:** [De-identified Patient Name]
+**DOB:** [De-identified DOB]
+**MRN:** [De-identified MRN]
+
+**Attending Physician:** [De-identified Attending Physician]
+**Referring Physician:** [De-identified Referring Physician]
+
+**HPI:**
+This is an initial consultation for a 76-year-old individual presenting with newly diagnosed, treatment-naive non-small cell lung cancer. The patient initially presented to their primary care physician several weeks ago with a persistent cough, increasing dyspnea on exertion, and a 10-pound unintentional weight loss over the past two months. Additionally, the patient reported new-onset headaches and occasional dizziness, prompting further investigation. Initial workup included a chest X-ray which demonstrated a suspicious left lung mass, leading to a referral for comprehensive oncologic evaluation. The patient reports an ECOG performance status of 1, able to carry out normal daily activities with some effort.
+
+**Diagnostic Workup:**
+Following the suspicious chest X-ray, a CT scan of the chest, abdomen, and pelvis with contrast was performed. This imaging confirmed a large, irregular mass in the left upper lobe measuring approximately 5.5 x 4.0 cm, with associated mediastinal lymphadenopathy. A CT-guided core needle biopsy of the left lung mass was performed, which revealed squamous cell carcinoma. To complete staging, a PET-CT scan was obtained, demonstrating hypermetabolic activity corresponding to the left lung mass and mediastinal lymph nodes, but no other metabolically active distant sites. Given the new neurological symptoms, a brain MRI with contrast was subsequently performed, which identified multiple enhancing lesions consistent with brain metastases. Based on these findings, the patient was diagnosed with Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling was performed on the biopsy specimen from the primary lung tumor. Results indicated no actionable driver alterations. Specifically, the tumor was negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF V600E, MET exon 14 skipping, RET fusions, and NTRK fusions. PD-L1 expression testing was not reported.
+
+**Problem Summary:**
+This 76-year-old patient has newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of squamous histology, complicated by the presence of brain metastases. Molecular profiling revealed no targetable driver mutations (EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK negative), and PD-L1 status is not yet available. The patient maintains an ECOG performance status of 1. The immediate concern is to establish an appropriate treatment strategy given the advanced stage of disease and the presence of brain metastases.

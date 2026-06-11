@@ -1,0 +1,15 @@
+Date: [De-identified Date]
+Patient Name: [De-identified Patient Name]
+MRN: [De-identified MRN]
+
+**HPI:**
+[De-identified] is a 59-year-old individual presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient first experienced a persistent cough and mild exertional dyspnea approximately three months prior to presentation. These symptoms gradually worsened, prompting a visit to their primary care physician. Initial evaluation included a chest X-ray, which revealed a suspicious lung mass. The patient reports a generally good performance status, with no significant functional limitations.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed, confirming a primary mass in the right upper lobe measuring approximately 4.5 cm. The CT also identified enlarged ipsilateral mediastinal and hilar lymph nodes. A subsequent PET-CT scan demonstrated hypermetabolic activity corresponding to the primary lung lesion and several mediastinal lymph nodes, but no evidence of distant metastatic disease. To further characterize the disease and obtain tissue for diagnosis, a CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology confirmed adenocarcinoma of the lung. An MRI of the brain was also conducted as part of the staging workup, which showed no evidence of intracranial metastases. Based on these findings, the patient's disease is staged as AJCC Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular testing was performed on the tumor tissue. Results indicate the presence of an EGFR exon 19 deletion, which is a known sensitizing mutation. Testing for other common driver mutations was negative, specifically ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, and NTRK fusion. PD-L1 expression testing results are not yet available.
+
+**Problem Summary:**
+This 59-year-old individual presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The tumor harbors an EGFR exon 19 deletion. The patient has no documented brain metastases and is now seeking evaluation for further management.

@@ -1,0 +1,16 @@
+Patient name: [De-identified Patient Name]
+DOB: [De-identified DOB]
+Medical record number: [De-identified MRN]
+Date of service: [De-identified Date]
+
+**History of Present Illness**
+The 44-year-old patient presents for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient initially sought medical attention several weeks prior due to the insidious onset of persistent headaches, which were progressively worsening, accompanied by some mild, generalized fatigue and a decreased appetite. There were no overt respiratory symptoms such as cough or dyspnea noted at that time. Given the neurological symptoms, initial evaluation included brain imaging. The patient reports maintaining a good functional status, with an ECOG performance status of 1.
+
+**Diagnostic Workup**
+Initial brain MRI demonstrated multiple enhancing lesions concerning for metastatic disease. Subsequent chest imaging, including a CT scan of the chest, revealed a primary mass in the right upper lobe, along with mediastinal lymphadenopathy. A PET-CT scan confirmed hypermetabolic activity in the primary lung lesion, mediastinal nodes, and the previously identified brain lesions, with no other sites of distant metastatic disease detected. Biopsy of the lung mass, performed via bronchoscopy, confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology. Based on the presence of distant metastases to the brain, the patient is staged as AJCC Stage IV.
+
+**Molecular Studies**
+Molecular profiling performed on the tumor tissue revealed an ALK rearrangement. Testing for other common oncogenic drivers was negative, including EGFR mutations, ROS1 rearrangement, BRAF mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression status is not yet reported.
+
+**Problem Summary**
+This 44-year-old patient is referred for initial oncology evaluation following a recent diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with brain metastases. Molecular testing has identified an ALK rearrangement. The patient presents to discuss further management strategies for their newly diagnosed malignancy.

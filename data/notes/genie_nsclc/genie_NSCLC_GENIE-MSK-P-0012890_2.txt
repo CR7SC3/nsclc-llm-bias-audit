@@ -1,0 +1,20 @@
+[De-identified Clinic Name]
+[De-identified Address]
+[De-identified Phone]
+
+**PATIENT NAME:** [De-identified Patient Name]
+**DOB:** [De-identified Date]
+**MRN:** [De-identified MRN]
+**DATE OF SERVICE:** [De-identified Date]
+
+**HPI:**
+The patient is a 79-year-old presenting for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer. He initially sought medical attention several months ago due to a persistent, non-productive cough, progressive dyspnea on exertion, and generalized fatigue. He also reported an unintentional weight loss of approximately 15 pounds over the past four months. An initial chest X-ray performed by his primary care physician revealed a suspicious lung lesion, prompting further investigation.
+
+**Diagnostic Workup:**
+Subsequent diagnostic imaging included a CT scan of the chest, abdomen, and pelvis, which identified a primary mass measuring [plausible size, e.g., 4.5 x 3.8 cm] in the right upper lobe of the lung, along with several enlarged ipsilateral mediastinal and hilar lymph nodes. A PET/CT scan confirmed hypermetabolic activity corresponding to the primary lung lesion and the involved regional lymph nodes, without evidence of distant metastatic disease. To complete staging, an MRI of the brain was performed and demonstrated no intracranial metastases. A CT-guided core needle biopsy of the lung mass confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Based on these comprehensive staging evaluations, the patient's disease is classified as AJCC Stage IIIA.
+
+**Molecular Studies:**
+Molecular profiling of the tumor tissue was performed and revealed no actionable driver alterations. Specifically, the tumor tested negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 testing was not reported.
+
+**Problem Summary:**
+The patient is a 79-year-old with newly diagnosed, treatment-naive, AJCC Stage IIIA non-small cell lung cancer of adenocarcinoma histology. Molecular profiling did not identify any actionable driver alterations, and there is no evidence of distant metastatic disease, including to the brain.

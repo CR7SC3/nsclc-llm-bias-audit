@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY VISIT
+
+Patient name: [De-identified Patient Name]
+DOB: [De-identified DOB]
+Medical record number: [De-identified MRN]
+Date of service: [De-identified Date]
+Referring Provider: [De-identified Referring Provider]
+
+The patient is a 58-year-old individual whom I am seeing today for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The history was obtained from the patient, along with my review of all available records.
+
+**History of Present Illness:**
+The patient is a 58-year-old individual who presents with a recent diagnosis of non-small cell lung cancer (NSCLC). Approximately three months prior to presentation, the patient began experiencing a persistent cough, which progressed to include occasional shortness of breath with exertion. Over the past month, the patient also noted increasing fatigue and an unintentional weight loss of approximately 10 pounds. Due to worsening symptoms, the patient sought medical attention from their primary care physician.
+
+Initial workup included a chest X-ray, which revealed a suspicious mass in the right lung. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a primary lung mass and also identified enlarged mediastinal lymph nodes, a suspicious lesion in the left adrenal gland, and several small pulmonary nodules in the contralateral lung. Given these findings, a brain MRI was performed, which demonstrated multiple enhancing lesions consistent with brain metastases. A subsequent image-guided biopsy of the primary lung mass confirmed adenocarcinoma histology.
+
+Following the diagnostic workup, the patient was referred for an oncology consultation. The patient reports an ECOG performance status of 1, indicating they are ambulatory and able to carry out light work, though they are symptomatic. They deny any prior oncologic treatment for this diagnosis.
+
+**Diagnostic Workup:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis ([De-identified Date]):** Demonstrated a primary mass in the right upper lobe, measuring approximately [plausible size, e.g., 4.5 x 3.8 cm], with associated mediastinal lymphadenopathy. Additionally, a [plausible size, e.g., 2.0 cm] lesion in the left adrenal gland was noted, as were several small [plausible size, e.g., 0.5 cm] nodules in the left lung.
+*   **MRI Brain ([De-identified Date]):** Revealed multiple foci of abnormal enhancement in the cerebral hemispheres and cerebellum, consistent with metastatic disease. The largest lesion measured approximately [plausible size, e.g., 1.2 cm] in the right frontal lobe.
+
+**Pathology:**
+*   **Right Lung Biopsy ([De-identified Date]):** Histologic examination confirmed non-small cell lung carcinoma, adenocarcinoma type.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alteration identified (negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusion, and NTRK fusion). PD-L1 expression status is not yet available.
+
+**Problem Summary:**
+The patient is a 58-year-old individual with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the brain, left adrenal gland, and contralateral lung. Molecular profiling has not identified any targetable driver alterations. The patient's current ECOG performance status is 1.

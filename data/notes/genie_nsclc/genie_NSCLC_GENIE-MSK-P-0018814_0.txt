@@ -1,0 +1,14 @@
+[De-identified]
+[De-identified], [De-identified]
+
+**HPI:**
+[De-identified] is a 64-year-old individual presenting for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient first presented with a several-month history of persistent cough, progressive dyspnea on exertion, and a 10-pound unintentional weight loss. More recently, the patient began experiencing new onset headaches and mild gait instability, prompting further evaluation. Initial workup by the primary care physician included a chest X-ray, which revealed a suspicious lung mass. Subsequent imaging and biopsy confirmed the diagnosis of adenocarcinoma of the lung. The patient reports a generally good functional status prior to the onset of these symptoms, with an estimated ECOG performance status of 1-2 currently due to fatigue and neurological symptoms. This is the patient's first presentation to oncology for this diagnosis, and no prior systemic therapy has been initiated.
+
+**Diagnostic Workup:**
+Following the initial chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed, demonstrating a primary lung mass in the right upper lobe measuring approximately 4 cm, with associated mediastinal and hilar lymphadenopathy. Additionally, a suspicious lesion was noted in the left adrenal gland. A PET/CT scan subsequently confirmed hypermetabolic activity in the primary lung lesion, mediastinal lymph nodes, and the adrenal lesion, consistent with distant metastatic disease. Given the new neurological symptoms, a brain MRI with contrast was performed, which revealed multiple enhancing lesions consistent with brain metastases. A percutaneous biopsy of the lung mass was performed under CT guidance, confirming the histology as adenocarcinoma. Based on these findings, the patient's disease is staged as AJCC Stage IV (T2a N2 M1c).
+
+**Molecular Studies:**
+Formal molecular profiling was performed on the lung biopsy tissue. Comprehensive genomic sequencing did not identify any actionable driver alterations, specifically showing negativity for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 immunohistochemistry results are not yet available.
+
+**Problem Summary:**
+This 64-year-old individual is newly diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV. The disease is characterized by a primary lung tumor, mediastinal lymphadenopathy, and distant metastases involving the brain and left adrenal gland. Molecular profiling has revealed no actionable driver alterations (negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK). PD-L1 status is pending. The patient is treatment-naive and is presenting for initial oncology evaluation.

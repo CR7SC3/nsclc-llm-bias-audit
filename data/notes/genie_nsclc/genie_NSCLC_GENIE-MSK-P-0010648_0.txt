@@ -1,0 +1,14 @@
+Date: [De-identified Date]
+MRN: [De-identified]
+
+**HPI:**
+This 73-year-old patient presents for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient first noted symptoms approximately three months ago, including a persistent cough, increasing shortness of breath with exertion, and some unintentional weight loss. Over the past few weeks, the patient also reported new onset headaches and occasional dizziness. These symptoms prompted evaluation by their primary care physician, leading to imaging studies and subsequent referral to oncology. The patient is currently treatment-naive for this diagnosis. Performance status is estimated at ECOG 1, with the patient able to perform most activities of daily living but experiencing fatigue and some limitation with strenuous activities.
+
+**Diagnostic Workup:**
+Initial diagnostic evaluation included a chest CT scan, which revealed a 4.5 cm mass in the right upper lobe of the lung, along with mediastinal lymphadenopathy. A subsequent CT-guided biopsy of the lung mass confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Staging workup included a PET-CT scan, which demonstrated FDG-avid disease corresponding to the primary lung mass and mediastinal lymph nodes, but no other distant sites of extracranial metastatic disease. Given the new neurological symptoms, a brain MRI was performed, which identified multiple enhancing lesions consistent with brain metastases. Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression status is not yet available.
+
+**Problem Summary:**
+This is a 73-year-old patient with newly diagnosed, treatment-naive AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by a primary lung tumor, mediastinal lymphadenopathy, and multiple brain metastases. Molecular testing has not identified any currently actionable driver alterations (EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK negative), and PD-L1 status is pending. The patient is here for discussion of therapeutic options.

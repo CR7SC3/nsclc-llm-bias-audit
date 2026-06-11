@@ -1,0 +1,13 @@
+**HPI:**
+[De-identified Date]
+
+This is an initial consultation for a 71-year-old patient recently diagnosed with non-small cell lung cancer (NSCLC), adenocarcinoma histology. The patient initially presented with several weeks of a persistent, non-productive cough, increasing dyspnea on exertion, and a noticeable decline in energy levels, accompanied by approximately 15 lb unintentional weight loss over the past three months. More recently, the patient also reported new-onset, progressively worsening headaches and occasional dizziness, prompting further neurological evaluation.
+
+**Diagnostic Workup:**
+Initial diagnostic evaluation commenced with a chest radiograph, which revealed a suspicious right upper lobe mass. Subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a primary lung mass measuring approximately 4.5 cm in the right upper lobe, along with ipsilateral mediastinal lymphadenopathy. A PET-CT scan was performed for comprehensive staging, demonstrating hypermetabolic activity in the primary lung lesion and regional lymph nodes, as well as a focus of uptake in the brain. Given the patient's neurological symptoms and the PET findings, a dedicated MRI of the brain was conducted, which confirmed the presence of multiple enhancing brain metastases. Biopsy of the lung mass, performed via CT-guided transthoracic needle biopsy, confirmed adenocarcinoma histology. Based on these findings, including the presence of distant brain metastases, the patient's cancer is staged as AJCC Stage IV.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression status is not yet reported.
+
+**Problem Summary:**
+The patient is a 71-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with confirmed multiple brain metastases. Molecular profiling has not identified any targetable driver alterations. PD-L1 status is pending. The patient requires further discussion regarding systemic therapy options.

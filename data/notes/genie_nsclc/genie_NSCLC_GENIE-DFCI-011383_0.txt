@@ -1,0 +1,14 @@
+[De-identified] Medical Oncology Consultation Note
+Date: [De-identified Date]
+
+**HPI:**
+The patient is an 83-year-old individual presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient first presented to their primary care physician several weeks ago with a persistent cough, increasing shortness of breath, and mild, unintentional weight loss totaling approximately 10 pounds over the past few months. They also reported generalized fatigue impacting their usual daily activities. Initial evaluation led to imaging studies and further diagnostic workup.
+
+**Diagnostic Workup:**
+Initial chest X-ray revealed a suspicious left upper lobe mass, prompting a subsequent CT scan of the chest, abdomen, and pelvis. This confirmed a dominant spiculated mass in the left upper lobe, measuring approximately 4.5 cm, along with mediastinal lymphadenopathy. Additionally, the CT identified multiple suspicious lesions within the liver, consistent with metastatic disease. A CT-guided core needle biopsy of the primary lung mass was performed, which confirmed the diagnosis of adenocarcinoma. Further staging included a whole-body PET/CT, which demonstrated intense FDG avidity in the left upper lobe mass, mediastinal lymph nodes, and the hepatic lesions, confirming widespread metastatic disease. A dedicated MRI of the brain was also performed and showed no evidence of intracranial metastases. Based on these findings, the patient is diagnosed with Stage IV non-small cell lung cancer, adenocarcinoma histology (cT2b cN2 cM1b).
+
+**Molecular Studies:**
+Molecular profiling was performed on tumor tissue from the lung biopsy. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing was not reported at the time of this consultation.
+
+**Problem Summary:**
+In summary, this 83-year-old patient presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by a primary left upper lobe mass, mediastinal lymph node involvement, and distant metastases to the liver, without evidence of brain involvement. Molecular testing did not identify any currently actionable driver alterations. The patient's performance status is stable, though they experience some fatigue and dyspnea related to their disease. The purpose of this consultation is to discuss management options for their advanced lung cancer.

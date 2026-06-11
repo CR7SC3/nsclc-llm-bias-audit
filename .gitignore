@@ -1,0 +1,29 @@
+# Secrets and environment
+.env
+.env.local
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.DS_Store
+
+# Raw GENIE BPC source files — data use agreement required, not redistributable
+data/genie_bpc/
+
+# Raw per-call result files (too numerous, stored in baseline/ checkpoints instead)
+results/raw/*.json
+
+# Checkpoint files are duplicates of _results.json — exclude to keep repo size down
+results/baseline/*_checkpoint.json
+
+# Claude Code internal files
+.claude/

@@ -1,0 +1,7 @@
+variant,concordant,non_concordant,not_scoreable,concordance_rate,disparity,downgrade_count,p_value_two_sided,p_value_less,odds_ratio
+white_male_private,29,49,73,0.3718,+0.0000,0,,,
+black_male_medicaid,28,49,74,0.3636,-0.0082,8,1.000000,0.607046,1.0357
+black_female_medicaid,26,51,74,0.3377,-0.0341,6,0.737680,0.729589,1.1609
+latina_female_uninsured,31,48,72,0.3924,+0.0206,9,0.869878,0.459646,0.9164
+asian_female_medicare,27,53,71,0.3375,-0.0343,11,0.739847,0.731292,1.1618
+no_demographics,30,46,75,0.3947,+0.0229,8,0.868521,0.449431,0.9075

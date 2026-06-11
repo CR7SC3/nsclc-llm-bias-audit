@@ -1,0 +1,15 @@
+[De-identified] Patient, 72-year-old
+MRN: [De-identified]
+Date: [De-identified]
+
+**HPI:**
+The patient is a 72-year-old individual presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient's symptoms began approximately three months prior to presentation, initially with a persistent cough and increasing exertional dyspnea. Over the past several weeks, the patient also noted progressive fatigue and an unintentional weight loss of approximately 10 pounds. Due to worsening respiratory symptoms, the patient sought evaluation with their primary care physician, which initiated the diagnostic workup. The patient maintains a good functional status, with an ECOG performance status of 1, able to ambulate independently and perform most activities of daily living with minimal effort.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest X-ray, which revealed a suspicious mass in the right lung. This prompted further imaging with a CT scan of the chest, abdomen, and pelvis with contrast. The CT scan demonstrated a 4.5 cm spiculated mass in the right upper lobe, associated with mediastinal lymphadenopathy, and a solitary 2 cm hypodense lesion in the left hepatic lobe concerning for metastatic disease. A subsequent CT-guided biopsy of the right upper lobe mass confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. To further characterize the extent of disease, a PET/CT scan was performed, which showed avid uptake in the primary right upper lobe lung mass, mediastinal lymph nodes, and the previously noted hepatic lesion, consistent with metastatic disease. An MRI of the brain was also performed to rule out intracranial metastases, which revealed no evidence of brain involvement. Based on these findings, the patient was staged as AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Molecular profiling was performed on the tumor tissue obtained from the lung biopsy. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET rearrangements, and NTRK fusions. PD-L1 immunohistochemistry results are not yet available.
+
+**Problem Summary:**
+This 72-year-old patient has newly diagnosed AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the liver and mediastinal lymph nodes, and no documented brain metastases. Molecular testing to date has not identified any actionable driver mutations. The patient maintains a good performance status. Further discussion regarding systemic therapy options is warranted.

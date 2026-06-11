@@ -1,0 +1,19 @@
+[De-identified] is a 77-year-old individual presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The history was obtained from the patient and review of available outside records.
+
+**History of Present Illness**
+This pleasant 77-year-old patient initially presented to their primary care physician several weeks ago with a persistent cough, increasing exertional dyspnea, and generalized fatigue. Over the past month, they also reported new-onset, intermittent headaches, which prompted further investigation. A chest X-ray revealed a right upper lobe mass, leading to a CT scan of the chest which confirmed a dominant mass in the right upper lobe along with suspicious mediastinal lymphadenopathy. A subsequent brain MRI was performed due to the new headaches, which demonstrated multiple enhancing lesions concerning for metastatic disease. A biopsy of the right upper lobe mass was performed, confirming adenocarcinoma. Further staging with a PET/CT scan confirmed the primary lung lesion, mediastinal nodal involvement, and also identified a hypermetabolic lesion in the left adrenal gland consistent with distant metastasis. The patient's performance status is estimated at ECOG 1, with mild symptoms but able to ambulate and perform daily activities. They report a modest weight loss of approximately 5 pounds over the last two months, but maintain a good appetite. No fevers, chills, or night sweats are reported. This is the patient's first presentation to oncology, and they are entirely treatment-naive for this diagnosis.
+
+**Diagnostic Workup**
+*   **Imaging:**
+    *   **Chest CT:** Demonstrated a dominant mass in the right upper lobe, measuring approximately [De-identified] cm, with associated mediastinal lymphadenopathy concerning for regional spread.
+    *   **Brain MRI:** Revealed multiple enhancing lesions in the cerebral hemispheres, consistent with brain metastases.
+    *   **PET/CT:** Confirmed the primary lung lesion, mediastinal nodal involvement, and identified a hypermetabolic lesion in the left adrenal gland, consistent with distant metastasis.
+*   **Biopsy:**
+    *   Biopsy of the right upper lobe lung mass confirmed non-small cell lung cancer (NSCLC) with adenocarcinoma histology.
+*   **Stage:** Based on the imaging and pathology findings, the patient is diagnosed with AJCC Stage IV NSCLC (TNM: T[De-identified] N[De-identified] M1c, with brain metastases and adrenal metastasis).
+
+**Molecular Studies**
+Molecular profiling of the tumor tissue was performed. No actionable driver alteration was identified, with results negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing results are not yet available.
+
+**Problem Summary**
+[De-identified] is a 77-year-old patient with newly diagnosed, treatment-naive Stage IV adenocarcinoma of the lung, complicated by brain metastases and an adrenal metastasis. Molecular testing did not identify any actionable driver alterations, and PD-L1 status is pending. This initial consultation is for discussion of management strategies.

@@ -1,0 +1,11 @@
+**HPI:**
+[De-identified] is a 66-year-old patient who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician approximately three months ago with a chief complaint of persistent, non-productive cough and progressive dyspnea on exertion. Over the past several weeks, they also reported increasing fatigue and an unintentional weight loss of approximately 10 pounds. An initial chest X-ray performed by their primary care provider revealed a suspicious mass in the right lung, prompting further investigation.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This imaging confirmed the presence of a 4.5 cm mass in the right upper lobe, along with associated mediastinal lymphadenopathy. Additionally, the CT scan identified multiple hypodense lesions in the liver, concerning for metastatic disease. A subsequent CT-guided core needle biopsy of the right upper lobe lung mass confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. To complete staging, a PET/CT scan demonstrated hypermetabolic activity in the primary lung lesion, mediastinal lymph nodes, and the hepatic lesions. An MRI of the brain was also conducted, which showed no evidence of intracranial metastatic disease. Based on the comprehensive staging workup, the patient's cancer is designated as AJCC Stage IV.
+
+**Molecular Studies:**
+Molecular profiling of the tumor tissue was performed. Results indicated no actionable driver alterations, specifically negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions.
+
+**Problem Summary:**
+[De-identified] is a 66-year-old patient with newly diagnosed, treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology. Staging workup revealed distant metastatic disease to the liver, with no evidence of brain metastases. Molecular profiling did not identify any actionable driver alterations. The patient presents for discussion of systemic treatment options for their advanced disease.

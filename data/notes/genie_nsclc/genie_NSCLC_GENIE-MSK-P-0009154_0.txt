@@ -1,0 +1,11 @@
+**HPI:**
+This is a 48-year-old patient presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC), adenocarcinoma histology. The patient initially presented to their primary care physician with a several-week history of worsening dyspnea and a persistent cough. An initial chest X-ray revealed an abnormality, prompting further investigation.
+
+**Diagnostic Workup:**
+Subsequent computed tomography (CT) of the chest with contrast confirmed a dominant mass in the right lower lobe, measuring approximately [clinically plausible size, e.g., 4.5 cm]. The scan also identified ipsilateral hilar and mediastinal lymphadenopathy concerning for regional involvement. A PET/CT scan was performed for comprehensive staging, demonstrating avid FDG uptake in the primary lung lesion and the involved regional lymph nodes. Importantly, the PET/CT showed no evidence of distant metastatic disease in other organs. A brain magnetic resonance imaging (MRI) was also performed and confirmed the absence of intracranial metastases. Biopsy of the lung mass, guided by bronchoscopy, confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology. Based on the imaging and pathological findings, the patient is staged as AJCC Stage IIB.
+
+**Molecular Studies:**
+Comprehensive molecular profiling of the tumor tissue is currently pending, with results not yet available. PD-L1 expression status has also not been reported at this time.
+
+**Problem Summary:**
+This is a 48-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIB. Further management strategies will be determined upon receipt of the pending comprehensive molecular and PD-L1 testing results.

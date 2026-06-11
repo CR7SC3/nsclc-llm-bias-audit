@@ -1,0 +1,27 @@
+INITIAL MEDICAL ONCOLOGY VISIT
+
+Patient name: [De-identified Patient Name]
+DOB: [De-identified DOB]
+Medical record number: [De-identified MRN]
+Date of service: [De-identified Date]
+Referring Provider: Dr. [De-identified Referring Provider]
+
+The patient is a 62-year-old whom I am seeing as a new patient for newly diagnosed non-small cell lung cancer. The history was obtained from the patient, along with my review of all available records.
+
+**History of Present Illness:**
+The patient presents for initial consultation regarding newly diagnosed non-small cell lung cancer. The patient first sought medical attention approximately two months prior due to a persistent, non-productive cough, increasing exertional dyspnea, and generalized fatigue. Over the past few weeks, the patient reported intermittent headaches and a subjective sense of mild unsteadiness, which prompted further evaluation. The patient reports maintaining an ECOG performance status of 1, able to perform all usual activities with some restriction of more strenuous physical activity.
+
+**Past Medical History:**
+No significant medical history.
+
+**Social History:**
+No tobacco use.
+
+**Diagnostic Workup:**
+Initial chest X-ray revealed a suspicious lung mass. Subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a primary lung lesion measuring approximately 4.5 cm in the right upper lobe, along with ipsilateral mediastinal lymphadenopathy. Additionally, a 2 cm enhancing lesion was noted in the left adrenal gland, suspicious for metastatic disease. A CT-guided biopsy of the lung mass was performed, which confirmed non-small cell lung cancer, adenocarcinoma histology. Due to the patient's presenting neurological symptoms and the finding of distant disease, an MRI of the brain was obtained, which demonstrated multiple enhancing intracranial lesions consistent with brain metastases. A whole-body PET/CT scan was also performed, showing hypermetabolic activity in the primary lung lesion, mediastinal lymph nodes, adrenal lesion, and brain lesions, confirming widespread metastatic disease.
+
+**Molecular Studies:**
+Comprehensive genomic profiling was performed on the tumor tissue. Results indicated the presence of a ROS1 rearrangement. Testing for other common oncogenic drivers, including EGFR mutations, ALK fusions, BRAF mutations, MET exon 14 skipping, RET fusions, and NTRK fusions, was negative. PD-L1 expression analysis was not reported.
+
+**Problem Summary:**
+This is a 62-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV. The disease is characterized by metastatic involvement of the brain and an adrenal gland. Molecular testing revealed a ROS1 rearrangement, with other common driver mutations being negative. PD-L1 status is unknown.

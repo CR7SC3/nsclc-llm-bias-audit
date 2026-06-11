@@ -1,0 +1,15 @@
+[De-identified]
+[De-identified]
+[De-identified]
+
+**HPI:**
+[De-identified] is a 47-year-old individual presenting for initial oncology consultation regarding newly diagnosed non-small cell lung cancer. The patient first noticed symptoms approximately [De-identified] months ago, including a persistent cough, increasing shortness of breath with exertion, and generalized fatigue. Over the past [De-identified] weeks, the patient also developed new onset headaches, initially mild but progressing in frequency and intensity, and occasional balance issues. These symptoms prompted evaluation by their primary care provider.
+
+**Diagnostic Workup:**
+Initial workup included a chest X-ray which revealed a suspicious lung mass. This was followed by a CT scan of the chest, abdomen, and pelvis on [De-identified], which confirmed a [De-identified] cm mass in the [De-identified] lung lobe, along with mediastinal lymphadenopathy. A CT-guided biopsy of the lung lesion was performed on [De-identified], which demonstrated adenocarcinoma histology. Subsequent staging investigations included a PET-CT scan on [De-identified], which showed hypermetabolic activity in the primary lung lesion, regional lymph nodes, and a metabolically active lesion in the [De-identified] adrenal gland, consistent with distant metastatic disease. An MRI of the brain, performed on [De-identified] due to the patient's neurological symptoms, identified multiple enhancing lesions in the [De-identified] cerebral hemispheres, consistent with brain metastases. The overall staging is AJCC Stage IV. The patient's Eastern Cooperative Oncology Group (ECOG) performance status is currently assessed at 1, reflecting some symptomatology but largely maintaining ambulatory activity.
+
+**Molecular Studies:**
+Tissue obtained from the lung biopsy underwent comprehensive genomic profiling. Results revealed an actionable EGFR L858R point mutation. Testing for other common driver alterations was negative, specifically for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET fusion, and NTRK fusion. PD-L1 expression analysis was not reported at the time of this consultation.
+
+**Problem Summary:**
+[De-identified] is a 47-year-old treatment-naive patient with newly diagnosed AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with evidence of distant metastatic disease including multiple brain metastases and an adrenal metastasis. Molecular testing has identified an EGFR L858R point mutation. The patient is here today to discuss treatment options for their advanced lung cancer.

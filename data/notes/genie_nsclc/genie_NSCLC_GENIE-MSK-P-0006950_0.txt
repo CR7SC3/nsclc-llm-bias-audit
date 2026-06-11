@@ -1,0 +1,21 @@
+Patient ID: [De-identified]
+ATTENDING: [De-identified], MD
+Primary Care Provider: [De-identified], MD
+
+**HISTORY OF PRESENT ILLNESS:**
+Patient is a 61-year-old individual referred for initial oncology consultation regarding newly diagnosed non-small cell lung cancer (NSCLC). The patient initially presented to their primary care physician with a several-week history of persistent, non-productive cough and mild exertional dyspnea. There was no reported hemoptysis, chest pain, or significant weight loss. Following initial evaluation, the patient was referred for further diagnostic workup and oncology assessment. This represents the patient's initial oncology evaluation, and they are treatment-naive for this malignancy.
+
+**DIAGNOSTIC WORKUP:**
+Initial chest X-ray demonstrated a suspicious mass in the right upper lobe of the lung, which was further characterized by a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This imaging confirmed a primary lung mass measuring approximately [plausible size, e.g., 4.5 x 3.2 cm] in the right upper lobe, along with several enlarged mediastinal lymph nodes concerning for metastatic involvement.
+A subsequent CT-guided biopsy of the lung mass was performed, and pathology confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+Comprehensive staging workup included a whole-body PET-CT scan, which demonstrated avid uptake corresponding to the primary right upper lobe lesion and the involved mediastinal lymph nodes, but no evidence of other distant extracranial metastatic disease. As part of a complete staging evaluation for NSCLC, a dedicated MRI of the brain was also performed, which revealed the presence of multiple brain metastases.
+Based on the findings of the primary tumor and locoregional nodal involvement, the patient is diagnosed with AJCC Stage IIIA non-small cell lung cancer, adenocarcinoma. The presence of brain metastases is noted.
+
+**MOLECULAR STUDIES:**
+Molecular testing on the tumor biopsy specimen was performed and revealed the following:
+- **Actionable Driver:** ALK rearrangement detected.
+- **Negative for:** EGFR mutations, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, and NTRK gene fusions.
+- **PD-L1 Expression:** Testing for PD-L1 expression was not reported.
+
+**PROBLEM SUMMARY:**
+This is a 61-year-old treatment-naive patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The patient presents with brain metastases. Molecular profiling of the tumor demonstrates an ALK rearrangement. Other common driver mutations (EGFR, ROS1, BRAF, MET exon 14, RET, NTRK) were not detected. PD-L1 expression status is currently unknown. The patient is here for initial consultation to discuss management options.

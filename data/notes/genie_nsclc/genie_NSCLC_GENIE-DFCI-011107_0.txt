@@ -1,0 +1,12 @@
+**HPI:**
+[De-identified] presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. The 47-year-old patient reports a several-month history of a persistent, non-productive cough, mild dyspnea on exertion, and a generalized sense of fatigue. They also note an unintentional weight loss of approximately 5 pounds over the past three months. The patient denies hemoptysis, fevers, chills, or night sweats. Performance status is good, estimated at ECOG 1.
+
+**Diagnostic Workup:**
+The patient's initial presentation to their primary care physician for persistent cough led to a chest X-ray, which revealed a right upper lobe mass. This finding prompted a subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a spiculated mass measuring [X cm, e.g., 4.5 cm] in the right upper lobe, along with multiple enlarged and avidly enhancing mediastinal lymph nodes, specifically in the ipsilateral hilar and subcarinal regions. A CT-guided biopsy of the right upper lobe mass was performed, and pathology confirmed the diagnosis of adenocarcinoma.
+For comprehensive staging, a whole-body PET/CT scan was conducted, demonstrating hypermetabolic activity in the primary right upper lobe tumor and the aforementioned mediastinal lymph nodes, consistent with locoregional disease. Importantly, no distant metastatic foci were identified on the PET/CT scan. An MRI of the brain was also performed, which showed no evidence of intracranial metastases. Based on the integration of these findings, the patient is diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB.
+
+**Molecular Studies:**
+Tumor tissue obtained from the biopsy was submitted for comprehensive molecular profiling. The results of this testing indicate no actionable driver alteration, specifically negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF V600E, MET exon 14 skipping alterations, RET rearrangements, and NTRK fusions. PD-L1 expression testing was not reported at the time of this consultation.
+
+**Problem Summary:**
+This is a 47-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB. Molecular profiling reveals no identified actionable driver alterations. There is no evidence of brain metastases. The patient presents for discussion of initial management strategies.

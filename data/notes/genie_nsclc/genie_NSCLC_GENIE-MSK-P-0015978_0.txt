@@ -1,0 +1,11 @@
+**HPI:**
+[De-identified] is a 49-year-old individual presenting for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. The patient's symptoms began approximately three months prior to presentation with a persistent, non-productive cough and progressive shortness of breath, particularly with exertion. Over the past several weeks, the patient also noted a decline in energy levels and an unintentional weight loss of approximately 10 pounds. Performance status is currently estimated at ECOG 1, with the patient largely ambulatory and able to perform most self-care activities, though experiencing fatigue.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest X-ray which revealed a suspicious mass in the left upper lobe. This finding prompted further imaging with a CT scan of the chest, abdomen, and pelvis, which confirmed a dominant mass in the left upper lobe measuring approximately 5.0 x 4.5 cm with associated mediastinal lymphadenopathy. A subsequent PET-CT scan demonstrated hypermetabolic activity within the primary lung lesion and mediastinal nodes, but no other metabolically active distant sites were identified on initial body imaging. Due to the presence of new onset headaches and mild gait instability reported by the patient, a brain MRI was performed, revealing multiple enhancing lesions consistent with brain metastases. Biopsy of the left upper lobe mass, performed via CT-guided core needle biopsy, confirmed the diagnosis of non-small cell lung cancer, nos histology. Based on these findings, the patient is staged as AJCC Stage IV.
+
+**Molecular Studies:**
+Molecular profiling of the tumor tissue was performed and did not identify any actionable driver alterations, testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 immunohistochemistry results are not yet available.
+
+**Problem Summary:**
+This 49-year-old patient presents for initial oncology consultation regarding newly diagnosed Stage IV non-small cell lung cancer, nos histology, with brain metastases. The disease is treatment-naive, and molecular profiling has not revealed any actionable driver alterations. PD-L1 status is pending.
