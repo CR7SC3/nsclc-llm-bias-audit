@@ -254,9 +254,19 @@ def run(subset: str, save: bool) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--subset", default="both")
-    parser.add_argument("--save", action="store_true")
+    parser = argparse.ArgumentParser(
+        description="Analyze EquityGUIDE v2 experiment results. "
+                    "Pass --subset with any checkpoint prefix, e.g. "
+                    "'synthetic_unstructured', "
+                    "'genie_bpc_nsclc_pilot50_gemini-2.5-flash', or "
+                    "'both' (expands to synthetic_structured + synthetic_unstructured)."
+    )
+    parser.add_argument("--subset", default="both",
+                        help="Checkpoint prefix or 'both' for synthetic subsets")
+    parser.add_argument("--save", action="store_true",
+                        help="Save CSV outputs to results/analysis/")
+    parser.add_argument("--concordance", action="store_true",
+                        help="(Ignored — concordance is always computed when available)")
     args = parser.parse_args()
 
     subsets = (["synthetic_structured", "synthetic_unstructured"]
