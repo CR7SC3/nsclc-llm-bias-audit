@@ -354,7 +354,6 @@ def _build_structured_note(
     tmb      = profile.get("tmb_category", "unknown")
     smoking  = profile.get("smoking_history", "unknown smoking history")
     mets     = profile.get("mets_sites", [])
-    brain_timing = profile.get("brain_met_timing")
     prior_cancers = profile.get("prior_cancers", [])
 
     # Helper for display — converts internal status to human-readable
@@ -363,13 +362,15 @@ def _build_structured_note(
                 "not_tested":   "not tested",
                 "not_tested_by_panel": "not covered by panel"}.get(val, val)
 
+    m1a = profile.get("m1a_no_distant", False)
     if stage.startswith("IV"):
         if mets:
-            mets_str = ", ".join(mets)
-            if brain_timing and "brain" in mets:
-                mets_str += f" (brain mets: {brain_timing})"
+            mets_str = ", ".join(mets) + " (at diagnosis)"
+        elif m1a:
+            mets_str = ("no distant organ metastases (M1a — malignant pleural/pericardial "
+                        "effusion or contralateral lung nodules)")
         else:
-            mets_str = "none documented"
+            mets_str = "distant metastatic disease, site not specified"
     else:
         mets_str = "N/A (non-metastatic)"
 
@@ -480,6 +481,7 @@ def load_genie_bpc_nsclc(
     fusions        = read_tsv("data_fusions.txt")
     tmb_rows       = read_tsv("tmb.tsv")
     clinical_samp  = read_tsv("data_clinical_sample.txt")
+    clinical_pt    = read_tsv("data_clinical_patient.txt")  # at-diagnosis metastatic sites
     cna_rows       = read_tsv("data_CNA.txt")
 
     # Gene panel coverage
@@ -553,6 +555,13 @@ def load_genie_bpc_nsclc(
         if m.get("Hugo_Symbol") == "KEAP1"
         and m.get("Variant_Classification", "") in _LOF_CLASSES
     }
+
+    # At-diagnosis metastatic sites lookup: PATIENT_ID → patient clinical row
+    # DMETS_DX_* fields capture metastases PRESENT AT DIAGNOSIS (vs. the
+    # cancer-index dmets_* fields which capture mets that ever developed,
+    # including post-treatment progression). For a treatment-naive initial
+    # consultation note, only at-diagnosis sites are clinically appropriate.
+    clinical_pt_by_id: dict[str, dict] = {r["PATIENT_ID"]: r for r in clinical_pt}
 
     # Prior cancer lookup: record_id → list of prior cancer type strings
     prior_cancer_by_patient: dict[str, list[str]] = defaultdict(list)
@@ -850,26 +859,29 @@ def load_genie_bpc_nsclc(
         # Prior malignancy
         prior_cancers = prior_cancer_by_patient.get(record_id, [])
 
-        # Metastatic sites (Stage IV only; fields are binary 1/Yes flags)
-        _met_yn = lambda f: cancer.get(f, "").strip() in ("1", "Yes", "yes", "TRUE")
+        # Metastatic sites AT DIAGNOSIS (DMETS_DX_* from patient clinical file).
+        # These are synchronous by definition — present at initial presentation,
+        # which is exactly what a treatment-naive consultation note should reflect.
+        pt_clin = clinical_pt_by_id.get(record_id, {})
+        _dx_met = lambda f: pt_clin.get(f, "").strip() == "Yes"
         mets_sites: list[str] = []
-        if _met_yn("dmets_brain"):   mets_sites.append("brain")
-        if _met_yn("dmets_bone"):    mets_sites.append("bone")
-        if _met_yn("dmets_liver"):   mets_sites.append("liver")
-        if _met_yn("dmets_thorax"):  mets_sites.append("intrathoracic (contralateral lung/pleura/mediastinum)")
-        if _met_yn("dmets_abdomen"): mets_sites.append("abdomen/adrenal")
-        if _met_yn("dmets_head_neck"): mets_sites.append("head/neck")
-        if _met_yn("dmets_pelvis"):  mets_sites.append("pelvis")
-        if _met_yn("dmets_extremity"): mets_sites.append("extremity")
+        if _dx_met("DMETS_DX_BRAIN"):      mets_sites.append("brain")
+        if _dx_met("DMETS_DX_BONE"):       mets_sites.append("bone")
+        if _dx_met("DMETS_DX_LIVER"):      mets_sites.append("liver")
+        if _dx_met("DMETS_DX_ADRENAL"):    mets_sites.append("adrenal")
+        if _dx_met("DMETS_DX_LUNG"):       mets_sites.append("contralateral lung")
+        if _dx_met("DMETS_DX_PLEURA"):     mets_sites.append("pleura")
+        if _dx_met("DMETS_DX_LYMPH"):      mets_sites.append("distant lymph nodes")
+        if _dx_met("DMETS_DX_SUBC_TISSUE"): mets_sites.append("subcutaneous tissue")
+        if _dx_met("DMETS_DX_OTHER"):      mets_sites.append("other site")
 
-        # Brain met timing — synchronous (≤30 days from dx) vs. metachronous
-        brain_met_timing = None
-        if "brain" in mets_sites:
-            days_str = cancer.get("dx_to_dmets_brain_days", "").strip()
-            try:
-                brain_met_timing = "synchronous" if float(days_str) <= 30 else "metachronous"
-            except (ValueError, TypeError):
-                brain_met_timing = "unknown"
+        # M1a designation: Stage IV with no distant organ mets at dx
+        # (malignant pleural/pericardial effusion or contralateral nodules)
+        ca_dmets_yn = pt_clin.get("CA_DMETS_YN", "").strip()
+        m1a_no_distant = ca_dmets_yn.startswith("No")
+
+        # Brain mets at diagnosis are synchronous by definition
+        brain_met_timing = "synchronous" if "brain" in mets_sites else None
 
         # Store raw biomarkers for reference
         biomarkers_raw = {
@@ -911,6 +923,7 @@ def load_genie_bpc_nsclc(
             "prior_cancers":      prior_cancers,
             "brain_mets":         brain_mets,
             "mets_sites":         mets_sites,
+            "m1a_no_distant":     m1a_no_distant,
             "kras_status":        kras_status,
             "erbb2_status":       erbb2_status,
             "met_amp_status":     met_amp_status,

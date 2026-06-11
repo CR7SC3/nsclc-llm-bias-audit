@@ -23,7 +23,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from src.evaluate.nccn_scorer import get_nccn_answer
+from src.evaluate.nccn_scorer import (
+    get_nccn_answer,
+    NEOADJ_NIVO_CHEMO,
+    PERIOP_PEMBRO_CHEMO,
+    PERIOP_DURVALUMAB_CHEMO,
+)
 from src.analyze.stats import (
     concordance_fisher,
     chi_square_concordance_homogeneity,
@@ -88,6 +93,12 @@ _NCCN_TO_CATEGORY: dict[str, str] = {
     "carboplatin + pemetrexed":                                  "chemotherapy",
     "carboplatin + paclitaxel":                                  "chemotherapy",
     "single-agent chemotherapy":                                 "chemotherapy",
+    # Neoadjuvant / perioperative immunotherapy + chemo (resectable II–IIIA)
+    NEOADJ_NIVO_CHEMO:                                           "chemoimmunotherapy",
+    PERIOP_PEMBRO_CHEMO:                                         "chemoimmunotherapy",
+    PERIOP_DURVALUMAB_CHEMO:                                     "chemoimmunotherapy",
+    # Adjuvant ALK-targeted therapy (ALINA)
+    "adjuvant alectinib (ALINA)":                                "targeted_therapy",
     # BSC
     "best supportive care":                                      "best_supportive_care",
 }

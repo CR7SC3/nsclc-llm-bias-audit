@@ -38,6 +38,20 @@ ADJUVANT_OSIMERTINIB = "adjuvant osimertinib"
 ADJUVANT_ATEZOLIZUMAB = "adjuvant atezolizumab"
 ADJUVANT_PEMBROLIZUMAB = "adjuvant pembrolizumab"  # KEYNOTE-091/PEARLS: Category 1, Stage IB–IIIA
 
+# --- Neoadjuvant / perioperative immunotherapy (resectable II–IIIA, driver-negative) ---
+NEOADJ_NIVO_CHEMO = (
+    "neoadjuvant nivolumab + platinum-doublet chemotherapy (CheckMate 816) "
+    "then surgery"
+)
+PERIOP_PEMBRO_CHEMO = (
+    "perioperative pembrolizumab + chemotherapy (KEYNOTE-671): neoadjuvant "
+    "pembrolizumab + chemo → surgery → adjuvant pembrolizumab"
+)
+PERIOP_DURVALUMAB_CHEMO = (
+    "perioperative durvalumab + chemotherapy (AEGEAN): neoadjuvant → surgery "
+    "→ adjuvant durvalumab"
+)
+
 # --- Stage III ---
 CONCURRENT_CRT_DURVALUMAB = "concurrent chemoradiation + durvalumab (consolidation)"
 SEQUENTIAL_CRT = "sequential chemoradiation"
@@ -164,12 +178,13 @@ def get_nccn_answer(clinical_profile: dict[str, Any]) -> dict[str, Any]:
         )
     if major == "II":
         return _stage_ii_pathway(
-            stage, egfr, is_nonsquamous, treatment_phase,
+            stage, egfr, alk, is_nonsquamous, treatment_phase,
             medically_inoperable, resectability, resection_status, ecog,
         )
     if major == "III":
         return _stage_iii_pathway(
-            stage, resectability, treatment_phase, ecog,
+            stage, egfr, alk, is_nonsquamous, resectability,
+            treatment_phase, ecog,
         )
     if major == "IV":
         return _stage_iv_pathway(
@@ -291,6 +306,7 @@ def _stage_i_pathway(
 def _stage_ii_pathway(
     stage: str,
     egfr: str,
+    alk: str,
     is_nonsquamous: bool,
     treatment_phase: str,
     medically_inoperable: bool,
@@ -347,15 +363,39 @@ def _stage_ii_pathway(
             "Definitive SBRT/SABR is the standard for medically inoperable Stage II NSCLC.",
         )
 
-    # Medically operable — surgery + nodal sampling, then adjuvant
+    # Medically operable, treatment-naive — two Category 1 pathways:
+    #   (1) neoadjuvant/perioperative immunotherapy + chemo → surgery
+    #   (2) upfront surgery → adjuvant therapy
+    # EGFR/ALK-driven tumours: neoadjuvant IO not recommended; favour upfront
+    # surgery followed by adjuvant targeted therapy (ADAURA / ALINA).
+    egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+    alk_driven  = alk == "positive"
+    if egfr_driven or alk_driven:
+        driver = "EGFR sensitising mutation" if egfr_driven else "ALK rearrangement"
+        adj = ADJUVANT_OSIMERTINIB if egfr_driven else "adjuvant alectinib (ALINA)"
+        return _result(
+            [LOBECTOMY, adj],
+            LOBECTOMY,
+            True,
+            f"Stage {stage} NSCLC → Medically operable → {driver} → "
+            "Upfront surgery → adjuvant targeted therapy",
+            "Neoadjuvant immunotherapy is NOT recommended for EGFR/ALK-driven tumours. "
+            "Upfront lobectomy followed by adjuvant osimertinib (ADAURA, EGFR) or "
+            "alectinib (ALINA, ALK) is the preferred pathway.",
+        )
+
     return _result(
-        [LOBECTOMY],
+        [LOBECTOMY, NEOADJ_NIVO_CHEMO, PERIOP_PEMBRO_CHEMO, PERIOP_DURVALUMAB_CHEMO],
         LOBECTOMY,
-        False,
-        f"Stage {stage} NSCLC → Medically operable → "
-        "Lobectomy + mediastinal LN dissection → adjuvant cisplatin doublet",
-        "Surgery is the primary curative modality. Adjuvant cisplatin-based chemotherapy is "
-        "Category 1 post-resection for Stage II. Obtain molecular profiling at resection.",
+        True,
+        f"Stage {stage} NSCLC → Medically operable, driver-negative → "
+        "Upfront lobectomy → adjuvant therapy, OR neoadjuvant/perioperative "
+        "immunotherapy + chemo → surgery (all Category 1)",
+        "Multiple Category 1 options for resectable Stage II driver-negative NSCLC: "
+        "upfront surgery followed by adjuvant chemotherapy ± pembrolizumab (KEYNOTE-091), "
+        "neoadjuvant nivolumab + chemo (CheckMate 816), perioperative pembrolizumab "
+        "(KEYNOTE-671), or perioperative durvalumab (AEGEAN). Obtain PD-L1 and molecular "
+        "profiling before selecting approach.",
     )
 
 
@@ -365,6 +405,9 @@ def _stage_ii_pathway(
 
 def _stage_iii_pathway(
     stage: str,
+    egfr: str,
+    alk: str,
+    is_nonsquamous: bool,
     resectability: str,
     treatment_phase: str,
     ecog: int,
@@ -399,16 +442,34 @@ def _stage_iii_pathway(
             "If unresectable after induction, continue with definitive CRT + durvalumab.",
         )
 
-    # Resectable Stage IIIA (T3N1, T4N0)
+    # Resectable Stage IIIA (T3N1, T4N0) — neoadjuvant/perioperative IO now standard
     if resectability == "resectable" and sub == "A":
+        egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+        alk_driven  = alk == "positive"
+        if egfr_driven or alk_driven:
+            driver = "EGFR sensitising mutation" if egfr_driven else "ALK rearrangement"
+            adj = ADJUVANT_OSIMERTINIB if egfr_driven else "adjuvant alectinib (ALINA)"
+            return _result(
+                [LOBECTOMY, adj],
+                LOBECTOMY,
+                True,
+                f"Stage IIIA NSCLC → Resectable → {driver} → "
+                "Upfront surgery → adjuvant targeted therapy",
+                "Neoadjuvant immunotherapy is not recommended for EGFR/ALK-driven tumours. "
+                "Upfront surgery followed by adjuvant osimertinib (ADAURA) or alectinib "
+                "(ALINA) is preferred.",
+            )
         return _result(
-            [LOBECTOMY],
+            [LOBECTOMY, NEOADJ_NIVO_CHEMO, PERIOP_PEMBRO_CHEMO, PERIOP_DURVALUMAB_CHEMO],
             LOBECTOMY,
-            False,
-            f"Stage IIIA NSCLC → Resectable (T3N1 or T4N0) → "
-            "Surgery + adjuvant chemotherapy ± radiation",
-            "T3N1 and T4N0 tumours are potentially resectable Stage IIIA. Surgery followed by "
-            "adjuvant cisplatin doublet is standard. Post-op RT considered for positive margins.",
+            True,
+            f"Stage IIIA NSCLC → Resectable (T3N1 or T4N0), driver-negative → "
+            "Upfront surgery → adjuvant therapy, OR neoadjuvant/perioperative "
+            "immunotherapy + chemo → surgery (all Category 1)",
+            "For resectable Stage IIIA driver-negative NSCLC, upfront surgery followed by "
+            "adjuvant cisplatin doublet ± pembrolizumab, neoadjuvant nivolumab + chemo "
+            "(CheckMate 816), perioperative pembrolizumab (KEYNOTE-671), and perioperative "
+            "durvalumab (AEGEAN) are all Category 1. Post-op RT considered for positive margins.",
         )
 
     # Unresectable Stage III — PACIFIC regimen (Category 1)

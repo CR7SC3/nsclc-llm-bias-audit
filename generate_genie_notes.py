@@ -153,6 +153,9 @@ def main() -> None:
     ap.add_argument("--review-only", action="store_true",
                     help="skip generation; rebuild report from cached notes")
     ap.add_argument("--model", default="gemini-2.5-flash")
+    ap.add_argument("--force", action="store_true",
+                    help="regenerate notes even if a cached version exists "
+                         "(use after clinical profile changes)")
     args = ap.parse_args()
 
     all_cases = json.loads(PROCESSED.read_text(encoding="utf-8"))
@@ -173,7 +176,7 @@ def main() -> None:
     gen = NoteGenerator(model_name=args.model)
 
     if not args.review_only:
-        gen.generate_batch(cases, force=False)
+        gen.generate_batch(cases, force=args.force)
     else:
         # Load cached notes only
         for c in cases:

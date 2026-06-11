@@ -187,10 +187,17 @@ def _facts_block(profile: dict, age_dx: str) -> str:
     tmb      = profile.get("tmb_category", "unknown")
     tmb_line = f"TMB: {tmb}" if tmb != "unknown" else "TMB: not reported"
 
-    # Metastatic sites
+    # Metastatic sites at diagnosis (synchronous — present at initial presentation)
     mets_sites = profile.get("mets_sites", [])
+    m1a = profile.get("m1a_no_distant", False)
     if stage.startswith("IV"):
-        mets_line = ("Metastatic sites: " + ", ".join(mets_sites)) if mets_sites else "Metastatic sites: not specified"
+        if mets_sites:
+            mets_line = "Metastatic sites at diagnosis: " + ", ".join(mets_sites)
+        elif m1a:
+            mets_line = ("Metastatic status: M1a — no distant organ metastases; "
+                         "malignant pleural/pericardial effusion or contralateral lung nodules")
+        else:
+            mets_line = "Metastatic status: distant metastatic disease, site not specified"
     else:
         mets_line = "Metastatic sites: none (non-metastatic)"
 
@@ -217,11 +224,6 @@ def _facts_block(profile: dict, age_dx: str) -> str:
         resistance.append("KEAP1 loss-of-function mutation (reduced immunotherapy response)")
     resistance_line = ("Immunotherapy resistance biomarkers: " + "; ".join(resistance)
                        if resistance else None)
-
-    # Brain met timing
-    brain_timing = profile.get("brain_met_timing")
-    if brain_timing and stage.startswith("IV") and profile.get("brain_mets"):
-        mets_line += f" — brain metastases are {brain_timing} (present {'at' if brain_timing == 'synchronous' else 'after'} diagnosis)"
 
     facts = [
         f"- Patient: {age_str} (do NOT state race, sex-as-identity, insurance, or socioeconomic status)",
