@@ -23,7 +23,7 @@ Large language models are increasingly deployed in clinical decision support. Wh
 
 ### GENIE BPC NSCLC (real, de-identified)
 
-1,048 real de-identified non-small cell lung cancer cases from the AACR Project GENIE Biopharma Collaborative (v2.0-public). Cases are drawn from five academic cancer centers. Inclusion criteria: index cancer, non-small-cell histology, known AJCC stage, at least one documented Line 1 regimen.
+1,048 real de-identified non-small cell lung cancer cases from the AACR Project GENIE Biopharma Collaborative (v2.0-public). Cases are drawn from five academic cancer centers (DFCI, MSK, VICC, and others). Inclusion criteria: index cancer, non-small-cell histology, known AJCC stage, at least one documented Line 1 regimen.
 
 | Characteristic | N (%) |
 |----------------|-------|
@@ -33,7 +33,8 @@ Large language models are increasingly deployed in clinical decision support. Wh
 | Stage I–II | 203 (19.4%) |
 | Adenocarcinoma | 884 (84.4%) |
 | Squamous | 123 (11.7%) |
-| Biomarkers available | ~85% |
+| Biomarkers available | 1,025 (97.8%) |
+| PD-L1 TPS available | 377 (36.0%) |
 
 Demographic distribution reflects real-world academic cancer center populations: White (80.7%), Asian (8.2%), Black or African American (5.8%), Other/Unknown (5.3%).
 
@@ -59,7 +60,19 @@ Each clinical note is sent to the model in 30 versions:
 | Reference | White male, private insurance | 1 |
 | Control | No demographics | 1 |
 
-For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note. For structured notes, demographic fields are replaced in-place via regex. All clinical content — stage, histology, biomarkers, ECOG performance status, brain metastasis status — is held constant across all 30 versions.
+For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note. For structured notes, demographic fields are replaced in-place via regex. All clinical content — stage, histology, biomarkers, ECOG performance status, metastatic sites — is held constant across all 30 versions.
+
+### GENIE BPC clinical note construction
+
+Each real GENIE BPC case is transformed into a free-text consultation note through a multi-step pipeline drawing from 12 source files:
+
+1. **Biomarker extraction** — somatic mutations (`data_mutations_extended.txt`), structural fusions (`data_fusions.txt`), and copy number alterations (`data_CNA.txt`) are extracted with gene panel-aware wildtype calling: genes not covered by the sequencing panel used for that case are labeled "not covered by sequencing panel" rather than incorrectly reported as negative.
+
+2. **Clinical enrichment** — PD-L1 TPS from pathology reports (`pathology_report_level_dataset.csv`), real smoking history, TMB from `tmb.tsv`, prior cancer history from `cancer_level_dataset_non_index.csv`, and at-diagnosis metastatic sites from `data_clinical_patient.txt` (distinct from ever-present metastases).
+
+3. **LLM note generation** — a `gemini-2.5-flash` call converts the structured profile into a realistic, demographics-neutral free-text NSCLC consultation note, using de-identified CORAL oncology notes as style anchors only.
+
+4. **Variant injection** — 29 demographic labels are prepended one at a time; the control version has no label.
 
 ### Outcome measures
 
@@ -77,9 +90,9 @@ For unstructured notes, a single bracketed demographic label is prepended to the
 
 ---
 
-## Pilot Results (n = 50 GENIE BPC NSCLC cases)
+## Pilot Results (n = 50 GENIE BPC NSCLC cases, gemini-2.5-flash-lite)
 
-A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls. Model: `gemini-2.5-flash-lite`. All calls completed with 0 errors and 100% parse rate.
+A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls. All calls completed with 0 errors and 100% parse rate. (A second pilot with the updated pipeline and `gemini-2.5-flash` is in progress.)
 
 **Selected flip rates (vs. no-demographics control)**
 
@@ -111,35 +124,37 @@ EquityGUIDE/
 ├── src/
 │   ├── generate/
 │   │   ├── load_cases.py              # CancerGUIDE loading + demographic stripping
-│   │   ├── load_genie_bpc.py          # GENIE BPC NSCLC processing (6-file merge)
+│   │   ├── load_genie_bpc.py          # GENIE BPC NSCLC processing (12-file merge)
 │   │   ├── note_generator.py          # LLM-based free-text note generation
-│   │   ├── variant_injector.py        # V1 variant injection (6 profiles)
-│   │   └── variant_injector_v2.py     # V2 variant injection (30 variants)
+│   │   ├── variant_injector.py        # V1 variant injection (6 intersectional profiles)
+│   │   └── variant_injector_v2.py     # V2 variant injection (30 variants, 9 tiers)
 │   ├── evaluate/
-│   │   ├── nccn_scorer.py             # NCCN pathway scorer (Stages I–IV)
-│   │   └── response_parser.py         # LLM response → 10-class treatment category
+│   │   ├── nccn_scorer.py             # NCCN pathway scorer (Stages I–IV, neoadjuvant)
+│   │   ├── response_parser.py         # LLM response → 10-class treatment category
+│   │   └── concordance_checker.py     # Concordance rate computation + Fisher's exact
 │   ├── analyze/
 │   │   ├── flip_rate.py               # Flip rate computation + Wilson CIs
 │   │   ├── soft_bias.py               # 11-dimension soft bias detector
 │   │   ├── adherence_scorer.py        # 0–3 ordinal adherence scoring
 │   │   └── stats.py                   # Wilson CI, Fisher exact, chi-square, Bonferroni
 │   └── models/
-│       └── factory.py                 # Model abstraction (Gemini, GPT-4o, GPT-4o-mini)
+│       └── factory.py                 # Model abstraction (Gemini, GPT-4o, Claude, Llama)
 ├── prompts/
 │   └── evaluation/
 │       └── prompt_templates.py        # baseline, fairness, guideline_grounded, structured_extraction
 ├── run_experiment_v2.py               # Main experiment runner (30 variants, all subsets)
-├── run_experiment_genie_bpc.py        # GENIE BPC runner
+├── run_experiment_genie_bpc.py        # GENIE BPC runner (legacy)
 ├── generate_genie_notes.py            # Free-text note generation for GENIE BPC cases
 ├── analyze_results_v2.py              # CancerGUIDE analysis
 ├── analyze_genie_bpc.py               # GENIE BPC analysis
-├── plot_genie_pilot50.py              # Three-panel bias figure
+├── plot_genie_pilot50.py              # Three-panel bias figure (flip rate + soft bias)
 ├── data/
 │   ├── genie_bpc/nsclc/               # Raw GENIE BPC source files (data use agreement required)
+│   │   └── equityGUIDEoncopanel/      # Gene panel definition files (11 panels + gene matrix)
 │   ├── processed/                     # Processed case JSON files
 │   └── notes/genie_nsclc/             # Cached LLM-generated free-text notes
 ├── results/
-│   ├── baseline/                      # Experiment checkpoints and final results
+│   ├── baseline/                      # Experiment results JSON files
 │   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance)
 ├── figures/                           # Output figures
 └── docs/
@@ -159,21 +174,21 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set `GOOGLE_API_KEY` (Gemini) or `OPENAI_API_KEY` in a `.env` file. See `.env.example`.
+Set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` (Vertex AI) or `OPENAI_API_KEY` in a `.env` file. See `.env.example`.
 
 ### CancerGUIDE experiment
 
 ```bash
-# Run all 30 variants on synthetic structured notes
-python run_experiment_v2.py --subset synthetic_structured --model gemini-2.5-flash
+# Run all 30 variants on synthetic unstructured notes
+python run_experiment_v2.py --subset synthetic_unstructured --model gemini-2.5-flash
 
 # Analyze results
-python analyze_results_v2.py --subset synthetic_structured --save
+python analyze_results_v2.py --subset synthetic_unstructured --save
 ```
 
 ### GENIE BPC experiment
 
-Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place the six NSCLC source files in `data/genie_bpc/nsclc/`, then:
+Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place source files in `data/genie_bpc/nsclc/` and gene panel files in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`, then:
 
 ```bash
 # Step 1: Process raw GENIE BPC files into structured cases
@@ -201,6 +216,14 @@ python plot_genie_pilot50.py
 
 ---
 
+## Citation
+
+If you use this code or methodology, please cite:
+
+> Cuervo A, Cuervo S. EquityGUIDE: Counterfactual audit of demographic bias in LLM cancer treatment recommendations. 2026. https://github.com/CR7SC3/equityGUIDE
+
+---
+
 ## Contact
 
-Alvaro Sebastian Cuervo — alcuervosebastian@gmail.com
+Alvaro Cuervo — alvaro.cuervo@yale.edu
