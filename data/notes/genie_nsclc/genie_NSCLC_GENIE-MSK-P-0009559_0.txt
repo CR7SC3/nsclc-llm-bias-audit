@@ -1,25 +1,20 @@
-[De-identified] Cancer Center Medical Oncology Program
+[De-identified] Cancer Center
+Medical Oncology Program
 [De-identified]
-[De-identified]
-[De-identified]
-[De-identified]
-[De-identified]
+Phone: [De-identified] | Fax: [De-identified]
 
 Initial Consultation [De-identified]
-
-I had the pleasure of seeing a 78-year-old patient for an initial consultation regarding a new diagnosis of non-small cell lung cancer.
+Date: [De-identified]
+Attending: [De-identified], MD
 
 **HPI:**
-The patient presents with a recent diagnosis of non-small cell lung cancer. Approximately two months prior to this consultation, the patient began experiencing persistent cough, increasing exertional dyspnea, and generalized fatigue. These symptoms prompted a visit to their primary care physician, where a chest X-ray was performed, revealing a suspicious mass in the right lung. Subsequently, a CT scan of the chest confirmed a dominant mass in the right upper lobe. A CT-guided core needle biopsy of this lung mass was performed, which pathologically confirmed adenocarcinoma. Following the diagnosis, the patient developed new onset headaches and mild, intermittent dizziness, leading to further diagnostic imaging. The patient reports a good performance status, maintaining independence in daily activities.
+Patient is a 78-year-old individual presenting for an initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient reports a history of progressive cough, dyspnea, and generalized fatigue over the past several months, which prompted medical evaluation. He/she is a former smoker, having quit over 1 year ago. This is the patient's first oncology evaluation, and he/she is treatment-naive for this malignancy. The patient's performance status is estimated at ECOG 1, with mild symptoms limiting strenuous physical activity but able to carry out light work.
 
 **Diagnostic Workup:**
-Following the biopsy-proven diagnosis of non-small cell lung cancer, adenocarcinoma histology, a comprehensive staging workup was completed.
-*   **PET/CT scan:** Revealed a hypermetabolic primary mass in the right upper lobe of the lung, along with hypermetabolic mediastinal lymphadenopathy and a hypermetabolic lesion in the right adrenal gland, consistent with metastatic disease.
-*   **MRI Brain:** Performed due to new neurological symptoms, demonstrated multiple enhancing lesions consistent with brain metastases.
-Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+Initial diagnostic imaging, including a chest X-ray and subsequent CT scan of the chest, revealed a suspicious mass in the right lung. Bronchoscopic biopsy of the lung mass confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Further staging workup, including a whole-body PET/CT scan and a dedicated brain MRI, demonstrated widespread metastatic disease. Metastatic sites identified include multiple lesions in the brain, osseous metastases in the axial skeleton, several nodules in the contralateral lung, numerous distant lymph nodes (e.g., supraclavicular, retroperitoneal), and a subcutaneous nodule on the anterior chest wall. Based on these findings, the patient is diagnosed with AJCC Stage IV NSCLC.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor biopsy tissue. This comprehensive genomic analysis identified no actionable driver alterations, specifically showing negative results for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing results are not yet available.
+Molecular profiling was performed on the tumor tissue. The comprehensive genomic analysis revealed no actionable driver alterations, testing negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping mutations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 (HER2) alterations. PD-L1 expression was not tested, consistent with the standard of care for sequencing performed prior to 2017. Tumor mutational burden (TMB) was found to be intermediate, in the range of 2–16 mutations/Mb. Further analysis identified an STK11 loss-of-function mutation, which is recognized as a biomarker associated with primary resistance to PD-1 inhibitors.
 
 **Problem Summary:**
-The patient is a 78-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology. The disease is classified as AJCC Stage IV, with evidence of distant metastases including multiple brain metastases and an adrenal gland metastasis. Molecular profiling has revealed no identifiable actionable driver alterations. PD-L1 status is pending.
+This is an initial consultation for a 78-year-old treatment-naive individual with newly diagnosed AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is widespread, involving the brain, bone, contralateral lung, distant lymph nodes, and subcutaneous tissue. Molecular studies indicate no actionable driver mutations, intermediate tumor mutational burden, and the presence of an STK11 loss-of-function mutation, which has implications for immunotherapy response. PD-L1 status is unknown. The patient's current performance status is ECOG 1.

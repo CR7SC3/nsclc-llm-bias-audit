@@ -1,19 +1,19 @@
-[De-identified] Clinic
-[De-identified] Medical Oncology
+[Clinic Name] Medical Oncology Program
+[Clinic Address]
+Phone: [Phone Number] | Fax: [Fax Number]
 
-Date: [De-identified Date]
+Initial Consultation [Date]
+Patient: [De-identified Patient Name], 67-year-old
+MRN: [De-identified MRN]
 
-**Patient Identification:**
-This is an initial consultation for a 67-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer (NSCLC). The patient is referred for discussion of systemic therapy options.
-
-**History of Present Illness:**
-The patient is a 67-year-old individual who presented several weeks ago with a progressive cough, increasing shortness of breath, and generalized fatigue. Over the past few weeks, the patient also reported new-onset headaches, occasionally accompanied by mild dizziness and slight imbalance, prompting further medical evaluation. The patient reports a generally active lifestyle prior to these symptoms, with an ECOG performance status currently estimated at 1. There is no significant weight loss reported.
+**HPI:**
+I had the pleasure of seeing a 67-year-old patient in initial consultation today for recently diagnosed non-small cell lung cancer (NSCLC). The patient initially presented several weeks ago with a constellation of symptoms including a persistent, dry cough, progressively worsening dyspnea on exertion, and a reported 10-pound unintentional weight loss over the past two months. These symptoms prompted an evaluation by their primary care physician, which led to a chest X-ray demonstrating a suspicious pulmonary mass. The patient has a medical history notable only for well-controlled hypertension and reports being a never smoker. At the time of this consultation, the patient maintains an ECOG performance status of 1, indicating they are ambulatory and able to carry out light work.
 
 **Diagnostic Workup:**
-Initial evaluation included a chest X-ray which identified a suspicious left upper lobe mass. This was followed by a CT scan of the chest, which confirmed a [size, e.g., 4.5 cm] mass in the left upper lobe and noted hilar lymphadenopathy. A CT-guided biopsy of the lung lesion was performed, which confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Subsequent staging workup included a full body PET/CT scan, which demonstrated hypermetabolic activity in the primary lung lesion and hilar lymph nodes, as well as a hypermetabolic lesion in the right adrenal gland, indicative of distant metastasis. Given the neurological symptoms, a brain MRI was performed, which revealed multiple enhancing lesions consistent with brain metastases. Based on these findings, the patient is diagnosed with AJCC Stage IV NSCLC.
+Following the initial chest X-ray, a comprehensive staging workup was initiated. This included a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which identified a dominant mass in the right upper lobe of the lung. Critically, this imaging also revealed multiple, discrete pulmonary nodules within the contralateral (left) lung, consistent with metastatic disease. Furthermore, a moderate right pleural effusion with associated nodular pleural thickening was noted, along with a solitary, enhancing lesion in the liver, highly suspicious for metastasis. A subsequent whole-body PET/CT scan confirmed these findings, demonstrating intense hypermetabolic activity in the primary right upper lobe mass, the contralateral lung nodules, the pleural lesions, and the hepatic lesion, thereby confirming widespread distant metastatic disease. Based on these findings, the patient was formally diagnosed with AJCC Stage IV NSCLC. Tissue acquisition was performed via CT-guided core needle biopsy of the right upper lobe mass, which histopathologically confirmed adenocarcinoma.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue. Results indicate the presence of a ROS1 gene rearrangement. Testing for other common driver mutations, including EGFR mutations, ALK rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET rearrangement, and NTRK fusions, were all negative. PD-L1 expression analysis was not reported at this time.
+Comprehensive genomic profiling was performed on the tumor tissue obtained from the biopsy. The results of this analysis revealed the presence of a ROS1 rearrangement, identifying an actionable driver alteration. Further testing demonstrated that the tumor was negative for other commonly encountered driver mutations, including EGFR, ALK, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2 (HER2) amplifications. Programmed death-ligand 1 (PD-L1) expression was assessed by immunohistochemistry, yielding a tumor proportion score (TPS) of ≥50%. Tumor mutational burden (TMB) analysis indicated an intermediate value, falling within the range of 2 to 16 mutations per megabase (mut/Mb).
 
 **Problem Summary:**
-This is a 67-year-old patient with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the brain and right adrenal gland. Molecular testing revealed a ROS1 gene rearrangement, with other common driver mutations being negative. The patient is here for initial oncology consultation to discuss management strategies.
+This 67-year-old patient presents as treatment-naive with newly diagnosed AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by a primary right upper lobe mass with metastatic involvement of the contralateral lung, pleura, and liver. The patient maintains an ECOG performance status of 1. Molecular profiling has identified a ROS1 rearrangement, high PD-L1 expression (TPS ≥50%), and intermediate tumor mutational burden.

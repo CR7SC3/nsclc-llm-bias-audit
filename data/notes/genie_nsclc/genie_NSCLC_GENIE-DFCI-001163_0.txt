@@ -1,16 +1,20 @@
-[De-identified] Clinic
-[De-identified] Medical Oncology
-[De-identified], MD
-[De-identified] Date: [De-identified]
+[De-identified] Cancer Center
+Medical Oncology Program
+[De-identified]
+[De-identified]
+Phone: [De-identified] | Fax: [De-identified]
+
+Initial Consultation [De-identified]
+Patient: [De-identified]
 
 **HPI:**
-Mr./Ms. [De-identified] is a 60-year-old individual presenting for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer (NSCLC). The patient initially sought medical attention for a persistent cough and mild dyspnea, which had been present for several weeks. A chest X-ray was performed, revealing an abnormality in the left lung. Subsequent workup led to the current diagnosis. The patient reports generally good health otherwise, with an excellent performance status, maintaining full activity without significant limitations. There are no reported B symptoms such as unexplained weight loss, fevers, or night sweats.
+A 60-year-old patient presents for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC). The patient reports a history of former smoking, having quit less than one year ago. The diagnosis was established as adenocarcinoma histology. The patient initially presented with a persistent cough and mild dyspnea, prompting further investigation. Performance status is excellent (ECOG 0-1).
 
 **Diagnostic Workup:**
-Initial imaging with a CT chest confirmed the presence of a solitary mass in the left upper lobe, measuring approximately 3.5 cm. A PET/CT scan was subsequently performed for comprehensive staging, which demonstrated avid uptake confined to the primary left upper lobe lesion, with no evidence of hypermetabolic activity in regional lymph nodes or distant sites. An MRI brain was also performed to evaluate for intracranial metastatic disease, which was negative. A CT-guided biopsy of the left upper lobe mass confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Based on the comprehensive imaging and pathological findings, the patient is diagnosed with AJCC Stage IB NSCLC (T2a N0 M0).
+Initial evaluation for the presenting symptoms included a chest X-ray, which revealed a suspicious pulmonary nodule. A subsequent computed tomography (CT) scan of the chest confirmed the presence of a primary lung mass. Bronchoscopy with biopsy of the lesion confirmed the diagnosis of adenocarcinoma. Comprehensive staging workup included a whole-body PET/CT scan, which demonstrated metabolic activity confined to the primary lung lesion, with no evidence of regional lymph node involvement or distant metastatic disease. A magnetic resonance imaging (MRI) of the brain was also performed and was negative for intracranial metastases. Based on these findings, the patient was staged as AJCC Stage IB non-small cell lung cancer.
 
 **Molecular Studies:**
-Comprehensive genomic profiling of the tumor tissue was performed. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression status is not yet available.
+Tumor tissue underwent comprehensive molecular profiling. Results indicated no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping alterations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 (HER2) mutations. PD-L1 expression was not assessed, consistent with sequencing performed prior to 2017 when PD-L1 testing was not yet standard of care. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-Mr./Ms. [De-identified] is a 60-year-old treatment-naive patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IB (T2a N0 M0). Imaging has confirmed localized disease without evidence of regional nodal involvement or distant metastasis, including no brain metastases. Molecular profiling has not identified any actionable driver alterations (negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK fusions), and PD-L1 status is pending. The patient maintains a good performance status.
+This is a 60-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, staged as AJCC IB. The tumor exhibits no identified actionable driver alterations on comprehensive molecular profiling, and tumor mutational burden is intermediate. The patient has a history of former smoking. Further discussion is warranted to determine the optimal management strategy for this localized disease.

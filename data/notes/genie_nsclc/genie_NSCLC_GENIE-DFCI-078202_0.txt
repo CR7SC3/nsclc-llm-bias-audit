@@ -1,24 +1,25 @@
-[De-identified] Clinic
-Oncology Consultation Note
-Date: [De-identified Date]
-MRN: [De-identified MRN]
+[De-identified Clinic Name]
+[De-identified Address]
+[De-identified Phone Number]
 
-**REASON FOR VISIT/CC:**
-Initial consultation for newly diagnosed non-small cell lung cancer.
+**Date:** [De-identified Date]
+**Patient Name:** [De-identified Patient Name]
+**DOB:** [De-identified DOB]
+**MRN:** [De-identified MRN]
 
-**IDENTIFICATION:**
-79-year-old patient with recently diagnosed, treatment-naive Stage IV non-small cell lung cancer of squamous histology.
+**REASON FOR VISIT/CC:** Initial consultation for newly diagnosed non-small cell lung cancer.
 
 **HISTORY OF PRESENT ILLNESS:**
-The patient presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. Approximately three months prior to presentation, the patient began experiencing a persistent cough, accompanied by increasing fatigue and a mild, unintentional weight loss of approximately 10 pounds. Initial evaluation by their primary care physician included a chest X-ray, which revealed a suspicious mass in the right lung. This finding prompted further imaging with a CT scan of the chest, which confirmed a dominant mass in the right upper lobe, along with mediastinal lymphadenopathy. A subsequent CT-guided biopsy of the lung mass was performed, which histologically confirmed squamous cell carcinoma.
+Patient is a 79-year-old individual presenting for initial oncology consultation regarding recently diagnosed non-small cell lung cancer. The patient's history is notable for having quit smoking over one year ago. They initially presented with new onset headaches and a gradually enlarging subcutaneous nodule, prompting further medical evaluation. The patient reports a generally stable performance status, though they note some mild fatigue. Subsequent imaging and biopsy confirmed the diagnosis of advanced lung cancer. The patient is treatment-naive and has not received any prior systemic therapy for this malignancy.
 
-Given the initial staging findings, a comprehensive staging workup was pursued. A PET-CT scan demonstrated hypermetabolic activity corresponding to the right upper lobe mass and mediastinal lymph nodes. Additionally, a brain MRI was performed as part of the staging evaluation, which unfortunately revealed multiple enhancing lesions consistent with brain metastases. The patient's Eastern Cooperative Oncology Group (ECOG) performance status is currently estimated at 1, reflecting some symptomatology but remaining largely ambulatory and capable of light work. The patient is treatment-naive, and this consultation is to discuss further management options.
+**DIAGNOSTIC WORKUP:**
+Initial diagnostic imaging included a CT scan of the chest, abdomen, and pelvis, which revealed a primary lung mass. A subsequent MRI of the brain confirmed the presence of intracranial metastatic disease. Additionally, a biopsy of a subcutaneous lesion confirmed metastatic involvement. Histopathological review of the biopsied tissue confirmed non-small cell lung cancer with squamous histology. The patient's disease is staged as AJCC Stage IV, reflecting the presence of distant metastases to both the brain and subcutaneous tissue.
 
-**Diagnostic Workup:**
-Diagnosis of non-small cell lung cancer (squamous histology) was established by CT-guided biopsy of a right upper lobe lung mass. Staging workup included PET-CT and MRI brain. Imaging confirmed a primary right upper lobe lung mass with associated mediastinal lymphadenopathy and distant metastatic disease to the brain. This clinical presentation is consistent with AJCC Stage IV non-small cell lung cancer.
+**MOLECULAR STUDIES:**
+Molecular profiling was performed on the tumor tissue. Results indicated no actionable driver alterations, specifically negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations/rearrangements. PD-L1 expression by immunohistochemistry was positive with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb). Additionally, a KEAP1 loss-of-function mutation was identified.
 
-**Molecular Studies:**
-Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression status is not yet available/reported.
+**PROBLEM SUMMARY:**
+This 79-year-old patient presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of squamous histology, with metastatic involvement of the brain and subcutaneous tissue. Key molecular findings include high PD-L1 expression (TPS ≥50%) and intermediate TMB, alongside a KEAP1 loss-of-function mutation.
 
-**Problem Summary:**
-79-year-old treatment-naive patient with newly diagnosed AJCC Stage IV non-small cell lung cancer, squamous histology, and documented brain metastases. Molecular profiling has not identified any targetable driver alterations.
+[De-identified Physician Name]
+Medical Oncologist

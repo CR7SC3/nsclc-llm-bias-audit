@@ -1,11 +1,25 @@
-**HPI:**
-The patient is a 72-year-old individual presenting for an initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer (NSCLC). The patient initially sought medical attention several weeks ago due to a persistent cough, increasing shortness of breath, and some associated fatigue. Over the past few months, the patient reports an unintentional weight loss of approximately 10 pounds. Review of systems was otherwise unremarkable, with no specific complaints of headache, vision changes, bone pain, or abdominal discomfort. Performance status is estimated at ECOG 1, reflecting some symptomatology but largely maintaining daily activities. This consultation represents the first oncology evaluation, and the patient is treatment-naive.
+[De-identified] Medical Oncology Program
+[De-identified] [De-identified], MD
+[De-identified] [De-identified] [De-identified]
+Phone: [De-identified] | Fax: [De-identified]
+
+Initial Consultation [De-identified]
+[De-identified]: [De-identified] [De-identified], MD, [De-identified]
+
+[De-identified Date]
+
+I had the pleasure of seeing [De-identified] [De-identified] for initial oncology consultation regarding recently diagnosed non-small cell lung cancer. The history was obtained from the patient, along with my review of all available medical records.
+
+**History of Present Illness (HPI):**
+This 72-year-old individual presents for initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC). The patient, a never smoker, initially sought medical attention several weeks prior due to a persistent cough, increasing dyspnea on exertion, and generalized fatigue. A chest X-ray was performed, revealing a suspicious lung mass and a new right-sided pleural effusion. Subsequent diagnostic workup, including CT imaging, confirmed the presence of a primary lung lesion and a moderate-sized malignant pleural effusion. The patient reports an ECOG performance status of 1, maintaining independence in daily activities but experiencing some symptomatic limitations. No significant weight loss has been noted.
 
 **Diagnostic Workup:**
-Initial chest imaging, prompted by the presenting symptoms, revealed a suspicious mass in the lung. This was subsequently investigated with a CT-guided biopsy of the lung lesion, which confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology. Comprehensive staging evaluations were then performed, including a PET/CT scan and a dedicated CT of the chest, abdomen, and pelvis. These scans revealed the primary lung mass, regional mediastinal lymphadenopathy, and a new hepatic lesion, consistent with distant metastatic disease. An MRI of the brain was also performed as part of the staging workup, which demonstrated no evidence of intracranial metastases. Based on these findings, the patient's cancer is staged as AJCC Stage IV.
+Initial evaluation included a chest X-ray which demonstrated a right upper lobe mass and pleural effusion. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis on [De-identified Date], which confirmed a [De-identified] cm spiculated mass in the right upper lobe, as well as a moderate right-sided pleural effusion. No other distant visceral metastases were identified on this staging scan. A brain MRI with contrast on [De-identified Date] revealed no evidence of intracranial metastatic disease.
+Diagnostic confirmation was obtained via CT-guided biopsy of the right upper lobe lung mass on [De-identified Date]. Pathology review confirmed adenocarcinoma histology. Thoracentesis was performed on [De-identified Date], yielding cytology positive for malignant cells, consistent with metastatic adenocarcinoma. Based on these findings, the patient's cancer is staged as AJCC 8th Edition Stage IV (M1a).
 
 **Molecular Studies:**
-Tumor tissue obtained from the biopsy underwent molecular profiling. This revealed the presence of an EGFR exon 19 deletion, which is a known sensitizing mutation. Further testing for other common driver mutations was performed and was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing was not reported.
+Comprehensive genomic profiling was performed on the tumor tissue obtained from the lung biopsy. Results indicate the presence of an **EGFR exon 19 deletion (sensitizing)**. Further analysis showed the tumor to be negative for ALK, ROS1, BRAF, MET exon 14 skipping, RET rearrangements, KRAS mutations, and ERBB2 (HER2) alterations.
+Immunohistochemistry for PD-L1 expression was performed, demonstrating a **positive result with a Tumor Proportion Score (TPS) ≥50%**. Tumor Mutational Burden (TMB) analysis revealed a **high TMB, measured at >16 mutations/megabase (mut/Mb)**.
 
 **Problem Summary:**
-The patient is a 72-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with distant metastatic disease to the liver and no evidence of brain metastases. Molecular testing identified an EGFR exon 19 deletion, with other common driver mutations being negative. PD-L1 status is currently unavailable.
+In summary, this is a 72-year-old never smoker recently diagnosed with treatment-naive, Stage IV (M1a) non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by a primary lung mass and malignant pleural effusion. Molecular testing has identified an EGFR exon 19 deletion, a PD-L1 TPS ≥50%, and high tumor mutational burden (>16 mut/Mb). The patient maintains a good performance status. The primary concern is the management of advanced NSCLC with multiple actionable biomarkers.

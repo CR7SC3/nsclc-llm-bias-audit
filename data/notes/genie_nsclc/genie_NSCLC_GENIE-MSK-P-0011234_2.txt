@@ -1,20 +1,25 @@
-[De-identified] Clinic/Hospital Name
 [De-identified] Medical Oncology
+Consultation Note
 
-**Patient:** 72-year-old
-**MRN:** [De-identified]
-**Date of Visit:** [De-identified]
+Patient: [De-identified]
+DOB: [De-identified]
+MRN: [De-identified]
+Date of Visit: [De-identified]
+Attending: [De-identified]
 
-**Attending:** [De-identified], MD
+HISTORY OF PRESENT ILLNESS:
+The 72-year-old patient presents for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician approximately [De-identified] months ago with a persistent, non-productive cough. A chest X-ray was performed, which revealed a suspicious right upper lobe nodule. This finding prompted further investigation with a CT scan of the chest. The patient reports generally good health prior to this presentation, with no significant weight loss, fevers, chills, or hemoptysis. Performance status is excellent, with the patient maintaining full activity levels and performing all activities of daily living without restriction. The patient is a never smoker.
 
-**HISTORY OF PRESENT ILLNESS:**
-The patient is a 72-year-old individual referred for initial oncology evaluation of newly diagnosed non-small cell lung cancer. The patient first presented to their primary care physician approximately three months ago with a persistent, non-productive cough and mild fatigue. A chest X-ray was performed, which revealed a suspicious right upper lobe lung mass. This prompted further investigation and subsequent referral to pulmonary medicine. The patient reports an ECOG performance status of 1, maintaining most daily activities with some mild symptoms. They deny significant weight loss, hemoptysis, or new onset pain.
+DIAGNOSTIC WORKUP:
+The CT chest performed on [De-identified] revealed a solid, spiculated nodule measuring approximately [De-identified] cm in the right upper lobe, without evidence of significant mediastinal or hilar lymphadenopathy. Subsequent PET/CT scan on [De-identified] demonstrated avid uptake within the right upper lobe lesion, with no evidence of hypermetabolic activity in regional lymph nodes or distant sites. A brain MRI was also performed to exclude intracranial metastatic disease, which was negative.
+A CT-guided biopsy of the right upper lobe lesion was performed on [De-identified]. Pathology confirmed adenocarcinoma of the lung.
+Based on the comprehensive imaging and pathological findings, the patient is diagnosed with Non-Small Cell Lung Cancer, Adenocarcinoma histology, AJCC Stage IB (cT1b N0 M0).
 
-**DIAGNOSTIC WORKUP:**
-Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest was performed, which confirmed a solid mass in the right upper lobe, measuring approximately 3.5 cm in greatest dimension, without evidence of mediastinal lymphadenopathy. A CT-guided biopsy of the right upper lobe mass was subsequently performed, revealing adenocarcinoma of the lung. Further staging workup included a PET/CT scan, which demonstrated FDG avidity only within the primary right upper lobe lesion, with no evidence of distant metabolic activity or regional lymph node involvement beyond what was seen on the chest CT. An MRI of the brain was also performed, which showed no evidence of intracranial metastases. Based on these findings, the patient was diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IB.
+MOLECULAR STUDIES:
+Molecular testing was performed on the tumor biopsy specimen. Results demonstrated an EGFR exon 19 deletion (sensitizing mutation). The tumor was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, and ERBB2 amplification. PD-L1 expression was not tested at the time of initial sequencing, consistent with practices prior to [De-identified] (pre-2017 sequencing). Tumor mutational burden (TMB) was reported as low (<2 mut/Mb).
 
-**MOLECULAR STUDIES:**
-Comprehensive genomic profiling was performed on the tumor tissue. Results indicated the presence of an EGFR exon 19 deletion, which is a sensitizing mutation. Testing for other common driver mutations was negative, specifically ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, and NTRK fusion. PD-L1 expression testing was not reported.
+PROBLEM SUMMARY:
+This is a 72-year-old patient with newly diagnosed, treatment-naive Non-Small Cell Lung Cancer, Adenocarcinoma histology, AJCC Stage IB (cT1b N0 M0). The patient's tumor harbors an EGFR exon 19 deletion. The patient maintains an excellent performance status. The immediate focus is to discuss treatment options for this localized, molecularly-defined lung cancer.
 
-**PROBLEM SUMMARY:**
-This is a 72-year-old patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IB. The patient is treatment-naive. Molecular testing revealed an EGFR exon 19 deletion. No brain metastases are documented. The patient is currently experiencing mild symptoms related to their diagnosis, with an ECOG performance status of 1.
+[De-identified], MD
+Medical Oncologist

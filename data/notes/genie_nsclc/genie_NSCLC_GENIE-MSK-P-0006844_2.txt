@@ -1,15 +1,20 @@
-Date: [De-identified Date]
-Patient Name: [De-identified Patient Name]
-MRN: [De-identified MRN]
+**Patient:** [De-identified Name], 59-year-old
+**MRN:** [De-identified MRN]
+**Date of Visit:** [De-identified Date]
+**Attending Physician:** [De-identified Physician Name], MD
 
-**HPI:**
-[De-identified] is a 59-year-old individual presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient first experienced a persistent cough and mild exertional dyspnea approximately three months prior to presentation. These symptoms gradually worsened, prompting a visit to their primary care physician. Initial evaluation included a chest X-ray, which revealed a suspicious lung mass. The patient reports a generally good performance status, with no significant functional limitations.
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 59-year-old individual presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer (NSCLC). The patient reports experiencing a persistent cough for the past several months, initially attributed to seasonal allergies, but which progressively worsened and became associated with mild dyspnea on exertion. There has been no reported hemoptysis, fevers, or chills. The patient denies significant unintended weight loss or night sweats. Due to the persistence of symptoms, the patient sought evaluation from their primary care physician, which initiated the diagnostic workup. The patient has a past medical history significant for a prior malignancy of melanoma, now resolved. The patient is a never smoker and reports a good functional status, with an ECOG performance status of 0-1, able to perform all usual activities without restriction or with only mild symptoms.
 
-**Diagnostic Workup:**
-Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed, confirming a primary mass in the right upper lobe measuring approximately 4.5 cm. The CT also identified enlarged ipsilateral mediastinal and hilar lymph nodes. A subsequent PET-CT scan demonstrated hypermetabolic activity corresponding to the primary lung lesion and several mediastinal lymph nodes, but no evidence of distant metastatic disease. To further characterize the disease and obtain tissue for diagnosis, a CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology confirmed adenocarcinoma of the lung. An MRI of the brain was also conducted as part of the staging workup, which showed no evidence of intracranial metastases. Based on these findings, the patient's disease is staged as AJCC Stage IIIA non-small cell lung cancer.
+**DIAGNOSTIC WORKUP:**
+Initial diagnostic evaluation included a chest X-ray that revealed a suspicious mass in the left upper lobe. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a primary lung mass measuring approximately 4.5 cm in the left upper lobe, along with several enlarged ipsilateral mediastinal and subcarinal lymph nodes. No evidence of distant metastatic disease was identified in the abdomen or pelvis. A subsequent PET/CT scan demonstrated hypermetabolic activity in the left upper lobe mass and the involved mediastinal/subcarinal lymph nodes, with no other sites of avid disease. Brain MRI was performed to complete staging and was negative for intracranial metastases. A CT-guided core biopsy of the left upper lobe mass was performed, confirming adenocarcinoma histology. Endobronchial ultrasound with transbronchial needle aspiration (EBUS-TBNA) of the enlarged mediastinal lymph nodes also confirmed metastatic adenocarcinoma. Based on these findings, the patient's cancer is staged as AJCC Stage IIIA.
 
-**Molecular Studies:**
-Molecular testing was performed on the tumor tissue. Results indicate the presence of an EGFR exon 19 deletion, which is a known sensitizing mutation. Testing for other common driver mutations was negative, specifically ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, and NTRK fusion. PD-L1 expression testing results are not yet available.
+**MOLECULAR STUDIES:**
+Molecular profiling was performed on the tumor biopsy specimen. Key findings include:
+*   **Actionable Driver Mutation:** EGFR exon 19 deletion (sensitizing).
+*   **Negative for:** ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, ERBB2 (HER2) mutation.
+*   **PD-L1 Expression:** Positive, with a tumor proportion score (TPS) of ≥50%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
 
-**Problem Summary:**
-This 59-year-old individual presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The tumor harbors an EGFR exon 19 deletion. The patient has no documented brain metastases and is now seeking evaluation for further management.
+**PROBLEM SUMMARY:**
+This 59-year-old patient presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The disease involves a primary left upper lobe mass with ipsilateral mediastinal and subcarinal lymph node involvement, without evidence of distant metastasis, including to the brain. Molecular testing revealed a sensitizing EGFR exon 19 deletion, high PD-L1 expression (TPS ≥50%), and intermediate TMB. The patient has a history of prior melanoma. This consultation is for the discussion of further management strategies.

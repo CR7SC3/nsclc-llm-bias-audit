@@ -1,20 +1,13 @@
-[De-identified Clinic Name]
-[De-identified Address]
-[De-identified Phone Number]
+[De-identified] is a 62-year-old individual presenting for initial consultation regarding a recent diagnosis of non-small cell lung cancer (NSCLC). The history was obtained from the patient and review of available medical records.
 
-**PATIENT:** [De-identified Patient Name]
-**DOB:** [De-identified Date]
-**MRN:** [De-identified MRN]
-**DATE OF CONSULTATION:** [De-identified Date]
+**History of Present Illness**
+This generally healthy 62-year-old began experiencing a persistent cough and mild shortness of breath approximately three months prior to presentation. Initially attributed to a viral illness, symptoms gradually worsened, prompting a visit to their primary care physician. A chest X-ray revealed a suspicious mass in the lung, leading to further investigation with a CT scan of the chest. The CT confirmed a primary lung mass and also identified enlarged mediastinal lymph nodes. Subsequent bronchoscopy with transbronchial biopsy of the lung lesion and endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of the mediastinal lymph nodes confirmed the diagnosis of adenocarcinoma. The patient reports maintaining a good performance status, with occasional fatigue but no significant weight loss or other systemic symptoms. They are a former smoker, having quit several years ago. This is the patient's first oncology evaluation, and they are treatment-naive.
 
-**HPI:**
-The patient is a 62-year-old individual referred for initial oncology evaluation of newly diagnosed non-small cell lung cancer (NSCLC). The patient initially presented to their primary care physician with a persistent, non-productive cough of several weeks' duration, accompanied by mild but progressive shortness of breath, particularly with exertion. Over the past two months, the patient also reported a 10-pound unintentional weight loss and generalized fatigue. Review of systems is otherwise unremarkable, with no fevers, chills, night sweats, or hemoptysis. Performance status is currently estimated at ECOG 1.
+**Diagnostic Workup**
+Following the biopsy confirmation of adenocarcinoma, comprehensive staging was performed. A whole-body PET-CT scan identified a hypermetabolic primary lung lesion and metabolically active mediastinal lymph nodes, consistent with locoregional disease. Importantly, no evidence of distant metastatic disease was found on the PET-CT. An MRI of the brain was also performed to evaluate for intracranial metastases, which was negative. Based on these findings, the patient's cancer is staged as AJCC Stage IIIB non-small cell lung cancer. The patient's functional status is excellent, with an ECOG performance status of 0-1.
 
-**Diagnostic Workup:**
-An initial chest X-ray performed on [De-identified Date] revealed a left upper lobe mass, prompting further evaluation. A subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis on [De-identified Date] confirmed a primary solid mass in the left upper lobe, measuring approximately 4.8 cm in its greatest dimension. This imaging also demonstrated significant ipsilateral hilar and extensive mediastinal lymphadenopathy, suggesting locoregional spread. No definitive evidence of distant metastatic disease was identified in the abdomen or pelvis. To further characterize the extent of disease, a PET/CT scan was performed on [De-identified Date], which showed hypermetabolic activity corresponding to the primary left upper lobe mass and the involved hilar and mediastinal lymph nodes. Critically, the PET/CT did not show any hypermetabolic foci suspicious for distant metastases. A dedicated brain MRI with and without contrast was performed on [De-identified Date] to evaluate for intracranial disease, which showed no evidence of brain metastases. A percutaneous, image-guided biopsy of the left upper lobe mass was performed on [De-identified Date], and histopathological analysis confirmed the diagnosis of adenocarcinoma of the lung. Based on the comprehensive staging workup, the patient is diagnosed with AJCC Stage IIIB non-small cell lung cancer.
+**Molecular Studies**
+Molecular profiling of the tumor tissue was performed and revealed no actionable driver alterations, with testing negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusions, KRAS mutations, and ERBB2 (HER2) alterations. Programmed death-ligand 1 (PD-L1) expression was positive, with a tumor proportion score (TPS) of 1–49%. Tumor mutational burden (TMB) was reported as high, at >16 mut/Mb.
 
-**Molecular Studies:**
-Molecular profiling was performed on the tumor biopsy specimen to identify potential driver alterations. The results indicated no actionable driver alterations, specifically negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. PD-L1 expression testing was not reported at the time of this consultation.
-
-**Problem Summary:**
-This 62-year-old patient presents for initial consultation regarding newly diagnosed, treatment-naive, AJCC Stage IIIB non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by locoregional involvement with extensive mediastinal lymphadenopathy, without evidence of distant metastases, and specifically no documented brain metastases. Molecular testing did not identify any actionable driver mutations.
+**Problem Summary**
+The patient is a 62-year-old with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB. Molecular testing indicates no actionable driver alterations, PD-L1 expression of 1–49%, and a high tumor mutational burden (>16 mut/Mb). There is no evidence of distant metastatic disease, including to the brain.

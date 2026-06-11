@@ -1,11 +1,64 @@
-**HPI:**
-[De-identified] is an 81-year-old patient presenting for initial oncology evaluation of newly diagnosed non-small cell lung cancer. The patient first noted a persistent cough and mild dyspnea several weeks ago, which prompted a visit to their primary care physician. Initial evaluation included a chest X-ray, which revealed a suspicious lung mass. The patient reports a good functional status, maintaining independence with daily activities, and an ECOG performance status of 1. There is no reported significant unintentional weight loss or fevers.
+REASON FOR VISIT: Initial oncology consultation for newly diagnosed non-small cell lung cancer.
 
-**Diagnostic Workup:**
-Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This imaging confirmed a primary mass in the right upper lobe of the lung, measuring approximately [plausible size, e.g., 5.5 cm], with associated ipsilateral mediastinal and hilar lymphadenopathy. There was no evidence of distant metastatic disease in the abdomen or pelvis. A subsequent PET/CT scan confirmed increased metabolic activity in the primary lung mass and the involved mediastinal lymph nodes, consistent with malignancy, but again, no evidence of distant metastatic spread. To complete staging, an MRI of the brain was performed, which showed no evidence of intracranial metastatic disease. The diagnosis was confirmed via bronchoscopic biopsy of the lung mass, revealing squamous cell carcinoma. Based on the imaging and biopsy findings, the patient's disease is staged as AJCC Stage IIIB non-small cell lung cancer.
+IDENTIFICATION: [De-identified] is an 81-year-old patient presenting for initial oncology evaluation of newly diagnosed Stage IIIB non-small cell lung cancer.
 
-**Molecular Studies:**
-Comprehensive molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping alterations, RET fusions, and NTRK fusions. PD-L1 expression testing results are not yet available.
+HISTORY OF PRESENT ILLNESS:
+The patient is an 81-year-old current smoker with a significant smoking history, who presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. Approximately three months prior to presentation, the patient began experiencing a persistent cough, which progressed to include increasing shortness of breath with exertion and a generalized sense of fatigue. There was also an unintentional weight loss of approximately 10 pounds over this period. These symptoms prompted a visit to their primary care physician.
 
-**Problem Summary:**
-81-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, squamous cell histology, AJCC Stage IIIB. Diagnostic workup confirmed locoregional disease involving the right upper lobe and ipsilateral mediastinal lymph nodes, without evidence of distant metastases, including no brain metastases. Molecular profiling did not identify any targetable driver alterations. The patient is presenting for initial oncology consultation to discuss further management.
+Initial workup included a chest X-ray, which revealed a suspicious mass in the right upper lobe. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which demonstrated a primary mass measuring approximately 4.5 cm in the right upper lobe, with extensive ipsilateral mediastinal and hilar lymphadenopathy. No distant metastatic disease was identified on this imaging. A subsequent MRI of the brain was performed, which was negative for any intracranial metastases.
+
+A CT-guided biopsy of the lung mass was performed, and pathology confirmed the diagnosis of non-small cell lung cancer, specifically squamous cell carcinoma. Subsequent comprehensive genomic profiling was performed on the tumor tissue.
+
+Molecular Studies:
+Tumor molecular profiling revealed high-level MET amplification. Testing for other common driver mutations was negative, including EGFR, ALK, ROS1, BRAF, MET exon 14 skipping mutations, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not assessed, as this testing was not standard of care at the time of initial sequencing. Tumor mutational burden (TMB) was intermediate (2–16 mut/Mb).
+
+Based on the imaging findings and pathology, the patient is diagnosed with AJCC Stage IIIB non-small cell lung cancer.
+
+Review of Systems:
+Constitutional: Positive for fatigue, unintentional weight loss. Negative for fevers, chills, night sweats.
+Respiratory: Positive for persistent cough, dyspnea on exertion. Negative for hemoptysis, wheezing.
+Cardiovascular: Negative for chest pain, palpitations, leg swelling.
+Gastrointestinal: Negative for nausea, vomiting, diarrhea, constipation, abdominal pain.
+Musculoskeletal: Negative for arthralgias, myalgias, bone pain.
+Neurological: Negative for headache, dizziness, focal weakness, numbness, tingling.
+All other systems reviewed and are negative.
+
+Past Medical History:
+Hypertension
+Hyperlipidemia
+Osteoarthritis
+
+Past Surgical History:
+Cholecystectomy (remote)
+Appendectomy (remote)
+
+Current Medications:
+Lisinopril 10 mg daily
+Atorvastatin 20 mg daily
+Acetaminophen 500 mg as needed for pain
+
+Allergies/Contraindications:
+No known drug allergies.
+
+Social History:
+The patient has a significant smoking history and is a current smoker.
+
+OBJECTIVE ASSESSMENT:
+Physical Exam:
+Vitals: BP 130/80, HR 78, RR 18, Temp 36.8 C, SpO2 96% on room air.
+General: 81-year-old patient, appears somewhat fatigued but in no acute distress. Well-oriented. ECOG Performance Status 1.
+HEENT: Normocephalic, atraumatic. Conjunctivae anicteric. Oropharynx clear.
+Neck: Supple. No palpable lymphadenopathy. Trachea midline.
+Lungs: Decreased breath sounds at the right upper lobe, otherwise clear to auscultation bilaterally. No wheezes, rales, or rhonchi.
+Cardiac: Regular rate and rhythm, no murmurs, rubs, or gallops.
+Abdomen: Soft, non-tender, non-distended. Normoactive bowel sounds. No hepatosplenomegaly.
+Extremities: No clubbing, cyanosis, or edema. Pulses 2+ bilaterally.
+Neurological: Alert and oriented x3. Cranial nerves intact. Motor and sensory intact. No focal deficits.
+
+Diagnostic Workup Summary:
+Imaging: Chest X-ray showed a right upper lobe mass. CT chest, abdomen, pelvis confirmed a primary right upper lobe mass with extensive ipsilateral mediastinal and hilar lymphadenopathy. No distant metastases were identified. MRI brain was negative for intracranial metastases.
+Pathology: Biopsy of the lung mass confirmed squamous cell carcinoma.
+Molecular: Comprehensive genomic profiling demonstrated high-level MET amplification. Negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2. PD-L1 was not tested. TMB was intermediate (2–16 mut/Mb).
+
+Problem Summary:
+[De-identified] is an 81-year-old current smoker with newly diagnosed AJCC Stage IIIB non-small cell lung cancer, squamous histology. The disease is characterized by a right upper lobe primary tumor with extensive ipsilateral mediastinal and hilar lymphadenopathy, without evidence of distant metastatic spread. Molecular testing revealed high-level MET amplification, with other common driver mutations being negative. PD-L1 expression was not assessed, and TMB is intermediate. The patient is treatment-naive and presents for initial oncology evaluation.

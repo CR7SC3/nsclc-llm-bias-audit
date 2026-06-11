@@ -1,12 +1,13 @@
-**HPI:**
-[De-identified] presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. The 47-year-old patient reports a several-month history of a persistent, non-productive cough, mild dyspnea on exertion, and a generalized sense of fatigue. They also note an unintentional weight loss of approximately 5 pounds over the past three months. The patient denies hemoptysis, fevers, chills, or night sweats. Performance status is good, estimated at ECOG 1.
+REASON FOR VISIT/CC: Chief Complaint: Patient presents with non-small cell lung cancer for initial oncology consultation.
 
-**Diagnostic Workup:**
-The patient's initial presentation to their primary care physician for persistent cough led to a chest X-ray, which revealed a right upper lobe mass. This finding prompted a subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a spiculated mass measuring [X cm, e.g., 4.5 cm] in the right upper lobe, along with multiple enlarged and avidly enhancing mediastinal lymph nodes, specifically in the ipsilateral hilar and subcarinal regions. A CT-guided biopsy of the right upper lobe mass was performed, and pathology confirmed the diagnosis of adenocarcinoma.
-For comprehensive staging, a whole-body PET/CT scan was conducted, demonstrating hypermetabolic activity in the primary right upper lobe tumor and the aforementioned mediastinal lymph nodes, consistent with locoregional disease. Importantly, no distant metastatic foci were identified on the PET/CT scan. An MRI of the brain was also performed, which showed no evidence of intracranial metastases. Based on the integration of these findings, the patient is diagnosed with non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB.
+HISTORY OF PRESENT ILLNESS:
+[De-identified] is a 47-year-old individual presenting for initial oncology consultation regarding recently diagnosed non-small cell lung cancer. The patient reports a several-month history of persistent, dry cough and increasing fatigue, which prompted evaluation by their primary care provider. Initial workup included a chest X-ray, which revealed a suspicious lung mass. The patient is a never smoker. Performance status is excellent, estimated at ECOG 0.
 
-**Molecular Studies:**
-Tumor tissue obtained from the biopsy was submitted for comprehensive molecular profiling. The results of this testing indicate no actionable driver alteration, specifically negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF V600E, MET exon 14 skipping alterations, RET rearrangements, and NTRK fusions. PD-L1 expression testing was not reported at the time of this consultation.
+DIAGNOSTIC WORKUP:
+Following the abnormal chest X-ray, the patient underwent a comprehensive diagnostic evaluation. A CT scan of the chest, abdomen, and pelvis confirmed a primary mass in the lung and identified enlarged ipsilateral mediastinal lymph nodes. A subsequent PET/CT scan demonstrated hypermetabolic activity in the primary lung mass and the involved mediastinal lymph nodes, without evidence of distant metastatic disease. Brain MRI was performed and was negative for intracranial metastases. A CT-guided biopsy of the lung mass confirmed the diagnosis of non-small cell lung cancer (NSCLC) with adenocarcinoma histology. Based on these findings, the patient was staged as AJCC Stage IIIB.
 
-**Problem Summary:**
-This is a 47-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB. Molecular profiling reveals no identified actionable driver alterations. There is no evidence of brain metastases. The patient presents for discussion of initial management strategies.
+MOLECULAR STUDIES:
+Molecular profiling on the tumor tissue was performed and revealed no actionable driver alterations, testing negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2 mutations. PD-L1 expression was negative. Tumor mutational burden (TMB) was intermediate, measured at 2–16 mut/Mb.
+
+PROBLEM SUMMARY:
+This is a 47-year-old treatment-naive patient with newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIB. Molecular studies indicate no actionable driver alterations, negative PD-L1 expression, and intermediate tumor mutational burden. The patient is a never smoker with an excellent performance status.
