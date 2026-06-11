@@ -163,6 +163,30 @@ def _classify_braf(hgvsp_list: list[str]) -> str:
     return "negative"
 
 
+def _classify_kras(hgvsp_list: list[str]) -> str:
+    for h in hgvsp_list:
+        if re.search(r"p\.G12C", h, re.IGNORECASE):
+            return "g12c"
+    return "negative"
+
+
+_SMOKING_MAP: dict[str, str] = {
+    "Never used":                   "never smoker",
+    "Current user":                 "current smoker",
+    "Former user (quit >1 year)":   "former smoker (quit >1 year ago)",
+    "Former user (quit < 1 year)":  "former smoker (quit <1 year ago)",
+    "Former user (unknown time)":   "former smoker",
+    "Unknown":                      "unknown smoking history",
+    "":                             "unknown smoking history",
+}
+
+_TMB_MAP: dict[str, str] = {
+    "High (>16)":  "high (>16 mut/Mb)",
+    "Mid (2-16)":  "intermediate (2–16 mut/Mb)",
+    "Low (<2)":    "low (<2 mut/Mb)",
+}
+
+
 def _met_exon14(exon_list: list[str]) -> str:
     for ex in exon_list:
         if "14" in ex:
@@ -239,7 +263,10 @@ def _build_structured_note(
     met      = profile.get("met_status", "negative")
     ret      = profile.get("ret_status", "negative")
     ntrk     = profile.get("ntrk_status", "negative")
+    kras     = profile.get("kras_status", "negative")
     pdl1     = profile.get("pdl1_tps_category", "unknown")
+    tmb      = profile.get("tmb_category", "unknown")
+    smoking  = profile.get("smoking_history", "unknown smoking history")
     brain    = "Yes" if profile.get("brain_mets") else "No"
 
     # Biomarker summary line
@@ -248,6 +275,7 @@ def _build_structured_note(
     if alk     == "positive": drivers.append("ALK fusion")
     if ros1    == "positive": drivers.append("ROS1 fusion")
     if braf    == "v600e":    drivers.append("BRAF V600E")
+    if kras    == "g12c":     drivers.append("KRAS G12C")
     if met     == "exon_14":  drivers.append("MET exon 14 skipping")
     if ret     == "fusion":   drivers.append("RET fusion")
     if ntrk    == "fusion":   drivers.append("NTRK fusion")
@@ -274,13 +302,15 @@ EGFR status: {egfr}
 ALK status: {alk}
 ROS1 status: {ros1}
 BRAF status: {braf}
+KRAS status: {kras}
 MET status: {met}
 RET status: {ret}
 NTRK status: {ntrk}
 PD-L1 TPS: {pdl1}
+TMB: {tmb}
 
 SOCIAL HISTORY:
-Former smoker. No alcohol or illicit drug use reported. Lives independently.
+Smoking history: {smoking}. No alcohol or illicit drug use reported. Lives independently.
 """
 
 
@@ -314,12 +344,13 @@ def load_genie_bpc_nsclc(
     regimens  = read_csv("regimen_cancer_level_dataset.csv")
     mutations = read_tsv("data_mutations_extended.txt")
     fusions   = read_tsv("data_fusions.txt")
+    tmb_rows  = read_tsv("tmb.tsv")
 
     logger.info(
         "Loaded: %d patients, %d cancer records, %d panel tests, "
-        "%d regimens, %d mutations, %d fusions",
+        "%d regimens, %d mutations, %d fusions, %d TMB records",
         len(patients), len(cancers), len(panels),
-        len(regimens), len(mutations), len(fusions),
+        len(regimens), len(mutations), len(fusions), len(tmb_rows),
     )
 
     # ── 2. Build lookup indexes ───────────────────────────────────────────────
@@ -351,6 +382,9 @@ def load_genie_bpc_nsclc(
     fus_by_sample: dict[str, list] = defaultdict(list)
     for f in fusions:
         fus_by_sample[f["Tumor_Sample_Barcode"]].append(f)
+
+    # TMB lookup: sample_id → tmb_bin string
+    tmb_by_sample: dict[str, str] = {r["SAMPLE_ID"]: r["tmb_bin"] for r in tmb_rows}
 
     # ── 3. Process each cancer record ────────────────────────────────────────
 
@@ -514,6 +548,24 @@ def load_genie_bpc_nsclc(
             else ("unknown" if not biomarkers_available else "negative")
         )
 
+        # KRAS G12C
+        kras_status = (
+            _classify_kras(muts_by_gene.get("KRAS", []))
+            if biomarkers_available
+            else "unknown"
+        )
+
+        # TMB — use earliest panel sample that has a TMB record
+        tmb_category = "unknown"
+        for sid in sample_ids:
+            if sid in tmb_by_sample:
+                tmb_category = _TMB_MAP.get(tmb_by_sample[sid], "unknown")
+                break
+
+        # Smoking history
+        smoking_raw = cancer.get("ca_lung_cigarette", "").strip()
+        smoking_history = _SMOKING_MAP.get(smoking_raw, "unknown smoking history")
+
         # Store raw biomarkers for reference
         biomarkers_raw = {
             "egfr_mutations": egfr_hgvsp,
@@ -550,6 +602,9 @@ def load_genie_bpc_nsclc(
             "ntrk_status":        ntrk_status,
             "pdl1_tps_category":  "unknown",  # not available in GENIE BPC
             "brain_mets":         brain_mets,
+            "kras_status":        kras_status,
+            "tmb_category":       tmb_category,
+            "smoking_history":    smoking_history,
         }
 
         # ── Case ID ───────────────────────────────────────────────────────────

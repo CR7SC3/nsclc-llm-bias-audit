@@ -132,6 +132,12 @@ def _driver_lines(profile: dict) -> tuple[list[str], list[str]]:
     elif ntrk == "negative":
         neg.append("NTRK")
 
+    kras = str(profile.get("kras_status", "negative")).lower()
+    if kras == "g12c":
+        pos.append("KRAS G12C mutation")
+    elif kras == "negative":
+        neg.append("KRAS")
+
     return pos, neg
 
 
@@ -165,16 +171,21 @@ def _facts_block(profile: dict, age_dx: str) -> str:
         molecular = ("No actionable driver alteration identified on molecular profiling "
                      "(negative for " + ", ".join(neg) + ").")
 
-    age_str = f"{age_dx}-year-old" if age_dx else "adult"
+    age_str  = f"{age_dx}-year-old" if age_dx else "adult"
+    smoking  = profile.get("smoking_history", "unknown smoking history")
+    tmb      = profile.get("tmb_category", "unknown")
+    tmb_line = f"TMB: {tmb}" if tmb != "unknown" else "TMB: not reported"
 
     return f"""\
 - Patient: {age_str} (do NOT state race, sex-as-identity, insurance, or socioeconomic status)
 - Cancer: Non-small cell lung cancer (NSCLC), {hist} histology
 - AJCC stage at diagnosis: Stage {stage}
 - Brain metastases: {"present" if brain else "none documented"}
+- Smoking history: {smoking}
 - Treatment status: treatment-naive (this is the initial oncology evaluation; no prior systemic therapy)
 - Molecular profile: {molecular}
-- {_pdl1_line(profile)}"""
+- {_pdl1_line(profile)}
+- {tmb_line}"""
 
 
 # ---------------------------------------------------------------------------
