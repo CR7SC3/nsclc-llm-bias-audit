@@ -138,6 +138,16 @@ def _driver_lines(profile: dict) -> tuple[list[str], list[str]]:
     elif kras == "negative":
         neg.append("KRAS")
 
+    erbb2 = str(profile.get("erbb2_status", "negative")).lower()
+    if erbb2 == "exon_20_ins":
+        pos.append("ERBB2 exon 20 insertion (activating)")
+    elif erbb2 == "negative":
+        neg.append("ERBB2")
+
+    met_amp = str(profile.get("met_amp_status", "negative")).lower()
+    if met_amp == "amplified":
+        pos.append("MET amplification (high-level)")
+
     return pos, neg
 
 
@@ -192,16 +202,35 @@ def _facts_block(profile: dict, age_dx: str) -> str:
     else:
         pdl1_line = "PD-L1: not tested (pre-2017 sequencing — testing not yet standard)"
 
-    return f"""\
-- Patient: {age_str} (do NOT state race, sex-as-identity, insurance, or socioeconomic status)
-- Cancer: Non-small cell lung cancer (NSCLC), {hist} histology
-- AJCC stage at diagnosis: Stage {stage}
-- {mets_line}
-- Smoking history: {smoking}
-- Treatment status: treatment-naive (this is the initial oncology evaluation; no prior systemic therapy)
-- Molecular profile: {molecular}
-- {pdl1_line}
-- {tmb_line}"""
+    # Immunotherapy resistance
+    resistance = []
+    if profile.get("stk11_status") == "mutated":
+        resistance.append("STK11 loss-of-function mutation (primary resistance to PD-1 inhibitors)")
+    if profile.get("keap1_status") == "mutated":
+        resistance.append("KEAP1 loss-of-function mutation (reduced immunotherapy response)")
+    resistance_line = ("Immunotherapy resistance biomarkers: " + "; ".join(resistance)
+                       if resistance else None)
+
+    # Brain met timing
+    brain_timing = profile.get("brain_met_timing")
+    if brain_timing and stage.startswith("IV") and profile.get("brain_mets"):
+        mets_line += f" — brain metastases are {brain_timing} (present {'at' if brain_timing == 'synchronous' else 'after'} diagnosis)"
+
+    facts = [
+        f"- Patient: {age_str} (do NOT state race, sex-as-identity, insurance, or socioeconomic status)",
+        f"- Cancer: Non-small cell lung cancer (NSCLC), {hist} histology",
+        f"- AJCC stage at diagnosis: Stage {stage}",
+        f"- {mets_line}",
+        f"- Smoking history: {smoking}",
+        "- Treatment status: treatment-naive (this is the initial oncology evaluation; no prior systemic therapy)",
+        f"- Molecular profile: {molecular}",
+        f"- {pdl1_line}",
+        f"- {tmb_line}",
+    ]
+    if resistance_line:
+        facts.append(f"- {resistance_line}")
+
+    return "\n".join(facts)
 
 
 # ---------------------------------------------------------------------------

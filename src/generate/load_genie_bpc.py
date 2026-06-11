@@ -170,6 +170,26 @@ def _classify_kras(hgvsp_list: list[str]) -> str:
     return "negative"
 
 
+# ERBB2 exon 20 insertions (activating; trastuzumab deruxtecan NCCN Cat 1)
+_ERBB2_EX20_INS_RE = re.compile(
+    r"p\.(Y772_A775dup|G778_P780dup|G776del|A775_G776ins|G778ins|"
+    r"V777_G778ins|P780_Y781ins|G776delins|G777_S779dup|"
+    r"G776C|G776S|G776V|V777L|V777M|L755|S310|R678)",
+    re.IGNORECASE,
+)
+_ERBB2_INS_CLASS_RE = re.compile(r"In_Frame_Ins|dup", re.IGNORECASE)
+
+
+def _classify_erbb2(hgvsp_list: list[str], variant_class_list: list[str]) -> str:
+    """Detect ERBB2 exon 20 activating insertions."""
+    for h, vc in zip(hgvsp_list, variant_class_list):
+        if _ERBB2_EX20_INS_RE.search(h) or (
+            _ERBB2_INS_CLASS_RE.search(vc) and "ins" in h.lower()
+        ):
+            return "exon_20_ins"
+    return "negative"
+
+
 _SMOKING_MAP: dict[str, str] = {
     "Never used":                   "never smoker",
     "Current user":                 "current smoker",
@@ -264,24 +284,46 @@ def _build_structured_note(
     ret      = profile.get("ret_status", "negative")
     ntrk     = profile.get("ntrk_status", "negative")
     kras     = profile.get("kras_status", "negative")
+    erbb2    = profile.get("erbb2_status", "negative")
+    met_amp  = profile.get("met_amp_status", "negative")
+    stk11    = profile.get("stk11_status", "wildtype")
+    keap1    = profile.get("keap1_status", "wildtype")
     pdl1     = profile.get("pdl1_status", "not tested")
     tmb      = profile.get("tmb_category", "unknown")
     smoking  = profile.get("smoking_history", "unknown smoking history")
     mets     = profile.get("mets_sites", [])
+    brain_timing = profile.get("brain_met_timing")
     brain    = "Yes" if profile.get("brain_mets") else "No"
-    mets_str = (", ".join(mets) if mets else "none documented") if stage.startswith("IV") else "N/A (non-metastatic)"
 
-    # Biomarker summary line
+    if stage.startswith("IV"):
+        if mets:
+            mets_str = ", ".join(mets)
+            if brain_timing and "brain" in mets:
+                mets_str += f" (brain mets: {brain_timing})"
+        else:
+            mets_str = "none documented"
+    else:
+        mets_str = "N/A (non-metastatic)"
+
+    # Biomarker summary line — actionable drivers first
     drivers = []
     if egfr   != "negative": drivers.append(f"EGFR {egfr.replace('_',' ')}")
     if alk     == "positive": drivers.append("ALK fusion")
     if ros1    == "positive": drivers.append("ROS1 fusion")
     if braf    == "v600e":    drivers.append("BRAF V600E")
     if kras    == "g12c":     drivers.append("KRAS G12C")
+    if erbb2   == "exon_20_ins": drivers.append("ERBB2 exon 20 insertion")
     if met     == "exon_14":  drivers.append("MET exon 14 skipping")
+    if met_amp == "amplified": drivers.append("MET amplification")
     if ret     == "fusion":   drivers.append("RET fusion")
     if ntrk    == "fusion":   drivers.append("NTRK fusion")
     biomarker_line = ", ".join(drivers) if drivers else "No actionable driver identified"
+
+    # Immunotherapy resistance flags
+    resistance_flags = []
+    if stk11 == "mutated": resistance_flags.append("STK11 loss-of-function (reduced immunotherapy response)")
+    if keap1 == "mutated": resistance_flags.append("KEAP1 loss-of-function (reduced immunotherapy response)")
+    resistance_line = "; ".join(resistance_flags) if resistance_flags else "None identified"
 
     return f"""Patient Name: [De-identified]
 MRN: [De-identified]
@@ -305,11 +347,14 @@ ALK status: {alk}
 ROS1 status: {ros1}
 BRAF status: {braf}
 KRAS status: {kras}
+ERBB2 status: {erbb2}
 MET status: {met}
+MET amplification: {met_amp}
 RET status: {ret}
 NTRK status: {ntrk}
 PD-L1: {pdl1}
 TMB: {tmb}
+Immunotherapy resistance biomarkers: {resistance_line}
 
 SOCIAL HISTORY:
 Smoking history: {smoking}. No alcohol or illicit drug use reported. Lives independently.
@@ -349,13 +394,15 @@ def load_genie_bpc_nsclc(
     fusions        = read_tsv("data_fusions.txt")
     tmb_rows       = read_tsv("tmb.tsv")
     clinical_samp  = read_tsv("data_clinical_sample.txt")
+    cna_rows       = read_tsv("data_CNA.txt")
 
     logger.info(
         "Loaded: %d patients, %d cancer records, %d panel tests, "
-        "%d regimens, %d mutations, %d fusions, %d TMB, %d clinical samples",
+        "%d regimens, %d mutations, %d fusions, %d TMB, %d clinical samples, "
+        "%d CNA gene rows",
         len(patients), len(cancers), len(panels),
         len(regimens), len(mutations), len(fusions), len(tmb_rows),
-        len(clinical_samp),
+        len(clinical_samp), len(cna_rows),
     )
 
     # ── 2. Build lookup indexes ───────────────────────────────────────────────
@@ -390,6 +437,31 @@ def load_genie_bpc_nsclc(
 
     # TMB lookup: sample_id → tmb_bin string
     tmb_by_sample: dict[str, str] = {r["SAMPLE_ID"]: r["tmb_bin"] for r in tmb_rows}
+
+    # CNA lookup: gene → {sample_id: cna_value}
+    # CNA table is gene × sample; build per-gene dicts for relevant genes only
+    _CNA_GENES = {"MET", "ERBB2"}
+    cna_by_gene: dict[str, dict[str, str]] = {}
+    for row in cna_rows:
+        gene = row.get("Hugo_Symbol", "")
+        if gene in _CNA_GENES:
+            cna_by_gene[gene] = {k: v for k, v in row.items() if k != "Hugo_Symbol"}
+
+    # STK11/KEAP1: sample sets with any loss-of-function mutation
+    _LOF_CLASSES = {
+        "Nonsense_Mutation", "Frame_Shift_Del", "Frame_Shift_Ins",
+        "Splice_Site", "Splice_Region", "Translation_Start_Site",
+    }
+    stk11_samples: set[str] = {
+        m["Tumor_Sample_Barcode"] for m in mutations
+        if m.get("Hugo_Symbol") == "STK11"
+        and m.get("Variant_Classification", "") in _LOF_CLASSES
+    }
+    keap1_samples: set[str] = {
+        m["Tumor_Sample_Barcode"] for m in mutations
+        if m.get("Hugo_Symbol") == "KEAP1"
+        and m.get("Variant_Classification", "") in _LOF_CLASSES
+    }
 
     # PD-L1 lookup: sample_id → {"tested": bool, "positive": bool|None}
     pdl1_by_sample: dict[str, dict] = {
@@ -571,6 +643,33 @@ def load_genie_bpc_nsclc(
             else "unknown"
         )
 
+        # ERBB2 exon 20 insertions
+        erbb2_muts = [m for m in all_muts_for_case if m.get("Hugo_Symbol") == "ERBB2"]
+        erbb2_hgvsp = [m.get("HGVSp_Short", "") for m in erbb2_muts]
+        erbb2_vclass = [m.get("Variant_Classification", "") for m in erbb2_muts]
+        erbb2_status = (
+            _classify_erbb2(erbb2_hgvsp, erbb2_vclass)
+            if biomarkers_available
+            else "unknown"
+        )
+
+        # MET amplification (CNA = 2, high-level)
+        met_amp_status = "negative"
+        if biomarkers_available and "MET" in cna_by_gene:
+            met_cna = cna_by_gene["MET"]
+            if any(met_cna.get(sid, "").strip() == "2" for sid in sample_ids):
+                met_amp_status = "amplified"
+
+        # STK11 / KEAP1 loss-of-function
+        stk11_status = (
+            "mutated" if biomarkers_available and any(sid in stk11_samples for sid in sample_ids)
+            else ("unknown" if not biomarkers_available else "wildtype")
+        )
+        keap1_status = (
+            "mutated" if biomarkers_available and any(sid in keap1_samples for sid in sample_ids)
+            else ("unknown" if not biomarkers_available else "wildtype")
+        )
+
         # TMB — use earliest panel sample that has a TMB record
         tmb_category = "unknown"
         for sid in sample_ids:
@@ -601,6 +700,15 @@ def load_genie_bpc_nsclc(
         if _met_yn("dmets_head_neck"): mets_sites.append("head/neck")
         if _met_yn("dmets_pelvis"):  mets_sites.append("pelvis")
         if _met_yn("dmets_extremity"): mets_sites.append("extremity")
+
+        # Brain met timing — synchronous (≤30 days from dx) vs. metachronous
+        brain_met_timing = None
+        if "brain" in mets_sites:
+            days_str = cancer.get("dx_to_dmets_brain_days", "").strip()
+            try:
+                brain_met_timing = "synchronous" if float(days_str) <= 30 else "metachronous"
+            except (ValueError, TypeError):
+                brain_met_timing = "unknown"
 
         # Store raw biomarkers for reference
         biomarkers_raw = {
@@ -641,6 +749,11 @@ def load_genie_bpc_nsclc(
             "brain_mets":         brain_mets,
             "mets_sites":         mets_sites,
             "kras_status":        kras_status,
+            "erbb2_status":       erbb2_status,
+            "met_amp_status":     met_amp_status,
+            "stk11_status":       stk11_status,
+            "keap1_status":       keap1_status,
+            "brain_met_timing":   brain_met_timing,
             "tmb_category":       tmb_category,
             "smoking_history":    smoking_history,
         }
