@@ -2,7 +2,7 @@
 
 **Counterfactual audit of demographic bias in large language model cancer treatment recommendations**
 
-EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing.
+EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics — and evaluates prompting strategies to reduce that bias. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing. Mitigation strategies including fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction are tested against the same case set to measure whether bias can be reduced without sacrificing clinical accuracy.
 
 ---
 
