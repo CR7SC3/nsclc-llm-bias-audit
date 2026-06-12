@@ -113,27 +113,45 @@ Each real GENIE BPC case is transformed into a free-text consultation note throu
 
 ## Pilot Results (n = 50 GENIE BPC NSCLC cases)
 
-A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls per model. Three models completed:
+A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls per model. Three models completed.
 
-### Flip rates
+### NCCN concordance
 
-| Variant | Flash | Flash-Lite |
-|---------|-------|-----------|
-| `native_american_race_only` | 20.5% | 27.7% |
-| `unhoused_patient` | 19.6% | 17.4% |
-| `latina_female_uninsured` | 19.0% | 28.9% |
-| `medicaid_only` | 17.4% | 31.2% |
-| `low_income_patient` | 18.2% | 25.5% |
-| `high_income_patient` | 15.9% | 17.0% |
+Concordance is computed against NCCN Category 1 guidelines using the full set of acceptable answers per case (multiple valid first-line options exist for many profiles, e.g., pembrolizumab monotherapy or chemoimmunotherapy for high PD-L1 Stage IV adenocarcinoma).
 
-Flash-Lite shows ~8 percentage points higher flip rates on average. The more capable Flash model has lower flip rates but a more insidious soft bias pattern.
+| Model | Overall concordance |
+|-------|-------------------|
+| GPT-4o | **84.3%** |
+| Gemini Flash | **77.1%** |
+| Gemini Flash-Lite | **70.0%** |
+
+GPT-4o matches or exceeds the CancerGUIDE synthetic benchmark (~80%) on real de-identified cases. Flash-Lite is the weakest across all tiers.
+
+### Flip rates (overall average across all variants)
+
+| Model | Overall flip rate |
+|-------|-----------------|
+| Gemini Flash-Lite | 23.9% |
+| Gemini Flash | 16.5% |
+| GPT-4o | 11.4% |
+
+Selected variant-level rates:
+
+| Variant | Flash | Flash-Lite | GPT-4o |
+|---------|-------|-----------|--------|
+| `native_american_race_only` | 20.5% | 27.7% | 13.6% |
+| `unhoused_patient` | 19.6% | 17.4% | 11.4% |
+| `latina_female_uninsured` | 19.0% | 28.9% | 11.1% |
+| `medicaid_only` | 17.4% | 31.2% | 9.1% |
+| `low_income_patient` | 18.2% | 25.5% | 11.1% |
+| `high_income_patient` | 15.9% | 17.0% | 6.8% |
 
 ### Flip direction
 
-Among flips, race and SES-disadvantaged groups are systematically **downgraded** toward less aggressive treatment; LGBTQIA+ groups are systematically **upgraded**. Both are bias operating in opposite directions.
+Among flips, race and SES-disadvantaged groups are systematically **downgraded** toward less aggressive treatment; LGBTQIA+ groups are systematically **upgraded**. Both are bias operating in opposite directions. This pattern is consistent across Flash and Flash-Lite; GPT-4o tends to upgrade SES groups rather than downgrade them.
 
-| Variant | Down% | Up% |
-|---------|-------|-----|
+| Variant | Flash Down% | Flash Up% |
+|---------|------------|----------|
 | `unhoused_patient` | 77.8% ▼ | 22.2% |
 | `black_race_only` | 75.0% ▼ | 25.0% |
 | `low_income_patient` | 75.0% ▼ | 25.0% |
@@ -141,33 +159,43 @@ Among flips, race and SES-disadvantaged groups are systematically **downgraded**
 | `transgender_woman` | 33.3% | 66.7% ▲ |
 | `gay_male_patient` | 40.0% | 60.0% ▲ |
 
-### Soft bias — key signals (Gemini Flash)
+### Three distinct failure modes
 
-| Signal | Strongest variants |
-|--------|--------------------|
-| Trial de-emphasis | `uninsured_only` −12%, `non_binary_patient` −12%, `black_race_only` −10% |
-| Cost framing | `latina_female_uninsured` +18%, `low_income_patient` +10% |
-| Adherence concern | `unhoused_patient` +6%, `low_income_patient` +4%, `native_american` +4% |
-| Financial deflection | `low_income_patient` +6%, `latina_female_uninsured` +6% |
-| Access conditionalization | `low_income_patient` +6%, `latina_female_uninsured` +4% |
-| Regimen logistics | `unhoused_patient` +8%, `low_income_patient` +6% |
+The pilot reveals that the three models represent qualitatively different bias patterns — not a simple better/worse ranking:
 
-The SES gradient (unhoused > low-income > 0 for high-income) is consistent across all soft bias dimensions. Race-only variants show minimal financial/logistics signal — access bias is driven by insurance and SES labels, not race alone.
+| Model | Hard flips | Concordance | Soft bias |
+|-------|-----------|-------------|-----------|
+| Flash-Lite | Highest (24%) | Lowest (70%) | Moderate |
+| Flash | Moderate (17%) | Mid (77%) | Directional (downgrades race/SES; trial de-emphasis) |
+| GPT-4o | Lowest (11%) | Highest (84%) | **Most extreme** (cost/adherence language) |
 
-### Flash vs. Flash-Lite soft bias
+**The central finding:** reducing flip rate does not reduce bias — it shifts it from hard clinical decisions to language. GPT-4o appears safest by the headline metric but generates the most extreme soft bias, including `uninsured_only` +88% cost framing, `low_income_patient` +45% adherence concern, and `latina_female_uninsured` +54% cost language.
 
-The two models fail in opposite directions on clinical trial framing. Flash **removes** trial mentions for marginalized patients (−10 to −12%); Flash-Lite **adds** them performatively (+6 to +22%). Both are bias; Flash's pattern is more clinically harmful.
+### Soft bias — key signals
+
+| Signal | Flash | Flash-Lite | GPT-4o |
+|--------|-------|-----------|--------|
+| Trial de-emphasis (`uninsured_only`) | −12% | +10% | −4% |
+| Trial de-emphasis (`black_race_only`) | −10% | +6% | −13% |
+| Cost framing (`low_income_patient`) | +10% | +48% | **+62%** |
+| Cost framing (`uninsured_only`) | +12% | +32% | **+88%** |
+| Adherence concern (`unhoused_patient`) | +6% | +12% | **+43%** |
+| Financial deflection (`uninsured_only`) | +2% | +16% | **+35%** |
+
+Flash and Flash-Lite fail in opposite directions on trial mentions: Flash removes them for marginalized patients; Flash-Lite adds them performatively. GPT-4o's cost and adherence signals are 3–7× larger than Flash's on SES variants.
+
+The SES gradient (unhoused > low-income > 0 for high-income) is consistent across all soft bias dimensions and all three models. Race-only variants show minimal financial/logistics signal — access bias is primarily driven by insurance and SES labels.
 
 ---
 
 ## Models Tested
 
-| Model | Provider | Pilot50 status |
-|-------|----------|----------------|
-| `gemini-2.5-flash` | Google | Complete |
-| `gemini-2.5-flash-lite` | Google | Complete |
-| `gpt-4o` | OpenAI | In progress |
-| `llama-3.3-70b-versatile` | Groq / Meta | Pending (Together.ai for full run) |
+| Model | Provider | Pilot50 status | Concordance | Flip rate |
+|-------|----------|----------------|-------------|-----------|
+| `gemini-2.5-flash` | Google | Complete | 77.1% | 16.5% |
+| `gemini-2.5-flash-lite` | Google | Complete | 70.0% | 23.9% |
+| `gpt-4o` | OpenAI | Complete | 84.3% | 11.4% |
+| `llama-3.3-70b-versatile` | Meta | Pending (Together.ai) | — | — |
 
 All models use the same pipeline, prompt, and variant set. The factory in `src/models/factory.py` routes model names to the appropriate API client. Supported: Gemini, OpenAI, Anthropic, Groq (free tier), Together.ai.
 

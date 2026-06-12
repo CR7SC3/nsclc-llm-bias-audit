@@ -32,6 +32,7 @@ FIGURES_DIR.mkdir(exist_ok=True)
 CASES_PATH = Path("data/processed/genie_bpc_nsclc_pilot50_with_notes.json")
 FLASH_PATH = Path("results/baseline/v2_genie_bpc_nsclc_pilot50_results.json")
 LITE_PATH  = Path("results/baseline/v2_genie_bpc_nsclc_pilot50_gemini-2.5-flash-lite_results.json")
+GPT4O_PATH = Path("results/baseline/v2_genie_bpc_nsclc_pilot50_gpt-4o_results.json")
 
 REFERENCE = "no_demographics"
 BENCHMARK_GPT4O = 0.80   # CancerGUIDE GPT-4o concordance
@@ -141,9 +142,10 @@ def wilson(p: float, n: int) -> tuple[float, float]:
     return max(0, centre - margin), min(1, centre + margin)
 
 
-def make_figure(flash: dict, lite: dict, case_map: dict, fmt: str = "png") -> None:
+def make_figure(flash: dict, lite: dict, case_map: dict, fmt: str = "png", gpt4o: dict | None = None) -> None:
     flash_conc = concordance_by_variant(flash, case_map)
     lite_conc  = concordance_by_variant(lite, case_map)
+    gpt_conc   = concordance_by_variant(gpt4o, case_map) if gpt4o else flash_conc
 
     fig, (axA, axB) = plt.subplots(
         1, 2, figsize=(16, 9), gridspec_kw={"width_ratios": [2.2, 1]})
@@ -200,24 +202,29 @@ def make_figure(flash: dict, lite: dict, case_map: dict, fmt: str = "png") -> No
                   flash_conc[REFERENCE]["correct"] / flash_conc[REFERENCE]["total"]]
     lite_vals  = [overall(lite_conc),
                   lite_conc[REFERENCE]["correct"] / lite_conc[REFERENCE]["total"]]
+    gpt_vals   = [overall(gpt_conc),
+                  gpt_conc[REFERENCE]["correct"] / gpt_conc[REFERENCE]["total"]]
     for k, variants in TIERS.items():
         flash_vals.append(tier_rate(flash_conc, variants))
         lite_vals.append(tier_rate(lite_conc, variants))
+        gpt_vals.append(tier_rate(gpt_conc, variants))
 
     yb = np.arange(len(groups))[::-1]
-    h = 0.36
-    axB.barh(yb + h / 2, flash_vals, height=h, color="#4477AA", label="Flash")
-    axB.barh(yb - h / 2, lite_vals,  height=h, color="#EE9944", label="Flash-Lite")
-    for yi, fv, lv in zip(yb, flash_vals, lite_vals):
-        axB.text(fv + 0.01, yi + h / 2, f"{fv:.0%}", va="center", fontsize=8)
-        axB.text(lv + 0.01, yi - h / 2, f"{lv:.0%}", va="center", fontsize=8)
+    h = 0.26
+    axB.barh(yb + h,       flash_vals, height=h, color="#4477AA", label="Flash")
+    axB.barh(yb,           gpt_vals,   height=h, color="#228833", label="GPT-4o")
+    axB.barh(yb - h,       lite_vals,  height=h, color="#EE9944", label="Flash-Lite")
+    for yi, fv, gv, lv in zip(yb, flash_vals, gpt_vals, lite_vals):
+        axB.text(fv + 0.01, yi + h,  f"{fv:.0%}", va="center", fontsize=7)
+        axB.text(gv + 0.01, yi,      f"{gv:.0%}", va="center", fontsize=7)
+        axB.text(lv + 0.01, yi - h,  f"{lv:.0%}", va="center", fontsize=7)
 
     axB.axvline(BENCHMARK_GPT4O, color="#333", ls="--", lw=1.1, zorder=0)
     axB.set_yticks(yb)
     axB.set_yticklabels(groups, fontsize=9)
     axB.set_xlim(0, 1.0)
     axB.set_xlabel("NCCN concordance rate", fontsize=10)
-    axB.set_title("B · Flash vs Flash-Lite\nconcordance after scorer fixes",
+    axB.set_title("B · 3-model concordance comparison",
                   fontsize=11, loc="left")
     axB.legend(fontsize=9, loc="lower right")
     axB.grid(axis="x", alpha=0.25)
@@ -231,8 +238,9 @@ def make_figure(flash: dict, lite: dict, case_map: dict, fmt: str = "png") -> No
     fig.savefig(out, dpi=200, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(f"Saved: {out}")
-    print(f"  Flash overall:   {overall(flash_conc):.1%}")
-    print(f"  Lite overall:    {overall(lite_conc):.1%}")
+    print(f"  Flash overall:    {overall(flash_conc):.1%}")
+    print(f"  GPT-4o overall:   {overall(gpt_conc):.1%}")
+    print(f"  Lite overall:     {overall(lite_conc):.1%}")
 
 
 if __name__ == "__main__":
@@ -244,4 +252,5 @@ if __name__ == "__main__":
     case_map = {c["case_id"]: c for c in cases}
     flash = json.loads(FLASH_PATH.read_text())
     lite  = json.loads(LITE_PATH.read_text())
-    make_figure(flash, lite, case_map, fmt=args.format)
+    gpt4o = json.loads(GPT4O_PATH.read_text())
+    make_figure(flash, lite, case_map, fmt=args.format, gpt4o=gpt4o)
