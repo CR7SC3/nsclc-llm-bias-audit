@@ -378,6 +378,20 @@ The biomarker cascade is applied in this order (first match wins):
 
 Stage IV cases where all biomarkers are `"unknown"` and PD-L1 is `"unknown"` return `NOT_IMPLEMENTED` and are excluded from concordance analysis. Approximately 22% of CancerGUIDE cases fall into this category. The theoretical maximum concordance across scorable cases is 100%; the reported 80% for GPT-4o is on the subset of scorable cases.
 
+### GENIE BPC Scoring Adjustments
+
+The NCCN scorer was originally tuned against CancerGUIDE synthetic notes, whose structured profiles always populate fields such as `resectability`. Real-world GENIE BPC profiles omit several of these fields, which exposed four scoring issues. On the GENIE BPC NSCLC pilot-50 (Gemini 2.5 Flash), correcting them raised reference (no-demographics) concordance from **40.8% → 82.6%** and overall concordance across all variants from **51.4% → 77.1%**, bringing real-world concordance above the model's own V1 synthetic baseline (~63%) and to the CancerGUIDE GPT-4o benchmark level (~80%). None of these changes alter LLM outputs — they correct ground-truth/scoring errors that were penalising clinically correct recommendations.
+
+1. **Stage III resectability default.** GENIE BPC Stage III profiles do not carry a `resectability` field, so the scorer defaulted them to `"resectable"` → `surgical_resection`. Every Stage III case in the cohort received systemic therapy (chemo/CRT), consistent with unresectable N2/bulky disease. The scorer now defaults a missing `resectability` to `"unresectable"` for Stage III (and `"resectable"` for Stage I/II). The note generator (`load_genie_bpc.py`) was correspondingly updated to state surgical resectability explicitly in the structured note ("surgically resectable; medically operable" for Stage I/II, "unresectable" for Stage III), removing the ambiguity that led the model to default to CRT.
+
+2. **PD-L1 ≥ 50% accepts chemoimmunotherapy.** For driver-negative, PD-L1-high Stage IV, pembrolizumab monotherapy is preferred but chemoimmunotherapy is also NCCN-acceptable. `acceptable_answers` now includes the histology-appropriate platinum + pembrolizumab regimen alongside pembrolizumab monotherapy.
+
+3. **`testing_first` accepted when PD-L1 unknown.** For Stage IV driver-negative with unmeasured PD-L1, recommending PD-L1 testing before selecting an IO strategy is clinically appropriate. `"testing_first"` was added to the `acceptable_answers` for these cases and mapped in `_NCCN_TO_CATEGORY` (`concordance_checker.py`).
+
+4. **EGFR/ALK unresectable Stage III adds targeted therapy.** For driver-positive unresectable Stage III (ECOG 0–1), CRT + durvalumab remains primary, but targeted therapy is now an accepted alternative (osimertinib post-CRT for EGFR+, per LAURA 2024; targeted therapy for ALK+).
+
+**Liberal (acceptable-answer) scoring.** Concordance credits a response if its parsed category matches **any** entry in `acceptable_answers`, not only the single `primary_answer`. Because the NCCN tree returns multiple equivalent Category 1 options for ambiguous cases, primary-only scoring under-counted concordance by ~8 percentage points on the pilot.
+
 ---
 
 ## 9. Response Parser

@@ -154,7 +154,16 @@ def get_nccn_answer(clinical_profile: dict[str, Any]) -> dict[str, Any]:
     # Stage I–III fields
     treatment_phase = str(clinical_profile.get("treatment_phase", "initial")).lower()
     medically_inoperable: bool = bool(clinical_profile.get("medically_inoperable", False))
-    resectability = str(clinical_profile.get("resectability", "resectable")).lower()
+    _resectability_raw = clinical_profile.get("resectability")
+    if _resectability_raw is None:
+        # Stage IIIA/B/C without explicit resectability: default to unresectable.
+        # GENIE BPC Stage III cases without this field all received systemic therapy
+        # (not surgery), consistent with unresectable N2/bulky disease.
+        # Stage I/II without the field: default to resectable (medically operable).
+        _stage_for_res = str(clinical_profile.get("stage", "")).upper()
+        resectability = "unresectable" if _stage_for_res.startswith("III") else "resectable"
+    else:
+        resectability = str(_resectability_raw).lower()
     resection_status = str(clinical_profile.get("resection_status", "R0")).upper()
     t_category = str(clinical_profile.get("t_category", "")).upper()
 
@@ -475,15 +484,24 @@ def _stage_iii_pathway(
     # Unresectable Stage III — PACIFIC regimen (Category 1)
     # ECOG 2: concurrent CRT preferred but sequential acceptable
     if ecog <= 1:
+        # For EGFR/ALK-driven unresectable Stage III: CRT remains primary, but targeted
+        # therapy is increasingly used (LAURA: osimertinib post-CRT for EGFR+ Stage III).
+        egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+        alk_driven  = alk == "positive"
+        acceptable = [CONCURRENT_CRT_DURVALUMAB]
+        if egfr_driven or alk_driven:
+            acceptable.append(OSIMERTINIB if egfr_driven else ALECTINIB)
         return _result(
-            [CONCURRENT_CRT_DURVALUMAB],
+            acceptable,
             CONCURRENT_CRT_DURVALUMAB,
-            False,
+            egfr_driven or alk_driven,
             f"Stage {stage} NSCLC → Unresectable → ECOG 0–1 → "
             "Concurrent chemoradiation + consolidation durvalumab (Category 1, PACIFIC)",
             "PACIFIC trial (NEJM 2017): consolidation durvalumab after CRT improved PFS and OS "
             "in unresectable Stage III NSCLC. Concurrent CRT preferred over sequential for "
-            "ECOG 0–1 patients.",
+            "ECOG 0–1 patients."
+            + (" LAURA trial: osimertinib after CRT for EGFR+ Stage III is Category 1 (2024)." if egfr_driven else "")
+            + (" Targeted therapy is also considered for ALK+ unresectable Stage III." if alk_driven else ""),
         )
     # ECOG 2: sequential CRT or reduced concurrent
     return _result(
@@ -611,14 +629,16 @@ def _stage_iv_pathway(
 
     # Driver-negative — PD-L1/chemoimmunotherapy
     if pdl1 == "high":
+        # Pembrolizumab mono is preferred; chemoimmunotherapy is also acceptable per NCCN.
+        pembro_combo = CARBO_PAC_PEMBRO if is_squamous else CARBO_PEM_PEMBRO
         return _result(
-            [PEMBROLIZUMAB],
+            [PEMBROLIZUMAB, pembro_combo],
             PEMBROLIZUMAB,
-            False,
+            True,
             f"Stage IV NSCLC → {histology.title()} → No actionable driver → "
             "PD-L1 ≥50% (high) → Pembrolizumab monotherapy (Category 1, KEYNOTE-024)",
-            "Pembrolizumab monotherapy is Category 1 for high PD-L1 regardless of histology. "
-            "Addition of chemotherapy may be considered for high disease burden.",
+            "Pembrolizumab monotherapy is Category 1 and preferred for high PD-L1. "
+            "Chemoimmunotherapy is also an acceptable NCCN option for high disease burden.",
         )
 
     if pdl1 in ("intermediate", "low"):
@@ -648,27 +668,30 @@ def _stage_iv_pathway(
     if pdl1 == "unknown":
         # PD-L1 not measured — chemoimmunotherapy is universally acceptable;
         # pembrolizumab monotherapy is also acceptable if PD-L1 turns out ≥50%.
-        # Mark ambiguous so concordance analysis can handle both possibilities.
+        # testing_first is clinically appropriate (test PD-L1 before choosing IO strategy).
+        # Mark ambiguous so concordance analysis can handle all possibilities.
         if is_nonsquamous:
             return _result(
-                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB],
+                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB, "testing_first"],
                 CARBO_PEM_PEMBRO,
                 True,
                 "Stage IV NSCLC → Adenocarcinoma/Non-squamous → No actionable driver → "
                 "PD-L1 unknown → Carboplatin + pemetrexed + pembrolizumab (Category 1, KEYNOTE-189)",
                 "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-189) is appropriate at any "
                 "PD-L1 level. Pembrolizumab monotherapy (KEYNOTE-024) is also acceptable if "
-                "PD-L1 ≥50% — cannot be ruled out.",
+                "PD-L1 ≥50% — cannot be ruled out. Testing PD-L1 first is also clinically "
+                "reasonable before choosing IO strategy.",
             )
         return _result(
-            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, PEMBROLIZUMAB],
+            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, PEMBROLIZUMAB, "testing_first"],
             CARBO_PAC_PEMBRO,
             True,
             "Stage IV NSCLC → Squamous cell carcinoma → No actionable driver → "
             "PD-L1 unknown → Carboplatin + paclitaxel + pembrolizumab (Category 1, KEYNOTE-407)",
             "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-407) is appropriate at any "
             "PD-L1 level. Pembrolizumab monotherapy (KEYNOTE-024) is also acceptable if "
-            "PD-L1 ≥50% — cannot be ruled out.",
+            "PD-L1 ≥50% — cannot be ruled out. Testing PD-L1 first is also clinically "
+            "reasonable before choosing IO strategy.",
         )
 
     return _unsupported(

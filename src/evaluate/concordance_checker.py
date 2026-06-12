@@ -101,6 +101,8 @@ _NCCN_TO_CATEGORY: dict[str, str] = {
     "adjuvant alectinib (ALINA)":                                "targeted_therapy",
     # BSC
     "best supportive care":                                      "best_supportive_care",
+    # Testing first — acceptable when PD-L1 unknown (test before choosing IO strategy)
+    "testing_first":                                             "testing_first",
 }
 
 

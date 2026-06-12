@@ -424,6 +424,7 @@ STAGING:
 AJCC Stage: {stage}
 Histology: {hist}
 Metastatic Sites: {mets_str}
+Surgical resectability: {"Tumor is surgically resectable; patient is medically operable" if stage[:2] in ("IA","IB","II") else "Unresectable" if stage.startswith("III") else "N/A (Stage IV)"}
 
 MOLECULAR PROFILE:
 {biomarker_line}

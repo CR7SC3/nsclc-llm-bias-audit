@@ -198,7 +198,8 @@ def compute_stats(data: dict) -> list[dict]:
 
 
 def make_figure(rows: list[dict], ref_trial: float, ref_cost: float,
-                ref_sw: float, n: int, fmt: str = "png") -> None:
+                ref_sw: float, n: int, fmt: str = "png", tag: str = "",
+                model_label: str = "gemini-2.5-flash-lite") -> None:
     fig, axes = plt.subplots(
         1, 3, figsize=(17, 11),
         gridspec_kw={"width_ratios": [2.5, 1, 1]},
@@ -235,7 +236,7 @@ def make_figure(rows: list[dict], ref_trial: float, ref_cost: float,
     ax_flip.set_xlabel("Flip rate vs no-demographics (%)", fontsize=10)
     ax_flip.set_title(
         f"(A)  Treatment recommendation flip rate\n"
-        f"GENIE BPC NSCLC pilot — {n} real cases, gemini-2.5-flash-lite",
+        f"GENIE BPC NSCLC pilot — {n} real cases, {model_label}",
         fontsize=10, fontweight="bold", pad=10,
     )
     ax_flip.spines[["top", "right"]].set_visible(False)
@@ -336,7 +337,7 @@ def make_figure(rows: list[dict], ref_trial: float, ref_cost: float,
     fig.legend(handles=handles, loc="lower center", ncol=3, fontsize=8.5,
                frameon=False, bbox_to_anchor=(0.5, -0.03))
 
-    out = FIGURES_DIR / f"fig_genie_pilot50_bias.{fmt}"
+    out = FIGURES_DIR / f"fig_genie_pilot50_bias{tag}.{fmt}"
     fig.savefig(out, dpi=200, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(f"Saved: {out}")
@@ -345,9 +346,16 @@ def make_figure(rows: list[dict], ref_trial: float, ref_cost: float,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--format", choices=["png", "pdf"], default="png")
+    parser.add_argument("--results", default=str(RESULTS_PATH),
+                        help="Path to v2 results/checkpoint JSON")
+    parser.add_argument("--tag", default="",
+                        help="Suffix for output filename (e.g. '_flash')")
+    parser.add_argument("--model-label", default="gemini-2.5-flash-lite",
+                        help="Model name shown in figure title")
     args = parser.parse_args()
 
-    raw = json.loads(RESULTS_PATH.read_text())
+    raw = json.loads(Path(args.results).read_text())
     n   = len(raw)
     rows, ref_trial, ref_cost, ref_sw = compute_stats(raw)
-    make_figure(rows, ref_trial, ref_cost, ref_sw, n, fmt=args.format)
+    make_figure(rows, ref_trial, ref_cost, ref_sw, n, fmt=args.format, tag=args.tag,
+                model_label=args.model_label)
