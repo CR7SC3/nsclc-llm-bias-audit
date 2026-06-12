@@ -90,11 +90,13 @@ def main() -> None:
 
     # ── Authenticate ──────────────────────────────────────────────────────────
     syn = synapseclient.Synapse()
-    print("Synapse login (use your username + password, or a Personal Access Token as password).")
-    username = input("Username: ").strip()
-    password = getpass.getpass("Password / PAT: ")
+    print("Synapse login — enter your Personal Access Token (PAT).")
+    print("Generate one at: www.synapse.org → your profile → Access Tokens")
+    print("(PAT needs View, Download, and Modify scopes)\n")
+    pat = getpass.getpass("Personal Access Token: ").strip()
     try:
-        syn.login(username, password, silent=True)
+        # synapseclient v4+ removed password auth; PATs must be passed as authToken.
+        syn.login(authToken=pat, silent=True)
         print("Logged in.\n")
     except Exception as exc:
         print(f"Login failed: {exc}")
