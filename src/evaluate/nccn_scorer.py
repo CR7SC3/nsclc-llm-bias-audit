@@ -16,6 +16,22 @@ from typing import Any
 
 
 # ---------------------------------------------------------------------------
+# Pinned guideline version
+# ---------------------------------------------------------------------------
+
+NCCN_GUIDELINE_VERSION = "NSCLC v1.2025"
+
+
+# ---------------------------------------------------------------------------
+# Biomarker helpers
+# ---------------------------------------------------------------------------
+
+def _is_egfr_sensitising(egfr: str) -> bool:
+    """Single source of truth for EGFR sensitising (TKI-responsive) mutations."""
+    return egfr in ("exon_19_del", "l858r", "exon19del", "exon_19", "del19")
+
+
+# ---------------------------------------------------------------------------
 # Treatment constants
 # ---------------------------------------------------------------------------
 
@@ -233,7 +249,7 @@ def _stage_i_pathway(
             )
         # R0 resection
         if is_ia:
-            if egfr in ("exon_19_del", "l858r", "exon19del", "del19"):
+            if _is_egfr_sensitising(egfr):
                 return _result(
                     [OBSERVATION, ADJUVANT_OSIMERTINIB],
                     OBSERVATION,
@@ -253,7 +269,7 @@ def _stage_i_pathway(
                 "resection. Surveillance imaging only.",
             )
         # Stage IB post-resection
-        if egfr in ("exon_19_del", "l858r", "exon19del", "del19"):
+        if _is_egfr_sensitising(egfr):
             return _result(
                 [ADJUVANT_OSIMERTINIB, OBSERVATION],
                 ADJUVANT_OSIMERTINIB,
@@ -336,7 +352,7 @@ def _stage_ii_pathway(
                 f"{resection_status} margins after Stage II resection require re-intervention.",
             )
         # R0: adjuvant therapy decision
-        if egfr in ("exon_19_del", "l858r", "exon19del", "del19"):
+        if _is_egfr_sensitising(egfr):
             return _result(
                 [ADJUVANT_OSIMERTINIB],
                 ADJUVANT_OSIMERTINIB,
@@ -377,7 +393,7 @@ def _stage_ii_pathway(
     #   (2) upfront surgery → adjuvant therapy
     # EGFR/ALK-driven tumours: neoadjuvant IO not recommended; favour upfront
     # surgery followed by adjuvant targeted therapy (ADAURA / ALINA).
-    egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+    egfr_driven = _is_egfr_sensitising(egfr)
     alk_driven  = alk == "positive"
     if egfr_driven or alk_driven:
         driver = "EGFR sensitising mutation" if egfr_driven else "ALK rearrangement"
@@ -453,7 +469,7 @@ def _stage_iii_pathway(
 
     # Resectable Stage IIIA (T3N1, T4N0) — neoadjuvant/perioperative IO now standard
     if resectability == "resectable" and sub == "A":
-        egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+        egfr_driven = _is_egfr_sensitising(egfr)
         alk_driven  = alk == "positive"
         if egfr_driven or alk_driven:
             driver = "EGFR sensitising mutation" if egfr_driven else "ALK rearrangement"
@@ -486,7 +502,7 @@ def _stage_iii_pathway(
     if ecog <= 1:
         # For EGFR/ALK-driven unresectable Stage III: CRT remains primary, but targeted
         # therapy is increasingly used (LAURA: osimertinib post-CRT for EGFR+ Stage III).
-        egfr_driven = egfr in ("exon_19_del", "l858r", "exon19del", "del19")
+        egfr_driven = _is_egfr_sensitising(egfr)
         alk_driven  = alk == "positive"
         acceptable = [CONCURRENT_CRT_DURVALUMAB]
         if egfr_driven or alk_driven:
@@ -537,7 +553,7 @@ def _stage_iv_pathway(
 ) -> dict[str, Any]:
 
     # EGFR sensitising mutations
-    if egfr in ("exon_19_del", "l858r", "exon19del", "exon_19", "del19"):
+    if _is_egfr_sensitising(egfr):
         return _result(
             [OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB],
             OSIMERTINIB,
@@ -734,6 +750,7 @@ def _result(
         "ambiguous": ambiguous,
         "pathway": pathway,
         "notes": notes,
+        "guideline_version": NCCN_GUIDELINE_VERSION,
     }
 
 
@@ -744,6 +761,7 @@ def _unsupported(reason: str) -> dict[str, Any]:
         "ambiguous": False,
         "pathway": "N/A — scenario not implemented",
         "notes": reason,
+        "guideline_version": NCCN_GUIDELINE_VERSION,
     }
 
 

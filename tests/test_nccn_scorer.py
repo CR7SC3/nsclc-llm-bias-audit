@@ -236,10 +236,16 @@ class TestAdenocarcinomaPDL1Pathways:
     """Adenocarcinoma, all drivers negative — NCCN reference §2.1"""
 
     def test_adeno_pdl1_high_gives_pembrolizumab_monotherapy(self):
-        """Adeno + PD-L1 ≥50% → pembrolizumab mono (Category 1, KEYNOTE-024)."""
+        """Adeno + PD-L1 ≥50% → pembrolizumab mono preferred (Category 1, KEYNOTE-024).
+
+        Ambiguous because chemoimmunotherapy is also an NCCN-acceptable option for
+        high disease burden; both appear in acceptable_answers.
+        """
         result = get_nccn_answer(_base_profile(pdl1_tps_category="high"))
         assert result["primary_answer"] == PEMBROLIZUMAB
-        assert result["ambiguous"] is False
+        assert result["ambiguous"] is True
+        assert PEMBROLIZUMAB in result["acceptable_answers"]
+        assert CARBO_PEM_PEMBRO in result["acceptable_answers"]
 
     def test_adeno_pdl1_intermediate_gives_chemoimmunotherapy(self):
         """Adeno + PD-L1 1–49% → carbo/pem/pembro (Category 1, KEYNOTE-189)."""
