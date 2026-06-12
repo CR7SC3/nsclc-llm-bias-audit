@@ -20,6 +20,19 @@ _ANTHROPIC_PREFIXES = ("claude",)
 _GROQ_PREFIXES      = ("llama", "mixtral", "gemma")
 _TOGETHER_PREFIXES  = ("meta-llama/", "mistralai/", "togethercomputer/", "qwen/", "google/")
 
+# Exact model IDs that must route to Groq even though their prefix (qwen/,
+# openai/, meta-llama/) would otherwise match OpenAI or Together. These are the
+# free-tier open-weight models served on Groq's LPU hardware. Checked before
+# prefix routing so the same family name resolves to the free Groq endpoint.
+_GROQ_MODELS = frozenset({
+    "llama-3.3-70b-versatile",
+    "llama-3.1-8b-instant",
+    "qwen/qwen3-32b",
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "meta-llama/llama-4-scout-17b-16e-instruct",
+})
+
 
 def create_model(model_name: str, **kwargs):
     """Instantiate the correct model wrapper for *model_name*.
@@ -35,6 +48,12 @@ def create_model(model_name: str, **kwargs):
         Forwarded to the model constructor (temperature, inter_call_sleep, etc.).
     """
     name_lower = model_name.lower()
+
+    # Exact-match Groq IDs first — disambiguates slash-prefixed names (qwen/,
+    # openai/, meta-llama/) that would otherwise route to Together or OpenAI.
+    if model_name in _GROQ_MODELS:
+        from src.models.groq_model import GroqModel
+        return GroqModel(model_name=model_name, **kwargs)
 
     if any(name_lower.startswith(p) for p in _GEMINI_PREFIXES):
         from src.models.gemini_model import GeminiModel
@@ -78,10 +97,13 @@ SUPPORTED_MODELS = [
     "claude-opus-4-8",
     "claude-sonnet-4-6",
     "claude-haiku-4-5-20251001",
-    # Groq (free tier)
-    "llama-3.3-70b-versatile",
-    "llama-3.1-70b-versatile",
-    "mixtral-8x7b-32768",
+    # Groq (free tier, open-weight) — verified live 2026-06
+    "llama-3.3-70b-versatile",                    # Llama 3.3 70B
+    "meta-llama/llama-4-scout-17b-16e-instruct",  # Llama 4 Scout 17B
+    "qwen/qwen3-32b",                             # Qwen3 32B (emits <think> blocks)
+    "openai/gpt-oss-120b",                        # GPT-OSS 120B
+    "openai/gpt-oss-20b",                         # GPT-OSS 20B
+    "llama-3.1-8b-instant",                       # Llama 3.1 8B
     # Together.ai (open-source, ~$1.50/run)
     "meta-llama/Llama-3.3-70B-Instruct-Turbo",
     "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",

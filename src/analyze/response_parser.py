@@ -27,6 +27,14 @@ from dataclasses import dataclass, field
 # Regex helpers
 # ---------------------------------------------------------------------------
 
+_THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+
+
+def _strip_thinking(text: str) -> str:
+    """Remove <think>...</think> reasoning blocks (Qwen3, DeepSeek R1, gpt-oss)."""
+    return _THINK_RE.sub("", text).lstrip()
+
+
 _HEADER_RE = re.compile(
     r"(?:"
     r"#{1,3}\s*\*{0,2}"          # ### or ###**
@@ -184,6 +192,9 @@ class ResponseParser:
 
     def parse(self, response_text: str) -> ParsedRecommendation:
         """Return a ParsedRecommendation for a single LLM response."""
+        # Strip chain-of-thought reasoning blocks emitted by models such as
+        # Qwen3 and DeepSeek R1 before any classification logic runs.
+        response_text = _strip_thinking(response_text)
         section = self._extract_primary_section(response_text)
         category, pattern = self._classify(section)
         confidence = "high" if category != "unknown" else "low"

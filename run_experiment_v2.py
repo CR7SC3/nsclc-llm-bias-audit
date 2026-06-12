@@ -120,15 +120,23 @@ def run_experiment_v2(
     print(f"Variants  : {n_variants} per case = {total_calls} total calls")
     print(f"Est. time : ~{est_min:.0f} minutes")
 
+    from src.models.factory import _GROQ_MODELS
+    is_groq = model_name in _GROQ_MODELS
+
     if model_name == "gpt-4o":
         est_cost = len(remaining) * n_variants * (1500 * 2.50 + 600 * 10.0) / 1_000_000
         print(f"Est. cost : ~${est_cost:.2f} (GPT-4o @ avg 1500 input + 600 output tokens)")
     elif model_name in ("gpt-4o-mini", "gemini-2.5-flash"):
         est_cost = len(remaining) * n_variants * 0.0002
         print(f"Est. cost : ~${est_cost:.2f}")
+    elif is_groq:
+        print("Est. cost : free (Groq free tier)")
     print()
 
-    model = create_model(model_name, inter_call_sleep=1.0, max_retries=3, retry_wait=30.0)
+    # Groq free tier enforces tokens-per-minute limits; pace calls to stay under.
+    # Other providers tolerate near-zero spacing.
+    sleep = 6.0 if is_groq else 1.0
+    model = create_model(model_name, inter_call_sleep=sleep, max_retries=5, retry_wait=30.0)
 
     failed = []
     start = time.time()
