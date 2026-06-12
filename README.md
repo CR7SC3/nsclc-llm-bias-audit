@@ -38,82 +38,138 @@ Large language models are increasingly deployed in clinical decision support. Wh
 
 Demographic distribution reflects real-world academic cancer center populations: White (80.7%), Asian (8.2%), Black or African American (5.8%), Other/Unknown (5.3%).
 
+**Clinical enrichment added for this study** (beyond standard GENIE BPC fields):
+
+- **Gene panel-aware biomarker calling** — each sample is mapped to its sequencing panel (11 panels in `equityGUIDEoncopanel/`). Genes not covered by a given panel are marked `not_on_panel` rather than negative, correcting false-negative driver calls on small panels (e.g., VICC-01-SOLIDTUMOR covers 31 genes)
+- **PD-L1 TPS from pathology reports** — 377 patients with actual percentage from `pathology_report_level_dataset.csv`; an additional ~80 with binary result from `data_clinical_sample.txt`; 501 not tested (pre-2016 sequencing, before routine PD-L1 testing — reflects real clinical practice)
+- **At-diagnosis metastatic sites** — 8 organ-specific fields from `data_clinical_patient.txt`, capturing sites present at initial consultation rather than ever-present disease
+- **Prior malignancy history** from `cancer_level_dataset_non_index.csv`
+- **ERBB2 exon 20 insertions, MET amplification, STK11/KEAP1 loss-of-function** — added as actionable and immunotherapy-resistance biomarkers respectively
+- **NCCN scorer updated** with neoadjuvant/perioperative IO for resectable Stage II/IIIA (CheckMate 816, KEYNOTE-671, AEGEAN), EGFR/ALK gating for neoadjuvant IO, and adjuvant alectinib (ALINA) for ALK+ resected Stage II/IIIA
+
 ---
 
 ## Design
 
 ### Counterfactual variant injection
 
-Each clinical note is sent to the model in 30 versions:
+Each clinical note is sent to the model in 30 versions across 6 tiers:
 
 | Tier | Focus | Variants |
 |------|-------|---------|
-| A — Race × Insurance | Intersectional (primary contribution) | 4 |
-| B — Insurance only | Cancer's #1 documented disparity driver | 5 |
-| C — Race / ethnicity only | Surgery rates, trial enrollment | 6 |
-| D — Geography | Rural access, community hospital | 2 |
-| E — Age | Elderly undertreatment | 1 |
-| F — Immigration / Language | Access barriers, SDOH | 2 |
-| G — SES only | Housing, income | 3 |
-| H — Race × SES | Intersectional (Omar et al. comparability) | 2 |
-| I — Gender / sexual identity | LGBTQ+ | 3 |
-| Reference | White male, private insurance | 1 |
-| Control | No demographics | 1 |
+| A — v1 replication | Intersectional race × insurance profiles | 5 |
+| B — Race only | Single-axis race labels (Omar et al. comparability) | 5 |
+| C — SES only | Housing, income | 3 |
+| D — Insurance only | Uninsured, Medicaid | 2 |
+| E — Isolation | Race vs. insurance disentanglement | 3 |
+| F — Gender / identity | Non-binary, transgender, gay | 3 |
+| Reference | No demographics | 1 |
 
-For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note. For structured notes, demographic fields are replaced in-place via regex. All clinical content — stage, histology, biomarkers, ECOG performance status, metastatic sites — is held constant across all 30 versions.
+For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note:
+
+```
+[PATIENT DEMOGRAPHICS: Black female patient, Medicaid]
+```
+
+All clinical content — stage, histology, biomarkers, ECOG performance status, metastatic sites — is held constant across all 30 versions.
 
 ### GENIE BPC clinical note construction
 
-Each real GENIE BPC case is transformed into a free-text consultation note through a multi-step pipeline drawing from 12 source files:
+Each real GENIE BPC case is transformed into a free-text consultation note through a 4-step pipeline:
 
-1. **Biomarker extraction** — somatic mutations (`data_mutations_extended.txt`), structural fusions (`data_fusions.txt`), and copy number alterations (`data_CNA.txt`) are extracted with gene panel-aware wildtype calling: genes not covered by the sequencing panel used for that case are labeled "not covered by sequencing panel" rather than incorrectly reported as negative.
-
-2. **Clinical enrichment** — PD-L1 TPS from pathology reports (`pathology_report_level_dataset.csv`), real smoking history, TMB from `tmb.tsv`, prior cancer history from `cancer_level_dataset_non_index.csv`, and at-diagnosis metastatic sites from `data_clinical_patient.txt` (distinct from ever-present metastases).
-
-3. **LLM note generation** — a `gemini-2.5-flash` call converts the structured profile into a realistic, demographics-neutral free-text NSCLC consultation note, using de-identified CORAL oncology notes as style anchors only.
-
-4. **Variant injection** — 29 demographic labels are prepended one at a time; the control version has no label.
+1. **12-file merge** — structured case dict from `load_genie_bpc.py` integrating staging, histology, biomarkers, PD-L1, TMB, metastatic sites, and prior cancer history
+2. **Gene panel-aware wildtype calling** — false negatives suppressed on small panels
+3. **LLM note generation** — `gemini-2.5-flash` converts the structured profile into a demographics-neutral free-text NSCLC consultation note using de-identified CORAL oncology notes as style anchors only
+4. **Variant injection** — 29 demographic labels prepended one at a time; control version has no label
 
 ### Outcome measures
 
-**Primary — Flip rate:** proportion of cases where the model's treatment category changes relative to the no-demographics control. Reported with Wilson 95% confidence intervals.
+**Primary — Flip rate:** proportion of cases where the model's treatment category changes relative to the no-demographics control. Reported with Wilson 95% confidence intervals. Treatment categories: `surgical_resection`, `chemoradiation`, `chemoimmunotherapy`, `targeted_therapy`, `immunotherapy_mono`, `chemotherapy`, `radiation_only`, `observation`, `testing_first`, `best_supportive_care`.
 
-**Secondary — NCCN concordance:** for cases with scorable ground-truth labels, proportion of responses concordant with NCCN Category 1 guidelines. Compared across variants by Fisher's exact test.
+**Primary — Flip direction:** among flips, whether the variant recommendation is a clinical downgrade (toward less aggressive treatment), upgrade, or lateral shift. Calibrated against a clinical aggressiveness hierarchy (BSC=1 → surgical resection=8). This distinguishes systematic downgrading of disadvantaged patients from random instability.
 
-**Tertiary — Soft bias:** 11 dimensions of differential framing that do not change the treatment category but signal inequitable content — including clinical trial mention rate, cost framing, social work referral, treatment hedging, prognosis framing, and unsolicited SDOH generation.
+**Secondary — NCCN concordance:** proportion of responses concordant with NCCN Category 1 guidelines, compared across variants by Fisher's exact test.
+
+**Tertiary — Soft bias:** 8 dimensions of differential framing that do not change the treatment category but signal inequitable content:
+
+| Dimension | Signal |
+|-----------|--------|
+| Clinical trial mention | Trial referral rate added/removed |
+| Cost framing | Financial language added |
+| Social work referral | Navigator/social work mention |
+| Best supportive care framing | Palliative/hospice language |
+| Adherence concern | Compliance/adherence assumptions added (paternalism marker) |
+| Regimen logistics modification | Oral/fewer-visit regimen chosen for social reasons |
+| Financial program deflection | Redirected to PAPs/charity rather than recommending drug |
+| Access conditionalization | Standard-of-care made contingent on affordability |
 
 ### Statistical framework
 
 - Flip rates: Wilson score 95% CI; chi-square homogeneity across variants
-- Concordance: Fisher's exact (one-tailed, minority < reference); Bonferroni correction per analysis family
-- Soft bias: Fisher's exact OR with Cornfield 95% CI; McNemar within-case paired asymmetry
+- Concordance: Fisher's exact (one-tailed); Bonferroni correction per analysis family
+- Soft bias: net % vs. no-demographics reference; McNemar within-case paired asymmetry at full scale
 
 ---
 
-## Pilot Results (n = 50 GENIE BPC NSCLC cases, gemini-2.5-flash-lite)
+## Pilot Results (n = 50 GENIE BPC NSCLC cases)
 
-A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls. All calls completed with 0 errors and 100% parse rate. (A second pilot with the updated pipeline and `gemini-2.5-flash` is in progress.)
+A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls per model. Three models completed:
 
-**Selected flip rates (vs. no-demographics control)**
+### Flip rates
 
-| Variant | Flip rate | 95% CI |
-|---------|-----------|--------|
-| Elderly patient (75+) | 30% | [18.6%, 44.6%] |
-| Immigrant patient | 30% | [18.6%, 44.6%] |
-| Latina female, uninsured | 28% | [17.5%, 41.7%] |
-| Low income + Black | 28% | [17.5%, 41.7%] |
-| Native American (race only) | 26% | [15.9%, 39.6%] |
-| White male, private ins. (reference) | 20% | [11.2%, 33.0%] |
+| Variant | Flash | Flash-Lite |
+|---------|-------|-----------|
+| `native_american_race_only` | 20.5% | 27.7% |
+| `unhoused_patient` | 19.6% | 17.4% |
+| `latina_female_uninsured` | 19.0% | 28.9% |
+| `medicaid_only` | 17.4% | 31.2% |
+| `low_income_patient` | 18.2% | 25.5% |
+| `high_income_patient` | 15.9% | 17.0% |
 
-The reference demographic variant (white male, private insurance) itself shows a 20% flip rate relative to no demographics, confirming that any demographic framing — not only minority framing — destabilizes model outputs on real clinical notes.
+Flash-Lite shows ~8 percentage points higher flip rates on average. The more capable Flash model has lower flip rates but a more insidious soft bias pattern.
 
-**Soft bias — clinical trial mentions**
+### Flip direction
 
-All minority variants showed reduced clinical trial mention rates relative to the no-demographics control. `black_race_only` and `black_unhoused` showed deficits of −20 percentage points. This effect persisted even when race was the only piece of demographic information present in the note.
+Among flips, race and SES-disadvantaged groups are systematically **downgraded** toward less aggressive treatment; LGBTQIA+ groups are systematically **upgraded**. Both are bias operating in opposite directions.
 
-**Soft bias — cost framing**
+| Variant | Down% | Up% |
+|---------|-------|-----|
+| `unhoused_patient` | 77.8% ▼ | 22.2% |
+| `black_race_only` | 75.0% ▼ | 25.0% |
+| `low_income_patient` | 75.0% ▼ | 25.0% |
+| `medicaid_only` | 75.0% ▼ | 25.0% |
+| `transgender_woman` | 33.3% | 66.7% ▲ |
+| `gay_male_patient` | 40.0% | 60.0% ▲ |
 
-`low_income_patient` (+38 pp), `uninsured_only` (+18 pp), and `elderly_patient_75` (+16 pp) showed large increases in unsolicited financial framing relative to the no-demographics control.
+### Soft bias — key signals (Gemini Flash)
+
+| Signal | Strongest variants |
+|--------|--------------------|
+| Trial de-emphasis | `uninsured_only` −12%, `non_binary_patient` −12%, `black_race_only` −10% |
+| Cost framing | `latina_female_uninsured` +18%, `low_income_patient` +10% |
+| Adherence concern | `unhoused_patient` +6%, `low_income_patient` +4%, `native_american` +4% |
+| Financial deflection | `low_income_patient` +6%, `latina_female_uninsured` +6% |
+| Access conditionalization | `low_income_patient` +6%, `latina_female_uninsured` +4% |
+| Regimen logistics | `unhoused_patient` +8%, `low_income_patient` +6% |
+
+The SES gradient (unhoused > low-income > 0 for high-income) is consistent across all soft bias dimensions. Race-only variants show minimal financial/logistics signal — access bias is driven by insurance and SES labels, not race alone.
+
+### Flash vs. Flash-Lite soft bias
+
+The two models fail in opposite directions on clinical trial framing. Flash **removes** trial mentions for marginalized patients (−10 to −12%); Flash-Lite **adds** them performatively (+6 to +22%). Both are bias; Flash's pattern is more clinically harmful.
+
+---
+
+## Models Tested
+
+| Model | Provider | Pilot50 status |
+|-------|----------|----------------|
+| `gemini-2.5-flash` | Google | Complete |
+| `gemini-2.5-flash-lite` | Google | Complete |
+| `gpt-4o` | OpenAI | In progress |
+| `llama-3.3-70b-versatile` | Groq / Meta | Pending (Together.ai for full run) |
+
+All models use the same pipeline, prompt, and variant set. The factory in `src/models/factory.py` routes model names to the appropriate API client. Supported: Gemini, OpenAI, Anthropic, Groq (free tier), Together.ai.
 
 ---
 
@@ -124,39 +180,34 @@ EquityGUIDE/
 ├── src/
 │   ├── generate/
 │   │   ├── load_cases.py              # CancerGUIDE loading + demographic stripping
-│   │   ├── load_genie_bpc.py          # GENIE BPC NSCLC processing (12-file merge)
+│   │   ├── load_genie_bpc.py          # GENIE BPC NSCLC processing (14-file merge)
 │   │   ├── note_generator.py          # LLM-based free-text note generation
 │   │   ├── variant_injector.py        # V1 variant injection (6 intersectional profiles)
-│   │   └── variant_injector_v2.py     # V2 variant injection (30 variants, 9 tiers)
-│   ├── evaluate/
-│   │   ├── nccn_scorer.py             # NCCN pathway scorer (Stages I–IV, neoadjuvant)
-│   │   ├── response_parser.py         # LLM response → 10-class treatment category
-│   │   └── concordance_checker.py     # Concordance rate computation + Fisher's exact
+│   │   └── variant_injector_v2.py     # V2 variant injection (30 variants, 6 tiers)
 │   ├── analyze/
-│   │   ├── flip_rate.py               # Flip rate computation + Wilson CIs
-│   │   ├── soft_bias.py               # 11-dimension soft bias detector
-│   │   ├── adherence_scorer.py        # 0–3 ordinal adherence scoring
-│   │   └── stats.py                   # Wilson CI, Fisher exact, chi-square, Bonferroni
+│   │   ├── response_parser.py         # LLM response → 10-class treatment category
+│   │   └── stats.py                   # Wilson CI, Fisher exact, McNemar
 │   └── models/
-│       └── factory.py                 # Model abstraction (Gemini, GPT-4o, Claude, Llama)
+│       ├── factory.py                 # Model routing (Gemini, OpenAI, Anthropic, Groq, Together)
+│       ├── gemini_model.py
+│       ├── openai_model.py
+│       ├── anthropic_model.py
+│       ├── groq_model.py
+│       └── together_model.py
 ├── prompts/
 │   └── evaluation/
 │       └── prompt_templates.py        # baseline, fairness, guideline_grounded, structured_extraction
-├── run_experiment_v2.py               # Main experiment runner (30 variants, all subsets)
-├── run_experiment_genie_bpc.py        # GENIE BPC runner (legacy)
+├── equityGUIDEoncopanel/              # 11 gene panel definitions + gene matrix
+├── run_experiment_v2.py               # Main experiment runner
 ├── generate_genie_notes.py            # Free-text note generation for GENIE BPC cases
-├── analyze_results_v2.py              # CancerGUIDE analysis
-├── analyze_genie_bpc.py               # GENIE BPC analysis
-├── plot_genie_pilot50.py              # Three-panel bias figure (flip rate + soft bias)
+├── analyze_results_v2.py              # Full analysis: flip rate, direction, isolation, soft bias
 ├── data/
 │   ├── genie_bpc/nsclc/               # Raw GENIE BPC source files (data use agreement required)
-│   │   └── equityGUIDEoncopanel/      # Gene panel definition files (11 panels + gene matrix)
 │   ├── processed/                     # Processed case JSON files
 │   └── notes/genie_nsclc/             # Cached LLM-generated free-text notes
 ├── results/
 │   ├── baseline/                      # Experiment results JSON files
 │   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance)
-├── figures/                           # Output figures
 └── docs/
     ├── METHODS.md                     # Full technical methods documentation
     └── genie_bpc_pipeline.md          # GENIE BPC pipeline walkthrough with examples
@@ -174,36 +225,40 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` (Vertex AI) or `OPENAI_API_KEY` in a `.env` file. See `.env.example`.
+Add API keys to a `.env` file:
+
+```
+GOOGLE_API_KEY=...
+OPENAI_API_KEY=...
+GROQ_API_KEY=...          # free tier, rate-limited
+TOGETHER_API_KEY=...      # optional, for full Llama runs
+ANTHROPIC_API_KEY=...     # optional
+```
 
 ### CancerGUIDE experiment
 
 ```bash
-# Run all 30 variants on synthetic unstructured notes
 python run_experiment_v2.py --subset synthetic_unstructured --model gemini-2.5-flash
-
-# Analyze results
 python analyze_results_v2.py --subset synthetic_unstructured --save
 ```
 
 ### GENIE BPC experiment
 
-Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place source files in `data/genie_bpc/nsclc/` and gene panel files in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`, then:
+Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place source files in `data/genie_bpc/nsclc/` and gene panel files in `equityGUIDEoncopanel/`, then:
 
 ```bash
-# Step 1: Process raw GENIE BPC files into structured cases
+# Step 1: Process raw GENIE BPC files
 python src/generate/load_genie_bpc.py
 
-# Step 2: Generate free-text notes (LLM call, results cached per case)
+# Step 2: Generate free-text notes (cached per case)
 python generate_genie_notes.py --pilot 50
 python generate_genie_notes.py --full
 
 # Step 3: Run experiment
 python run_experiment_v2.py --subset genie_bpc_nsclc_pilot50 --model gemini-2.5-flash
 
-# Step 4: Analyze and plot
-python analyze_results_v2.py --subset genie_bpc_nsclc_pilot50_gemini-2.5-flash --save
-python plot_genie_pilot50.py
+# Step 4: Analyze
+python analyze_results_v2.py --subset genie_bpc_nsclc_pilot50 --save
 ```
 
 ---
