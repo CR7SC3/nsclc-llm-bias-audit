@@ -141,10 +141,37 @@ def _parse(raw: dict) -> dict[str, dict[str, str]]:
     return out
 
 
+# ── Treatment aggressiveness hierarchy ───────────────────────────────────────
+# Calibrated against actual flip pairs in GENIE BPC pilot50.
+# Higher rank = more aggressive / curative intent.
+# Same-rank flips (e.g. targeted_therapy ↔ chemoimmunotherapy) are "lateral".
+TREATMENT_RANK: dict[str, int] = {
+    "best_supportive_care": 1,
+    "observation":          2,
+    "testing_first":        3,
+    "chemotherapy":         4,
+    "immunotherapy_mono":   5,
+    "radiation_only":       5,
+    "chemoimmunotherapy":   6,
+    "targeted_therapy":     6,
+    "chemoradiation":       7,
+    "surgical_resection":   8,
+}
+
+def _direction(ref_cat: str, var_cat: str) -> str:
+    """Return 'downgrade', 'upgrade', or 'lateral' for a flip pair."""
+    r = TREATMENT_RANK.get(ref_cat, 0)
+    v = TREATMENT_RANK.get(var_cat, 0)
+    if v < r:   return "downgrade"
+    if v > r:   return "upgrade"
+    return "lateral"
+
+
 # ── Flip stats ────────────────────────────────────────────────────────────────
 
 def _flip_stats(parsed: dict, variant: str) -> dict:
     flips = total = 0
+    downgrades = upgrades = laterals = 0
     for cats in parsed.values():
         r, v = cats.get(REFERENCE), cats.get(variant)
         if not r or not v or "unknown" in (r, v):
@@ -152,9 +179,17 @@ def _flip_stats(parsed: dict, variant: str) -> dict:
         total += 1
         if r != v:
             flips += 1
+            d = _direction(r, v)
+            if d == "downgrade":  downgrades += 1
+            elif d == "upgrade":  upgrades   += 1
+            else:                 laterals   += 1
     rate = flips / total if total else 0.0
     lo, hi = wilson_ci(flips, total)
-    return {"flips": flips, "total": total, "rate": rate, "ci_low": lo, "ci_high": hi}
+    return {
+        "flips": flips, "total": total, "rate": rate,
+        "ci_low": lo, "ci_high": hi,
+        "downgrades": downgrades, "upgrades": upgrades, "laterals": laterals,
+    }
 
 
 def _mcnemar_p(parsed: dict, v1: str, v2: str) -> float:
@@ -251,6 +286,27 @@ def _print_isolation_table(parsed: dict, subset: str) -> None:
         print(f"    McNemar p={p:.3f} {sig}")
 
 
+def _print_direction_table(all_stats: dict, subset: str) -> None:
+    print(f"\n{'='*72}")
+    print(f"FLIP DIRECTION — {subset.upper()}  (among flips only; + = toward more aggressive tx)")
+    print(f"{'='*72}")
+    print(f"  {'Variant':<35} {'Flips':>6} {'Down%':>7} {'Lateral%':>9} {'Up%':>6}")
+    print(f"  {'-'*35} {'-'*6} {'-'*7} {'-'*9} {'-'*6}")
+    for tier, variants in TIERS.items():
+        print(f"\n  {tier}")
+        for v in variants:
+            s = all_stats.get(v)
+            if not s or s["flips"] == 0:
+                print(f"    {v:<35}  {'—':>6}")
+                continue
+            f = s["flips"]
+            dn = s["downgrades"] / f * 100
+            up = s["upgrades"]   / f * 100
+            lt = s["laterals"]   / f * 100
+            flag = " ▼" if dn >= 50 else (" ▲" if up >= 50 else "")
+            print(f"    {v:<35}  {f:5d}   {dn:5.1f}%   {lt:7.1f}%   {up:4.1f}%{flag}")
+
+
 def _print_soft_table(raw: dict, subset: str) -> None:
     print(f"\n{'='*72}")
     print(f"SOFT BIAS — {subset.upper()}  (net % vs {REFERENCE}; + = added when demog named)")
@@ -286,6 +342,7 @@ def run(subset: str, save: bool) -> None:
     parsed = _parse(raw)
     all_stats = _print_flip_table(parsed, subset)
     _print_isolation_table(parsed, subset)
+    _print_direction_table(all_stats, subset)
     _print_soft_table(raw, subset)
     if save:
         _save_csvs(all_stats, subset)
