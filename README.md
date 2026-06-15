@@ -188,6 +188,31 @@ The SES gradient (unhoused > low-income > 0 for high-income) is consistent acros
 
 ---
 
+## Mitigation Results (synthetic unstructured, n=151 cases)
+
+Three prompting strategies were tested against the baseline on the CancerGUIDE synthetic unstructured subset: fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction. Hard flip rates are reported elsewhere; the table below shows the effect on soft bias for key SES and insurance variants.
+
+### Effect on soft bias (net % vs. no-demographics; + = language added for variant)
+
+| Strategy | Trial (`uninsured_only`) | Cost (`uninsured_only`) | Adhere (`low_income`) | FinDfl (`uninsured_only`) |
+|----------|------------------------|-----------------------|----------------------|--------------------------|
+| Baseline | −3% | +63% | +12% | +53% |
+| Fairness prompt | −23% | −1% | −1% | 0% |
+| Guideline-grounded | −56% | **+97%** | **+74%** | +32% |
+| Structured extraction | −80% | −1% | +5% | +1% |
+
+### Key findings
+
+**Fairness prompt and structured extraction eliminate soft bias.** Both strategies reduce cost framing, adherence concern, financial deflection, and access conditionalization to near zero across all SES and insurance variants — even though both strategies *increase* hard flip rates relative to baseline.
+
+**Guideline-grounded prompting amplifies soft bias.** Asking the model to reason through NCCN pathways step-by-step nearly doubles cost language (`uninsured_only` +63% → +97%) and introduces large adherence signals that are absent at baseline (`low_income_patient` +12% → +74%). Structured clinical reasoning appears to activate more demographic stereotyping, not less.
+
+**Race and gender variants show near-zero soft bias under all strategies** — consistent with the GENIE BPC finding that soft bias is driven by SES and insurance labels, not race or gender alone.
+
+**The mitigation trade-off:** No single strategy reduces both hard flips and soft bias simultaneously. The strategies that eliminate soft bias increase decision instability; the strategy that increases soft bias most (guideline-grounded) also produces the highest flip rates. This inversion is the central finding of the mitigation analysis.
+
+---
+
 ## Models Tested
 
 | Model | Provider | Pilot50 status | Concordance | Flip rate |
