@@ -19,13 +19,13 @@ Variant tiers
 Usage
 -----
     # Structured notes (default model = Gemini)
-    python run_experiment_v2.py --subset synthetic_structured
+    python scripts/nsclc/run_experiment_v2.py --subset synthetic_structured
 
     # GPT-4o on unstructured
-    python run_experiment_v2.py --subset synthetic_unstructured --model gpt-4o
+    python scripts/nsclc/run_experiment_v2.py --subset synthetic_unstructured --model gpt-4o
 
     # Resume an interrupted run
-    python run_experiment_v2.py --subset synthetic_structured --model gpt-4o
+    python scripts/nsclc/run_experiment_v2.py --subset synthetic_structured --model gpt-4o
     # (automatically resumes from checkpoint)
 """
 
@@ -38,7 +38,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tqdm import tqdm
 
@@ -192,7 +192,7 @@ def run_experiment_v2(
     print(f"Checkpoint: {checkpoint_path}")
     print(f"Results   : {final_path}")
     print(f"{'='*70}\n")
-    print(f"Next step: python analyze_results_v2.py --subset {subset} --model {model_name} --concordance --save")
+    print(f"Next step: python scripts/nsclc/analyze_results_v2.py --subset {subset} --model {model_name} --concordance --save")
 
 
 if __name__ == "__main__":

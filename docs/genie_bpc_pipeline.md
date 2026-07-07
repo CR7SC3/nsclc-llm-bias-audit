@@ -162,7 +162,7 @@ use reported. Lives independently.
 ## Step 2 — Structured profile → free-text clinical note
 
 **Script:** [src/generate/note_generator.py](../src/generate/note_generator.py)
-**Orchestrator:** [generate_genie_notes.py](../generate_genie_notes.py)
+**Orchestrator:** [generate_genie_notes.py](../scripts/nsclc/generate_genie_notes.py)
 **Model:** `gemini-2.5-flash` (Vertex AI)
 **Cache:** `data/notes/genie_nsclc/{case_id}.txt`
 
@@ -207,8 +207,8 @@ When STK11 or KEAP1 loss-of-function mutations are present, an additional line i
 
 ```bash
 # Regenerate cached notes after clinical profile changes
-python generate_genie_notes.py --pilot 50 --force
-python generate_genie_notes.py --full --force
+python scripts/nsclc/generate_genie_notes.py --pilot 50 --force
+python scripts/nsclc/generate_genie_notes.py --full --force
 ```
 
 ---
@@ -232,7 +232,7 @@ For the `no_demographics` control, no prefix is added. All clinical content is b
 
 ## Step 4 — LLM query
 
-**Script:** [run_experiment_v2.py](../run_experiment_v2.py)
+**Script:** [run_experiment_v2.py](../scripts/nsclc/run_experiment_v2.py)
 **Prompt strategy:** `baseline` (default)
 
 ```

@@ -251,9 +251,15 @@ EquityGUIDE/
 │   └── evaluation/
 │       └── prompt_templates.py        # baseline, fairness, guideline_grounded, structured_extraction
 ├── equityGUIDEoncopanel/              # 11 gene panel definitions + gene matrix
-├── run_experiment_v2.py               # Main experiment runner
-├── generate_genie_notes.py            # Free-text note generation for GENIE BPC cases
-├── analyze_results_v2.py              # Full analysis: flip rate, direction, isolation, soft bias
+├── scripts/
+│   └── nsclc/                         # Paper 1 (NSCLC) pipeline scripts
+│       ├── run_experiment_v2.py       # Main experiment runner
+│       ├── generate_genie_notes.py    # Free-text note generation for GENIE BPC cases
+│       ├── analyze_results_v2.py      # Full analysis: flip rate, direction, isolation, soft bias
+│       └── ...                        # experiment/analysis/export/validation scripts
+├── download_genie_bpc.py              # Shared: download GENIE BPC cohorts (nsclc/brca/panc)
+├── inspect_genie_bpc.py               # Shared: GENIE BPC schema inspector
+├── generate_genie_brca_panc_notes.py  # Paper 2 (BRCA/PANC) note generation
 ├── data/
 │   ├── genie_bpc/nsclc/               # Raw GENIE BPC source files (data use agreement required)
 │   ├── processed/                     # Processed case JSON files
@@ -291,8 +297,8 @@ ANTHROPIC_API_KEY=...     # optional
 ### CancerGUIDE experiment
 
 ```bash
-python run_experiment_v2.py --subset synthetic_unstructured --model gemini-2.5-flash
-python analyze_results_v2.py --subset synthetic_unstructured --save
+python scripts/nsclc/run_experiment_v2.py --subset synthetic_unstructured --model gemini-2.5-flash
+python scripts/nsclc/analyze_results_v2.py --subset synthetic_unstructured --save
 ```
 
 ### GENIE BPC experiment
@@ -304,14 +310,14 @@ Raw GENIE BPC files are available under data use agreement from [genie.cbioporta
 python src/generate/load_genie_bpc.py
 
 # Step 2: Generate free-text notes (cached per case)
-python generate_genie_notes.py --pilot 50
-python generate_genie_notes.py --full
+python scripts/nsclc/generate_genie_notes.py --pilot 50
+python scripts/nsclc/generate_genie_notes.py --full
 
 # Step 3: Run experiment
-python run_experiment_v2.py --subset genie_bpc_nsclc_pilot50 --model gemini-2.5-flash
+python scripts/nsclc/run_experiment_v2.py --subset genie_bpc_nsclc_pilot50 --model gemini-2.5-flash
 
 # Step 4: Analyze
-python analyze_results_v2.py --subset genie_bpc_nsclc_pilot50 --save
+python scripts/nsclc/analyze_results_v2.py --subset genie_bpc_nsclc_pilot50 --save
 ```
 
 ---

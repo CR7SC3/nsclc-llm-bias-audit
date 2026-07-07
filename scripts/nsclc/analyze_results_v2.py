@@ -6,9 +6,9 @@ Tiers: A (v1 replication), B (race only), C (SES only), D (insurance only),
 
 Usage
 -----
-    python analyze_results_v2.py --subset synthetic_structured
-    python analyze_results_v2.py --subset synthetic_unstructured
-    python analyze_results_v2.py --subset both --save
+    python scripts/nsclc/analyze_results_v2.py --subset synthetic_structured
+    python scripts/nsclc/analyze_results_v2.py --subset synthetic_unstructured
+    python scripts/nsclc/analyze_results_v2.py --subset both --save
 """
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 from scipy import stats as sp_stats
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from src.analyze.response_parser import ResponseParser
 from src.analyze.stats import wilson_ci, significance_label
 
