@@ -4,9 +4,9 @@ Pilot first (stratified 50), review, then full cohort.
 
 Usage
 -----
-    venv/bin/python generate_genie_notes.py --pilot 50
-    venv/bin/python generate_genie_notes.py --full
-    venv/bin/python generate_genie_notes.py --pilot 50 --review-only   # rebuild report from cache
+    venv/bin/python scripts/nsclc/generate_genie_notes.py --pilot 50
+    venv/bin/python scripts/nsclc/generate_genie_notes.py --full
+    venv/bin/python scripts/nsclc/generate_genie_notes.py --pilot 50 --review-only   # rebuild report from cache
 """
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.generate.note_generator import NoteGenerator
 from src.generate.note_qa import check_note

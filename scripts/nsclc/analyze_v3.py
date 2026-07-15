@@ -8,9 +8,9 @@ computes concordance + soft bias rates per strategy × variant, and produces:
 
 Usage
 -----
-    python analyze_v3.py                     # all available strategies
-    python analyze_v3.py --strategy fairness  # single strategy
-    python analyze_v3.py --model gpt-4o
+    python scripts/nsclc/analyze_v3.py                     # all available strategies
+    python scripts/nsclc/analyze_v3.py --strategy fairness  # single strategy
+    python scripts/nsclc/analyze_v3.py --model gpt-4o
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ import matplotlib.colors as mcolors
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 _RESULTS_DIR   = Path("results")
 _ANALYSIS_DIR  = _RESULTS_DIR / "analysis"

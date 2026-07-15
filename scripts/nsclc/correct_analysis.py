@@ -54,6 +54,7 @@ MODELS = {
     "gemini-2.5-flash": "results/baseline/v2_genie_bpc_nsclc_results.json",
     "deepseek-chat":    "results/baseline/v2_genie_bpc_nsclc_deepseek-chat_results.json",
     "llama-3.3-70b":    "results/baseline/v2_genie_bpc_nsclc_meta-llama-Llama-3.3-70B-Instruct-Turbo_results.json",
+    "llama-3.1-8b":     "results/baseline/v2_genie_bpc_nsclc_openrouter-meta-llama-llama-3.1-8b-instruct_results.json",
     "gpt-4o":           "results/baseline/v2_genie_bpc_nsclc_gpt-4o_results.json",
     "gpt-4o-mini":      "results/baseline/v2_genie_bpc_nsclc_gpt-4o-mini_results.json",
 }
@@ -297,6 +298,7 @@ def run():
         "deepseek-chat": "results/baseline/retest_deepseek-chat.json",
         "gemini-2.5-flash": "results/baseline/retest_gemini-2.5-flash.json",
         "llama-3.3-70b": "results/baseline/retest_meta-llama-Llama-3.3-70B-Instruct-Turbo.json",
+        "llama-3.1-8b": "results/baseline/retest_openrouter-meta-llama-llama-3.1-8b-instruct.json",
     }
     # Compute demographic flip rate from parsed results
     parser = ResponseParser()

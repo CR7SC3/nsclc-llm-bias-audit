@@ -36,6 +36,7 @@ ARMS = {
     "gemini-2.5-flash": "results/baseline/v2_genie_bpc_nsclc_checkpoint.json",
     "deepseek-chat":    "results/baseline/v2_genie_bpc_nsclc_deepseek-chat_checkpoint.json",
     "llama-3.3-70B":    "results/baseline/v2_genie_bpc_nsclc_meta-llama-Llama-3.3-70B-Instruct-Turbo_checkpoint.json",
+    "llama-3.1-8B":     "results/baseline/v2_genie_bpc_nsclc_openrouter-meta-llama-llama-3.1-8b-instruct_checkpoint.json",
     "gpt-4o":           "results/baseline/v2_genie_bpc_nsclc_gpt-4o_checkpoint.json",
     "gpt-4o-mini":      "results/baseline/v2_genie_bpc_nsclc_gpt-4o-mini_checkpoint.json",
 }

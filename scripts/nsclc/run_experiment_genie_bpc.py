@@ -22,16 +22,16 @@ Cohorts
 Usage
 ─────
   # Dry run — no API calls
-  venv/bin/python run_experiment_genie_bpc.py --cohort nsclc --dry-run --limit 5
+  venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --dry-run --limit 5
 
   # Pilot: 10 cases
-  venv/bin/python run_experiment_genie_bpc.py --cohort nsclc --limit 10
+  venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --limit 10
 
   # Full NSCLC run (~23 k calls, ~$46 on Gemini Flash)
-  venv/bin/python run_experiment_genie_bpc.py --cohort nsclc
+  venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc
 
   # Fairness strategy
-  venv/bin/python run_experiment_genie_bpc.py --cohort nsclc --strategy fairness
+  venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --strategy fairness
 """
 
 from __future__ import annotations
@@ -43,7 +43,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tqdm import tqdm
 
@@ -178,7 +178,7 @@ def run_experiment(
         print("\nDry run complete. Rerun without --dry-run to execute.")
         return
 
-    model = create_model(model_name, inter_call_sleep=1.0, max_retries=3, retry_wait=30.0)
+    model = create_model(model_name, temperature=0.0, inter_call_sleep=1.0, max_retries=3, retry_wait=30.0)
 
     failed: list[str] = []
     start = time.time()

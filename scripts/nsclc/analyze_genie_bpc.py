@@ -23,9 +23,9 @@ Statistical framework
 
 Usage
 ─────
-    python analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash
-    python analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash --save
-    python analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash --save --quiet
+    python scripts/nsclc/analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash
+    python scripts/nsclc/analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash --save
+    python scripts/nsclc/analyze_genie_bpc.py --cohort nsclc --model gemini-2.5-flash --save --quiet
 """
 
 from __future__ import annotations
@@ -40,7 +40,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import fisher_exact, mannwhitneyu, chi2_contingency
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.analyze.response_parser import ResponseParser
 from src.analyze.adherence_scorer import compute_adherence_score, nccn_to_category
@@ -116,7 +116,7 @@ def _load_results(cohort: str, model_slug: str, strategy: str) -> dict:
                 return json.load(fh)
     raise FileNotFoundError(
         f"No results found at {RESULTS_ROOT}/{cohort}/{prefix}_*.json\n"
-        f"Run: python run_experiment_genie_bpc.py --cohort {cohort} --model {model_slug}"
+        f"Run: python scripts/nsclc/run_experiment_genie_bpc.py --cohort {cohort} --model {model_slug}"
     )
 
 

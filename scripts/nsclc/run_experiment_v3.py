@@ -23,11 +23,11 @@ Strategies
 
 Usage
 -----
-    python run_experiment_v3.py --strategy fairness
-    python run_experiment_v3.py --strategy guideline_grounded
-    python run_experiment_v3.py --strategy structured_extraction
-    python run_experiment_v3.py --strategy structured_extraction --model gpt-4o
-    python run_experiment_v3.py --strategy fairness --dry-run
+    python scripts/nsclc/run_experiment_v3.py --strategy fairness
+    python scripts/nsclc/run_experiment_v3.py --strategy guideline_grounded
+    python scripts/nsclc/run_experiment_v3.py --strategy structured_extraction
+    python scripts/nsclc/run_experiment_v3.py --strategy structured_extraction --model gpt-4o
+    python scripts/nsclc/run_experiment_v3.py --strategy fairness --dry-run
 """
 
 from __future__ import annotations
@@ -39,7 +39,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tqdm import tqdm
 
@@ -160,7 +160,7 @@ def run_experiment_v3(
             print(f"WARNING: missing variants: {missing}")
         return
 
-    model = create_model(model_name, inter_call_sleep=1.0, max_retries=3, retry_wait=30.0)
+    model = create_model(model_name, temperature=0.0, inter_call_sleep=1.0, max_retries=3, retry_wait=30.0)
 
     failed = []
     start = time.time()
@@ -216,7 +216,7 @@ def run_experiment_v3(
     print(f"Checkpoint: {checkpoint_path}")
     print(f"Results   : {final_path}")
     print(f"{'='*70}\n")
-    print(f"Next step: python analyze_v3.py")
+    print(f"Next step: python scripts/nsclc/analyze_v3.py")
 
 
 if __name__ == "__main__":

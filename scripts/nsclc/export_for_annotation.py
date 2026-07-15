@@ -10,7 +10,7 @@ Sampling: stratified random (seed=42)
 
 Usage
 -----
-    python export_for_annotation.py
+    python scripts/nsclc/export_for_annotation.py
 """
 
 from __future__ import annotations
