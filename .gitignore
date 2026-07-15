@@ -27,3 +27,6 @@ results/baseline/*_checkpoint.json
 
 # Claude Code internal files
 .claude/
+
+# Manuscript build artifacts (source of truth is the .md)
+*.docx

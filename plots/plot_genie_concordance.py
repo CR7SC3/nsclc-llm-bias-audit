@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.analyze.response_parser import ResponseParser
 from src.evaluate.nccn_scorer import get_nccn_answer
 from src.evaluate.concordance_checker import _NCCN_TO_CATEGORY

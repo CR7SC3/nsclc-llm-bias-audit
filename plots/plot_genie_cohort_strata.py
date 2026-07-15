@@ -92,7 +92,7 @@ def age_bucket(a) -> str:
     return "80+"
 
 
-def barh(ax, counts, order, title, color, n, pct=True):
+def barh(ax, counts, order, title, color, n, pct=True, labels=None):
     vals = [counts.get(k, 0) for k in order]
     y = np.arange(len(order))[::-1]
     ax.barh(y, vals, color=color, edgecolor="white", linewidth=0.6)
@@ -100,7 +100,7 @@ def barh(ax, counts, order, title, color, n, pct=True):
         lab = f"{v}" + (f"  ({v/n:.0%})" if pct else "")
         ax.text(v + max(vals) * 0.015, yi, lab, va="center", fontsize=8.5)
     ax.set_yticks(y)
-    ax.set_yticklabels(order, fontsize=9)
+    ax.set_yticklabels(labels if labels is not None else order, fontsize=9)
     ax.set_xlim(0, max(vals) * 1.22)
     ax.set_title(title, fontsize=10.5, fontweight="bold", loc="left")
     ax.tick_params(axis="x", labelsize=8)
@@ -147,10 +147,13 @@ def main(fmt="png"):
     barh(ax[5], ic, [k for k, _ in ic.most_common()],
          "Institution", C["cyan"], n)
 
-    # 7. Race / ethnicity
+    # 7. Race / ethnicity  (shorten the verbose AAAPI label so the tick text
+    # doesn't overflow left into the Institution panel)
     rc = Counter(c["demographics"].get("race_ethnicity", "?") for c in cases)
     order_r = [k for k, _ in rc.most_common()][:6]
-    barh(ax[6], rc, order_r, "Race / ethnicity (real)", C["orange"], n)
+    race_short = {"AAAPI (Asian, Asian American, and Pacific Islander)": "AAPI"}
+    labels_r = [race_short.get(k, k) for k in order_r]
+    barh(ax[6], rc, order_r, "Race / ethnicity (real)", C["orange"], n, labels=labels_r)
 
     # 8. Age at diagnosis
     agc = Counter(age_bucket(c.get("age_dx")) for c in cases)
@@ -158,11 +161,11 @@ def main(fmt="png"):
          "Age at diagnosis", C["grey"], n)
 
     fig.suptitle(
-        f"GENIE BPC NSCLC cohort stratification — {n} cases "
-        f"(3 institutions: MSK, DFCI, VICC)",
+        f"GENIE BPC NSCLC cohort ({n} cases; MSK, DFCI, VICC)",
         fontsize=14, fontweight="bold", y=0.98)
 
-    out = FIGURES_DIR / f"fig_genie_cohort_strata.{fmt}"
+    out = FIGURES_DIR / "manuscript" / f"fig_genie_cohort_strata.{fmt}"
+    out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(out, dpi=200, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(f"Saved: {out}")
