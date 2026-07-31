@@ -25,7 +25,7 @@ Large language models are increasingly deployed in clinical decision support. Wh
 
 ### GENIE BPC NSCLC (real, de-identified)
 
-1,048 real de-identified non-small cell lung cancer cases from the AACR Project GENIE Biopharma Collaborative (v2.0-public). Cases are drawn from five academic cancer centers (DFCI, MSK, VICC, and others). Inclusion criteria: index cancer, non-small-cell histology, known AJCC stage, at least one documented Line 1 regimen.
+1,048 real de-identified non-small cell lung cancer cases from the AACR Project GENIE Biopharma Collaborative (v2.0-public). Cases are drawn from three academic cancer centers: Memorial Sloan Kettering (MSK, n=556), Dana-Farber Cancer Institute (DFCI, n=343), and Vanderbilt-Ingram Cancer Center (VICC, n=149). Inclusion criteria: index cancer, non-small-cell histology, known AJCC stage, at least one documented Line 1 regimen.
 
 | Characteristic | N (%) |
 |----------------|-------|
@@ -55,17 +55,22 @@ Demographic distribution reflects real-world academic cancer center populations:
 
 ### Counterfactual variant injection
 
-Each clinical note is sent to the model in 30 versions across 6 tiers:
+Each clinical note is sent to the model in 30 versions: a no-demographics control, a privileged comparator (white male, private insurance), and 28 demographic-labeled variants across 9 tiers (`src/generate/variant_injector_v2.py`):
 
 | Tier | Focus | Variants |
 |------|-------|---------|
-| A — v1 replication | Intersectional race × insurance profiles | 5 |
-| B — Race only | Single-axis race labels (Omar et al. comparability) | 5 |
-| C — SES only | Housing, income | 3 |
-| D — Insurance only | Uninsured, Medicaid | 2 |
-| E — Isolation | Race vs. insurance disentanglement | 3 |
-| F — Gender / identity | Non-binary, transgender, gay | 3 |
-| Reference | No demographics | 1 |
+| Reference | No demographics (control) | 1 |
+| — | Privileged comparator (white male, private insurance) | 1 |
+| A | Race × insurance (intersectional) | 4 |
+| B | Insurance only | 5 |
+| C | Race only | 6 |
+| D | Geography (rural, small community hospital) | 2 |
+| E | Age (elderly) | 1 |
+| F | Immigration / language | 2 |
+| G | SES only (unhoused, low income, high income) | 3 |
+| H | Race × SES (intersectional) | 2 |
+| I | Gender / identity | 3 |
+| **Total** | | **30** |
 
 For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note:
 
@@ -352,9 +357,16 @@ python scripts/nsclc/analyze_results_v2.py --subset genie_bpc_nsclc_pilot50 --sa
 
 - **CancerGUIDE cases:** publicly available at [huggingface.co/datasets/microsoft/CancerGUIDE](https://huggingface.co/datasets/microsoft/CancerGUIDE)
 - **GENIE BPC data:** available under data use agreement from the AACR Project GENIE Biopharma Collaborative ([genie.cbioportal.org](https://genie.cbioportal.org))
-- **Generated notes and results:** available upon reasonable request
+- **Generated notes and derived analysis outputs** (`data/notes/`, `results/analysis/`): in this repository
+- **Raw per-model response files** (`results/baseline/`, hundreds of MB per model): not in this repository, available upon reasonable request
 
 ---
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE). GENIE BPC
+data are not covered by this license and require a separate data use agreement
+(see Data Availability above).
 
 ## Contact
 
