@@ -27,9 +27,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OUT = Path("adjudication")
-ITEMS = OUT / "judge_items.jsonl"
-LABELS = OUT / "judge_labels.json"
-GOLD = OUT / "gold_template.csv"
 MODEL = "claude-sonnet-4-6"
 
 RUBRIC = """You are auditing an oncology AI assistant's response to a lung-cancer case for \
@@ -51,8 +48,8 @@ framing either way.
 Respond with ONLY one word: STIGMA, APPROPRIATE, or NEUTRAL."""
 
 
-def _load_items():
-    return [json.loads(l) for l in ITEMS.read_text().splitlines() if l.strip()]
+def _load_items(items_path):
+    return [json.loads(l) for l in items_path.read_text().splitlines() if l.strip()]
 
 
 def _prompt(text: str) -> str:
@@ -118,7 +115,7 @@ def _kappa(a, b):
     return (po - pe) / (1 - pe) if pe != 1 else 1.0
 
 
-def _score(items, labels):
+def _score(items, labels, gold_path):
     by_id = {it["id"]: it for it in items}
     judge_stigma, clf_stigma = [], []
     for jid, lab in labels.items():
@@ -130,15 +127,22 @@ def _score(items, labels):
     n = len(judge_stigma)
     agree = sum(j == c for j, c in zip(judge_stigma, clf_stigma)) / n
     print(f"\n=== Judge vs. regex classifier (n={n}) ===")
-    print(f"  'stigma present' agreement: {100*agree:.1f}%   Cohen's kappa: {_kappa(judge_stigma, clf_stigma):.3f}")
-    # breakdown by stratum
+    if len(set(clf_stigma)) < 2 or len(set(judge_stigma)) < 2:
+        print(f"  classifier positive on {sum(clf_stigma)}/{n} of these items (by construction, if this is a "
+              f"flagged-only sample it may be all of them) -- Cohen's kappa is DEGENERATE (undefined/always 0) "
+              f"when one side has no variance, so it is NOT reported here. The only real signal is the judge's "
+              f"own raw STIGMA rate on this set: {100*sum(judge_stigma)/n:.1f}% ({sum(judge_stigma)}/{n}).")
+    else:
+        print(f"  'stigma present' agreement: {100*agree:.1f}%   Cohen's kappa: {_kappa(judge_stigma, clf_stigma):.3f}")
+    # breakdown by stratum (accepts either the older _stratum key or _variant)
     print("  by stratum (judge STIGMA rate vs classifier):")
     strata = {}
     for jid, lab in labels.items():
         it = by_id.get(jid)
         if not it:
             continue
-        s = strata.setdefault(it["_stratum"], [0, 0, 0])
+        key = it.get("_stratum") or it.get("_variant") or "?"
+        s = strata.setdefault(key, [0, 0, 0])
         s[0] += 1
         s[1] += (lab == "STIGMA")
         s[2] += bool(it["_classifier_stigma"])
@@ -146,9 +150,9 @@ def _score(items, labels):
         print(f"    {s:14s} n={tot:3d}  judge={100*js/tot:3.0f}%  classifier={100*cs/tot:3.0f}%")
 
     # gold-set anchor
-    if GOLD.exists():
+    if gold_path.exists():
         gold = {}
-        with open(GOLD) as fh:
+        with open(gold_path) as fh:
             for row in csv.DictReader(fh):
                 lab = (row.get("your_label (STIGMA/APPROPRIATE/NEUTRAL)") or "").strip().upper()
                 if lab:
@@ -170,16 +174,30 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sync", action="store_true")
     ap.add_argument("--score-only", action="store_true")
+    ap.add_argument("--items", default="judge_items.jsonl",
+                     help="blinded-items file under adjudication/ (default: judge_items.jsonl)")
+    ap.add_argument("--labels", default=None,
+                     help="output/input labels file under adjudication/ "
+                          "(default: derived from --items, e.g. random_judge_items.jsonl -> random_judge_labels.json)")
+    ap.add_argument("--gold", default="gold_template.csv",
+                     help="gold CSV under adjudication/ for the judge-vs-gold anchor (default: gold_template.csv)")
     args = ap.parse_args()
-    items = _load_items()
+
+    items_path = OUT / args.items
+    labels_name = args.labels or args.items.replace("_judge_items.jsonl", "_judge_labels.json").replace(
+        "judge_items.jsonl", "judge_labels.json")
+    labels_path = OUT / labels_name
+    gold_path = OUT / args.gold
+
+    items = _load_items(items_path)
 
     if args.score_only:
-        labels = json.loads(LABELS.read_text())
+        labels = json.loads(labels_path.read_text())
     else:
         labels = _judge_sync(items) if args.sync else _judge_batch(items)
-        LABELS.write_text(json.dumps(labels, indent=1))
-        print(f"Saved {len(labels)} judge labels -> {LABELS}")
-    _score(items, labels)
+        labels_path.write_text(json.dumps(labels, indent=1))
+        print(f"Saved {len(labels)} judge labels -> {labels_path}")
+    _score(items, labels, gold_path)
 
 
 if __name__ == "__main__":

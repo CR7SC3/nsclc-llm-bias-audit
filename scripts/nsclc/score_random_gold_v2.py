@@ -157,8 +157,15 @@ def main() -> None:
         cg = [consensus[i] for i in cc]
         rg = [1 if items[i]["_classifier_stigma"] else 0 for i in cc]
         print(f"\n=== Rater-consensus vs CLASSIFIER (n={len(cc)}) ===")
-        print(f"  agreement: {100*sum(x==y for x,y in zip(cg,rg))/len(cc):.1f}%   "
-              f"Cohen's kappa: {_kappa(cg, rg):.3f}")
+        if len(set(rg)) < 2 or len(set(cg)) < 2:
+            print(f"  classifier positive on {sum(rg)}/{len(cc)} of these items (expected if this is the "
+                  f"flagged-only tag, which selects on the classifier firing) -- Cohen's kappa is DEGENERATE "
+                  f"(undefined/always 0) when one side has no variance, so it is NOT reported here. The real "
+                  f"signal is the raters' own consensus STIGMA rate on this set: "
+                  f"{100*sum(cg)/len(cc):.1f}% ({sum(cg)}/{len(cc)}).")
+        else:
+            print(f"  agreement: {100*sum(x==y for x,y in zip(cg,rg))/len(cc):.1f}%   "
+                  f"Cohen's kappa: {_kappa(cg, rg):.3f}")
 
 
 if __name__ == "__main__":
