@@ -51,13 +51,19 @@ def _kappa(a, b):
     return (po - pe) / (1 - pe) if pe != 1 else 1.0
 
 
-def _read_gold(path: Path) -> dict:
+_LABEL_COL = {
+    "random":  "your_label (STIGMA/APPROPRIATE/NEUTRAL)",
+    "flagged": "your_label (APPROPRIATE/STIGMA)",
+}
+
+
+def _read_gold(path: Path, label_col: str) -> dict:
     gold = {}
     if not path.exists():
         return gold
     with open(path) as fh:
         for row in csv.DictReader(fh):
-            lab = (row.get("your_label (STIGMA/APPROPRIATE/NEUTRAL)") or "").strip()
+            lab = (row.get(label_col) or "").strip()
             if lab:
                 gold[row["id"]] = lab
     return gold
@@ -91,8 +97,9 @@ def main() -> None:
     items = {json.loads(l)["id"]: json.loads(l)
              for l in items_path.read_text().splitlines() if l.strip()}
     judge = json.loads(labels_path.read_text()) if labels_path.exists() else {}
-    r1 = _read_gold(r1_path)
-    r2 = _read_gold(r2_path)
+    label_col = _LABEL_COL[tag]
+    r1 = _read_gold(r1_path, label_col)
+    r2 = _read_gold(r2_path, label_col)
 
     if not r1 or not r2:
         missing = [p.name for p, g in ((r1_path, r1), (r2_path, r2)) if not g]
