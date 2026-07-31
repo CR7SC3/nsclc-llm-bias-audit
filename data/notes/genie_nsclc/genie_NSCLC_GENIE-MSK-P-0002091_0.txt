@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 38-year-old individual referred for a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker (quit >1 year ago) who was in their usual state of good health until approximately six weeks prior to presentation. They developed a persistent, non-productive cough, followed by new-onset headaches and moderate mid-back pain. The headaches were described as constant and worse in the morning. Due to the persistence of these symptoms, they presented to an outside facility for evaluation. The patient maintains a good performance status (ECOG 1) but reports that symptoms are beginning to impact daily activities. They are here today to discuss the findings of their recent workup.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest radiograph that revealed a right-sided lung opacity. This prompted a contrast-enhanced CT of the chest, abdomen, and pelvis. The CT scan identified a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. Additionally, the scan revealed multiple lytic and blastic osseous lesions, including in the thoracic spine and pelvis, suspicious for metastatic disease.
+
+Given the presenting complaint of headaches, a brain MRI with contrast was performed. This study demonstrated several ring-enhancing lesions within the bilateral cerebral hemispheres and cerebellum, consistent with brain metastases.
+
+A subsequent PET/CT was performed for comprehensive staging, confirming high FDG-avidity in the primary right upper lobe mass, mediastinal lymph nodes, and multiple sites of skeletal metastatic disease corresponding to the findings on the diagnostic CT.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified]. Pathological analysis confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy. The results are notable for the detection of an actionable sensitizing EGFR exon 19 deletion. The comprehensive panel was negative for other common driver mutations, including ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative (Tumor Proportion Score < 1%). Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 38-year-old, treatment-naive individual with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms metastatic disease to both the brain and bone. Molecular profiling of the tumor is significant for the presence of an EGFR exon 19 deletion and negative PD-L1 expression. The patient is here for initial consultation to discuss the diagnosis in detail.

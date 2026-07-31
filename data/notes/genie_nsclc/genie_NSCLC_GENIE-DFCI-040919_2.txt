@@ -1,0 +1,15 @@
+**HPI:**
+This is a 69-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior, when they developed a persistent dry cough and progressive shortness of breath with exertion. These symptoms did not resolve with a course of antibiotics. Due to the persistence of symptoms, a chest X-ray was performed, which demonstrated a right-sided lung mass. The patient is a former smoker, having quit more than one year ago. Performance status is good, though symptoms have become more limiting over the past several weeks. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a staging contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This identified a 5 cm mass in the right upper lobe with extensive ipsilateral mediastinal and hilar lymphadenopathy. A subsequent PET/CT scan confirmed high FDG avidity in the primary right lung mass as well as in multiple mediastinal lymph node stations, consistent with locoregional nodal involvement. Critically, there was no evidence of distant metastatic disease on the PET/CT. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathological review of the specimen confirmed invasive, poorly differentiated adenocarcinoma of the lung. Based on the combination of imaging and pathology, the patient carries a diagnosis of AJCC Stage IIIB non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alterations were identified; testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase). The molecular report also noted the presence of a loss-of-function mutation in STK11 as well as a loss-of-function mutation in KEAP1.
+
+**Problem Summary:**
+This is a 69-year-old with a new diagnosis of treatment-naive, non-metastatic Stage IIIB non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for PD-L1 negative disease (TPS <1%) with the presence of STK11 and KEAP1 loss-of-function mutations, and an absence of other targetable driver alterations. The patient presents for initial consultation to discuss the diagnosis and review potential management strategies.

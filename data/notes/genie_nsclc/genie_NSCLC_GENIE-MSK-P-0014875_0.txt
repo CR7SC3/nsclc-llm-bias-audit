@@ -1,0 +1,25 @@
+**History of Present Illness**
+
+This is a 52-year-old individual who presents to the thoracic oncology clinic for an initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough. This did not resolve with a course of conservative management, prompting further evaluation.
+
+The patient reports no significant shortness of breath, chest pain, hemoptysis, or constitutional symptoms such as fevers or weight loss. They remain active and fully functional, with an estimated ECOG performance status of 0. Of note, the patient is a lifetime never-smoker.
+
+**Diagnostic Workup**
+
+An initial chest X-ray ordered by the primary care provider demonstrated a right upper lobe opacity. This led to a contrast-enhanced CT of the chest, which characterized a 2.7 cm spiculated solid nodule in the posterior segment of the right upper lobe.
+
+For staging, a PET/CT scan was performed. This demonstrated intense FDG-avidity corresponding to the right upper lobe mass. It also revealed FDG-avid uptake in a right hilar (station 10R) lymph node. No other sites of suspicious FDG-avid disease were identified in the thorax, abdomen, or pelvis to suggest distant metastatic disease. A dedicated MRI of the brain with and without contrast was subsequently obtained and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]. Pathologic review of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) was performed on the tumor tissue. This analysis identified an actionable driver mutation, specifically an EGFR L858R point mutation.
+
+Further molecular testing was negative for rearrangements in ALK and ROS1, as well as for mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, and the result was negative (Tumor Proportion Score <1%). The tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary**
+
+In summary, this is a 52-year-old, treatment-naive, lifetime never-smoker who presents with a new diagnosis of Stage IIB non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup, including PET/CT and brain MRI, has shown no evidence of distant metastatic disease. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR L858R mutation. The patient has an excellent performance status and is seen today to discuss the diagnosis and establish care.

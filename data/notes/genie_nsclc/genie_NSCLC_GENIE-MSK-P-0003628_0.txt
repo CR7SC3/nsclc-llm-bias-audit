@@ -1,0 +1,17 @@
+**HPI:**
+This is a 60-year-old individual with a history of smoking (quit within the last year) who is seen in our Thoracic Oncology clinic for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician several weeks ago with a persistent, non-productive cough, progressive fatigue, and an unintentional weight loss of approximately 15 pounds over the past two months. An initial chest X-ray revealed a suspicious right upper lobe mass, prompting further investigation. The patient is otherwise active and maintains a good performance status, reporting being able to carry out all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This revealed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The staging scan also demonstrated evidence of widespread metastatic disease, including several sub-centimeter nodules in the contralateral (left) lung, at least two distinct hypodense lesions in the liver suspicious for metastases, and multiple enlarged distant lymph nodes. A subsequent PET/CT scan confirmed high FDG avidity in the primary right lung mass, mediastinal nodes, contralateral lung nodules, and liver lesions. Additionally, multiple new foci of intense uptake were noted in the thoracic spine and pelvis, consistent with osseous metastases. A staging MRI of the brain was performed and was negative for intracranial metastatic disease.
+
+A CT-guided core needle biopsy of one of the accessible liver lesions was performed by Interventional Radiology. Pathology from this specimen confirmed the diagnosis of metastatic adenocarcinoma, with features consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the liver biopsy. The results are as follows:
+- **Actionable driver mutation detected:** BRAF V600E
+- **Negative for other common drivers:** No pathogenic mutations were identified in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, or ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 10 mutations/megabase).
+- **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 60-year-old former smoker who presents for initial oncologic evaluation of a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm widespread metastatic disease involving the contralateral lung, liver, bone, and distant lymph nodes. Molecular profiling of the tumor is significant for the identification of a BRAF V600E mutation. The patient is treatment-naive and is here to discuss the diagnosis and establish care.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 69-year-old individual with a history of being a never-smoker, referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they developed a persistent, dry cough and progressive fatigue. Over the past month, they also noted the onset of a dull, constant ache in the right hip, which has gradually worsened and now intermittently affects ambulation. This prompted a visit to their primary care physician. An initial chest radiograph revealed a right-sided pulmonary opacity, leading to further diagnostic evaluation. The patient reports a 10-pound unintentional weight loss over the last three months. They remain fully independent in all activities of daily living but note that fatigue limits more strenuous activities such as prolonged walking. Their ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal and right hilar lymphadenopathy. The scan also revealed multiple hypodense lesions throughout the liver, consistent with metastatic deposits, as well as a 2 cm lytic lesion in the right iliac bone.
+
+A subsequent whole-body PET/CT scan was performed for comprehensive staging. This demonstrated intense FDG-avidity in the primary right lung mass, the mediastinal lymph nodes, the previously identified liver lesions, and the right iliac bone lesion, confirming widespread metastatic disease. An additional focus of high uptake was noted in a left adrenal nodule measuring 1.5 cm.
+
+Given the findings, a dedicated MRI of the brain with and without contrast was obtained to rule out central nervous system involvement. This study was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The pathology report from [De-identified Laboratory] on [De-identified Date] confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results are notable for the detection of an actionable **RET fusion**. The comprehensive genomic panel was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of **≥50%**.
+
+Tumor Mutational Burden (TMB) was calculated and found to be **intermediate (2–16 mut/Mb)**.
+
+**Problem Summary:**
+In summary, this is a 69-year-old never-smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the bone, liver, and left adrenal gland, with no evidence of brain metastases. The patient is treatment-naive with an ECOG performance status of 1. Molecular testing is significant for the presence of a RET fusion and high PD-L1 expression (TPS ≥50%). The patient is seen today for initial consultation to discuss these findings.

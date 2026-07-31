@@ -1,0 +1,67 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an initial oncology consultation for a 73-year-old with a recent diagnosis of non-small cell lung cancer. The patient is a former smoker who recently quit. They initially presented to their primary care provider several weeks ago with a persistent, dry cough that was not improving with conservative management. This prompted a chest X-ray which revealed a right-sided pulmonary opacity.
+
+Subsequent diagnostic workup included a contrast-enhanced CT scan of the chest, which identified a spiculated mass in the right upper lobe. To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of this lung mass. Pathologic analysis confirmed the diagnosis of adenocarcinoma. Staging studies, including a PET/CT and a brain MRI, were then completed to assess the extent of disease.
+
+On review of systems, the patient confirms the persistent cough but notes it is stable. They report mild exertional dyspnea but are able to perform all activities of daily living without assistance. They deny any hemoptysis, chest wall pain, fevers, chills, or unintentional weight loss. Appetite is reported as good. ECOG performance status is 1.
+
+**PAST MEDICAL HISTORY:**
+- Hypertension
+- Hyperlipidemia
+
+**PAST SURGICAL HISTORY:**
+- None relevant
+
+**MEDICATIONS:**
+- Reviewed from electronic record, no pertinent changes.
+
+**ALLERGIES:**
+- No known drug allergies.
+
+**FAMILY HISTORY:**
+- No known history of lung cancer or other hereditary cancer syndromes.
+
+**SOCIAL HISTORY:**
+- **Tobacco:** Former smoker, approximately 30 pack-year history. Quit within the last year.
+- **Alcohol:** Occasional.
+- **Living Situation:** Lives independently.
+
+**PHYSICAL EXAMINATION:**
+**Vitals:** Within normal limits.
+**Constitutional:** Well-appearing, in no acute distress. Alert and oriented.
+**HEENT:** Normocephalic, atraumatic. Anicteric sclerae. Oral mucosa is moist.
+**Neck:** Supple, no lymphadenopathy.
+**Lungs:** Decreased breath sounds in the right upper lung field. No wheezes or rales.
+**Cardiovascular:** Regular rate and rhythm, no murmurs.
+**Abdomen:** Soft, non-tender, non-distended. No hepatosplenomegaly.
+**Extremities:** No clubbing, cyanosis, or edema.
+**Neurologic:** Grossly non-focal.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the relevant pathology and imaging studies.
+
+**Pathology:**
+- CT-guided core biopsy of the right upper lobe lung mass: Invasive adenocarcinoma, moderately differentiated.
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast:** A 4.8 cm spiculated mass is identified in the posterior segment of the right upper lobe. There is no evidence of suspicious mediastinal or hilar lymphadenopathy. The adrenal glands, liver, and other visualized abdominal organs are unremarkable. No suspicious osseous lesions.
+- **PET/CT:** Intense FDG-avidity is noted within the known right upper lobe mass (SUVmax 11.2). No other sites of abnormal FDG uptake are seen in the chest, abdomen, or pelvis to suggest nodal or distant metastatic disease.
+- **MRI Brain with and without contrast:** No evidence of intracranial metastatic disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing and PD-L1 IHC were performed on the biopsy specimen with the following results:
+- **Actionable driver(s) detected:** EGFR exon 19 deletion (sensitizing)
+- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+- **PD-L1:** Positive, Tumor Proportion Score (TPS) 1-49%
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb)
+
+**PROBLEM SUMMARY:**
+This is a 73-year-old with a new diagnosis of treatment-naive, Stage IIA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The tumor is characterized by a sensitizing EGFR exon 19 deletion. The patient is seen today to review the comprehensive diagnostic and staging workup and to discuss the implications of this diagnosis.

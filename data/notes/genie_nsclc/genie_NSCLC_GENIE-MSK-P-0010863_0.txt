@@ -1,0 +1,19 @@
+**HPI:**
+This is an 87-year-old individual with a history of smoking (quit over one year ago) who presents for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms prompted an evaluation by their primary care physician. Despite the new symptoms, the patient maintains a good performance status, remains ambulatory, and is independent with all activities of daily living.
+
+**Diagnostic Workup:**
+The diagnostic evaluation began with a chest X-ray, which demonstrated a suspicious opacity in the right lung. This led to a staging CT of the chest, abdomen, and pelvis with contrast. Imaging confirmed a 4.5 cm primary mass in the right upper lobe with associated mediastinal lymphadenopathy. The abdominal portion of the scan revealed a 3.2 cm enhancing mass in the left adrenal gland, highly suspicious for a solitary site of metastatic disease.
+
+To complete staging and evaluate for central nervous system involvement, a contrast-enhanced MRI of the brain was performed, which was negative for any intracranial metastases.
+
+Subsequently, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified]. Pathologic analysis of the tissue confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS) histology.
+
+**Molecular Studies:**
+The biopsy specimen was submitted for next-generation sequencing to identify potential therapeutic targets. The key findings are as follows:
+- Actionable driver detected: High-level MET amplification.
+- Negative for other common driver mutations/fusions: EGFR, ALK, ROS1, BRAF, MET exon 14 skipping mutation, RET, NTRK, KRAS, and ERBB2 (HER2).
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+- PD-L1 expression was not tested, consistent with the standard of care at the time of initial tissue sequencing.
+
+**Problem Summary:**
+In summary, this is an 87-year-old former smoker who presents as treatment-naive with a new diagnosis of AJCC Stage IV non-small cell lung cancer, NOS histology. The disease is metastatic to a solitary site in the left adrenal gland, with no evidence of brain metastases. Molecular profiling of the tumor is notable for a high-level MET amplification. The patient is here for initial consultation to discuss the diagnosis.

@@ -1,0 +1,25 @@
+**HPI:**
+This is a 65-year-old individual whom I am seeing in consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker and was in a good state of health until approximately six weeks prior to presentation, when they developed a persistent non-productive cough and progressive right-sided chest and upper back pain. The pain was initially managed with over-the-counter analgesics but worsened, prompting a visit to their primary care provider on [De-identified].
+
+An initial chest X-ray revealed a right upper lobe opacity and a moderate right pleural effusion. The patient was subsequently sent for a contrast-enhanced CT of the chest, abdomen, and pelvis, which confirmed a spiculated mass in the right upper lobe, a large right-sided pleural effusion, multiple enlarged mediastinal and supraclavicular lymph nodes, and several suspicious lytic lesions in the thoracic spine. Given the high suspicion for malignancy, the patient was referred for further diagnostic evaluation. An ECOG performance status is estimated at 1, limited only by pain.
+
+**Diagnostic Workup:**
+The patient underwent a comprehensive staging workup.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+A PET/CT scan performed on [De-identified] demonstrated intense FDG-avidity in the primary right upper lobe mass, extensive avid pleural nodularity consistent with pleural metastases, and hypermetabolic activity in mediastinal, hilar, and right supraclavicular lymph nodes. Multiple sites of FDG-avid osseous metastatic disease were also identified, including in the thoracic spine and ribs, corresponding to the CT findings.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+Thoracentesis was performed to drain the right pleural effusion for symptomatic relief; cytology was positive for adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The following results were reported:
+- **Actionable Driver Mutation:** EGFR L858R point mutation detected.
+- **Other Markers:** Negative for rearrangements in ALK and ROS1. No pathogenic mutations detected in BRAF, MET (including exon 14 skipping), RET, NTRK, KRAS, or ERBB2.
+- **PD-L1 Immunohistochemistry:** Tumor Proportion Score (TPS) < 1% (negative).
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 9 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 65-year-old never-smoker with a new diagnosis of Stage IV (cT2a N3 M1c) non-small cell lung adenocarcinoma, metastatic to bone, pleura, and distant lymph nodes. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and negative PD-L1 expression. The patient is treatment-naive and presents for initial oncology consultation to discuss the diagnosis and management.

@@ -1,0 +1,28 @@
+**HPI:**
+This is a 69-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately one month prior to presentation, when there was an onset of progressive shortness of breath on exertion and a persistent, dry cough. These symptoms prompted a visit to an outside facility.
+
+Initial evaluation included a chest radiograph which was significant for a large left-sided pleural effusion. The patient was subsequently admitted for further diagnostic workup. A CT scan of the chest confirmed the presence of a left upper lobe lung mass and a large, complex pleural effusion with associated pleural thickening. The patient reports some mild fatigue but denies fevers, chills, or significant weight loss. Performance status is excellent; the patient is fully ambulatory and capable of all self-care, though dyspnea is noted with strenuous activity. ECOG performance status is 1.
+
+Past medical history is notable for breast cancer, for which the patient completed treatment several years ago with no evidence of recurrence. The patient is a former smoker with a remote history, having quit more than one year ago.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed.
+
+**Imaging:**
+- CT of the Chest, Abdomen, and Pelvis with contrast performed on [De-identified Date] revealed a 3.8 cm spiculated mass in the left upper lobe. This was associated with extensive nodular pleural thickening and a large left-sided pleural effusion, consistent with metastatic involvement of the pleura. No suspicious hepatic, adrenal, or other distant visceral or osseous metastases were identified in the chest, abdomen, or pelvis.
+- PET/CT on [De-identified Date] confirmed high FDG-avidity in the left upper lobe primary mass and extensive avid pleural disease. No other sites of FDG-avid metastatic disease were identified.
+- MRI of the Brain with and without contrast on [De-identified Date] was performed for central nervous system staging and was negative for intracranial metastases.
+
+**Pathology:**
+- The patient underwent a video-assisted thoracoscopic (VATS) procedure with pleural biopsy and talc pleurodesis on [De-identified Date].
+- Histopathologic analysis of the pleural tissue confirmed metastatic adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy specimen. The results are as follows:
+- **Actionable Mutations:** A sensitizing EGFR exon 19 deletion was detected.
+- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 rearrangements or mutations.
+- **PD-L1:** Positive by immunohistochemistry (IHC); a specific Tumor Proportion Score (TPS) is not available.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 69-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to the pleura (cT2a N_x_ M1a). Molecular profiling of the tumor is notable for an activating EGFR exon 19 deletion. The patient is treatment-naive with an ECOG performance status of 1. Staging is complete and shows no evidence of brain or other distant metastatic disease outside the thoracic cavity. The primary problem is newly diagnosed, EGFR-mutated metastatic NSCLC.

@@ -1,0 +1,15 @@
+**HPI:**
+This is a 38-year-old individual with a history of smoking (quit within the last year) who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a good state of health until approximately two months prior to diagnosis, when a persistent, non-productive cough developed, accompanied by progressive right-sided chest wall pain and fatigue. An initial course of antibiotics from an urgent care clinic provided no relief. Due to worsening symptoms and an unintentional 10-pound weight loss, the patient presented to an emergency department for evaluation.
+
+**Diagnostic Workup:**
+Initial workup in the emergency department included a chest X-ray which was suspicious for a right-sided lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study confirmed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated bulky mediastinal and hilar lymphadenopathy. The scan also revealed a suspicious lytic lesion in the T7 vertebral body and a 2 cm hypodense lesion in the right lobe of the liver, concerning for metastatic disease.
+
+To complete staging and confirm the extent of disease, a whole-body PET/CT scan was obtained. This demonstrated intense FDG avidity in the primary right upper lobe lung mass, the mediastinal lymph nodes, the T7 vertebral lesion, and the previously identified liver lesion, consistent with widespread metastatic disease. A dedicated MRI of the brain with and without contrast was performed as part of the standard staging workup and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right lung mass was performed. Pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue specimen to evaluate for targetable alterations. No actionable driver mutation was identified. The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was determined to be low (<2 mut/Mb). PD-L1 expression was not assessed, as this was not standard practice at the time of the initial tissue analysis.
+
+**Problem Summary:**
+In summary, this is a 38-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone and liver. Performance status is excellent despite presenting symptoms. Molecular profiling of the tumor did not identify any actionable driver mutations.

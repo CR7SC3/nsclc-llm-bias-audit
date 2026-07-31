@@ -1,0 +1,21 @@
+**HPI:**
+This is an initial medical oncology consultation for a 69-year-old who presents for evaluation of a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker (quit over one year ago) who was in a good state of health until approximately two months prior to presentation, when a persistent, non-productive cough developed. This was accompanied by progressive right-sided chest wall pain and increasing dyspnea on exertion. An initial course of antibiotics from a primary care provider did not lead to improvement. Due to worsening symptoms, a chest X-ray was obtained which revealed a large right-sided lung mass and an associated pleural effusion. The patient was subsequently referred for further diagnostic evaluation. An ECOG performance status of 1 is noted at the time of this consultation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which identified a large, spiculated 5.5 cm mass in the right upper lobe. The scan also demonstrated multiple suspicious contralateral pulmonary nodules in the left lung, a moderate-to-large right-sided malignant pleural effusion, and bulky mediastinal and right supraclavicular lymphadenopathy.
+
+A subsequent PET/CT scan was performed for staging purposes. This confirmed high FDG avidity in the primary right upper lobe mass, the contralateral lung nodules, the right pleura, and multiple nodal stations including the mediastinum and supraclavicular fossa. In addition, the PET scan revealed several FDG-avid osseous lesions, including in the thoracic spine and a right-sided rib, consistent with bone metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NSCLC, nos).
+
+A brain MRI with and without contrast was completed as part of the staging workup and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. A MET exon 14 skipping mutation was detected. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 69-year-old with a new diagnosis of Stage IV non-small cell lung cancer (NSCLC), not otherwise specified, with metastatic disease involving the contralateral lung, pleura, distant lymph nodes, and bone. The patient is treatment-naive. Molecular profiling of the tumor is notable for a MET exon 14 skipping mutation and high PD-L1 expression (TPS ≥50%). The patient presents today for initial consultation to discuss the diagnosis.

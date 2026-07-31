@@ -1,0 +1,23 @@
+**HPI:**
+This is an initial medical oncology consultation for a 55-year-old with a new diagnosis of non-small cell lung cancer. The patient is referred for discussion of diagnosis and consideration of treatment options.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. After a course of antibiotics from their primary care provider failed to provide relief, a chest X-ray was obtained which revealed a right upper lobe pulmonary opacity. The patient denies any associated hemoptysis, fevers, chills, or significant weight loss. They are fully ambulatory and continue with all activities of daily living without restriction (ECOG performance status 0). The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified]. This confirmed a 3.5 cm spiculated solid nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated.
+
+A PET/CT scan was subsequently performed for staging purposes on [De-identified]. This demonstrated intense FDG avidity within the known right upper lobe nodule (SUVmax 11.2), consistent with malignancy. Importantly, there was no evidence of FDG-avid disease in the mediastinal lymph nodes, contralateral lung, or in any distant sites such as the liver, adrenal glands, or bones. A brain MRI with and without contrast was also performed and was negative for any evidence of intracranial metastatic disease.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure confirmed a diagnosis of non-small cell lung cancer, with features most consistent with an adenocarcinoma histology.
+
+Based on this workup, the patient is diagnosed with clinical Stage IB (cT2aN0M0) NSCLC.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for next-generation sequencing (NGS). The results are as follows:
+-   **Actionable driver(s) detected:** An EGFR exon 20 insertion was identified.
+-   **Negative for:** ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+-   **PD-L1:** This was not tested on the specimen.
+
+**Problem Summary:**
+In summary, this is a 55-year-old former smoker presenting with newly diagnosed, treatment-naive, clinical Stage IB (cT2aN0M0) non-small cell lung adenocarcinoma. The patient has an excellent performance status. Molecular profiling of the tumor is notable for the presence of an EGFR exon 20 insertion mutation.

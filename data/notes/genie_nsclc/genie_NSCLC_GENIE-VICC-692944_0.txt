@@ -1,0 +1,24 @@
+**HPI:**
+This is a 48-year-old individual with a significant smoking history who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. This was initially treated as bronchitis with a course of antibiotics without resolution. Due to the persistence of symptoms, along with the subsequent development of mild dyspnea on exertion and an unintentional 10-pound weight loss, the patient sought further evaluation. They deny hemoptysis, fevers, or chills. Performance status is excellent, ECOG 1, with the patient remaining fully ambulatory and capable of all self-care, limited only by exertional shortness of breath.
+
+**Diagnostic Workup:**
+A chest X-ray ordered by the primary care provider revealed a right upper lobe opacity, prompting further imaging.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated bulky right-sided hilar and ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.8 cm in the short axis. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan was obtained for staging. This demonstrated intense FDG avidity in the known right upper lobe primary mass (SUVmax 14.2) and in multiple ipsilateral mediastinal lymph node stations (SUVmax 9.8), consistent with locoregionally advanced disease. Critically, there was no evidence of FDG-avid disease at any distant sites, including the contralateral hemithorax or below the diaphragm.
+
+Given the CT findings of mediastinal adenopathy, the patient underwent endobronchial ultrasound (EBUS) with fine-needle aspiration (FNA) of a subcarinal lymph node. Pathologic analysis of the aspirate confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIIA (cT2bN2M0) NSCLC.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive next-generation sequencing and immunohistochemistry.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry for PD-L1 revealed a Tumor Proportion Score (TPS) of <1%.
+- **Tumor Mutational Burden (TMB):** TMB was found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 48-year-old current smoker who presents with a new diagnosis of Stage IIIA (cT2bN2M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for the absence of actionable driver mutations, a PD-L1 TPS of <1%, and a high tumor mutational burden. The patient is treatment-naive and presents today for consultation regarding this diagnosis and to discuss potential management strategies.

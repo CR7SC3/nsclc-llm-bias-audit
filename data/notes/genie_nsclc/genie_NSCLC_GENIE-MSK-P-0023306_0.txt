@@ -1,0 +1,29 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 59-year-old individual with an excellent performance status (ECOG 0) who is referred for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of good health until approximately one month prior to presentation when they developed a mild, persistent dry cough. This did not resolve with conservative measures, prompting a visit to their primary care provider. An initial chest radiograph was obtained which demonstrated a suspicious opacity in the right upper lung field. The patient denies any associated hemoptysis, dyspnea, chest pain, fevers, or unintentional weight loss. They remain fully active and without constitutional symptoms.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed the presence of a 3.8 cm spiculated solid mass in the posterior segment of the right upper lobe. No significant mediastinal or hilar lymphadenopathy was identified.
+
+For definitive staging, a whole-body PET/CT scan was subsequently obtained. This study demonstrated intense FDG-avidity corresponding to the known right upper lobe primary tumor. There was no evidence of FDG-avid disease in regional lymph nodes or at any distant sites.
+
+A dedicated MRI of the brain with and without contrast was performed as part of the standard staging evaluation and was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified]. Histopathologic review of the specimen confirmed the diagnosis of invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. Molecular analysis identified an actionable driver mutation, specifically an EGFR exon 19 deletion.
+
+Further testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 59-year-old lifetime never-smoker who presents for initial oncology evaluation of a newly diagnosed, treatment-naive, Stage IIA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via biopsy of a right upper lobe mass. Comprehensive staging evaluation, including PET/CT and brain MRI, has shown no evidence of regional or distant metastatic disease. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is asymptomatic with an excellent performance status.

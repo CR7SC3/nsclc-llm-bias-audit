@@ -1,0 +1,27 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 63-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient has a history of a persistent, non-productive cough for approximately three months, which was initially attributed to seasonal allergies. Over the past month, the patient developed worsening fatigue, a 15-pound unintentional weight loss, and new-onset right upper quadrant abdominal discomfort. This prompted an evaluation with a primary care provider.
+
+The patient is a former smoker, having quit over one year ago after a significant pack-year history. Current performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity. Review of systems is otherwise notable for decreased appetite but negative for fevers, chills, shortness of breath at rest, or hemoptysis.
+
+**Diagnostic Workup:**
+The initial workup began with a chest radiograph which revealed a large right upper lobe mass. This was followed by a contrast-enhanced CT of the chest, abdomen, and pelvis. Imaging demonstrated a 5.2 cm speculated mass in the right upper lobe with associated mediastinal lymphadenopathy. Additionally, multiple hypoattenuating lesions were identified throughout the liver, the largest measuring 3.4 cm, and a 2.1 cm left adrenal nodule, all suspicious for metastatic disease.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed intense FDG-avidity in the primary right upper lobe lung mass and mediastinal nodes. It further demonstrated multiple hypermetabolic metastatic lesions in the liver, the left adrenal gland, and several osseous sites, including the T7 vertebral body and the right iliac crest. An MRI of the brain with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable Driver Mutation:** An activating ERBB2 (HER2) exon 20 insertion was detected.
+- **Other Drivers:** The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+- **Immunohistochemistry:** PD-L1 expression was negative.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 63-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the bone, liver, and adrenal gland. The patient is treatment-naive. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion mutation and negative PD-L1 expression. The patient presents for initial evaluation and discussion of the diagnosis.

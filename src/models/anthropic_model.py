@@ -7,9 +7,15 @@ Authentication: set ANTHROPIC_API_KEY in .env
 
 Supported models
 ----------------
-    claude-opus-4-8        — most capable, best for clinical reasoning
-    claude-sonnet-4-6      — strong balance of quality and speed
-    claude-haiku-4-5-20251001 — fast and cheap (less relevant for study)
+    claude-sonnet-4-6      — DEFAULT. Production-grade, accepts temperature=0
+                             (keeps the study's matched deterministic regime).
+    claude-haiku-4-5-20251001 — fast and cheap; also accepts temperature.
+    claude-opus-4-8 / -4-7 — most capable, BUT `temperature` is removed on these
+                             (returns 400). The wrapper auto-omits temperature for
+                             them, so they run under adaptive thinking rather than
+                             temp=0 — a *different* generation regime. Use Sonnet 4.6
+                             for the matched main comparison; Opus only as a
+                             capability-ceiling robustness arm.
 """
 
 from __future__ import annotations
@@ -31,6 +37,15 @@ logger = logging.getLogger(__name__)
 
 _RESULTS_RAW_DIR = Path(__file__).resolve().parents[2] / "results" / "raw"
 _RESULTS_RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+# Models that REJECT the `temperature` parameter with a 400 (sampling params
+# were removed on Opus 4.7+ and Fable 5). For these we must omit temperature.
+# Everything else (Sonnet 4.6, Opus 4.6, Haiku 4.5, older) accepts temperature=0.
+_NO_TEMPERATURE_PREFIXES = ("claude-opus-4-8", "claude-opus-4-7", "claude-fable-5", "claude-mythos-5", "claude-sonnet-5")
+
+
+def _accepts_temperature(model_name: str) -> bool:
+    return not any(model_name.startswith(p) for p in _NO_TEMPERATURE_PREFIXES)
 
 
 class AnthropicModel:
@@ -54,7 +69,7 @@ class AnthropicModel:
 
     def __init__(
         self,
-        model_name: str = "claude-opus-4-8",
+        model_name: str = "claude-sonnet-4-6",
         temperature: float = 0,
         inter_call_sleep: float = 2.0,
         max_retries: int = 3,
@@ -65,9 +80,19 @@ class AnthropicModel:
         if not api_key:
             raise EnvironmentError("ANTHROPIC_API_KEY not set in .env")
 
-        self._client = anthropic.Anthropic(api_key=api_key)
+        # timeout bounds each request so a stuck connection fails fast and hits
+        # our retry loop instead of hanging a worker (lesson from the OpenRouter
+        # hang); max_retries=0 leaves backoff to generate_with_retry.
+        self._client = anthropic.Anthropic(api_key=api_key, timeout=120.0, max_retries=0)
         self.model_name = model_name
         self.temperature = temperature
+        self._send_temperature = _accepts_temperature(model_name)
+        if not self._send_temperature:
+            logger.warning(
+                "Model %s does not accept temperature; running under adaptive "
+                "thinking (NOT temperature=0). Use Sonnet 4.6 for matched temp=0.",
+                model_name,
+            )
         self.inter_call_sleep = inter_call_sleep
         self.max_retries = max_retries
         self.retry_wait = retry_wait
@@ -84,12 +109,14 @@ class AnthropicModel:
         timestamp = datetime.utcnow().isoformat()
         logger.info("Generating response for case_id=%s", case_id)
 
-        response = self._client.messages.create(
-            model=self.model_name,
-            max_tokens=self.max_tokens,
-            temperature=self.temperature,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        kwargs: dict[str, Any] = {
+            "model": self.model_name,
+            "max_tokens": self.max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if self._send_temperature:
+            kwargs["temperature"] = self.temperature
+        response = self._client.messages.create(**kwargs)
 
         response_text = response.content[0].text if response.content else ""
         usage = response.usage

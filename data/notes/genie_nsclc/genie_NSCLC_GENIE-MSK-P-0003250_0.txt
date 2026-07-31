@@ -1,0 +1,26 @@
+**Medical Oncology Initial Consultation Note**
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 51-year-old who presents for initial medical oncology evaluation for a new diagnosis of non-small cell lung cancer. The patient is a never-smoker and was in their usual state of health until approximately six weeks prior to presentation, when they began experiencing persistent daily headaches. Over the subsequent weeks, the headaches increased in severity and were associated with mild word-finding difficulties and a sense of cognitive slowing. This prompted an evaluation in an outside emergency department. An initial head CT followed by a brain MRI revealed an intracranial mass, raising concern for a primary brain tumor or a metastasis. The patient was admitted for an expedited workup to identify a primary source. They report no significant cough, hemoptysis, or shortness of breath, but do endorse an unintentional 10-pound weight loss over the past three months. The patient has no prior history of cancer.
+
+**Diagnostic Workup:**
+*   **MRI Brain with and without contrast, [De-identified date]:** Revealed a 2.5 cm ring-enhancing lesion in the left parietal lobe with significant surrounding vasogenic edema. Findings were highly suspicious for a metastatic deposit.
+*   **CT Chest, Abdomen, and Pelvis with contrast, [De-identified date]:** Performed to identify a primary malignancy.
+    *   Chest: Demonstrated a 3.8 cm spiculated mass in the right upper lobe. Associated mediastinal and hilar lymphadenopathy was noted.
+    *   Abdomen/Pelvis: Revealed a 1.5 cm hypodense lesion in the right hepatic lobe, suspicious for a metastasis. The adrenal glands and other visualized organs were unremarkable.
+*   **PET/CT, [De-identified date]:** Performed for staging. Showed intense FDG-avidity in the known right upper lobe lung mass (SUVmax 12.4), the left parietal brain lesion (SUVmax 9.8), and the right hepatic lobe lesion (SUVmax 7.1). FDG-avid mediastinal lymph nodes were also noted. No other sites of distant metastatic disease were identified.
+*   **CT-guided core needle biopsy of the right upper lobe lung mass, [De-identified date]:** Pathology confirmed invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the lung mass biopsy tissue.
+*   **Actionable Mutations:**
+    *   EGFR: Sensitizing point mutation L858R detected.
+*   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+*   **PD-L1 (Tumor Proportion Score):** Negative (0%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 51-year-old never-smoker who presents for initial consultation for a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms a primary right upper lobe lung mass with metastatic disease to the brain and liver. Molecular profiling of the tumor is notably positive for an EGFR L858R sensitizing mutation. The patient is treatment-naive. The case was reviewed, and the findings and implications were discussed.

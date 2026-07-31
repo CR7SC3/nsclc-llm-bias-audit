@@ -1,0 +1,19 @@
+**HPI:**
+This is a 71-year-old individual referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience persistent, dull headaches and a sense of imbalance. This culminated in a fall at home, prompting evaluation in an emergency department.
+
+An initial head CT followed by an MRI of the brain revealed multiple enhancing lesions concerning for metastatic disease. A staging CT of the chest, abdomen, and pelvis was subsequently performed. This imaging demonstrated a primary mass in the lung, multiple suspicious lesions in the liver, and a large pleural effusion. The patient reports a mild, non-productive cough and some shortness of breath on exertion, which has progressed over the past month. They deny fevers, chills, or significant weight loss. Performance status is good; the patient remains ambulatory and capable of all self-care but has reduced some activities due to fatigue. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+*   **MRI Brain with and without contrast [De-identified Date]:** Revealed multiple, scattered, ring-enhancing lesions throughout the cerebral hemispheres, consistent with metastatic deposits.
+*   **CT Chest, Abdomen, and Pelvis with contrast [De-identified Date]:** Identified a 3.1 cm spiculated mass in the right upper lobe of the lung. Multiple hypodense lesions were noted throughout the liver, the largest measuring 2.8 cm, highly suspicious for metastases. A large right-sided pleural effusion was also present.
+*   **Thoracentesis and Pleural Biopsy [De-identified Date]:** The patient underwent ultrasound-guided thoracentesis with removal of 1.2 liters of serosanguinous fluid. Cytology was positive for malignant cells. A concurrent pleural biopsy was performed, and histopathology confirmed metastatic adenocarcinoma, with immunohistochemical staining (TTF-1 positive) supporting a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy tissue specimen with the following results:
+*   **Actionable Driver Mutation:** An EGFR L858R point mutation was detected.
+*   **Tumor Mutational Burden (TMB):** High (reported as >16 mut/Mb).
+*   **Additional Testing:** The tumor was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+This is a 71-year-old with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirmed metastatic disease to the brain, liver, and pleura. The patient is a lifetime never-smoker. Molecular analysis of the tumor is significant for a sensitizing EGFR L858R mutation and a high tumor mutational burden. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management strategies.

@@ -1,0 +1,22 @@
+**HPI:**
+This is an initial oncology consultation for a 48-year-old who presents for evaluation of newly diagnosed non-small cell lung cancer. The patient is a lifetime never-smoker. They initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive fatigue. Over the past month, they also developed new-onset mid-back pain, which prompted further investigation. They have noted an unintentional weight loss of approximately 10 pounds over the last two months. The patient has an excellent performance status and is fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+The patient's initial workup included a chest CT scan which revealed a large, irregular mass in the right upper lobe of the lung. This study also demonstrated multiple bilateral smaller pulmonary nodules, concerning for contralateral metastatic disease. Subsequent staging with a CT of the abdomen and pelvis identified several hypodense lesions in the liver, suspicious for metastases, as well as extensive mediastinal and supraclavicular lymphadenopathy.
+
+A whole-body PET/CT scan was performed to fully delineate the extent of disease. This confirmed intense FDG-avidity in the primary right upper lobe mass, multiple contralateral pulmonary nodules, numerous hepatic lesions, and widespread nodal disease. Additionally, the scan revealed multiple FDG-avid osseous lesions, including in the thoracic spine, consistent with bone metastases and correlating with the patient's reported back pain. A dedicated brain MRI with contrast was performed and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed on [De-identified]. Pathologic examination confirmed a diagnosis of lung adenocarcinoma.
+
+Based on the presence of distant metastatic disease in the contralateral lung, liver, and bone, the patient's cancer is formally staged as AJCC Stage IV.
+
+**Molecular Studies:**
+Next-generation sequencing and PD-L1 immunohistochemistry were performed on the biopsy specimen.
+- **Histology:** Adenocarcinoma
+- **Actionable Driver Mutations:** ALK gene rearrangement DETECTED.
+- **Other Markers:** Negative for EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **PD-L1 Tumor Proportion Score (TPS):** ≥50%
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+
+**Problem Summary:**
+This is a 48-year-old never-smoker who presents for initial consultation with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease involving the contralateral lung, liver, and bone. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

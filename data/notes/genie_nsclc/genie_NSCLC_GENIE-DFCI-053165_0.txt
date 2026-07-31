@@ -1,0 +1,15 @@
+**HPI:**
+This is a 60-year-old individual with a history as a former smoker (quit >1 year ago) who is referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they developed a persistent, dry cough. When the cough did not resolve with conservative management, a chest radiograph was obtained which showed a right upper lobe opacity. The patient reports no significant weight loss, hemoptysis, or chest pain. They remain fully active and ambulatory with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified date]. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized liver, adrenal glands, and osseous structures were unremarkable, with no findings suspicious for metastatic disease.
+
+For definitive staging, a whole-body PET/CT scan was subsequently performed. This demonstrated intense FDG-avidity confined to the right upper lobe mass, with a standardized uptake value (SUV) of 12.4. No other sites of abnormal FDG uptake were identified, specifically no avidity in regional lymph nodes or distant organs. A brain MRI with and without contrast was also completed as part of the staging workup and was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified date]. Pathologic review of this tissue established the diagnosis.
+
+**Molecular Studies:**
+Pathology from the right lung mass biopsy revealed squamous cell carcinoma. The tumor tissue was sent for next-generation sequencing. This molecular profiling did not identify any actionable oncogenic driver alterations; the tumor was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was determined to be intermediate (11 mutations/megabase). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 60-year-old individual presenting for initial consultation for a new diagnosis of non-small cell lung cancer. A comprehensive staging workup including CT, PET/CT, and brain MRI has confirmed localized disease. The final diagnosis is Stage IIA (cT2bN0M0) squamous non-small cell lung cancer of the right upper lobe. Molecular analysis of the tumor is notable for the absence of actionable driver mutations and an intermediate tumor mutational burden. The patient is here today to discuss the diagnosis and potential management strategies.

@@ -1,20 +1,22 @@
-[De-identified] Clinic
-[De-identified] Oncology
-[De-identified], [De-identified]
-
-PATIENT: [De-identified]
-DOB: [De-identified]
-MRN: [De-identified]
-DATE OF VISIT: [De-identified]
-
 **HPI:**
-This is an initial oncology consultation for a 43-year-old patient with newly diagnosed Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology. The patient initially presented to their primary care physician several weeks ago with a persistent cough, increasing dyspnea on exertion, and new-onset headaches associated with occasional dizziness. The patient is a former smoker, having quit over one year ago. Despite these symptoms, the patient maintains a good functional status, with an ECOG performance status of 1. This visit represents the first oncology evaluation for this diagnosis, and the patient is treatment-naive, having received no prior systemic therapy.
+This is a 43-year-old individual with a past history of tobacco use (former smoker, quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was followed by the onset of intermittent headaches and the self-discovery of a firm, non-tender nodule on the chest wall.
+
+An initial evaluation in the emergency department at [De-identified Hospital] on [De-identified Date] included a chest CT scan. This revealed a primary mass in the right upper lobe of the lung, associated with a large malignant pleural effusion and multiple liver lesions concerning for metastatic disease. Given the finding of headaches, a brain MRI was subsequently performed, which confirmed the presence of multiple cerebral metastases. The patient's functional status is good, with an ECOG performance status of 1 (symptomatic but fully ambulatory).
 
 **Diagnostic Workup:**
-Initial investigations included a chest X-ray, which revealed a left upper lobe mass. Subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a primary lung mass measuring approximately 4.5 cm in the left upper lobe, with associated mediastinal lymphadenopathy. Additionally, the CT identified multiple suspicious lesions in the liver and a small pleural effusion. Brain MRI was performed due to the patient's neurological symptoms, which demonstrated several enhancing lesions consistent with brain metastases. A PET/CT scan further delineated the extent of disease, confirming hypermetabolic activity in the primary lung lesion, mediastinal lymph nodes, liver lesions, and pleural involvement. A palpable subcutaneous nodule was noted during physical examination and biopsied, confirming metastatic adenocarcinoma. A core needle biopsy of the primary lung mass confirmed the histology as adenocarcinoma. The overall findings are consistent with AJCC Stage IV non-small cell lung cancer with metastases to the brain, liver, pleura, and subcutaneous tissue.
+The patient underwent a biopsy of an accessible subcutaneous nodule on the anterior chest wall. Pathology from this procedure returned as adenocarcinoma, with an immunohistochemical profile (TTF-1 positive, Napsin-A positive) consistent with a lung primary.
+
+Staging studies have been completed.
+- **CT Chest/Abdomen/Pelvis with contrast:** Revealed a right upper lobe lung mass, a large right-sided pleural effusion with associated pleural thickening suggestive of carcinomatosis, multiple hypodense liver lesions consistent with metastases, and a subcutaneous metastatic deposit.
+- **MRI Brain with and without contrast:** Confirmed multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+These findings confirm a diagnosis of Stage IV NSCLC (AJCC 8th Edition).
 
 **Molecular Studies:**
-Comprehensive genomic profiling was performed on the tumor biopsy specimen. Results demonstrated the presence of an ALK rearrangement, identified as an actionable driver mutation. Testing for other common oncogenic drivers was negative, including EGFR, ROS1, BRAF, MET exon 14 skipping, RET fusion, NTRK fusion, KRAS, and ERBB2 (HER2) mutations. PD-L1 expression was negative. Tumor mutational burden (TMB) was reported as low (<2 mut/Mb).
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+- **Actionable driver mutation:** An ALK gene rearrangement was detected.
+- **Other drivers:** Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Immunotherapy markers:** PD-L1 expression was negative (Tumor Proportion Score <1%). Tumor Mutational Burden (TMB) was low at <2 mutations/megabase.
 
 **Problem Summary:**
-This 43-year-old patient presents with newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the brain, liver, pleura, and subcutaneous tissue. Molecular testing revealed an ALK rearrangement, with negative PD-L1 expression and low tumor mutational burden. The patient is treatment-naive and is seeking evaluation for management options.
+In summary, this is a 43-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma with metastases to the brain, liver, pleura, and subcutaneous tissue. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement. The patient is here for initial consultation to discuss the diagnosis and management options.

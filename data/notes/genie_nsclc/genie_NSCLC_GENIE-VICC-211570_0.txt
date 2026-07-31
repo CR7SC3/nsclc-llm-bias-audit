@@ -1,0 +1,19 @@
+**HPI:**
+This is a 58-year-old individual with a past medical history notable only for well-controlled hypertension, who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. This prompted a visit to their primary care provider, who ordered a chest X-ray that revealed a right-sided lung mass. The patient denies hemoptysis, fevers, chills, or significant weight loss. They remain fully ambulatory and capable of all self-care, with an ECOG performance status of 1. Notably, the patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, the patient underwent a staging CT scan of the chest, abdomen, and pelvis with contrast on [De-identified Date]. This study confirmed the presence of a 3.8 cm spiculated mass in the right upper lobe, associated with bulky mediastinal and hilar adenopathy. The abdominal portion of the scan revealed a solitary 1.5 cm hypodense lesion in the liver, suspicious for metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]. Pathology returned as poorly differentiated adenocarcinoma.
+
+A brain MRI with and without contrast was performed for staging on [De-identified Date] and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+-   **Actionable driver mutation:** A sensitizing EGFR exon 19 deletion was detected.
+-   **Additional testing:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1:** PD-L1 expression was not tested, as this was not standard of care at the time of the workup.
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 58-year-old never-smoker presenting with a new diagnosis of Stage IV (M1) lung adenocarcinoma, with metastatic disease to the liver and no evidence of brain metastases. Molecular profiling of the tumor is positive for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive.

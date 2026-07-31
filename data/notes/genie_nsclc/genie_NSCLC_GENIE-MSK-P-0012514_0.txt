@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HPI:**
+This is a 77-year-old with a history of hypertension and hyperlipidemia, who is referred for evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility with a persistent, non-productive cough and mild exertional dyspnea developing over the past several months. An initial chest X-ray revealed a right upper lobe opacity, prompting further investigation.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study confirmed a spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. It also incidentally revealed a solitary, suspicious lesion in the liver. To complete staging, a whole-body PET/CT scan was obtained, which demonstrated intense FDG-avidity in the primary lung mass, several mediastinal lymph nodes, and the solitary liver lesion, highly concerning for metastatic disease. An MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right lung mass. Pathology confirmed the diagnosis of adenocarcinoma. The patient is a former smoker, having quit more than one year ago. The patient has a good performance status (ECOG 1), remaining fully ambulatory and capable of all self-care, though reports feeling more fatigued than usual. The patient presents today for initial consultation to discuss the diagnosis and establish oncologic care.
+
+**Diagnostic Workup:**
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:** Revealed a 4.2 cm spiculated mass in the right upper lobe. Prominent mediastinal and right hilar lymphadenopathy was noted. A solitary 2.5 cm hypodense, peripherally enhancing lesion was identified in segment VII of the liver, suspicious for a metastasis.
+*   **PET/CT, [De-identified Date]:** Intensely hypermetabolic right upper lobe mass (SUVmax 12.8). Hypermetabolic right hilar and subcarinal lymph nodes (SUVmax 8.5). Solitary intensely hypermetabolic lesion in the liver corresponding to the lesion seen on CT (SUVmax 9.2). No other sites of distant FDG-avid disease.
+*   **MRI Brain with and without contrast, [De-identified Date]:** No evidence of acute intracranial abnormality or metastatic disease.
+
+**Pathology:**
+*   **CT-guided core biopsy, right upper lobe lung mass, [De-identified Date]:**
+    *   **Final Diagnosis:** Invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1:** Not tested.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 77-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging is consistent with AJCC 8th Edition Stage IV, based on a primary lung tumor with distant metastasis to the liver. Brain imaging is negative for metastatic disease. Molecular profiling of the tumor is notable for the absence of an identifiable actionable driver mutation and an intermediate tumor mutational burden. The patient presents for initial consultation and to discuss the implications of this diagnosis.

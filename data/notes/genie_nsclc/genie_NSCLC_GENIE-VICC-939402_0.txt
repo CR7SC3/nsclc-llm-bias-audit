@@ -1,0 +1,21 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**History of Present Illness:**
+This is a 64-year-old individual with a significant smoking history who presents for initial medical oncology evaluation regarding a new diagnosis of non-small cell lung cancer. The patient reports a several-month history of a persistent, dry cough and progressive dyspnea on exertion. This prompted an evaluation by their primary care provider, who ordered a chest radiograph that revealed a right-sided lung opacity. The patient was subsequently referred for further diagnostic workup. The patient denies hemoptysis, fevers, chills, or significant weight loss. Performance status is estimated at ECOG 1, with the patient remaining ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial staging. This imaging confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky ipsilateral mediastinal and hilar lymphadenopathy. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other visualized intra-abdominal organs.
+
+A subsequent whole-body PET/CT scan was obtained to further delineate the extent of disease. This study showed intense FDG-avidity corresponding to the primary right upper lobe mass as well as in multiple right-sided mediastinal lymph node stations. There was no evidence of FDG-avid disease elsewhere to suggest distant metastatic involvement.
+
+Given the findings, a brain MRI with and without contrast was performed for central nervous system staging, which was negative for any intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+The biopsy specimen was sent for molecular analysis. Initial immunohistochemistry for PD-L1 is positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) analysis was also completed and is low at <2 mutations/megabase. Results from comprehensive next-generation sequencing are pending.
+
+**Problem Summary:**
+In summary, this is a 64-year-old current smoker who presents with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA (AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. Molecular testing to date is notable for high PD-L1 expression (TPS ≥50%).

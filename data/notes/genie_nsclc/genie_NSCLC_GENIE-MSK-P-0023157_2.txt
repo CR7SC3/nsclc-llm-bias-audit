@@ -1,0 +1,16 @@
+**HPI:**
+This is a 58-year-old individual with a history of good health who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a new, persistent, non-productive cough and progressive mid-back pain. The pain was initially attributed to a musculoskeletal strain but did not respond to conservative measures and worsened over time, prompting further investigation. The patient denies fevers, chills, or significant shortness of breath, but reports a decreased appetite and an unintentional weight loss of approximately 10 pounds over the past two months. The patient is a never-smoker. Overall performance status is good, estimated at ECOG 1, with the patient remaining ambulatory and capable of all self-care, though limited in physically strenuous activities due to back discomfort.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest CT scan, which revealed a 4.2 cm spiculated mass in the left lower lobe. There were also several enlarged mediastinal lymph nodes noted. Given these findings, a staging PET/CT was obtained. The PET/CT demonstrated intense FDG-avidity in the known primary left lower lobe mass and in mediastinal lymph nodes. Additionally, the scan revealed multiple FDG-avid osseous lesions in the thoracic spine and right pelvis, consistent with distant metastatic disease. A dedicated MRI of the brain was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the left lower lobe lung mass. The pathology from this procedure confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor specimen. The analysis identified an actionable driver mutation in the form of an EGFR exon 19 deletion, which is a known sensitizing mutation. The tumor was negative for other tested driver mutations, including rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as the panel was performed prior to this becoming standard practice.
+
+**Problem Summary:**
+1.  Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, with metastases to bone.
+2.  Tumor molecular profiling positive for a sensitizing EGFR exon 19 deletion.
+3.  Never-smoker.
+4.  ECOG performance status 1.

@@ -1,0 +1,19 @@
+**HPI:**
+This is a 70-year-old individual with a history of tobacco use (quit >1 year ago) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. An initial course of antibiotics prescribed by their primary care provider did not lead to resolution of symptoms. This prompted a chest X-ray, which was notable for a suspicious opacity in the right upper lung. The patient denies any significant shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers or weight loss. They maintain a good appetite and energy level, with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest with contrast was performed. This study characterized a 3.5 cm spiculated mass in the posterior segment of the right upper lobe. A few ipsilateral hilar lymph nodes were noted to be borderline in size. A subsequent CT of the abdomen and pelvis showed no evidence of metastatic disease in the liver, adrenal glands, or other visceral organs.
+
+For definitive staging, a whole-body PET/CT scan was obtained. This demonstrated intense FDG avidity in the known right upper lobe primary mass and mild avidity in an adjacent right hilar lymph node. No other sites of abnormal FDG uptake concerning for regional or distant metastatic disease were identified. A contrast-enhanced MRI of the brain was also performed as part of the staging evaluation and was negative for any intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed the diagnosis of adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was submitted for next-generation sequencing and immunohistochemistry. The key findings are as follows:
+- Actionable driver mutation detected: KRAS G12C
+- No pathogenic mutations identified in: EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2
+- PD-L1 Tumor Proportion Score (TPS): Positive, 1-49%
+- Tumor Mutational Burden (TMB): Intermediate (2-16 mut/Mb)
+
+**Problem Summary:**
+This is a 70-year-old with an excellent performance status and a new diagnosis of Stage IIA non-small cell lung adenocarcinoma of the right upper lobe. The diagnostic workup, including PET/CT and brain MRI, shows no evidence of distant metastatic disease. Molecular analysis of the tumor is notable for a KRAS G12C mutation and positive PD-L1 expression (TPS 1-49%). The patient is treatment-naive and presents today for initial consultation and to discuss this new diagnosis.

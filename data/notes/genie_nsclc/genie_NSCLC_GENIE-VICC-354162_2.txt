@@ -1,0 +1,22 @@
+**HPI:**
+This is an 81-year-old individual with a remote history of tobacco use who is referred for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility approximately six weeks ago with a persistent dry cough and a new sensation of fullness in the right supraclavicular fossa. This was associated with mild fatigue but no significant weight loss, hemoptysis, or chest pain. The patient maintains a good performance status, ECOG 1, and continues with all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+The initial workup began with a chest CT scan, which revealed a 4.8 cm spiculated mass in the right upper lobe. This was associated with extensive and bulky mediastinal and right supraclavicular lymphadenopathy, concerning for locoregionally advanced disease.
+
+A subsequent PET/CT scan was performed for staging purposes. This confirmed high FDG-avidity in the primary right upper lobe mass as well as in multiple right-sided mediastinal, hilar, and supraclavicular nodal stations. Importantly, there was no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, or skeleton to suggest distant metastasis. A dedicated MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent an ultrasound-guided core needle biopsy of a right supraclavicular lymph node. Pathologic review of the specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+Based on the comprehensive imaging and tissue diagnosis, the patient carries a diagnosis of clinical Stage IIIB (cT2bN3M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the biopsy tissue. The findings are as follows:
+- **Histology:** Adenocarcinoma
+- **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- **Actionable Mutations:** A KRAS G12C mutation was detected.
+- **Other Markers:** Testing was negative for actionable mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and ERBB2.
+- **Tumor Mutational Burden (TMB):** TMB was found to be high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is an 81-year-old with a good performance status and a new diagnosis of treatment-naive, unresectable Stage IIIB pulmonary adenocarcinoma. The tumor is characterized by high PD-L1 expression (TPS ≥50%), a KRAS G12C mutation, and a high tumor mutational burden. The patient is seen today for initial consultation to discuss these findings.

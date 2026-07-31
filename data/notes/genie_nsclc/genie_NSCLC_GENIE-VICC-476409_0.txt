@@ -1,0 +1,30 @@
+**MEDICAL ONCOLOGY - INITIAL CONSULTATION**
+**Patient ID:** [De-identified]
+**Date of Service:** [De-identified]
+**Attending Physician:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 61-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided back pain. An initial chest X-ray revealed a right upper lobe lung mass. This prompted a referral for further evaluation. The patient reports feeling generally well otherwise, with a good appetite and no significant weight loss. Performance status is excellent, ECOG 1.
+
+The patient is here today for initial consultation to discuss the diagnosis and establish care.
+
+**DIAGNOSTIC WORKUP:**
+A CT of the chest, abdomen, and pelvis was performed, which confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated multiple suspicious sclerotic and lytic bone lesions, a moderate right-sided pleural effusion, and bulky mediastinal and supraclavicular lymphadenopathy.
+
+A subsequent whole-body PET/CT scan was performed for staging, which confirmed intense FDG-avidity in the primary right upper lobe lung mass. It further characterized widespread metastatic disease with avid uptake in multiple osseous sites, the right pleura, and distant lymph nodes including the supraclavicular chain, consistent with Stage IV disease.
+
+A brain MRI with and without contrast was performed to complete staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue. Key findings are as follows:
+*   **Actionable Driver Detected:** RET fusion
+*   **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, ERBB2
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+*   **PD-L1:** Not tested. This is noted as the sequencing panel was performed prior to PD-L1 testing becoming standard of care for all cases.
+
+**PROBLEM SUMMARY:**
+This is a 61-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastatic disease to the bone, pleura, and distant lymph nodes. Molecular profiling is notable for the presence of a RET fusion. The patient has an excellent performance status and has not yet received any therapy for this diagnosis.

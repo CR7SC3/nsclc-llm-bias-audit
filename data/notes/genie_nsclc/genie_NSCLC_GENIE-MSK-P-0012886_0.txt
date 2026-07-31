@@ -1,0 +1,24 @@
+**HPI:**
+This is an initial medical oncology consultation for a 66-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is referred for discussion of the diagnosis and management options.
+
+The patient has a history of being a former smoker, having quit within the last year. They were in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted intermittent headaches and a 10-pound unintentional weight loss. Due to worsening headaches and a new episode of mild word-finding difficulty, they presented to an outside emergency department for evaluation.
+
+Initial workup included a chest X-ray which revealed a right-sided lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a large mass in the right lung with associated mediastinal lymphadenopathy and a suspicious left adrenal lesion. Given the neurological symptoms, a brain MRI was obtained, which demonstrated multiple intracranial lesions consistent with metastatic disease. The patient subsequently underwent a CT-guided core needle biopsy of the primary lung mass, which established the diagnosis. The patient is treatment-naive and has not received any prior systemic therapy for this diagnosis. They are seen today to establish care and discuss the findings.
+
+**Diagnostic Workup:**
+A review of outside records and imaging was performed.
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified Date]:** Revealed a 5.2 cm spiculated mass in the right upper lobe. There is associated bulky mediastinal and right hilar lymphadenopathy. A 2.3 cm nodule is noted in the left adrenal gland, highly suspicious for a metastasis. No other distant visceral or osseous metastases were identified in the chest, abdomen, or pelvis.
+- **MRI Brain with and without contrast [De-identified Date]:** Demonstrated multiple, scattered, ring-enhancing lesions within the bilateral cerebral and cerebellar hemispheres, consistent with metastatic disease. The largest lesion measures 1.8 cm in the left parietal lobe with associated vasogenic edema.
+
+**Pathology:**
+- **CT-guided core biopsy, right upper lobe lung mass [De-identified Date]:** Histologic examination revealed poorly differentiated non-small cell carcinoma with features consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+- Comprehensive molecular profiling by next-generation sequencing is pending.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) is low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 66-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, squamous cell histology, with metastatic disease to the brain and left adrenal gland. The patient is seen today for initial consultation. Key molecular studies to guide therapy are currently pending.

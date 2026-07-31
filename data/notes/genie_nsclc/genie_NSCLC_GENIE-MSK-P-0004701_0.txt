@@ -1,0 +1,23 @@
+**HPI:**
+This is a 52-year-old individual with a significant smoking history who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was accompanied by dull, aching pain in the left hip and an unintentional weight loss of approximately 15 pounds over the past three months. Initial evaluation by a primary care provider prompted a chest radiograph, which revealed a large right-sided lung mass. The patient was subsequently referred for further diagnostic workup and oncologic evaluation. The patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity (ECOG Performance Status 1). They continue to smoke.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was initiated.
+
+A CT of the chest, abdomen, and pelvis with contrast identified a 5.8 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The scan also revealed a suspicious 3.5 cm soft tissue mass in the right adrenal gland.
+
+A whole-body PET/CT was performed for definitive staging. This confirmed intense FDG-avidity in the primary right upper lobe mass and the mediastinal lymph nodes. It further demonstrated distant metastatic disease with an intensely avid lesion in the right adrenal gland and a second avid osseous lesion in the left iliac bone, consistent with metastatic disease.
+
+A contrast-enhanced MRI of the brain was performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alteration was identified. Testing was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor mutational burden (TMB) was found to be high (>16 mut/Mb).
+- A loss-of-function mutation was identified in the STK11 gene.
+- PD-L1 immunohistochemistry was not performed on the specimen, as this was not standard practice at the time of the initial tissue analysis.
+
+**Problem Summary:**
+This is a 52-year-old, treatment-naive patient with a new diagnosis of AJCC Stage IV non-small cell lung cancer, NOS histology, with metastatic disease to the bone and adrenal gland. Molecular profiling reveals a high tumor mutational burden and an STK11 loss-of-function mutation, with no other identified actionable driver mutations.

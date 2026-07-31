@@ -1,0 +1,13 @@
+**HPI:**
+This is an 88-year-old former smoker who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient's history dates back several weeks, beginning with the onset of progressive shortness of breath on exertion and a persistent, non-productive cough. These symptoms prompted a visit to their primary care provider. The patient remains functional and able to perform activities of daily living but is limited by dyspnea. There is no reported hemoptysis, significant chest pain, or constitutional symptoms such as fever or weight loss. The patient has a remote history of tobacco use, having quit over a year ago.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a left-sided pleural effusion and was suspicious for an underlying lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed a primary mass in the left upper lobe, as well as a large, malignant-appearing left pleural effusion with associated pleural nodularity. No evidence of distant metastatic disease was identified in the contralateral lung, liver, adrenal glands, or bones. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a video-assisted thoracoscopic surgery (VATS) with pleural biopsy and talc pleurodesis on [De-identified date]. Pathological analysis of the pleural tissue confirmed the diagnosis of adenocarcinoma, consistent with a lung primary. The presence of a malignant pleural effusion confers a diagnosis of Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the pleural biopsy. The molecular analysis identified an actionable sensitizing mutation, specifically an EGFR exon 19 deletion. The expanded panel was negative for other common driver mutations, including rearrangements in ALK and ROS1, as well as mutations in BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is an 88-year-old with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastasis confined to the pleura. The patient is treatment-naive with a good performance status. Molecular studies are notable for a sensitizing EGFR exon 19 deletion. The patient is seen today for a comprehensive discussion of the diagnosis and the implications of these findings.

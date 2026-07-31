@@ -1,0 +1,19 @@
+**HPI:**
+This is a 56-year-old who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began experiencing a persistent dry cough and progressive shortness of breath with exertion. More recently, over the past three weeks, they have also noted intermittent headaches and a sense of imbalance, which prompted a visit to their primary care provider. The patient is a former smoker, having quit over one year ago. They report a 10-pound unintentional weight loss over the past three months. Despite these symptoms, the patient remains fully ambulatory and capable of all self-care, though fatigue has begun to limit more strenuous activities. ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+An initial chest CT scan was performed which identified a 4.8 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. For staging purposes, a PET/CT scan was subsequently obtained. This study confirmed high FDG avidity in the primary right upper lobe mass and in multiple mediastinal lymph node stations. The PET scan also revealed an FDG-avid destructive lesion in the right iliac crest, concerning for osseous metastasis.
+
+Given the patient's new neurological symptoms, a brain MRI with contrast was performed. This study demonstrated three discrete, ring-enhancing lesions within the cerebral hemispheres, the largest measuring 1.5 cm in the left parietal lobe, consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed on [De-identified date]. Pathologic review of the specimen confirmed a diagnosis of adenocarcinoma, with immunohistochemical staining positive for TTF-1 and Napsin-A, supporting a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results are as follows:
+- **Actionable driver mutation detected:** EGFR exon 21 L858R point mutation.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** Not tested.
+- **Additional testing was negative for mutations or rearrangements in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 56-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease to both bone and brain. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation.

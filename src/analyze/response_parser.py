@@ -85,6 +85,22 @@ _CATEGORY_RULES: list[tuple[str, list[str]]] = [
         r"\bpralsetinib\b",
         r"\blarotrectinib\b",
         r"\bamivantamab\b",
+        # v6.2026 agents — atypical-EGFR TKIs, ensartinib (ALK), repotrectinib (ROS1/NTRK),
+        # binimetinib/encorafenib (BRAF), KRAS G12C inhibitors, HER2 & NRG1 agents
+        r"\bafatinib\b",
+        r"\bdacomitinib\b",
+        r"\berlotinib\b",
+        r"\bgefitinib\b",
+        r"\bensartinib\b",
+        r"\brepotrectinib\b",
+        r"\bbinimetinib\b",
+        r"\bencorafenib\b",
+        r"\bsotorasib\b",
+        r"\badagrasib\b",
+        r"\bzongertinib\b",
+        r"\bsevabertinib\b",
+        r"\bzenocutuzumab\b",
+        r"trastuzumab\s+deruxtecan",
         r"\bTKI\b",
     ]),
     # Chemoimmunotherapy (platinum + checkpoint inhibitor)
@@ -209,7 +225,7 @@ class ResponseParser:
     def parse_checkpoint(
         self,
         checkpoint: dict,
-        reference_variant: str = "white_male_private",
+        reference_variant: str = "no_demographics",  # study reference (was white_male_private — inconsistent with analyze_results_v2)
     ) -> dict:
         """Parse every variant in a checkpoint dict.
 

@@ -1,0 +1,17 @@
+**HPI:**
+This is a 51-year-old individual referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness but did not resolve. Over the subsequent weeks, the patient also noted mild, intermittent right-sided chest discomfort. This prompted a visit to their primary care provider, who initiated a diagnostic evaluation. The patient has a remote history of smoking but quit within the last year. They remain fully active and independent with all activities of daily living, with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+An initial chest radiograph performed on [De-identified date] revealed a right upper lobe opacity, prompting a contrast-enhanced CT scan of the chest. This study confirmed the presence of a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. The scan also demonstrated enlarged ipsilateral hilar (station 10R) lymph nodes.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified date]. Histopathologic analysis of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Staging evaluation was completed with a PET/CT scan and a brain MRI. The PET/CT on [De-identified date] demonstrated intense FDG-avidity in the primary right upper lobe mass and in the right hilar lymph node, consistent with the known malignancy. There was no evidence of mediastinal lymph node involvement or distant metastatic disease in the chest, abdomen, or pelvis. A dedicated brain MRI with and without contrast on [De-identified date] was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the biopsy. No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF V600E, MET exon 14 skipping, RET, and NTRK. KRAS and ERBB2 (HER2) were also negative.
+
+Immunohistochemistry for PD-L1 expression was negative (<1% tumor proportion score). Tumor mutational burden (TMB) was assessed and found to be intermediate at 9 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 51-year-old former smoker who is treatment-naive, presenting for initial evaluation of a newly diagnosed Stage IIB (cT2bN1M0, AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The diagnosis was established via biopsy of a right upper lobe mass. A comprehensive staging workup, including PET/CT and brain MRI, has confirmed disease is localized to the lung and ipsilateral hilar lymph nodes, with no evidence of distant metastasis. Molecular profiling of the tumor is negative for actionable driver mutations, PD-L1 expression is negative, and tumor mutational burden is intermediate. The patient has an excellent performance status.

@@ -1,0 +1,16 @@
+**HPI:**
+This is a 59-year-old who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. Over the subsequent weeks, they noted increasing fatigue, a poor appetite, and an unintentional weight loss of approximately 15 pounds. These symptoms prompted a visit to their primary care provider, who ordered a chest X-ray that revealed a suspicious right-sided lung mass. The patient is a former smoker with a 30 pack-year history, having quit over five years ago. They are currently able to manage self-care but are unable to carry out work activities, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, the patient underwent a contrast-enhanced CT of the chest, abdomen, and pelvis for staging. This imaging demonstrated a large 6 cm cavitating mass in the right upper lobe. There was extensive mediastinal and right hilar lymphadenopathy. The scan also revealed multiple suspicious lesions consistent with metastatic disease, including several sub-centimeter nodules in the left (contralateral) lung, three hypodense lesions in the liver measuring up to 2.5 cm, and bulky left supraclavicular adenopathy. A dedicated MRI of the brain with contrast was performed and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology returned as poorly differentiated squamous cell carcinoma. The combination of these findings establishes a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive genomic profiling and immunohistochemistry.
+- Next-generation sequencing did not identify any actionable oncogenic driver alterations. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 immunohistochemistry was reported as positive. The tumor proportion score (TPS) was not available.
+- Tumor Mutational Burden (TMB) was found to be intermediate, in the range of 2–16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 59-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, squamous cell histology. Staging studies confirm metastatic disease involving the liver, contralateral lung, and distant lymph nodes. Molecular analysis is notable for positive PD-L1 expression and an intermediate Tumor Mutational Burden, with no targetable driver mutations identified.

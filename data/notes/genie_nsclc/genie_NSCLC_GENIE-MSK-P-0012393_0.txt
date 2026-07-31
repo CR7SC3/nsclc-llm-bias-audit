@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 71-year-old with a new diagnosis of non-small cell lung cancer. The patient is seen today at the [De-identified] Cancer Center to discuss the diagnosis and establish care.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. This was associated with a 10-pound unintentional weight loss over the same period. They presented to their primary care provider, and an initial chest X-ray was concerning for a right-sided lung mass. The patient is a former smoker, having quit over one year ago. They are currently active and independent with all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study identified a 3.8 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also revealed multiple suspicious lesions in the liver, the largest measuring 2.5 cm in segment VII, and a 3.0 cm enhancing nodule in the left adrenal gland. These findings were highly concerning for metastatic disease.
+
+A subsequent PET/CT scan confirmed high FDG avidity in the primary right upper lobe lung mass, mediastinal lymph nodes, as well as in the sites of suspected distant disease in the liver and left adrenal gland. A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure returned adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. The analysis identified an actionable sensitizing mutation, specifically an EGFR exon 19 deletion. Further molecular testing was negative for other common driver mutations, including rearrangements in ALK and ROS1, and mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, which revealed a Tumor Proportion Score (TPS) in the 1-49% range. The Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 71-year-old with a new diagnosis of treatment-naive, metastatic (Stage IV) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirms metastatic disease involving the liver and the left adrenal gland. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The PD-L1 TPS is positive at 1-49%.

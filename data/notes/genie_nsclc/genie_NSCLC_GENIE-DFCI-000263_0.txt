@@ -1,0 +1,29 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 51-year-old individual referred for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough. A chest X-ray was obtained which revealed a right upper lobe lung nodule, prompting further investigation.
+
+The patient is a former smoker, having quit over one year ago. They report feeling generally well otherwise, with no significant weight loss, fevers, or night sweats. Energy levels are good, and they maintain an ECOG performance status of 0.
+
+A diagnostic workup was initiated. A CT scan of the chest confirmed a solid, spiculated nodule in the right upper lobe. Subsequent staging with a PET/CT scan demonstrated FDG-avidity localized to the primary lung nodule, with no evidence of hypermetabolic mediastinal, hilar, or distant metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathologic analysis confirmed the diagnosis of adenocarcinoma. The patient is now seen in clinic to discuss the diagnosis and establish oncologic care.
+
+**Diagnostic Workup:**
+*   **CT Chest, Abdomen, and Pelvis with IV contrast, [De-identified Date]:** Revealed a 2.5 cm solid nodule in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy. The visualized portions of the abdomen and pelvis were without evidence of metastatic disease.
+*   **PET/CT, [De-identified Date]:** Intense FDG uptake in the right upper lobe nodule (SUVmax 8.9), consistent with malignancy. No other sites of abnormal FDG avidity to suggest nodal or distant metastatic disease.
+*   **MRI Brain with and without contrast, [De-identified Date]:** No evidence of intracranial metastatic disease.
+*   **CT-guided Core Biopsy, Right Upper Lobe Nodule, [De-identified Date]:** Pathology confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+*   No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+*   PD-L1 expression was not tested, as this was not standard of care at the time of initial tissue acquisition.
+*   Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 51-year-old with a new diagnosis of clinical Stage IB non-small cell lung cancer, adenocarcinoma histology, located in the right upper lobe. Staging workup including PET/CT and brain MRI has confirmed localized disease with no evidence of regional or distant metastases. Comprehensive molecular profiling did not identify an actionable driver mutation. The patient presents today for initial oncology consultation.

@@ -1,0 +1,19 @@
+**HPI:**
+This is a 65-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. Over the subsequent weeks, they also noted the onset of new, constant mid-back pain, which prompted a visit to their primary care provider. The patient is a former smoker, having quit over one year ago. Given the persistent symptoms, an outpatient diagnostic workup was initiated. The patient is here today to discuss the findings and establish care. Performance status is good, ECOG 1, with ambulation and self-care maintained, though activities are limited by back pain.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a large right upper lobe lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a 5.5 cm spiculated mass in the right upper lobe with associated mediastinal and contralateral supraclavicular lymphadenopathy. The CT also revealed multiple sclerotic and lytic lesions in the thoracic spine, consistent with osseous metastases.
+
+A PET/CT was performed for staging, which confirmed high FDG avidity in the primary right lung mass, mediastinal lymph nodes, contralateral supraclavicular nodes, and multiple sites of bony involvement including the T7 vertebra and the right iliac crest. A dedicated brain MRI with and without contrast was performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathological analysis confirmed a diagnosis of poorly differentiated squamous cell carcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tissue from the lung mass biopsy.
+- An actionable driver mutation was detected in KRAS G12C.
+- Testing was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Immunohistochemistry for PD-L1 was performed, revealing a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 65-year-old with a new diagnosis of AJCC Stage IV squamous non-small cell lung cancer, metastatic to bone and distant lymph nodes. The patient is treatment-naive. Molecular profiling is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient presents with a good performance status for discussion of findings and initiation of oncologic care.

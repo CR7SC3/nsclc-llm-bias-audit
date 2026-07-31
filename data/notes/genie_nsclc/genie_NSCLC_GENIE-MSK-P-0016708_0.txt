@@ -1,0 +1,18 @@
+**HPI:**
+This is a 78-year-old individual with a history of former tobacco use who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they began to develop a persistent, dry cough and progressive dyspnea on exertion. This was accompanied by generalized fatigue and an unintentional weight loss of approximately 15 pounds. More recently, the patient developed new-onset, dull pain in the mid-back, which did not improve with over-the-counter analgesics. These symptoms prompted an evaluation with their primary care provider, who ordered initial imaging. The patient has a good performance status, ECOG 1, and is able to perform all activities of daily living without assistance, though is limited in more strenuous activities by dyspnea.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a large opacity in the right upper lung. This led to a staging CT scan of the chest, abdomen, and pelvis with contrast, which confirmed the presence of a 5.2 cm spiculated mass in the right upper lobe. The scan also identified multiple suspicious hypoattenuating lesions throughout the liver and a lytic lesion in the T8 vertebral body, concerning for metastatic disease. A subsequent PET/CT scan demonstrated intense FDG-avidity corresponding to the primary right upper lobe mass, as well as avid uptake in multiple hepatic lesions and the T8 osseous lesion, confirming widespread metastatic involvement.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date]. Histopathologic analysis confirmed a diagnosis of poorly differentiated adenocarcinoma. A staging MRI of the brain was also obtained and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. Key findings are as follows:
+- An actionable driver mutation was detected in **KRAS (G12C)**.
+- The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- A **STK11 loss-of-function mutation** was also identified.
+- Tumor Mutational Burden (TMB) was reported as **intermediate (2–16 mut/Mb)**.
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the liver and bone. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation.

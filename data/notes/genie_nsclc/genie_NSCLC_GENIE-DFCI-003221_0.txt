@@ -1,0 +1,23 @@
+**REASON FOR CONSULTATION:** Initial medical oncology evaluation for newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 57-year-old who presents for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. This prompted a visit to their primary care provider, who obtained a chest X-ray that was suspicious for a right-sided lung mass.
+
+A subsequent contrast-enhanced CT of the chest confirmed the presence of a 4.5 cm mass in the right upper lobe. The scan also revealed prominent ipsilateral mediastinal and subcarinal lymphadenopathy, concerning for regional involvement. The patient has a remote history of smoking but quit within the past year. They report a 10-pound unintentional weight loss over the past three months but otherwise feel well, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+Staging workup was pursued to characterize the extent of disease.
+
+A PET/CT scan performed on [De-identified] demonstrated intense FDG-avidity in the primary right upper lobe mass as well as in the right paratracheal and subcarinal lymph nodes. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic involvement.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for any intracranial metastases.
+
+On [De-identified], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial needle aspiration of a subcarinal lymph node. Pathologic review of the specimen confirmed invasive, poorly differentiated squamous cell carcinoma.
+
+Based on these findings, the patient is staged with AJCC 8th Edition Stage IIIA non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the biopsy specimen. No actionable driver alteration was identified; results were negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 57-year-old former smoker with a good performance status who presents as a new patient for oncologic evaluation. Workup has confirmed a diagnosis of Stage IIIA squamous cell non-small cell lung cancer. Molecular profiling of the tumor did not identify any actionable driver alterations. The patient is treatment-naive.

@@ -1,0 +1,23 @@
+**HPI:**
+This is a 71-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient presented to an outside facility approximately six weeks ago with a persistent, non-productive cough and new-onset, localized right-sided chest pain, which had been progressive over several months. The patient is a lifetime never-smoker and was in their usual state of good health with a high functional status prior to the onset of these symptoms. The initial workup was initiated by their primary care provider. The patient reports a 10-lb unintentional weight loss over the past three months and increasing fatigue but denies fevers, night sweats, or hemoptysis. The patient is here today for an initial oncology consultation to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a large right upper lobe opacity. This prompted a follow-up CT of the chest, abdomen, and pelvis with contrast. Imaging demonstrated a 5.2 cm spiculated mass in the right upper lobe. The scan also revealed nodular thickening of the right pleura, consistent with pleural metastasis, and a small malignant pleural effusion. Additionally, a lytic lesion was identified in the T7 vertebral body, suspicious for osseous metastasis.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of poorly differentiated squamous cell carcinoma.
+
+Staging was completed with a PET/CT scan which showed intense FDG-avidity in the primary right upper lobe mass, the right-sided pleural nodules, and the previously noted T7 vertebral body lesion. No other distant sites of FDG-avid disease were identified. A brain MRI with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Tissue from the lung mass biopsy was sent for next-generation sequencing. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested on the diagnostic sample.
+
+**Problem Summary:**
+1.  Newly diagnosed Stage IV non-small cell lung cancer, squamous cell histology, with metastases to the pleura and bone.
+    - AJCC Stage: cT3 N0 M1b
+    - MRN: [De-identified]
+    - Date of Diagnosis: [De-identified]
+2.  Tumor molecular profiling negative for common actionable driver alterations.
+3.  ECOG performance status 1.
+4.  Lifetime never-smoker.

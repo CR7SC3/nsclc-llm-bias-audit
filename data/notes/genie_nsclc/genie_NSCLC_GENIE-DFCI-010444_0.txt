@@ -1,0 +1,47 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 61-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted dull, intermittent right-sided chest pain, a 10-pound unintentional weight loss, and new-onset headaches.
+
+This prompted an evaluation with their primary care physician, leading to a chest X-ray that showed a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization. This imaging confirmed a primary lung mass and revealed findings concerning for widespread metastatic disease. The patient was referred for a CT-guided core needle biopsy of the lung mass, which established the diagnosis. An MRI of the brain was also performed to evaluate the headaches. The patient has a remote history of tobacco use but quit over a year ago. They remain functional, with an ECOG performance status of 1, able to perform all self-care and light ambulatory activities.
+
+**PAST MEDICAL AND SURGICAL HISTORY:**
+- Hypertension
+- No prior major surgeries
+
+**MEDICATIONS:**
+- Amlodipine 5 mg daily
+
+**ALLERGIES:**
+- No Known Drug Allergies
+
+**SOCIAL HISTORY:**
+- Tobacco Use: Former smoker, quit >1 year ago.
+
+**PHYSICAL EXAMINATION:**
+Vitals: T 36.8C, BP 134/82, P 88, RR 18, SpO2 96% on room air.
+General: Alert and oriented, in no acute distress.
+HEENT: Mucous membranes moist. Sclerae anicteric.
+Neck: Supple, no cervical or supraclavicular lymphadenopathy.
+Lungs: Decreased breath sounds in the right upper lung field. No wheezes or rales.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.
+Extremities: No edema.
+Neurologic: Grossly non-focal. Strength 5/5 throughout.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the relevant outside imaging and pathology reports.
+
+CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]: Revealed a 4.5 cm spiculated mass in the right upper lobe. Multiple bilateral pulmonary nodules were noted, consistent with contralateral lung metastases. A 2.8 cm left adrenal nodule and a lytic lesion in the T7 vertebral body were also identified, suspicious for metastatic deposits.
+
+MRI Brain with and without contrast, [De-identified Date]: Performed for evaluation of headaches, this study demonstrated multiple scattered enhancing cerebral lesions, the largest measuring 1.2 cm in the left frontal lobe, consistent with brain metastases.
+
+Biopsy of Right Upper Lobe Lung Mass, [De-identified Date]: Histopathologic analysis of the core needle biopsy specimen confirmed invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) performed on the tumor tissue identified an activating EGFR exon 19 deletion. The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+
+Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 61-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma with metastases to the brain, bone, contralateral lung, and adrenal gland. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion.

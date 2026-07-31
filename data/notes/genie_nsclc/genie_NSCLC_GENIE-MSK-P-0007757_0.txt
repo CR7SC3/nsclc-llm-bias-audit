@@ -1,0 +1,15 @@
+**HPI:**
+This is a 37-year-old individual with a history of a persistent, non-productive cough and progressive fatigue over the last 2-3 months. The patient also reports intermittent right upper quadrant abdominal discomfort and an unintentional weight loss of approximately 15 pounds. Due to the persistence of these symptoms, the patient sought evaluation at an outside hospital. The patient is a former smoker, having quit more than one year prior to presentation. The patient is otherwise active and maintains a good performance status, though has noted increasing difficulty with usual activities due to fatigue.
+
+**Diagnostic Workup:**
+An initial chest X-ray was concerning for a lung mass, which prompted a contrast-enhanced CT of the chest. This study identified a large, irregular mass in the right lower lobe measuring approximately 5 cm, with associated mediastinal lymphadenopathy.
+
+Given the findings on chest CT, a staging PET/CT scan was performed on [De-identified date]. This demonstrated high FDG avidity in the primary right lower lobe mass and mediastinal nodes. Additionally, multiple hypermetabolic lesions were identified consistent with distant metastatic disease, including several lesions in the liver and a solitary avid lesion in the left adrenal gland. A dedicated MRI of the brain with and without contrast was subsequently performed and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an ultrasound-guided core biopsy of a suspicious liver lesion by Interventional Radiology on [De-identified date]. Pathologic evaluation of the biopsy specimen confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS) histology.
+
+**Molecular Studies:**
+Tissue from the liver biopsy was sent for comprehensive next-generation sequencing. Molecular analysis revealed the presence of an activating KRAS G12C mutation. Testing for other common driver mutations was negative, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2-16 mut/Mb). PD-L1 expression was not performed on this sample.
+
+**Problem Summary:**
+In summary, this is a 37-year-old, treatment-naive patient with a new diagnosis of metastatic non-small cell lung cancer, NOS histology, clinical stage IV (AJCC 8th Edition). Staging studies confirm metastatic disease to the liver and adrenal gland. Molecular profiling is notable for a KRAS G12C mutation. The patient is here for initial consultation and to discuss the diagnosis.

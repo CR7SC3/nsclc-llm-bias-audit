@@ -1,0 +1,22 @@
+**HPI:**
+This is a 43-year-old individual with a significant smoking history who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they began to experience a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, this was associated with an unintentional weight loss of approximately 15 pounds, generalized fatigue, and the new onset of intermittent headaches and mild dizziness.
+
+These symptoms prompted an evaluation with their primary care provider, leading to a chest X-ray that showed a right-sided lung opacity. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a large mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy, as well as suspicious contralateral supraclavicular lymph nodes. Given the new neurological symptoms, a brain MRI was obtained which revealed multiple intracranial lesions consistent with metastatic disease. The patient has a good performance status, ECOG 1, and remains fully ambulatory and capable of self-care, though is limited in strenuous activity by dyspnea.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was completed prior to this consultation. I have personally reviewed the relevant imaging and pathology reports.
+
+- **CT Chest/Abdomen/Pelvis:** Revealed a 5.2 cm spiculated mass in the right upper lobe of the lung. There was extensive ipsilateral mediastinal and hilar lymphadenopathy. Additionally, pathologically enlarged contralateral supraclavicular lymph nodes were identified, consistent with distant metastatic disease. No other sites of visceral metastasis were identified in the chest, abdomen, or pelvis.
+
+- **MRI Brain with and without contrast:** Demonstrated at least three distinct, ring-enhancing intraparenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits. The largest lesion is located in the left frontal lobe.
+
+- **Pathology:** The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass at [De-identified] Hospital. Histopathologic examination confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results are as follows:
+- No actionable driver alteration was identified. The tumor was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as high (>16 mutations/megabase).
+- PD-L1 expression testing was not performed on this sample.
+
+**Problem Summary:**
+In summary, this is a 43-year-old current smoker with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic at presentation, with confirmed involvement of the brain and distant (supraclavicular) lymph nodes. Comprehensive molecular profiling did not identify any targetable driver alterations but did reveal a high tumor mutational burden. The patient is treatment-naive and presents today for initial consultation to discuss these findings.

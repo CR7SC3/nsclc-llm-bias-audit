@@ -1,0 +1,30 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+This is a 59-year-old individual referred for evaluation and management of a new diagnosis of non-small cell lung cancer. The history was obtained from the patient and a review of available outside medical records.
+
+**HISTORY OF PRESENT ILLNESS**
+The patient is a 59-year-old with a history of smoking (quit >1 year ago) who was in their usual state of health until approximately two months ago. They began to experience a persistent, dry cough and progressive shortness of breath with exertion. This was accompanied by fatigue and an unintentional weight loss of approximately 15 pounds. Over the last month, the patient also developed intermittent headaches, described as a dull, constant pressure, and episodes of mild dizziness. These escalating symptoms prompted a visit to an urgent care center, which led to an extensive diagnostic workup. The patient remains ambulatory but is limited by dyspnea. ECOG performance status is estimated at 1.
+
+**DIAGNOSTIC WORKUP**
+Initial workup began with a chest X-ray that was abnormal, leading to a CT scan of the chest, abdomen, and pelvis with contrast. This study revealed a large, spiculated mass in the upper lobe of the right lung with associated mediastinal lymphadenopathy. A large left-sided pleural effusion was also identified, concerning for malignant involvement of the pleura.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed high FDG-avidity in the primary right upper lobe mass, several mediastinal lymph nodes, and extensive nodular studding of the left pleura. No other sites of FDG-avid metastatic disease were identified in the neck, chest, abdomen, or pelvis.
+
+Given the patient's new neurological symptoms, a contrast-enhanced MRI of the brain was obtained. This study demonstrated multiple, scattered, ring-enhancing lesions within the cerebral hemispheres, consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the right lung mass was performed on [De-identified Date]. Pathology from this specimen confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen to assess for targetable alterations. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was calculated from the NGS panel and was found to be high at >16 mutations/megabase.
+
+**PROBLEM SUMMARY**
+In summary, this is a 59-year-old former smoker with a new diagnosis of metastatic non-small cell lung cancer, adenocarcinoma histology. The clinical and radiographic findings are consistent with AJCC Stage IV disease, with confirmed metastatic sites in the brain and pleura. Comprehensive molecular profiling of the tumor did not identify any actionable driver mutations but did reveal high PD-L1 expression (TPS ≥50%) and a high Tumor Mutational Burden. The patient is treatment-naive.

@@ -1,0 +1,34 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF CONSULTATION:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**REFERRING PROVIDER:** [De-identified]
+
+I had the pleasure of meeting this 62-year-old for an initial medical oncology evaluation regarding a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 62-year-old with an excellent baseline functional status who presented to an outside facility approximately two months ago with a persistent, non-productive cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity.
+
+A follow-up contrast-enhanced CT of the chest was performed, which confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. The scan also revealed enlarged ipsilateral mediastinal and subcarinal lymph nodes. The patient was subsequently referred for further diagnostic evaluation.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology from this procedure confirmed the diagnosis of adenocarcinoma. Staging workup was initiated, including a PET/CT scan and a brain MRI. The patient reports a stable energy level and has maintained weight. Performance status is excellent, estimated at ECOG 1. The patient is a lifetime never-smoker.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis:** Revealed a 3.5 cm spiculated mass in the right upper lobe. Associated ipsilateral mediastinal and subcarinal lymphadenopathy was noted, with the largest node measuring 2.1 cm in short axis. No suspicious hepatic, adrenal, or osseous lesions were identified. The visualized portions of the abdomen and pelvis were otherwise unremarkable.
+- **PET/CT:** Showed intense FDG-avidity in the primary right upper lobe mass. Avid uptake was also noted in the right paratracheal and subcarinal lymph node stations, consistent with nodal metastases. There was no evidence of hypermetabolic disease elsewhere in the body to suggest distant metastases.
+- **MRI Brain:** Performed for staging purposes and was negative for any evidence of intracranial metastatic disease.
+
+**Pathology:**
+- **CT-guided biopsy of the right upper lobe mass:** Invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+- **Actionable driver mutation:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other markers:** The tumor was found to be negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+- **PD-L1:** Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 62-year-old lifetime never-smoker with a new diagnosis of Stage IIIA (cT2aN2M0) non-small cell lung cancer, adenocarcinoma histology. The tumor is characterized by a sensitizing EGFR exon 19 deletion. The patient has an excellent performance status and has completed initial staging which has ruled out distant metastatic disease. The case is presented for discussion of management options.

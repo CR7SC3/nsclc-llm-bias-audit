@@ -4,11 +4,13 @@
 
 EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics — and evaluates prompting strategies to reduce that bias. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing. Mitigation strategies including fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction are tested against the same case set to measure whether bias can be reduced without sacrificing clinical accuracy.
 
+> **A note on provenance and circularity.** The GENIE BPC cases are real, de-identified *structured* oncology records, but the free-text consultation notes sent to the models are **LLM-generated**: `gemini-2.5-flash` renders each structured case into a demographics-neutral note, using de-identified CORAL oncology notes as style anchors only. Because one audited model (Gemini) helps author the input text, circularity is ruled out empirically — the socioeconomic stigma gradient replicates at essentially the same magnitude on (1) fully deterministic, **LLM-free template notes** and (2) **real published PMC clinical notes** the models never generated (see the note-source controls in the manuscript, `docs/paper1_nsclc/manuscript_nsclc.md`, Figure 9).
+
 ---
 
 ## Background
 
-Large language models are increasingly deployed in clinical decision support. Whether these systems perpetuate or amplify existing health disparities is an open and urgent question. Prior work (Omar et al., *Nature Medicine* 2025) demonstrated LLM bias in general medical Q&A; EquityGUIDE extends this to cancer-specific, guideline-grounded, counterfactual evaluation using real de-identified oncology cases.
+Large language models are increasingly deployed in clinical decision support. Whether these systems perpetuate or amplify existing health disparities is an open and urgent question. Prior work (Omar et al., *Nature Medicine* 2025) demonstrated LLM bias in general medical Q&A; EquityGUIDE extends this to cancer-specific, guideline-grounded, counterfactual evaluation using a large real-world oncology cohort with model-generated consultation notes (see the provenance note above).
 
 ---
 
@@ -113,6 +115,8 @@ Each real GENIE BPC case is transformed into a free-text consultation note throu
 
 ## Pilot Results (n = 50 GENIE BPC NSCLC cases)
 
+> **Superseded snapshot.** The numbers in this section come from an early three-model pilot (Gemini Flash, Gemini Flash-Lite, GPT-4o) on 50 cases. They are retained as a development record and are **superseded by the full n = 1,048, six-model study** reported in the manuscript (`docs/paper1_nsclc/manuscript_nsclc.md`). Do not cite these as the study's results.
+
 A stratified pilot of 50 real de-identified GENIE BPC NSCLC cases × 30 variants = 1,500 LLM calls per model. Three models completed.
 
 ### NCCN concordance
@@ -215,14 +219,18 @@ Three prompting strategies were tested against the baseline on the CancerGUIDE s
 
 ## Models Tested
 
-| Model | Provider | Pilot50 status | Concordance | Flip rate |
-|-------|----------|----------------|-------------|-----------|
-| `gemini-2.5-flash` | Google | Complete | 77.1% | 16.5% |
-| `gemini-2.5-flash-lite` | Google | Complete | 70.0% | 23.9% |
-| `gpt-4o` | OpenAI | Complete | 84.3% | 11.4% |
-| `llama-3.3-70b-versatile` | Meta | Pending (Together.ai) | — | — |
+The full study audits **six LLMs from five model families**, each run over all 1,048 GENIE BPC NSCLC cases × 30 variants (temperature 0, single pass). Headline concordance, flip-rate, and stigma-gradient results are reported in the manuscript (`docs/paper1_nsclc/manuscript_nsclc.md`).
 
-All models use the same pipeline, prompt, and variant set. The factory in `src/models/factory.py` routes model names to the appropriate API client. Supported: Gemini, OpenAI, Anthropic, Groq (free tier), Together.ai.
+| Model | Provider | Status (n = 1,048) |
+|-------|----------|--------------------|
+| `gemini-2.5-flash` | Google | Complete |
+| `deepseek-chat` | DeepSeek | Complete |
+| `llama-3.3-70b` | Meta | Complete |
+| `llama-3.1-8b` | Meta | Complete |
+| `gpt-4o` | OpenAI | Complete |
+| `gpt-4o-mini` | OpenAI | Complete |
+
+All models use the same pipeline, prompt, and variant set. The factory in `src/models/factory.py` routes model names to the appropriate API client (Gemini, OpenAI, DeepSeek, Anthropic, Groq, Together.ai/OpenRouter).
 
 ---
 
@@ -239,37 +247,54 @@ EquityGUIDE/
 │   │   └── variant_injector_v2.py     # V2 variant injection (30 variants, 6 tiers)
 │   ├── analyze/
 │   │   ├── response_parser.py         # LLM response → 10-class treatment category
+│   │   ├── soft_bias.py               # Stigma/framing dimension detectors
 │   │   └── stats.py                   # Wilson CI, Fisher exact, McNemar
-│   └── models/
-│       ├── factory.py                 # Model routing (Gemini, OpenAI, Anthropic, Groq, Together)
-│       ├── gemini_model.py
-│       ├── openai_model.py
-│       ├── anthropic_model.py
-│       ├── groq_model.py
-│       └── together_model.py
+│   ├── evaluate/
+│   │   ├── nccn_scorer.py             # NCCN Category 1 guideline scorer
+│   │   ├── concordance_checker.py     # Guideline concordance binary (feeds Fig 2)
+│   │   └── runner.py
+│   ├── models/
+│   │   ├── factory.py                 # Model routing (Gemini, OpenAI, Anthropic, Groq, Together, DeepSeek, OpenRouter)
+│   │   ├── gemini_model.py
+│   │   ├── openai_model.py
+│   │   ├── anthropic_model.py
+│   │   ├── groq_model.py
+│   │   ├── together_model.py
+│   │   └── deepseek_model.py
+│   └── utils/
 ├── prompts/
 │   └── evaluation/
 │       └── prompt_templates.py        # baseline, fairness, guideline_grounded, structured_extraction
 ├── equityGUIDEoncopanel/              # 11 gene panel definitions + gene matrix
 ├── scripts/
-│   └── nsclc/                         # Paper 1 (NSCLC) pipeline scripts
+│   └── nsclc/                         # NSCLC pipeline scripts
 │       ├── run_experiment_v2.py       # Main experiment runner
 │       ├── generate_genie_notes.py    # Free-text note generation for GENIE BPC cases
 │       ├── analyze_results_v2.py      # Full analysis: flip rate, direction, isolation, soft bias
+│       ├── restricted_bias_gap.py     # Restricted-to-concordant-control sensitivity analysis
 │       └── ...                        # experiment/analysis/export/validation scripts
-├── download_genie_bpc.py              # Shared: download GENIE BPC cohorts (nsclc/brca/panc)
-├── inspect_genie_bpc.py               # Shared: GENIE BPC schema inspector
-├── generate_genie_brca_panc_notes.py  # Paper 2 (BRCA/PANC) note generation
+├── download_genie_bpc.py              # Download GENIE BPC NSCLC source files
+├── inspect_genie_bpc.py               # GENIE BPC schema inspector
 ├── data/
 │   ├── genie_bpc/nsclc/               # Raw GENIE BPC source files (data use agreement required)
+│   ├── coral/                         # De-identified CORAL notes (style anchors only)
 │   ├── processed/                     # Processed case JSON files
 │   └── notes/genie_nsclc/             # Cached LLM-generated free-text notes
 ├── results/
-│   ├── baseline/                      # Experiment results JSON files
-│   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance)
+│   ├── baseline/                      # Raw experiment results JSON (not on GitHub, see Data Availability)
+│   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance) — what the manuscript cites
+├── plots/                             # Figure-generating scripts (one per figure)
+├── figures/
+│   ├── manuscript_combined/           # The 6 main manuscript figures + build script
+│   └── manuscript/                    # The 12 supplementary figures
 └── docs/
     ├── METHODS.md                     # Full technical methods documentation
-    └── genie_bpc_pipeline.md          # GENIE BPC pipeline walkthrough with examples
+    ├── genie_bpc_pipeline.md          # GENIE BPC pipeline walkthrough with examples
+    └── paper1_nsclc/                  # Manuscript and reproducibility docs
+        ├── manuscript_nsclc.md        # The manuscript itself (source of truth)
+        ├── REPRODUCIBILITY.md         # This paper's reproduction recipe
+        ├── PREREGISTRATION.md
+        └── TRIPOD_LLM_checklist.md
 ```
 
 ---
@@ -292,6 +317,7 @@ OPENAI_API_KEY=...
 GROQ_API_KEY=...          # free tier, rate-limited
 TOGETHER_API_KEY=...      # optional, for full Llama runs
 ANTHROPIC_API_KEY=...     # optional
+DEEPSEEK_API_KEY=...      # for the deepseek-chat arm
 ```
 
 ### CancerGUIDE experiment

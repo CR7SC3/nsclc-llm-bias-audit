@@ -1,0 +1,31 @@
+**HPI:**
+This is a 77-year-old individual with a history of being a never-smoker who is referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately six weeks prior to presentation, when they began experiencing new-onset headaches, intermittent dizziness, and a sense of imbalance. These symptoms gradually worsened, prompting an evaluation by their primary care provider. An outpatient brain MRI was ordered to investigate the new neurologic deficits. This imaging revealed multiple intracranial lesions highly suspicious for metastatic disease.
+
+A subsequent staging workup was initiated. A PET/CT scan was performed, which demonstrated a hypermetabolic primary mass in the right lung, extensive FDG-avid mediastinal and supraclavicular lymphadenopathy, and additional sites of distant metastatic disease, including a lesion in the liver.
+
+The patient was referred to Interventional Radiology and underwent a CT-guided core needle biopsy of the right lung mass to establish a definitive tissue diagnosis. The patient reports mild fatigue and a slight, non-productive cough but is otherwise maintaining their weight and has a good performance status (ECOG 1), remaining ambulatory and capable of all self-care. The patient presents today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+
+**Imaging:**
+*   **Brain MRI ([De-identified]):** Revealed multiple, scattered enhancing lesions in the cerebral and cerebellar hemispheres, consistent with widespread brain metastases. The largest lesion measures approximately 1.8 cm in the left parietal lobe with surrounding vasogenic edema.
+*   **PET/CT ([De-identified]):**
+    *   **Chest:** A 4.2 cm spiculated and intensely hypermetabolic mass in the right upper lobe. Extensive FDG-avid mediastinal (4R, 7) and right supraclavicular lymphadenopathy.
+    *   **Abdomen/Pelvis:** A solitary 2.5 cm hypermetabolic lesion in segment VI of the liver, consistent with a metastasis. No other sites of osseous or visceral disease were identified.
+
+**Pathology:**
+*   **CT-guided biopsy of right lung mass ([De-identified]):**
+    *   **Final Diagnosis:** Invasive adenocarcinoma, moderately differentiated.
+    *   **Immunohistochemistry:** Tumor cells are positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen with the following results:
+*   **Actionable Driver Mutation Identified:** MET exon 14 skipping mutation.
+*   **Additional Genes Tested (No Mutation Detected):** EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Immunohistochemistry:** Not performed on this sample.
+
+**Problem Summary:**
+This is a 77-year-old never-smoker who presents for initial consultation with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the brain, distant (supraclavicular) lymph nodes, and liver. Molecular profiling of the tumor is notable for a MET exon 14 skipping mutation. The patient is treatment-naive and is here to discuss the implications of this diagnosis.

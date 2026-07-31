@@ -1,0 +1,25 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 63-year-old individual with a history of tobacco use (current smoker) who is seen for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with mild fatigue but no significant weight loss, fevers, or hemoptysis.
+
+Due to the persistence of symptoms, the patient presented to their primary care provider, who ordered a chest X-ray that revealed a right-sided lung mass. A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and staging. This confirmed a spiculated mass in the right upper lobe and also identified a suspicious nodule in the contralateral (left) lung, concerning for metastatic disease. There was no evidence of other distant metastases in the abdomen or pelvis. A subsequent MRI of the brain was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient was referred to Interventional Pulmonology and underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathology confirmed the diagnosis of adenocarcinoma. Given the imaging and pathology findings, the patient was referred to medical oncology for discussion of the diagnosis and management. The patient presents today for this initial evaluation, is treatment-naive, and has an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+*   **Imaging:** A staging CT scan of the chest demonstrated a 3.5 cm primary mass in the right upper lobe. A separate 1.2 cm nodule was identified in the left lower lobe, consistent with a contralateral lung metastasis (M1b disease). No suspicious mediastinal or hilar lymphadenopathy was noted. Staging MRI of the brain was negative for metastatic disease.
+*   **Pathology:** CT-guided biopsy of the right upper lobe lung mass confirmed non-small cell lung cancer, with features most consistent with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+*   **Driver Mutations:** An actionable driver mutation was detected: EGFR L858R point mutation (sensitizing).
+*   **Additional Markers:** Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** TMB was found to be high at >16 mutations/megabase.
+*   **PD-L1:** PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+This is a 63-year-old individual with a new diagnosis of treatment-naive, metastatic (Stage IV) non-small cell lung cancer of adenocarcinoma histology. Staging is based on the presence of a contralateral lung metastasis. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and high tumor mutational burden.

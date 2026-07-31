@@ -1,0 +1,23 @@
+**HPI:**
+The patient is a 73-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially treated as bronchitis without improvement. Worsening symptoms prompted a visit to an urgent care center, where a chest X-ray was obtained, revealing a right upper lobe lung mass. The patient has maintained a good performance status, ECOG 1, with minimal weight loss and reports being fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, the patient underwent further staging evaluation.
+
+A CT of the chest, abdomen, and pelvis with contrast confirmed a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed multiple small nodules in the contralateral left lung, consistent with metastatic disease. A 2.8 cm left adrenal nodule was also identified, suspicious for a metastasis. There was evidence of mediastinal lymphadenopathy.
+
+A subsequent PET/CT scan demonstrated high FDG avidity in the primary right upper lobe mass, as well as in the contralateral lung nodules, mediastinal lymph nodes, and the left adrenal gland, confirming widespread disease.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed the diagnosis of adenocarcinoma of the lung. Based on the imaging findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for next-generation sequencing and biomarker analysis. Results are as follows:
+*   Histology: Adenocarcinoma
+*   PD-L1 Expression: Negative (Tumor Proportion Score <1%)
+*   Tumor Mutational Burden (TMB): Intermediate (9 mutations/megabase)
+*   Molecular Profiling: No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+The patient is a 73-year-old, never-smoker, with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the contralateral lung and the left adrenal gland, with no evidence of brain metastases. The patient is treatment-naive. Molecular profiling is notable for negative PD-L1 expression, intermediate TMB, and no identified actionable driver mutations. The patient is seen today for initial consultation to discuss the diagnosis.

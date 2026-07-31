@@ -1,0 +1,17 @@
+**HPI:**
+This is a 75-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a progressive, non-productive cough and increasing dyspnea on exertion. Symptoms initially occurred with strenuous activity but progressed to occurring with minimal exertion, such as walking across a room. This prompted a visit to an urgent care center, where a chest X-ray revealed a right-sided lung mass and a large pleural effusion. The patient was subsequently referred for further evaluation. The patient has a good performance status, ECOG 1, and is independent in all activities of daily living, though limited by dyspnea.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study confirmed the presence of a 3.2 cm spiculated mass in the right upper lobe of the lung. The scan also demonstrated a large, loculated right-sided pleural effusion with associated nodular pleural thickening, consistent with metastatic disease. No definitive metastatic lesions were identified in the liver, adrenal glands, or osseous structures within the field of view.
+
+For staging purposes, an MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided thoracentesis for both diagnostic and therapeutic purposes. Approximately 1.5 liters of serosanguinous fluid were removed, with improvement in dyspnea. Cytologic analysis of the pleural fluid was positive for malignant cells consistent with adenocarcinoma. To obtain sufficient tissue for molecular analysis, a subsequent CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a primary lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tissue obtained from the core biopsy. The results are notable for the identification of a sensitizing EGFR exon 19 deletion.
+Additional molecular testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is a 75-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirms a primary right upper lobe lung tumor with metastatic disease to the pleura. Staging imaging of the brain was negative for metastases. Molecular profiling is significant for an actionable EGFR exon 19 deletion. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

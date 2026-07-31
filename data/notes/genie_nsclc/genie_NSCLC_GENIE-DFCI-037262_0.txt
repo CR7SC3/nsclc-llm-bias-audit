@@ -1,0 +1,23 @@
+**HPI:**
+This is a 51-year-old individual with a history of being a never-smoker, referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility approximately six weeks ago with a persistent, non-productive cough. This was followed by the onset of nagging mid-back pain, which progressively worsened and became sharp.
+
+An initial chest X-ray was abnormal, prompting a contrast-enhanced CT of the chest, abdomen, and pelvis. This imaging revealed a spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. Given the new and persistent back pain, a PET/CT was subsequently performed for staging, which confirmed the FDG-avid primary lung mass and mediastinal nodes. Additionally, the scan demonstrated a new, intensely hypermetabolic lesion in a thoracic vertebral body, highly suspicious for an osseous metastasis. A staging MRI of the brain was also obtained and was negative for intracranial disease.
+
+The patient was referred for a CT-guided core needle biopsy of the right lung mass, which established the diagnosis. The patient is active and fully ambulatory, with an ECOG performance status of 1, limited only by the intermittent back pain. The patient presents today to discuss the diagnosis in detail and understand the findings.
+
+**Diagnostic Workup:**
+- **PET/CT ([De-identified Date]):** Revealed an intensely FDG-avid 3.8 cm mass in the right upper lobe. There was associated hypermetabolic mediastinal adenopathy. A solitary, intensely FDG-avid destructive lesion was noted in the T8 vertebral body, confirming metastatic disease. No other distant metastatic sites were identified.
+- **MRI Brain ([De-identified Date]):** No evidence of intracranial metastasis.
+- **CT-Guided Biopsy, Right Lung Mass ([De-identified Date]):** Pathology confirmed invasive adenocarcinoma of the lung.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue returned the following results:
+- **Actionable Drivers Detected:**
+  - ROS1 gene rearrangement: **Positive**
+  - MET amplification: **Positive (high-level)**
+- **Additional Markers Tested (Negative):** EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- **PD-L1 Expression:** Not tested (sequencing performed prior to this becoming standard of care).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 51-year-old never-smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. The patient is treatment-naive with an excellent performance status. Comprehensive molecular profiling is notable for a ROS1 rearrangement and co-occurring high-level MET amplification. The patient is here for initial consultation to review these comprehensive diagnostic findings.

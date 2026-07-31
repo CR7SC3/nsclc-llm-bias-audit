@@ -1,0 +1,21 @@
+**HPI:**
+This is a 59-year-old with a new diagnosis of non-small cell lung cancer. The patient is a current smoker and presented to an outside facility approximately six weeks ago with a persistent, worsening cough and progressive shortness of breath on exertion. This was initially treated as bronchitis without improvement. Due to the persistence of symptoms and new-onset chest wall discomfort, a chest radiograph was obtained which showed a right upper lobe opacity. The patient was subsequently referred for further diagnostic evaluation. The patient reports a 10-pound unintentional weight loss over the past three months but otherwise maintains a good appetite. Performance status is excellent; the patient is fully ambulatory and capable of all self-care, limited only in strenuous physical activity.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial staging. This revealed a 4.8 cm spiculated mass in the right upper lobe. There was extensive, bulky ipsilateral mediastinal and right supraclavicular lymphadenopathy noted, with conglomerate nodes measuring up to 4.1 cm in short-axis dimension. No suspicious liver, adrenal, or bone lesions were identified. The visualized portions of the abdomen and pelvis were negative for metastatic disease.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal, hilar, and supraclavicular nodal stations. No evidence of FDG-avid distant metastatic disease was seen.
+
+Given the high risk of central nervous system involvement, a staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. Fine-needle aspiration of a subcarinal lymph node (station 7) was performed. Pathology confirmed poorly differentiated non-small cell carcinoma, with immunohistochemical staining (TTF-1 positive, Napsin-A positive) consistent with an adenocarcinoma primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the EBUS-FNA.
+- Actionable driver detected: MET amplification (high-level)
+- Tumor Mutational Burden (TMB): High (>16 mut/Mb)
+- Testing was negative for actionable mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not performed on this specimen.
+
+**Problem Summary:**
+This is a 59-year-old, treatment-naive patient with a new diagnosis of Stage IIIB (AJCC 8th Edition) non-small cell lung adenocarcinoma, characterized by high-level MET amplification and a high tumor mutational burden. The patient has locoregionally advanced, non-metastatic disease.

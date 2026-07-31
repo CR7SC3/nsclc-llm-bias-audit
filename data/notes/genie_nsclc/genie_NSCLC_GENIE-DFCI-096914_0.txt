@@ -1,0 +1,17 @@
+**HPI:**
+This is a 68-year-old individual who presents for an initial medical oncology consultation following a new diagnosis of non-small cell lung cancer. The patient initially sought medical attention several weeks ago for new-onset persistent headaches and mild word-finding difficulties. An initial evaluation in the emergency department led to brain imaging, which was concerning for metastatic disease. The patient reports a several-month history of a mild, intermittent cough and an unintentional 10-pound weight loss but had attributed these to a long-standing smoking history. The patient is a current smoker. The patient remains fully ambulatory and independent in all activities of daily living.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was initiated. A CT scan of the chest, abdomen, and pelvis revealed a 3.5 cm spiculated mass in the upper lobe of the right lung with associated mediastinal lymphadenopathy. No other sites of extracranial metastatic disease were identified in the liver, adrenal glands, or bones. A subsequent MRI of the brain confirmed the presence of multiple enhancing parenchymal lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathologic analysis of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Tumor tissue was sent for comprehensive molecular profiling and immunohistochemistry.
+- PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- Tumor Mutational Burden (TMB) was intermediate (2-16 mutations/megabase).
+- Next-generation sequencing did not identify any actionable driver mutations. Specifically, the tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 68-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology, metastatic to the brain. Molecular studies are notable for PD-L1 positivity (TPS 1-49%) and an STK11 loss-of-function mutation, with no other targetable driver alterations identified. The patient is here for initial consultation to discuss the diagnosis and the implications of these findings.

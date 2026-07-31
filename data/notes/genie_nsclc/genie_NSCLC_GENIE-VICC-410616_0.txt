@@ -1,0 +1,28 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 70-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider approximately six weeks ago with a persistent, non-productive cough and new-onset, localized back pain. An initial chest radiograph revealed a right-sided lung opacity, prompting further investigation.
+
+The patient reports associated fatigue but has maintained their weight and appetite. Performance status is good, estimated at ECOG 1, as they remain fully ambulatory and capable of all self-care, though limited in strenuous activity by their symptoms. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study identified a 3.8 cm spiculated mass in the right upper lobe of the lung with associated ipsilateral mediastinal lymphadenopathy. The scan also revealed a lytic lesion in a thoracic vertebral body, suspicious for a bone metastasis.
+
+To further delineate the extent of disease, a whole-body PET/CT scan was obtained. This confirmed intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the previously noted vertebral body lesion, consistent with metastatic disease. No other distant sites of FDG-avid disease were identified.
+
+For central nervous system staging, an MRI of the brain with and without contrast was completed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology review of the tissue specimen confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tissue from the lung mass biopsy was sent for comprehensive molecular profiling and immunohistochemistry.
+- **PD-L1:** Tumor Proportion Score (TPS) is positive in the 1-49% range.
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+- **Next-Generation Sequencing:** No actionable driver alterations were identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm disease is metastatic to bone. Brain imaging is negative for metastatic involvement. Molecular testing is notable for a PD-L1 TPS of 1-49% and is negative for common targetable driver mutations. The patient presents for their initial oncology consultation to discuss these findings.

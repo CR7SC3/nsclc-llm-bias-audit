@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial oncology consultation for a 56-year-old individual with a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until a lung nodule was incidentally discovered on a chest CT performed as part of a workup for an unrelated issue. The patient denies any specific cancer-related symptoms such as cough, hemoptysis, dyspnea, or unintentional weight loss. The patient is a former smoker, having quit more than one year ago. They maintain an excellent performance status, ECOG 0, and continue with all usual activities of daily living without limitation. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A diagnostic chest CT with contrast revealed a 2.8 cm solid, spiculated nodule in the right upper lobe. No significant mediastinal or hilar lymphadenopathy was noted.
+
+For staging, a whole-body PET/CT scan was performed. This demonstrated intense FDG-avidity corresponding to the known right upper lobe nodule. There was no evidence of FDG-avid disease in the mediastinal lymph nodes, contralateral lung, or at any distant sites.
+
+A brain MRI with and without contrast was also performed as part of the staging evaluation and was negative for any evidence of intracranial metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. Molecular profiling revealed the presence of a sensitizing EGFR exon 19 deletion. The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 56-year-old former smoker with a new diagnosis of Stage IB (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The disease is localized to the right upper lobe without evidence of nodal or distant metastatic spread. Molecular studies are notable for an EGFR exon 19 deletion. The patient is asymptomatic with an ECOG performance status of 0.

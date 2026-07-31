@@ -1,0 +1,23 @@
+**HPI:**
+This is a 58-year-old individual with a significant smoking history who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months ago, when they began to experience a persistent dry cough and increasing shortness of breath with exertion. This was associated with an unintentional weight loss of approximately 20 pounds over the same period. More recently, over the past month, the patient developed persistent headaches and a new-onset focal seizure, which prompted an evaluation at an outside emergency department on [De-identified date]. The patient is a current smoker.
+
+**Diagnostic Workup:**
+An initial CT scan of the chest performed at the outside hospital revealed a 5.2 cm spiculated mass in the left upper lobe with associated bulky mediastinal and hilar lymphadenopathy.
+
+Given the neurological symptoms, a contrasted MRI of the brain was performed. This demonstrated multiple, well-circumscribed enhancing lesions in the cerebral hemispheres consistent with metastatic disease, with the largest lesion in the left frontal lobe associated with significant vasogenic edema.
+
+Staging was completed with a PET/CT scan which confirmed the hypermetabolic left upper lobe primary tumor and extensive mediastinal nodal involvement. The scan also revealed multiple foci of intense FDG-avidity in the skeleton, including the thoracic spine and pelvis, consistent with osseous metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic review confirmed invasive, poorly differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- An actionable driver mutation was identified: an uncommon sensitizing mutation in the EGFR gene.
+- Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- PD-L1 expression by immunohistochemistry was not performed on this sample, consistent with the standard of care at the time of tissue acquisition.
+
+**Problem Summary:**
+In summary, this is a 58-year-old individual with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastases to the brain and bone. Molecular analysis of the tumor is notable for an uncommon EGFR sensitizing mutation. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and review the findings. Performance status is estimated as ECOG 1.

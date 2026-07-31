@@ -1,0 +1,22 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 79-year-old who presents for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately six weeks prior to presentation, when they began to experience a persistent, dry cough and progressive right-sided chest wall pain. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistence of symptoms, the patient presented to their primary care provider, who ordered a chest radiograph.
+
+The chest X-ray revealed a suspicious opacity in the right upper lung field, prompting further evaluation with staging imaging. The patient reports a good functional status, estimated at an ECOG performance status of 1, remaining fully ambulatory and independent in all activities of daily living, though they have curtailed more strenuous activities due to discomfort. The patient is a former smoker with a remote history of tobacco use, having quit over a decade ago.
+
+**Diagnostic Workup:**
+A PET/CT scan was performed on [De-identified date] for staging. This study demonstrated a large, intensely hypermetabolic mass in the right upper lobe. There was also evidence of FDG-avid mediastinal and hilar lymphadenopathy. The scan identified distant metastatic disease, including a lytic, FDG-avid lesion in a right-sided rib corresponding to the patient's area of pain, as well as a hypermetabolic nodule in the left adrenal gland. To complete staging, a contrast-enhanced MRI of the brain was obtained, which was negative for any evidence of intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Comprehensive molecular profiling via next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified. Specifically, the tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the tumor was found to be negative, with a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was assessed and found to be in the intermediate range (14 mutations/megabase). Genomic analysis also identified a pathogenic loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 79-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving bone and the left adrenal gland, with no evidence of brain metastases. The patient is treatment-naive with an excellent performance status. Molecular studies are notable for the absence of targetable driver mutations, negative PD-L1 expression, an intermediate TMB, and the presence of an STK11 loss-of-function mutation, which is a biomarker associated with primary resistance to PD-1/PD-L1 inhibitors. The patient is seen today to discuss the diagnosis and establish care.

@@ -1,0 +1,32 @@
+**Oncology Initial Consultation Note**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 46-year-old who presents to the medical oncology clinic for an initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, non-productive cough and progressive exertional dyspnea. Over the subsequent weeks, they also noted the onset of intermittent headaches and a subtle feeling of imbalance. This prompted an evaluation in the emergency department at an outside hospital.
+
+The patient is treatment-naive and has not received any prior systemic therapy, radiation, or surgical intervention for this malignancy. They report a good functional status prior to the onset of these symptoms but have noted a decline in their ability to perform strenuous activities over the past month.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest CT scan performed during the hospital evaluation revealed a 3.5 cm spiculated mass in the right upper lobe of the lung, with associated bulky mediastinal and hilar lymphadenopathy.
+
+Given the patient’s reported neurologic symptoms, a contrast-enhanced MRI of the brain was performed. This study demonstrated multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+A subsequent PET/CT scan for systemic staging confirmed high FDG-avidity in the primary right upper lobe lung mass and the mediastinal lymph nodes. The previously identified intracranial lesions were noted. No other sites of FDG-avid metastatic disease were identified in the neck, abdomen, or pelvis.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination of the tissue specimen confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor biopsy specimen.
+- **Histology:** Adenocarcinoma
+- **PD-L1 Tumor Proportion Score (TPS):** 1-49%
+- **Tumor Mutational Burden (TMB):** High (>16 mutations/megabase)
+- **Molecular Profiling:** No actionable driver alteration was identified. Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 46-year-old with a new diagnosis of treatment-naive, metastatic (Stage IV) non-small cell lung cancer of adenocarcinoma histology, with known metastatic disease to the brain. Molecular profiling is notable for PD-L1 expression of 1-49% and a high tumor mutational burden, with no identified actionable driver mutations. The patient is here for initial evaluation and discussion of the diagnosis.

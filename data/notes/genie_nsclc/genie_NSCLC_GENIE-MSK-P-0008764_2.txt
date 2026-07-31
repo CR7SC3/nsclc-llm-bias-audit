@@ -1,0 +1,25 @@
+**HPI:**
+This is an initial oncology consultation for a 66-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker and has a past medical history significant for prostate cancer, which has been managed by urology.
+
+The patient presented to their primary care provider approximately one month ago with a persistent, dry cough and progressive dyspnea on exertion. Over the past two weeks, they noted the new onset of intermittent headaches and a sense of imbalance, which prompted an expedited workup. The patient reports a fair energy level but has had an unintentional 10-pound weight loss over the last two months. They are here today to discuss the diagnosis and establish care. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+An initial chest CT performed on [De-identified date] revealed a 4.2 cm spiculated mass in the right upper lobe with associated right hilar and mediastinal lymphadenopathy.
+
+Due to the reported neurological symptoms, a brain MRI with and without contrast was performed on [De-identified date]. This study demonstrated multiple small enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed on [De-identified date]. Pathologic evaluation of the tissue confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+The clinical findings are consistent with AJCC 8th Edition Stage IV disease.
+
+**Molecular Studies:**
+Pathology from the lung biopsy specimen confirmed adenocarcinoma histology. Comprehensive next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+
+Key findings include:
+- **Actionable Driver:** ALK rearrangement detected.
+- **Negative Markers:** Testing was negative for alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Tumor Proportion Score (TPS) is negative (<1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (9 Muts/Mb).
+
+**Problem Summary:**
+In summary, this is a 66-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology, metastatic to the brain. Molecular testing is notable for the presence of an ALK rearrangement and negative PD-L1 expression. The patient has a good performance status and is here for initial consultation and discussion of findings.

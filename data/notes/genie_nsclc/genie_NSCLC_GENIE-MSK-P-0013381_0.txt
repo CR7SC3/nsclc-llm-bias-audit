@@ -1,0 +1,26 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+This is a 67-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit less than one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This was associated with an unintentional 15-pound weight loss and increasing fatigue. An initial evaluation with a primary care provider led to a chest radiograph which was abnormal, prompting further investigation. The patient remains fully ambulatory and independent in all activities of daily living, though notes a decline in overall energy. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This identified a 5.2 cm spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy.
+
+For staging, a whole-body PET/CT scan was subsequently obtained. This demonstrated high FDG-avidity in the primary right upper lobe mass and the mediastinal lymph nodes. In addition, the scan revealed hypermetabolic contralateral supraclavicular lymphadenopathy, consistent with distant metastatic disease. A dedicated MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary lung mass. Pathologic examination of the specimen confirmed a diagnosis of poorly differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen.
+
+The results revealed an actionable KRAS G12C mutation. An STK11 loss-of-function mutation was also identified. Testing for other driver mutations was negative, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) of ≥50%. The tumor mutational burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 67-year-old with a new diagnosis of Stage IV (AJCC 8th edition) non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to distant lymph nodes, with no evidence of brain metastases. The patient is treatment-naive with an ECOG 1 performance status. Molecular profiling is notable for a KRAS G12C mutation, a co-occurring STK11 loss-of-function mutation, and high PD-L1 expression (TPS ≥50%).

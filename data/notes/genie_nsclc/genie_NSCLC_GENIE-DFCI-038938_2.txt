@@ -1,0 +1,19 @@
+**HPI:**
+This is a 78-year-old individual with a history of former tobacco use (quit >1 year ago) who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care approximately one month ago with complaints of a persistent dry cough and worsening dyspnea on exertion, which had begun to limit more strenuous daily activities. An initial chest radiograph demonstrated a right-sided pulmonary opacity, prompting further diagnostic evaluation. The patient remains ambulatory with an ECOG performance status of 1, symptomatic but not limited in self-care.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a large, irregular mass in the right upper lobe. The scan also revealed extensive ipsilateral mediastinal and hilar lymphadenopathy, concerning for locoregionally advanced disease.
+
+For definitive staging, a whole-body PET/CT scan was subsequently obtained. This demonstrated high metabolic activity within the primary right upper lobe tumor and the bulky mediastinal nodal conglomerate. Critically, there was no evidence of FDG-avid disease suggestive of distant metastases in the contralateral lung, liver, adrenal glands, or skeleton. A staging MRI of the brain was also performed and was negative for any intracranial metastases.
+
+A definitive tissue diagnosis was established via bronchoscopy with endobronchial ultrasound-guided fine-needle aspiration (EBUS-FNA) of a subcarinal lymph node. Pathologic analysis of the specimen confirmed non-small cell lung cancer, not otherwise specified (NOS) histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. Key findings are as follows:
+-   **Actionable Mutations:** A KRAS G12C mutation was detected.
+-   **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2 alterations.
+-   **PD-L1 Expression:** Immunohistochemistry demonstrated a Tumor Proportion Score (TPS) of ≥50%.
+-   **Tumor Mutational Burden (TMB):** TMB was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker presenting with newly diagnosed, treatment-naive, locally advanced Stage IIIB non-small cell lung cancer, NOS histology. The patient is not a surgical candidate due to the extent of nodal disease. Molecular profiling is notable for a KRAS G12C mutation and high PD-L1 expression.

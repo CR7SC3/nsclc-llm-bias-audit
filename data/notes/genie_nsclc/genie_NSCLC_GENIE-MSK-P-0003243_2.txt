@@ -1,0 +1,28 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 64-year-old with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient is a former smoker, having quit within the last year.
+
+The patient initially presented to their primary care provider several weeks ago with a new-onset, persistent dry cough and progressive dyspnea on exertion. An initial chest X-ray revealed a suspicious opacity in the left lung, which prompted further investigation.
+
+A subsequent CT of the chest, abdomen, and pelvis with contrast was performed for characterization and initial staging. This imaging confirmed a 3.8 cm spiculated mass in the left upper lobe. The scan also demonstrated multiple small nodules in the contralateral (right) lung and evidence of left-sided pleural thickening and a moderate effusion, concerning for metastatic disease.
+
+The patient was referred for an interventional radiology-guided biopsy. A CT-guided core needle biopsy of the primary left upper lobe mass was performed without complication. Pathological analysis confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+A staging PET/CT scan was then obtained, which showed intense FDG-avidity in the primary left upper lobe mass, the contralateral pulmonary nodules, and in several areas of nodular pleural thickening on the left. No other sites of hypermetabolic disease were identified in the liver, adrenal glands, or bones. A dedicated MRI of the brain was performed and was negative for intracranial metastases. The patient’s ECOG performance status is 1, with symptoms limited to mild dyspnea on significant exertion.
+
+**DIAGNOSTIC WORKUP**
+*   **CT Chest/Abdomen/Pelvis:** Revealed a 3.8 cm left upper lobe mass, multiple suspicious nodules in the right lung, and a left-sided pleural effusion with associated pleural thickening.
+*   **CT-Guided Biopsy (Left Upper Lobe Mass):** Pathology confirmed invasive adenocarcinoma.
+*   **PET/CT:** Confirmed FDG-avid disease corresponding to the primary left lung mass, contralateral pulmonary nodules, and left-sided pleura. No other distant metastatic disease identified.
+*   **MRI Brain:** Negative for central nervous system metastases.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing performed on the tumor biopsy specimen revealed the following:
+*   **Actionable Driver:** EGFR exon 19 deletion (sensitizing) detected.
+*   **Other Markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1:** Not tested.
+
+**PROBLEM SUMMARY**
+This is a 64-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The clinical stage at diagnosis is consistent with AJCC 8th Edition cT2a N0 M1c.
+
+Disease is metastatic to the contralateral lung and the pleura. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation to review the diagnosis and discuss goals of care and management options.

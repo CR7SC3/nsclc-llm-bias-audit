@@ -1,0 +1,23 @@
+**HPI:**
+This is an initial oncology consultation for a 51-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago. The patient initially presented to an outside facility approximately four weeks ago with a persistent, non-productive cough and new-onset, localized mid-back pain. An initial chest X-ray revealed a right upper lobe opacity, prompting further investigation. The patient has a good performance status, remaining fully ambulatory and independent in all activities of daily living, though reports intermittent pain at the site of the bone lesion.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study confirmed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified a lytic lesion in the T8 vertebral body, suspicious for metastatic disease.
+
+A subsequent PET/CT scan was performed for comprehensive staging. This demonstrated high FDG avidity in the primary right upper lobe mass, in several mediastinal lymph nodes, and a solitary focus of intense uptake in the T8 vertebral body, consistent with M1b disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed by Interventional Radiology on [De-identified]. Pathology returned as poorly differentiated non-small cell carcinoma with features most consistent with squamous cell carcinoma.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for any intracranial metastases.
+
+Based on this workup, the patient is diagnosed with AJCC Stage IV squamous cell non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+- Actionable driver detected: ROS1 rearrangement.
+- Testing was negative for alterations in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 51-year-old with a new diagnosis of Stage IV non-small cell lung cancer, squamous cell histology, with a solitary metastasis to the bone. The patient is treatment-naive. Molecular profiling of the tumor is notable for the presence of a ROS1 rearrangement. Brain imaging is negative for metastatic disease. The patient has an ECOG performance status of 1. We are seeing the patient today to discuss the diagnosis and establish care.

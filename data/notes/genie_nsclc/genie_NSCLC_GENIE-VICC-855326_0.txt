@@ -1,0 +1,23 @@
+**HPI:**
+This is a 54-year-old who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to evaluation, when they began to experience a persistent, non-productive cough and progressive dyspnea on exertion. Over the past month, they also developed intermittent headaches and a sense of imbalance. These symptoms prompted a visit to an urgent care center, which led to further diagnostic workup. The patient is a former smoker, having quit more than one year ago. They report a good performance status, remaining ambulatory and capable of all self-care, though fatigue has increased.
+
+**Diagnostic Workup:**
+An initial chest CT scan performed on [De-identified date] revealed a large, spiculated mass in the left upper lobe of the lung with associated mediastinal and hilar lymphadenopathy.
+
+For staging purposes, a full-body PET/CT scan was subsequently obtained. This study confirmed high FDG avidity in the primary left upper lobe mass and in multiple mediastinal nodal stations.
+
+Given the patient's neurological symptoms, a contrast-enhanced MRI of the brain was performed. This imaging confirmed the presence of multiple metastatic lesions within the brain parenchyma, consistent with distant metastatic disease.
+
+A CT-guided core needle biopsy of the primary lung mass was performed by Interventional Radiology on [De-identified date]. Histopathologic examination of the tissue specimen confirmed a diagnosis of squamous cell carcinoma, a subtype of non-small cell lung cancer.
+
+The cumulative findings from imaging and pathology are consistent with a diagnosis of Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor biopsy specimen. No actionable driver alteration was identified; the tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) analysis was also performed and was found to be high at >16 mutations per megabase.
+
+**Problem Summary:**
+In summary, this is a 54-year-old former smoker with a new diagnosis of Stage IV squamous non-small cell lung cancer, metastatic to the brain. The patient is treatment-naive. Molecular profiling of the tumor is notable for the absence of an actionable driver mutation, but demonstrates high PD-L1 expression (TPS ≥50%) and a high Tumor Mutational Burden.

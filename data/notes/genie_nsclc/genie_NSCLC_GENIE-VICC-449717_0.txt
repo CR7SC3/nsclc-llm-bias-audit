@@ -1,0 +1,32 @@
+**Initial Oncology Consultation**
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**History of Present Illness:**
+This is a 72-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive exertional dyspnea. This was associated with mild fatigue but no significant hemoptysis, chest pain, or fevers. After an initial course of antibiotics for presumed bronchitis did not provide relief, a chest radiograph was obtained which revealed a right upper lobe opacity. The patient was subsequently referred for further diagnostic evaluation.
+
+The patient remains fully ambulatory and independent with all activities of daily living, though notes needing to rest more frequently due to shortness of breath. Appetite is fair, with a small, unintentional weight loss of approximately 5-7 pounds over the past three months. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup has been completed.
+
+**CT Chest/Abdomen/Pelvis with contrast:** Revealed a 4.5 cm spiculated mass in the right upper lobe. There was associated bulky ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.8 cm in short axis. The contralateral mediastinum and hilar regions appeared unremarkable. No suspicious liver, adrenal, or osseous lesions were identified.
+
+**PET/CT:** Performed for staging, this demonstrated intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal and subcarinal lymph nodes, consistent with the findings on CT. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread.
+
+**MRI Brain with and without contrast:** Performed for neurologic staging, this was negative for any evidence of intracranial metastatic disease.
+
+**Endobronchial Ultrasound (EBUS) with Biopsy:** The patient underwent EBUS with transbronchial needle aspiration of a subcarinal lymph node (station 7). Pathology from this specimen confirmed metastatic adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Tumor tissue from the EBUS biopsy was sent for comprehensive genomic and biomarker profiling. Key results are as follows:
+*   **Histology:** Adenocarcinoma, non-small cell type.
+*   **Next-Generation Sequencing:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   **PD-L1 Immunohistochemistry:** Positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+*   **Tumor Mutational Burden (TMB):** High, measured at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 72-year-old with a good performance status (ECOG 1) and a new diagnosis of Stage IIIA (cT2bN2M0) non-small cell lung cancer of adenocarcinoma histology. The disease is locally advanced and non-metastatic based on comprehensive staging with PET/CT and brain MRI. Molecular testing reveals a PD-L1 positive (TPS 1-49%), TMB-high tumor that is negative for common actionable driver mutations. The patient is treatment-naive and is seen today to discuss the diagnosis and establish a plan for management.

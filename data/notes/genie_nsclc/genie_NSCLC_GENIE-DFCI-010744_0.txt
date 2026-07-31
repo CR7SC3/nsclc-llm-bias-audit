@@ -1,0 +1,23 @@
+**HPI:**
+This is a 55-year-old individual with a history of tobacco use (former smoker, quit within the last year) who presents for an initial oncology consultation. The patient was in their usual state of health until approximately two months prior to evaluation, when they developed a persistent, non-productive cough and progressive exertional dyspnea. They initially attributed this to a common cold, but due to lack of resolution and new onset of mild right-sided chest discomfort, they presented to their primary care provider.
+
+An initial chest X-ray revealed a right upper lobe opacity, prompting a follow-up contrast-enhanced chest CT. The patient reports some fatigue but has maintained their weight and appetite. They remain fully ambulatory and capable of all self-care, with an ECOG performance status of 1. They are here to discuss the findings and establish care.
+
+**Diagnostic Workup:**
+A diagnostic chest CT scan confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. The scan also identified prominent right-sided mediastinal and hilar lymphadenopathy, with several nodes in the 4R and 7 stations measuring up to 1.8 cm in short axis.
+
+To complete staging, a whole-body PET/CT was performed. This demonstrated intense FDG avidity in the primary right upper lobe mass as well as in the right paratracheal (4R) and subcarinal (7) lymph nodes, consistent with the chest CT findings. Importantly, there was no evidence of FDG-avid disease in the contralateral mediastinum, supraclavicular regions, or at any distant sites in the neck, abdomen, or pelvis.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for any evidence of intracranial metastatic disease.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and definitive nodal staging. An EBUS-guided fine-needle aspiration (FNA) of a subcarinal (station 7) lymph node was performed. Pathology from this specimen confirmed metastatic non-small cell lung cancer, not otherwise specified (NOS) histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the EBUS-FNA tissue specimen.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- A loss-of-function mutation was identified in the STK11 gene.
+- Tumor Mutational Burden (TMB) was reported as high at >16 mutations/megabase.
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+This is a 55-year-old with a good performance status who presents with a new diagnosis of treatment-naive, non-metastatic non-small cell lung cancer, NOS histology. Staging workup including PET/CT and brain MRI is consistent with AJCC Stage IIIA (cT2a N2 M0) disease. Molecular profiling of the tumor is notable for a high tumor mutational burden and an STK11 loss-of-function mutation, with no other identified actionable driver alterations.

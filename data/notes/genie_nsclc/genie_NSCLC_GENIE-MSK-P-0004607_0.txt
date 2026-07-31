@@ -1,0 +1,22 @@
+**HPI:**
+This is a 63-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough and progressive fatigue. Over the past month, they also noted the onset of new, dull, constant right hip pain, which has been worsening and is minimally responsive to over-the-counter analgesics. These symptoms prompted an evaluation with their primary care physician. An initial chest X-ray revealed a left upper lobe lung mass, which led to further cross-sectional imaging and referral. The patient has an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This imaging confirmed the presence of a 4.5 cm spiculated mass in the left upper lobe. The scan also revealed multiple hepatic lesions consistent with metastases, the largest measuring 2.8 cm in segment VII of the liver. Additionally, a lytic lesion was identified in the right iliac bone, corresponding to the patient's area of pain.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary left upper lobe lung mass, multiple hepatic lesions, and the right iliac bone lesion, confirming suspicion for metastatic disease. A dedicated MRI of the brain with and without contrast was performed for staging and was negative for intracranial metastases.
+
+An interventional radiology-guided core needle biopsy of one of the accessible liver metastases was performed on [De-identified Date]. Pathology returned as metastatic adenocarcinoma, with immunohistochemical staining (positive for TTF-1 and Napsin A) supporting a lung primary.
+
+The overall findings are consistent with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the liver biopsy tissue.
+- **Actionable driver mutation:** EGFR L858R point mutation detected.
+- **Additional testing:** Negative for fusions or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **Immunotherapy resistance markers:** STK11 loss-of-function mutation identified.
+- **PD-L1 expression:** Not tested, consistent with standard practice at the time of sequencing.
+
+**Problem Summary:**
+This is a 63-year-old never-smoker presenting for initial evaluation of a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, with metastatic disease to the liver and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and a co-occurring STK11 loss-of-function mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management strategies.

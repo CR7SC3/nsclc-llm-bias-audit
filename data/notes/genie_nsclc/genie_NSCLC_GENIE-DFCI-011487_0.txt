@@ -1,0 +1,23 @@
+**HPI:**
+This is a 67-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately one month prior to presentation, when new-onset headaches and intermittent dizziness developed. These symptoms prompted an evaluation with a brain MRI, which revealed multiple intracranial lesions concerning for metastatic disease. A subsequent staging workup was initiated to identify a primary malignancy. The patient reports mild fatigue but is otherwise active and fully ambulatory, with an ECOG performance status of 1. There is no significant cough, hemoptysis, or dyspnea. Appetite is stable and there has been no unintentional weight loss.
+
+**Diagnostic Workup:**
+The diagnostic evaluation was prompted by neurological symptoms.
+
+A brain MRI performed on [De-identified Date] demonstrated multiple enhancing parenchymal lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+Subsequent staging with a contrast-enhanced CT of the chest, abdomen, and pelvis on [De-identified Date] revealed a 4.1 cm spiculated mass in the right upper lobe of the lung, with associated mediastinal and hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a non-small cell lung primary.
+
+The cumulative findings of a primary lung adenocarcinoma with confirmed brain metastases establish a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- An actionable driver mutation was detected in KRAS (G12C).
+- Testing was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+- PD-L1 expression was not tested as part of this panel.
+
+**Problem Summary:**
+In summary, this is a 67-year-old former smoker presenting with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the brain. Molecular profiling of the tumor is notable for a KRAS G12C mutation. The patient is seen today for initial evaluation and discussion of the diagnosis.

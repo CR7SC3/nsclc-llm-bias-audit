@@ -1,0 +1,34 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 56-year-old patient with an excellent performance status who is referred for evaluation and management of a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks prior to presentation when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This prompted a visit to their primary care provider.
+
+An initial chest X-ray was concerning for a right-sided lung mass and a moderate pleural effusion. The patient was subsequently sent for a contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed the presence of a 4 cm spiculated mass in the right upper lobe, extensive nodular pleural thickening, and a large right-sided pleural effusion. The CT also identified suspicious mediastinal and left supraclavicular lymphadenopathy.
+
+Given these findings, a full staging workup was initiated. A PET/CT scan demonstrated intense FDG-avidity corresponding to the primary right upper lobe mass, the right-sided pleura, multiple right-sided mediastinal lymph nodes, and a left supraclavicular lymph node, consistent with metastatic disease. A dedicated MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass for definitive diagnosis. They have remained ambulatory and are managing most activities of daily living, though they report fatigue and continued shortness of breath. The patient is a lifetime never-smoker. They present today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis [De-identified]:** Revealed a 4.0 cm primary mass in the right upper lobe. Findings consistent with malignant pleural disease, including nodular thickening and a large right pleural effusion. Multiple enlarged mediastinal and left supraclavicular lymph nodes were noted. No evidence of metastatic disease in the abdomen or pelvis.
+*   **PET/CT [De-identified]:** Confirmed high metabolic activity in the primary right lung mass, right pleura, ipsilateral mediastinal lymph nodes (stations 4R, 7), and a contralateral supraclavicular lymph node. These findings are consistent with widespread metastatic disease.
+*   **MRI Brain [De-identified]:** No evidence of acute intracranial hemorrhage, mass, or metastatic disease.
+
+**Pathology:**
+*   **CT-guided Core Biopsy, Right Upper Lobe Lung Mass [De-identified]:**
+    *   DIAGNOSIS: INVASIVE ADENOCARCINOMA, non-small cell type.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue with the following results:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is 1-49%.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mutations/Mb).
+
+**Problem Summary:**
+In summary, this is a 56-year-old never-smoker with a new diagnosis of Stage IVB (cT2a N2 M1c, AJCC 8th Edition) non-small cell lung adenocarcinoma, metastatic to the pleura and distant lymph nodes. Molecular profiling is notable for the absence of an actionable driver mutation and a PD-L1 expression of 1-49%. The patient is treatment-naive.

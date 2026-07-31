@@ -1,0 +1,28 @@
+**HPI:**
+This is a 79-year-old, previously in a good state of health, who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient reports approximately three months of progressive dyspnea on exertion and a mild, non-productive cough. These symptoms initially were attributed to age but worsened to the point of limiting routine activities. This prompted a visit to a primary care provider, who ordered a chest X-ray. The imaging revealed a right-sided lung opacity and a significant pleural effusion.
+
+The patient was subsequently referred for further evaluation. A CT scan of the chest confirmed a primary lung mass and a large pleural effusion. To establish a diagnosis and alleviate symptoms, the patient underwent a right-sided thoracentesis. The patient reports some improvement in breathing following the procedure. The patient's performance status is ECOG 1; symptomatic but fully ambulatory and capable of light activity. Review of systems is otherwise negative for fevers, chills, night sweats, significant weight loss, or neurological changes such as headache or focal weakness.
+
+**Diagnostic Workup:**
+The diagnostic workup has been reviewed.
+
+**Imaging:**
+- CT Chest with contrast, [De-identified date]: Revealed a 3.2 cm spiculated mass in the right upper lobe. There was an associated large right-sided pleural effusion with nodular pleural thickening, concerning for malignant involvement. No suspicious mediastinal or hilar lymphadenopathy was noted. The visualized liver, adrenal glands, and osseous structures were unremarkable.
+- MRI Brain with and without contrast, [De-identified date]: Performed for staging purposes, this was negative for any evidence of intracranial metastatic disease.
+
+**Pathology:**
+- Cytology from right pleural fluid (thoracentesis on [De-identified date]): Positive for malignant cells. Cell block immunohistochemistry was positive for TTF-1 and Napsin-A, and negative for p40, consistent with a primary lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block specimen with the following key results:
+
+- **Actionable Mutations:** An activating **ERBB2 (HER2) exon 20 insertion** was detected.
+- **Other Driver Mutations:** Testing was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET, and KRAS.
+- **Immunotherapy Biomarkers:**
+    - PD-L1 expression was negative, with a Tumor Proportion Score (TPS) of <1%.
+    - Tumor Mutational Burden (TMB) was high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 79-year-old never-smoker presenting with a new diagnosis of Stage IV (cT2a N0 M1a) non-small cell lung cancer of adenocarcinoma histology, with metastasis confined to the pleura. Molecular analysis reveals an activating ERBB2 exon 20 insertion, negative PD-L1 expression, and a high Tumor Mutational Burden. The patient is treatment-naive and presents for initial consultation to discuss the diagnosis and management options.

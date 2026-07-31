@@ -82,8 +82,9 @@ Frame = documentation-integrity + medico-legal harm, not "biased vibes."
 - Supp: judge validation; test-retest noise floor; per-variant flip rates.
 
 ## Numbers to carry EXACTLY (corrections locked)
-- Judge validation **κ = 0.30** (35-item targeted gold set; judge beats regex, human
-  sided with judge 12/17 on contested items). NOT 0.47.
+- Judge validation on the 60-item random gold set: judge–human 91.7% (κ=0.57, PABAK
+  0.83), regex–human 95.0% (κ=0.77, PABAK 0.90), tree–human 93.3% (κ=0.68, PABAK 0.87).
+  Reported stigma rates use the raw regex composite, not judge labels.
 - Notes are **synthetic GENIE-derived / deterministic-template** — NEVER call them
   "real notes." Robustness = template control + multi-vendor, NOT real-world prose.
 - Arms: **6 vendors, all at n=1,048** — gemini-2.5-flash, deepseek-chat, llama-3.3-70B,
@@ -95,8 +96,8 @@ Frame = documentation-integrity + medico-legal harm, not "biased vibes."
   the ONLY variant that does once the full model×variant family is corrected.
 
 ## Open must-fixes this frame depends on (from rigor council member)
-- **2nd blinded rater** on the 40-item gold set → inter-human agreement (closes the
-  single-rater κ=0.30 kill-shot). Highest credibility-per-hour fix.
+- **2nd blinded rater** on the 60-item random gold set → inter-human agreement (closes
+  the single-rater status). Highest credibility-per-hour fix.
 - Classifier **confusion matrix** vs gold; judge = primary, regex = disclosed upper bound.
 - **Natural-embedding A/B** (~100–150 cases) to close the salience-artifact attack (M4).
 - Llama **test-retest noise floor** (running).

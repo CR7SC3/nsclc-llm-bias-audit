@@ -1,0 +1,32 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 70-year-old individual with a history of smoking (quit >1 year ago) who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a seasonal illness, but symptoms worsened, accompanied by new-onset right-sided chest wall pain and an unintentional 10-pound weight loss. They presented to an outside emergency department for evaluation.
+
+Initial workup included a chest X-ray which revealed a large right-sided lung mass and a pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging purposes. The patient has since undergone a diagnostic biopsy. They report manageable pain with over-the-counter analgesics and fatigue, but are otherwise able to perform all activities of daily living with some effort. Their ECOG performance status is 1.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+- Staging CT of the chest, abdomen, and pelvis revealed a large, spiculated 5.8 cm mass in the right upper lobe. There was evidence of widespread metastatic disease, including multiple bilateral pulmonary nodules in the contralateral lung, a moderate-to-large right-sided malignant pleural effusion, and extensive mediastinal and supraclavicular lymphadenopathy. The scan also demonstrated multiple lytic and blastic osseous lesions consistent with skeletal metastases. An indeterminate lesion was noted in the left adrenal gland, suspicious for an additional site of metastasis.
+- A dedicated MRI of the brain with and without contrast was performed as part of the staging workup and was negative for intracranial metastases.
+
+**Pathology:**
+- A CT-guided core needle biopsy of the right upper lobe lung mass was performed.
+- Histopathologic examination confirmed the diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on the findings of a primary lung mass with metastases to the contralateral lung, pleura, distant lymph nodes, and bone, the patient is diagnosed with Stage IV non-small cell lung cancer (NSCLC).
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+- No actionable driver alterations were identified. The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression analysis was not performed.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 70-year-old former smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma subtype. The diagnostic workup has confirmed widespread metastatic disease involving the contralateral lung, pleura, bone, and distant lymph nodes, with no evidence of central nervous system involvement. Molecular profiling of the tumor is notable for an intermediate tumor mutational burden and the absence of any identified actionable driver mutations. The case is discussed in detail with the patient.

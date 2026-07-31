@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial oncology consultation for a 65-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. An initial evaluation with their primary care provider included a chest X-ray which revealed a right-sided pulmonary opacity. The patient is a lifetime never-smoker. Past medical history is significant for a remote history of breast cancer and melanoma, both treated with local modalities and with no evidence of recurrence. The patient maintains a good performance status (ECOG 1), continuing with most daily activities but is limited in strenuous activity by respiratory symptoms.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. Multiple hepatic lesions were also identified, the largest being a 2.5 cm lesion in the right hepatic lobe, consistent with metastatic disease. A dedicated MRI of the brain with contrast was subsequently performed and was negative for any intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic analysis confirmed poorly differentiated non-small cell lung cancer, with an immunoprofile consistent with adenocarcinoma. The diagnosis is therefore Stage IV NSCLC.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the following:
+-   **Actionable driver detected:** EGFR exon 20 insertion
+-   **Negative for pathogenic alterations in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+-   **PD-L1:** Not tested
+
+**Problem Summary:**
+This is a 65-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The patient is a never-smoker, and molecular profiling of the tumor is notable for the presence of an EGFR exon 20 insertion.

@@ -1,20 +1,22 @@
-[De-identified Clinic Name]
-[De-identified Address]
-[De-identified Phone]
-
-**PATIENT NAME:** [De-identified Patient Name]
-**DOB:** [De-identified Date of Birth]
-**MRN:** [De-identified MRN]
-**DATE OF VISIT:** [De-identified Date]
-
 **HPI:**
-This is a 79-year-old patient presenting for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient first sought medical attention several months ago for persistent cough, progressive dyspnea, and a 10-pound unintentional weight loss over the past three months. Initial evaluation by their primary care physician included a chest X-ray which demonstrated a suspicious left upper lobe mass. The patient has a significant smoking history, currently smoking approximately one pack per day for 60 pack-years. They have a past medical history significant for bladder cancer, diagnosed several years prior and successfully treated with local therapy, currently in remission. This patient is treatment-naive for their current lung cancer diagnosis.
+This is an initial oncology consultation for a 79-year-old with a new diagnosis of non-small cell lung cancer. The patient has a past medical history significant for bladder cancer, for which treatment was completed several years ago with no evidence of recurrence. The patient is a current smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This prompted a visit to their primary care provider, who ordered a chest radiograph which revealed a right-sided lung opacity. The patient reports feeling otherwise well, with stable appetite and no significant weight loss. Performance status is excellent; the patient remains fully independent and active.
 
 **Diagnostic Workup:**
-Following the abnormal chest X-ray, a CT scan of the chest with contrast was performed, confirming a 4.5 cm spiculated mass in the left upper lobe with associated hilar and mediastinal lymphadenopathy. Subsequent CT-guided biopsy of the lung mass confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Comprehensive staging was then completed, including a PET/CT scan of the chest, abdomen, and pelvis, which showed hypermetabolic activity corresponding to the primary lung mass and several mediastinal lymph nodes (e.g., subcarinal, ipsilateral hilar), but no evidence of distant metastatic disease. A brain MRI with contrast was also performed and showed no intracranial metastases. Based on these findings, the patient's cancer is staged as AJCC Stage IIIA.
+Following the abnormal chest X-ray, a diagnostic CT of the chest, abdomen, and pelvis with intravenous contrast was performed. This study characterized a 4.2 cm spiculated mass in the right upper lobe. It also demonstrated enlarged right-sided mediastinal and subcarinal lymph nodes, concerning for regional metastatic involvement. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+For definitive staging, a whole-body PET/CT was obtained. This showed intense FDG-avidity corresponding to the primary right upper lobe mass and the mediastinal lymphadenopathy (ipsilateral mediastinal and subcarinal stations). There was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases. A subsequent brain MRI with and without contrast was also performed and was negative for any evidence of intracranial metastatic disease.
+
+On [De-identified], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and staging. Fine-needle aspiration was performed on a subcarinal lymph node. Cytopathology and subsequent cell block analysis confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+The cumulative findings of a primary lung tumor with ipsilateral mediastinal nodal involvement and no evidence of distant metastases (M0) are consistent with a clinical Stage IIIA non-small cell lung cancer.
 
 **Molecular Studies:**
-Molecular profiling of the tumor tissue was performed and revealed no actionable driver alterations. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not assessed, as the sequencing was performed prior to 2017 when PD-L1 testing was not yet standard of care for NSCLC. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+Next-generation sequencing was performed on the tumor tissue obtained from the EBUS biopsy. The results are as follows:
+- No actionable driver alteration was identified on molecular profiling. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-This is a 79-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The patient has a significant smoking history and a prior history of bladder cancer. Molecular profiling shows no actionable driver alterations, PD-L1 status is unknown, and tumor mutational burden is intermediate. The patient presents for discussion of further management options.
+This is a 79-year-old current smoker with a history of bladder cancer, presenting for initial consultation as a treatment-naive patient with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Staging workup including PET/CT and brain MRI confirms locoregionally advanced, non-metastatic disease. Molecular analysis of the tumor did not identify any actionable driver mutations.

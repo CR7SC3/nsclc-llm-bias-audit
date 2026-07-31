@@ -1,0 +1,23 @@
+**HPI:**
+This is a 57-year-old with a history of smoking who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This prompted a visit to their primary care provider, leading to an initial chest radiograph that showed a right-sided lung opacity. The patient is a former smoker, having quit within the last year. They report feeling fatigued but are otherwise maintaining their weight and appetite. They deny fevers, chills, night sweats, or significant chest pain. The patient maintains a good performance status, continuing with activities of daily living with some limitations due to shortness of breath.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified Date]. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe, with associated ipsilateral mediastinal and hilar lymphadenopathy.
+
+To complete staging, a PET/CT scan was obtained. This demonstrated intense FDG uptake in the primary right upper lobe mass and in several mediastinal lymph node stations, including the subcarinal and right paratracheal regions. There was no evidence of FDG-avid disease below the diaphragm or in the contralateral hemithorax to suggest distant metastases.
+
+A dedicated MRI of the brain with contrast was performed for neurologic staging and was negative for any evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and definitive nodal staging. Fine-needle aspiration of a subcarinal lymph node was performed. Pathologic evaluation of the specimen confirmed the diagnosis.
+
+**Molecular Studies:**
+Pathology from the EBUS-guided biopsy confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+Comprehensive next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was reported as positive; a specific Tumor Proportion Score (TPS) was not available at the time of this report.
+
+Tumor mutational burden (TMB) was assessed and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 57-year-old, treatment-naive patient with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Staging workup including PET/CT and brain MRI is negative for distant metastatic disease. Molecular profiling of the tumor is notable for positive PD-L1 expression, intermediate tumor mutational burden, and the absence of any identified actionable driver mutations. The patient has an excellent ECOG performance status of 1 and is here for initial consultation to discuss the diagnosis.

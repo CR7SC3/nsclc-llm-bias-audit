@@ -1,0 +1,17 @@
+**HPI:**
+This is a 58-year-old former smoker (quit over one year ago) who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent cough and mild shortness of breath with exertion. This prompted an evaluation by their primary care provider, which led to chest imaging. The patient reports good energy levels and maintains an excellent performance status, remaining fully active and able to carry on all pre-illness activities without restriction (ECOG 0). The patient is here today to discuss the comprehensive diagnostic findings and establish care.
+
+**Diagnostic Workup:**
+An initial chest CT scan revealed a 4.5 cm mass in the right upper lobe. The scan also demonstrated a distinct 1.2 cm nodule in the contralateral left lower lobe, concerning for metastatic disease. For comprehensive staging, a PET/CT was performed, which showed intense FDG-avidity in the primary right upper lobe mass as well as in the contralateral lung nodule. No other distant sites of FDG-avid disease were identified in the neck, abdomen, or pelvis. A dedicated MRI of the brain was performed and was negative for any intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathologic review confirmed the diagnosis of non-small cell lung cancer with squamous cell carcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the following:
+-   **Actionable Driver:** An ALK gene rearrangement was detected.
+-   **Negative for:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+-   **PD-L1:** Testing was not performed on this specimen.
+
+**Problem Summary:**
+This is a 58-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, squamous histology. The disease is metastatic to the contralateral lung. Molecular profiling is notable for an ALK rearrangement.

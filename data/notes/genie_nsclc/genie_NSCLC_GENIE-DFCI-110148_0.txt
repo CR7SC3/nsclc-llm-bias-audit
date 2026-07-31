@@ -1,0 +1,21 @@
+**HPI:**
+This is a 52-year-old individual referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a seasonal illness, but its persistence, coupled with the subsequent onset of mild right-sided pleuritic chest discomfort and progressive dyspnea on exertion, prompted a primary care evaluation. The patient also endorses a 10-pound unintentional weight loss over the past several months and increased fatigue, though they remain active and fully ambulatory. They deny fevers, chills, night sweats, or hemoptysis. They are a former smoker, having quit over one year ago. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray which revealed a right upper lobe opacity and a moderate right pleural effusion.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and staging. This study confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated multiple small nodules in the contralateral (left) lung and evidence of right-sided malignant pleural effusion with associated pleural thickening and nodularity. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+For definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Staging was completed with an MRI of the brain with and without contrast, which was negative for any evidence of intracranial metastatic disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. Molecular profiling did not identify an actionable driver alteration; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. Testing for KRAS and ERBB2 was also negative.
+
+Immunohistochemistry for PD-L1 was performed, revealing a Tumor Proportion Score (TPS) in the 1–49% range.
+
+Tumor Mutational Burden (TMB) was assessed and found to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 52-year-old with newly diagnosed, treatment-naive, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirmed metastatic disease involving the contralateral lung and pleura, with no evidence of brain metastases. The patient remains in good functional condition with an ECOG performance status of 1. Molecular studies are notable for a PD-L1 TPS of 1-49% and the absence of an identifiable actionable driver mutation.

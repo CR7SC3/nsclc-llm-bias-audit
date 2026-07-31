@@ -1,0 +1,21 @@
+**HPI:**
+This is a 70-year-old individual with a past medical history notable only for well-controlled hypertension, who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity. The patient denies any hemoptysis, fevers, chills, or significant weight loss. They remain fully active with an ECOG performance status of 0, maintaining all activities of daily living without restriction. Notably, the patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed a 3.8 cm spiculated mass in the right upper lobe and also identified several enlarged right-sided mediastinal lymph nodes, concerning for nodal involvement.
+
+A subsequent PET/CT scan was performed for staging purposes on [De-identified]. This demonstrated intense FDG-avidity in the primary right upper lobe mass. Avid uptake was also seen in ipsilateral mediastinal (station 4R) and hilar lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology returned invasive adenocarcinoma, moderately differentiated.
+
+To complete staging, a brain MRI with and without contrast was obtained and was negative for any evidence of intracranial metastatic disease.
+
+The combination of these findings is consistent with a clinical Stage IIIA (AJCC 8th Edition) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. An actionable driver mutation was detected, specifically an EGFR L858R point mutation in exon 21. Further molecular testing was negative for other common driver mutations, including rearrangements in ALK and ROS1, and mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) of 0% (negative). Tumor Mutational Burden (TMB) was found to be intermediate (reported as 9 mut/Mb, within the 2–16 mut/Mb range).
+
+**Problem Summary:**
+In summary, this is a 70-year-old, treatment-naive, lifetime never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIIA non-small cell lung adenocarcinoma. The tumor is characterized by a sensitizing EGFR L858R mutation and is PD-L1 negative. The diagnostic workup is complete, confirming locoregionally advanced disease without evidence of distant metastases.

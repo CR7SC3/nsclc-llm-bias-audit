@@ -1,0 +1,23 @@
+**HPI:**
+The patient is a 66-year-old former smoker who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began experiencing persistent, intermittent headaches and a new, non-productive cough. Over the subsequent weeks, they also developed progressive fatigue and a sense of imbalance. Due to worsening headaches, the patient presented to an outside emergency department for evaluation. An initial non-contrast CT of the head was performed, which was concerning for intracranial pathology.
+
+A subsequent contrast-enhanced MRI of the brain was obtained, which revealed multiple enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease. A staging CT of the chest, abdomen, and pelvis was then performed. This study identified a dominant 3.8 cm spiculated mass in the left upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also revealed a 2.5 cm enhancing mass in the right adrenal gland, highly suspicious for an additional site of metastasis.
+
+The patient was referred to Interventional Radiology for a CT-guided core biopsy of the left upper lobe lung mass. The patient has remained ambulatory with some assistance due to imbalance but is otherwise self-caring, with an estimated ECOG performance status of 1. They report a 10-pound unintentional weight loss over the past three months. Smoking history is notable for a 30-pack-year history, though the patient quit over one year ago.
+
+**Diagnostic Workup:**
+- **MRI Brain, [De-identified date]:** Revealed multiple, scattered enhancing lesions throughout the bilateral cerebral and cerebellar hemispheres, consistent with metastatic disease. The largest lesion measures 1.8 cm in the right frontal lobe with surrounding vasogenic edema.
+- **CT Chest/Abdomen/Pelvis with contrast, [De-identified date]:** Identified a 3.8 cm spiculated mass in the left upper lobe. Bulky mediastinal and hilar adenopathy was noted. A 2.5 cm avidly enhancing mass was identified in the right adrenal gland. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+- **CT-guided core biopsy, left upper lobe lung mass, [De-identified date]:** Histopathology confirmed invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation was detected in the STK11 gene.
+
+**Problem Summary:**
+This is a 66-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain and adrenal gland. Molecular profiling did not identify an actionable oncogenic driver but did reveal an STK11 loss-of-function mutation. The patient is treatment-naive and presents for discussion of their diagnosis and management options.

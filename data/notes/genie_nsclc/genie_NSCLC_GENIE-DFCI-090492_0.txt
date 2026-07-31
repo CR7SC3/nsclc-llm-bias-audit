@@ -1,0 +1,13 @@
+**HPI:**
+This is a 61-year-old individual referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient presented to an outside facility approximately one month prior with a chief complaint of progressive dyspnea on exertion and a persistent, non-productive cough. Symptoms had been worsening over several weeks, limiting the ability to perform strenuous activities. An initial chest radiograph was performed which raised suspicion for a left-sided pleural effusion and underlying parenchymal abnormality. The patient is a lifetime never-smoker. On review of systems, the patient denies fevers, chills, or significant weight loss. Performance status is excellent, limited only by exertional dyspnea, consistent with an ECOG of 1.
+
+**Diagnostic Workup:**
+Following the initial chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 4.5 cm mass in the left lower lobe of the lung, associated with extensive nodular pleural thickening and a large left-sided pleural effusion. No discrete metastatic lesions were identified in the contralateral lung, liver, adrenal glands, or osseous structures. A dedicated MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a left-sided video-assisted thoracoscopic surgery (VATS) for pleural biopsy and talc pleurodesis. Pathologic evaluation of the pleural tissue biopsy confirmed infiltration by adenocarcinoma. Cytology from the drained pleural fluid was also positive for malignant cells. The findings are consistent with a primary lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy specimen. The results revealed the presence of an actionable RET fusion. The tumor was negative for pathogenic variants in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested on this sample.
+
+**Problem Summary:**
+In summary, this is a 61-year-old never-smoker with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the pleura. Molecular profiling of the tumor is notable for the identification of a RET fusion. The patient is seen today for initial consultation to discuss the diagnosis and its implications.

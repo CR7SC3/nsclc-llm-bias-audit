@@ -1,0 +1,17 @@
+**HPI:**
+This is a 49-year-old individual with a history of brain cancer who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit less than one year ago. The patient initially sought care for a persistent, non-productive cough and mild dyspnea on exertion that had been progressing over several weeks. An initial workup was initiated by the patient's primary care provider, which ultimately led to the current diagnosis and referral. The patient reports a good performance status, remaining active and ambulatory without assistance.
+
+**Diagnostic Workup:**
+The patient's initial workup included a chest X-ray which revealed a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a spiculated 3.5 cm mass in the right upper lobe, associated with extensive ipsilateral mediastinal and hilar lymphadenopathy. A PET/CT scan was then obtained for staging, which confirmed high avidity in the primary lung mass and the mediastinal lymph nodes. The PET/CT also identified avid contralateral supraclavicular lymphadenopathy, consistent with distant metastatic disease.
+
+Given the history of a prior central nervous system malignancy, a brain MRI with contrast was performed as part of the staging evaluation, which was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Pathologic analysis confirmed poorly differentiated invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue. Molecular profiling did not identify any actionable driver alterations; the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+PD-L1 immunohistochemistry was not performed, as this was not standard practice at the time of the initial diagnostic workup. Tumor Mutational Burden (TMB) was assessed and found to be high (>16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 49-year-old former smoker with a new diagnosis of Stage IV (cT2, cN2, cM1) non-small cell lung cancer of adenocarcinoma histology. Staging studies confirmed a primary right upper lobe mass with distant disease involving contralateral supraclavicular lymph nodes. Staging brain MRI was negative for metastatic disease. Molecular analysis of the tumor is notable for a high Tumor Mutational Burden (TMB) but is negative for common targetable driver mutations. The patient is seen today for initial consultation to discuss the diagnosis and findings.

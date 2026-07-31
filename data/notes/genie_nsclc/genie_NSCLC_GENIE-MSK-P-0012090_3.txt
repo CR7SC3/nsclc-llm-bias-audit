@@ -1,0 +1,25 @@
+**HPI:**
+This is a 77-year-old with a past medical history of bladder cancer, now in remission, who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over a year ago. The patient was in a usual state of health until approximately two months prior to presentation, when a persistent, non-productive cough developed. This was initially attributed to a viral illness but did not resolve, prompting further investigation. The patient also reports mild exertional dyspnea and an estimated 5-pound weight loss over this period but otherwise remains fully ambulatory with an excellent performance status, continuing with all activities of daily living.
+
+**Diagnostic Workup:**
+An initial chest radiograph demonstrated a right upper lobe opacity, which led to a contrast-enhanced CT of the chest. This study confirmed the presence of a 3.8 cm spiculated mass in the right upper lobe. The scan also revealed prominent ipsilateral mediastinal and hilar lymphadenopathy.
+
+A subsequent PET/CT scan was performed for staging purposes on [De-identified Date]. This demonstrated intense FDG avidity in the primary right upper lobe mass as well as in the right paratracheal and subcarinal lymph nodes, consistent with nodal involvement. There was no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, or bones, and no other findings concerning for distant metastatic disease.
+
+A dedicated MRI of the brain with contrast was performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed the diagnosis of adenocarcinoma with features consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. The results are as follows:
+*   **Actionable Driver Mutation:** ERBB2 (HER2) exon 20 insertion detected.
+*   **Other Drivers:** Negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+*   **PD-L1 Expression:** Negative (Tumor Proportion Score <1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 77-year-old with an excellent performance status who presents with a new diagnosis of locally advanced, non-metastatic lung cancer. The key issues are:
+
+1.  **Non-Small Cell Lung Cancer (NSCLC):** Adenocarcinoma histology, clinical Stage IIIA.
+2.  **Molecular Profile:** The tumor is characterized by an ERBB2 exon 20 insertion. PD-L1 expression is negative.
+3.  **Past Medical History:** Notable for prior bladder cancer, currently in remission.

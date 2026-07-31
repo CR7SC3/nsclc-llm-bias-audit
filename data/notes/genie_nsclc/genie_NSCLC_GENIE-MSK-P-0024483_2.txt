@@ -1,0 +1,23 @@
+**History of Present Illness**
+
+This is a 56-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to this evaluation, at which time they began to experience a persistent, dry cough and progressive shortness of breath with exertion. These symptoms prompted a visit to their primary care provider.
+
+The initial workup included a chest X-ray which revealed a right-sided lung mass. The patient reports feeling fatigued but remains fully ambulatory and able to perform all activities of daily living, corresponding to an ECOG performance status of 1.
+
+**Diagnostic Workup**
+
+Following the abnormal chest X-ray, a diagnostic CT scan of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified date]. This study characterized a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated extensive and bulky mediastinal and right hilar lymphadenopathy. Notably, an enlarged contralateral supraclavicular lymph node was identified. No suspicious lesions were noted in the liver, adrenal glands, or other visceral organs.
+
+To complete staging, a whole-body PET/CT scan was obtained. This showed intense FDG-avidity in the primary right upper lobe mass, as well as in the extensive mediastinal, hilar, and contralateral supraclavicular nodal stations, consistent with the CT findings. Crucially, no FDG-avid lesions suggestive of distant metastatic disease were identified. A subsequent MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided fine-needle aspiration of a subcarinal lymph node. The pathology from this procedure confirmed the diagnosis.
+
+**Molecular Studies**
+
+Pathology from the EBUS-guided biopsy of the mediastinal lymph node was consistent with adenocarcinoma of the lung. The tissue specimen was sent for next-generation sequencing for comprehensive molecular profiling.
+
+This analysis did not identify any actionable driver alterations. Specific testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on the specimen, as this was not yet standard of care at the time of the initial diagnosis.
+
+**Problem Summary**
+
+In summary, this is a 56-year-old former smoker who presents with a new diagnosis of Stage IIIB (cT2bN3M0) non-small cell lung adenocarcinoma. The diagnosis was confirmed via EBUS-guided biopsy of a mediastinal lymph node. A comprehensive staging workup, including PET/CT and brain MRI, has confirmed locoregionally advanced disease confined to the chest and supraclavicular region, with no evidence of distant metastatic spread. Molecular analysis of the tumor is notable for the absence of identified targetable driver mutations. The patient is here today for an initial consultation to discuss the diagnosis and its implications.

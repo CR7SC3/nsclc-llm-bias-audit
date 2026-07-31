@@ -1,0 +1,23 @@
+**HPI:**
+This is an 80-year-old who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent dry cough. This was initially evaluated by a primary care provider and did not resolve with a course of antibiotics. Due to the persistence of the cough and the subsequent development of mild dyspnea on exertion, a chest X-ray was performed, which demonstrated a right-sided lung mass.
+
+The patient was referred for further imaging and evaluation. A CT scan of the chest confirmed the presence of a right upper lobe lung mass with associated mediastinal lymphadenopathy. The patient subsequently underwent a CT-guided biopsy of the lung mass for definitive diagnosis.
+
+Review of systems is notable for some fatigue and an approximately 10-pound unintentional weight loss over the past several months. The patient denies hemoptysis, fevers, or significant chest pain. They remain fully ambulatory and self-sufficient in all activities of daily living, with an estimated ECOG performance status of 1. Past medical history is notable for hypertension. The patient is a former smoker, having quit over one year ago.
+
+**Diagnostic Workup:**
+A comprehensive staging workup has been completed. I have personally reviewed the relevant imaging and pathology reports.
+
+*   **CT Chest on [De-identified]:** Revealed a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. There was associated bulky mediastinal adenopathy, including in the right paratracheal (station 4R) and subcarinal (station 7) regions.
+*   **PET/CT on [De-identified]:** Confirmed intense FDG-avidity in the primary right upper lobe lung mass. Intense uptake was also noted in multiple ipsilateral mediastinal and subcarinal lymph nodes, consistent with nodal metastases. There was no evidence of FDG-avid disease in the contralateral mediastinum or hilum, nor were there any findings concerning for distant metastatic disease in the chest, abdomen, or pelvis.
+*   **MRI Brain on [De-identified]:** Performed for central nervous system staging, this was negative for any evidence of intracranial metastases.
+*   **CT-guided Core Biopsy, Right Lung Mass on [De-identified]:** Pathology from the biopsy specimen was consistent with invasive, moderately differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the core biopsy.
+*   No actionable driver alteration was identified. Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is an 80-year-old former smoker with an excellent performance status (ECOG 1) who presents with a new diagnosis of non-metastatic, locally advanced, Stage IIIA (cT2bN2M0, AJCC 8th Edition) non-small cell lung cancer of squamous histology. The diagnostic workup has confirmed disease confined to the right hemithorax involving the primary tumor and ipsilateral mediastinal lymph nodes. Molecular profiling did not identify an actionable driver mutation. The patient is treatment-naive and is seen today for initial consultation and discussion of this new diagnosis.

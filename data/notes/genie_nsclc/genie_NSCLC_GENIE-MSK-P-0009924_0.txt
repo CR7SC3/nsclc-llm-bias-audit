@@ -1,0 +1,20 @@
+**HPI:**
+This is an initial oncology consultation for a 78-year-old who presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. The patient also noted the recent appearance of a non-tender lump under the skin of the abdomen. Past medical history is notable for being a former smoker, having quit over a decade ago. The patient remains functional with an ECOG performance status of 1, able to perform all self-care but restricted in physically strenuous activity. An initial chest X-ray showed a right-sided lung mass, prompting a full diagnostic workup. The patient presents today to establish care and discuss the findings of this workup.
+
+**Diagnostic Workup:**
+A contrast-enhanced staging PET/CT scan was performed on [De-identified Date]. This study revealed a hypermetabolic 4.5 cm primary mass in the right upper lobe with associated mediastinal lymphadenopathy. Widespread metastatic disease was identified, including several metabolically active nodules in the contralateral (left) lung, nodular pleural thickening consistent with pleural metastases, and a hypermetabolic 2 cm subcutaneous nodule in the right anterior abdominal wall.
+
+A brain MRI was performed for staging and was negative for intracranial metastases.
+
+An interventional radiology-guided core biopsy of the palpable subcutaneous abdominal wall nodule was performed. Pathology confirmed metastatic adenocarcinoma with an immunoprofile (TTF-1 positive) consistent with a lung primary.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue specimen.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested, as this was not standard of care at the time the sample was initially processed.
+- Tumor Mutational Burden (TMB) was reported as high at >16 mutations/megabase.
+
+**Problem Summary:**
+1.  Metastatic non-small cell lung cancer, adenocarcinoma histology.
+2.  AJCC Stage IV disease at diagnosis, with metastatic involvement of the contralateral lung, pleura, and subcutaneous tissue.
+3.  Tumor molecular profiling notable for a high tumor mutational burden (TMB) and the absence of any identified actionable driver mutations.

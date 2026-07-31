@@ -1,0 +1,23 @@
+**PATIENT IDENTIFICATION:** This is an initial medical oncology consultation for a 58-year-old with a new diagnosis of metastatic non-small cell lung cancer.
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 58-year-old former smoker (quit within the last year) who was in a good state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. Over the subsequent weeks, they also noted the onset of focal right-sided rib pain, which was initially attributed to a musculoskeletal strain but did not improve with conservative measures. Due to the persistence of these symptoms and an unintentional 10-pound weight loss, they presented to their primary care provider for evaluation.
+
+An initial chest X-ray revealed a spiculated mass in the left upper lobe. The patient has an ECOG performance status of 1, being fully ambulatory and capable of light work but symptomatic from their disease. They are here today for initial consultation and to discuss the findings of their diagnostic workup.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This imaging confirmed a 4.5 cm primary mass in the left upper lobe with associated mediastinal lymphadenopathy. Additionally, the scan revealed multiple small nodules in the right lung, suspicious for contralateral metastatic disease, and a lytic lesion in the right seventh rib, corresponding to the patient's site of pain.
+
+A subsequent PET/CT scan demonstrated intense hypermetabolic activity in the primary left upper lobe mass, mediastinal nodes, the contralateral pulmonary nodules, and the lytic bone lesion in the right rib, confirming widespread disease. A staging MRI of the brain was also obtained and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of invasive adenocarcinoma of the lung.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not tested. Tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 58-year-old with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease involving the contralateral lung and bone. Molecular profiling of the tumor is notable for an absence of targetable driver alterations and an intermediate tumor mutational burden. The patient is treatment-naive.

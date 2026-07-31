@@ -1,0 +1,18 @@
+**HPI:**
+This 75-year-old individual with a significant smoking history (quit over one year ago) is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient presented to an outside hospital approximately one month ago with several weeks of progressive dyspnea on exertion and a persistent, dry cough. The patient also endorsed new-onset, intermittent headaches and mild dizziness. An initial diagnostic workup was initiated at that time. The patient is currently symptomatic but fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest CT scan revealed a large, spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy and a large right-sided pleural effusion. Due to the patient's neurological symptoms, a contrast-enhanced MRI of the brain was performed, which demonstrated multiple enhancing lesions in the cerebral and cerebellar hemispheres, consistent with metastatic disease.
+
+A PET/CT scan was performed for staging, which confirmed high metabolic activity in the primary lung mass, mediastinal nodes, and in nodular right-sided pleural thickening, confirming malignant pleural involvement.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathologic review of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+-   Molecular profiling did not identify any actionable driver alterations. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression was not tested.
+-   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 75-year-old former smoker who presents for initial evaluation of a newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease to the brain and pleura. Molecular testing is notable for an intermediate tumor mutational burden but is negative for any currently recognized actionable driver mutations. The patient is treatment-naive and is here to discuss the diagnosis and potential management options.

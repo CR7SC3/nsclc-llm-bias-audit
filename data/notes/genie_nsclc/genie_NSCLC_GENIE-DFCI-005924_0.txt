@@ -1,0 +1,22 @@
+**HPI:**
+This is a 78-year-old individual with a history of smoking (quit >1 year ago) who is seen in consultation for a new diagnosis of non-small cell lung cancer. The patient presented to their primary care provider approximately one month ago with complaints of a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms failed to resolve with a course of antibiotics. Due to worsening shortness of breath and the development of mild right-sided pleuritic chest discomfort, the patient was referred for further evaluation. The patient reports some associated fatigue and an unintentional weight loss of approximately 10 pounds over the last two months. They remain ambulatory and are able to perform all self-care but are limited in strenuous activity due to dyspnea. ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+A diagnostic workup was initiated, which included chest imaging and subsequent tissue sampling.
+
+*   **CT Chest/Abdomen/Pelvis with IV Contrast ([De-identified Date]):** Revealed a 4.2 cm spiculated mass in the right lower lobe of the lung. There was an associated large, right-sided pleural effusion with nodular pleural thickening, highly suspicious for malignant involvement. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis. Mediastinal lymph nodes were sub-centimeter.
+*   **MRI Brain ([De-identified Date]):** Performed for staging purposes, this was negative for any evidence of intracranial metastatic disease.
+*   **Thoracentesis and Pathology ([De-identified Date]):** A right-sided thoracentesis was performed by Interventional Radiology, draining 1.5 liters of serosanguinous fluid. Cytologic analysis of the pleural fluid confirmed the presence of malignant cells. Pathology review of the cell block established a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+Based on this workup, the patient was diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen obtained from the pleural fluid cell block.
+
+*   An activating **EGFR L858R** point mutation was detected.
+*   Tumor was found to be negative for alterations in **ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2**.
+*   Tumor Mutational Burden (TMB) was determined to be **intermediate (2–16 mut/Mb)**.
+*   PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura. Molecular testing has identified a sensitizing EGFR L858R mutation. The patient is treatment-naive and presents today to discuss the diagnosis, prognosis, and to consider options for systemic therapy.

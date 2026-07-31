@@ -1,0 +1,28 @@
+**HPI:**
+This is a 60-year-old individual with a history of smoking (quit >1 year ago) who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, symptoms worsened to include intermittent headaches, new-onset mid-back pain, and an unintentional weight loss of approximately 15 pounds.
+
+This prompted an evaluation in the emergency department, where a chest CT was performed revealing a large right upper lobe lung mass with associated mediastinal lymphadenopathy and multiple nodules in the contralateral lung. The scan also demonstrated suspicious lesions in the liver. Due to the headaches, a brain MRI was subsequently obtained, which confirmed the presence of intracranial metastases. The patient was admitted for an expedited diagnostic workup and then discharged to follow up in our clinic.
+
+The patient reports fair energy levels but notes fatigue with significant activity. The back pain is managed with over-the-counter analgesics. Appetite is reduced. The patient is fully ambulatory and self-caring, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed. I have personally reviewed the relevant imaging and reports.
+
+*   **CT Chest, Abdomen, and Pelvis with Contrast [De-identified Date]:** Revealed a 5.5 cm spiculated mass in the right upper lobe. Multiple enlarged mediastinal and hilar lymph nodes were noted. Numerous bilateral pulmonary nodules, with the largest in the left lower lobe measuring 1.8 cm, were present. The liver contained at least three hypodense lesions consistent with metastases, the largest measuring 2.5 cm. A lytic lesion was noted in the T7 vertebral body.
+
+*   **MRI Brain with and without Contrast [De-identified Date]:** Demonstrated multiple (at least five) ring-enhancing cerebral lesions in the bilateral cerebral hemispheres and cerebellum, consistent with metastatic disease. The largest lesion is in the right frontal lobe, measuring 1.5 cm, with moderate surrounding vasogenic edema.
+
+*   **PET/CT [De-identified Date]:** Showed intense FDG avidity in the primary right upper lobe mass, mediastinal lymph nodes, contralateral pulmonary nodules, liver lesions, and the T7 vertebral body lesion, confirming widespread metastatic disease. Multiple additional osseous sites of uptake were noted. Avid intracranial lesions were also seen.
+
+*   **Pathology [De-identified Date]:** A CT-guided core needle biopsy of the right lung mass was performed by Interventional Radiology. Histopathologic examination confirmed non-small cell lung cancer, not otherwise specified (NOS).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+
+*   **Actionable driver(s) detected:** EGFR exon 19 deletion (sensitizing).
+*   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+*   **PD-L1:** Not tested.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 60-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, not otherwise specified histology. The diagnostic workup confirms widespread metastatic disease involving the brain, contralateral lung, liver, and bone. Molecular profiling of the tumor is significant for the presence of a sensitizing EGFR exon 19 deletion. Per AJCC 8th edition staging, this represents Stage IV disease.

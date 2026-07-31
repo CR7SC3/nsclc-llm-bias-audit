@@ -1,0 +1,27 @@
+**HPI:**
+This is a 70-year-old individual with a history of former tobacco use who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a seasonal illness, but due to lack of resolution, the patient sought evaluation with their primary care provider. An initial chest radiograph demonstrated a right upper lobe density, prompting further imaging.
+
+A contrast-enhanced CT scan of the chest was performed, which identified a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed extensive and bulky mediastinal and right hilar lymphadenopathy. Given these findings, the patient was referred for pulmonology consultation and underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and staging. Biopsies were obtained from both the primary mass and a subcarinal lymph node.
+
+The patient reports the cough has persisted but is stable. They deny hemoptysis, fevers, chills, or significant chest pain. Appetite is slightly decreased but weight has been stable. Energy levels are good, and the patient maintains an excellent performance status, ECOG 1, and continues with their activities of daily living without limitation.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed.
+
+**Pathology:** EBUS-guided biopsy of the right upper lobe mass and a subcarinal (station 7) lymph node were performed on [De-identified Date]. Both sites confirmed the presence of poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Imaging:**
+- **CT Chest:** Revealed a 4.5 cm spiculated mass in the posterior segment of the right upper lobe. Bulky mediastinal adenopathy was noted, including in the right paratracheal and subcarinal stations, with the largest conglomerate of nodes measuring up to 3 cm in short-axis dimension.
+- **PET/CT Scan:** Performed for staging, this demonstrated intense FDG-avidity in the primary right upper lobe mass and in multiple right-sided hilar and mediastinal lymph node stations, consistent with the findings on diagnostic CT. Crucially, there was no evidence of FDG-avid disease below the diaphragm or elsewhere to suggest distant metastatic disease.
+- **MRI Brain:** An MRI of the brain with and without contrast was obtained as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** TMB was found to be intermediate (12 mutations/megabase).
+
+**Problem Summary:**
+This is a 70-year-old former smoker with a new diagnosis of treatment-naive, Stage IIIA (cT2bN2M0, AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. The disease is locally advanced, with involvement of the primary tumor and mediastinal lymph nodes, but with no evidence of distant metastatic disease on comprehensive staging. Molecular profiling is negative for targetable driver mutations and PD-L1 expression, with an intermediate tumor mutational burden. The patient has an excellent performance status and is seen today to discuss the diagnosis and potential management options.

@@ -1,0 +1,22 @@
+**HPI:**
+This is a 67-year-old with a history of being a never-smoker who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of good health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness but did not resolve. Due to the persistence of symptoms, a chest radiograph was ordered by their primary care provider, which revealed a pulmonary nodule. The patient otherwise denies chest pain, shortness of breath, hemoptysis, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. They maintain an excellent functional status, continuing with all activities of daily living without limitation.
+
+**Diagnostic Workup:**
+Following an abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This study characterized a 2.8 cm spiculated solid mass in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy, and no pleural effusion was seen.
+
+For definitive staging, a whole-body PET/CT was obtained. This demonstrated intense FDG uptake localized to the right upper lobe mass, with no evidence of hypermetabolic activity within the mediastinal lymph nodes, contralateral lung, or other distant sites to suggest metastatic disease. A dedicated MRI of the brain with contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified date]. Pathologic analysis of the tissue confirmed a diagnosis of primary lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. The results are notable for the following:
+*   Actionable driver mutations detected:
+    *   EGFR L858R point mutation (sensitizing)
+    *   MET exon 14 skipping mutation
+    *   MET amplification (high-level)
+*   Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 testing was not performed on this sample.
+*   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 67-year-old never-smoker who is treatment-naive and presents with a new diagnosis of Stage IB non-small cell lung cancer, adenocarcinoma histology. Staging workup including PET/CT and brain MRI has confirmed localized disease confined to the right upper lobe, with no evidence of nodal or distant metastatic spread. Molecular profiling of the tumor is complex, demonstrating co-occurring EGFR L858R, MET exon 14 skipping, and high-level MET amplification. The patient has an excellent performance status (ECOG 0) and is here today to discuss the diagnosis and establish care.

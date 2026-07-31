@@ -1,18 +1,24 @@
-Patient Name: [De-identified]
-DOB: [De-identified]
-MRN: [De-identified]
-Date of Service: [De-identified]
-Attending Physician: [De-identified] MD
-Consultation Type: Initial Oncology Consultation
+**HPI:**
+This is a 79-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed persistent headaches and a subtle decline in cognitive function, including some word-finding difficulty. This prompted an evaluation in the emergency department at [De-identified] Hospital on [De-identified Date].
 
-**HISTORY OF PRESENT ILLNESS:**
-This 79-year-old patient presents for initial oncology consultation regarding recently diagnosed Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology. Patient reports a several-month history of progressive fatigue, unintentional weight loss, and a persistent cough. More recently, patient has experienced new onset headaches and some mild gait instability, prompting further evaluation and leading to the current diagnosis. The patient is treatment-naive, having received no prior systemic therapy for this malignancy.
+An initial non-contrast head CT was concerning for multiple intracranial lesions, and the patient was admitted for further workup. A contrast-enhanced MRI of the brain confirmed the presence of multiple enhancing lesions in the cerebral and cerebellar hemispheres, consistent with metastatic disease. A staging CT of the chest, abdomen, and pelvis was subsequently performed, which revealed a primary mass in the right upper lobe of the lung with extensive mediastinal and supraclavicular lymphadenopathy. The scan also demonstrated widespread metastatic disease, including multiple lesions in the liver, bilateral adrenal glands, and osseous structures. A PET/CT scan confirmed high metabolic activity in the primary lung mass, regional lymph nodes, and all sites of distant disease.
 
-**DIAGNOSTIC WORKUP:**
-Initial evaluation included a chest X-ray which revealed a dominant left upper lobe mass. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis which confirmed a primary lung mass measuring approximately 4.5 cm in the left upper lobe, with associated mediastinal and hilar lymphadenopathy. The CT also identified suspicious lesions in the liver, left adrenal gland, and several osseous lesions concerning for metastatic disease. Further staging with a whole-body PET/CT scan demonstrated hypermetabolic activity corresponding to the primary lung lesion, involved lymph nodes, liver lesions, adrenal lesion, and multiple bone lesions, confirming widespread metastatic disease. Given the patient's neurological symptoms and the extent of metastatic disease, a brain MRI was performed, which revealed multiple enhancing lesions consistent with brain metastases. Biopsy of the left upper lobe lung mass, performed via CT-guided core needle biopsy, confirmed adenocarcinoma histology. Overall, the diagnostic workup confirms AJCC Stage IV NSCLC, adenocarcinoma histology, with metastatic disease to the brain, bone, liver, adrenal gland, and distant lymph nodes.
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of a liver metastasis. The patient is a lifetime never-smoker. At present, the patient reports ongoing mild headaches and fatigue but is fully ambulatory and capable of all self-care. ECOG performance status is 1. The patient is here today to discuss the diagnosis and establish care.
 
-**MOLECULAR STUDIES:**
-Molecular profiling was performed on the tumor biopsy specimen. Testing for common driver alterations, including EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2 (HER2) amplification or mutations, did not identify any actionable alterations. PD-L1 expression was not assessed, as this testing was not standard of care at the time of initial sequencing (pre-2017 sequencing). Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+**Diagnostic Workup:**
+*   **Imaging:**
+    *   **MRI Brain [De-identified Date]:** Multiple enhancing metastatic lesions throughout the cerebral and cerebellar hemispheres with surrounding vasogenic edema. The largest lesion is located in the left frontal lobe.
+    *   **CT Chest/Abdomen/Pelvis with contrast [De-identified Date]:** A 3.8 cm spiculated mass in the right upper lobe. Bulky mediastinal and right supraclavicular lymphadenopathy. Innumerable hypodense lesions throughout the liver, consistent with metastases. Enlarged, heterogeneous bilateral adrenal glands, suspicious for metastases. Multiple lytic and blastic lesions are noted in the thoracic spine, ribs, and pelvis.
+    *   **PET/CT [De-identified Date]:** Intense FDG-avidity corresponding to the known right upper lobe lung mass (SUVmax 13.8), extensive nodal disease, and widespread distant metastases in the brain, liver, adrenal glands, and skeleton, confirming M1c disease.
+*   **Pathology:**
+    *   **CT-guided core biopsy, liver lesion [De-identified Date]:** Adenocarcinoma, with immunohistochemical staining patterns consistent with a lung primary origin.
 
-**PROBLEM SUMMARY:**
-This 79-year-old patient presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is widely metastatic to the brain, bone, liver, adrenal gland, and distant lymph nodes. Molecular profiling did not reveal any actionable driver alterations (negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2). PD-L1 expression was not tested. Tumor mutational burden is intermediate (2–16 mut/Mb). Further discussion regarding management strategies for this advanced disease is warranted.
+**Molecular Studies:**
+Next-generation sequencing was performed on the liver biopsy tissue.
+*   No actionable driver alteration was identified.
+*   Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+*   PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 79-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with widespread metastatic disease involving the brain, bone, liver, adrenal glands, and distant lymph nodes. Molecular profiling of the tumor did not identify any actionable driver mutations.

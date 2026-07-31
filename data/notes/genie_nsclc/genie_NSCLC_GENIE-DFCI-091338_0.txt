@@ -1,0 +1,23 @@
+**HPI:**
+This is a 49-year-old individual with a past medical history notable only for well-controlled hypertension, who is referred for initial oncology evaluation of newly diagnosed non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and a new sensation of chest tightness with mild dyspnea on exertion. These symptoms progressively worsened, prompting a visit to their primary care provider. An initial chest X-ray was abnormal, leading to further diagnostic imaging. A contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed, which revealed a primary mass in the right lower lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified enlarged contralateral supraclavicular and retroperitoneal lymph nodes, suspicious for distant metastatic disease.
+
+The patient was referred to Interventional Radiology for a biopsy. A CT-guided core needle biopsy of the primary right lung mass was successfully performed. Pathology confirmed the diagnosis of adenocarcinoma. A staging MRI of the brain was subsequently performed and was negative for any evidence of intracranial metastases.
+
+At the time of this consultation, the patient feels reasonably well. The cough persists but is manageable. Appetite and weight have been stable. The patient maintains an excellent performance status, ECOG 1, and continues to work and engage in all activities of daily living without significant limitation. The patient is here today to review the complete diagnostic findings and discuss the implications of this diagnosis.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis with contrast, [De-identified]:** Revealed a 3.5 cm spiculated mass in the right lower lobe. There was extensive ipsilateral hilar and mediastinal (stations 4R, 7) lymphadenopathy. Findings consistent with distant metastatic disease included enlarged and avid contralateral supraclavicular and retroperitoneal lymph nodes. No discrete liver, adrenal, or osseous metastases were identified.
+*   **MRI Brain with and without contrast, [De-identified]:** No evidence of acute intracranial hemorrhage, mass, or metastatic disease.
+*   **Pathology, CT-guided core biopsy of right lung mass, [De-identified]:** Invasive adenocarcinoma, acinar predominant pattern.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue with the following results:
+*   **Actionable Driver Mutation:** An activating *EGFR* L858R point mutation was detected.
+*   **Other Markers:** Testing was negative for mutations or rearrangements in *ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS,* and *ERBB2*.
+*   **PD-L1 Expression:** Tumor Proportion Score (TPS) is positive in the 1-49% range.
+*   **Tumor Mutational Burden (TMB):** Intermediate (9.2 mutations/megabase).
+
+**Problem Summary:**
+This is a 49-year-old never-smoker with a new diagnosis of treatment-naive, metastatic (Stage IV) non-small cell lung cancer, adenocarcinoma histology. The disease is characterized by a sensitizing *EGFR* L858R mutation and is without central nervous system involvement at diagnosis.

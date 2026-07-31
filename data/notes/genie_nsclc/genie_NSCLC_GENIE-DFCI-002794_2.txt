@@ -1,0 +1,13 @@
+**HPI:**
+This is a 50-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a former smoker with a remote history, having quit over one year ago. The patient was in a usual state of health until a pulmonary nodule was incidentally identified on a chest CT performed for an unrelated reason. The patient is asymptomatic, specifically denying any cough, dyspnea, hemoptysis, chest pain, or constitutional symptoms such as fevers or weight loss. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+Following the incidental finding, a dedicated diagnostic CT of the chest was performed on [De-identified], which characterized a 1.9 cm solid, spiculated nodule in the right upper lobe. Staging evaluation was pursued with a whole-body PET/CT scan on [De-identified]. This study demonstrated intense FDG-avidity corresponding to the right upper lobe nodule. Importantly, there was no evidence of hypermetabolic activity in any mediastinal or hilar lymph nodes, nor were there any findings concerning for distant metastatic disease. A staging MRI of the brain with and without contrast was also completed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule on [De-identified]. Pathologic review of the specimen confirmed a diagnosis of invasive, poorly differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. No actionable driver alterations were identified. Specifically, results were negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was found to be high at >16 mutations/megabase. PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 50-year-old with an excellent performance status who presents for evaluation of a newly diagnosed, localized AJCC Stage IA (cT1bN0M0) non-small cell lung cancer, squamous cell histology.

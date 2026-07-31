@@ -1,0 +1,24 @@
+**HPI:**
+This is a 58-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began experiencing persistent headaches and a single episode of right-sided arm and leg weakness that resolved spontaneously. This prompted an evaluation in an outside emergency department. An MRI of the brain was performed at that time, which revealed multiple enhancing intracranial lesions concerning for metastatic disease.
+
+A subsequent staging workup was initiated. A CT scan of the chest, abdomen, and pelvis was obtained, which identified a large mass in the upper lobe of the right lung with associated mediastinal lymphadenopathy. The patient is a current smoker. They report a good appetite and stable weight but note some fatigue. They remain ambulatory and are managing all activities of daily living. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+The diagnostic workup to date includes imaging and a tissue biopsy.
+
+A CT-guided core needle biopsy of the right lung mass was performed on [De-identified]. Pathology review confirmed a diagnosis of poorly differentiated non-small cell lung cancer, with immunohistochemistry favoring an adenocarcinoma histology.
+
+Staging imaging included a contrast-enhanced CT of the chest, abdomen, and pelvis which demonstrated a 4.5 cm spiculated mass in the right upper lobe. There was also bulky mediastinal and right hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the chest or abdomen.
+
+An MRI of the brain confirmed the presence of at least three discrete enhancing lesions in the cerebral hemispheres, consistent with metastatic deposits. The largest lesion measures 1.8 cm in the left parietal lobe.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was determined to be high at >16 mut/Mb.
+
+**Problem Summary:**
+This is a 58-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. The patient has a good performance status (ECOG 1) and is a current smoker. Molecular profiling of the tumor is notable for the absence of targetable driver mutations, but demonstrates high PD-L1 expression (TPS ≥50%) and a high tumor mutational burden. The patient is treatment-naive.

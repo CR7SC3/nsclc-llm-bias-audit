@@ -1,0 +1,19 @@
+**HPI:**
+This is a 60-year-old individual with a history of being a former smoker (quit >1 year ago) who is referred for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. An initial course of antibiotics from their primary care provider did not lead to improvement. Due to the persistence of symptoms, a chest X-ray was obtained, which revealed a suspicious opacity in the right upper lung. The patient is here today to discuss the findings of their subsequent workup. They report a good performance status, ECOG 0-1, and are fully ambulatory and capable of self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, the patient underwent a staging CT of the chest, abdomen, and pelvis with intravenous contrast on [De-identified Date]. This study confirmed the presence of a 4.1 cm spiculated mass in the right upper lobe with associated ipsilateral mediastinal and subcarinal lymphadenopathy. The scan also identified multiple hypodense lesions throughout the liver, consistent with metastatic disease. The largest of these liver lesions measured 3.2 cm in segment VII.
+
+To evaluate for intracranial disease, a brain MRI with and without contrast was performed and was negative for metastatic deposits.
+
+To obtain a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of an accessible liver lesion. Pathologic analysis of the biopsy specimen confirmed metastatic adenocarcinoma. The morphology and immunohistochemical profile were consistent with a lung primary.
+
+**Molecular Studies:**
+The liver biopsy tissue was sent for comprehensive genomic profiling via next-generation sequencing (NGS) and immunohistochemistry. The key findings are as follows:
+- **Actionable Driver Mutation:** An activating *EGFR* L858R point mutation was detected.
+- **Other Drivers:** Testing was negative for fusions or mutations in *ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+- **PD-L1 Expression:** Immunohistochemistry showed high PD-L1 expression with a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was found to be in the intermediate range (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 60-year-old, treatment-naive patient with a new diagnosis of AJCC Stage IV metastatic non-small cell lung cancer of adenocarcinoma histology. The diagnosis is confirmed by a biopsy of a liver metastasis. Staging studies demonstrate a primary right upper lobe lung mass, mediastinal lymphadenopathy, and multiple liver metastases, with no evidence of brain involvement. Molecular testing is notable for the presence of a sensitizing *EGFR* L858R mutation and high PD-L1 expression (TPS ≥50%). The patient presents for initial consultation to review these findings.

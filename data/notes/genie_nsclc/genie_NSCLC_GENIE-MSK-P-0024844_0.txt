@@ -1,0 +1,31 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF VISIT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 43-year-old individual referred for initial oncology evaluation following a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month ago when they developed a persistent dry cough and a new sensation of mild shortness of breath with exertion. This prompted a visit to their primary care provider.
+
+An initial chest radiograph revealed a right upper lobe lung mass. A subsequent contrast-enhanced CT scan of the chest was performed for further characterization, which confirmed a solid mass in the right upper lobe with associated ipsilateral mediastinal and hilar lymphadenopathy. The patient was referred for bronchoscopy with endobronchial ultrasound (EBUS) for definitive tissue diagnosis and staging. Biopsies were successfully obtained from the primary mass and an involved hilar lymph node. Pathologic review of this tissue established the diagnosis of adenocarcinoma.
+
+The patient reports their activity level is well-maintained. They are fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 0. There is a history of prior tobacco use, with cessation over one year ago.
+
+**DIAGNOSTIC WORKUP:**
+Staging evaluation has been completed. A summary of the relevant findings is below.
+
+**CT Chest/Abdomen/Pelvis with contrast:** A 4.5 cm spiculated mass is present in the posterior segment of the right upper lobe. There is associated right hilar and ipsilateral mediastinal lymphadenopathy. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other abdominopelvic organs.
+
+**PET/CT:** Intense FDG-avidity was demonstrated in the primary right upper lobe mass and in right hilar and subcarinal lymph nodes, consistent with the CT findings. The scan showed no evidence of FDG-avid disease at any distant sites to suggest metastatic involvement.
+
+**MRI Brain:** A dedicated MRI of the brain with and without contrast was performed to complete staging and was negative for any evidence of intracranial metastases.
+
+**Pathology:** Bronchoscopic biopsy of the right upper lobe mass and EBUS-guided fine-needle aspiration of a right hilar lymph node both confirmed invasive adenocarcinoma, consistent with a non-small cell primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor specimen.
+-   No actionable oncogenic driver alterations were identified. The tumor was negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS*, and *ERBB2*.
+-   PD-L1 expression by immunohistochemistry demonstrated a Tumor Proportion Score (TPS) in the 1–49% range.
+-   Tumor Mutational Burden (TMB) was assessed and found to be high (>16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 43-year-old with an excellent performance status (ECOG 0) and a new diagnosis of treatment-naive, Stage IIB (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for a PD-L1 TPS of 1-49% and high Tumor Mutational Burden, with no identified targetable driver mutations. The patient is here today to discuss this diagnosis and review the implications of these findings.

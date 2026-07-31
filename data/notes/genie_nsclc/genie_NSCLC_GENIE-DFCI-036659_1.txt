@@ -1,0 +1,27 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**REASON FOR CONSULTATION:** Newly diagnosed non-small cell lung cancer
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 53-year-old individual with a past medical history significant for treated cervical cancer who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and mild shortness of breath on exertion. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider.
+
+The patient is a former smoker, having quit more than one year ago. They maintain a good performance status, estimated at ECOG 0-1, and continue to perform all activities of daily living without assistance. They deny fevers, chills, night sweats, or significant unintentional weight loss.
+
+**DIAGNOSTIC WORKUP:**
+The persistent cough prompted a chest X-ray which revealed a right upper lobe opacity. This led to a follow-up contrast-enhanced CT of the chest, which confirmed a 4.2 cm spiculated mass in the right upper lobe. The scan also identified bulky ipsilateral mediastinal and hilar lymphadenopathy, with the largest subcarinal node measuring 2.5 cm in short axis.
+
+A staging PET/CT scan was subsequently performed. This demonstrated intense FDG-avidity within the primary right upper lobe mass, as well as in the right hilar and mediastinal lymph nodes, consistent with locoregional nodal metastases. No FDG-avid lesions suspicious for distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or skeleton.
+
+A brain MRI with and without contrast was performed as part of the standard staging evaluation and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right lung mass. Pathologic review of the tissue confirmed a diagnosis of lung adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested on this specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 53-year-old with a new diagnosis of Stage IIIA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. Staging workup including PET/CT and brain MRI has confirmed disease confined to the right hemithorax and regional lymph nodes, with no evidence of distant metastatic disease. Molecular profiling did not identify any targetable driver alterations. The patient is treatment-naive and presents today to discuss the diagnosis and potential management strategies.

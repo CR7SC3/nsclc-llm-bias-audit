@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial medical oncology consultation for a 60-year-old who presents with a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and mild shortness of breath with exertion. These symptoms prompted a visit to their primary care provider. The patient is a lifetime never-smoker and maintains an excellent functional status, continuing with daily activities without significant limitation.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a 3.5 cm spiculated mass in the right upper lobe. The CT also identified enlarged mediastinal and contralateral supraclavicular lymph nodes.
+
+For definitive staging, a PET/CT scan was performed. This demonstrated intense FDG avidity in the primary right upper lobe mass. Avid uptake was also noted in multiple right hilar and mediastinal lymph nodes, as well as in contralateral mediastinal and left supraclavicular lymph nodes, consistent with distant metastatic disease. A contrast-enhanced MRI of the brain was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed by Interventional Radiology. Histopathologic analysis confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue with the following results:
+-   **Actionable Driver Mutation:** A sensitizing EGFR L858R point mutation was detected.
+-   **Other Markers:** The tumor was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 Expression:** Tumor Proportion Score (TPS) was positive in the 1-49% range.
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 60-year-old never-smoker who presents for initial evaluation of a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm the primary lung mass with metastatic involvement of distant (contralateral mediastinal and supraclavicular) lymph nodes. Brain MRI is negative for metastatic disease. The patient is treatment-naive with an excellent performance status. Molecular profiling is notable for a sensitizing EGFR L858R mutation and PD-L1 expression of 1-49%.

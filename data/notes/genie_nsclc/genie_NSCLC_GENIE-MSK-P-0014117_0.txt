@@ -1,0 +1,52 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness**
+
+This is a 61-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began to experience progressive dyspnea on exertion and a persistent, dry cough. These symptoms prompted an evaluation with their primary care physician.
+
+An initial chest X-ray was concerning for a right-sided lung mass and an associated effusion. This was followed by a staging CT of the chest, abdomen, and pelvis which confirmed the presence of a right upper lobe lung mass and a large right-sided pleural effusion. The patient was subsequently referred to Interventional Radiology for diagnostic procedures.
+
+The patient underwent a CT-guided core needle biopsy of the right lung mass and a thoracentesis for both diagnostic and therapeutic purposes. They report a modest improvement in their shortness of breath since the pleural fluid was drained. They have maintained a good appetite with no significant weight loss. Performance status is excellent, estimated at ECOG 1, with limitations only related to exertional dyspnea. The patient is here today to review the comprehensive results of the workup and to discuss the diagnosis.
+
+**Past Medical History:** Unremarkable.
+**Past Surgical History:** None.
+**Medications:** None.
+**Allergies:** No Known Drug Allergies.
+
+**Social History:**
+Former smoker, quit approximately 5 years ago after a 20 pack-year history. Denies alcohol or illicit drug use.
+
+**Physical Exam:**
+Vitals: Stable.
+Constitutional: Well-appearing, in no acute distress.
+Lungs: Decreased breath sounds at the right base. Otherwise clear to auscultation bilaterally. No wheezing or rhonchi.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended.
+Extremities: No lower extremity edema.
+
+**Diagnostic Workup**
+
+**Imaging:**
+*   **CT Chest, Abdomen, and Pelvis with contrast [Date]:** Revealed a 3.8 cm spiculated mass in the posterior aspect of the right upper lobe. A large, complex right-sided pleural effusion with nodular pleural thickening was identified, suspicious for malignant involvement. No suspicious abdominopelvic metastatic disease was seen.
+*   **MRI Brain with and without contrast [Date]:** No evidence of intracranial metastatic disease.
+
+**Procedures/Pathology:**
+*   **Thoracentesis [Date]:** Approximately 1.2 liters of serosanguinous fluid was removed. Pleural fluid cytology was positive for malignant cells, consistent with adenocarcinoma, confirming a malignant pleural effusion.
+*   **CT-Guided Core Biopsy, Right Upper Lobe Mass [Date]:** Histopathology confirmed poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) performed on the tumor tissue sample revealed the following:
+*   **Actionable Driver Mutation:** EGFR exon 19 deletion detected.
+*   **Additional Testing:** Negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1 Immunohistochemistry:** Not performed.
+
+**Problem Summary**
+
+This is a 61-year-old with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, with metastasis to the pleura (malignant pleural effusion). The patient has a good performance status (ECOG 1). Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. Staging workup including a brain MRI is negative for other sites of distant disease. The patient is treatment-naive.

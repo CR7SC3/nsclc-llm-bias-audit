@@ -1,0 +1,30 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**History of Present Illness:**
+This is an 83-year-old individual with a history of a resected carcinoid tumor, who is referred for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed progressive, nagging low back pain. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistence of symptoms, they presented to their primary care provider. An MRI of the lumbar spine was obtained which revealed a destructive lesion within the L3 vertebral body, suspicious for a malignancy.
+
+This finding prompted a full staging workup. A contrast-enhanced CT of the chest, abdomen, and pelvis was subsequently performed. This imaging demonstrated a 3.2 cm spiculated mass in the right lower lobe of the lung, associated with mediastinal lymphadenopathy. The scan also confirmed the lytic lesion in the L3 vertebra. A staging MRI of the brain was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lower lobe lung mass. Pathology returned as adenocarcinoma. The patient reports the back pain is now better controlled with scheduled analgesia. They deny cough, shortness of breath, or hemoptysis. They report mild fatigue but are otherwise fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1. Notably, the patient is a never-smoker.
+
+**Past Medical History:**
+1. Hypertension
+2. Hyperlipidemia
+3. Carcinoid tumor of the small bowel, s/p resection [De-identified] with no evidence of recurrence.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis with contrast [De-identified]:** Revealed a 3.2 cm spiculated mass in the right lower lobe. Mediastinal and hilar lymphadenopathy were noted. A lytic lesion was identified in the L3 vertebral body, consistent with an osseous metastasis. No other distant visceral metastatic disease was identified.
+*   **MRI Brain with and without contrast [De-identified]:** Negative for intracranial metastatic disease.
+*   **CT-guided core biopsy, right lower lobe lung mass [De-identified]:** Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1:** Not tested.
+*   **Comprehensive Next-Generation Sequencing:** Results from a broad molecular panel on the tumor tissue are pending at this time.
+
+**Problem Summary:**
+In summary, this is an 83-year-old never-smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via biopsy of a right lower lobe lung mass. Staging evaluation confirmed metastatic disease to bone, with no evidence of central nervous system involvement. The patient maintains an excellent performance status (ECOG 1). Initial molecular testing is notable for a low TMB, with comprehensive genomic results pending.

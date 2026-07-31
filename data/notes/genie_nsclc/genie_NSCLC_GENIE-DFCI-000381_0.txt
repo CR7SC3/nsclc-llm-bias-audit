@@ -1,0 +1,18 @@
+**HPI:**
+This is a 77-year-old individual with a history of smoking (quit over a year ago) who is referred for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and new-onset, nagging mid-back pain. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistence of symptoms, the patient presented to their primary care provider. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. The patient reports a 10-pound unintentional weight loss over the past three months and increasing fatigue, but remains ambulatory and capable of all self-care, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe of the lung, with associated mediastinal lymphadenopathy. The scan also revealed a lytic lesion in the T8 vertebral body, suspicious for metastatic disease.
+
+A subsequent whole-body PET/CT scan was obtained for staging. This demonstrated intense FDG-avidity in the primary right upper lobe lung mass, several mediastinal lymph nodes, and a solitary focus of high uptake in the T8 vertebral body, confirming M1b disease. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive molecular profiling and immunohistochemistry.
+- Next-generation sequencing (NGS) did not identify an actionable driver alteration. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative, with a Tumor Proportion Score (TPS) of <1%.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 77-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Molecular analysis is notable for the absence of an actionable driver mutation and a PD-L1 TPS of <1%. The case is reviewed today to discuss the diagnosis and the implications of these findings.

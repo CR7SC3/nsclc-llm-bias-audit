@@ -1,16 +1,23 @@
-Date: [De-identified Date]
-Patient: [De-identified Patient Name]
-DOB: [De-identified DOB]
-MRN: [De-identified MRN]
-
 **HPI:**
-Patient is a 61-year-old individual presenting for initial oncology evaluation of recently diagnosed non-small cell lung cancer. The patient reports a several-month history of a persistent, productive cough, progressive dyspnea on exertion, and some unintentional weight loss totaling approximately 10 pounds over the past 3 months. They are a former smoker, having quit less than one year ago. These symptoms prompted evaluation by their primary care provider, leading to initial imaging. The patient's current ECOG performance status is 1 due to mild fatigue and dyspnea with moderate activity.
+This is a 61-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology consultation. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and mild dyspnea on exertion. An initial chest radiograph revealed a right upper lobe opacity, prompting further investigation. The patient is a former smoker, having quit within the last year after a significant pack-year history. They report feeling generally well otherwise, with a good appetite and stable weight. Performance status is excellent; the patient remains fully ambulatory and capable of all self-care.
 
 **Diagnostic Workup:**
-Initial chest X-ray revealed a suspicious mass in the lung, which was further characterized by a subsequent contrast-enhanced CT scan of the chest. This imaging confirmed a primary lung mass, along with mediastinal and hilar lymphadenopathy. A PET/CT scan was performed for comprehensive staging, demonstrating hypermetabolic activity in the primary lung lesion and involved regional lymph nodes, consistent with locoregional spread. No evidence of distant metastatic disease was identified on the PET/CT scan, including no suspicious lesions in the liver, bones, or adrenal glands. A brain MRI was also performed, which was negative for intracranial metastases. Diagnosis was confirmed via bronchoscopic biopsy of the lung mass, which revealed adenocarcinoma histology. Final AJCC staging based on these findings is Stage IIIA.
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated bulky ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.8 cm in the right paratracheal station. No suspicious lesions were identified in the liver, adrenal glands, or other visualized abdominopelvic organs.
+
+A subsequent PET/CT scan showed intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal and hilar lymph nodes. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for definitive diagnosis and staging. Fine-needle aspiration (FNA) was performed on the right paratracheal (4R) lymph node. Pathology from this specimen returned as poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIIA (AJCC 8th Edition) non-small cell lung cancer.
 
 **Molecular Studies:**
-Comprehensive molecular profiling was performed on the tumor tissue. This revealed an ALK rearrangement. Testing for other common driver mutations was negative, including EGFR, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2. PD-L1 expression by immunohistochemistry was negative. Tumor mutational burden (TMB) was reported as intermediate (2-16 mutations/megabase).
+Next-generation sequencing was performed on the tissue obtained from the EBUS-FNA.
+-   **Actionable Driver Mutations:** An ALK gene rearrangement was detected.
+-   **Other Markers:** Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 Immunohistochemistry:** PD-L1 expression was negative (Tumor Proportion Score < 1%).
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-This 61-year-old individual presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, Stage IIIA. Molecular profiling demonstrates an ALK rearrangement, negative PD-L1, and intermediate TMB.
+This is a 61-year-old with a new diagnosis of treatment-naive, non-metastatic Stage IIIA ALK-rearranged non-small cell lung cancer, adenocarcinoma subtype. The patient is here for initial consultation to review the diagnosis and discuss the prognosis and management approach.

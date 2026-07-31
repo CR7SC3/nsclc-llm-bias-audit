@@ -3,11 +3,11 @@
 **Scope:** Stage IV Non-Small Cell Lung Cancer (NSCLC), first-line treatment, treatment-naive patients  
 **Source:** NCCN Clinical Practice Guidelines in Oncology — Non-Small Cell Lung Cancer (verify current version at nccn.org)  
 **Purpose:** Human-readable reference for validating the logic in `src/evaluate/nccn_scorer.py`  
-**Last verified:** June 2026 against published literature (NCCN.org blocks unauthenticated access; verified via NCCN Guidelines Insights v7.2025 [JNCCN], ASCO Living Guideline 2026.3.0, and PMC trial data)
+**Last verified:** July 2026 against the **NCCN NSCLC Guidelines Version 6.2026 (06/12/26)** algorithm PDF (`nscl.pdf`), read from the extracted algorithm text (pages NSCL-1..37). Earlier cross-checks against NCCN Guidelines Insights v7.2025 [JNCCN], ASCO Living Guideline 2026.3.0, and PMC trial data retained where consistent.
 
-> **IMPORTANT:** NCCN guidelines are updated multiple times per year. Current version is approximately v5.2026. This document reflects guidelines as of June 2026. Before publishing research findings, verify currency against the current version at nccn.org (free registration required).
+> **IMPORTANT:** NCCN guidelines are updated multiple times per year. This document now reflects **NCCN NSCLC v6.2026** — the version the scorer (`src/evaluate/nccn_scorer.py`, `NCCN_GUIDELINE_VERSION = "NSCLC v6.2026"`) is pinned to. Before publishing research findings, verify currency against the current version at nccn.org (free registration required).
 
-> **GAPS ADDED JUNE 2026:** Two Category 1 first-line options for EGFR exon 19 del / L858R were missing from original doc and have been added: osimertinib + chemotherapy (FLAURA2) and amivantamab + lazertinib (MARIPOSA). KRAS G12C and HER2 mutation biomarker testing notes added. Taletrectinib added for ROS1.
+> **UPDATED JULY 2026 (v6.2026 reconciliation):** Added the v6.2026 first-line preferred agents confirmed against the algorithm PDF — **ensartinib** (ALK, NSCL-27), **repotrectinib** (ROS1 NSCL-30 and NTRK NSCL-33), **binimetinib + encorafenib** (BRAF V600E, NSCL-32, now co-preferred with dabrafenib/trametinib). Added the **atypical-EGFR (S768I/L861Q/G719X) NSCL-24 pathway** (afatinib/osimertinib preferred; FLAURA2/MARIPOSA explicitly NOT indicated). Confirmed and documented that **ERBB2/HER2 (NSCL-36)** and **NRG1 (NSCL-37)** targeted agents are **SUBSEQUENT-line** — first-line remains PD-L1-driven systemic therapy (same as KRAS G12C). Prior additions (June 2026): FLAURA2 and MARIPOSA for classic EGFR; taletrectinib for ROS1.
 
 ---
 
@@ -31,12 +31,23 @@ For Stage IV NSCLC, molecular profiling is required before first-line treatment.
 
 **Brain metastases note:** All three exon 19 del / L858R regimens have intracranial activity. Osimertinib (mono or combo) and amivantamab + lazertinib are both appropriate. CNS-directed therapy (SRS/WBRT) may be added for symptomatic lesions but does not displace systemic targeted therapy.
 
+#### 1.1a Atypical EGFR mutations (S768I / L861Q / G719X) — NSCL-24 *(separate pathway)*
+
+Atypical/uncommon EGFR TKI-sensitive mutations follow a **distinct** NCCN pathway (NSCL-24), not the exon 19 del / L858R pathway. In the cohort these are coded `egfr_status = "other_sensitising"` (19 cases).
+
+| Preferred Regimens | Other Recommended | NCCN Category | Notes |
+|---|---|---|---|
+| Afatinib **or** Osimertinib | Dacomitinib, Erlotinib, Gefitinib | Preferred (afatinib/osimertinib) | Afatinib has the broadest label for atypical mutations |
+
+**Critical distinction:** FLAURA2 (osimertinib + chemo) and MARIPOSA (amivantamab + lazertinib) are **NOT** indicated for atypical EGFR mutations — those are specific to classic exon 19 del / L858R (NSCL-21). A scorer that credits FLAURA2/MARIPOSA for S768I/L861Q/G719X is wrong.
+
 ### 1.2 ALK Rearrangements
 
 | Preferred Regimens | NCCN Category | Key Trials | Notes |
 |---|---|---|---|
 | Alectinib | Category 1 | ALEX | Superior CNS penetration vs. crizotinib |
 | Brigatinib | Category 1 | ALTA-1L | Category 1; comparable to alectinib |
+| Ensartinib | Category 1 | eXalt3 | **Added v6.2026.** Category 1 preferred first-line (NSCL-27) |
 | Lorlatinib | Category 1 | CROWN | 3rd-gen; 5-year CROWN data support as preferred — median PFS not yet reached; strongest CNS data |
 | Crizotinib | Category 2A | PROFILE 1014 | No longer preferred; inferior CNS activity |
 
@@ -49,16 +60,20 @@ For Stage IV NSCLC, molecular profiling is required before first-line treatment.
 | Preferred Regimens | NCCN Category | Notes |
 |---|---|---|
 | Entrectinib | Category 1 | Preferred when brain metastases present (CNS-penetrant) |
+| Repotrectinib | Category 1 (preferred) | **Added v6.2026 (NSCL-30).** TRIDENT-1; preferred first-line, strong intracranial activity |
 | Taletrectinib | Category 1 | **Added 2025.** FDA approved first- and later-line; robust intracranial activity (TRUST-I/II) |
-| Crizotinib | Category 1 | Active against ROS1; inferior CNS penetration vs. entrectinib and taletrectinib |
+| Crizotinib | Category 1 | Active against ROS1; inferior CNS penetration vs. entrectinib, repotrectinib, and taletrectinib |
 
-**Brain metastases note:** Entrectinib and taletrectinib are both preferred over crizotinib when brain metastases are present.
+**Brain metastases note:** Entrectinib, repotrectinib, and taletrectinib are all preferred over crizotinib when brain metastases are present.
 
 ### 1.4 BRAF V600E Mutation
 
-| Preferred Regimen | NCCN Category | Rationale |
+| Preferred Regimens | NCCN Category | Rationale |
 |---|---|---|
-| Dabrafenib + trametinib | Category 1 | BRAF/MEK combination required; BRAF monotherapy not recommended (resistance) |
+| Dabrafenib + trametinib | Category 1 | BRAF/MEK combination; BRAF monotherapy not recommended (resistance) |
+| Binimetinib + encorafenib | Preferred | **Added v6.2026 (NSCL-32).** PHAROS; co-preferred BRAF/MEK combination |
+
+Both BRAF/MEK combinations are preferred first-line as of v6.2026; the node is therefore **ambiguous** (two acceptable co-preferred regimens).
 
 ### 1.5 MET Exon 14 Skipping Mutation
 
@@ -82,8 +97,9 @@ Both agents are Category 1; either is acceptable as primary recommendation.
 |---|---|---|
 | Larotrectinib | Category 1 | Tumour-agnostic FDA approval |
 | Entrectinib | Category 1 | Tumour-agnostic; also covers ROS1 |
+| Repotrectinib | Category 1 (preferred) | **Added v6.2026 (NSCL-33).** Preferred first-line NTRK option |
 
-NTRK fusions are rare in NSCLC (<1%). Both approvals are tumour-agnostic (histology-independent).
+NTRK fusions are rare in NSCLC (<1%). All three approvals are tumour-agnostic (histology-independent).
 
 ### 1.8 KRAS G12C Mutation *(first-line: PD-L1 driven; KRAS inhibitors are second-line)*
 
@@ -96,18 +112,30 @@ KRAS G12C is present in ~13% of NSCLC adenocarcinomas and is now a required biom
 
 **Scorer implication:** For first-line cases with KRAS G12C, correct answer is pembrolizumab monotherapy (if PD-L1 ≥50%) or chemoimmunotherapy — NOT sotorasib/adagrasib.
 
-### 1.9 HER2 (ERBB2) Mutations *(first-line: PD-L1 driven; HER2-directed agents are second-line)*
+### 1.9 HER2 (ERBB2) Mutations — NSCL-36 *(first-line: PD-L1 driven; HER2-directed agents are SUBSEQUENT-line)*
 
-HER2 mutations (exon 20 insertions, most commonly) are present in ~3% of NSCLC. **First-line treatment follows the PD-L1 driven pathway (Section 2).** HER2-directed therapies are approved second-line only.
+HER2/ERBB2 mutations (exon 20 insertions, most commonly) are present in ~3% of NSCLC (26 cases in the cohort, 18 stage IV). **On NSCL-36 the FIRST-LINE column is "Systemic therapy (NSCL-K 1 of 6)" — i.e., the PD-L1-driven pathway (Section 2).** All HER2-directed agents sit in the **SUBSEQUENT-THERAPY** column (given on progression).
 
 | Setting | Regimen | Notes |
 |---|---|---|
-| First-line | Per PD-L1 pathway (Section 2) | Standard chemoimmunotherapy |
-| Second-line | T-DXd (trastuzumab deruxtecan) | Category 1; DESTINY-Lung02 |
-| Second-line | Zongertinib | **Added 2025.** FDA accelerated approval Aug 2025; Beamion LUNG-1 |
-| Second-line | Sevabertinib | **Added 2025.** SOHO-1 |
+| **First-line** | Per PD-L1 pathway (Section 2) | Standard chemoimmunotherapy — this is what the scorer returns |
+| Subsequent (preferred) | Fam-trastuzumab deruxtecan-nxki (T-DXd) | Category 1; DESTINY-Lung02 |
+| Subsequent (preferred) | Zongertinib | **Added 2025.** FDA accelerated approval Aug 2025; Beamion LUNG-1 |
+| Subsequent (preferred) | Sevabertinib | **Added 2025.** SOHO-1 |
+| Subsequent (certain circ.) | Ado-trastuzumab emtansine | Useful in certain circumstances |
 
-**Scorer implication:** For first-line cases with HER2 mutation, correct answer is PD-L1 driven pathway — NOT T-DXd or zongertinib.
+**Scorer implication:** For treatment-naive first-line cases with a HER2 mutation, the correct answer is the PD-L1-driven pathway — **NOT** T-DXd, zongertinib, or sevabertinib. (This was a self-caught scorer bug: an initial v6.2026 draft returned the HER2 agents as first-line; corrected 2026-07-10 so ERBB2 falls through to the PD-L1 branch.)
+
+### 1.10 NRG1 Gene Fusion — NSCL-37 *(first-line: PD-L1 driven; zenocutuzumab is SUBSEQUENT-line)*
+
+NRG1 fusions are very rare in NSCLC (<1%; **0 cases carry an `nrg1_status` field in the cohort**, so this node never fires — documented for guideline parity). On NSCL-37 the FIRST-LINE column is again "Systemic therapy (NSCL-K 1 of 6)"; **zenocutuzumab-zbco (eNRGy) is SUBSEQUENT therapy only.**
+
+| Setting | Regimen | Notes |
+|---|---|---|
+| **First-line** | Per PD-L1 pathway (Section 2) | Standard systemic therapy |
+| Subsequent | Zenocutuzumab-zbco | eNRGy trial; biomarker-directed on progression |
+
+**Scorer implication:** first-line NRG1 → PD-L1 pathway, not zenocutuzumab.
 
 ---
 
@@ -173,12 +201,16 @@ This table maps each clinical profile to the scorer's output and whether it matc
 | 1 | Adeno | EGFR exon 19 del | any | 0–1 | Naive | osimertinib | [osimertinib, osimertinib+carbo/pem, amivantamab+lazertinib] | Yes | ☐ |
 | 2 | Adeno | EGFR L858R | any | 0–1 | Naive | osimertinib | [osimertinib, osimertinib+carbo/pem, amivantamab+lazertinib] | Yes | ☐ |
 | 3 | Adeno | EGFR exon 20 ins | any | 0–1 | Naive | amivantamab + carboplatin + pemetrexed | [amivantamab + carboplatin + pemetrexed] | Yes | ☐ |
-| 4 | Any | ALK+ | any | 0–1 | Naive | alectinib | [alectinib, brigatinib, lorlatinib] | Yes | ☐ |
-| 5 | Any | ROS1+ | any | 0–1 | Naive | entrectinib | [entrectinib, crizotinib] | Yes | ☐ |
-| 6 | Any | BRAF V600E | any | 0–1 | Naive | dabrafenib + trametinib | [dabrafenib + trametinib] | Yes | ☐ |
+| 3a | Adeno | EGFR atypical (S768I/L861Q/G719X) | any | 0–1 | Naive | afatinib | [afatinib, osimertinib, dacomitinib, erlotinib, gefitinib] | Yes (NSCL-24; no FLAURA2/MARIPOSA) | ☐ |
+| 4 | Any | ALK+ | any | 0–1 | Naive | alectinib | [alectinib, brigatinib, ensartinib, lorlatinib] | Yes | ☐ |
+| 5 | Any | ROS1+ | any | 0–1 | Naive | entrectinib | [entrectinib, repotrectinib, taletrectinib, crizotinib] | Yes | ☐ |
+| 6 | Any | BRAF V600E | any | 0–1 | Naive | dabrafenib + trametinib | [dabrafenib + trametinib, binimetinib + encorafenib] | Yes (ambiguous, both preferred) | ☐ |
 | 7 | Any | MET exon 14 | any | 0–1 | Naive | capmatinib | [capmatinib, tepotinib] | Yes | ☐ |
 | 8 | Any | RET fusion | any | 0–1 | Naive | selpercatinib | [selpercatinib, pralsetinib] | Yes | ☐ |
-| 9 | Any | NTRK fusion | any | 0–1 | Naive | larotrectinib | [larotrectinib, entrectinib] | Yes | ☐ |
+| 9 | Any | NTRK fusion | any | 0–1 | Naive | larotrectinib | [larotrectinib, entrectinib, repotrectinib] | Yes | ☐ |
+| 9a | Adeno | KRAS G12C | High ≥50% | 0–1 | Naive | pembrolizumab | [per PD-L1 pathway] | Yes (G12C TKIs are subsequent-line) | ☐ |
+| 9b | Adeno | ERBB2/HER2 mutation | High ≥50% | 0–1 | Naive | pembrolizumab | [per PD-L1 pathway] | Yes (HER2 agents subsequent-line, NSCL-36) | ☐ |
+| 9c | Adeno | NRG1 fusion | High ≥50% | 0–1 | Naive | pembrolizumab | [per PD-L1 pathway] | Yes (zenocutuzumab subsequent-line, NSCL-37) | ☐ |
 | 10 | Adeno | None | High ≥50% | 0–1 | Naive | pembrolizumab | [pembrolizumab] | Yes | ☐ |
 | 11 | Adeno | None | Intermediate 1–49% | 0–1 | Naive | carboplatin + pemetrexed + pembrolizumab | [carbo/pem/pembro, carbo/pem/atezo/bev] | Yes | ☐ |
 | 12 | Squamous | None | High ≥50% | 0–1 | Naive | pembrolizumab | [pembrolizumab] | Yes | ☐ |

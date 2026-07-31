@@ -1,0 +1,21 @@
+**HPI:**
+This is a 67-year-old individual with a significant smoking history, who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the past two weeks, they noted the onset of new, persistent headaches and a sense of imbalance, which prompted an evaluation in the emergency department. The patient reports an unintentional weight loss of approximately 10 pounds over the last two months. They deny hemoptysis or fevers. The patient is active and independent with all activities of daily living but notes their symptoms are now beginning to limit more strenuous activities.
+
+**Diagnostic Workup:**
+The initial diagnostic workup began with a chest CT scan, which identified a 5.2 cm spiculated mass in the right upper lobe. The scan also revealed multiple enlarged mediastinal and hilar lymph nodes. A 3.4 cm mass was noted in the left adrenal gland, suspicious for metastatic disease.
+
+Given the presenting neurologic symptoms, a brain MRI with and without contrast was performed. This study confirmed the presence of multiple, ring-enhancing intracranial lesions consistent with metastatic disease, with the largest lesion measuring 1.8 cm in the left cerebellar hemisphere with associated vasogenic edema.
+
+A subsequent PET/CT scan was performed for staging, which demonstrated intense FDG-avidity in the primary right upper lobe lung mass, multiple mediastinal lymph node stations, the left adrenal mass, and confirmed metabolically active intracranial disease.
+
+A CT-guided core biopsy of the right upper lobe lung mass was performed on [De-identified date]. Pathologic examination confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+- An actionable driver mutation was identified in KRAS (G12C).
+- Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Immunohistochemistry for PD-L1 was negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 67-year-old, treatment-naive individual with a new diagnosis of metastatic non-small cell lung cancer, adenocarcinoma histology. The patient has AJCC Stage IV disease with metastases to the brain and the left adrenal gland. Molecular profiling of the tumor is notable for a KRAS G12C mutation and negative PD-L1 expression. The patient is symptomatic from their disease but maintains a good overall performance status.

@@ -1,0 +1,17 @@
+**HPI:**
+This is a 64-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was asymptomatic and the diagnosis was made after a lung nodule was incidentally discovered on imaging performed for an unrelated reason. The patient denies cough, dyspnea, hemoptysis, chest pain, or constitutional symptoms such as fevers or unintentional weight loss. The patient is a former smoker with a significant pack-year history, having quit less than one year ago. Performance status is excellent; the patient is fully active and continues to work and engage in all usual activities without restriction (ECOG 0).
+
+**Diagnostic Workup:**
+A chest CT performed on [De-identified Date] revealed a 2.4 cm solid, spiculated nodule in the periphery of the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For purposes of staging, a PET/CT was performed on [De-identified Date]. This demonstrated intense FDG avidity isolated to the right upper lobe pulmonary nodule, consistent with the known malignancy. Crucially, there was no evidence of FDG-avid disease in the mediastinal lymph nodes or at any distant sites.
+
+A staging brain MRI with and without contrast was performed on [De-identified Date] and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was performed on [De-identified Date]. The pathology returned as squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified on the molecular profiling panel, with results negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 64-year-old with an excellent performance status who is treatment-naive and presents with a new diagnosis of clinical Stage IA (cT1bN0M0) non-small cell lung cancer of squamous cell histology, localized to the right upper lobe. Molecular testing did not reveal any targetable driver mutations. The patient is here today to discuss the diagnosis and establish care.

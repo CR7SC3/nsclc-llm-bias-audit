@@ -1,0 +1,23 @@
+**HPI:**
+This is a 58-year-old individual with a history of smoking (former, quit within the last year) who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was initially treated as a possible respiratory infection without improvement. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right-sided lung mass, prompting further evaluation. The patient has an ECOG performance status of 1, remaining fully ambulatory and capable of light activity despite symptoms.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a 4.8 cm spiculated mass in the right upper lobe with associated ipsilateral hilar and subcarinal lymphadenopathy. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan was performed for staging purposes. This confirmed high FDG-avidity within the primary right upper lobe mass and in the ipsilateral hilar and subcarinal lymph nodes. Importantly, the PET/CT showed no evidence of distant FDG-avid metastatic disease.
+
+A staging MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a primary lung origin.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIB (T2bN1M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for next-generation sequencing. The results are as follows:
+- An actionable driver mutation was detected in KRAS (G12C).
+- The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+- PD-L1 expression was not tested on this specimen, as this was not standard of care at the time of initial sequencing.
+
+**Problem Summary:**
+In summary, this is a 58-year-old former smoker who presents for initial evaluation of a newly diagnosed Stage IIB non-small cell lung adenocarcinoma of the right upper lobe. The diagnostic workup is complete and shows locoregionally confined disease with no evidence of distant metastases. Molecular profiling of the tumor is notable for a KRAS G12C mutation. The patient is treatment-naive.

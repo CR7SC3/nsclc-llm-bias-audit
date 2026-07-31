@@ -1,18 +1,17 @@
-**CONSULTATION NOTE**
-
-**DATE:** [De-identified Date]
-**PATIENT:** [De-identified Patient Name]
-**DOB:** [De-identified Date of Birth]
-**MRN:** [De-identified MRN]
-
 **HPI:**
-The patient is a pleasant 75-year-old individual referred for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer (NSCLC), adenocarcinoma histology. The patient initially presented to their primary care physician several weeks ago complaining of a persistent, non-productive cough and mild exertional dyspnea that had been worsening over the preceding few months. A chest X-ray was performed, which revealed a suspicious lung mass. Subsequent imaging and biopsy confirmed the diagnosis. The patient reports generally feeling well, with good energy levels and maintaining their usual activities of daily living. They are a former smoker, having quit over one year ago. Performance status is estimated to be ECOG 0-1.
+This is a 75-year-old individual referred for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially attributed to a seasonal illness, but when symptoms failed to resolve, they sought evaluation. The patient is a former smoker, having quit over a year ago, and denies any significant dyspnea, hemoptysis, or chest pain. There has been no significant weight loss. The patient maintains a good performance status and remains fully independent with all activities of daily living.
 
 **Diagnostic Workup:**
-Initial diagnostic imaging included a CT scan of the chest, which demonstrated a primary mass in the right upper lobe measuring approximately 3.5 cm, with associated enlarged hilar lymph nodes. A subsequent PET/CT scan was performed, confirming avid FDG uptake in the right upper lobe mass and the ipsilateral hilar lymph nodes, but crucially, no evidence of distant metastatic disease. To complete staging, an MRI of the brain was also performed, which was negative for any intracranial metastases. A CT-guided core needle biopsy of the right upper lobe mass confirmed adenocarcinoma. Based on the comprehensive imaging and pathological findings, the patient is staged as AJCC Stage IIA (T2a N1 M0).
+The initial workup began with a chest radiograph which revealed a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest confirmed a 3.2 cm spiculated mass in the right upper lobe, with associated mediastinal lymphadenopathy suspicious for involvement.
+
+For definitive staging, a PET/CT was performed on [De-identified]. This demonstrated intense FDG avidity in the primary right upper lobe mass and in right-sided hilar and subcarinal lymph nodes. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread.
+
+A brain MRI with and without contrast was also performed as part of the standard staging evaluation and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin. Based on the combined clinical, imaging, and pathological findings, the patient is diagnosed with AJCC Stage IIA disease.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor biopsy specimen. Results indicate the presence of an **ALK rearrangement**, which is an actionable driver mutation. The tumor was found to be negative for other common driver mutations, including EGFR, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2 (HER2). PD-L1 expression was not tested, consistent with the standard of care for molecular sequencing performed prior to 2017. Tumor mutational burden (TMB) was reported as low (<2 mut/Mb).
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. An actionable driver was detected in the form of an ALK gene rearrangement. Further molecular testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was determined to be low (<2 mutations/megabase).
 
 **Problem Summary:**
-This 75-year-old patient presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, staged as AJCC Stage IIA. Molecular testing has identified an ALK rearrangement. The patient maintains a good performance status. Further discussion regarding appropriate treatment strategies for this localized, ALK-rearranged NSCLC is required.
+This is a 75-year-old, treatment-naive individual with an excellent performance status and a new diagnosis of Stage IIA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed localized disease without evidence of distant metastases. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement.

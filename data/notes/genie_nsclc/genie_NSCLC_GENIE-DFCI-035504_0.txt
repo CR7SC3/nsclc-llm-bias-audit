@@ -1,0 +1,15 @@
+**HPI:**
+This is a 54-year-old with a significant smoking history who is referred for initial oncologic evaluation of a newly diagnosed non-small cell lung cancer. The patient initially presented to an outside facility approximately one month ago with a persistent, non-productive cough and progressive shortness of breath on exertion. An initial chest radiograph was abnormal, prompting further investigation. The patient reports some associated fatigue but denies hemoptysis, fevers, chills, or significant weight loss. The patient remains active with an ECOG performance status of 1 and has not yet received any cancer-directed therapy.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a staging CT of the chest, abdomen, and pelvis with contrast was performed. This imaging demonstrated a large, centrally located 5.5 cm mass in the left upper lobe with associated post-obstructive atelectasis. The scan also revealed bulky ipsilateral mediastinal and left supraclavicular lymphadenopathy, concerning for extensive nodal involvement.
+
+A subsequent PET/CT scan confirmed intense FDG-avidity in the primary left upper lobe mass as well as in the extensive mediastinal (stations 4L, 5, 7) and left supraclavicular nodal chains. No evidence of FDG-avid disease was identified in the contralateral hemithorax, liver, adrenal glands, or bones to suggest distant metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+The diagnosis was established via an endobronchial ultrasound (EBUS) with transbronchial needle aspiration of a station 7 lymph node on [De-identified Date]. Pathology from this procedure confirmed poorly differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Specific testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 54-year-old, treatment-naive patient with a new diagnosis of locally advanced, unresectable Stage IIIB (cT3N3M0) non-small cell lung cancer, squamous cell histology. The diagnostic workup is consistent with locoregionally advanced disease without evidence of distant metastases. Molecular profiling is negative for any currently known targetable driver alterations. The patient is an active smoker with a good performance status. The purpose of this visit is to discuss the diagnosis and establish care.

@@ -1,0 +1,24 @@
+**HPI:**
+This is a 73-year-old with a past medical history of bladder cancer and a former smoking history (quit >1 year ago), who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough and new-onset mid-back pain. The pain was initially attributed to musculoskeletal strain but did not improve with conservative measures. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a suspicious opacity in the right upper lung.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a primary lung mass and also identified a suspicious lytic lesion in the thoracic spine, raising concern for metastatic disease. The patient was referred for a CT-guided core needle biopsy of the lung mass. Pathology from this procedure established the diagnosis. A dedicated MRI of the brain was performed as part of the staging workup and showed no evidence of intracranial metastases.
+
+The patient reports mild fatigue and intermittent back pain, which is managed with over-the-counter analgesics. They remain fully ambulatory and independent with all activities of daily living, with an ECOG performance status of 1. They deny significant weight loss, shortness of breath at rest, or hemoptysis. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis [De-identified Date]:** Revealed a 4.2 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. A lytic lesion was noted in the T8 vertebral body, highly suspicious for a bone metastasis. No other distant visceral metastases were identified in the liver or adrenal glands.
+- **MRI Brain [De-identified Date]:** Negative for intracranial metastatic disease.
+- **CT-Guided Core Biopsy, Right Upper Lobe Lung Mass [De-identified Date]:** Pathology confirmed invasive adenocarcinoma. Immunohistochemical stains were consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor biopsy specimen revealed the following:
+- **Actionable Driver Mutation:** KRAS G12C mutation detected.
+- **Immunotherapy Resistance Marker:** STK11 loss-of-function mutation detected.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1 Expression:** Not tested.
+- **Additional Testing:** Negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+**Problem Summary:**
+This is a 73-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma subtype, metastatic to bone. The patient is treatment-naive. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation. The patient has a good performance status and is presenting today to discuss the implications of this diagnosis.

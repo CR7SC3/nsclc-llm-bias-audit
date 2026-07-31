@@ -1,0 +1,28 @@
+**Oncology Initial Consultation Note**
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Consultation: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 65-year-old individual referred for an initial medical oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient presents with a history of a persistent, dry cough that began approximately four months prior to evaluation. The cough did not improve with over-the-counter remedies. Over the past two months, the patient also noted the onset of mild dyspnea on exertion and generalized fatigue, but denies fever, chills, hemoptysis, or significant weight loss. These symptoms prompted a visit to a primary care provider, who ordered initial imaging. The patient is a current smoker with a significant pack-year history. Performance status is excellent, ECOG 1, fully ambulatory and capable of all self-care.
+
+**DIAGNOSTIC WORKUP:**
+A chest X-ray revealed a right upper lobe opacity, which led to further cross-sectional imaging.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. The chest CT identified a 4.8 cm spiculated solid mass in the right upper lobe. There was no evidence of suspicious mediastinal or hilar lymphadenopathy. The CT of the abdomen and pelvis was negative for metastatic disease, with no suspicious lesions identified in the liver, adrenal glands, or other visceral organs.
+
+A PET/CT scan was subsequently obtained for staging. This demonstrated intense FDG avidity within the known right upper lobe primary mass. Importantly, there was no abnormal FDG uptake in regional lymph nodes or at any distant sites to suggest metastatic disease.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis of the tissue specimen confirmed a diagnosis of poorly differentiated adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+-   **Actionable driver mutation detected:** EGFR L858R point mutation in exon 21.
+-   **Testing was negative for:** ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+-   **PD-L1 Expression:** Immunohistochemistry demonstrated a Tumor Proportion Score (TPS) between 1-49%.
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 65-year-old current smoker who presents for initial consultation for a new diagnosis of treatment-naive, Stage IIA (cT2bN0M0) non-small cell lung cancer, adenocarcinoma subtype. The diagnostic workup confirms disease localized to the right upper lobe without evidence of nodal or distant metastatic spread. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and PD-L1 expression of 1-49%. The patient has an excellent performance status and is here to discuss the diagnosis and management options.

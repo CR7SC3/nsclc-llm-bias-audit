@@ -1,0 +1,37 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is the initial medical oncology consultation for a 79-year-old with a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months ago when they developed a persistent, non-productive cough. This was initially attributed to a seasonal illness, but it failed to resolve with conservative measures. Over the subsequent weeks, the patient also noted the onset of mild dyspnea on exertion and an unintentional weight loss of approximately 10 pounds. This prompted a visit to their primary care provider.
+
+An initial chest X-ray revealed a right-sided lung mass, leading to a referral for further imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a primary mass in the right lung with associated mediastinal lymphadenopathy. The scan also revealed a suspicious nodule in the contralateral lung and a lesion in the liver, concerning for metastatic disease. A dedicated MRI of the brain was subsequently performed as part of the staging workup and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. The pathology returned as adenocarcinoma. The patient has a remote history of tobacco use but quit over a year ago. They are here today to discuss the diagnosis and establish care. The patient remains ambulatory and is able to perform all activities of daily living, though they report feeling more fatigued than usual. ECOG performance status is 1.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast ([De-identified] date):**
+    *   A 4.5 cm spiculated mass in the right upper lobe of the lung.
+    *   Enlarged mediastinal lymph nodes.
+    *   A 1.2 cm nodule in the left lower lobe, consistent with a metastatic deposit.
+    *   A 2.1 cm hypoattenuating lesion in the right hepatic lobe, consistent with a metastatic deposit.
+    *   No other sites of distant metastatic disease identified in the abdomen or pelvis.
+*   **MRI Brain with and without contrast ([De-identified] date):**
+    *   No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **CT-guided core biopsy, right lung mass ([De-identified] date):**
+    *   **Final Diagnosis:** Adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+*   **PD-L1 Immunohistochemistry (IHC):** Tumor Proportion Score (TPS) is positive at ≥50%.
+*   **Next-Generation Sequencing (NGS) Panel:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS,* and *ERBB2*.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 79-year-old former smoker with a new diagnosis of Stage IV (cT2b N2 M1b) non-small cell lung adenocarcinoma. The diagnosis was established via biopsy of a right upper lobe lung mass. Staging studies confirmed metastatic disease involving the contralateral lung and the liver, with no evidence of brain metastases. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of any identified actionable driver mutations.

@@ -1,0 +1,18 @@
+**HPI:**
+This is a 48-year-old who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, dry cough. An initial course of antibiotics for presumed bronchitis did not lead to improvement. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity. The patient has a history as a never-smoker. They are otherwise active with a good performance status, reporting minimal fatigue and no significant weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This study confirmed a 4.5 cm spiculated mass in the right upper lobe with associated right hilar lymphadenopathy. To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified date]. Histopathologic examination of the tissue confirmed a diagnosis of primary lung adenocarcinoma.
+
+A full staging evaluation was subsequently completed. A PET/CT scan demonstrated intense FDG-avidity in the primary right upper lobe mass and in a right hilar (10R) lymph node. There was no evidence of hypermetabolic activity in the mediastinum, contralateral hemithorax, or in any distant sites to suggest metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+Based on this workup, the patient is diagnosed with Stage IIB (pT2bN1M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the presence of a sensitizing EGFR exon 19 deletion.
+Additional molecular testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+Programmed death-ligand 1 (PD-L1) expression by immunohistochemistry was negative.
+Tumor mutational burden (TMB) was low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 48-year-old never-smoker with a new diagnosis of Stage IIB (pT2bN1M0) non-small cell lung adenocarcinoma, characterized by a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish a plan for management.

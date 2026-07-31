@@ -1,0 +1,19 @@
+**HPI:**
+This is a 73-year-old individual with a history of smoking (quit over one year ago) who is referred for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately three months prior to presentation, when a persistent, non-productive cough developed. Over the past month, this was accompanied by the new onset of progressive mid-thoracic back pain, which has been partially responsive to over-the-counter analgesics. The patient also notes approximately 10 pounds of unintentional weight loss over this period. Due to the persistence of symptoms, the patient presented to their primary care provider. An initial chest radiograph was concerning for a right upper lobe mass, prompting further evaluation. The patient remains fully ambulatory and capable of all self-care, but is symptomatic from the cough and back pain (ECOG Performance Status 1).
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. It also revealed multiple suspicious lytic and sclerotic lesions in the thoracic spine and right posterior ribs, concerning for osseous metastases. Several sub-centimeter mediastinal lymph nodes were also noted.
+
+A subsequent PET/CT scan was obtained for staging purposes. This demonstrated intense FDG-avidity in the primary right upper lobe lung mass, as well as in mediastinal lymph nodes (stations 4R and 7). Multiple foci of intense uptake were confirmed in the axial skeleton, corresponding to the lesions seen on CT in the thoracic spine and ribs, consistent with widespread metastatic disease.
+
+A staging MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]. Pathologic examination of the tissue revealed poorly differentiated adenocarcinoma, with immunohistochemistry confirming a lung primary origin (TTF-1 positive).
+
+**Molecular Studies:**
+The tumor tissue from the lung biopsy was sent for comprehensive molecular profiling via next-generation sequencing (NGS). No actionable driver alterations were identified. Specifically, the tumor was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, which was positive with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was calculated and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 73-year-old former smoker who presents with newly diagnosed, treatment-naive Stage IV (cT2b N2 M1b) non-small cell lung adenocarcinoma with metastatic disease to bone. Molecular profiling is notable for a PD-L1 TPS of 1-49% and the absence of targetable driver mutations. The patient is seen today to discuss the diagnosis and establish care.

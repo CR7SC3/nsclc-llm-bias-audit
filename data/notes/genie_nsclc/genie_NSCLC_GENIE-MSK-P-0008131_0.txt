@@ -1,0 +1,21 @@
+**HPI:**
+This is the initial medical oncology consultation for a 65-year-old who presents with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit more than one year prior to presentation. The patient was in a usual state of health until approximately six weeks ago, when they began to experience a persistent dry cough, fatigue, and new-onset headaches. Due to the progressive and concerning nature of the headaches, the patient sought medical evaluation, which prompted an initial diagnostic workup. The patient has no prior history of malignancy and has not received any cancer-directed therapy to date. Performance status is estimated at ECOG 1, being symptomatic but fully ambulatory and capable of light work.
+
+**Diagnostic Workup:**
+The patient's initial workup began with imaging. A CT scan of the chest revealed a 4 cm spiculated mass in the right upper lobe, along with prominent mediastinal and hilar lymphadenopathy. Given the patient's neurologic symptoms, an MRI of the brain with contrast was performed, which demonstrated multiple, small, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+A subsequent staging PET/CT scan was performed on [De-identified Date], which confirmed intense FDG-avidity in the primary right upper lobe lung mass and the mediastinal lymph nodes. No other sites of distant metastatic disease in the neck, chest, abdomen, or pelvis were identified.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The results are as follows:
+*   **Actionable Driver Mutations:**
+    *   EGFR L858R point mutation detected.
+    *   MET amplification (high-level) detected.
+*   **Negative for other drivers:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 were not detected.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Expression:** Not tested. This testing was not standard of care at the time the initial sequencing was ordered.
+
+**Problem Summary:**
+In summary, this is a 65-year-old former smoker presenting for initial consultation for a new diagnosis of Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology, with known metastatic disease to the brain. The patient is treatment-naive. Molecular profiling of the tumor is notable for an EGFR L858R sensitizing mutation with concurrent high-level MET amplification.

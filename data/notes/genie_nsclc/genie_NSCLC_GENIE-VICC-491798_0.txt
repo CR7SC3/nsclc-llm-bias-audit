@@ -1,0 +1,25 @@
+**HPI:**
+This is a 69-year-old individual referred for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray was abnormal, prompting a follow-up staging CT scan.
+
+The patient reports feeling relatively well overall, with a good energy level and appetite. There has been no significant weight loss. The cough is manageable and does not interfere with sleep. The patient denies fevers, chills, night sweats, or significant pain. Neurological review is negative for headaches, vision changes, or focal weakness. The patient is a former smoker, having quit more than one year ago. Performance status is excellent; the patient is fully ambulatory, independent in all activities of daily living, and continues to work part-time. ECOG performance status is 1. The patient is here today to understand the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed.
+
+*   **CT of the Chest, Abdomen, and Pelvis with contrast, [De-identified Date]:** This study identified a 3.8 cm speculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. Multiple subcentimeter nodules were noted in the contralateral (left) lung, consistent with metastatic disease. Additionally, several low-density lesions were identified throughout the liver, the largest measuring 2.1 cm, highly suspicious for hepatic metastases.
+
+*   **MRI of the Brain with and without contrast, [De-identified Date]:** Performed for staging purposes, this revealed multiple small enhancing parenchymal lesions within the cerebral and cerebellar hemispheres, consistent with brain metastases.
+
+*   **CT-guided core needle biopsy of the right upper lobe lung mass, [De-identified Date]:** Pathology confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the lung biopsy.
+
+*   **Driver Mutations:** No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in *EGFR*, *ALK*, *ROS1*, *BRAF*, *MET* exon 14, *RET*, *KRAS*, and *ERBB2*.
+
+*   **PD-L1 Expression:** PD-L1 by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+
+*   **Tumor Mutational Burden (TMB):** TMB was reported as high (>16 mutations/megabase).
+
+**Problem Summary:**
+This is a 69-year-old former smoker with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the brain, liver, and contralateral lung. Molecular profiling is notable for the absence of targetable driver mutations, a PD-L1 TPS of 1-49%, and a high Tumor Mutational Burden. The patient is treatment-naive with a good performance status (ECOG 1).

@@ -1,0 +1,17 @@
+**HPI:**
+This is a 77-year-old individual with a past history of tobacco use who is seen for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who obtained a chest X-ray revealing a right-sided pulmonary opacity. The patient reports no significant weight loss, hemoptysis, or chest pain. They remain fully ambulatory and independent with all activities of daily living, with an ECOG performance status of 0. Social history is notable for being a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 3.8 cm spiculated mass in the right upper lobe. No mediastinal, hilar, or other regional lymphadenopathy was identified. The visualized portions of the abdomen and pelvis were without evidence of metastatic disease.
+
+To complete staging, a PET/CT was obtained on [De-identified date]. This demonstrated intense FDG-avidity within the known right upper lobe mass. Importantly, there was no evidence of FDG-avid disease in any mediastinal or hilar lymph nodes, nor were there any sites of distant metastatic disease identified. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed by Interventional Radiology. Pathologic examination of the tissue specimen confirmed a diagnosis of adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alterations were identified; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score <1%). Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). The molecular analysis did identify a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 77-year-old, treatment-naive former smoker with an excellent performance status who presents with a new diagnosis of Stage IIA (pT2aN0M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling of the tumor is notable for being PD-L1 negative, lacking common driver mutations, and harboring an STK11 loss-of-function mutation. The patient is seen today to discuss the diagnosis in detail and establish oncologic care.

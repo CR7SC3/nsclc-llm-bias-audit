@@ -1,0 +1,38 @@
+**HPI:**
+This is a 53-year-old individual with no significant past medical history and a status as a lifetime never-smoker, who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately six weeks prior to evaluation, when they began to develop a persistent, dry cough and progressive shortness of breath with exertion. These symptoms initially did not respond to a course of antibiotics prescribed by their primary care provider. Due to worsening dyspnea, a chest X-ray was obtained which revealed a left-sided lung mass and a moderate pleural effusion.
+
+This prompted an urgent referral for further diagnostic imaging. A CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This study confirmed a spiculated mass in the left upper lobe. Critically, it also demonstrated extensive nodularity along the left pleura and a moderate-to-large pleural effusion, findings highly concerning for metastatic disease. No metastatic lesions were identified in the contralateral lung, liver, adrenal glands, or osseous structures. A staging MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided thoracentesis. A significant volume of serosanguinous fluid was removed, which provided symptomatic relief. Pathologic analysis of the fluid confirmed the diagnosis of adenocarcinoma.
+
+The patient is here today to discuss these findings. They report ongoing mild dyspnea on exertion but are otherwise feeling well. Their appetite is good and there has been no significant weight loss. They remain fully ambulatory and capable of all self-care, though they have had to limit more strenuous activities. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+
+I have personally reviewed the relevant outside records and imaging.
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with Contrast ([De-identified Date]):**
+    *   A 4.8 cm spiculated mass is present in the left upper lobe.
+    *   Extensive left-sided pleural nodularity and a moderate pleural effusion are noted, consistent with M1a metastatic disease.
+    *   No evidence of metastatic disease to the liver, adrenal glands, or bones. No suspicious lymphadenopathy.
+*   **MRI Brain with and without Contrast ([De-identified Date]):**
+    *   No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **Thoracentesis, Left Pleural Fluid Cytology & Cell Block ([De-identified Date]):**
+    *   Final Diagnosis: Malignant cells present, consistent with non-small cell carcinoma, favor adenocarcinoma histology based on immunohistochemical profile.
+
+**Molecular Studies:**
+
+Next-generation sequencing and immunohistochemistry were performed on the pleural fluid cell block. The results are as follows:
+*   **Actionable Driver:** An uncommon sensitizing EGFR mutation was detected.
+*   **Other Molecular Markers:** Testing was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is positive at ≥50%.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+
+**Problem Summary:**
+
+In summary, this is a 53-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease confined to the pleura (AJCC 8th Ed. Stage IV, cT2b N0 M1a). The patient has an excellent performance status (ECOG 1). Molecular profiling of the tumor is notable for the presence of an uncommon sensitizing EGFR mutation and high PD-L1 expression (TPS ≥50%). Staging evaluation is negative for brain metastases.

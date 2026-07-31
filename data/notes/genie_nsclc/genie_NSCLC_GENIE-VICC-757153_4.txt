@@ -1,0 +1,18 @@
+**HPI:**
+This is a 70-year-old individual who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was largely asymptomatic but a screening chest X-ray performed for an unrelated reason noted a suspicious right-sided pulmonary nodule. The patient denies any significant cough, hemoptysis, chest pain, or unintentional weight loss. Performance status is excellent with an ECOG of 0. The patient is a current smoker with a significant pack-year history. Following the abnormal chest X-ray, the patient was referred to pulmonology for further diagnostic evaluation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified] which confirmed a 3.5 cm solid, spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated. A subsequent PET/CT scan on [De-identified] demonstrated avid uptake in the primary right upper lobe mass (SUVmax 9.2) with no evidence of hypermetabolic regional lymph nodes or distant metastatic disease. A dedicated MRI of the brain with and without contrast was also performed and was negative for any intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology from this procedure confirmed invasive adenocarcinoma, moderately differentiated.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IB (cT2aN0M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue from the biopsy specimen.
+-   **Driver Mutations:** No actionable oncogenic driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+-   **PD-L1:** Immunohistochemistry for PD-L1 is positive, with a Tumor Proportion Score (TPS) of 1-49%.
+-   **TMB:** Tumor Mutational Burden (TMB) is high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 70-year-old individual with an excellent performance status who presents with a new diagnosis of treatment-naive, early-stage non-small cell lung cancer. The diagnosis is Stage IB (cT2aN0M0) invasive adenocarcinoma of the right lung. Molecular profiling is notable for the absence of an actionable driver mutation, a PD-L1 TPS of 1-49%, and high Tumor Mutational Burden (TMB-H). The patient is here today to discuss the diagnosis and potential management options.

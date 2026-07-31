@@ -1,0 +1,75 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 46-year-old individual whom I am seeing in consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild right-sided chest discomfort. Symptoms progressed, and they subsequently noted some fatigue and shortness of breath with exertion. This prompted a visit to their primary care provider, who ordered a chest X-ray that revealed a right upper lobe opacity.
+
+A follow-up contrast-enhanced CT of the chest was performed, which identified a spiculated mass in the right upper lobe, as well as prominent ipsilateral mediastinal and subcarinal lymphadenopathy. The patient was referred to Interventional Radiology for a tissue diagnosis. They have no specific cancer-related pain at this time but endorse a decreased appetite and an unintentional weight loss of approximately 10 pounds over the past three months.
+
+On review of systems, the patient denies fevers, chills, night sweats, or hemoptysis. They deny headaches, vision changes, or focal neurologic deficits.
+
+**PAST MEDICAL HISTORY:**
+Non-contributory.
+
+**PAST SURGICAL HISTORY:**
+None.
+
+**MEDICATIONS:**
+None.
+
+**ALLERGIES:**
+No known drug allergies.
+
+**FAMILY HISTORY:**
+Reviewed and is non-contributory for thoracic or other malignancies.
+
+**SOCIAL HISTORY:**
+The patient is a former smoker with a 20 pack-year history, having quit approximately 8 months ago. Denies alcohol or illicit drug use. They remain active and independent with all activities of daily living.
+
+**ECOG PERFORMANCE STATUS:** 1 - Symptomatic but fully ambulatory, able to carry out work of a light or sedentary nature.
+
+**PHYSICAL EXAMINATION:**
+**Vitals:** Within normal limits.
+**Constitutional:** Alert and oriented, appears stated age. In no acute distress.
+**HEENT:** Normocephalic, atraumatic. Anicteric sclerae. Moist oral mucosa.
+**Neck:** Supple. No cervical or supraclavicular lymphadenopathy.
+**Lungs:** Clear to auscultation bilaterally. Good air entry. No wheezes or rales.
+**Cardiovascular:** Regular rate and rhythm, no murmurs.
+**Abdomen:** Soft, non-tender, non-distended. No hepatosplenomegaly.
+**Extremities:** No clubbing, cyanosis, or edema.
+**Neurologic:** Alert and oriented x3. Cranial nerves II-XII are intact. Motor strength 5/5 throughout. Sensation is intact.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the available outside records, pathology, and imaging reports.
+
+**CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:**
+- A 4.2 cm spiculated mass in the posterior segment of the right upper lobe.
+- Right-sided mediastinal and subcarinal lymphadenopathy, with the largest node in the subcarinal station measuring 2.8 cm in short axis.
+- No suspicious contralateral lung nodules.
+- The liver, adrenal glands, and visualized portions of the skeleton are without evidence of metastatic disease.
+
+**PET/CT, [De-identified Date]:**
+- Intense FDG-avidity within the primary right upper lobe mass (SUVmax 14.2).
+- Intense FDG-avidity in ipsilateral mediastinal (4R) and subcarinal (7) lymph nodes, consistent with nodal metastases.
+- No evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+**MRI Brain with and without contrast, [De-identified Date]:**
+- No evidence of intracranial metastatic disease.
+
+**Pathology, CT-guided core biopsy of right upper lobe mass, [De-identified Date]:**
+- Final diagnosis: Adenocarcinoma, moderately differentiated.
+- Immunohistochemical stains support a primary lung origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor specimen.
+- No actionable driver alteration was identified. The tumor was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested, consistent with standard practice for tissue analyzed prior to 2017.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 46-year-old former smoker with a new diagnosis of Stage IIIA (T2bN2M0) non-small cell lung cancer of adenocarcinoma histology. The disease is locoregionally advanced but non-metastatic based on comprehensive staging evaluation. Molecular profiling of the tumor did not reveal any targetable driver alterations. The patient has a good performance status (ECOG 1) and is treatment-naive.

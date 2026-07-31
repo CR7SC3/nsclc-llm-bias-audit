@@ -1,0 +1,35 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 68-year-old individual with a recent diagnosis of metastatic non-small cell lung cancer, referred for initial oncologic evaluation. The patient has a past history of smoking but quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience a persistent, dull ache in the right upper back and flank, along with a non-productive cough. Over the subsequent weeks, the patient also noted increasing fatigue, a decreased appetite, and an unintentional weight loss of approximately 15 pounds. Due to the persistence of these symptoms, they presented for medical evaluation.
+
+Initial workup included a chest CT scan, which revealed a large primary mass in the right upper lobe of the lung with associated mediastinal and supraclavicular lymphadenopathy. The scan also demonstrated multiple hypoattenuating lesions throughout the liver, suspicious for metastatic disease. Given the patient's report of back pain, a subsequent bone scan was performed, which showed multiple areas of abnormal radiotracer uptake, including in the thoracic spine and a right-sided rib, consistent with osseous metastases. Staging was completed with an MRI of the brain, which was negative for intracranial metastases. The patient subsequently underwent a CT-guided core biopsy of a liver lesion to establish a tissue diagnosis.
+
+The patient presents today for discussion of the diagnosis. They report ongoing back pain, managed with over-the-counter analgesics, and persistent fatigue. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+*   **CT Chest, Abdomen, Pelvis with Contrast [Date]:** Revealed a 5.5 cm spiculated mass in the right upper lobe. Extensive mediastinal and right supraclavicular lymphadenopathy was noted. Multiple low-density lesions were identified in both lobes of the liver, the largest measuring 3.2 cm.
+*   **Whole Body Bone Scan [Date]:** Demonstrated multiple foci of increased uptake consistent with osseous metastatic disease, including in the T8 vertebra and the right 7th rib.
+*   **MRI Brain with and without Contrast [Date]:** No evidence of intracranial metastatic disease.
+*   **Pathology (CT-guided liver biopsy) [Date]:** Adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the liver biopsy tissue.
+*   No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in **EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS,** and **ERBB2**.
+*   **PD-L1** expression by immunohistochemistry was not tested.
+*   **Tumor Mutational Burden (TMB)** was found to be **intermediate (2–16 mut/Mb)**.
+*   A **loss-of-function mutation in STK11** was detected.
+
+**Problem Summary:**
+In summary, this is a 68-year-old former smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology.
+1.  **Diagnosis:** Stage IV (cT4, cN3, cM1b) Non-Small Cell Lung Cancer, Adenocarcinoma.
+2.  **Metastatic Disease:** Widespread metastatic disease is documented in the bone, liver, and distant (supraclavicular) lymph nodes. Brain MRI is negative for central nervous system involvement.
+3.  **Molecular Profile:** Comprehensive genomic profiling reveals no targetable driver mutations. The profile is notable for an STK11 loss-of-function mutation and an intermediate tumor mutational burden. PD-L1 status is unknown.
+4.  **Clinical Status:** The patient is symptomatic from their disease with pain and fatigue, with an ECOG performance status of 1. They are treatment-naive.

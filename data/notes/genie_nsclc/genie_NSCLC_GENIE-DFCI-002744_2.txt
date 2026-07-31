@@ -1,0 +1,17 @@
+**HPI:**
+This is a 57-year-old who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough and progressive exertional dyspnea. This prompted a visit to their primary care physician, who ordered a chest radiograph that revealed a right upper lobe opacity. The patient is a current smoker. Past medical history is notable for prior malignancies including a Head and Neck Cancer and a Non-Small Cell Lung Cancer, both previously treated and in remission. The current presentation is concerning for a new primary lung malignancy.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky right-sided mediastinal and supraclavicular lymphadenopathy. No evidence of distant metastatic disease was identified in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity in the primary right upper lobe mass, as well as in multiple right paratracheal, subcarinal, and right supraclavicular lymph nodes. No other sites of FDG-avid disease suggestive of distant metastases were identified.
+
+Given the locally advanced nature of the disease, a staging MRI of the brain was obtained, which was negative for any evidence of intracranial metastases.
+
+A tissue diagnosis was established via bronchoscopy with endobronchial ultrasound-guided fine-needle aspiration (EBUS-FNA) of a right paratracheal lymph node. Pathology from this procedure confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the biopsy specimen. An actionable driver mutation was detected in KRAS (G12C). The tumor was found to be negative for pathogenic mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor Mutational Burden (TMB) was high at >16 mut/Mb. PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 57-year-old, treatment-naive patient with a new diagnosis of Stage IIIB (AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup has confirmed locally advanced, non-metastatic disease. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a high Tumor Mutational Burden. The patient is here for initial consultation to discuss the diagnosis.

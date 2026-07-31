@@ -1,0 +1,15 @@
+**HPI:**
+This is a 60-year-old individual with a history of current tobacco use who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago, when they began to experience a persistent, dry cough and progressive shortness of breath with exertion. These symptoms were initially attributed to their smoking history but worsened over time, prompting a visit to their primary care provider. The patient also endorses approximately 10 pounds of unintentional weight loss over the past two months and generalized fatigue, but denies fevers, night sweats, or hemoptysis. They remain fully ambulatory and capable of all self-care, though their daily activities are limited by dyspnea. ECOG performance status is estimated at 1.
+
+**Diagnostic Workup:**
+The initial workup included a chest X-ray which was suspicious for a right-sided lung mass. This led to a contrast-enhanced CT of the chest, abdomen, and pelvis. The CT scan confirmed the presence of a large, spiculated mass in the right upper lobe measuring approximately 5 cm, with extensive ipsilateral mediastinal and hilar lymphadenopathy.
+
+For definitive staging, a PET/CT scan was subsequently performed. This study demonstrated intense FDG-avidity within the primary right upper lobe mass and the extensive ipsilateral mediastinal lymph nodes. Furthermore, the scan identified multiple FDG-avid contralateral mediastinal and right supraclavicular lymph nodes, confirming distant metastatic disease. An MRI of the brain was obtained for neurologic staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed by Interventional Radiology. Histopathologic examination of the tissue revealed poorly differentiated non-small cell carcinoma, with immunohistochemical staining positive for p40 and negative for TTF-1, consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as high (>16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 60-year-old current smoker presenting with newly diagnosed, treatment-naive Stage IV (cT3 N3 M1b) squamous cell non-small cell lung cancer. Metastatic disease is documented in distant (contralateral mediastinal and supraclavicular) lymph nodes. The patient has an ECOG performance status of 1. Molecular profiling of the tumor is negative for targetable driver mutations but demonstrates a high tumor mutational burden.

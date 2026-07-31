@@ -1,0 +1,19 @@
+**HPI:**
+This is a 74-year-old individual referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with mild fatigue but no significant hemoptysis, chest pain, or fevers. An initial chest X-ray revealed a right upper lobe opacity, prompting further investigation. The patient is a former smoker, having quit approximately 5 years ago after a 40-pack-year history. They are otherwise active and independent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This confirmed a 4.8 cm spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar adenopathy. The scan also revealed a solitary 2.5 cm hypodense lesion in the right hepatic lobe, suspicious for a distant metastasis. No other sites of distant disease were identified in the abdomen or pelvis.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right upper lobe lung mass (SUVmax 14.2), the mediastinal lymph nodes, and the solitary liver lesion (SUVmax 8.9), confirming this as M1 disease. An MRI of the brain with and without contrast was performed for staging and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination confirmed a diagnosis of invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+- An activating mutation in **KRAS (G12C)** was detected.
+- The tumor was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mut/Mb).
+- PD-L1 immunohistochemistry was not performed on this sample.
+
+**Problem Summary:**
+This is a 74-year-old with a new diagnosis of Stage IV (cT2b N2 M1b) non-small cell lung cancer, adenocarcinoma histology, with a KRAS G12C mutation. The patient is treatment-naive with an ECOG performance status of 1. Staging studies confirm metastatic disease to the liver and locoregional lymph nodes, with no evidence of brain metastases.

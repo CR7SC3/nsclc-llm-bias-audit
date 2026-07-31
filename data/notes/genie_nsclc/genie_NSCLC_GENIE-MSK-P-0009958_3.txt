@@ -1,0 +1,31 @@
+**REASON FOR CONSULTATION:** New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 72-year-old with a history of prostate cancer, who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when an insidious-onset, non-productive cough developed. This was associated with mild, progressive dyspnea on exertion and intermittent right-sided chest discomfort. An initial chest radiograph was concerning for a right upper lobe opacity, prompting further evaluation.
+
+The patient is a former smoker, having quit over one year ago. Performance status is excellent, estimated at ECOG 1; the patient remains ambulatory and capable of all self-care, with symptoms being a minor limitation on strenuous activity. There is no reported hemoptysis, fevers, or significant weight loss.
+
+**PAST MEDICAL HISTORY:**
+- Prostate Cancer, managed previously, currently under surveillance.
+- Hypertension
+
+**DIAGNOSTIC WORKUP:**
+A CT scan of the chest, abdomen, and pelvis with contrast was performed on [De-identified]. This revealed a large, spiculated 5.5 cm mass in the right upper lobe. There was extensive, bulky ipsilateral mediastinal and subcarinal lymphadenopathy noted, concerning for nodal involvement. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+A subsequent PET/CT scan on [De-identified] confirmed high FDG-avidity in the primary right upper lobe mass and in the extensive mediastinal nodal stations (paratracheal, subcarinal), consistent with locoregionally advanced disease. No evidence of distant metastatic disease was identified on the PET scan.
+
+A brain MRI performed for staging purposes on [De-identified] was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology confirmed invasive adenocarcinoma, moderately differentiated.
+
+The cumulative findings from imaging and pathology are consistent with AJCC Stage IIIB non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+- **Actionable Driver Mutation:** A MET exon 14 skipping mutation was detected.
+- **Other Drivers:** Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Tumor Proportion Score (TPS) is ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 72-year-old former smoker with a new diagnosis of Stage IIIB non-small cell lung adenocarcinoma. The tumor is characterized by a MET exon 14 skipping mutation and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and presents for discussion of management options.

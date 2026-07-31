@@ -1,0 +1,29 @@
+**REASON FOR VISIT:** Initial consultation for a new diagnosis of non-small cell lung cancer.
+**MRN:** [De-identified]
+**DATE OF VISIT:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 67-year-old former smoker (quit >1 year ago) who presents for an initial oncology evaluation following a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. Over the subsequent weeks, they also noted the onset of new, persistent mid-thoracic back pain, which was unrelated to exertion. This prompted an evaluation with their primary care provider. An initial chest X-ray was obtained which demonstrated a right upper lobe opacity.
+
+The patient was subsequently referred for further diagnostic imaging.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified a destructive lytic lesion within the T7 vertebral body, suspicious for a metastasis.
+
+For definitive staging, a PET/CT scan was obtained. This demonstrated intense FDG-avidity corresponding to the right upper lobe lung mass, several mediastinal lymph nodes, and the lytic lesion in the T7 vertebra. No other distant hypermetabolic sites were identified. A dedicated MRI of the brain was performed as part of the staging workup and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+The combined findings are consistent with Stage IV disease. The patient has an ECOG performance status of 1.
+
+**MOLECULAR STUDIES:**
+Tumor tissue from the lung biopsy was sent for next-generation sequencing to assess for targetable alterations.
+- No actionable driver alteration was identified.
+- The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested on this specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 67-year-old individual with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Molecular profiling is notable for an absence of an actionable oncogenic driver mutation and intermediate tumor mutational burden. The patient is treatment-naive and is seen today for initial consultation and discussion.

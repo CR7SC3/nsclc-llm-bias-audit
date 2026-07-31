@@ -1,0 +1,29 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF CONSULTATION:** [De-identified]
+**PATIENT:** [De-identified], MRN: [De-identified]
+
+I had the pleasure of evaluating this 64-year-old for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 64-year-old with a history of current tobacco use who presented to an outside facility approximately six weeks ago with a persistent, dry cough. The patient was otherwise feeling well without significant fatigue, weight loss, or hemoptysis. An initial chest radiograph was performed which demonstrated a right upper lobe opacity, prompting further evaluation.
+
+The patient is active and independent with all activities of daily living, with an ECOG performance status of 1 due to symptoms from the cough.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest was performed, which confirmed the presence of a 3.5 cm spiculated solid mass in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For purposes of staging, a PET/CT was subsequently obtained. This demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. Importantly, there was no evidence of hypermetabolic activity within the mediastinal lymph nodes, contralateral lung, or at any distant sites. A dedicated MRI of the brain with contrast was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathological analysis confirmed the diagnosis of lung adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with clinical stage IIA (cT2b N0 M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tissue obtained from the core biopsy. Results are as follows:
+- **Actionable driver mutation detected:** EGFR exon 19 deletion (sensitizing)
+- **Negative for mutations/rearrangements in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+- **PD-L1 Expression:** Not tested
+
+**PROBLEM SUMMARY:**
+In summary, this is a 64-year-old current smoker who presents with a new diagnosis of clinical Stage IIA (cT2b N0 M0) non-small cell lung cancer, adenocarcinoma histology. Staging workup has confirmed disease localized to the right lung without evidence of nodal or distant metastatic spread. Molecular testing of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents for discussion of this new diagnosis.

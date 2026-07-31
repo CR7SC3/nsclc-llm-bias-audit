@@ -1,25 +1,27 @@
-[De-identified] Medical Oncology Program
-[De-identified] [De-identified], MD
-[De-identified] [De-identified] [De-identified]
-Phone: [De-identified] | Fax: [De-identified]
-
-Initial Consultation [De-identified]
-[De-identified]: [De-identified] [De-identified], MD, [De-identified]
-
-[De-identified Date]
-
-I had the pleasure of seeing [De-identified] [De-identified] for initial oncology consultation regarding recently diagnosed non-small cell lung cancer. The history was obtained from the patient, along with my review of all available medical records.
-
-**History of Present Illness (HPI):**
-This 72-year-old individual presents for initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC). The patient, a never smoker, initially sought medical attention several weeks prior due to a persistent cough, increasing dyspnea on exertion, and generalized fatigue. A chest X-ray was performed, revealing a suspicious lung mass and a new right-sided pleural effusion. Subsequent diagnostic workup, including CT imaging, confirmed the presence of a primary lung lesion and a moderate-sized malignant pleural effusion. The patient reports an ECOG performance status of 1, maintaining independence in daily activities but experiencing some symptomatic limitations. No significant weight loss has been noted.
+**HPI:**
+This is a 72-year-old who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care physician approximately one month ago with complaints of a new, persistent, non-productive cough and progressive dyspnea on exertion. This was initially managed as a respiratory infection without improvement, prompting further investigation. The patient is a lifetime never-smoker and maintains a good functional status, continuing with daily activities with some limitation due to shortness of breath. ECOG performance status is estimated at 1.
 
 **Diagnostic Workup:**
-Initial evaluation included a chest X-ray which demonstrated a right upper lobe mass and pleural effusion. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis on [De-identified Date], which confirmed a [De-identified] cm spiculated mass in the right upper lobe, as well as a moderate right-sided pleural effusion. No other distant visceral metastases were identified on this staging scan. A brain MRI with contrast on [De-identified Date] revealed no evidence of intracranial metastatic disease.
-Diagnostic confirmation was obtained via CT-guided biopsy of the right upper lobe lung mass on [De-identified Date]. Pathology review confirmed adenocarcinoma histology. Thoracentesis was performed on [De-identified Date], yielding cytology positive for malignant cells, consistent with metastatic adenocarcinoma. Based on these findings, the patient's cancer is staged as AJCC 8th Edition Stage IV (M1a).
+An initial chest X-ray revealed a right upper lobe opacity and a moderate left-sided pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis on [De-identified] confirmed a 3.5 cm speculated mass in the right upper lobe. The scan also characterized the large left pleural effusion and noted several small, non-specific subpleural nodules in the left lung. There was no evidence of adrenal, hepatic, or osseous metastases.
+
+A PET/CT scan was performed for staging purposes, which demonstrated intense FDG avidity in the right upper lobe primary mass and within the left pleural space, consistent with a malignant effusion. No other sites of distant hypermetabolic disease were identified.
+
+Given the concern for metastatic disease, a brain MRI with contrast was obtained and was negative for any intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a left-sided thoracentesis on [De-identified]. Cytologic analysis of the pleural fluid was positive for malignant cells, consistent with adenocarcinoma. This finding confirms Stage IV disease.
 
 **Molecular Studies:**
-Comprehensive genomic profiling was performed on the tumor tissue obtained from the lung biopsy. Results indicate the presence of an **EGFR exon 19 deletion (sensitizing)**. Further analysis showed the tumor to be negative for ALK, ROS1, BRAF, MET exon 14 skipping, RET rearrangements, KRAS mutations, and ERBB2 (HER2) alterations.
-Immunohistochemistry for PD-L1 expression was performed, demonstrating a **positive result with a Tumor Proportion Score (TPS) ≥50%**. Tumor Mutational Burden (TMB) analysis revealed a **high TMB, measured at >16 mutations/megabase (mut/Mb)**.
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the pleural fluid cell block. The results are as follows:
+- **EGFR:** Exon 19 deletion detected (sensitizing)
+- **ALK:** Negative for rearrangement
+- **ROS1:** Negative for rearrangement
+- **BRAF:** Negative for V600E mutation
+- **MET:** Negative for exon 14 skipping mutation
+- **RET:** Negative for rearrangement
+- **KRAS:** Negative for mutation
+- **ERBB2 (HER2):** Negative for mutation
+- **PD-L1 Tumor Proportion Score (TPS):** ≥50%
+- **Tumor Mutational Burden (TMB):** High (>16 mut/Mb)
 
 **Problem Summary:**
-In summary, this is a 72-year-old never smoker recently diagnosed with treatment-naive, Stage IV (M1a) non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by a primary lung mass and malignant pleural effusion. Molecular testing has identified an EGFR exon 19 deletion, a PD-L1 TPS ≥50%, and high tumor mutational burden (>16 mut/Mb). The patient maintains a good performance status. The primary concern is the management of advanced NSCLC with multiple actionable biomarkers.
+In summary, this is a 72-year-old never-smoker with a new diagnosis of Stage IV (M1a) non-small cell lung cancer, adenocarcinoma histology, confirmed by malignant pleural effusion. Staging studies including brain MRI are negative for distant organ metastases. The patient has a good performance status. Molecular profiling is notable for a sensitizing EGFR exon 19 deletion, high PD-L1 expression, and a high tumor mutational burden. The patient is here today to discuss these findings and the implications for management.

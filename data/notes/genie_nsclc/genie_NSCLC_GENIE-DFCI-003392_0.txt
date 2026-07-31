@@ -1,0 +1,26 @@
+**INITIAL ONCOLOGY CONSULTATION**
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**HISTORY OF PRESENTING ILLNESS:**
+This is a 60-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. An initial evaluation with their primary care provider led to a chest radiograph which revealed a right upper lobe opacity. This prompted further diagnostic evaluation. The patient has an ECOG performance status of 1, remaining fully ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a 4.2 cm spiculated mass in the right upper lobe. Additionally, the scan revealed enlarged ipsilateral mediastinal (station 4R) and subcarinal (station 7) lymph nodes, with the largest measuring 2.5 cm in short axis. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+To complete staging and evaluate for intracranial disease, a brain MRI with and without contrast was obtained and was negative for metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma.
+
+Based on the primary tumor with mediastinal lymph node involvement and no evidence of distant metastatic disease, the patient is staged as having Stage IIIA non-small cell lung cancer per AJCC 8th edition criteria.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable driver mutation:** An ALK gene rearrangement was detected.
+- **Other drivers:** Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Immunotherapy markers:**
+    - PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+    - Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 60-year-old former smoker who presents with a new diagnosis of Stage IIIA non-small cell lung adenocarcinoma, characterized by an ALK gene rearrangement. The patient has a good performance status and is here today for an initial consultation to review the diagnosis and establish care.

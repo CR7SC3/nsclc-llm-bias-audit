@@ -1,0 +1,36 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 71-year-old individual with a history of tobacco use who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, dry cough. This was initially attributed to seasonal allergies but did not resolve with over-the-counter remedies. Due to the persistence of symptoms, they presented to their primary care provider. A chest X-ray was obtained which revealed a mass in the right upper lung.
+
+A follow-up contrast-enhanced CT of the chest was performed, which confirmed the presence of a 5.8 cm spiculated mass in the right upper lobe. There was no evidence of significant mediastinal or hilar lymphadenopathy. Given the high suspicion for malignancy, the patient was referred for a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure returned as adenocarcinoma.
+
+Staging workup was subsequently completed. A PET/CT scan demonstrated intense FDG avidity within the known right upper lobe primary tumor but did not show any evidence of FDG-avid regional lymph node involvement or distant metastatic disease. A brain MRI with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+The patient is a former smoker, having quit over one year ago. They report feeling generally well, with their primary symptom being the persistent cough. They deny fevers, chills, or significant weight loss. Their ECOG performance status is 0. They present today to discuss the diagnosis and establish care.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest:** Revealed a 5.8 cm spiculated mass in the right upper lobe. No pathologically enlarged mediastinal, hilar, or supraclavicular lymph nodes.
+*   **PET/CT:** Showed intense metabolic activity in the right upper lobe mass (SUVmax 14.2). No other sites of abnormal FDG uptake to suggest regional nodal or distant metastatic disease.
+*   **MRI Brain:** No evidence of intracranial mass, hemorrhage, or metastatic disease.
+
+**Pathology:**
+*   **Source:** CT-guided core biopsy, right upper lobe lung mass.
+*   **Histology:** Poorly differentiated non-small cell carcinoma, with features favoring adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue.
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Not tested.
+*   **Tumor Mutational Burden (TMB):** High (>16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 71-year-old, treatment-naive former smoker with a new diagnosis of Stage IIB (cT3 N0 M0) non-small cell lung adenocarcinoma of the right upper lobe. The diagnostic workup, including PET/CT and brain MRI, shows no evidence of regional or distant metastatic disease. Molecular profiling of the tumor is notable for a high tumor mutational burden and is negative for common actionable driver mutations.

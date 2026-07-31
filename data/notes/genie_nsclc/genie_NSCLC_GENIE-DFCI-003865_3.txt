@@ -1,0 +1,13 @@
+**HPI:**
+This is a 77-year-old who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was well until a few months ago, when a chest CT performed for an unrelated reason incidentally revealed a suspicious nodule in the right lung. The patient has been largely asymptomatic, denying any significant cough, shortness of breath, hemoptysis, or chest pain. There has been no unintentional weight loss. Performance status is excellent, estimated at ECOG 1. Past medical history is notable for a remote history of a separate Non-Small Cell Lung Cancer which was treated definitively. The patient is a former tobacco user, having quit more than one year ago. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+The initial finding was a 1.8 cm solid, spiculated nodule in the right upper lobe on a chest CT scan dated [De-identified]. Subsequent staging evaluation was pursued. A PET/CT scan demonstrated intense FDG-avidity corresponding to the right upper lobe nodule. Importantly, there was no evidence of FDG-avid mediastinal or hilar lymphadenopathy, nor any evidence of distant metastatic disease. A brain MRI was performed for staging purposes and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung nodule on [De-identified]. Pathology from this procedure confirmed the diagnosis of non-small cell lung cancer, with features most consistent with an adenocarcinoma histology.
+
+**Molecular Studies:**
+Comprehensive molecular profiling via next-generation sequencing was performed on the tumor tissue. No actionable driver alterations were identified; testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was found to be in the intermediate range (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 77-year-old former smoker with an excellent performance status who presents with a new diagnosis of clinical Stage IA (cT1bN0M0) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms disease localized to the right upper lobe without evidence of regional nodal involvement or distant metastases. Molecular studies of the tumor are notable for high PD-L1 expression (TPS ≥50%) but are negative for common oncogenic driver mutations.

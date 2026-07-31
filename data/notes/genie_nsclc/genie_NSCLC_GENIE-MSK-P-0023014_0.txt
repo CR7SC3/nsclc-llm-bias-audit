@@ -1,0 +1,23 @@
+**HPI:**
+This is a 69-year-old who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. Over the subsequent weeks, they noted the onset of intermittent headaches and a 15-pound unintentional weight loss. Due to worsening symptoms, they presented for medical evaluation.
+
+Initial workup included a chest X-ray which was suspicious for a right-sided lung mass. This prompted a staging CT scan of the chest, abdomen, and pelvis with contrast. This imaging confirmed a large mass in the right upper lobe of the lung and also revealed numerous suspicious lesions in the liver, a contralateral lung nodule, and destructive bone lesions. Given the finding of headaches, a contrast-enhanced MRI of the brain was performed, which demonstrated multiple intracranial metastatic deposits. The patient is a former smoker, having quit more than one year ago. They remain fully ambulatory and capable of all self-care, though report significant fatigue. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was completed prior to this consultation.
+
+*   **Imaging:** A PET/CT scan performed on [De-identified date] confirmed a hypermetabolic primary mass in the right upper lobe. It also demonstrated FDG-avid metastatic disease involving the contralateral lung, multiple segments of the liver, bone (thoracic spine), and distant lymph nodes (supraclavicular). An MRI of the brain on [De-identified date] confirmed the presence of multiple enhancing lesions in the cerebral and cerebellar hemispheres, consistent with brain metastases.
+
+*   **Pathology:** A CT-guided core needle biopsy of the right lung mass was performed on [De-identified date]. Histopathologic review confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+
+*   No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+*   PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+1.  Non-small cell lung cancer, adenocarcinoma histology.
+2.  Stage IV (AJCC 8th Edition) at diagnosis, with metastatic disease to the brain, bone, liver, contralateral lung, and distant lymph nodes.
+3.  Molecular profiling notable for no identified actionable driver mutations and an intermediate tumor mutational burden.

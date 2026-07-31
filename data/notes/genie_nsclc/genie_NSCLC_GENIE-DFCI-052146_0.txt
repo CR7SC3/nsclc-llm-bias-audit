@@ -1,0 +1,13 @@
+**HPI:**
+This is a 45-year-old individual with a history of being a never-smoker who is seen today for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness, but when symptoms failed to resolve and were accompanied by mild right-sided chest discomfort and fatigue, the patient sought evaluation with their primary care provider. The patient denies significant weight loss, hemoptysis, or fevers. Performance status is excellent, with the patient remaining fully active, ambulatory, and able to perform all activities of daily living without restriction (ECOG 0).
+
+**Diagnostic Workup:**
+An initial chest X-ray ordered by the primary provider revealed a right upper lobe opacity, prompting further imaging. A diagnostic contrast-enhanced CT of the chest, abdomen, and pelvis was subsequently performed. This study characterized a 4.2 cm mass in the right upper lobe. There was also evidence of bulky ipsilateral mediastinal lymphadenopathy (stations 4R and 7) and right hilar adenopathy, concerning for locoregional nodal involvement. The scan of the abdomen and pelvis was negative for any evidence of distant metastatic disease to the liver, adrenal glands, or other visceral organs. Given the locally advanced nature of the disease on imaging, a staging brain MRI with and without contrast was obtained, which was negative for any intracranial metastases.
+
+To establish a definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic evaluation of the tissue confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for comprehensive next-generation sequencing and immunohistochemistry. Molecular analysis detected an actionable driver mutation in the form of a ROS1 gene rearrangement. Further testing was negative for other common driver mutations, including EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. The tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 45-year-old never-smoker who presents with newly diagnosed, treatment-naive, locally advanced non-small cell lung cancer. The official diagnosis is Stage IIIA adenocarcinoma of the lung, characterized by a ROS1 gene rearrangement. The patient is non-metastatic by comprehensive staging workup and has an excellent performance status.

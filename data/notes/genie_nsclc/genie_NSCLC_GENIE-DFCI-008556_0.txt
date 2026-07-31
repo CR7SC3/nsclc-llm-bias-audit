@@ -1,0 +1,54 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an 80-year-old individual with a history of hypertension and hyperlipidemia who is referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. This was associated with an unintentional weight loss of approximately 10-15 pounds over the past three months. More recently, the patient began experiencing intermittent headaches and a sense of imbalance, which prompted an evaluation in the emergency department.
+
+An initial diagnostic workup was initiated, which has led to the current diagnosis. The patient has a good performance status, remains independent with all activities of daily living, and is accompanied today by family. The purpose of this visit is to review the diagnostic findings and discuss the implications of this new diagnosis.
+
+**PAST MEDICAL HISTORY:**
+1. Hypertension
+2. Hyperlipidemia
+
+**MEDICATIONS:**
+- Amlodipine
+- Atorvastatin
+
+**ALLERGIES:**
+No known drug allergies.
+
+**SOCIAL HISTORY:**
+- Tobacco: Former smoker, quit less than one year ago with a 40-pack-year history.
+- Alcohol: Denies alcohol use.
+
+**PHYSICAL EXAMINATION:**
+- Vitals: Reviewed, stable.
+- ECOG Performance Status: 1 - Symptomatic but fully ambulatory.
+- Constitutional: Alert and oriented, appears stated age, in no acute distress.
+- HEENT: Normocephalic, atraumatic. Anicteric sclerae.
+- Lungs: Decreased breath sounds in the right upper lung field. No wheezing or rhonchi.
+- Cardiovascular: Regular rate and rhythm, no murmurs.
+- Abdomen: Soft, non-tender, non-distended.
+- Neurologic: Alert and oriented to person, place, and time. Cranial nerves II-XII are grossly intact. Strength is 5/5 throughout. Gait is steady.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the relevant imaging and pathology reports.
+
+A staging CT scan of the chest, abdomen, and pelvis with contrast was performed on [De-identified date]. This study demonstrated a large, spiculated 5.5 cm mass in the right upper lobe with associated mediastinal and hilar adenopathy. Multiple smaller nodules were also identified throughout the contralateral left lung, suspicious for metastatic disease. The abdominal and pelvic portions of the scan were otherwise unremarkable for distant metastatic disease.
+
+Given the new onset of neurologic symptoms, an MRI of the brain with and without contrast was subsequently performed. This revealed at least three discrete, ring-enhancing lesions in the left cerebral and right cerebellar hemispheres, consistent with brain metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alterations were identified. The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is an 80-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, based on the presence of a primary right lung mass with metastases to the contralateral lung and brain. Molecular profiling of the tumor did not identify any targetable driver mutations. The patient is treatment-naive and is seen today to establish care and review the diagnosis in detail.

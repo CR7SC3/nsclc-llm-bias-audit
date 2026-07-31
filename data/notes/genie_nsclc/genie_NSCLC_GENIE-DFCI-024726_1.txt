@@ -1,14 +1,24 @@
-[De-identified]
-[De-identified], [De-identified]
-
 **HPI:**
-Mr./Ms. [De-identified] is a 68-year-old individual presenting for an initial oncology consultation regarding recently diagnosed non-small cell lung cancer (NSCLC). He/She initially presented to his/her primary care physician several months ago with a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms were accompanied by generalized fatigue and a reported 10-pound unintentional weight loss over the past three months. His/Her performance status is currently Eastern Cooperative Oncology Group (ECOG) 1, indicating he/she is ambulatory and able to carry out light work. He/She has a past medical history significant for being a former smoker, having quit tobacco use over one year ago. The patient is treatment-naive, and this consultation is the initial oncology evaluation to discuss management options.
+This is a 68-year-old individual with a history of smoking (former, quit over one year ago) who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Initially, this was attributed to a possible respiratory infection. However, symptoms worsened over the subsequent weeks, and the patient began to experience right-sided chest discomfort and a feeling of fullness. This prompted a visit to their primary care provider.
+
+An initial chest radiograph was obtained which revealed a large right-sided pleural effusion. The patient was referred for further urgent evaluation, including cross-sectional imaging. The patient reports some fatigue and a decreased exercise tolerance but has maintained their weight and appetite. They remain fully ambulatory and capable of self-care, though their activities are limited by shortness of breath. Performance status is ECOG 1.
 
 **Diagnostic Workup:**
-The initial evaluation commenced with a chest X-ray, which demonstrated a suspicious mass in the lung and a moderate pleural effusion. This prompted a comprehensive staging workup, including a contrast-enhanced CT scan of the chest, abdomen, and pelvis, followed by a PET/CT scan. The CT chest confirmed a dominant lung mass and extensive nodular thickening of the pleura with a significant pleural effusion. The PET/CT scan demonstrated intense hypermetabolic activity within the primary lung lesion and diffuse uptake throughout the pleura, consistent with metastatic disease. A diagnostic thoracentesis was performed, and cytology of the pleural fluid confirmed the presence of adenocarcinoma. Subsequent biopsy of a pleural nodule further corroborated the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Based on these findings, the patient was staged as AJCC Stage IV, with metastatic involvement of the pleura. Brain imaging (MRI brain) was performed and showed no evidence of intracranial metastatic disease.
+A CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This study identified a 4 cm spiculated mass in the right upper lobe. Additionally, there was a large, loculated right-sided pleural effusion with associated nodular pleural thickening, highly suspicious for malignant pleural disease. No suspicious mediastinal or hilar adenopathy was definitively identified. The visualized portions of the abdomen and pelvis were negative for metastatic disease.
+
+On [De-identified Date], the patient underwent a video-assisted thoracoscopic surgery (VATS) for pleural biopsy and partial drainage of the effusion. Pathologic examination of the pleural tissue confirmed the diagnosis of invasive adenocarcinoma. Cytology of the pleural fluid was also positive for malignant cells.
+
+A staging MRI of the brain with and without contrast was subsequently performed and was negative for any evidence of intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer (adenocarcinoma) with malignant pleural effusion.
 
 **Molecular Studies:**
-Comprehensive molecular profiling of the tumor tissue is not yet available and remains pending. PD-L1 expression was not tested, as the diagnostic workup occurred prior to the routine implementation of PD-L1 testing as standard of care in [De-identified]. Tumor mutational burden (TMB) analysis, when performed, revealed a low TMB, measured at less than 2 mutations/megabase.
+Pathology from the pleural biopsy was sent for molecular analysis.
+- Tumor Mutational Burden (TMB) was assessed and found to be low (<2 mut/Mb).
+- PD-L1 immunohistochemistry was not tested on the specimen.
+- Results from comprehensive next-generation sequencing are pending at the time of this consultation.
 
 **Problem Summary:**
-Mr./Ms. [De-identified] is a 68-year-old former smoker with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with metastatic disease limited to the pleura. Molecular profiling is pending, PD-L1 was not tested, and TMB is low. This is an initial consultation to establish a management plan.
+In summary, this is a 68-year-old with a new diagnosis of treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the pleura. Brain MRI is negative for metastatic disease. The patient has an excellent performance status (ECOG 1) and presents today for initial consultation to discuss the diagnosis and establish care.

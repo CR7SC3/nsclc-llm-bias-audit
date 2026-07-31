@@ -1,0 +1,23 @@
+**HPI:**
+This is a 58-year-old individual with a history of being a never-smoker who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was followed by the onset of a dull, constant right-sided chest pain. These symptoms prompted an evaluation by their primary care provider. The patient remains fully ambulatory and capable of self-care but is limited in strenuous activity due to shortness of breath, consistent with an ECOG performance status of 1. They report an unintentional weight loss of approximately 10 pounds over the past two months.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe lung mass and a moderate right-sided pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis confirmed a 4.5 cm spiculated mass in the right upper lobe, a large malignant-appearing pleural effusion, and pathologic mediastinal and right supraclavicular lymphadenopathy.
+
+A whole-body PET/CT scan was performed for staging, which demonstrated intense FDG-avidity in the primary right upper lobe mass, the right pleura, and the previously noted mediastinal and supraclavicular lymph nodes. The scan also revealed multiple new FDG-avid osseous lesions, including in the T7 vertebral body and a right-sided rib, consistent with bone metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Histopathologic analysis confirmed a diagnosis of poorly differentiated adenocarcinoma.
+
+A contrast-enhanced MRI of the brain was performed as part of the standard staging workup and showed no evidence of intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- Actionable driver: A ROS1 gene rearrangement was detected.
+- Additional markers: Testing was negative for pathogenic mutations or rearrangements in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 58-year-old never-smoker with a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, with metastases to bone, pleura, and distant lymph nodes. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for the presence of a ROS1 rearrangement and a PD-L1 TPS of 1-49%.

@@ -1,0 +1,25 @@
+**Patient ID:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 74-year-old individual with a history of smoking (quit over one year ago) who is referred for initial medical oncology evaluation of a newly diagnosed right lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This prompted a visit to their primary care provider. An initial chest radiograph was performed which showed a right upper lobe opacity. The patient denies any associated hemoptysis, chest pain, fevers, chills, or unintentional weight loss. They report good energy levels and maintain their daily activities without limitation. Performance status is excellent, ECOG 0.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest x-ray, a diagnostic CT of the chest with contrast was obtained. This confirmed the presence of a 4.2 cm spiculated solid mass in the posterior segment of the right upper lobe. No significant mediastinal or hilar lymphadenopathy was identified.
+
+For definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis of the tissue confirmed invasive adenocarcinoma, consistent with a primary non-small cell lung cancer.
+
+Staging evaluation was completed with a PET/CT scan, which demonstrated intense FDG uptake localized to the known right upper lobe mass. There was no evidence of hypermetabolic activity in the hilar or mediastinal lymph nodes, nor in any distant sites to suggest metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+Based on this workup, the patient has clinically staged disease confined to the lung.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+-   No actionable driver alteration was identified. The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   Tumor Mutational Burden (TMB) was low at <2 mut/Mb.
+-   PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 74-year-old former smoker who presents with a new diagnosis of Stage IIA (clinical T2b N0 M0) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup demonstrates disease localized to the right upper lobe without evidence of regional nodal involvement or distant metastatic disease. Molecular profiling of the tumor did not reveal any targetable driver mutations. The patient is treatment-naive and has an excellent performance status.

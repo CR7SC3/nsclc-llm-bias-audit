@@ -1,0 +1,26 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 53-year-old with a history of smoking who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience a persistent, dull ache in the right hip and lower back, along with increasing fatigue and a mild, non-productive cough. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistence of symptoms, the patient presented to their primary care physician.
+
+An initial evaluation prompted imaging studies, which ultimately led to the current diagnosis. The patient has an ECOG performance status of 1, being fully ambulatory and capable of all self-care but restricted in physically strenuous activity due to pain and fatigue. They have a remote smoking history, having quit over one year ago.
+
+**DIAGNOSTIC WORKUP:**
+A CT scan of the chest, abdomen, and pelvis was performed which revealed a 4.5 cm spiculated mass in the upper lobe of the right lung with associated mediastinal lymphadenopathy. The scan also identified a 2 cm nodule in the left adrenal gland and a lytic lesion within the right iliac bone, both suspicious for metastatic disease.
+
+A subsequent whole-body PET/CT scan was performed for staging. This study confirmed high FDG-avidity in the primary right upper lobe lung mass, multiple mediastinal lymph nodes, the left adrenal nodule, and the lytic lesion in the right iliac bone, consistent with M1 metastatic disease. A staging MRI of the brain was also obtained and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen. Comprehensive molecular profiling did not identify an actionable driver alteration. The tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, consistent with the standard of care at the time the tissue was originally profiled.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 53-year-old who presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of adenocarcinoma histology. Staging studies have confirmed metastatic disease involving the bone and the left adrenal gland, with no evidence of central nervous system involvement. Comprehensive molecular profiling is notable for an absence of common actionable driver mutations. The patient is here today to discuss the implications of this diagnosis and to review potential management strategies.

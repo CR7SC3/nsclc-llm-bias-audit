@@ -1,0 +1,24 @@
+Medical Oncology - Initial Consultation Note
+Date of Service: [De-identified]
+Patient: [De-identified]
+MRN: [De-identified]
+
+**HPI:**
+This is a 65-year-old individual with a history of smoking (quit >1 year ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began to experience a persistent dry cough and intermittent headaches. These symptoms progressed, and the patient was evaluated by their primary care provider. Due to the nature of the symptoms, a comprehensive diagnostic workup was initiated. The patient reports some fatigue but remains ambulatory and able to perform all activities of daily living.
+
+**Diagnostic Workup:**
+The patient’s initial evaluation included a chest CT scan which revealed a large primary mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. Staging imaging was pursued. A CT of the abdomen and pelvis identified a metastatic lesion in the left adrenal gland. Given the patient’s reported headaches, a contrast-enhanced MRI of the brain was performed, which confirmed the presence of multiple metastatic lesions consistent with intracranial spread of disease.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right lung mass, mediastinal lymph nodes, the left adrenal gland, and correlated with the known brain metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date]. Pathological analysis confirmed the diagnosis of adenocarcinoma, consistent with a primary lung origin. Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+The lung biopsy tissue was sent for comprehensive molecular profiling and immunohistochemistry.
+- **Histology:** Adenocarcinoma.
+- **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- **Tumor Mutational Burden (TMB):** High (>16 mut/Mb).
+- **Next-Generation Sequencing:** No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 65-year-old former smoker who presents for initial evaluation of newly diagnosed, treatment-naive Stage IV non-small cell lung adenocarcinoma. Staging studies have confirmed metastatic disease involving the brain and the left adrenal gland. Molecular profiling of the tumor is notable for PD-L1 expression (TPS 1-49%) and high TMB, with no identified targetable driver mutations. The patient is here today to discuss the new diagnosis in detail.

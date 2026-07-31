@@ -1,0 +1,578 @@
+[
+  {
+    "id": "C1",
+    "claim_text": "NCCN concordance delta DeepSeek-chat: -0.1 percentage points",
+    "type": "numeric_stat",
+    "value": "-0.1pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C2",
+    "claim_text": "NCCN concordance delta Llama-3.3-70B: -0.4 percentage points",
+    "type": "numeric_stat",
+    "value": "-0.4pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C3",
+    "claim_text": "NCCN concordance delta Llama-3.1-8B: -0.5 percentage points",
+    "type": "numeric_stat",
+    "value": "-0.5pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C4",
+    "claim_text": "NCCN concordance delta GPT-4o: -1.0 percentage points",
+    "type": "numeric_stat",
+    "value": "-1.0pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C5",
+    "claim_text": "NCCN concordance delta GPT-4o-mini: +0.9 percentage points",
+    "type": "numeric_stat",
+    "value": "+0.9pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C6",
+    "claim_text": "NCCN concordance delta Gemini-2.5-flash: +1.1 percentage points",
+    "type": "numeric_stat",
+    "value": "+1.1pp",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C7",
+    "claim_text": "Absolute reference concordance DeepSeek-chat 90.7%",
+    "type": "numeric_stat",
+    "value": "90.7%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C8",
+    "claim_text": "Absolute reference concordance GPT-4o 89.7%",
+    "type": "numeric_stat",
+    "value": "89.7%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C9",
+    "claim_text": "Absolute reference concordance Gemini-2.5-flash 81.7%",
+    "type": "numeric_stat",
+    "value": "81.7%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C10",
+    "claim_text": "Absolute reference concordance Llama-3.3-70B 75.9%",
+    "type": "numeric_stat",
+    "value": "75.9%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C11",
+    "claim_text": "Absolute reference concordance GPT-4o-mini 55.6%",
+    "type": "numeric_stat",
+    "value": "55.6%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C12",
+    "claim_text": "Absolute reference concordance Llama-3.1-8B 49.5%",
+    "type": "numeric_stat",
+    "value": "49.5%",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/nccn_concordance_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C13",
+    "claim_text": "Flip-rate range across models: 11.7% (GPT-4o) to 22.1% (GPT-4o-mini)",
+    "type": "numeric_stat",
+    "value": "11.7%-22.1%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C14",
+    "claim_text": "Mean flip rate GPT-4o 11.7%",
+    "type": "numeric_stat",
+    "value": "11.7%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C15",
+    "claim_text": "Mean flip rate DeepSeek-chat 13.3%",
+    "type": "numeric_stat",
+    "value": "13.3%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C16",
+    "claim_text": "Mean flip rate Llama-3.3-70B 14.5%",
+    "type": "numeric_stat",
+    "value": "14.5%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C17",
+    "claim_text": "Mean flip rate Llama-3.1-8B 17.5%",
+    "type": "numeric_stat",
+    "value": "17.5%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C18",
+    "claim_text": "Mean flip rate Gemini-2.5-flash 19.7%",
+    "type": "numeric_stat",
+    "value": "19.7%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C19",
+    "claim_text": "Mean flip rate GPT-4o-mini 22.1%",
+    "type": "numeric_stat",
+    "value": "22.1%",
+    "section": "Results - Flip Rate",
+    "likely_source": "results/flip_rate_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C20",
+    "claim_text": "TOST equivalence 29/29 variants for Llama-3.3-70B, Llama-3.1-8B, and GPT-4o",
+    "type": "numeric_stat",
+    "value": "29/29",
+    "section": "Results - TOST Equivalence",
+    "likely_source": "results/tost_equivalence_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C21",
+    "claim_text": "TOST equivalence 27/29 variants for DeepSeek-chat",
+    "type": "numeric_stat",
+    "value": "27/29",
+    "section": "Results - TOST Equivalence",
+    "likely_source": "results/tost_equivalence_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C22",
+    "claim_text": "TOST equivalence 26/29 variants for GPT-4o-mini",
+    "type": "numeric_stat",
+    "value": "26/29",
+    "section": "Results - TOST Equivalence",
+    "likely_source": "results/tost_equivalence_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C23",
+    "claim_text": "TOST equivalence 14/29 variants for Gemini-2.5-flash",
+    "type": "numeric_stat",
+    "value": "14/29",
+    "section": "Results - TOST Equivalence",
+    "likely_source": "results/tost_equivalence_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C24",
+    "claim_text": "Single BH-FDR survivor of 174 grid-wide directional decision tests: DeepSeek-chat underinsured_only, 94 downgrades vs. 48 upgrades, sign-test p=0.0001, grid-wide BH-FDR q=0.0245",
+    "type": "numeric_stat",
+    "value": "94 down/48 up, p=0.0001, q=0.0245",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "results/bhfdr_directional_tests.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C25",
+    "claim_text": "Table 2 Cohen's d white_male_private (Tier A reference) mean d=-0.016",
+    "type": "numeric_stat",
+    "value": "-0.016",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C26",
+    "claim_text": "Table 2 Cohen's d for race-only variants averaging near zero (e.g., black_race_only d=0.005, asian_race_only d=0.019, hispanic_race_only d=0.005)",
+    "type": "numeric_stat",
+    "value": "~0.0-0.1",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C27",
+    "claim_text": "Table 2 Cohen's d underinsured_only mean d=1.010 (range 0.46-1.55)",
+    "type": "numeric_stat",
+    "value": "1.010",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C28",
+    "claim_text": "Table 2 Cohen's d uninsured_only mean d=0.818 (range 0.43-1.41)",
+    "type": "numeric_stat",
+    "value": "0.818",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C29",
+    "claim_text": "Table 2 Cohen's d unhoused_patient mean d=0.758 (range 0.09-1.43)",
+    "type": "numeric_stat",
+    "value": "0.758",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C30",
+    "claim_text": "Table 2 Cohen's d low_income_patient mean d=0.772 (range 0.13-1.49)",
+    "type": "numeric_stat",
+    "value": "0.772",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C31",
+    "claim_text": "Table 2 Cohen's d latina_female_uninsured mean d=0.774 (range 0.32-1.62)",
+    "type": "numeric_stat",
+    "value": "0.774",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C32",
+    "claim_text": "Table 2 Cohen's d high_income_patient (control) mean d=0.020 (range -0.05 to 0.13)",
+    "type": "numeric_stat",
+    "value": "0.020",
+    "section": "Table 2",
+    "likely_source": "results/table2_29variant_summary.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C33",
+    "claim_text": "Cochran-Armitage trend test z range 15.4-46.6 (p<0.001) across five of six models",
+    "type": "numeric_stat",
+    "value": "z=15.4-46.6",
+    "section": "Results - Dose-Response Gradient",
+    "likely_source": "results/cochran_armitage_trend_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C34",
+    "claim_text": "GPT-4o-mini exception to Cochran-Armitage monotone trend: z=1.3, p=0.20",
+    "type": "numeric_stat",
+    "value": "z=1.3, p=0.20",
+    "section": "Results - Dose-Response Gradient",
+    "likely_source": "results/cochran_armitage_trend_by_model.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C35",
+    "claim_text": "Spearman off-diagonal median rho across six-model pairwise comparison = 0.72",
+    "type": "numeric_stat",
+    "value": "0.72",
+    "section": "Discussion - Comparison With Prior Work",
+    "likely_source": "results/spearman_intermodel_agreement.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C36",
+    "claim_text": "Cohort total N=1,048 real de-identified NSCLC cases",
+    "type": "cohort_count",
+    "value": "1048",
+    "section": "Methods - Data Source and Cohort",
+    "likely_source": "data/genie_bpc_cohort.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C37",
+    "claim_text": "Cohort by institution: MSK n=556, DFCI n=343, VICC n=149",
+    "type": "cohort_count",
+    "value": "556/343/149",
+    "section": "Methods - Data Source and Cohort",
+    "likely_source": "data/genie_bpc_cohort.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C38",
+    "claim_text": "Stage distribution: Stage IV n=594, Stage III n=251, Stage I-II n=203",
+    "type": "cohort_count",
+    "value": "594/251/203",
+    "section": "Table 1 - Cohort Description",
+    "likely_source": "data/genie_bpc_cohort.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C39",
+    "claim_text": "Histology distribution: adenocarcinoma n=884, squamous n=123, NOS n=41",
+    "type": "cohort_count",
+    "value": "884/123/41",
+    "section": "Table 1 - Cohort Description",
+    "likely_source": "data/genie_bpc_cohort.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C40",
+    "claim_text": "Biomarker counts: EGFR n=224, KRAS G12C n=116, ALK n=42, MET exon14 n=22, ROS1 n=19, RET n=14, BRAF n=11, NTRK n=2",
+    "type": "cohort_count",
+    "value": "224/116/42/22/19/14/11/2",
+    "section": "Table 1 - Cohort Description",
+    "likely_source": "data/genie_bpc_biomarkers.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C41",
+    "claim_text": "PD-L1 TPS available for 377/1048 (36.0%) of cases",
+    "type": "cohort_count",
+    "value": "377/1048",
+    "section": "Table 1 - Cohort Description",
+    "likely_source": "data/genie_bpc_biomarkers.csv",
+    "assigned_agent": "stats"
+  },
+  {
+    "id": "C42",
+    "claim_text": "Figure 2: Guideline concordance TOST equivalence results between reference and demographic variants across six models",
+    "type": "figure_ref",
+    "value": "Figure 2",
+    "section": "Results - Guideline Concordance",
+    "likely_source": "figures/fig2_tost_concordance.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C43",
+    "claim_text": "Figure 4 (4A, 4B): Flip rate stability vs. soft-framing intensity fanning out by socioeconomic tier",
+    "type": "figure_ref",
+    "value": "Figure 4",
+    "section": "Results - Framing Narrative",
+    "likely_source": "figures/fig4_flip_vs_framing.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C44",
+    "claim_text": "Figure 5: Forest plot of Cohen's d across 29 variants and six models, race-only vs SES",
+    "type": "figure_ref",
+    "value": "Figure 5",
+    "section": "Results - Framing Bias Driven by SES",
+    "likely_source": "figures/fig5_forest_plot.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C45",
+    "claim_text": "Figure 5b: Volcano plot of effect size vs BH-FDR-corrected significance across 174 model x variant contrasts",
+    "type": "figure_ref",
+    "value": "Figure 5b",
+    "section": "Results - Framing Bias Driven by SES",
+    "likely_source": "figures/fig5b_volcano_plot.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C46",
+    "claim_text": "Figure 6: Decomposition of soft bias into stigmatizing vs appropriate composite net%",
+    "type": "figure_ref",
+    "value": "Figure 6",
+    "section": "Results - Decomposing Soft Bias",
+    "likely_source": "figures/fig6_stigma_appropriate_decomposition.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C47",
+    "claim_text": "Figure 7: Stigmatizing-language dose-response gradient with socioeconomic disadvantage strata",
+    "type": "figure_ref",
+    "value": "Figure 7",
+    "section": "Results - Stigmatizing Language Gradient",
+    "likely_source": "figures/fig7_stigma_gradient.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C48",
+    "claim_text": "Figure 7b: Cochran-Armitage trend test visualization across five ordered SES strata",
+    "type": "figure_ref",
+    "value": "Figure 7b",
+    "section": "Results - Stigmatizing Language Gradient",
+    "likely_source": "figures/fig7b_cochran_armitage.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C49",
+    "claim_text": "Figure 8: Defensible vs non-defensible stigma composite decomposition",
+    "type": "figure_ref",
+    "value": "Figure 8",
+    "section": "Results - Stigma Decomposition",
+    "likely_source": "figures/fig8_defensible_nondefensible.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C50",
+    "claim_text": "Figure 9: Robustness controls overview (circularity, real-note replication, salience artifact)",
+    "type": "figure_ref",
+    "value": "Figure 9",
+    "section": "Results - Gradient Robustness",
+    "likely_source": "figures/fig9_robustness_controls.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C51",
+    "claim_text": "Figure 9a: Circularity control comparing LLM-generated vs template notes",
+    "type": "figure_ref",
+    "value": "Figure 9a",
+    "section": "Results - Gradient Robustness",
+    "likely_source": "figures/fig9a_circularity_control.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C52",
+    "claim_text": "Figure 9b: Real-note replication using 40 PubMed Central case reports",
+    "type": "figure_ref",
+    "value": "Figure 9b",
+    "section": "Results - Gradient Robustness",
+    "likely_source": "figures/fig9b_pmc_replication.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C53",
+    "claim_text": "Figure 9c: Salience-artifact control comparing bracketed tag vs natural prose injection",
+    "type": "figure_ref",
+    "value": "Figure 9c",
+    "section": "Results - Gradient Robustness",
+    "likely_source": "figures/fig9c_salience_control.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C54",
+    "claim_text": "Supplementary Figure S0: Full breakdown of PD-L1 TPS testing status by era",
+    "type": "figure_ref",
+    "value": "Figure S0",
+    "section": "Table 1 - Cohort Description",
+    "likely_source": "figures/supp_figS0_pdl1_breakdown.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C55",
+    "claim_text": "Supplementary Figure S3 referenced alongside Supplementary Table S3 per-model breakdown",
+    "type": "figure_ref",
+    "value": "Figure S3",
+    "section": "Results - Full 29-Variant Summary",
+    "likely_source": "figures/supp_figS3_per_model_breakdown.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C56",
+    "claim_text": "Supplementary Figure S_intermodel_agreement: Spearman rho pairwise cross-model agreement heatmap",
+    "type": "figure_ref",
+    "value": "Figure S_intermodel_agreement",
+    "section": "Discussion - Comparison With Prior Work",
+    "likely_source": "figures/supp_figS_intermodel_agreement.png",
+    "assigned_agent": "figures"
+  },
+  {
+    "id": "C57",
+    "claim_text": "Named script analyze_results_v2.py used for reproducible analysis",
+    "type": "method_script",
+    "value": "scripts/nsclc/analyze_results_v2.py",
+    "section": "Methods - Statistical Software and Reproducibility",
+    "likely_source": "scripts/nsclc/analyze_results_v2.py",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C58",
+    "claim_text": "Named script correct_analysis.py used for reproducible analysis",
+    "type": "method_script",
+    "value": "scripts/nsclc/correct_analysis.py",
+    "section": "Methods - Statistical Software and Reproducibility",
+    "likely_source": "scripts/nsclc/correct_analysis.py",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C59",
+    "claim_text": "Named script plot_circularity_ci.py used for Figure 9a circularity control plotting",
+    "type": "method_script",
+    "value": "plots/plot_circularity_ci.py",
+    "section": "Methods - Statistical Software and Reproducibility",
+    "likely_source": "plots/plot_circularity_ci.py",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C60",
+    "claim_text": "Named script plot_pmc_replication.py used for Figure 9b PMC replication plotting",
+    "type": "method_script",
+    "value": "plots/plot_pmc_replication.py",
+    "section": "Methods - Statistical Software and Reproducibility",
+    "likely_source": "plots/plot_pmc_replication.py",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C61",
+    "claim_text": "Reference 7 (NCCN NSCLC guideline) is a placeholder citation missing specific version number",
+    "type": "citation",
+    "value": "ref 7 NCCN version placeholder",
+    "section": "References",
+    "likely_source": "manuscript_references.bib",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C62",
+    "claim_text": "Reference 8 (CancerGUIDE dataset/benchmark) is a placeholder citation missing full citation",
+    "type": "citation",
+    "value": "ref 8 CancerGUIDE placeholder",
+    "section": "References",
+    "likely_source": "manuscript_references.bib",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C63",
+    "claim_text": "Reference 14 (ambient clinical-documentation/EHR-LLM deployment vendors: Nuance DAX, Abridge, Epic GPT-4o) is a placeholder citation missing vendor sources",
+    "type": "citation",
+    "value": "ref 14 deployment vendors placeholder",
+    "section": "References",
+    "likely_source": "manuscript_references.bib",
+    "assigned_agent": "codebase"
+  },
+  {
+    "id": "C64",
+    "claim_text": "All analyses reproducible from project repository per Methods reproducibility statement",
+    "type": "reproducibility",
+    "value": "reproducible from scripts/nsclc and plots directories",
+    "section": "Methods - Statistical Software and Reproducibility",
+    "likely_source": "scripts/nsclc/ and plots/ directories",
+    "assigned_agent": "codebase"
+  }
+]

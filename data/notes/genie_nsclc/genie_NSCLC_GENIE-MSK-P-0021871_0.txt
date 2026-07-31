@@ -1,0 +1,26 @@
+MEDICAL ONCOLOGY - NEW PATIENT CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 70-year-old with a significant smoking history who is seen for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care approximately six weeks ago with a persistent, dry cough and progressive shortness of breath on exertion. This was associated with generalized fatigue and an unintentional weight loss of approximately 10-15 pounds over the preceding three months. The patient denies chest pain, hemoptysis, fevers, or night sweats. An initial chest radiograph was abnormal, prompting a full diagnostic evaluation. The patient remains fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A staging CT scan of the chest, abdomen, and pelvis with intravenous contrast was performed. This revealed a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.8 cm in short-axis dimension. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A subsequent whole-body PET/CT scan was performed to assess for distant disease. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal and subcarinal lymph nodes, consistent with the CT findings. There was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+For definitive central nervous system staging, a brain MRI with contrast was obtained and was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent a navigational bronchoscopy with endobronchial ultrasound (EBUS) for tissue acquisition. Biopsies were obtained from the primary right upper lobe mass and from a subcarinal lymph node (station 7). Pathologic examination of both sites confirmed the presence of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- A pathogenic loss-of-function mutation was identified in the STK11 gene.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+- PD-L1 expression analysis was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is a 70-year-old who presents with newly diagnosed, treatment-naive Stage IIIA (cT2bN2M0) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup is consistent with locoregionally advanced disease confined to the right hemithorax without evidence of distant metastases. Molecular profiling is notable for an STK11 loss-of-function mutation and the absence of other common targetable driver mutations.

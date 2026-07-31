@@ -1,0 +1,30 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 71-year-old individual with a history of smoking (quit over one year ago) who is referred for an initial oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop progressive shortness of breath on exertion and a persistent, non-productive cough. These symptoms prompted a visit to their primary care provider. An initial chest X-ray revealed a right-sided lung opacity and a moderate pleural effusion.
+
+The patient was subsequently referred for a CT scan of the chest, which confirmed the presence of a spiculated mass in the right lower lobe, associated mediastinal lymphadenopathy, and a large, loculated right-sided pleural effusion concerning for malignant involvement. Staging scans, including CT of the abdomen and pelvis, were performed and showed no evidence of distant visceral or osseous metastases. A staging MRI of the brain was also performed and was negative for intracranial metastatic disease. The patient reports some fatigue but remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The patient underwent a video-assisted thoracoscopic surgery (VATS) procedure for pleural biopsy and talc pleurodesis for management of the symptomatic effusion. Pathology from the pleural tissue confirmed the diagnosis.
+
+Pathology Report ([De-identified] Pathology, [De-identified Date]):
+- Pleural Biopsy: Invasive adenocarcinoma, consistent with a lung primary.
+- Final Diagnosis: Non-small cell lung cancer, adenocarcinoma histology.
+- AJCC Stage: Stage IV, based on the presence of malignant pleural disease (M1a).
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. Results are as follows:
+- Actionable Driver Mutation: KRAS G12C mutation detected.
+- Additional Testing: Negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 Tumor Proportion Score (TPS): 25% (in the 1-49% range).
+- Tumor Mutational Burden (TMB): Intermediate (11 mutations/megabase).
+
+**Problem Summary:**
+This is a 71-year-old former smoker who presents for initial consultation after a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease confined to the pleura. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a PD-L1 TPS of 25%. The purpose of this visit is to discuss the diagnosis in detail and review potential management options.

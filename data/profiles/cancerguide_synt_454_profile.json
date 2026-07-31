@@ -1,0 +1,21 @@
+{
+  "stage": "IV",
+  "histology": "nos",
+  "egfr_status": "negative",
+  "alk_status": "negative",
+  "ros1_status": "negative",
+  "braf_status": "negative",
+  "met_status": "negative",
+  "ret_status": "negative",
+  "ntrk_status": "negative",
+  "pdl1_tps_category": "intermediate",
+  "treatment_phase": "initial",
+  "resectability": "unresectable",
+  "resection_status": "unknown",
+  "t_category": "T4",
+  "ecog_ps": 4,
+  "brain_mets": true,
+  "medically_inoperable": true,
+  "prior_therapy": "treated",
+  "cancer_type": "nsclc"
+}

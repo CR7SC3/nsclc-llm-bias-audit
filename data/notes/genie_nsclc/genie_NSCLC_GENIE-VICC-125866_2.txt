@@ -1,0 +1,23 @@
+**ATTENDING PHYSICIAN:** [De-identified], MD
+**DATE OF CONSULTATION:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:** Initial evaluation for a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 62-year-old who presents for a new oncology consultation. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided chest wall pain. This was associated with mild dyspnea on exertion and an unintentional weight loss of approximately 15 pounds over the past three months. An initial evaluation with their primary care provider included a chest X-ray which demonstrated a right upper lobe opacity, prompting further investigation. The patient is a former smoker with a significant pack-year history, having quit over one year ago. The patient remains active and fully ambulatory, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, the patient underwent a staging CT of the chest, abdomen, and pelvis with intravenous contrast. This revealed a large, 5.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal and right hilar lymphadenopathy. The scan also demonstrated evidence of metastatic disease, including a moderate-sized right-sided malignant pleural effusion, multiple lytic osseous lesions involving the thoracic spine and ribs, and a 2 cm enhancing nodule in the left adrenal gland. A dedicated MRI of the brain with and without contrast was subsequently performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+A portion of the biopsy specimen was sent for comprehensive next-generation sequencing.
+- Molecular profiling did not identify any actionable driver alterations. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- PD-L1 expression was not tested on this specimen.
+- Tumor Mutational Burden (TMB) was reported as low (<2 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 62-year-old former smoker who presents for initial oncologic evaluation of newly diagnosed metastatic non-small cell lung cancer. Staging workup has confirmed AJCC Stage IV adenocarcinoma of the lung, with metastatic involvement of the pleura, bone, and adrenal gland. Comprehensive molecular profiling did not identify an actionable driver mutation, and the tumor mutational burden is low. The patient is treatment-naive and is seen today to discuss the diagnosis and the implications of these findings.

@@ -1,0 +1,17 @@
+**HPI:**
+This is a 52-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when a chest radiograph, performed as part of a workup for a non-productive cough, revealed a pulmonary nodule. The patient is a former smoker, having quit more than one year ago. They are currently asymptomatic, reporting good energy levels and stable weight. They deny chest pain, shortness of breath, or hemoptysis. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified]. This confirmed the presence of a 2.2 cm solid, spiculated nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+A PET/CT scan was subsequently performed for staging purposes. This demonstrated intense FDG avidity localized to the right upper lobe nodule, with no evidence of hypermetabolic activity in regional lymph nodes or distant sites. A brain MRI with and without contrast was also obtained and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was performed on [De-identified]. Pathology returned as invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+Based on this workup, the patient is diagnosed with clinical Stage IA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tissue obtained from the core biopsy. Results revealed the presence of a sensitizing EGFR exon 19 deletion. Further testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 52-year-old former smoker presenting with newly diagnosed, treatment-naive, Stage IA (cT1bN0M0) non-small cell lung cancer of adenocarcinoma histology. The tumor is characterized by a sensitizing EGFR exon 19 deletion. The patient is asymptomatic with an excellent performance status.

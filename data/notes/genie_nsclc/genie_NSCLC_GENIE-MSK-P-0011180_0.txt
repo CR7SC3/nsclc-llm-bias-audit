@@ -1,0 +1,35 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness**
+
+This is a 59-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed persistent mid-back pain. The pain was initially intermittent but became constant and began to interfere with sleep. This prompted an evaluation with their primary care provider.
+
+An initial chest X-ray was suggestive of a right-sided lung opacity, leading to further cross-sectional imaging. A CT scan of the chest confirmed the presence of a right lower lobe lung mass and also identified a suspicious lesion in a thoracic vertebra. The patient was subsequently referred for a diagnostic biopsy. The patient reports ongoing back pain, which is partially controlled with over-the-counter analgesics, and a mild non-productive cough. They deny hemoptysis, fevers, or significant weight loss. Their energy levels are slightly decreased but they remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup**
+
+A review of outside records and imaging was performed.
+
+**Imaging:**
+- CT Chest/Abdomen/Pelvis with contrast: This study revealed a 3.8 cm spiculated mass in the right lower lobe of the lung. There was evidence of ipsilateral mediastinal lymphadenopathy. A lytic lesion was noted within the T8 vertebral body, highly suspicious for osseous metastatic disease.
+- PET/CT: A subsequent whole-body PET/CT scan was performed for staging. This demonstrated intense FDG-avidity in the primary right lower lobe mass, the mediastinal lymph nodes, and the previously identified T8 vertebral body lesion. No other sites of FDG-avid disease were identified in the chest, abdomen, or pelvis.
+- MRI Brain with and without contrast: Performed for central nervous system staging, this study was negative for intracranial metastases.
+
+**Pathology:**
+- CT-guided core needle biopsy of the right lower lobe lung mass performed at [De-identified Hospital] on [De-identified Date]: The pathology returned as invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results are as follows:
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase.
+- PD-L1 expression was not tested on this panel, consistent with the pre-2017 sequencing platform utilized.
+
+**Problem Summary**
+
+In summary, this is a 59-year-old never-smoker with a new diagnosis of Stage IV (cT2a N2 M1b) non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to bone. Molecular profiling of the tumor did not identify any actionable driver mutations and demonstrated a low tumor mutational burden. The patient is treatment-naive and presents today to discuss the diagnosis and establish care.

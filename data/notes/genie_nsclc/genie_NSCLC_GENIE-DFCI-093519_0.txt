@@ -1,0 +1,25 @@
+**Date of Consultation:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to evaluation, when they noted the onset of a persistent dry cough and a mild increase in dyspnea with exertion. This prompted a visit to their primary care provider. The patient denies hemoptysis, fevers, or significant chest pain but does endorse an unintentional weight loss of approximately 10 pounds over the past three months. The patient is a former smoker, having quit more than one year ago. The patient maintains a good functional status, with an ECOG performance status of 1, and continues to manage their activities of daily living independently.
+
+**DIAGNOSTIC WORKUP:**
+The patient's initial workup began with a chest X-ray that demonstrated a right upper lobe opacity.
+
+A subsequent contrast-enhanced CT of the chest was performed, which identified a 4.2 cm spiculated mass in the right upper lobe. This was associated with significant ipsilateral mediastinal lymphadenopathy, including enlarged nodes in the right paratracheal (station 4R) and subcarinal (station 7) regions.
+
+For definitive staging, a PET/CT scan was obtained. This demonstrated intense FDG-avidity in the primary right upper lobe tumor and in the corresponding mediastinal lymph nodes. No FDG-avid lesions suspicious for distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A contrast-enhanced MRI of the brain was also performed as part of the staging evaluation and revealed no evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent flexible bronchoscopy with endobronchial ultrasound (EBUS). A transbronchial needle aspiration (TBNA) was performed on a subcarinal lymph node. Pathologic analysis of the specimen confirmed the diagnosis of poorly differentiated non-small cell carcinoma, with immunohistochemical staining consistent with a squamous cell carcinoma histology.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tissue obtained from the biopsy specimen. Molecular profiling did not identify any actionable driver alterations. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 expression was not tested as part of this panel.
+
+**PROBLEM SUMMARY:**
+This is a 68-year-old former smoker with a new diagnosis of treatment-naive, Stage IIIA non-small cell lung cancer, squamous cell subtype. The diagnosis is confirmed by biopsy of a mediastinal lymph node. Comprehensive staging workup, including PET/CT and brain MRI, is negative for distant metastatic disease. Molecular analysis reveals no targetable driver mutations. The patient presents with a good performance status for consideration of therapy.

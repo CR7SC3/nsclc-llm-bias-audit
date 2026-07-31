@@ -1,0 +1,30 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT:** [De-identified MRN]
+**DATE OF CONSULTATION:** [De-identified Date]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an initial medical oncology consultation for a 68-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to this evaluation, when they developed a persistent, non-productive cough. Initial management with a course of antibiotics did not provide relief. This prompted a chest X-ray which demonstrated a right upper lobe opacity, leading to referral for further diagnostic imaging.
+
+On review of systems, the patient denies any hemoptysis, chest pain, fevers, chills, or unintentional weight loss. They maintain an excellent performance status (ECOG 0), remaining fully active and independent with all activities of daily living.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest was performed, which confirmed the presence of a 2.5 cm solid, spiculated nodule in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy meeting criteria for malignancy was identified.
+
+For definitive staging, a whole-body PET/CT scan was obtained on [De-identified Date]. This study demonstrated intense FDG-avidity corresponding to the right upper lobe nodule. Importantly, there was no evidence of hypermetabolic activity in any regional lymph nodes or at any distant sites to suggest metastatic disease.
+
+A staging MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Histopathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen. The results are as follows:
+- **Actionable Driver Mutation:** KRAS G12C mutation detected.
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2 mutations or rearrangements.
+- **PD-L1 Expression:** Not tested.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 68-year-old with an excellent performance status who presents with a new diagnosis of Stage IB (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The comprehensive staging workup is consistent with localized disease confined to the right lung, with no evidence of regional lymph node involvement or distant metastatic disease. Molecular profiling of the tumor is notable for the presence of a KRAS G12C mutation.

@@ -1,0 +1,15 @@
+**HPI:**
+This is a 60-year-old who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with a 15-pound unintentional weight loss over three months. An initial chest X-ray performed by their primary care provider showed a right-sided lung mass, prompting further investigation. The patient is a former smoker, having quit over one year ago. They report good functional status and are ambulatory and able to perform all self-care activities.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date], which confirmed a large, spiculated mass in the right upper lobe. The scan also revealed multiple suspicious nodules in the contralateral lung, enlarged mediastinal and distant lymph nodes, several hypodense lesions in the liver consistent with metastases, and multiple lytic bone lesions.
+
+A subsequent PET/CT scan was performed for staging purposes, which demonstrated intense FDG avidity in the primary right upper lobe lung mass, as well as in mediastinal, hilar, and supraclavicular lymph nodes. Widespread metastatic disease was confirmed, with avid lesions identified in the contralateral lung, liver, and multiple sites within the axial skeleton, consistent with the prior CT findings. A dedicated MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastatic disease.
+
+The patient underwent a CT-guided core needle biopsy of the right lung mass. Pathologic review of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, non-small cell type.
+
+**Molecular Studies:**
+Comprehensive genomic profiling was performed on the tumor tissue. No actionable driver alteration was identified. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was found to be high at >16 mut/Mb. PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 60-year-old with newly diagnosed, treatment-naive Stage IV (cT4 N3 M1c) non-small cell lung cancer of adenocarcinoma histology, with widespread metastases to bone, liver, contralateral lung, and distant lymph nodes. Molecular profiling is notable for a high tumor mutational burden with no identified actionable driver mutations.

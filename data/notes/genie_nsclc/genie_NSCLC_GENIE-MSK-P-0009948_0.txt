@@ -1,0 +1,27 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 70-year-old who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Initial evaluation with a primary care provider led to a course of antibiotics without improvement. Given the persistence of symptoms and a history as a former smoker (having quit within the past year), a chest X-ray was obtained which revealed a right-sided pulmonary opacity. This prompted further investigation with cross-sectional imaging. The patient is otherwise active and independent with daily activities.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated enlarged ipsilateral mediastinal and hilar lymph nodes, concerning for locoregional involvement.
+
+A subsequent PET/CT scan was performed for staging purposes. This study showed intense FDG-avidity corresponding to the known right upper lobe primary mass as well as in multiple ipsilateral mediastinal lymph node stations. Importantly, there was no evidence of FDG-avid disease in the contralateral hemithorax, or at any distant sites in the abdomen, pelvis, or skeleton to suggest metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology from this specimen confirmed the diagnosis of non-small cell lung cancer, with features consistent with adenocarcinoma histology.
+
+To complete staging, a contrast-enhanced MRI of the brain was obtained and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+-   An actionable driver mutation was identified: an EGFR uncommon sensitizing mutation.
+-   Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+-   PD-L1 expression was not tested, as this was not standard practice at the time of tissue acquisition.
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker with a new diagnosis of treatment-naive, non-metastatic Stage IIIA (AJCC 8th Edition) non-small cell lung adenocarcinoma of the right upper lobe. The tumor is characterized by an uncommon sensitizing EGFR mutation. The patient maintains a good performance status and is here today to discuss the diagnosis.

@@ -1,0 +1,22 @@
+**HPI:**
+This is a 73-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive fatigue. This was followed by a 10-pound unintentional weight loss and the onset of a new, dull ache in the mid-back, which has been constant.
+
+The patient presented to their primary care provider, and an initial chest X-ray showed a right upper lobe opacity. This prompted further investigation with a contrast-enhanced CT scan of the chest, abdomen, and pelvis. The patient remains fully ambulatory and is managing all activities of daily living, with an ECOG performance status of 1. The patient is a former smoker, having quit more than one year ago. The patient is seen today to discuss the diagnosis and establish oncologic care.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis ([De-identified Date]):** Imaging revealed a 4.2 cm spiculated mass in the right upper lobe. There were multiple hypodense lesions throughout both lobes of the liver, the largest measuring 2.5 cm, highly suspicious for metastatic disease. Additionally, several sclerotic lesions were noted in the thoracic spine, concerning for osseous metastases.
+*   **Bone Scan ([De-identified Date]):** Confirmed multiple areas of abnormal radiotracer uptake in the thoracic spine and right iliac crest, consistent with osseous metastatic disease.
+*   **Brain MRI ([De-identified Date]):** No evidence of intracranial metastasis.
+*   **Pathology ([De-identified Date]):** A CT-guided core needle biopsy of a liver lesion was performed. Histopathologic analysis confirmed metastatic adenocarcinoma with an immunoprofile consistent with a lung primary origin.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor tissue demonstrated the following:
+*   No actionable driver alteration was identified.
+*   Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 73-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the liver and bone. Molecular profiling is negative for actionable driver mutations and shows an intermediate tumor mutational burden. The patient is here for initial consultation and to establish care.

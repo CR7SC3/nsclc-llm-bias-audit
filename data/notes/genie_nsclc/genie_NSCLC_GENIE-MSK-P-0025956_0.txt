@@ -1,0 +1,32 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 70-year-old individual referred for initial evaluation of a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. This prompted a visit to their primary care provider, initiating a diagnostic workup. An initial chest X-ray was abnormal, leading to further cross-sectional imaging. The patient reports some fatigue but denies fevers, chills, or significant unintentional weight loss. Performance status is excellent, ECOG 1, remaining fully ambulatory and capable of all self-care but restricted in physically strenuous activity. The patient presents today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was completed prior to this consultation.
+
+A CT scan of the chest, abdomen, and pelvis with intravenous contrast was performed. This identified a 4.5 cm spiculated mass in the right upper lobe. There was significant associated ipsilateral mediastinal and hilar lymphadenopathy, with the largest node measuring 3.0 cm in short axis. No suspicious hepatic, adrenal, or other distant visceral lesions were identified.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass and in the right hilar and mediastinal nodal stations (4R, 7). No other sites of FDG-avid disease suggestive of distant metastases were identified.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Final pathology confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue with the following results:
+*   **Actionable Mutations:** A KRAS G12C mutation was detected.
+*   **Co-mutations:** An STK11 loss-of-function mutation was also identified.
+*   **Other Markers:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1:** PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+*   **TMB:** Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old with newly diagnosed, treatment-naive, Stage IIIA (non-metastatic) KRAS G12C-mutated and STK11-mutated non-small cell lung adenocarcinoma, PD-L1 negative.

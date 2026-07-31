@@ -1,0 +1,19 @@
+**HPI:**
+This is a 68-year-old individual with a history of thyroid cancer and a former smoking history, referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. An initial course of antibiotics prescribed by their primary care provider did not lead to resolution of symptoms.
+
+This prompted a chest X-ray which demonstrated a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest was performed on [De-identified], which confirmed a 3.5 cm solid, spiculated mass in the right upper lobe, highly suspicious for a primary malignancy. There was no significant mediastinal or hilar adenopathy noted. The patient subsequently underwent a CT-guided core needle biopsy of this mass. Following the pathologic diagnosis, a comprehensive staging workup was initiated, including a PET/CT scan and a brain MRI. The patient reports a good baseline functional status, with an ECOG performance status of 0-1, remaining active and independent with activities of daily living.
+
+**Diagnostic Workup:**
+*   **CT Chest, [De-identified]:** Revealed a 3.5 cm spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated.
+*   **PET/CT Scan, [De-identified]:** Demonstrated intense FDG-avidity confined to the known right upper lobe mass. There was no evidence of FDG-avid disease in the regional lymph nodes or at any distant sites to suggest metastatic disease.
+*   **MRI Brain with and without contrast, [De-identified]:** Performed for central nervous system staging, showed no evidence of intracranial metastases.
+*   **CT-Guided Biopsy, Right Upper Lobe Mass, [De-identified]:** Pathology returned as invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Somatic molecular profiling was performed on the tumor tissue with the following results:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is ≥50%.
+*   **Tumor Mutational Burden (TMB):** Intermediate, reported as 2–16 mutations per megabase.
+
+**Problem Summary:**
+In summary, this is a 68-year-old former smoker with a new diagnosis of Stage IIA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. A comprehensive staging workup including PET/CT and brain MRI has confirmed localized disease confined to the right upper lobe, with no evidence of regional nodal or distant metastatic spread. Molecular testing of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of any identified actionable driver mutations. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and review management options.

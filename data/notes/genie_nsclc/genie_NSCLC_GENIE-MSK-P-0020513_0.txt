@@ -1,0 +1,19 @@
+**HPI:**
+This is a 73-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent non-productive cough, progressive dyspnea on exertion, and new-onset headaches. Due to the constellation of symptoms, the patient was sent for imaging. The patient reports increasing fatigue but remains ambulatory and able to perform most activities of daily living.
+
+**Diagnostic Workup:**
+An initial chest CT scan revealed a large primary mass in the right upper lobe, accompanied by malignant-appearing pleural thickening and a moderate right-sided pleural effusion. The scan also incidentally noted suspicious lytic lesions in the thoracic spine and a rib, concerning for osseous metastases.
+
+Given the presenting complaint of headaches, a contrast-enhanced MRI of the brain was performed. This study confirmed the presence of multiple intraparenchymal metastatic deposits.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass at [De-identified] Hospital on [De-identified Date]. Pathologic analysis of the specimen confirmed a diagnosis of lung adenocarcinoma.
+
+The cumulative findings from imaging and pathology are consistent with Stage IV non-small cell lung cancer with metastases to the brain, bone, and pleura.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. An actionable driver mutation was detected, specifically a MET exon 14 skipping mutation. Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was also performed, which showed a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 73-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma with metastatic disease involving the brain, bone, and pleura. Molecular profiling is notable for a MET exon 14 skipping mutation and high PD-L1 expression (TPS ≥50%).

@@ -1,0 +1,36 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 77-year-old individual referred for evaluation and management of newly diagnosed non-small cell lung cancer. The patient has a significant smoking history and is a current smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a progressive, non-productive cough and increasing dyspnea on exertion. Over the subsequent several weeks, they also noted unintentional weight loss and new-onset, persistent headaches. This prompted an evaluation in the emergency department.
+
+An initial chest X-ray revealed a large pulmonary mass, leading to a subsequent CT scan of the chest. This confirmed the presence of a large primary mass in the lung and suggested metastatic disease. The patient was admitted for an expedited diagnostic workup.
+
+The patient's current review of systems is notable for persistent cough, fatigue, and intermittent headaches. They maintain a good performance status, able to perform all self-care and ambulatory activities.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was completed.
+
+**Imaging:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis identified a large, spiculated primary mass in the right upper lobe with extensive mediastinal and hilar lymphadenopathy. A suspicious nodule was also noted in the left lung, concerning for a contralateral metastasis.
+
+A whole-body PET/CT scan was performed for staging. This demonstrated intense FDG-avidity in the primary right upper lobe mass and the extensive mediastinal, hilar, and supraclavicular lymphadenopathy. Additionally, multiple FDG-avid lesions were identified in the contralateral lung and throughout the axial skeleton, consistent with widespread metastatic disease.
+
+An MRI of the brain with and without contrast was performed to evaluate the patient's headaches. This revealed multiple discrete, enhancing intracranial lesions in the cerebral hemispheres, characteristic of brain metastases.
+
+**Pathology:**
+A CT-guided core needle biopsy of the primary right lung mass was performed. Histopathologic examination confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue to assess for targetable alterations.
+- No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in **EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS,** and **ERBB2**.
+- PD-L1 expression by immunohistochemistry was **negative** (Tumor Proportion Score < 1%).
+- Tumor Mutational Burden (TMB) was **low** (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 77-year-old individual with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the brain, bone, contralateral lung, and distant lymph nodes. Molecular profiling is notable for the absence of any identified actionable driver alterations, negative PD-L1 expression, and a low tumor mutational burden.

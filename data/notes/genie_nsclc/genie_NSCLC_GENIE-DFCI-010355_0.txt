@@ -1,0 +1,36 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF VISIT:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 72-year-old with a history of smoking (quit over one year ago) who presents for an initial oncology evaluation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms and smoking history, a chest X-ray was obtained which revealed a suspicious opacity in the right lung.
+
+The patient was subsequently referred to Pulmonology for further evaluation. A contrast-enhanced CT of the chest was performed, which confirmed the presence of a 3.5 cm spiculated solid mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified. To complete the staging workup, a PET/CT scan was ordered. This study demonstrated intense FDG-avidity confined to the right upper lobe mass, with no evidence of hypermetabolic activity in regional lymph nodes or at any distant sites. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient is active and independent with all activities of daily living, with an ECOG performance status of 0. They report a stable appetite and deny significant weight loss, fevers, or night sweats.
+
+**DIAGNOSTIC WORKUP:**
+**CT-Guided Core Biopsy, Right Upper Lobe Lung Mass, [De-identified Date]:**
+Pathology confirmed invasive adenocarcinoma.
+
+**Imaging Summary:**
+*   **CT Chest:** 3.5 cm spiculated solid mass in the right upper lobe. No mediastinal, hilar, or axillary lymphadenopathy.
+*   **PET/CT:** Intense FDG uptake in the right upper lobe mass (SUVmax 11.2). No other sites of abnormal FDG avidity to suggest nodal or distant metastatic disease.
+*   **MRI Brain:** No evidence of intracranial metastatic disease.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition clinical Stage IIA (T2aN0M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the tumor tissue returned the following results:
+*   **Actionable Mutations Detected:**
+    *   MET exon 14 skipping mutation
+    *   MET amplification (high-level)
+*   **Actionable Mutations NOT Detected:** EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, ERBB2.
+*   **PD-L1 Expression:** Positive (TPS percentage not available)
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+
+**PROBLEM SUMMARY:**
+This is a 72-year-old with a new diagnosis of clinical Stage IIA non-small cell lung adenocarcinoma, characterized by a MET exon 14 skipping mutation and high-level MET amplification. The patient has an excellent performance status and is treatment-naive.

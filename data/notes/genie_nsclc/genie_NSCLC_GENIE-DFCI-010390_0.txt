@@ -1,0 +1,32 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 58-year-old individual with a history of former tobacco use (quit >1 year ago) who is referred for evaluation and management of newly diagnosed metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. Over the past month, they noted the new onset of a dull, constant mid-back pain that was not relieved by over-the-counter analgesics. This prompted a visit to their primary care provider.
+
+An initial chest x-ray revealed a right-sided lung opacity, leading to further cross-sectional imaging. The patient reports the back pain is manageable but present, and denies hemoptysis, shortness of breath at rest, fevers, or significant unintentional weight loss. They remain fully ambulatory and are managing their activities of daily living. ECOG performance status is 1 (symptomatic but not prevented from carrying out work or light activity).
+
+**Diagnostic Workup:**
+A diagnostic workup was initiated by the referring provider and pulmonology service.
+
+*   **CT of the Chest, Abdomen, and Pelvis with contrast:** This study identified a 4.2 cm spiculated mass in the right upper lobe. There was associated mediastinal lymphadenopathy. A suspicious lytic lesion was noted in the T7 vertebral body. No other sites of definite metastatic disease were seen in the abdomen or pelvis.
+
+*   **CT-guided Core Needle Biopsy, Right Upper Lobe Mass:** Pathology from the biopsy confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+*   **PET/CT Scan:** Performed for staging, this demonstrated intense FDG-avidity in the primary right upper lobe lung mass and in mediastinal lymph nodes. Intense uptake was also confirmed in the T7 vertebral body, consistent with metastatic disease. No other distant hypermetabolic sites were identified.
+
+*   **MRI of the Brain with and without contrast:** Performed for staging purposes, this study was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+*   No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 58-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to bone. Molecular profiling of the tumor did not identify an actionable driver mutation. The patient presents today for initial consultation to discuss the diagnosis and prognosis.

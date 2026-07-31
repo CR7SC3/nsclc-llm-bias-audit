@@ -1,0 +1,24 @@
+**REASON FOR CONSULTATION:**
+New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 66-year-old with a past medical history notable for colon cancer, now in remission, who is referred for initial oncologic evaluation of a newly diagnosed lung mass. The patient was in their usual excellent state of health until approximately two months ago when they developed a mild, persistent, non-productive cough. This prompted an outpatient evaluation, beginning with a chest radiograph that revealed a right upper lobe pulmonary nodule.
+
+The patient reports a good functional status, remaining fully ambulatory and independent in all activities of daily living, consistent with an ECOG performance status of 0. They deny any associated dyspnea, hemoptysis, chest pain, fevers, or unintentional weight loss. The patient is a lifetime never-smoker.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed the presence of a 2.8 cm spiculated solid mass in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For staging, a full-body PET/CT scan was obtained on [De-identified Date]. This demonstrated intense FDG-avidity localized to the known right upper lobe mass. Importantly, there was no evidence of hypermetabolic activity in regional lymph nodes or at any distant sites to suggest metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis confirmed the diagnosis of invasive adenocarcinoma. Based on this workup, the patient is staged as cT2a N0 M0.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen with the following results:
+- **Actionable Driver Mutations:** A ROS1 gene rearrangement was detected.
+- **Other Markers:** Testing was negative for actionable mutations or rearrangements in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Immunohistochemistry:** The PD-L1 Tumor Proportion Score (TPS) was positive, in the 1–49% range.
+- **Tumor Mutational Burden (TMB):** The TMB was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 66-year-old never-smoker with a new diagnosis of Stage IB non-small cell lung cancer, adenocarcinoma histology. The comprehensive staging workup is negative for any nodal or distant metastatic disease. Molecular profiling of the tumor is notable for a ROS1 rearrangement. The patient is treatment-naive with an excellent performance status and presents today for initial consultation to discuss the diagnosis and its implications.

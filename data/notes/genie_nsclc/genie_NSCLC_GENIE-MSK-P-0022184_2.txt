@@ -1,0 +1,23 @@
+**HPI:**
+This is a 64-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and increasing fatigue. When symptoms did not resolve with conservative management, a chest radiograph was obtained which showed a right upper lobe opacity. The patient was subsequently referred for further diagnostic evaluation. The patient reports some mild, intermittent right-sided back pain but otherwise denies fevers, chills, night sweats, or significant unintentional weight loss. Performance status is excellent, ECOG 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 3.5 cm spiculated mass in the right upper lobe, associated with mediastinal lymphadenopathy. The scan also revealed a 2.8 cm enhancing nodule in the right adrenal gland and a suspicious lytic lesion in the T8 vertebral body, concerning for metastatic disease.
+
+A PET/CT scan was subsequently performed for staging purposes. This demonstrated intense FDG-avidity in the primary right upper lobe mass, multiple mediastinal lymph nodes, the right adrenal nodule, and the previously noted lytic lesion in the T8 vertebra, consistent with widespread metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Pathology returned as invasive adenocarcinoma.
+
+Given the findings of metastatic disease on PET/CT, a staging MRI of the brain with and without contrast was obtained, which was negative for intracranial metastases.
+
+The overall clinical and radiographic findings are consistent with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+- An **ALK gene rearrangement** was detected.
+- Testing was negative for actionable mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 64-year-old former smoker who presents for initial evaluation of a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology, with known metastatic disease to bone and the adrenal gland. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement. The patient is treatment-naive and presents today to establish care and discuss the implications of this diagnosis.

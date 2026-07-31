@@ -1,0 +1,31 @@
+**Oncology Initial Consultation Note**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENTING ILLNESS:**
+I had the pleasure of meeting this 77-year-old individual in clinic today for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks ago, when they began to develop a persistent, non-productive cough and a new sensation of mild shortness of breath with significant exertion. These symptoms gradually progressed, prompting a visit to their primary care provider. An initial chest X-ray was obtained which revealed a suspicious opacity in the right lung, leading to a more comprehensive diagnostic workup. The patient is a lifetime never-smoker. Despite the new symptoms, they have maintained a good functional status, continuing with all activities of daily living, and report no significant weight loss, fevers, or night sweats. This visit represents their first formal evaluation with medical oncology.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This imaging identified a 4.2 cm spiculated mass in the right upper lobe. Multiple bilateral pulmonary nodules were also noted, with the largest in the contralateral left lung measuring 1.5 cm, concerning for metastatic spread. The scan also demonstrated bulky mediastinal and right supraclavicular lymphadenopathy.
+
+A subsequent whole-body PET/CT scan was performed for staging purposes. This study confirmed intense FDG-avidity in the primary right upper lobe mass, the contralateral lung nodules, and in multiple lymph node stations including the right supraclavicular fossa, consistent with M1 disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+As part of the standard staging workup for metastatic NSCLC, a contrast-enhanced MRI of the brain was performed, which was negative for any evidence of intracranial metastases.
+
+**MOLECULAR STUDIES:**
+Tumor tissue obtained from the lung biopsy was sent for comprehensive molecular profiling via next-generation sequencing (NGS) and for PD-L1 immunohistochemistry (IHC). The results are as follows:
+
+*   **Actionable Driver Mutations:** A sensitizing **EGFR exon 19 deletion** was detected.
+*   **Other Tested Genes:** Testing was negative for pathogenic alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+*   **PD-L1 Expression:** The tumor demonstrates high PD-L1 expression, with a Tumor Proportion Score (TPS) of **≥50%**.
+*   **Tumor Mutational Burden (TMB):** TMB was determined to be **intermediate (2–16 mut/Mb)**.
+
+**PROBLEM SUMMARY:**
+This is a 77-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The patient has an excellent ECOG performance status of 1, remaining fully ambulatory and capable of all self-care.
+
+Staging studies have confirmed metastatic disease involving the contralateral lung and distant lymph nodes (supraclavicular). A staging brain MRI was negative for central nervous system involvement. Molecular analysis of the tumor is significant for the presence of a sensitizing EGFR exon 19 deletion and high PD-L1 expression. The patient is treatment-naive.

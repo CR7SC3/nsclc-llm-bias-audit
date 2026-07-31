@@ -1,0 +1,36 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 61-year-old individual with a history of former tobacco use (quit <1 year ago) who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness, but when symptoms failed to resolve, the patient sought evaluation with their primary care provider. An initial chest radiograph demonstrated a right upper lobe opacity, prompting further imaging. The patient is here today to discuss the findings of the subsequent workup.
+
+The patient reports the cough persists but is otherwise feeling well. They deny fevers, chills, night sweats, or significant weight loss. Performance status is excellent; the patient remains fully active and ambulatory without restriction.
+
+**PAST MEDICAL HISTORY:**
+- Esophagus Cancer, status post definitive therapy, with no evidence of active disease.
+- Hypertension
+
+**DIAGNOSTIC WORKUP:**
+A chest CT with contrast was performed following the abnormal chest x-ray. This study identified a 4.2 cm spiculated mass in the right upper lobe. There was associated right hilar and ipsilateral mediastinal lymphadenopathy noted. The visualized portions of the upper abdomen, including the liver and adrenal glands, were unremarkable.
+
+To complete staging, a whole-body PET/CT was performed. This demonstrated intense FDG-avidity corresponding to the known right upper lobe primary tumor and the right-sided mediastinal lymph nodes. No other sites of FDG-avid disease were identified to suggest distant metastatic involvement.
+
+A staging MRI of the brain with and without contrast was also completed and was negative for any evidence of intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed the diagnosis of adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+- An actionable driver mutation was detected in **KRAS (G12C)**.
+- The tumor was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 61-year-old with a new diagnosis of **Stage IIB non-small cell lung cancer, adenocarcinoma histology**. Comprehensive staging evaluation has confirmed disease localized to the right hemithorax without evidence of distant metastatic disease. Molecular profiling of the tumor is notable for the presence of a KRAS G12C mutation. The patient has an excellent performance status and a significant past medical history of a prior esophageal malignancy. The patient is seen today for initial consultation to discuss this diagnosis and its implications.

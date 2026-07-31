@@ -1,0 +1,62 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF VISIT:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old with an excellent prior state of health who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was well until approximately two months prior to presentation, when a persistent, dry cough developed. This was followed by the onset of a new, dull, and constant mid-back pain that was not positional and offered minimal relief with over-the-counter analgesics. These symptoms prompted a visit to a primary care provider, who ordered a chest radiograph that showed a right-sided lung opacity.
+
+The patient was subsequently referred for further diagnostic evaluation. A CT of the chest, abdomen, and pelvis with contrast was performed, which identified a primary mass in the right lung as well as a suspicious lesion in a thoracic vertebra. A PET/CT was then completed for staging purposes, which confirmed the findings. An interventional radiology-guided biopsy of the lung mass was performed, establishing the diagnosis.
+
+The patient remains highly functional with an ECOG performance status of 1, limited only by the intermittent back pain. There has been no significant weight loss, hemoptysis, fevers, or night sweats. Appetite is reported as good. A brain MRI has been completed as part of the staging workup and was negative.
+
+**PAST MEDICAL HISTORY:**
+- Hypertension, well-controlled
+
+**PAST SURGICAL HISTORY:**
+- None
+
+**MEDICATIONS:**
+- Amlodipine 5 mg daily
+
+**ALLERGIES:**
+- No Known Drug Allergies
+
+**SOCIAL HISTORY:**
+- Tobacco Use: Never smoker.
+- Alcohol Use: Occasional, social.
+- Lives with spouse, retired.
+
+**PHYSICAL EXAMINATION:**
+- Vitals: Blood pressure 128/76, pulse 82, temperature 36.8 C, SpO2 98% on room air.
+- Weight: 74 kg.
+- Performance Status: ECOG 1.
+- General: Well-appearing, alert and oriented, in no acute distress.
+- HEENT: Anicteric sclerae. Oropharynx is clear. No cervical or supraclavicular lymphadenopathy.
+- Lungs: Clear to auscultation bilaterally. Good air entry.
+- Cardiovascular: Regular rate and rhythm, no murmurs.
+- Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.
+- Musculoskeletal: Focal tenderness to deep palpation over the mid-thoracic spine. No gross deformities.
+- Extremities: No edema.
+- Neurologic: Alert and oriented x3. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation is intact.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the patient's relevant imaging and pathology reports.
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified]:** Revealed a 3.8 cm spiculated mass in the right upper lobe. Associated mediastinal lymphadenopathy was noted. A lytic lesion was identified within the T8 vertebral body. No other suspicious findings in the abdomen or pelvis.
+- **PET/CT [De-identified]:** Confirmed intense FDG-avidity in the right upper lobe primary mass (SUVmax 12.4), multiple mediastinal lymph nodes, and the lytic lesion at T8 (SUVmax 9.8). No other sites of FDG-avid disease were identified.
+- **MRI Brain with/without contrast [De-identified]:** Negative for intracranial metastasis.
+
+**Pathology:**
+- **CT-guided core needle biopsy, right upper lobe lung mass [De-identified]:** Histopathology confirmed invasive adenocarcinoma, moderately differentiated. Immunohistochemistry was consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen with the following results:
+- **Actionable Drivers:** An EGFR L858R point mutation was detected. High-level MET amplification was also identified.
+- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 rearrangements or mutations.
+- **PD-L1:** Tumor Proportion Score (TPS) is ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 68-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with a solitary site of metastasis to bone. The patient has an excellent performance status. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation, co-occurring high-level MET amplification, and high PD-L1 expression.

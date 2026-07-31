@@ -1,0 +1,21 @@
+**HPI:**
+This is a 62-year-old individual who presents to the medical oncology clinic for an initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three months ago, when they began to experience a persistent, dry cough and progressive dyspnea on exertion. These symptoms initially prompted an evaluation with their primary care provider. Over the ensuing weeks, the patient also noted the onset of intermittent headaches and a feeling of unsteadiness, which had not been present previously. There has been an associated decline in appetite and an unintentional weight loss of approximately 10 pounds. The patient remains ambulatory and able to perform all activities of daily living, but notes significant fatigue that limits more strenuous activity. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+The initial workup included a chest CT scan which revealed a 4.2 cm spiculated mass in the right upper lobe. This scan also demonstrated a moderate right-sided pleural effusion with associated nodular pleural thickening, suspicious for malignant involvement.
+
+Given the new onset of headaches, a contrast-enhanced MRI of the brain was performed. This study identified multiple small ring-enhancing lesions within the bilateral cerebral hemispheres, consistent with metastatic deposits.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Histopathologic examination confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Staging is consistent with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- An actionable driver mutation was detected: EGFR L858R point mutation.
+- Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) of <1%.
+- Tumor Mutational Burden (TMB) was determined to be high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old with a new diagnosis of treatment-naive Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura and brain. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation, negative PD-L1 expression, and a high tumor mutational burden.

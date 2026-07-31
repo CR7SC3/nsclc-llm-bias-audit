@@ -1,0 +1,19 @@
+**HPI:**
+This is a 75-year-old individual with a history of former tobacco use (quit >1 year ago) who is referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was asymptomatic and the finding was discovered incidentally on a chest CT scan performed for an unrelated reason. The patient reports an excellent functional status, remaining fully active and independent with all activities of daily living (ECOG performance status 0). There is no history of cough, dyspnea, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient has no other history of malignancy.
+
+**Diagnostic Workup:**
+The diagnostic evaluation was initiated following an incidental finding on a chest CT scan, which revealed a 1.8 cm solid, spiculated nodule in the left upper lobe. There was no associated mediastinal or hilar lymphadenopathy noted on this initial scan.
+
+To complete staging, a PET/CT was performed on [De-identified]. This study demonstrated intense FDG-avidity within the left upper lobe pulmonary nodule. Importantly, there was no evidence of FDG-avid disease in the regional lymph nodes or at any distant sites, consistent with localized disease. A contrast-enhanced MRI of the brain was also performed and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the left upper lobe nodule was subsequently performed on [De-identified]. Histopathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma features.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for comprehensive next-generation sequencing and immunohistochemistry. The results are as follows:
+-   **Actionable Mutations:** A ROS1 gene rearrangement was detected. A KRAS G12C mutation was also identified.
+-   **Negative for:** EGFR, ALK, BRAF, MET exon 14 skipping, RET, NTRK, ERBB2.
+-   **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) of 1-49%.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+This is a 75-year-old former smoker with an excellent performance status and a new diagnosis of Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The workup has confirmed disease localized to the lung without evidence of nodal or distant metastatic spread. Molecular profiling of the tumor is notable for the presence of a ROS1 rearrangement and a KRAS G12C mutation, with low-positive PD-L1 expression. The patient is here today for a first-time consultation to discuss these findings.

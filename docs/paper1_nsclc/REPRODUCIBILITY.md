@@ -4,9 +4,10 @@ End-to-end, linear recipe to reproduce the NSCLC manuscript
 (`docs/paper1_nsclc/manuscript_nsclc.md`) from the raw GENIE BPC download
 through every canonical figure in `figures/manuscript/`.
 
-This document covers **Paper 1 (NSCLC) only**. Paper 2 (BRCA + PANC) lives
-under `scripts/brca_panc/` and `manuscript_brca_panc/` and is out of scope
-here.
+This document covers **Paper 1 (NSCLC) only**. Paper 2 (BRCA + PANC) moved to
+a separate repository (`EquityGUIDE_BRCA_PANC`) on 2026-07-29 and is out of
+scope here. One shared file remains in this repo because Paper 1's mitigation
+scripts import from it: `scripts/brca_panc/analyze_omar_metrics_pilot.py`.
 
 All script names, arguments, and input/output paths below were read directly
 from the scripts in `scripts/nsclc/`, `src/generate/`, and `plots/`. Where a
@@ -59,7 +60,8 @@ detail could not be verified from the code it is flagged as **[VERIFY]**.
 | 4d | `scripts/nsclc/bootstrap_panel_ci.py` | 6 checkpoints (`ARMS` map) | `results/analysis/panel_stigma_rates_clustered.csv` |
 | 4e | `scripts/nsclc/analyze_partial_concordance.py` | 6 result files | `results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv` |
 | 4f | `scripts/nsclc/analyze_genie_bpc.py --save` | per-model checkpoints | Omar-style per-model `*_adherence.csv`, `*_concordance_rates.csv`, `*_case_detail.csv` |
-| 5 | `plots/plot_publishable_nsclc.py` (+ per-figure upstream scripts) | step-4 CSVs | `figures/manuscript/Fig*.png` |
+| 4g | `scripts/nsclc/restricted_bias_gap.py` | 6 result files | `results/analysis/v2_genie_bpc_nsclc_restricted_bias_gap_by_variant.csv`, `_restricted_venn_counts.csv` (Fig S12, Supplementary Results) |
+| 5 | `plots/combine_figures.py` + `plots/plot_fig3_care_intensity.py` (main), one script per supplementary figure | step-4 CSVs | `figures/manuscript_combined/Figure*.png`, `figures/manuscript/FigS*.png` |
 | J | `scripts/nsclc/build_judge_packet.py` → `run_judge.py` | responses + gold | `adjudication/judge_labels.json` (feeds FigS1 + adjudication footnote) |
 
 ---
@@ -142,6 +144,15 @@ venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --model
 venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --model gpt-4o-mini
 ```
 
+> **These checkpoints and their final `_results.json` are not committed to
+> GitHub** — several are 100-400 MB, over GitHub's per-file limit, and the
+> repo's Data Availability statement already covers them ("Generated notes
+> and results: available upon reasonable request"). `.gitignore` excludes
+> `results/baseline/*.json` (a small set of early pilot results committed
+> before the full 6-model run is unaffected). Only the much smaller derived
+> CSVs under `results/analysis/` (Step 4) are committed, since those are what
+> the manuscript actually cites.
+
 Add `--dry-run --limit 5` first to validate wiring without spending credit.
 The exact `--model` strings must resolve to the checkpoint filenames the
 downstream `ARMS` maps expect (see `scripts/nsclc/finalize_panel.py`):
@@ -222,55 +233,52 @@ Writes `*_adherence.csv`, `*_concordance_rates.csv`, `*_flip_rates.csv`,
 
 ## Step 5 — Figures
 
-`plots/plot_publishable_nsclc.py` is the orchestrator: it writes the numbered
-canonical set directly into `figures/manuscript/`. For each target it uses
-`_regen_or_skip(dst, generator_script, [upstream_source_png])` — if the
-canonical `Fig*.png` already exists it is kept; otherwise it copies the named
-upstream render; otherwise it tells you which generator to rerun.
+The manuscript's **6 main figures** live in `figures/manuscript_combined/`
+(`Figure1_study_design.png` … `Figure6_robustness_precision_filter.png`).
+Five of the six are composited by `plots/combine_figures.py` from titleless
+panel sources in `figures/manuscript_combined/panels/`; Figure 3 is built
+standalone by `plots/plot_fig3_care_intensity.py`. See
+`figures/manuscript_combined/README.md` for the exact panel-to-source-script
+table and `figures/manuscript_combined/CAPTIONS.md` for the full captions.
 
 ```bash
-venv/bin/python plots/plot_publishable_nsclc.py
+venv/bin/python plots/combine_figures.py
+venv/bin/python plots/plot_fig3_care_intensity.py
 ```
 
-The three robustness panels (Fig 9) and a few others are produced by dedicated
-upstream scripts, then folded in by the orchestrator:
+The **12 supplementary figures** are written directly into
+`figures/manuscript/` by dedicated scripts in `plots/`, one script per figure
+(a few scripts also emit a titleless panel copy into
+`figures/manuscript_combined/panels/` for reuse in a main figure):
 
-| Manuscript figure | Canonical file | Generator |
+| Supp. figure | Canonical file | Generator |
 |---|---|---|
-| Fig 1 | `Fig1_cohort_description.png` | `plots/plot_genie_cohort_strata.py` |
-| Fig 2 | `Fig2_concordance_stability.png` | `plot_publishable_nsclc.py` (+ 4e for panel B) |
-| Fig 3 | `Fig3_concordance_by_variant.png` | `plots/plot_concordance_by_variant.py` |
-| Fig 4 | `Fig4_dissociation_6vendor.png` | `plot_publishable_nsclc.py` (reads 4a CSVs) |
-| Fig 5 | `Fig5_forest_ses_vs_race_6vendor.png` | `plot_publishable_nsclc.py` (reads 4a CSVs) |
-| Fig 5b | `Fig5alt_framing_volcano.png` | `plots/plot_framing_volcano.py` |
-| Fig 6 | `Fig6_soft_split_harmonized.png` | `plot_publishable_nsclc.py` (reads `panel_stigma_rates.csv`) |
-| Fig 7 | `Fig7_stigma_gradient_softened.png` | `plot_publishable_nsclc.py` |
-| Fig 7b | `Fig7b_stigma_dose_response.png` | `plots/plot_stigma_dose_response.py` |
-| Fig 8 | `Fig8_stigma_breakdown_ORIGINAL_see_caveat.png` | `plots/plot_stigma_breakdown.py` |
-| Fig 9a | `Fig9a_circularity_template_notes.png` | `plots/plot_circularity_ci.py` |
-| Fig 9b | `Fig9b_pmc_real_note_replication.png` | `plots/plot_pmc_replication.py` |
-| Fig 9c | `Fig9c_natural_embedding_salience_control.png/.pdf` | `plots/plot_natural_ab.py` |
-| Fig S1 | `FigS1_judge_validation_single_rater_CAVEAT.png` | judge track (Step J) |
-| Fig S2 | `FigS2_pmc_note_provenance.png` | `plots/plot_pmc_provenance.py` |
-| Fig S3 | `FigS_concordance_by_variant_avg_paired.png` | `plots/plot_concordance_by_variant_avg.py` |
-| Fig S4 | `FigS_soft_split_avg.png` | `plot_publishable_nsclc.py` |
-| Fig S5 | `FigS_stigma_breakdown_avg.png` | `plots/plot_stigma_breakdown.py` |
-| Fig S6 | `FigS_intermodel_agreement.png` | `plots/plot_intermodel_agreement.py` |
+| Fig S1 | `FigS01_pmc_note_provenance.png` | `plots/plot_pmc_provenance.py` |
+| Fig S2 | `FigS02_concordance_by_variant_avg_paired.png` | `plots/plot_concordance_by_variant_avg.py` |
+| Fig S3 | `FigS03_soft_split_avg.png` | `plots/plot_publishable_nsclc.py` (`fig6_soft_split_avg()`; also feeds Figure 5A panel) |
+| Fig S4 | `FigS04_stigma_breakdown_avg.png` | `plots/plot_stigma_breakdown.py` (also feeds Figure 5B panel) |
+| Fig S5 | `FigS05_intermodel_agreement.png` | `plots/plot_intermodel_agreement.py` (also feeds Figure 4B panel) |
+| Fig S6 | `FigS06_bias_tree_validation.png` | `plots/plot_bias_tree.py` |
+| Fig S7 | `FigS07_concordance_by_variant.png` | `plots/plot_concordance_by_variant.py` |
+| Fig S8 | `FigS08_framing_volcano.png` | `plots/plot_framing_volcano.py` (also feeds Figure 4A panel) |
+| Fig S9 | `FigS09_stigma_breakdown_original.png` | `plots/plot_stigma_breakdown.py` |
+| Fig S10 | `FigS10_bias_tree_decomposition.png` | `plots/plot_bias_tree.py` (also feeds Figure 6D panel, condensed) |
+| Fig S11 | `FigS11_mitigation_overcorrection.png` | `plots/plot_mitigation_overcorrection.py` |
+| Fig S12 | `FigS12_restricted_control_attrition.png` | `plots/plot_restricted_attrition.py` (reads `results/analysis/v2_genie_bpc_nsclc_restricted_venn_counts.csv`, from `scripts/nsclc/restricted_bias_gap.py`) |
 
-Authoritative figure↔legend mapping: `figures/manuscript/NARRATIVE_ORDER.md`.
+Authoritative figure↔legend mapping and navigation aid:
+`figures/manuscript/NARRATIVE_ORDER.md`.
 
-> The lowercase source renders that the orchestrator can copy from
-> (`fig4_circularity.png`, `fig4_pmc_replication.png`, `fig5_natural_ab.png`,
-> `figS1_judge_validation.png`, `fig_genie_cohort_strata.png`) were moved to
-> `figures/archive/manuscript_superseded/` during repo cleanup. The canonical
-> numbered files already exist, so the orchestrator keeps them as-is. To
-> regenerate a canonical figure from scratch, rerun its generator from the
-> table above (which re-emits the lowercase render into `figures/manuscript/`),
-> then rerun `plot_publishable_nsclc.py`.
+> **Reproducibility note.** As of 2026-07-31 every script above writes the
+> exact filename the manuscript currently cites (verified against the
+> manuscript's `## Figures` and `### Supplementary Figures` sections). Several
+> had drifted from their cited filename after a manual renumbering pass and
+> were corrected in place. `figures/archive/` holds superseded renders from
+> earlier naming schemes; nothing there is cited by the current manuscript.
 
 ---
 
-## Step J — Judge validation track (Fig S1 + stigma-inflation footnote)
+## Step J — Judge validation track (stigma-inflation footnote)
 
 ```bash
 venv/bin/python scripts/nsclc/build_judge_packet.py     # -> adjudication/judge_items.jsonl
@@ -278,35 +286,45 @@ venv/bin/python scripts/nsclc/run_judge.py              # -> adjudication/judge_
 ```
 `finalize_panel.py` reads `adjudication/judge_labels.json` if present for the
 classifier-vs-judge inflation footnote. **Open item (per NARRATIVE_ORDER.md):**
-FigS1 is a single self-labeled rater (κ=0.30); a second independent rater on
-`adjudication/gold_random40_helper.csv` is required before the judge-dependent
-results are called validated.
+the 60-item gold set is a single self-labeled rater (κ=0.57, PABAK 0.83); a
+second independent rater on `adjudication/gold_random40_helper.csv` is
+required before the judge-dependent results are called validated.
 
 ---
 
 ## Canonical manuscript inputs under `results/`
 
 The manuscript draws its numbers/figures from these files (all under
-`results/`):
+`results/`). Figure numbers below are the current 6-main + 12-supplementary
+scheme (see `figures/manuscript/NARRATIVE_ORDER.md`), not the interim
+numbering used in earlier drafts of this document.
 
 - `results/baseline/v2_genie_bpc_nsclc[_<model>]_checkpoint.json` — the six raw
-  model-output checkpoints (panel source of truth).
+  model-output checkpoints (panel source of truth; **not distributed via
+  GitHub**, see the note under Step 3).
 - `results/analysis/v2_genie_bpc_nsclc[_<model>]_soft_intensity.csv` and
-  `_flip_rates.csv` — per-model effect sizes / flip rates (Figs 4, 5, 5b).
+  `_flip_rates.csv` — per-model effect sizes / flip rates (Figures 2-5).
 - `results/analysis/panel_stigma_rates.csv` and
-  `panel_stigma_rates_clustered.csv` — per-stratum stigma gradient (Figs 6, 7, 7b).
+  `panel_stigma_rates_clustered.csv` — per-stratum stigma gradient (Figure 5,
+  Figures S3, S4, S9).
 - `results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv` —
-  Fig 2 panel B.
+  partial-concordance sensitivity check (background/exploratory; not currently
+  cited by a numbered figure in the manuscript text).
 - `results/analysis/v2_genie_bpc_nsclc[_<model>]_{adherence,concordance_rates}.csv` —
-  concordance null (Fig 2A, Fig 3, Table 2).
-- `adjudication/judge_labels.json` — judge adjudication (FigS1 + footnote).
+  concordance null (Figure 2, Table 2).
+- `results/analysis/v2_genie_bpc_nsclc_restricted_bias_gap_by_variant.csv` and
+  `_restricted_venn_counts.csv` — restricted-to-concordant-control sensitivity
+  analysis (Figure S12, Supplementary Results). Computed with the pre-registered
+  2-dimension stigma composite (`adherence_compliance`, `sdoh_generation`) —
+  do not substitute an older copy of this CSV computed with a broader composite.
+- `adjudication/judge_labels.json` — judge adjudication (Figure S6 + footnote).
 
-Robustness tracks (Fig 9) additionally use:
-`data/processed/genie_bpc_nsclc_templates_with_notes.json` (9a),
-`data/processed/pmc_nsclc_with_notes.json` (9b), and
-`data/processed/genie_bpc_nsclc_natural150_with_notes.json` (9c), with their
-analysis CSVs under `results/analysis/` (`v2_pmc_nsclc_*`, natural-embedding
-outputs).
+Robustness tracks (Figure 6) additionally use:
+`data/processed/genie_bpc_nsclc_templates_with_notes.json` (6A, circularity
+control), `data/processed/pmc_nsclc_with_notes.json` (6B, PMC replication),
+and `data/processed/genie_bpc_nsclc_natural150_with_notes.json` (6C, salience
+control), with their analysis CSVs under `results/analysis/` (`v2_pmc_nsclc_*`,
+natural-embedding outputs).
 
 Do not treat any `synthetic_structured*` / `synthetic_unstructured*` files as
 manuscript inputs — those are the earlier CancerGUIDE synthetic-note track,

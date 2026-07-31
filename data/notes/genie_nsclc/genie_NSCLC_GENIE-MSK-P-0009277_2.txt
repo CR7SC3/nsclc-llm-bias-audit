@@ -1,0 +1,50 @@
+**REASON FOR CONSULTATION:** New diagnosis of metastatic non-small cell lung cancer.
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an 84-year-old with a past medical history of breast cancer who presents for initial oncology evaluation of a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when a persistent, non-productive cough developed. This was associated with progressive dyspnea on exertion and intermittent right-sided chest wall pain. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation.
+
+A subsequent CT of the chest, abdomen, and pelvis was performed, which identified a large mass in the right upper lobe, multiple suspicious nodules in the contralateral (left) lung, and prominent mediastinal and supraclavicular lymphadenopathy. The scan also noted a suspicious lytic lesion in a thoracic vertebra. A PET/CT scan was then obtained for staging, which confirmed high metabolic activity in the primary right lung mass, the contralateral lung nodules, multiple nodal stations including the mediastinum and distant supraclavicular nodes, and the previously noted vertebral body lesion, consistent with widespread metastatic disease.
+
+The patient was referred to Interventional Radiology for a diagnostic tissue biopsy. A CT-guided core biopsy of the right upper lobe lung mass was performed without complication. The patient's performance status is ECOG 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity. The patient is here today to discuss the biopsy results and establish care.
+
+**PAST MEDICAL HISTORY:**
+1.  Breast Cancer: Diagnosed over a decade ago, treated with local therapy. No evidence of recurrence.
+2.  Hypertension
+
+**SOCIAL HISTORY:**
+*   Tobacco Use: Former smoker with an estimated 40-pack-year history. Quit approximately 5 years ago.
+*   Alcohol Use: Occasional.
+
+**REVIEW OF SYSTEMS:**
+*   CONSTITUTIONAL: Reports mild fatigue. No fevers or night sweats.
+*   RESPIRATORY: Positive for persistent dry cough and shortness of breath with moderate exertion. No hemoptysis.
+*   MUSCULOSKELETAL: Reports dull, intermittent mid-back pain.
+*   All other systems reviewed and are negative.
+
+**PHYSICAL EXAMINATION:**
+*   VITALS: BP 134/78, Pulse 82, Temp 36.9 C, Resp 18, SpO2 96% on room air.
+*   GENERAL: Alert and oriented, in no acute distress. Appears well-developed.
+*   ECOG Performance Status: 1
+*   HEENT: Normocephalic. Anicteric sclerae. Mucous membranes are moist.
+*   NECK: Supple. No jugular venous distention. Faint left supraclavicular fullness is palpable.
+*   CHEST/LUNGS: Decreased breath sounds at the right apex. No wheezes or rhonchi.
+*   CARDIOVASCULAR: Regular rate and rhythm. No murmurs, rubs, or gallops.
+*   ABDOMEN: Soft, non-tender, non-distended.
+*   EXTREMITIES: No cyanosis, clubbing, or edema.
+*   NEUROLOGIC: Grossly non-focal. Moves all extremities with normal strength.
+
+**DIAGNOSTIC WORKUP:**
+*   **CT Chest/Abdomen/Pelvis with contrast [Date De-identified]:** Demonstrated a 5.2 cm spiculated mass in the right upper lobe. Multiple bilateral pulmonary nodules, the largest in the left lower lobe measuring 1.5 cm. Extensive mediastinal and left supraclavicular lymphadenopathy. A lytic lesion was noted in the T8 vertebral body.
+*   **PET/CT [Date De-identified]:** Corroborated CT findings, showing intense FDG-avidity in the primary right upper lobe mass, multiple contralateral pulmonary nodules, mediastinal and left supraclavicular nodes, and the T8 vertebral body lesion. No evidence of brain metastases on the limited non-contrast head CT portion of the study.
+*   **Pathology [Date De-identified]:** CT-guided core biopsy of the right upper lobe mass confirmed invasive, moderately differentiated Adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+*   No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was low at <2 mutations/megabase.
+
+**PROBLEM SUMMARY:**
+This is an 84-year-old former smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the contralateral lung, distant lymph nodes, and bone. Molecular profiling of the tumor did not identify any actionable driver alterations.

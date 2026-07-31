@@ -1,0 +1,19 @@
+**HPI:**
+This is a 48-year-old who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient has a history of being a never-smoker and was in their usual state of good health until approximately one month ago, when they began experiencing a persistent dry cough and progressive fatigue. Over the subsequent two weeks, the patient developed intermittent headaches and a sense of imbalance. These symptoms culminated in an episode of confusion and word-finding difficulty, which prompted presentation to an outside emergency department. The patient has remained functional with an ECOG performance status of 1, though requiring some effort to maintain daily activities.
+
+**Diagnostic Workup:**
+An initial workup in the hospital began with a brain MRI, which demonstrated multiple T1-hypointense, T2-hyperintense enhancing lesions in the bilateral cerebral hemispheres and cerebellum, consistent with metastatic disease.
+
+A subsequent staging CT of the chest, abdomen, and pelvis with contrast was performed. This study identified a 4.1 cm spiculated mass in the left lower lobe. It also revealed a moderate left-sided pleural effusion and a 3.2 cm nodule in the right adrenal gland, both highly suspicious for metastatic involvement. No significant mediastinal or hilar lymphadenopathy was noted.
+
+Given the presence of the pleural effusion, the patient underwent a thoracentesis on [De-identified]. Cytologic analysis of the pleural fluid confirmed the presence of malignant cells, and immunohistochemical staining was consistent with adenocarcinoma of lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the cell block from the pleural fluid specimen.
+- **Actionable driver:** ALK gene rearrangement was detected.
+- **Negative for:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** Testing was not performed.
+
+**Problem Summary:**
+In summary, this is a 48-year-old never-smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis is established by malignant pleural fluid cytology. Molecular profiling is notable for the presence of an ALK gene rearrangement. Staging studies confirm metastatic disease involving the brain, pleura, and the right adrenal gland. The patient is seen in clinic today for an initial consultation to discuss the diagnosis and establish care.

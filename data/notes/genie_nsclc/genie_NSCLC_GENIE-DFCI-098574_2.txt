@@ -1,0 +1,17 @@
+**HPI:**
+This is a 68-year-old individual with a significant history of tobacco use who is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility approximately two months prior with a persistent, dry cough and progressive dyspnea on exertion. An initial chest radiograph revealed a right-sided lung opacity, which prompted further evaluation. The patient denies hemoptysis, fevers, or significant unintentional weight loss. Performance status is excellent; the patient remains fully ambulatory and capable of all self-care but is limited in strenuous activity by shortness of breath (ECOG 1).
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. Imaging identified a 4.2 cm spiculated mass in the right upper lobe. There was extensive mediastinal and hilar lymphadenopathy noted. Additionally, an enlarged left supraclavicular lymph node measuring 1.8 cm was identified, consistent with distant metastatic disease. No metastatic lesions were identified in the liver, adrenal glands, or bones.
+
+A dedicated MRI of the brain with and without contrast was subsequently performed to complete staging and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen. Molecular profiling did not identify any actionable driver alterations. The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative (Tumor Proportion Score < 1%). Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 68-year-old current smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to distant (supraclavicular) lymph nodes. Molecular testing is notable for the absence of an actionable driver mutation and negative PD-L1 expression. The patient is treatment-naive and is seen today for initial consultation.

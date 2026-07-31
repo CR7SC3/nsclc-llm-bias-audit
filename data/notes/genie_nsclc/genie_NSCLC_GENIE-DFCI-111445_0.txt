@@ -1,0 +1,18 @@
+**HPI:**
+This is a 60-year-old individual referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms were initially managed conservatively without improvement. The patient also reports associated fatigue and an unintentional weight loss of approximately 10 pounds over the past two months. The patient is a former smoker, having quit within the last year. Performance status is good, estimated at ECOG 1, as the patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+The patient's presenting symptoms prompted a chest X-ray, which revealed a right-sided lung opacity. This led to a contrast-enhanced CT of the chest, abdomen, and pelvis. Imaging demonstrated a large, spiculated mass in the right upper lobe measuring approximately 5 cm. There was also extensive and bulky mediastinal and right supraclavicular lymphadenopathy, concerning for N3 nodal disease. No suspicious lesions were identified in the liver, adrenal glands, or bones, and the contralateral lung was clear.
+
+A subsequent PET/CT scan confirmed high metabolic activity in the primary right upper lobe mass as well as in the extensive mediastinal and supraclavicular nodal basins. No distant hypermetabolic foci suggestive of metastatic disease were identified.
+
+For definitive diagnosis and staging, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided fine-needle aspiration of a subcarinal lymph node. Pathologic analysis of the specimen confirmed poorly differentiated non-small cell carcinoma with features most consistent with adenocarcinoma. A staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was submitted for comprehensive genomic profiling. Results are notable for the following:
+- PD-L1 Tumor Proportion Score (TPS): Positive, 1-49%
+- Tumor Mutational Burden (TMB): Intermediate (2-16 mut/Mb)
+- No actionable driver alteration was identified. Next-generation sequencing was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 60-year-old with a new diagnosis of locally advanced, unresectable Stage IIIB (cT3N3M0) non-small cell lung cancer, adenocarcinoma subtype. The patient is symptomatic but maintains a good performance status. Molecular profiling is notable for positive PD-L1 expression in the 1-49% range and the absence of common targetable driver mutations. This represents a complex case of non-metastatic lung cancer for which a multi-modality treatment approach is typically considered.

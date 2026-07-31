@@ -1,0 +1,33 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+This is a 44-year-old individual referred for initial oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer. The patient presents with a several-month history of progressively worsening dry cough, shortness of breath on exertion, and intermittent dull chest pain. Over the past month, these symptoms have become more pronounced, now limiting the ability to perform daily activities. The patient also reports an unintentional weight loss of approximately 15 pounds and decreased appetite. The patient has a significant history of tobacco use and is a current smoker. Functionally, performance status has declined due to dyspnea, but the patient remains ambulatory and capable of self-care.
+
+**Diagnostic Workup:**
+The patient’s initial presentation with respiratory symptoms prompted a chest X-ray, which identified a large right-sided lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and initial staging.
+
+The CT scan confirmed a large primary mass in the right upper lobe. Additionally, the scan demonstrated multiple bilateral pulmonary nodules consistent with contralateral lung metastases, a moderate-sized malignant right pleural effusion, and extensive mediastinal and supraclavicular lymphadenopathy.
+
+Due to the patient reporting intermittent headaches, a contrast-enhanced MRI of the brain was performed. This study revealed multiple enhancing parenchymal lesions consistent with cerebral metastases.
+
+A PET/CT scan was obtained for comprehensive staging, which confirmed high FDG-avidity in the primary lung mass, the multiple metastatic sites identified on CT (contralateral lung, pleura, distant nodes), and also identified several avid osseous lesions in the thoracic spine and a left rib, confirming bone metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the specimen confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed invasive adenocarcinoma. Comprehensive molecular profiling via next-generation sequencing (NGS) was performed on the tumor tissue. The following results are noted:
+*   **Actionable driver mutation detected:** KRAS G12C
+*   **Testing was negative for other targetable alterations, including:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and ERBB2.
+*   Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) of **≥50%**.
+*   Tumor Mutational Burden (TMB) was calculated to be **high (>16 mutations/megabase)**.
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer (NSCLC), adenocarcinoma histology.
+2.  AJCC Stage IV disease at diagnosis, with metastases to the brain, bone, contralateral lung, pleura, and distant lymph nodes.
+3.  Tumor molecular profile notable for a KRAS G12C mutation, high PD-L1 expression (TPS ≥50%), and high Tumor Mutational Burden (TMB).
+4.  Symptomatic disease with dyspnea, cough, and weight loss.
+5.  Current smoker.

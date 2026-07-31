@@ -1,0 +1,19 @@
+**HPI:**
+This is a 70-year-old individual with a history of smoking (former, quit over one year ago) who is seen today for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three weeks prior to presentation, when they began experiencing intermittent headaches and mild word-finding difficulty. These symptoms prompted an outpatient neurologic evaluation. The patient denies any significant cough, hemoptysis, or dyspnea but does report a 10-pound weight loss over the past two months, which was attributed to decreased appetite. The patient maintains a good functional status, is fully ambulatory, and capable of all self-care (ECOG Performance Status 1).
+
+**Diagnostic Workup:**
+The patient’s initial workup began with a brain MRI performed on [De-identified date] to evaluate the new neurologic symptoms. This study revealed multiple ring-enhancing cerebral lesions, highly suspicious for metastatic disease.
+
+To identify a primary malignancy, staging imaging with a contrast-enhanced CT of the chest, abdomen, and pelvis was subsequently performed. The chest CT demonstrated a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified date]. The histopathologic examination of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+The tumor tissue from the lung biopsy was sent for comprehensive next-generation sequencing. The results of this molecular profiling are as follows:
+-   No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression was not tested on this specimen.
+-   Tumor mutational burden (TMB) was characterized as intermediate (2–16 mut/Mb).
+-   A loss-of-function mutation was detected in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via biopsy of a primary right lung mass, and staging studies documented the presence of brain metastases. Comprehensive molecular profiling of the tumor is notable for an STK11 loss-of-function mutation and the absence of other common actionable driver mutations. The patient is treatment-naive and is seen today to discuss the diagnosis and implications.

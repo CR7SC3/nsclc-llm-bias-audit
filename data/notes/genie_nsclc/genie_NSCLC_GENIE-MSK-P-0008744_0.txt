@@ -1,0 +1,32 @@
+**REASON FOR VISIT:** Initial consultation for a new diagnosis of non-small cell lung cancer.
+
+**IDENTIFICATION:** This is a 65-year-old individual referred for evaluation and management of newly diagnosed metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 65-year-old with a history of being a never-smoker who was in a usual state of good health until approximately two months prior to presentation. At that time, the patient developed a persistent, non-productive cough. This was initially attributed to a viral illness but did not resolve with conservative measures. Over the subsequent weeks, the patient noted the onset of intermittent headaches and new, localized pain in the lower back.
+
+Due to the persistence of symptoms, a chest X-ray was obtained which revealed a mass in the right lung. This prompted a contrast-enhanced CT scan of the chest, abdomen, and pelvis which confirmed a spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. Given the new neurological symptoms, an MRI of the brain was performed, which demonstrated multiple intracranial lesions. A subsequent bone scan was performed to evaluate the back pain and revealed multiple areas of uptake.
+
+The patient was referred for a CT-guided core needle biopsy of the right upper lobe lung mass to establish a tissue diagnosis. Pathology confirmed non-small cell lung cancer of adenocarcinoma histology. Molecular testing was sent on the tissue. The patient presents today to establish care and discuss the diagnosis in detail. The patient is accompanied by a family member. Performance status is ECOG 1; the patient is fully ambulatory and able to carry out light activities but is limited by symptoms.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis [De-identified Date]:** Revealed a 3.8 cm spiculated mass in the right upper lobe. Mediastinal and hilar adenopathy was noted. No other sites of visceral metastatic disease were identified in the abdomen or pelvis.
+*   **MRI Brain [De-identified Date]:** Showed multiple enhancing lesions in the bilateral cerebral and cerebellar hemispheres, the largest measuring 1.5 cm, consistent with metastatic disease. There is minimal associated vasogenic edema.
+*   **Bone Scan [De-identified Date]:** Demonstrated multiple foci of abnormal radiotracer uptake consistent with osseous metastases, including in the thoracic spine (T7) and the right iliac bone.
+
+**Pathology:**
+*   **CT-guided core biopsy, right upper lobe lung mass [De-identified Date]:**
+    *   **Final Diagnosis:** Invasive adenocarcinoma, moderately differentiated.
+    *   **Immunohistochemistry:** Positive for TTF-1 and Napsin A, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the lung biopsy tissue revealed the following:
+*   **Actionable Driver Mutation:** A sensitizing EGFR L858R point mutation was detected.
+*   **Other Markers:** Testing was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+*   **PD-L1:** Tumor Proportion Score (TPS) is negative (<1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (8 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 65-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the brain and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation. PD-L1 is negative. The patient has an ECOG performance status of 1. The patient is treatment-naive.

@@ -1,0 +1,19 @@
+**HPI:**
+This is a 60-year-old individual with a history of never smoking who is seen today for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted the onset of intermittent headaches and dull, constant pain in the thoracic spine. Due to the constellation of symptoms, they presented for medical evaluation. The patient maintains a good performance status, though reports fatigue and mild debility related to their symptoms.
+
+**Diagnostic Workup:**
+An initial chest X-ray was performed which demonstrated a large right upper lobe mass and a moderate right-sided pleural effusion. This prompted a contrast-enhanced CT scan of the chest, abdomen, and pelvis for further characterization and staging. The CT confirmed a 4.5 cm spiculated mass in the right upper lobe, extensive malignant-appearing pleural nodularity and effusion, multiple suspicious osseous lesions including in the thoracic spine, and widespread mediastinal and supraclavicular lymphadenopathy.
+
+Given the new-onset headaches, a brain MRI with contrast was performed. This revealed multiple, scattered, ring-enhancing cerebral lesions consistent with metastatic disease. A subsequent whole-body PET/CT scan confirmed intense FDG-avidity in the primary right lung mass, the pleural disease, multiple sites of bony involvement, and the previously noted distant nodal stations.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the specimen confirmed the diagnosis of non-small cell lung cancer, with features most consistent with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results are as follows:
+- **Actionable driver mutation:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other drivers:** Testing was negative for pathogenic variants in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 2–16 mut/Mb).
+- **PD-L1 Expression:** Testing was not performed, as this was not standard of care at the time of initial tissue acquisition.
+
+**Problem Summary:**
+This is a 60-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma subtype. The diagnostic workup confirms widespread metastatic disease involving the brain, bone, pleura, and distant lymph nodes. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents for discussion of their diagnosis.

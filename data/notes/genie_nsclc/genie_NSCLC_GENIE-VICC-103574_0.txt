@@ -1,0 +1,16 @@
+**HPI:**
+This is a 53-year-old individual referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago, when they began to experience a persistent dry cough and progressive dyspnea on exertion. These symptoms were subsequently accompanied by right-sided pleuritic chest pain, significant fatigue, and an unintentional weight loss of approximately 15 pounds. The patient is a current smoker. Due to the persistence of these symptoms, the patient sought medical evaluation, which initiated a diagnostic workup.
+
+**Diagnostic Workup:**
+Initial evaluation included a chest X-ray which demonstrated a large right-sided lung mass. This prompted a staging CT scan of the chest, abdomen, and pelvis. The CT scan confirmed a 5 cm spiculated mass in the right upper lobe of the lung. The scan also revealed evidence of distant metastatic disease, including a 3 cm left adrenal metastasis, multiple lytic and sclerotic osseous lesions involving the thoracic spine and ribs, and a moderate right-sided malignant pleural effusion.
+
+A CT-guided core needle biopsy of the right lung mass was performed on [De-identified date]. Histopathologic analysis confirmed poorly differentiated adenocarcinoma, consistent with a primary lung malignancy. A staging MRI of the brain was subsequently performed and was negative for any intracranial metastases. The combination of these findings confirms a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue specimen.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as high (>16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 53-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to bone, the contralateral adrenal gland, and the pleura. Molecular profiling is notable for a high tumor mutational burden and the absence of an identifiable actionable driver mutation. The patient is here today to discuss the diagnosis and establish care.

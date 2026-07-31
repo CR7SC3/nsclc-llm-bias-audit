@@ -1,0 +1,17 @@
+**HPI:**
+This is a 51-year-old individual with a history of smoking (quit over one year ago) who is referred for initial oncology evaluation of a newly diagnosed non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and mild dyspnea on exertion. These symptoms were initially managed as a lingering respiratory infection. Due to a lack of resolution and progressive symptoms, a chest X-ray was obtained which revealed a right upper lobe mass. The patient was subsequently referred for further diagnostic workup. The patient has a good performance status (ECOG 0-1), is fully ambulatory, and denies significant weight loss, hemoptysis, or bone pain.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This imaging confirmed the presence of a 4.8 cm spiculated mass in the right upper lobe. The scan also demonstrated extensive ipsilateral mediastinal and right supraclavicular lymphadenopathy, consistent with N3 disease. The visualized liver, adrenal glands, and pelvic organs were free of suspicious metastatic lesions. No lytic or blastic osseous metastases were identified.
+
+A subsequent MRI of the brain with and without contrast was performed to complete staging and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination of the tissue confirmed invasive, moderately differentiated adenocarcinoma.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive next-generation sequencing and immunohistochemistry. Molecular profiling did not identify any actionable driver alterations; testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative (Tumor Proportion Score <1%). Tumor Mutational Burden (TMB) was found to be low (<2 mutations/megabase).
+
+**Problem Summary:**
+This is a 51-year-old former smoker who presents for initial consultation with a new diagnosis of Stage IIIB (cT2bN3M0) non-small cell lung cancer, adenocarcinoma histology. The disease is locally advanced with extensive nodal involvement in the mediastinum and supraclavicular region, but without evidence of distant metastatic disease. Molecular and immune marker profiling is notable for the absence of any targetable driver mutations, negative PD-L1 expression, and low tumor mutational burden. The patient is treatment-naive.

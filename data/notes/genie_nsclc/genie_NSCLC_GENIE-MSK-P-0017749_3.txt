@@ -1,0 +1,17 @@
+**HPI:**
+This is a 79-year-old individual with a past medical history significant for treated bladder cancer and melanoma, who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms prompted a visit to their primary care provider.
+
+An initial chest radiograph was concerning for a right-sided lung mass, leading to a follow-up contrast-enhanced CT of the chest. This imaging revealed a 4.5 cm spiculated mass in the right upper lobe, associated with prominent ipsilateral mediastinal and subcarinal lymphadenopathy. The patient reports some mild fatigue but denies fevers, chills, or significant weight loss. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the initial CT findings, the patient underwent a comprehensive staging evaluation. A PET/CT scan was performed on [De-identified], which demonstrated intense FDG-avidity corresponding to the known right upper lobe primary mass and the mediastinal/subcarinal lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease in the contralateral lung, liver, adrenal glands, or skeleton were identified. A dedicated MRI of the brain with contrast was subsequently performed and was negative for any evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent flexible bronchoscopy with endobronchial ultrasound (EBUS). Transbronchial needle aspiration (TBNA) was successfully performed on both the primary right upper lobe mass and a subcarinal lymph node (station 7). Pathologic analysis of both specimens confirmed the diagnosis of invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+Based on the combined imaging and pathology findings, the patient is diagnosed with clinical Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tissue obtained from the EBUS-TBNA specimen. The analysis did not identify any actionable oncogenic driver alterations. Specifically, results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (11 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 79-year-old with an excellent performance status who presents with a new diagnosis of Stage IIIA non-small cell adenocarcinoma of the lung. The diagnostic workup has confirmed locally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for the absence of targetable driver mutations. The patient is seen today for initial consultation to discuss the diagnosis and its implications.

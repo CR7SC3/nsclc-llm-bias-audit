@@ -1,0 +1,20 @@
+**HPI:**
+This is an initial oncology consultation for a 74-year-old with a new diagnosis of non-small cell lung cancer. The patient has a past medical history notable for breast cancer, for which they are not on active therapy. The current presentation began with an incidental finding of a pulmonary nodule on a chest X-ray performed for an unrelated reason. This prompted a diagnostic chest CT, which confirmed the presence of a solid nodule in the right upper lobe.
+
+The patient is a former smoker, having quit more than one year ago. The patient reports feeling well at baseline and is largely asymptomatic from a pulmonary standpoint, with a good energy level and stable weight. There is no reported cough, shortness of breath, hemoptysis, or chest pain. A review of systems is negative for fevers, chills, or night sweats. The patient maintains an excellent performance status and is fully independent in all activities of daily living.
+
+**Diagnostic Workup:**
+- **CT Chest:** [De-identified] revealed a 1.8 cm solid, spiculated nodule in the posterior segment of the right upper lobe. No significant mediastinal or hilar lymphadenopathy was noted.
+- **PET/CT:** [De-identified] was performed for staging. This demonstrated focal FDG-avidity corresponding to the right upper lobe nodule. There was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or at any distant sites.
+- **MRI Brain:** [De-identified] with and without contrast was negative for any evidence of intracranial metastatic disease.
+- **CT-Guided Biopsy, Right Upper Lobe Nodule:** [De-identified] pathology confirmed invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+- **Actionable Driver Mutation:** A sensitizing EGFR L858R point mutation was detected.
+- **Additional Markers:** Testing was negative for mutations or rearrangements involving ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** Not tested.
+
+**Problem Summary:**
+This is a 74-year-old former smoker with a history of breast cancer who presents with a new diagnosis of Stage IA non-small cell lung cancer, adenocarcinoma histology. The diagnosis was established via biopsy of a right upper lobe pulmonary nodule found incidentally. Staging workup including PET/CT and brain MRI confirms localized disease without evidence of nodal or distant metastases. Molecular profiling is significant for the presence of an EGFR L858R mutation. The patient is treatment-naive for this malignancy.

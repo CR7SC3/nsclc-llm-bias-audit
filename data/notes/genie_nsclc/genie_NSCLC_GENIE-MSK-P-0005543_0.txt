@@ -1,0 +1,22 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 55-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who ordered a chest radiograph which revealed a suspicious right upper lobe lung nodule. The patient reports no significant fevers, chills, hemoptysis, or chest pain. They note a stable weight and good energy levels. Performance status is excellent. They are here today to establish care and discuss the diagnosis.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest was performed. This demonstrated a 4.2 cm spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated.
+
+For definitive staging, a PET/CT was subsequently obtained. This showed intense FDG-avidity corresponding to the primary right upper lobe mass. Importantly, there was no evidence of FDG-avid disease in regional lymph nodes or any sites of distant metastasis.
+
+A dedicated brain MRI with contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed for tissue diagnosis. Pathology from this procedure confirmed the diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the core biopsy. No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was found to be intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 55-year-old, treatment-naive patient with a new diagnosis of clinical Stage IIA (cT2bN0M0) non-small cell lung cancer, adenocarcinoma subtype. The comprehensive staging workup is negative for regional or distant metastatic disease. Molecular profiling of the tumor is notable for an intermediate tumor mutational burden and is negative for any currently recognized actionable driver mutations.

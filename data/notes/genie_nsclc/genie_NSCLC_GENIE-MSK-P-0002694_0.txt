@@ -1,0 +1,77 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF CONSULTATION:** [De-identified]
+**REFERRING PROVIDER:** [De-identified]
+**ATTENDING PROVIDER:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed Stage IV non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 41-year-old individual whom I am seeing in consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, nagging dry cough and progressive right-sided hip pain. The pain was initially attributed to a musculoskeletal strain but worsened over several weeks, becoming sharp, constant, and interfering with sleep and ambulation. This prompted a visit to their primary care provider.
+
+An initial X-ray of the right hip was concerning for a lytic lesion. Subsequent staging evaluation with a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This revealed a 3.8 cm spiculated mass in the right upper lobe of the lung, extensive mediastinal lymphadenopathy, and confirmed a destructive lytic lesion in the right iliac bone. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient was referred to Interventional Radiology for a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed the diagnosis of adenocarcinoma. The patient has had a 10-pound unintentional weight loss over the past two months and reports significant fatigue but denies fevers, chills, or night sweats. Pain is currently managed with scheduled NSAIDs with moderate relief.
+
+**PAST MEDICAL HISTORY:**
+Unremarkable. No chronic medical conditions.
+
+**PAST SURGICAL HISTORY:**
+None.
+
+**MEDICATIONS:**
+Ibuprofen as needed for hip pain.
+
+**ALLERGIES:**
+No known drug allergies.
+
+**FAMILY HISTORY:**
+No known family history of lung cancer or other malignancies.
+
+**SOCIAL HISTORY:**
+The patient is a never-smoker and reports no history of alcohol or illicit substance use.
+
+**REVIEW OF SYSTEMS:**
+CONSTITUTIONAL: Positive for fatigue and a 10-pound weight loss. Negative for fevers or chills.
+RESPIRATORY: Positive for a persistent dry cough. Negative for hemoptysis or dyspnea.
+CARDIOVASCULAR: Negative for chest pain or palpitations.
+MUSCULOSKELETAL: Positive for severe right hip pain.
+NEUROLOGIC: Negative for headaches, vision changes, focal weakness, or numbness.
+All other systems reviewed and are negative.
+
+**PHYSICAL EXAMINATION:**
+VITALS: Reviewed, stable.
+GENERAL: Alert and oriented, appears stated age. No acute distress. ECOG Performance Status is 1.
+HEENT: Normocephalic, atraumatic. Anicteric sclerae. Moist oral mucosa.
+NECK: Supple, no lymphadenopathy.
+CHEST: Clear to auscultation bilaterally. No wheezes or rales.
+CARDIOVASCULAR: Regular rate and rhythm, no murmurs.
+ABDOMEN: Soft, non-tender, non-distended.
+MUSCULOSKELETAL: Tenderness to deep palpation over the right posterior iliac crest. Full range of motion in other joints.
+SKIN: No rashes or suspicious lesions.
+NEUROLOGICAL: Alert and oriented x3. Cranial nerves II-XII intact. Strength 5/5 throughout. Sensation intact.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the relevant outside records and imaging reports.
+
+**CT Chest/Abdomen/Pelvis with Contrast, [De-identified Date]:**
+- LUNGS: 3.8 cm spiculated mass in the posterior segment of the right upper lobe.
+- MEDIASTINUM: Bulky right paratracheal and subcarinal lymphadenopathy, with nodes measuring up to 2.5 cm in short axis.
+- BONES: A 3.2 cm lytic and destructive lesion is present in the right iliac bone, consistent with a metastasis.
+- ABDOMEN/PELVIS: Liver, spleen, adrenal glands, and kidneys are unremarkable. No other metastatic disease identified.
+
+**MRI Brain with and without Contrast, [De-identified Date]:**
+- No evidence of intracranial metastasis.
+
+**Pathology, Right Upper Lobe Lung Mass Biopsy, [De-identified Date]:**
+- DIAGNOSIS: Invasive Adenocarcinoma, non-small cell type.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor specimen.
+- ACTIONABLE DRIVERS: A RET fusion was detected.
+- NEGATIVE RESULTS: The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2.
+- PD-L1: Not tested.
+- TUMOR MUTATIONAL BURDEN (TMB): Low (<2 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 41-year-old never-smoker with a new diagnosis of Stage IV (cT2a N2 M1b) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirmed metastatic disease to bone and no evidence of brain metastases. Comprehensive molecular profiling of the tumor is notable for the identification of a RET fusion.

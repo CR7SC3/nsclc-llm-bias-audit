@@ -1,0 +1,62 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 46-year-old individual with no significant past medical history who is referred for evaluation of newly diagnosed metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive shortness of breath on exertion. Symptoms initially did not improve with a course of outpatient antibiotics. Due to worsening dyspnea, the patient presented to an outside emergency department.
+
+A chest X-ray at that time revealed a large right-sided pleural effusion and a suspected underlying lung mass. A subsequent CT scan of the chest, abdomen, and pelvis was performed for further characterization and staging. This imaging confirmed a large mass in the right lung, the large pleural effusion, and also identified a suspicious lesion in the liver. A brain MRI was subsequently obtained and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right lung mass. Pathology from this procedure confirmed the diagnosis of adenocarcinoma. The patient is a lifetime never-smoker.
+
+The patient presents to clinic today to establish care and discuss the diagnosis. On review of systems, the patient endorses ongoing fatigue, dyspnea with minimal activity, and an estimated 10-pound unintentional weight loss over the past two months. The patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity. ECOG performance status is 1.
+
+**PAST MEDICAL HISTORY:**
+None.
+
+**PAST SURGICAL HISTORY:**
+None.
+
+**MEDICATIONS:**
+None.
+
+**ALLERGIES:**
+No Known Drug Allergies.
+
+**SOCIAL HISTORY:**
+The patient is a never-smoker and reports no history of alcohol or illicit substance use.
+
+**PHYSICAL EXAM:**
+Vitals: Reviewed, within normal limits.
+Constitutional: Alert, well-appearing, in no acute distress.
+HEENT: Normocephalic, atraumatic. Anicteric sclerae. Moist mucous membranes.
+Neck: Supple, no lymphadenopathy.
+Lungs: Decreased breath sounds at the right base. No wheezes or rales.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.
+Extremities: No lower extremity edema.
+Skin: No rashes or suspicious lesions.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+- CT Chest/Abdomen/Pelvis with contrast, [De-identified]: Revealed a 5.2 cm spiculated mass in the right lower lobe. A large, complex right-sided pleural effusion was noted, consistent with malignant effusion. A 2.5 cm hypodense lesion was identified in the right hepatic lobe, suspicious for a metastasis. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+- MRI Brain with and without contrast, [De-identified]: No evidence of intracranial metastatic disease.
+
+**Pathology:**
+- CT-guided core biopsy, right lower lobe lung mass, [De-identified]: Invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the tumor biopsy specimen demonstrated the following:
+- Actionable driver mutation detected: EGFR exon 19 deletion (sensitizing).
+- Negative for mutations/rearrangements in: ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- Tumor Mutational Burden (TMB): Intermediate (11 mutations/megabase).
+- PD-L1: Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 46-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The clinical workup confirmed metastatic disease involving the pleura and liver. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion.
+
+AJCC 8th Edition Staging: Stage IV.

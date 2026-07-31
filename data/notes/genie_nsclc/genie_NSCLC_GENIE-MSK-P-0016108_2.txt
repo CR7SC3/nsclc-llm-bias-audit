@@ -1,0 +1,25 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 72-year-old individual with a history of tobacco use who is referred for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to their primary care physician approximately one month ago with a persistent, dry cough. A chest radiograph was obtained which demonstrated a right upper lobe pulmonary nodule, prompting further investigation.
+
+A subsequent contrast-enhanced CT of the chest confirmed the presence of a 2.4 cm spiculated solid mass in the posterior segment of the right upper lobe. No significant mediastinal or hilar lymphadenopathy was identified. The patient has a good performance status, remains active, and denies constitutional symptoms such as fevers, night sweats, or significant weight loss. The cough remains their only pertinent symptom.
+
+**DIAGNOSTIC WORKUP:**
+Staging evaluation was pursued to characterize the extent of disease. A PET/CT scan was performed which demonstrated intense FDG-avidity localized to the known right upper lobe mass. There was no evidence of hypermetabolic activity in regional lymph nodes or at any distant site. A dedicated MRI of the brain with contrast was also obtained and was negative for intracranial metastases.
+
+Following the imaging workup, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. The pathology from this procedure confirmed the diagnosis.
+
+*   **Pathology (Right Upper Lobe Mass Biopsy):** Invasive, moderately differentiated squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+Tissue from the biopsy specimen was sent for next-generation sequencing and PD-L1 immunohistochemistry. The results are as follows:
+
+*   **PD-L1:** Positive, Tumor Proportion Score (TPS) 1-49%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **Molecular Profiling:** No actionable driver alteration identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 72-year-old former smoker who is treatment-naive, presenting with a new diagnosis of clinical Stage IA (cT1c N0 M0) squamous cell non-small cell lung cancer of the right upper lobe. Staging workup is negative for regional or distant metastatic disease. Molecular analysis is notable for positive PD-L1 expression (TPS 1-49%) without an identifiable targetable driver mutation. The patient is seen today to discuss this new diagnosis and establish care.

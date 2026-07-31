@@ -1,0 +1,29 @@
+**IDENTIFICATION:** The patient is a 62-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+**MRN:** [De-identified]
+**Date of Consult:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 62-year-old with a recent history of smoking (quit within the last year) who initially presented to an outside provider several weeks ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray was concerning for a right-sided pulmonary opacity, which prompted further imaging. The patient has no other significant constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient’s past medical history is notable for a history of cervical cancer, which was treated in the past and is considered resolved. The patient is otherwise active and independent with all activities of daily living. The patient is here today to discuss the findings and establish care.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed following the abnormal chest radiograph. This study revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. There was also evidence of bulky mediastinal and hilar lymphadenopathy, with several nodes measuring up to 2.5 cm in the short axis.
+
+To evaluate for distant disease, a whole-body PET/CT scan was subsequently obtained. This demonstrated intense FDG avidity in the known right upper lobe primary mass and in the right hilar and mediastinal lymph nodes, consistent with the CT findings. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+Given the locoregional extent of disease, a brain MRI with and without contrast was performed for central nervous system staging, which was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent a bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and staging. Biopsies were taken from the primary mass and from a subcarinal lymph node (station 7). Pathology from both sites returned as adenocarcinoma of the lung, confirming a diagnosis of non-small cell lung cancer.
+
+Based on the combination of a T2b primary tumor with N2 nodal involvement and no evidence of distant metastases (M0), the patient is staged as AJCC Stage IIIA.
+
+**MOLECULAR STUDIES:**
+Pathology confirmed non-small cell lung cancer, adenocarcinoma histology.
+Next-generation sequencing was performed on the tumor tissue.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested on this specimen.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- Additional molecular profiling revealed a loss-of-function mutation in STK11, a finding associated with primary resistance to PD-1/PD-L1 inhibitors.
+- A loss-of-function mutation in KEAP1 was also identified, which has been correlated with a reduced response to immunotherapy.
+
+**PROBLEM SUMMARY:**
+This is a 62-year-old former smoker with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA (T2bN2M0) non-small cell lung adenocarcinoma of the right upper lobe. Diagnostic workup is complete and has ruled out distant metastatic disease. Molecular profiling of the tumor is notable for the absence of common actionable driver mutations but did reveal STK11 and KEAP1 loss-of-function mutations, which have implications for potential future therapies. The patient presents today for initial consultation and discussion of the diagnosis.

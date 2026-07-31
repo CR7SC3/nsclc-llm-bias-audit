@@ -1,0 +1,22 @@
+**REASON FOR CONSULTATION:** New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 78-year-old former smoker who presents for initial oncology consultation to discuss a new diagnosis of metastatic squamous cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they began experiencing persistent headaches and a sense of gait imbalance. These symptoms progressively worsened, prompting a visit to the emergency department at an outside hospital on [De-identified Date]. An initial neurologic evaluation led to a brain MRI, which revealed several enhancing intracranial lesions consistent with metastatic disease.
+
+Given the findings on brain imaging, a staging workup was initiated to identify a primary malignancy. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study demonstrated a large, irregular mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis. The patient was subsequently referred for a tissue diagnosis. They are now seen in clinic for evaluation and to establish care. The patient remains ambulatory with a good performance status, though they note some fatigue and ongoing mild headaches.
+
+**DIAGNOSTIC WORKUP:**
+*   **Brain MRI (with and without contrast), [De-identified Date]:** Revealed multiple, scattered ring-enhancing lesions in the cerebral hemispheres, consistent with metastatic deposits.
+*   **CT Chest/Abdomen/Pelvis (with contrast), [De-identified Date]:** Identified a 4.5 cm spiculated mass in the right upper lobe. Mediastinal and hilar adenopathy was noted. No definitive evidence of metastatic disease in the liver, adrenal glands, or bones.
+*   **CT-Guided Core Needle Biopsy, Right Lung Mass, [De-identified Date]:** Pathology confirmed a diagnosis of poorly differentiated non-small cell carcinoma with features most consistent with squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+*   **Driver Mutations:** No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1:** Expression was not tested on this specimen.
+*   **Tumor Mutational Burden (TMB):** Intermediate (reported as 2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 78-year-old former smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, squamous cell histology, metastatic to the brain. Molecular profiling of the tumor did not identify any actionable driver alterations.

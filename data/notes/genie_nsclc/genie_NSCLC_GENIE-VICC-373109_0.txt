@@ -1,0 +1,19 @@
+**HPI:**
+This is a 78-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began to experience new-onset headaches and a feeling of unsteadiness. These symptoms progressed, prompting an evaluation in the emergency department. A brain MRI was performed at that time, which unfortunately revealed multiple lesions suspicious for metastatic disease.
+
+The patient was admitted for further workup. A subsequent staging CT scan of the chest, abdomen, and pelvis was performed which identified a primary mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The patient was seen by Interventional Pulmonology and underwent a CT-guided core needle biopsy of the right lung mass to establish a tissue diagnosis.
+
+The patient reports mild fatigue but remains fully ambulatory and capable of all self-care. They deny cough, shortness of breath, or hemoptysis. Appetite is fair. Performance status is ECOG 1. There is a past history of tobacco use, having quit over one year ago.
+
+**Diagnostic Workup:**
+*   **MRI Brain ([De-identified date]):** Revealed multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic deposits.
+*   **CT Chest, Abdomen, Pelvis with contrast ([De-identified date]):** Identified a 3.8 cm spiculated mass in the right upper lobe. Hilar and mediastinal lymphadenopathy was noted. No definite metastatic disease was identified in the abdomen, pelvis, or bones.
+*   **Pathology, Right Lung Mass Biopsy ([De-identified date]):** Histologic examination of the core biopsy specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+*   **PD-L1 Immunohistochemistry:** Positive, with a Tumor Proportion Score (TPS) of 1-49%.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **Comprehensive Genomic Profiling:** Next-generation sequencing panel results are pending.
+
+**Problem Summary:**
+This is a 78-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases present in the brain. Molecular testing is notable for a PD-L1 TPS of 1-49% with comprehensive genomic results pending. The patient has a good performance status (ECOG 1) and is here today to discuss the diagnosis and potential management options.

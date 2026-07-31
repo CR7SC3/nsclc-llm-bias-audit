@@ -1,0 +1,26 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**HPI:**
+This is a 69-year-old individual with a history of hypertension and hyperlipidemia, who presents for initial oncology evaluation of a newly diagnosed right lung mass. The patient is a former smoker, having quit approximately five years ago.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially self-managed with over-the-counter remedies without relief. Over the last month, the cough has become more frequent and has been associated with mild right-sided chest wall pain and a new onset of dyspnea with moderate exertion, such as climbing a flight of stairs. These worsening symptoms prompted a visit to their primary care provider. An initial office evaluation led to a chest X-ray, which reportedly showed a right upper lobe opacity. The patient was subsequently referred for further diagnostic imaging and pulmonology consultation. The patient denies hemoptysis, fevers, or significant unintentional weight loss. Performance status is excellent; the patient is fully ambulatory and continues to perform all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed to characterize the chest X-ray finding. This study confirmed the presence of a 5.1 cm spiculated mass in the right upper lobe. The mass demonstrated broad abutment of the mediastinal pleura. Additionally, the scan revealed extensive and bulky right paratracheal and subcarinal lymphadenopathy, concerning for nodal metastases. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or kidneys.
+
+To complete staging, a whole-body PET/CT scan was obtained. This demonstrated intense FDG-avidity within the primary right upper lobe mass as well as in the bulky right mediastinal and hilar lymph nodes, consistent with the findings on the diagnostic CT. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+A staging MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastatic disease.
+
+Following the imaging workup, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for comprehensive next-generation sequencing. Molecular profiling did not identify any actionable driver alterations. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. The tumor was also found to be KRAS and ERBB2 wild-type.
+
+Tumor Mutational Burden (TMB) was classified as intermediate, at 12 mutations/megabase (mut/Mb). PD-L1 expression was not tested, as the panel was performed prior to this becoming a standard component of initial molecular workup.
+
+**Problem Summary:**
+In summary, this is a 69-year-old former smoker with a new diagnosis of Stage IIIB (cT3N2M0, AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The patient's disease is locally advanced, characterized by a large primary tumor and bulky ipsilateral mediastinal lymph node involvement, but without evidence of distant metastatic disease on comprehensive staging evaluation. Molecular analysis of the tumor is notable for an intermediate Tumor Mutational Burden and the absence of any currently targetable driver mutations. The patient is symptomatic but maintains a good performance status. The primary problem is locally advanced, unresectable non-small cell lung cancer.

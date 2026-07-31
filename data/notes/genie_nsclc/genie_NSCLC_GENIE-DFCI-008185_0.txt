@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial medical oncology consultation for a 59-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker who quit over a year ago. The patient was in their usual state of good health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough. This was followed by the onset of intermittent headaches and mild word-finding difficulty, which prompted a visit to their primary care provider. The patient otherwise feels well, with no significant fatigue, weight loss, or loss of appetite, and maintains an excellent performance status, estimated at ECOG 0-1.
+
+**Diagnostic Workup:**
+The initial workup began with a chest radiograph which revealed a large right upper lobe mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study confirmed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also identified a 1.2 cm nodule in the left lower lobe, suspicious for metastatic disease.
+
+Given the new neurologic symptoms, a brain MRI with and without contrast was obtained. This revealed multiple, scattered, ring-enhancing cerebral lesions consistent with metastatic disease, the largest measuring 1.5 cm in the left parietal lobe with surrounding vasogenic edema.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed on [De-identified]. Pathology confirmed a diagnosis of lung adenocarcinoma.
+
+Taken together, these findings are consistent with a diagnosis of non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV (cT2b N2 M1c), with metastases to the contralateral lung and brain.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the lung biopsy tissue specimen. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). The panel did identify a loss-of-function mutation in STK11, which is associated with primary resistance to PD-1 inhibitors. A KEAP1 loss-of-function mutation was also identified, which can be associated with a reduced response to immunotherapy.
+
+**Problem Summary:**
+In summary, this is a 59-year-old, treatment-naive patient with an excellent performance status who presents for initial evaluation of a new diagnosis of Stage IV non-small cell lung adenocarcinoma with metastases to the brain and contralateral lung. Molecular profiling of the tumor is notable for the absence of an actionable driver mutation but did reveal the presence of STK11 and KEAP1 loss-of-function mutations.

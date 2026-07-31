@@ -1,0 +1,27 @@
+**HPI:**
+This is an initial oncology consultation for a 61-year-old individual with a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker who was in their usual state of health until approximately one month prior to presentation, when they began to experience a persistent dry cough and progressive dyspnea on exertion. Over the past several weeks, they also developed intermittent headaches and a sense of imbalance, which prompted an evaluation by their primary care provider. The initial workup led to the current diagnosis. The patient presents today to discuss the findings and establish care. They are accompanied by a family member. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+The patient was initially evaluated with a chest CT scan, which revealed a primary mass in the right lung, measuring approximately 4 cm. The scan also identified multiple smaller nodules in the contralateral left lung and suspicious mediastinal lymphadenopathy.
+
+Given the patient’s neurological symptoms, a contrast-enhanced MRI of the brain was performed. This study confirmed the presence of multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right lung mass. The pathology from this procedure confirmed the diagnosis of non-small cell lung cancer. Staging is consistent with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed adenocarcinoma histology. Comprehensive next-generation sequencing and immunohistochemistry were performed on the tumor tissue with the following results:
+
+*   **Histology:** Adenocarcinoma
+*   **EGFR:** Positive for a sensitizing exon 19 deletion.
+*   **ALK:** Negative for rearrangement.
+*   **ROS1:** Negative for rearrangement.
+*   **BRAF:** Negative for mutation.
+*   **MET:** Negative for exon 14 skipping mutation.
+*   **RET:** Negative for rearrangement.
+*   **KRAS:** Negative for mutation.
+*   **ERBB2 (HER2):** Negative for mutation.
+*   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1–49%.
+*   **Tumor Mutational Burden (TMB):** High (>16 mut/Mb).
+
+**Problem Summary:**
+This is a 61-year-old never-smoker presenting with newly diagnosed, treatment-naive AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the brain and contralateral lung. Molecular analysis of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. PD-L1 expression is positive (TPS 1-49%) and tumor mutational burden is high.

@@ -1,0 +1,50 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 53-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, referred for consultation and discussion of management.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. Over the subsequent weeks, they began experiencing intermittent headaches and a dull ache in the right hip. Due to the persistence of these symptoms, they presented to an outside hospital for evaluation.
+
+Initial workup included a chest CT scan which revealed a large, spiculated mass in the right upper lobe of the lung, associated with mediastinal and hilar lymphadenopathy, as well as several nodules in the contralateral (left) lung. Given the neurologic symptoms, a brain MRI with contrast was performed, which demonstrated multiple enhancing parenchymal lesions consistent with metastatic disease.
+
+For definitive staging, a PET/CT scan was obtained. This study confirmed high FDG-avidity in the primary right upper lobe mass, mediastinal lymph nodes, contralateral lung nodules, and identified additional sites of metastatic disease including multiple osseous lesions (notably in the pelvis and thoracic spine), distant nodal involvement, and a hypermetabolic subcutaneous nodule in the left flank.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathology confirmed the diagnosis of adenocarcinoma. The patient has had some symptomatic progression with worsening fatigue but remains fully ambulatory and self-caring. They are seen today to discuss these findings and establish a plan of care.
+
+**Past Medical History:**
+- Hypertension, medically managed
+
+**Past Surgical History:**
+- None pertinent
+
+**Social History:**
+- Tobacco Use: Former smoker, quit approximately three years ago after a 20 pack-year history. No current tobacco use.
+- Alcohol Use: Occasional, social.
+
+**ECOG Performance Status:** 1 - Symptomatic but completely ambulatory and able to carry out work of a light or sedentary nature.
+
+**Diagnostic Workup:**
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis:** Revealed a primary mass in the right upper lobe with extensive mediastinal adenopathy. Multiple bilateral pulmonary nodules, with several suspicious nodules in the contralateral lung.
+- **MRI Brain:** Multiple scattered enhancing lesions in the cerebral and cerebellar hemispheres, consistent with metastatic deposits.
+- **PET/CT:** Confirmed FDG-avid disease in the primary lung mass, mediastinal and distant lymph nodes, contralateral lung, multiple sites of osseous involvement, and a subcutaneous soft tissue deposit.
+
+**Pathology:**
+- **CT-Guided Core Biopsy, Right Upper Lobe Lung Mass:**
+  - **Final Diagnosis:** Adenocarcinoma, consistent with lung primary.
+
+**Molecular Studies:**
+- **Tumor Tissue Next-Generation Sequencing (NGS):**
+  - **Actionable driver mutation detected:** ERBB2 (HER2) exon 20 insertion.
+  - **The following genes were tested and found to be negative for targetable alterations:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS.
+  - **PD-L1 (IHC):** Negative (Tumor Proportion Score < 1%).
+  - **Tumor Mutational Burden (TMB):** Intermediate (10 mutations/megabase).
+
+**Problem Summary:**
+This is a 53-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm widespread metastatic disease involving the brain, bone, contralateral lung, distant lymph nodes, and subcutaneous tissue. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion mutation and negative PD-L1 expression. The patient is seen today for initial consultation to discuss the diagnosis, prognosis, and to establish a plan for systemic therapy.

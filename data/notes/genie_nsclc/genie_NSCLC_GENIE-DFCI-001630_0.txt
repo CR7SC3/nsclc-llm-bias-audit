@@ -1,0 +1,15 @@
+**HPI:**
+This is a 49-year-old individual who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is an active, current smoker and was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and intermittent right-sided chest discomfort. These symptoms progressed, and the patient also noted mild dyspnea on exertion and an unintentional weight loss of approximately 10 pounds over the past two months. This prompted a visit to their primary care physician, who initiated a diagnostic workup.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting a follow-up contrast-enhanced CT scan of the chest. The CT confirmed a 4.5 cm spiculated mass in the right upper lobe and also demonstrated bulky right-sided mediastinal and hilar lymphadenopathy.
+
+To complete staging, a PET/CT was performed. This study showed intense FDG-avidity in the primary right upper lobe mass and in multiple ipsilateral mediastinal lymph nodes (stations 4R and 7), consistent with nodal metastases. Importantly, the PET/CT did not demonstrate any evidence of FDG-avid disease at distant sites, including the contralateral lung, liver, adrenal glands, or bones. A subsequent MRI of the brain was also performed for neurologic staging and was negative for intracranial metastases.
+
+The patient underwent flexible bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. Biopsies were obtained from the primary right upper lobe mass and a subcarinal (station 7) lymph node. Pathology from both sites confirmed invasive, moderately differentiated adenocarcinoma. The findings are consistent with clinical Stage IIIA (cT2b N2 M0) disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was evaluated and found to be high at >16 mutations/megabase. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 49-year-old with a new diagnosis of Stage IIIA non-small cell lung adenocarcinoma, with disease confined to a right upper lobe primary tumor and ipsilateral mediastinal lymph nodes. The patient has a good performance status. Molecular profiling of the tumor is notable for a high tumor mutational burden and the absence of any identified targetable driver mutations.

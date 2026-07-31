@@ -14,7 +14,7 @@ blocking items:
 Run:  venv/bin/python plots/plot_publishable_nsclc.py
 """
 from pathlib import Path
-import sys, csv, shutil
+import sys, csv, shutil, subprocess
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import numpy as np
 import pandas as pd
@@ -47,6 +47,11 @@ SUF = {"gemini-2.5-flash": "", "deepseek-chat": "_deepseek-chat",
        "gpt-4o": "_gpt-4o", "gpt-4o-mini": "_gpt-4o-mini"}
 BASE = "results/analysis/v2_genie_bpc_nsclc"
 
+# Main-figure Fig 2A shows the confirmatory binary NCCN concordance only (clean
+# per-model histogram). The secondary/exploratory partial-concordance overlay
+# moves to the supplement per the locked figure plan -- set True to restore it.
+SHOW_PARTIAL = False
+
 
 def _regen_or_skip(dst_name, gen_script, upstream_names):
     """Idempotent copy step: the one-time migration into figures/manuscript/
@@ -64,6 +69,20 @@ def _regen_or_skip(dst_name, gen_script, upstream_names):
             return
     print(f"SKIPPED {dst_name}: rerun `venv/bin/python {gen_script}` to regenerate, "
           f"then rerun this script.")
+
+
+def _run_script(script, expect):
+    """Regenerate a panel/figure via a standalone generator run as a subprocess.
+    These generators import from THIS module (MODELS/SUF/BASE/_read, or
+    plot_care_intensity_permodel), so importing them back would be circular;
+    running them as a subprocess from the repo root keeps their relative data
+    paths (results/analysis/...) correct. `expect` must exist afterward."""
+    r = subprocess.run([sys.executable, script], capture_output=True, text=True)
+    if Path(expect).exists():
+        print(f"wrote {expect} (via {script})")
+    else:
+        print(f"FAILED {expect}: `{sys.executable} {script}` did not produce it")
+        print((r.stdout or "")[-600:]); print((r.stderr or "")[-600:])
 
 
 # ───────────────────────── Fig 1: cohort description (copy, renamed) ────────
@@ -94,17 +113,51 @@ def _load_partial_concordance_summary():
     return df
 
 
+# Per-model treatment-aggressiveness tier CSVs (1=BSC ... 8=surgical resection;
+# ordinal, from src/analyze/continuous_scores.py TREATMENT_RANK).
+AGG_FILES = {
+    "gemini-2.5-flash": "results/analysis/v2_genie_bpc_nsclc_aggressiveness.csv",
+    "deepseek-chat":    "results/analysis/v2_genie_bpc_nsclc_deepseek-chat_aggressiveness.csv",
+    "llama-3.3-70B":    "results/analysis/v2_genie_bpc_nsclc_meta-llama-Llama-3.3-70B-Instruct-Turbo_aggressiveness.csv",
+    "llama-3.1-8B":     "results/analysis/v2_genie_bpc_nsclc_openrouter-meta-llama-llama-3.1-8b-instruct_aggressiveness.csv",
+    "gpt-4o":           "results/analysis/v2_genie_bpc_nsclc_gpt-4o_aggressiveness.csv",
+    "gpt-4o-mini":      "results/analysis/v2_genie_bpc_nsclc_gpt-4o-mini_aggressiveness.csv",
+}
+
+
+def _load_aggressiveness():
+    """Reference vs pooled with-demographics mean treatment-tier rank per model,
+    plus the BH-significant variant count. Returns None if any CSV is missing."""
+    out = {}
+    for m, f in AGG_FILES.items():
+        if not Path(f).exists():
+            print(f"  NOTE: aggressiveness CSV missing for {m}; skipping panel C")
+            return None
+        rows = [r for r in pd.read_csv(f).to_dict("records") if pd.notna(r["mean_score"])]
+        ref = next(r["mean_score"] for r in rows if r["variant"] == "no_demographics")
+        dv = [r for r in rows if r["variant"] != "no_demographics"]
+        num = sum(r["mean_score"] * r["n"] for r in dv)
+        den = sum(r["n"] for r in dv)
+        nsig = sum(1 for r in dv if pd.notna(r["q_value_bh"]) and r["q_value_bh"] < 0.05)
+        out[m] = dict(ref=ref, dem=num / den, n_dem=int(den), nsig=nsig, n_var=len(dv))
+    return out
+
+
 def fig2_concordance():
-    ref = {"gemini-2.5-flash": 81.7, "deepseek-chat": 90.7, "llama-3.3-70B": 75.9,
-           "llama-3.1-8B": 49.5, "gpt-4o": 89.7, "gpt-4o-mini": 55.6}
-    dem = {"gemini-2.5-flash": 82.8, "deepseek-chat": 90.6, "llama-3.3-70B": 75.5,
-           "llama-3.1-8B": 49.0, "gpt-4o": 88.7, "gpt-4o-mini": 56.4}
+    # reference / with-demographics concordance recomputed from plot_concordance_by_variant.py
+    # (confirmatory NCCN scorer, no_demographics reference), 2026-07 verification.
+    ref = {"gemini-2.5-flash": 78.8, "deepseek-chat": 89.0, "llama-3.3-70B": 73.9,
+           "llama-3.1-8B": 49.9, "gpt-4o": 86.7, "gpt-4o-mini": 53.1}
+    dem = {"gemini-2.5-flash": 79.8, "deepseek-chat": 88.5, "llama-3.3-70B": 73.8,
+           "llama-3.1-8B": 49.5, "gpt-4o": 85.7, "gpt-4o-mini": 54.1}
     n_ref = {"gemini-2.5-flash": 590, "deepseek-chat": 601, "llama-3.3-70B": 598,
              "llama-3.1-8B": 570, "gpt-4o": 603, "gpt-4o-mini": 585}
     n_dem = {"gemini-2.5-flash": 17119, "deepseek-chat": 17425, "llama-3.3-70B": 17311,
              "llama-3.1-8B": 16635, "gpt-4o": 17437, "gpt-4o-mini": 17022}
-    tost = {"gemini-2.5-flash": "14/29", "deepseek-chat": "27/29", "llama-3.3-70B": "29/29",
-            "llama-3.1-8B": "29/29", "gpt-4o": "29/29", "gpt-4o-mini": "26/29"}
+    # TOST equivalence counts recomputed from the confirmatory pipeline
+    # (scripts/nsclc/correct_analysis.py MAJOR-6, margin d=+/-0.10), 2026-07 verification.
+    tost = {"gemini-2.5-flash": "23/29", "deepseek-chat": "27/29", "llama-3.3-70B": "29/29",
+            "llama-3.1-8B": "28/29", "gpt-4o": "29/29", "gpt-4o-mini": "27/29"}
 
     def _ci(rate, n):
         lo, hi = wilson_ci(round(rate / 100 * n), n)
@@ -113,72 +166,107 @@ def fig2_concordance():
     x = np.arange(len(MODELS)); w = 0.36
     ekw = dict(ecolor="0.3", lw=1.0, capsize=3)
 
-    partial = _load_partial_concordance_summary()
+    partial = _load_partial_concordance_summary() if SHOW_PARTIAL else None
+    agg = _load_aggressiveness()
 
-    fig, ax = plt.subplots(figsize=(11.5, 5.6))
+    if agg is not None:
+        fig, (ax, axB) = plt.subplots(1, 2, figsize=(15.5, 5.8),
+                                      gridspec_kw={"width_ratios": [1.4, 1.0]})
+    else:
+        fig, ax = plt.subplots(figsize=(11.5, 5.6))
 
-    # ---- Single overlaid axis --------------------------------------------
-    # Solid bar  = pre-registered binary NCCN concordance (confirmatory).
-    # Hatched cap (drawn behind, to the full partial-concordance height, then
-    # the solid binary bar drawn on top) = SECONDARY / EXPLORATORY partial
-    # concordance (0/0.5/1.0 coarsening of the adherence ordinal; not
-    # pre-registered -- see docs/METHODS.md section 12). Partial >= binary by
-    # construction, so the hatched region above each solid bar is the extra
-    # credit given by partial scoring.
+    # ---- concordance bars, factored so the standalone left axis AND the
+    # concordance-only panel export reuse identical drawing --------------------
+    # Solid bar = pre-registered binary NCCN concordance (confirmatory); hatched cap
+    # = SECONDARY/EXPLORATORY partial concordance (see docs/METHODS.md section 12).
     err_ref = np.array([_ci(ref[m], n_ref[m]) for m in MODELS]).T
     err_dem = np.array([_ci(dem[m], n_dem[m]) for m in MODELS]).T
-
-    # Partial-concordance caps (drawn first, behind the solid binary bars).
     if partial is not None:
         p_ref = {m: partial.loc[m, "ref_partial_concordance_pct"] for m in MODELS}
         p_dem = {m: partial.loc[m, "dem_partial_concordance_pct"] for m in MODELS}
-        ax.bar(x - w / 2, [p_ref[m] for m in MODELS], w,
-               color=[MC[m] for m in MODELS], alpha=0.20,
-               edgecolor="k", linewidth=0.6, hatch="////", zorder=1)
-        ax.bar(x + w / 2, [p_dem[m] for m in MODELS], w,
-               color=[MC[m] for m in MODELS], alpha=0.30,
-               edgecolor="k", linewidth=0.6, hatch="////", zorder=1)
-
-    # Binary concordance (solid, on top).
-    ax.bar(x - w / 2, [ref[m] for m in MODELS], w, yerr=err_ref, error_kw=ekw,
-           color=[MC[m] for m in MODELS], alpha=0.55,
-           edgecolor="k", linewidth=0.6, zorder=3)
-    ax.bar(x + w / 2, [dem[m] for m in MODELS], w, yerr=err_dem, error_kw=ekw,
-           color=[MC[m] for m in MODELS], alpha=1.0,
-           edgecolor="k", linewidth=0.6, zorder=3)
-
-    # Delta annotation sits above the tallest (partial) bar for each model.
-    for i, m in enumerate(MODELS):
-        d = dem[m] - ref[m]
-        top = max(ref[m], dem[m])
-        if partial is not None:
-            top = max(top, p_ref[m], p_dem[m])
-        ax.text(i, top + 4.5, f"$\\Delta$={d:+.1f} pp\nTOST {tost[m]} equiv.",
-                ha="center", va="bottom", fontsize=9)
-
-    ax.set_xticks(x); ax.set_xticklabels([ML[m] for m in MODELS], rotation=12, ha="right")
-    ax.set_ylabel("Concordance with NCCN guideline label (%)")
-    ax.set_ylim(0, 118)
-    ax.set_title("Treatment-recommendation concordance is unaffected by\n"
-                 "prepended demographic labels",
-                 fontsize=12.5, fontweight="bold")
-
-    # Legend: encode the two crossed dimensions (variant x scoring) with grey
-    # proxy handles so the reader can decode both without colour.
     from matplotlib.patches import Patch
-    handles = [
-        Patch(facecolor="0.4", alpha=0.55, edgecolor="k", label="No-demographics (reference)"),
-        Patch(facecolor="0.4", alpha=1.0, edgecolor="k", label="With demographics"),
-    ]
-    if partial is not None:
-        handles += [
-            Patch(facecolor="none", edgecolor="k", label="Binary NCCN concordance (pre-registered)"),
-            Patch(facecolor="0.4", alpha=0.25, edgecolor="k", hatch="////",
-                  label="Partial concordance (secondary/exploratory)"),
-        ]
-    ax.legend(handles=handles, loc="upper left", bbox_to_anchor=(1.01, 1.0),
-              fontsize=8.5, framealpha=0.95, ncol=1, borderaxespad=0.)
 
+    def draw_conc(a, legend_anchor=None):
+        if partial is not None:
+            a.bar(x - w / 2, [p_ref[m] for m in MODELS], w, color=[MC[m] for m in MODELS],
+                  alpha=0.20, edgecolor="k", linewidth=0.6, hatch="////", zorder=1)
+            a.bar(x + w / 2, [p_dem[m] for m in MODELS], w, color=[MC[m] for m in MODELS],
+                  alpha=0.30, edgecolor="k", linewidth=0.6, hatch="////", zorder=1)
+        a.bar(x - w / 2, [ref[m] for m in MODELS], w, yerr=err_ref, error_kw=ekw,
+              color=[MC[m] for m in MODELS], alpha=0.55, edgecolor="k", linewidth=0.6, zorder=3)
+        # hatch on the with-demographics bar so demo vs no-demo survives grayscale/CVD
+        # (shade alone was the sole encoder — council: dataviz)
+        a.bar(x + w / 2, [dem[m] for m in MODELS], w, yerr=err_dem, error_kw=ekw,
+              color=[MC[m] for m in MODELS], alpha=1.0, edgecolor="k", linewidth=0.6,
+              hatch="///", zorder=3)
+        for i, m in enumerate(MODELS):
+            d = dem[m] - ref[m]
+            top = max(ref[m], dem[m])
+            if partial is not None:
+                top = max(top, p_ref[m], p_dem[m])
+            a.text(i, top + 4.5, f"$\\Delta$={d:+.1f} pp\nTOST {tost[m]} equiv.",
+                   ha="center", va="bottom", fontsize=9)
+        a.set_xticks(x); a.set_xticklabels([ML[m] for m in MODELS], rotation=12, ha="right")
+        a.set_ylabel("Concordance with NCCN guideline label (%)")
+        a.set_ylim(0, 118)
+        handles = [
+            Patch(facecolor="0.4", alpha=0.55, edgecolor="k", label="No-demographics (reference)"),
+            Patch(facecolor="0.4", alpha=1.0, edgecolor="k", hatch="///", label="With demographics"),
+        ]
+        if partial is not None:
+            handles += [
+                Patch(facecolor="none", edgecolor="k", label="Binary NCCN concordance (pre-registered)"),
+                Patch(facecolor="0.4", alpha=0.25, edgecolor="k", hatch="////",
+                      label="Partial concordance (secondary/exploratory)"),
+            ]
+        a.legend(handles=handles, loc="upper left", bbox_to_anchor=legend_anchor,
+                 fontsize=8.0, framealpha=0.95, ncol=1, borderaxespad=0.4)
+        # equivalence margin (d = +/- 0.10) stated in the caption, not on-panel
+
+    draw_conc(ax, legend_anchor=(1.01, 1.0) if agg is None else None)
+
+    # ---- Panel B: treatment-aggressiveness tier (confirmatory, continuous) ----
+    if agg is not None:
+        aref = [agg[m]["ref"] for m in MODELS]
+        adem = [agg[m]["dem"] for m in MODELS]
+        axB.bar(x - w / 2, aref, w, color=[MC[m] for m in MODELS], alpha=0.55,
+                edgecolor="k", linewidth=0.6, zorder=3)
+        axB.bar(x + w / 2, adem, w, color=[MC[m] for m in MODELS], alpha=1.0,
+                edgecolor="k", linewidth=0.6, zorder=3)
+        for i, m in enumerate(MODELS):
+            d = agg[m]["dem"] - agg[m]["ref"]
+            axB.text(i, max(aref[i], adem[i]) + 0.18,
+                     f"$\\Delta$={d:+.2f}\n{agg[m]['nsig']}/{agg[m]['n_var']} BH-sig",
+                     ha="center", va="bottom", fontsize=8.5)
+        axB.set_xticks(x); axB.set_xticklabels([ML[m] for m in MODELS], rotation=12, ha="right")
+        axB.set_ylabel("Mean treatment-aggressiveness tier\n(1 = best supportive care  …  8 = surgical resection)")
+        axB.set_ylim(0, 8.6)
+        from matplotlib.patches import Patch as _Patch
+        axB.legend(handles=[
+            _Patch(facecolor="0.4", alpha=0.55, edgecolor="k", label="No-demographics (reference)"),
+            _Patch(facecolor="0.4", alpha=1.0, edgecolor="k", label="With demographics"),
+        ], loc="lower left", fontsize=8.0, framealpha=0.95, borderaxespad=0.4)
+    # Concordance-% ONLY panel for combine_figures.py (Fig 2A). The tier-intensity
+    # subpanel is dropped here — it duplicated the direction heatmap (Fig 2C) — so the
+    # main figure carries only the concordance percentages. Titleless single axis.
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    figP, axP = plt.subplots(figsize=(8.0, 5.6))
+    draw_conc(axP)
+    figP.tight_layout()
+    figP.savefig(PANELS / "p_concordance_stability.png", dpi=200, bbox_inches="tight",
+                 facecolor="white")
+    plt.close(figP)
+    print("wrote panels/p_concordance_stability.png (concordance-only)")
+
+    # standalone supplement copy (2 subpanels): restore banner titles + sub-panel letters.
+    ax.set_title("Treatment-recommendation concordance is unaffected by\n"
+                 "prepended demographic labels", fontsize=12.5, fontweight="bold")
+    if agg is not None:
+        axB.set_title("Treatment intensity is likewise unaffected by\n"
+                      "demographic labels (ordinal tier rank)",
+                      fontsize=12.5, fontweight="bold")
+        ax.text(-0.10, 1.03, "A", transform=ax.transAxes, fontsize=15, fontweight="bold")
+        axB.text(-0.14, 1.03, "B", transform=axB.transAxes, fontsize=15, fontweight="bold")
     fig.tight_layout()
     fig.savefig(OUT / "Fig2_concordance_stability.png"); plt.close(fig)
     if partial is not None:
@@ -186,7 +274,7 @@ def fig2_concordance():
               "(binary NCCN concordance overlaid with secondary/exploratory partial concordance)")
     else:
         print("wrote Fig2_concordance_stability.png "
-              "(partial-concordance overlay skipped -- run scripts/nsclc/analyze_partial_concordance.py first)")
+              "(binary NCCN concordance only; partial-concordance overlay off -- SHOW_PARTIAL=False)")
 
 
 # ───────────── Fig 3: concordance by variant (copy, renamed — already 6-model) ─
@@ -257,8 +345,6 @@ def fig4_dissociation():
         his = [fl.get(v, {}).get("hi", np.nan) * 100 for v in variants]
         axA.hlines(y + off, los, his, color=colour, linewidth=0.9, alpha=0.55, zorder=2)
         axA.scatter(xs, y + off, s=18, color=colour, zorder=3, edgecolor="white", linewidth=0.3)
-    axA.text(0.5, n - 0.25, "dashed = each vendor's\nmean flip across variants",
-             ha="left", va="top", fontsize=6.8, color="#555555", style="italic")
     axA.set_xlim(0, 27)
     axA.set_xlabel("Treatment-recommendation flip rate (%)", fontsize=9.5)
     axA.set_title("(A)  Treatment selection", fontsize=10.5, fontweight="bold", pad=8)
@@ -297,6 +383,13 @@ def fig4_dissociation():
                              markersize=6.5, markeredgecolor="white", label=ML[m]) for m in MODELS]
     fig.legend(handles=handles, loc="lower center", ncol=6, frameon=False, fontsize=8.2,
                bbox_to_anchor=(0.5, -0.045))
+
+    # titleless panel (A/B subtitles kept; banner suptitle + footnote suppressed —
+    # those belong in the manuscript caption) for combine_figures.py -> Figure2
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    fig.savefig(PANELS / "p_dissociation.png", dpi=200, bbox_inches="tight", facecolor="white")
+    print("wrote panels/p_dissociation.png")
+
     fig.suptitle("Fig. 4 | Demographic labels leave the treatment decision unchanged\n"
                  "but reshape its framing -- six complete vendor arms",
                  fontsize=12.5, fontweight="bold", y=1.01)
@@ -382,7 +475,7 @@ def fig5_forest():
 
 # ───────────── Fig 6: money figure, axes harmonized across models ──────────
 SOFT_SPLIT_VARIANTS = ["uninsured", "underinsured", "low income", "unhoused",
-                       "black+medicaid", "race-only", "white-male ctrl"]
+                       "black+medicaid", "race-only", "white-male (comparison)"]
 SOFT_SPLIT_DATA = {
     "gemini-2.5-flash": dict(appr=[88.9, 93.2, 87.5, 65.7, 37.6, -1.8, 1.0],
                              stig=[9.6, 19.0, 39.5, 71.1, 12.9, 2.7, 0.6]),
@@ -471,20 +564,27 @@ def fig6_soft_split_avg():
     ax.axvline(0, color="k", lw=0.9)
     ax.set_yticks(y); ax.set_yticklabels(variants, fontsize=9.5)
     ax.invert_yaxis()
-    ax.set_xlabel(f"Net % vs. no-demographics  (bar = mean of {n} models; "
-                  f"dots = individual models; no CI — see caption)", fontsize=9)
-    ax.set_title("Soft-bias split across models: appropriate SDOH care (blue) dominates;\n"
-                 "stigmatizing layer (red) is smaller, concentrated on the unhoused",
-                 fontsize=11.5, fontweight="bold")
+    ax.set_xlabel("Net % vs. no-demographics", fontsize=9.5)
     # proxy handle for the per-model dots
     dot_proxy = mlines.Line2D([], [], color="#333333", marker="o", linestyle="none",
                               markersize=5, markeredgecolor="white", label=f"Individual model (n={n})")
     handles, labels = ax.get_legend_handles_labels()
-    ax.legend(handles=handles + [dot_proxy], loc="lower right", fontsize=8.5, framealpha=0.95)
+    ax.legend(handles=handles + [dot_proxy], loc="lower right", fontsize=12,
+              markerscale=1.3, framealpha=0.95)
+
+    # titleless panel for combine_figures.py -> Figure4 panel A (banner headline -> caption)
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
     fig.tight_layout()
-    fig.savefig(OUT / "FigS_soft_split_avg.png", dpi=150, bbox_inches="tight")
+    fig.savefig(PANELS / "p_soft_split_avg.png", dpi=200, bbox_inches="tight", facecolor="white")
+    print("wrote panels/p_soft_split_avg.png")
+
+    ax.set_title("Soft-bias split across models: appropriate SDOH care (blue) dominates;\n"
+                 "stigmatizing layer (red) is smaller, concentrated on the unhoused",
+                 fontsize=11.5, fontweight="bold")
+    fig.tight_layout()
+    fig.savefig(OUT / "FigS03_soft_split_avg.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
-    print("wrote FigS_soft_split_avg.png")
+    print("wrote FigS03_soft_split_avg.png")
 
 
 # ───────────── Fig 7: stigma dose-response gradient, softened title ────────
@@ -492,9 +592,9 @@ def fig7_stigma_gradient():
     df = pd.read_csv("results/analysis/panel_stigma_rates.csv")
     order = ["control", "race_only", "uninsured", "underinsured", "low_income",
              "black_unhoused", "unhoused"]
-    nice = {"control": "white-male\ncontrol", "race_only": "race-only",
+    nice = {"control": "control", "race_only": "race-only",
             "uninsured": "uninsured", "underinsured": "underinsured",
-            "low_income": "low income", "black_unhoused": "Black +\nunhoused",
+            "low_income": "low income", "black_unhoused": "Black+unhoused",
             "unhoused": "unhoused"}
     x = np.arange(len(order)); w = 0.8 / len(MODELS)
     fig, ax = plt.subplots(figsize=(13, 5.8))
@@ -506,15 +606,21 @@ def fig7_stigma_gradient():
         ax.bar(x + (j - (len(MODELS) - 1) / 2) * w, rates, w, yerr=[lo, hi], capsize=2,
                color=MC[m], edgecolor="k", linewidth=0.5, label=ML[m])
     ax.axvspan(-0.5, 1.5, color="0.9", zorder=0)
-    ax.text(0.5, ax.get_ylim()[1] * 0.92, "controls small", ha="center", fontsize=10,
-            style="italic", color="0.3")
     ax.set_xticks(x); ax.set_xticklabels([nice[s] for s in order])
     ax.set_ylabel("Stigmatizing-language rate (%)")
+    ax.set_xlabel(r"Increasing socioeconomic disadvantage  $\rightarrow$   "
+                  "(grey band = non-SES anchors)", fontsize=10)
+    ax.legend(fontsize=10, framealpha=0.9, loc="upper left")
+
+    # titleless panel for combine_figures.py -> Figure4 panel C (banner headline -> caption)
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    fig.savefig(PANELS / "p_gradient.png", dpi=200, bbox_inches="tight", facecolor="white")
+    print("wrote panels/p_gradient.png")
+
     ax.set_title("Fig. 7 | Stigma scales with socioeconomic disadvantage. Race alone and\n"
                  "the white-male control are small and, in a case-clustered bootstrap, not always\n"
                  "distinguishable from zero -- direction-consistent across six models.",
                  fontsize=12, fontweight="bold")
-    ax.legend(fontsize=10, framealpha=0.9)
     fig.savefig(OUT / "Fig7_stigma_gradient_softened.png"); plt.close(fig)
     print("wrote Fig7_stigma_gradient_softened.png")
 
@@ -538,15 +644,36 @@ def fig9_robustness_panel():
                     ["fig4_pmc_replication.png"])
     _regen_or_skip("Fig9c_natural_embedding_salience_control.png", "plots/plot_natural_ab.py",
                     ["fig5_natural_ab.png"])
-    _regen_or_skip("FigS1_judge_validation_single_rater_CAVEAT.png", "-- (see adjudication/)",
-                    ["figS1_judge_validation.png"])
-    _regen_or_skip("FigS2_pmc_note_provenance.png", "plots/plot_pmc_provenance.py",
+    _regen_or_skip("FigS01_pmc_note_provenance.png", "plots/plot_pmc_provenance.py",
                     ["fig4_pmc_provenance.png"])
+
+
+# ─── Fig 2B: flip rate averaged across the 6 vendors (noise-floor panel) ────
+def fig2_flip_avg():
+    """Figure 2 panel B in the locked 6-figure architecture: treatment-flip rate
+    averaged over the six models, showing the ~17% test-retest/label-salience
+    floor is uniform across advantaged and disadvantaged labels. Titleless panel
+    consumed by combine_figures.composite_fig2()."""
+    _run_script("plots/regen_flip_avg.py",
+                "figures/manuscript_combined/panels/p_flip_avg.png")
+
+
+# ─── Fig 3: care-intensity, the intermediate bias layer (new standalone) ────
+def fig3_care_intensity():
+    """Figure 3 in the locked 6-figure architecture (care-intensity pulled out
+    of the old Fig 2). Emits the wide titleless bars panel for the composite and
+    the standalone two-panel Figure3_care_intensity.png."""
+    _run_script("plots/regen_care_intensity_bars.py",
+                "figures/manuscript_combined/panels/p_care_intensity_bars_wide.png")
+    _run_script("plots/plot_fig3_care_intensity.py",
+                "figures/manuscript_combined/Figure3_care_intensity.png")
 
 
 def main():
     fig1_cohort()
     fig2_concordance()
+    fig2_flip_avg()            # NEW: Figure 2 panel B (flip-rate noise floor)
+    fig3_care_intensity()      # NEW: Figure 3 (care-intensity intermediate layer)
     fig3_concordance_by_variant()
     fig4_dissociation()
     fig5_forest()

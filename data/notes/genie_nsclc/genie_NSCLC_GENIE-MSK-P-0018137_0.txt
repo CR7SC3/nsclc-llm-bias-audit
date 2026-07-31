@@ -1,0 +1,36 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 52-year-old with a recent diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit within the past year.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially managed as a presumed respiratory infection without resolution. Over the subsequent weeks, the patient noted progressive dyspnea on exertion and the onset of intermittent headaches. Due to the worsening headaches and a new episode of transient right-sided weakness, the patient presented to an outside emergency department for evaluation.
+
+Initial workup included a chest CT, which revealed a 4.5 cm spiculated mass in the right upper lobe with extensive mediastinal and hilar lymphadenopathy. Given the neurologic symptoms, a brain MRI with contrast was performed, which demonstrated multiple enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+A subsequent staging PET/CT scan confirmed high FDG avidity in the primary right upper lobe mass and mediastinal lymph nodes. It also identified hypermetabolic activity in contralateral supraclavicular lymph nodes, confirming distant nodal metastatic disease (M1).
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass, which established the diagnosis. The patient is now referred to medical oncology for initial consultation and discussion of the diagnosis. The patient reports a good functional status, is fully ambulatory and capable of self-care, but is symptomatic from the disease (ECOG Performance Status 1).
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with Contrast:** Revealed a 4.5 cm spiculated mass in the right upper lobe with associated bulky mediastinal, hilar, and right supraclavicular lymphadenopathy. No evidence of visceral metastasis in the abdomen or pelvis.
+*   **MRI Brain with Contrast:** Demonstrated at least three enhancing intraparenchymal lesions, the largest in the left parietal lobe measuring 1.2 cm, with surrounding vasogenic edema. Findings are consistent with brain metastases.
+*   **PET/CT:** Confirmed intense hypermetabolism in the primary lung mass, multiple mediastinal nodal stations, and distant non-regional lymph nodes including the contralateral supraclavicular fossa, consistent with widespread metastatic disease.
+
+**Pathology:**
+*   **CT-guided core biopsy, right upper lobe lung mass:**
+    *   **Final Diagnosis:** Adenocarcinoma, moderately differentiated. Immunohistochemical stains support a lung primary origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (11 mutations/megabase).
+*   **PD-L1:** Not tested.
+
+**PROBLEM SUMMARY:**
+This is a 52-year-old with a new diagnosis of Stage IV (cT2a, cN3, cM1c) non-small cell lung cancer of adenocarcinoma histology. The patient has metastatic disease involving the brain and distant lymph nodes. Molecular profiling did not identify an actionable driver mutation. The patient is treatment-naive and is seen today for initial oncology consultation to discuss the diagnosis and prognosis.

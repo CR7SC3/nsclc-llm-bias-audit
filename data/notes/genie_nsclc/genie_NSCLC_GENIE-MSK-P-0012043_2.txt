@@ -1,0 +1,27 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is an 82-year-old with a past medical history notable for breast cancer, who is seen in consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month ago when they began experiencing intermittent headaches and mild word-finding difficulty. These symptoms prompted an evaluation in an outside emergency department.
+
+An initial non-contrast head CT was concerning for intracranial masses, which led to a formal brain MRI with contrast. This study confirmed the presence of multiple enhancing lesions consistent with metastatic disease. A subsequent staging workup was initiated to identify a primary malignancy, including a contrast-enhanced CT of the chest, abdomen, and pelvis. This imaging revealed a suspicious 4.1 cm spiculated mass in the upper lobe of the left lung with associated mediastinal lymphadenopathy. No other sites of extracranial metastatic disease were identified.
+
+The patient was referred to interventional radiology and underwent a CT-guided core needle biopsy of the left lung mass. Pathology confirmed the diagnosis of adenocarcinoma. The patient has remained functional, with an ECOG performance status of 1, but reports ongoing mild fatigue. They present today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+*   **Brain MRI ([De-identified Date]):** Revealed multiple, scattered enhancing parenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits.
+*   **CT Chest/Abdomen/Pelvis ([De-identified Date]):** Identified a 4.1 cm spiculated mass in the left upper lobe. Prominent mediastinal and left hilar lymph nodes were noted. No suspicious hepatic, adrenal, or osseous lesions were seen.
+*   **Pathology, Left Lung Mass Biopsy ([De-identified Date]):** Invasive adenocarcinoma, moderately differentiated. Immunohistochemical stains are consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor tissue demonstrated the following:
+*   **Actionable Driver:** An EGFR uncommon sensitizing mutation was detected.
+*   **Negative for:** Alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1:** Not tested.
+
+**Problem Summary:**
+In summary, this is an 82-year-old never-smoker who presents with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. Molecular testing of the tumor is significant for the presence of an EGFR uncommon sensitizing mutation. The patient is treatment-naive and is here for initial consultation to review the findings.

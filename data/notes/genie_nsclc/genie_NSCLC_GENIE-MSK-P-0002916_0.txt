@@ -1,0 +1,17 @@
+**HPI:**
+This is a 34-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology consultation. The patient is a lifetime never-smoker. They were in their usual state of health until approximately one month prior to diagnosis, when they began experiencing a persistent, non-productive cough and intermittent headaches. The headaches progressively worsened, prompting presentation to an outside emergency department. The patient reports good energy levels and has had no significant weight loss. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+An initial CT scan of the chest obtained during the initial workup revealed a 3.5 cm spiculated mass in the left upper lobe, along with suspicious mediastinal lymphadenopathy. Given the patient's neurologic symptoms, a contrasted MRI of the brain was performed, which demonstrated multiple cerebellar and cerebral metastatic lesions.
+
+Subsequent staging with a PET/CT scan confirmed the hypermetabolic left upper lobe mass and mediastinal nodes. The PET scan also revealed widespread FDG-avid metastatic disease to the skeleton, including lesions in the thoracic spine and pelvis.
+
+A CT-guided core biopsy of the primary left lung mass was performed. Pathology confirmed invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tissue biopsy specimen. No actionable driver alteration was identified. Specifically, the tumor was negative for mutations, fusions, or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was positive. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 34-year-old never-smoker who presents with newly diagnosed Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the brain and bone. Molecular profiling is notable for the absence of an actionable driver mutation. The tumor is PD-L1 positive with an intermediate tumor mutational burden. The patient is seen today for initial consultation to discuss the diagnosis and establish a plan for care.

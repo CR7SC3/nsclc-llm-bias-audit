@@ -1,0 +1,15 @@
+**HPI:**
+This is a 75-year-old individual with a history of former tobacco use who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who ordered a chest radiograph that was suspicious for a right-sided pulmonary lesion. The patient denies hemoptysis, fevers, chills, or significant weight loss. They report good energy levels and remain fully independent in all activities of daily living, with an estimated ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified]. This study confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. Several enlarged ipsilateral mediastinal and subcarinal lymph nodes were also noted.
+
+For definitive staging, a PET/CT scan was subsequently performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass as well as in the previously noted mediastinal and subcarinal lymph nodes, consistent with locoregional nodal involvement (N2). Importantly, the PET scan revealed no evidence of hypermetabolic activity suggestive of distant metastatic disease in the contralateral lung, liver, adrenal glands, or bones. A contrast-enhanced MRI of the brain was also completed as part of the standard staging workup and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Final pathology returned as invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for comprehensive next-generation sequencing. Molecular analysis detected an actionable driver mutation in the form of a RET fusion. The tumor was found to be negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase. PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 75-year-old former smoker with an excellent performance status who presents with a new diagnosis of non-metastatic, Stage IIIA (cT2aN2M0) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup is complete and has excluded distant metastatic disease. Molecular profiling of the tumor is notable for the presence of a RET fusion.

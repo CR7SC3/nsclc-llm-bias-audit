@@ -1,0 +1,21 @@
+**HPI:**
+This is an 82-year-old individual with a history of former tobacco use who presents for an initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms prompted an evaluation by their primary care provider, leading to initial imaging studies. The patient reports some fatigue but denies fevers, chills, or significant unintentional weight loss. They remain fully ambulatory and capable of all self-care, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest radiograph demonstrated a right-sided lung opacity, prompting a follow-up CT scan of the chest, abdomen, and pelvis with contrast. This study revealed a large, spiculated 4.5 cm mass in the right upper lobe. The scan also identified multiple small nodules in the contralateral (left) lung, suspicious for metastatic disease. Additionally, a moderate right-sided pleural effusion was noted.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathological examination of the tissue confirmed the diagnosis of lung adenocarcinoma. A subsequent thoracentesis was performed on the right-sided pleural effusion, and cytological analysis of the pleural fluid was also positive for malignant cells, confirming malignant pleural disease.
+
+A staging PET/CT scan was performed, which confirmed high FDG avidity in the primary right upper lobe mass, the contralateral pulmonary nodules, and the right pleura, consistent with widespread metastatic disease. No other distant metastatic sites were identified. A dedicated MRI of the brain was negative for intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer, with metastases to the contralateral lung and pleura (cT3 N0 M1a).
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. The analysis identified two actionable driver mutations: a **MET exon 14 skipping mutation** and a **KRAS G12C mutation**.
+
+The tumor was found to be negative for pathogenic alterations in **EGFR, ALK, ROS1, BRAF, RET, NTRK, and ERBB2**.
+
+Tumor Mutational Burden (TMB) was characterized as **intermediate (2–16 mutations/megabase)**. PD-L1 expression was **not tested**, as the tissue was analyzed prior to this becoming a standard reflex test.
+
+**Problem Summary:**
+In summary, this is an 82-year-old former smoker with a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, with metastatic disease involving the contralateral lung and pleura. The patient is treatment-naive and maintains a good performance status (ECOG 1). Molecular profiling of the tumor is notable for the co-occurrence of a MET exon 14 skipping mutation and a KRAS G12C mutation. The patient is seen today to review these findings and discuss the goals of care and management options.

@@ -1,0 +1,13 @@
+**HPI:**
+This is the initial oncology consultation for a 77-year-old who presents for evaluation of newly diagnosed metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough and new-onset right-sided back pain. Initial management by their primary care provider for presumed musculoskeletal strain was unhelpful. Due to the persistence of symptoms, a chest radiograph was obtained which revealed a left upper lobe lung mass. The patient is a lifetime never-smoker. They report mild fatigue but otherwise maintain an excellent performance status, continuing to live independently and perform all activities of daily living without assistance. They deny fevers, chills, night sweats, or significant weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This confirmed the presence of a 3.5 cm spiculated mass in the left upper lobe. The scan also revealed extensive mediastinal and contralateral supraclavicular lymphadenopathy. A lytic lesion was noted in the T7 vertebral body, concerning for osseous metastasis. A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary left upper lobe mass, the mediastinal and supraclavicular lymph nodes, and the T7 vertebral body lesion, confirming M1 disease. A dedicated MRI of the brain with contrast was performed as part of the metastatic workup and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. A BRAF V600E mutation was detected. Testing was negative for other actionable alterations, including EGFR, ALK, ROS1, MET exon 14 skipping, RET, NTRK, ERBB2 (HER2), and KRAS. Tumor mutational burden (TMB) was low at <2 mutations/megabase. PD-L1 immunohistochemistry was not performed on the initial sample.
+
+**Problem Summary:**
+This is a 77-year-old with an excellent performance status and a new diagnosis of Stage IV (cT2a N3 M1b) lung adenocarcinoma, consistent with a never-smoker etiology. The disease is metastatic to bone and distant lymph nodes. Molecular profiling of the tumor is notable for the presence of a BRAF V600E mutation.

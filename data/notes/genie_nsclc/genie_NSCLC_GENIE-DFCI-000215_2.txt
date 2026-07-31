@@ -1,11 +1,19 @@
 **HPI:**
-The patient is a 76-year-old individual presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient reports a several-month history of a persistent, non-productive cough and progressive dyspnea on exertion. More recently, they developed new-onset, intermittent headaches, which prompted further medical evaluation. The patient's overall performance status is estimated at ECOG 1.
+This is a 76-year-old individual with a history of smoking (quit >1 year ago) who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and new-onset, nagging low back pain. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. The patient reports mild fatigue but is otherwise maintaining a good performance status, continuing with all activities of daily living with minimal assistance. Review of systems is otherwise negative for fevers, chills, weight loss, or hemoptysis.
 
 **Diagnostic Workup:**
-Initial evaluation included a chest X-ray, which demonstrated a suspicious mass in the right upper lobe. This finding led to a contrast-enhanced CT scan of the chest, abdomen, and pelvis, confirming a primary lung mass, along with mediastinal lymphadenopathy and a suspicious lesion in the left adrenal gland. A subsequent PET-CT scan showed hypermetabolic activity in the right upper lobe mass, several mediastinal lymph nodes, and the left adrenal lesion, consistent with metastatic disease. Given the patient's new headaches, an MRI of the brain was performed, which revealed multiple enhancing lesions indicative of brain metastases. A CT-guided biopsy of the right upper lobe lung mass confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Based on the presence of distant metastases (brain and adrenal), the patient is diagnosed with AJCC Stage IV NSCLC.
+Following the abnormal chest X-ray, a CT of the chest, abdomen, and pelvis with contrast was performed. This imaging identified a 4.2 cm spiculated mass in the right upper lobe, along with mediastinal lymphadenopathy.
+
+For definitive staging, a PET/CT scan was subsequently obtained. This demonstrated high FDG-avidity in the primary right upper lobe mass and in mediastinal lymph nodes. Additionally, the scan revealed multiple foci of intense uptake in the axial skeleton, including a lytic lesion in the L4 vertebral body, consistent with osseous metastases. A contrast-enhanced MRI of the brain was performed and was negative for intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology review confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
 
 **Molecular Studies:**
-Molecular profiling was performed on the diagnostic lung biopsy specimen. Results indicate the presence of an EGFR uncommon sensitizing mutation. Comprehensive testing for other oncogenic drivers yielded negative results for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET fusion, and NTRK fusion. PD-L1 expression status is not reported at this time.
+Tumor tissue from the biopsy was sent for next-generation sequencing. The results are as follows:
+-   **Actionable driver detected:** EGFR uncommon sensitizing mutation.
+-   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 (HER2) mutations or fusions.
+-   **PD-L1:** Not tested.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-This is a 76-year-old treatment-naive patient with newly diagnosed, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is characterized by a primary right upper lobe tumor, mediastinal lymphadenopathy, brain metastases, and an adrenal metastasis. Molecular testing has identified an EGFR uncommon sensitizing mutation. The patient is undergoing initial oncology evaluation to discuss systemic therapy options.
+In summary, this is a 76-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Molecular profiling is notable for the presence of an uncommon sensitizing EGFR mutation. The patient is treatment-naive and is seen today to discuss these findings.

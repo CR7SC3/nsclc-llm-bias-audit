@@ -1,0 +1,27 @@
+**Initial Oncology Consultation**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+I had the pleasure of meeting this 63-year-old in consultation today to discuss a new diagnosis of non-small cell lung cancer.
+
+**History of Present Illness:**
+The patient is a 63-year-old with a history of former tobacco use (quit >1 year ago) who was in their usual state of health until approximately two months prior to presentation. They developed a persistent, non-productive cough and progressive dyspnea on exertion, which prompted a visit to their primary care provider. An initial chest X-ray revealed a right-sided lung opacity, leading to further cross-sectional imaging. The patient reports a fair energy level but has noted some fatigue. They deny fevers, chills, night sweats, or significant unintentional weight loss. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed. This imaging demonstrated a spiculated 4.8 cm mass in the right upper lobe. It also revealed extensive mediastinal lymphadenopathy, including bulky subcarinal and right paratracheal nodes. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs.
+
+To complete staging, a PET/CT was obtained. This study confirmed intense FDG-avidity in the primary right upper lobe mass and in multiple mediastinal nodal stations, consistent with the CT findings. Importantly, the PET/CT showed no evidence of distant metastatic disease.
+
+Given the extent of locoregional disease, a brain MRI with and without contrast was performed for central nervous system staging, which was negative for intracranial metastases.
+
+A definitive diagnosis was established via bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration (FNA) of a subcarinal lymph node. Pathologic review of the specimen confirmed the diagnosis of non-small cell lung cancer, not otherwise specified (NOS).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-FNA.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry (IHC) was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+
+**Problem Summary:**
+This is a 63-year-old former smoker with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA non-small cell lung cancer, NOS histology. Staging workup including PET/CT and brain MRI confirmed disease confined to the chest. Molecular profiling is notable for positive PD-L1 expression (TPS 1-49%) and the absence of any identified actionable driver mutations. The patient has an ECOG performance status of 1 and is here today to discuss the diagnosis and potential management options.

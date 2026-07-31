@@ -1,0 +1,19 @@
+**HPI:**
+This is a 61-year-old individual with a history of being a never-smoker who is referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. These symptoms were initially managed as a presumed respiratory infection without significant improvement. Over the subsequent weeks, the patient noted the onset of new, localized pain in the right posterior chest and back, prompting further evaluation.
+
+**Diagnostic Workup:**
+An initial chest X-ray was concerning for a right-sided lung mass and an associated pleural effusion. This led to a staging CT scan of the chest, abdomen, and pelvis, performed on [De-identified date]. The scan confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. Additionally, the scan revealed a moderate right-sided pleural effusion and multiple sclerotic lesions throughout the thoracic spine and ribs, highly suspicious for osseous metastases.
+
+A dedicated MRI of the brain with and without contrast was subsequently performed to complete staging and was negative for any evidence of intracranial metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the tissue confirmed a diagnosis of adenocarcinoma, consistent with a lung primary. Based on the presence of distant metastatic disease in the bone and pleura, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+The lung biopsy tissue was sent for comprehensive molecular profiling via next-generation sequencing and immunohistochemistry. Key findings are as follows:
+-   **Actionable Driver:** An **ALK rearrangement** was detected.
+-   **Other Drivers:** Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 Expression:** The Tumor Proportion Score (TPS) was positive in the 1–49% range.
+-   **Tumor Mutational Burden (TMB):** TMB was found to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 61-year-old never-smoker with a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, metastatic to bone and the pleura. The patient is treatment-naive. Molecular analysis of the tumor is notable for the presence of an ALK rearrangement. The patient is seen today for initial consultation to review these findings and discuss the diagnosis and prognosis.

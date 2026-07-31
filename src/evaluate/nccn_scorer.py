@@ -19,16 +19,48 @@ from typing import Any
 # Pinned guideline version
 # ---------------------------------------------------------------------------
 
-NCCN_GUIDELINE_VERSION = "NSCLC v1.2025"
+NCCN_GUIDELINE_VERSION = "NSCLC v6.2026"
 
 
 # ---------------------------------------------------------------------------
 # Biomarker helpers
 # ---------------------------------------------------------------------------
 
+def _is_egfr_classic_sensitising(egfr: str) -> bool:
+    """Classic EGFR sensitising mutations: exon 19 deletion or L858R only.
+
+    These follow the NSCL-21 pathway (osimertinib / FLAURA2 / MARIPOSA).
+    Atypical TKI-responsive variants (G719X, L861Q, S768I, coded here as
+    'other_sensitising') are NOT included — they follow the SEPARATE NSCL-24
+    pathway (afatinib/osimertinib), see _is_egfr_atypical.
+    Note: exon_20_ins is NOT included — it is TKI-insensitive (needs amivantamab).
+    """
+    return egfr in (
+        "exon_19_del", "l858r", "exon19del", "exon_19", "del19",
+    )
+
+
+def _is_egfr_atypical(egfr: str) -> bool:
+    """Atypical EGFR mutations S768I / L861Q / G719X — NSCL-24 pathway.
+
+    v6.2026 first-line: afatinib OR osimertinib (preferred); dacomitinib,
+    erlotinib, gefitinib (other recommended). FLAURA2 and MARIPOSA are NOT
+    indicated for these mutations (that is NSCL-21, classic exon19del/L858R only).
+    Cohort coding: these arrive as 'other_sensitising'.
+    """
+    return egfr in (
+        "other_sensitising", "s768i", "l861q", "g719x", "atypical",
+    )
+
+
 def _is_egfr_sensitising(egfr: str) -> bool:
-    """Single source of truth for EGFR sensitising (TKI-responsive) mutations."""
-    return egfr in ("exon_19_del", "l858r", "exon19del", "exon_19", "del19")
+    """Any TKI-responsive EGFR mutation (classic OR atypical).
+
+    Retained for the Stage I–III adjuvant-osimertinib logic, which does not
+    distinguish classic vs atypical. Stage IV first-line MUST branch on the
+    two separate pathways (classic → NSCL-21, atypical → NSCL-24) instead.
+    """
+    return _is_egfr_classic_sensitising(egfr) or _is_egfr_atypical(egfr)
 
 
 # ---------------------------------------------------------------------------
@@ -92,9 +124,29 @@ DABRAFENIB_TRAMETINIB = "dabrafenib + trametinib"
 SELPERCATINIB = "selpercatinib"
 PRALSETINIB = "pralsetinib"
 LAROTRECTINIB = "larotrectinib"
+# --- v6.2026 additions ---
+# Atypical EGFR (S768I / L861Q / G719X) — NSCL-24 pathway (distinct from exon19del/L858R)
+AFATINIB = "afatinib"
+DACOMITINIB = "dacomitinib"
+ERLOTINIB = "erlotinib"
+GEFITINIB = "gefitinib"
+ENSARTINIB = "ensartinib"                                        # ALK, Cat 1 preferred (v6.2026)
+REPOTRECTINIB = "repotrectinib"                                  # ROS1 & NTRK preferred (v6.2026)
+BINIMETINIB_ENCORAFENIB = "binimetinib + encorafenib"            # BRAF V600E co-preferred (v6.2026)
+# ERBB2 (HER2) mutation — NSCL-36: these are SUBSEQUENT-LINE agents (first-line is
+# PD-L1-driven systemic therapy). Retained as documentation of the guideline pathway;
+# NOT returned by any first-line node (see the ERBB2 fall-through comment in _stage_iv_pathway).
+TRASTUZUMAB_DERUXTECAN = "fam-trastuzumab deruxtecan"
+ZONGERTINIB = "zongertinib"
+SEVABERTINIB = "sevabertinib"
+# NRG1 fusion — NSCL-37: SUBSEQUENT-LINE agent (first-line is PD-L1-driven). Documentation only.
+ZENOCUTUZUMAB = "zenocutuzumab"
 
 # --- Stage IV: immunotherapy ---
 PEMBROLIZUMAB = "pembrolizumab"
+CEMIPLIMAB = "cemiplimab"                    # EMPOWER-Lung 1; Category 1 PD-L1 ≥50%
+ATEZOLIZUMAB_MONO = "atezolizumab"           # IMpower110; Category 1 PD-L1 high (SP142 TC3/IC3)
+NIVO_IPI = "nivolumab + ipilimumab"          # CheckMate 227; Category 1 PD-L1 ≥1% / TMB ≥10
 
 # --- Stage IV: chemoimmunotherapy ---
 CARBO_PEM_PEMBRO = "carboplatin + pemetrexed + pembrolizumab"
@@ -163,6 +215,9 @@ def get_nccn_answer(clinical_profile: dict[str, Any]) -> dict[str, Any]:
     met = str(clinical_profile.get("met_status", "negative")).lower()
     ret = str(clinical_profile.get("ret_status", "negative")).lower()
     ntrk = str(clinical_profile.get("ntrk_status", "negative")).lower()
+    kras = str(clinical_profile.get("kras_status", "negative")).lower()
+    erbb2 = str(clinical_profile.get("erbb2_status", "negative")).lower()
+    nrg1 = str(clinical_profile.get("nrg1_status", "negative")).lower()
     pdl1 = str(clinical_profile.get("pdl1_tps_category", "unknown")).lower()
     ecog = int(clinical_profile.get("ecog_ps", 1))
     prior = str(clinical_profile.get("prior_therapy", "naive")).lower()
@@ -214,6 +269,7 @@ def get_nccn_answer(clinical_profile: dict[str, Any]) -> dict[str, Any]:
     if major == "IV":
         return _stage_iv_pathway(
             stage, histology, egfr, alk, ros1, braf, met, ret, ntrk,
+            kras, erbb2, nrg1,
             pdl1, ecog, brain_mets, is_squamous, is_nonsquamous,
         )
 
@@ -545,6 +601,9 @@ def _stage_iv_pathway(
     met: str,
     ret: str,
     ntrk: str,
+    kras: str,
+    erbb2: str,
+    nrg1: str,
     pdl1: str,
     ecog: int,
     brain_mets: bool,
@@ -552,19 +611,34 @@ def _stage_iv_pathway(
     is_nonsquamous: bool,
 ) -> dict[str, Any]:
 
-    # EGFR sensitising mutations
-    if _is_egfr_sensitising(egfr):
+    # EGFR classic sensitising mutations (exon 19 del or L858R) — NSCL-21
+    if _is_egfr_classic_sensitising(egfr):
         return _result(
             [OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB],
             OSIMERTINIB,
             True,
-            "Stage IV NSCLC → EGFR sensitising mutation (exon 19 del or L858R) → "
+            "Stage IV NSCLC → EGFR classic sensitising mutation (exon 19 del or L858R) → "
             "Three Category 1 options: osimertinib (FLAURA), osimertinib + carbo/pem (FLAURA2), "
             "amivantamab + lazertinib (MARIPOSA)",
             "All three are NCCN Category 1 as of 2024. Osimertinib monotherapy remains most "
             "widely used. FLAURA2 combination preferred for high-burden CNS disease. "
             "MARIPOSA showed superior OS vs osimertinib. "
             + ("Brain metastases: all three options have intracranial activity. " if brain_mets else ""),
+        )
+
+    # EGFR atypical mutations (S768I / L861Q / G719X) — NSCL-24 (SEPARATE pathway)
+    if _is_egfr_atypical(egfr):
+        return _result(
+            [AFATINIB, OSIMERTINIB, DACOMITINIB, ERLOTINIB, GEFITINIB],
+            AFATINIB,
+            True,
+            "Stage IV NSCLC → EGFR atypical mutation (S768I / L861Q / G719X) → "
+            "Afatinib or osimertinib (preferred); dacomitinib, erlotinib, gefitinib "
+            "(other recommended) [NSCL-24]",
+            "Atypical EGFR mutations follow a distinct NCCN pathway (NSCL-24). "
+            "Afatinib and osimertinib are the preferred first-line TKIs. "
+            "FLAURA2 (osimertinib + chemo) and MARIPOSA (amivantamab + lazertinib) are "
+            "NOT indicated for atypical mutations — those are specific to exon 19 del / L858R.",
         )
 
     if egfr == "exon_20_ins":
@@ -578,38 +652,43 @@ def _stage_iv_pathway(
 
     # ALK
     if alk == "positive":
-        acceptable = [ALECTINIB, BRIGATINIB, LORLATINIB]
+        acceptable = [ALECTINIB, BRIGATINIB, ENSARTINIB, LORLATINIB]
         return _result(
             acceptable,
             ALECTINIB,
             True,
             "Stage IV NSCLC → ALK rearrangement → "
-            "Next-generation ALK TKI (Category 1: alectinib, brigatinib, or lorlatinib)",
+            "Next-generation ALK TKI (Category 1 preferred: alectinib, brigatinib, "
+            "ensartinib, or lorlatinib) [NSCL-27]",
             "Alectinib and brigatinib both have superior PFS over crizotinib. "
-            "Lorlatinib (CROWN) also Category 1. "
-            + ("All three have demonstrated CNS activity for brain metastases. " if brain_mets else ""),
+            "Lorlatinib (CROWN) also Category 1. Ensartinib (eXalt3) is a Category 1 "
+            "preferred first-line option added in v6.2026. "
+            + ("All have demonstrated CNS activity for brain metastases. " if brain_mets else ""),
         )
 
     # ROS1
     if ros1 == "positive":
         return _result(
-            [ENTRECTINIB, TALETRECTINIB, CRIZOTINIB],
+            [ENTRECTINIB, REPOTRECTINIB, TALETRECTINIB, CRIZOTINIB],
             ENTRECTINIB,
             True,
             "Stage IV NSCLC → ROS1 rearrangement → "
-            "Entrectinib, taletrectinib (Cat 1 2025), or crizotinib",
-            "Entrectinib and taletrectinib preferred over crizotinib for CNS activity. "
-            + ("Taletrectinib or entrectinib preferred with brain metastases. " if brain_mets else ""),
+            "Entrectinib, repotrectinib, taletrectinib, or crizotinib (all preferred) [NSCL-30]",
+            "Entrectinib, repotrectinib, and taletrectinib preferred over crizotinib for CNS "
+            "activity. Repotrectinib (TRIDENT-1) added as preferred first-line in v6.2026. "
+            + ("Repotrectinib/taletrectinib/entrectinib preferred with brain metastases. " if brain_mets else ""),
         )
 
     # BRAF V600E
     if braf == "v600e":
         return _result(
-            [DABRAFENIB_TRAMETINIB],
+            [DABRAFENIB_TRAMETINIB, BINIMETINIB_ENCORAFENIB],
             DABRAFENIB_TRAMETINIB,
-            False,
-            "Stage IV NSCLC → BRAF V600E mutation → Dabrafenib + trametinib (Category 1)",
-            "Combination BRAF/MEK inhibition required; BRAF monotherapy not recommended.",
+            True,
+            "Stage IV NSCLC → BRAF V600E mutation → Dabrafenib + trametinib OR "
+            "binimetinib + encorafenib (both preferred combinations) [NSCL-32]",
+            "Combination BRAF/MEK inhibition required; BRAF monotherapy not recommended. "
+            "Binimetinib + encorafenib (PHAROS) added as co-preferred combination in v6.2026.",
         )
 
     # MET exon 14
@@ -636,31 +715,57 @@ def _stage_iv_pathway(
     # NTRK fusion
     if ntrk == "fusion":
         return _result(
-            [LAROTRECTINIB, ENTRECTINIB],
+            [LAROTRECTINIB, ENTRECTINIB, REPOTRECTINIB],
             LAROTRECTINIB,
             True,
-            "Stage IV NSCLC → NTRK fusion → Larotrectinib or entrectinib",
-            "TRK inhibitors are tumour-agnostic approvals.",
+            "Stage IV NSCLC → NTRK fusion → Larotrectinib, entrectinib, or repotrectinib "
+            "(all preferred) [NSCL-33]",
+            "TRK inhibitors are tumour-agnostic approvals. Repotrectinib added as a preferred "
+            "first-line option in v6.2026.",
         )
+
+    # ERBB2 (HER2) mutation — NSCL-36 (v6.2026): FIRST-LINE is systemic therapy
+    # (PD-L1-directed, NSCL-K 1 of 6). The HER2-directed agents (fam-trastuzumab
+    # deruxtecan, zongertinib, sevabertinib, ado-trastuzumab emtansine) are all in the
+    # SUBSEQUENT-THERAPY column on NSCL-36 — given on progression, NOT first-line.
+    # A treatment-naive first-line ERBB2 case therefore falls through to the
+    # driver-negative PD-L1/chemo-IO branch below, by design (same as KRAS G12C).
+    #   [verified against extracted NSCL-36 text: FIRST-LINE = "Systemic therapy
+    #    (NSCL-K 1 of 6)"; T-DXd/zongertinib/sevabertinib under "SUBSEQUENT THERAPY"].
+
+    # NRG1 fusion — NSCL-37 (v6.2026): FIRST-LINE is systemic therapy (NSCL-K 1 of 6);
+    # zenocutuzumab-zbco is SUBSEQUENT therapy only. Falls through to PD-L1 branch below.
+    #   [verified against extracted NSCL-37 text: FIRST-LINE column = systemic therapy].
+    # (No cohort case carries an nrg1_status field, so this never fires, but the branch
+    #  is documented for correctness parity with the guideline.)
+
+    # KRAS G12C — NSCL-26 (v6.2026): first-line is PD-L1-directed systemic therapy;
+    # sotorasib/adagrasib are SUBSEQUENT-line only, so a first-line KRAS G12C case
+    # falls through to the driver-negative PD-L1/chemo-IO branch below by design.
+    # (Explicit no-op branch documents that this is intentional, not an oversight.)
 
     # Driver-negative — PD-L1/chemoimmunotherapy
     if pdl1 == "high":
-        # Pembrolizumab mono is preferred; chemoimmunotherapy is also acceptable per NCCN.
+        # Pembrolizumab mono is preferred; cemiplimab (EMPOWER-Lung 1) and atezolizumab
+        # (IMpower110) are Category 1 alternatives. Nivolumab+ipilimumab (CheckMate 227)
+        # is Category 1 for PD-L1 ≥1%. Chemoimmunotherapy acceptable for high burden.
         pembro_combo = CARBO_PAC_PEMBRO if is_squamous else CARBO_PEM_PEMBRO
         return _result(
-            [PEMBROLIZUMAB, pembro_combo],
+            [PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, pembro_combo],
             PEMBROLIZUMAB,
             True,
             f"Stage IV NSCLC → {histology.title()} → No actionable driver → "
             "PD-L1 ≥50% (high) → Pembrolizumab monotherapy (Category 1, KEYNOTE-024)",
             "Pembrolizumab monotherapy is Category 1 and preferred for high PD-L1. "
-            "Chemoimmunotherapy is also an acceptable NCCN option for high disease burden.",
+            "Cemiplimab (EMPOWER-Lung 1) and atezolizumab (IMpower110) are Category 1 "
+            "alternatives. Nivolumab + ipilimumab (CheckMate 227) is Category 1 for "
+            "PD-L1 ≥1%. Chemoimmunotherapy is also acceptable for high disease burden.",
         )
 
     if pdl1 in ("intermediate", "low"):
         if is_nonsquamous:
             return _result(
-                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, NIVO_IPI],
                 CARBO_PEM_PEMBRO,
                 False,
                 "Stage IV NSCLC → Adenocarcinoma/Non-squamous → No actionable driver → "
@@ -668,17 +773,19 @@ def _stage_iv_pathway(
                 "Carboplatin + pemetrexed + pembrolizumab (Category 1, KEYNOTE-189)",
                 "KEYNOTE-189 established carbo/pem/pembro as standard of care for "
                 "non-squamous NSCLC with PD-L1 <50%. "
-                "Carbo/pem/atezo/bev (IMpower150) is an alternative Category 1 option.",
+                "Carbo/pem/atezo/bev (IMpower150) is an alternative Category 1 option. "
+                "Nivolumab + ipilimumab (CheckMate 227) is Category 1 for PD-L1 ≥1%.",
             )
         return _result(
-            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO],
+            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, NIVO_IPI],
             CARBO_PAC_PEMBRO,
             False,
             "Stage IV NSCLC → Squamous cell carcinoma → No actionable driver → "
             f"PD-L1 {pdl1} (<50%) → "
             "Carboplatin + paclitaxel + pembrolizumab (Category 1, KEYNOTE-407)",
             "KEYNOTE-407 established carbo/pac/pembro for squamous NSCLC. "
-            "Carboplatin + nab-paclitaxel + pembrolizumab is an equivalent alternative.",
+            "Carboplatin + nab-paclitaxel + pembrolizumab is an equivalent alternative. "
+            "Nivolumab + ipilimumab (CheckMate 227) is Category 1 for PD-L1 ≥1%.",
         )
 
     if pdl1 == "unknown":
@@ -688,26 +795,28 @@ def _stage_iv_pathway(
         # Mark ambiguous so concordance analysis can handle all possibilities.
         if is_nonsquamous:
             return _result(
-                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB, "testing_first"],
+                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB,
+                 CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, "testing_first"],
                 CARBO_PEM_PEMBRO,
                 True,
                 "Stage IV NSCLC → Adenocarcinoma/Non-squamous → No actionable driver → "
                 "PD-L1 unknown → Carboplatin + pemetrexed + pembrolizumab (Category 1, KEYNOTE-189)",
                 "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-189) is appropriate at any "
-                "PD-L1 level. Pembrolizumab monotherapy (KEYNOTE-024) is also acceptable if "
-                "PD-L1 ≥50% — cannot be ruled out. Testing PD-L1 first is also clinically "
-                "reasonable before choosing IO strategy.",
+                "PD-L1 level. Pembrolizumab, cemiplimab, or atezolizumab monotherapy acceptable "
+                "if PD-L1 ≥50%. Nivolumab + ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. "
+                "Testing PD-L1 first is also clinically reasonable.",
             )
         return _result(
-            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, PEMBROLIZUMAB, "testing_first"],
+            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, PEMBROLIZUMAB,
+             CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, "testing_first"],
             CARBO_PAC_PEMBRO,
             True,
             "Stage IV NSCLC → Squamous cell carcinoma → No actionable driver → "
             "PD-L1 unknown → Carboplatin + paclitaxel + pembrolizumab (Category 1, KEYNOTE-407)",
             "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-407) is appropriate at any "
-            "PD-L1 level. Pembrolizumab monotherapy (KEYNOTE-024) is also acceptable if "
-            "PD-L1 ≥50% — cannot be ruled out. Testing PD-L1 first is also clinically "
-            "reasonable before choosing IO strategy.",
+            "PD-L1 level. Pembrolizumab, cemiplimab, or atezolizumab monotherapy acceptable "
+            "if PD-L1 ≥50%. Nivolumab + ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. "
+            "Testing PD-L1 first is also clinically reasonable.",
         )
 
     return _unsupported(

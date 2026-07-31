@@ -1,0 +1,15 @@
+**HPI:**
+This is a 71-year-old individual with a history of being a never-smoker who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was asymptomatic and feeling well until a pulmonary nodule was incidentally discovered on a chest X-ray performed as part of a routine pre-operative evaluation for an unrelated elective surgery. The patient denies any cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers or weight loss. The patient remains fully active and independent with all activities of daily living, with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified date]. This study characterized a 4.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal, hilar, or supraclavicular lymphadenopathy. The visualized liver, adrenal glands, and osseous structures were unremarkable, with no findings suspicious for metastatic disease.
+
+A whole-body PET/CT scan was subsequently performed for staging. This demonstrated intense FDG-avidity isolated to the right upper lobe mass. No other sites of abnormal hypermetabolism were identified in the thorax or elsewhere to suggest nodal or distant metastatic involvement. A brain MRI with and without contrast was also obtained and was negative for any evidence of intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. Molecular analysis identified an actionable driver mutation in the form of an EGFR exon 19 deletion. Further testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 71-year-old never-smoker with a new diagnosis of Stage IIA non-small cell lung adenocarcinoma, localized to the right upper lobe. The patient is asymptomatic with an excellent performance status. Molecular profiling is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation.

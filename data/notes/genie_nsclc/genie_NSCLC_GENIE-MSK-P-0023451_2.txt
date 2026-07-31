@@ -1,0 +1,20 @@
+**HPI:**
+This is an initial medical oncology consultation for a 68-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient is a current smoker with a significant pack-year history. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and intermittent chest wall discomfort. This was associated with an unintentional 10-pound weight loss over the preceding three months. The patient denies hemoptysis, fevers, or significant dyspnea at rest. Past medical history is notable for a remote history of colon cancer, treated with surgery only, with no evidence of recurrence. The patient maintains a good functional status, continuing with activities of daily living without assistance, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray obtained at an urgent care center demonstrated a right upper lobe opacity, prompting further evaluation. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study characterized a 4.5 cm spiculated mass in the right upper lobe. It also revealed bulky ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.8 cm in short axis. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+To complete staging, a PET/CT was performed. This demonstrated intense FDG avidity in the primary right upper lobe mass and in the corresponding mediastinal and subcarinal lymph nodes, consistent with the diagnostic CT findings. Importantly, the PET/CT showed no evidence of FDG-avid disease elsewhere in the body, suggesting no distant metastases. A staging MRI of the brain with and without contrast was also obtained and was negative for any evidence of intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a poorly differentiated non-small cell carcinoma, with immunohistochemical staining favoring squamous cell carcinoma histology.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) of 1-49%.
+- Tumor Mutational Burden (TMB) was determined to be high (>16 mutations/megabase).
+
+**Problem Summary:**
+This is a 68-year-old with a new diagnosis of clinical Stage IIIA squamous non-small cell lung cancer of the right lung. The patient is a current smoker with an excellent performance status. Staging workup including PET/CT and brain MRI is negative for distant metastatic disease. Comprehensive molecular profiling of the tumor is notable for a PD-L1 TPS of 1-49% and high TMB, with no identified targetable driver alterations. The patient presents for initial consultation to discuss the diagnosis and establish a plan of care.

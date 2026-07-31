@@ -105,6 +105,9 @@ _PROCESSED_PATHS = {
     # Shared stratified frame for credited extra arms (GPT-4o/Claude) — Gemini notes,
     # same case_ids as the full arms so head-to-head analysis is paired.
     "genie_bpc_nsclc_n300":         "data/processed/genie_bpc_nsclc_n300_with_notes.json",
+    # 151-case mitigation head-to-head: exactly the cases present in ALL DeepSeek mitigation
+    # arms (the salvage intersection), so the Gemini ladder is matched case-for-case to DeepSeek.
+    "genie_bpc_nsclc_mitig151":     "data/processed/genie_bpc_nsclc_mitig151_with_notes.json",
     # Natural-prose embedding control (M4 salience artifact): same case_ids as the
     # full arm, demographics woven into narrative instead of a bracketed tag.
     "genie_bpc_nsclc_natural150":   "data/processed/genie_bpc_nsclc_natural150_with_notes.json",
@@ -364,7 +367,8 @@ if __name__ == "__main__":
         "--subset",
         choices=["synthetic_structured", "synthetic_unstructured", "genie_bpc_nsclc", "genie_bpc_nsclc_pilot50",
                  "genie_bpc_nsclc_templates", "genie_bpc_nsclc_templates100",
-                 "genie_bpc_nsclc_n300", "genie_bpc_nsclc_natural150", "pmc_nsclc",
+                 "genie_bpc_nsclc_n300", "genie_bpc_nsclc_mitig151",
+                 "genie_bpc_nsclc_natural150", "pmc_nsclc",
                  "genie_bpc_brca", "genie_bpc_brca_pilot50",
                  "genie_bpc_panc", "genie_bpc_panc_pilot50",
                  "genie_bpc_brca_templates100", "genie_bpc_panc_templates100"],

@@ -1,0 +1,36 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Date of Consultation:** [De-identified]
+**Referring Provider:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 66-year-old with a history of prostate cancer (status post treatment, currently in remission) and a former smoking history (quit over one year ago), who is referred for initial evaluation of newly diagnosed non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This prompted an evaluation with their primary care provider, which led to initial imaging studies. The patient has a good performance status, remaining fully ambulatory and capable of all self-care, though their activity is limited by shortness of breath.
+
+**PAST MEDICAL HISTORY:**
+1. Prostate Cancer
+2. Hypertension
+
+**SOCIAL HISTORY:**
+Former smoker, approximately 20 pack-year history, quit more than one year ago.
+
+**DIAGNOSTIC WORKUP:**
+A CT scan of the chest was performed which revealed a large, spiculated mass in the right upper lobe measuring approximately 5.5 cm, with associated bulky ipsilateral mediastinal and hilar lymphadenopathy.
+
+For staging purposes, a PET/CT scan was subsequently obtained. This demonstrated intense FDG-avidity in the primary right upper lobe mass and in multiple right-sided mediastinal (level 4R, 7) and hilar nodal stations, consistent with locoregionally advanced disease. No evidence of distant metastatic disease was identified in the chest, abdomen, or pelvis.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a diagnosis of invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Actionable Driver Mutation:** MET exon 14 skipping mutation detected.
+- **Other Markers:** Negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Not tested (testing was not standard of care at the time of sequencing).
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 66-year-old with a new diagnosis of Stage IIIB (cT3N2M0) non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for the presence of a MET exon 14 skipping mutation. The patient is treatment-naive and presents today to discuss the diagnosis and potential management options.

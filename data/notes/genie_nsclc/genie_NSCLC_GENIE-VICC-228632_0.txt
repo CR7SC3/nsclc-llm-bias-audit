@@ -1,0 +1,25 @@
+**HPI:**
+This is a 76-year-old individual with a history of smoking who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began experiencing persistent headaches and subtle word-finding difficulties. These symptoms prompted an evaluation in an emergency department, where a brain MRI was performed and revealed multiple intracranial lesions concerning for metastatic disease.
+
+Subsequent staging workup was initiated. A CT of the chest, abdomen, and pelvis demonstrated a primary mass in the right upper lobe of the lung, associated with a moderate-sized right-sided pleural effusion and a lytic lesion in the T7 vertebral body. The patient underwent a video-assisted thoracoscopic surgery (VATS) for a pleural biopsy and talc pleurodesis. Pathology from this procedure confirmed the diagnosis.
+
+The patient is a former smoker, having quit more than one year ago. They report increased fatigue and a 10-pound weight loss over the past two months. Their performance status is fair; they are ambulatory and capable of all self-care but are restricted in physically strenuous activity. They deny significant shortness of breath, cough, or hemoptysis at this time. The patient is here today, accompanied by family, to discuss the diagnosis in detail.
+
+**Diagnostic Workup:**
+- **MRI Brain with and without contrast [De-identified Date]:** Multiple ring-enhancing intra-axial lesions in the bilateral cerebral and cerebellar hemispheres, the largest measuring 1.5 cm in the left frontal lobe with surrounding vasogenic edema. Findings are consistent with metastatic disease.
+
+- **CT Chest, Abdomen, and Pelvis with contrast [De-identified Date]:**
+  - Chest: A 4.2 cm spiculated mass in the right upper lobe. A moderate right-sided malignant-appearing pleural effusion. No suspicious mediastinal or hilar lymphadenopathy.
+  - Abdomen/Pelvis: No evidence of visceral metastatic disease in the abdomen.
+  - Bones: A 2.1 cm lytic lesion is noted in the T7 vertebral body, consistent with an osseous metastasis.
+
+- **Pleural Biopsy and Fluid Cytology [De-identified Date]:** Pathology from the right-sided pleural tissue and fluid analysis confirmed the presence of adenocarcinoma. Immunohistochemical stains are consistent with a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy specimen.
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as high (>16 mut/Mb).
+- PD-L1 expression was not tested, consistent with the standard of care at the time the assay was performed.
+
+**Problem Summary:**
+In summary, this is a 76-year-old with newly diagnosed, treatment-naive Stage IV (cT2a N0 M1c) non-small cell lung cancer of adenocarcinoma histology. Staging studies confirm metastatic disease to the brain, bone, and pleura. Molecular profiling is notable for a high tumor mutational burden (TMB) but is negative for common actionable driver alterations. The patient is here to establish care and discuss the findings.

@@ -1,0 +1,19 @@
+**HPI:**
+This is a 58-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and new-onset, nagging pain in the upper back. The symptoms did not resolve with conservative measures, prompting an evaluation with their primary care provider.
+
+An initial chest radiograph revealed a right upper lobe opacity, leading to a follow-up contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed the presence of a large mass in the right upper lobe with extensive mediastinal lymphadenopathy. Critically, the scan also identified multiple lytic lesions in the thoracic spine and ribs, as well as an enlarged left supraclavicular lymph node, concerning for metastatic disease. The patient reports the back pain has been manageable with non-prescription analgesics but is constant. They note mild fatigue but otherwise maintain a good performance status, continuing with all activities of daily living. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+A PET/CT scan performed on [De-identified] confirmed a hypermetabolic primary mass in the right upper lobe measuring approximately 5 cm, with intense FDG uptake in right hilar and mediastinal lymph nodes. Widespread metastatic disease was confirmed, with avid uptake corresponding to the known osseous lesions in the thoracic spine and in a left supraclavicular lymph node, confirming M1 disease. A contrast-enhanced MRI of the brain was performed and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right lung mass. Pathology review confirmed invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the following:
+- Actionable driver mutations: EGFR exon 19 deletion (sensitizing) and high-level MET amplification.
+- Negative for pathogenic alterations in: ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+Newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with bone and distant lymph node metastases. The tumor is characterized by an EGFR exon 19 deletion and high-level MET amplification.

@@ -1,0 +1,22 @@
+**HPI:**
+This is a 72-year-old individual with a history of smoking who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. Over the subsequent weeks, they also noted the onset of progressive right hip pain, which was initially managed with over-the-counter analgesics but worsened to the point of limiting ambulation. This prompted an evaluation by their primary care physician.
+
+The patient is a former smoker with a significant pack-year history, having quit within the last year. Review of systems is notable for fatigue and an unintentional weight loss of approximately 10 pounds over the past two months. The patient denies headaches, vision changes, focal weakness, or other neurologic symptoms. They remain ambulatory but with an antalgic gait due to hip pain. ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+The patient's initial workup began with plain films of the right hip, which demonstrated a lytic lesion in the proximal femur, concerning for a metastatic process.
+
+A staging CT scan of the chest, abdomen, and pelvis with contrast was subsequently performed on [De-identified date]. This study revealed a 4.5 cm spiculated mass in the left upper lobe of the lung with associated bulky mediastinal lymphadenopathy. The scan also confirmed the presence of multiple lytic osseous lesions, including in the right proximal femur and the T7 vertebral body, consistent with widespread metastatic disease. No adrenal, hepatic, or other visceral metastases were identified.
+
+A staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of poorly differentiated non-small cell carcinoma with features consistent with squamous cell histology.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was sent for next-generation sequencing to evaluate for targetable genomic alterations. The results are as follows:
+- No actionable driver alteration was identified. Testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 72-year-old former smoker who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer of squamous histology, with metastases to bone. Molecular profiling is notable for an intermediate Tumor Mutational Burden and the absence of an identifiable actionable driver mutation. The patient is treatment-naive and is seen today for initial consultation.

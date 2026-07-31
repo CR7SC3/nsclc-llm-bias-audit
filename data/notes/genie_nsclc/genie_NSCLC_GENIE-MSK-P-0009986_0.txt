@@ -1,0 +1,23 @@
+**HPI:**
+The patient is a 62-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit less than one year ago. The diagnosis was prompted by an incidental finding of a pulmonary nodule on a chest radiograph performed for an unrelated reason. The patient was asymptomatic at the time of discovery and continues to deny cough, dyspnea, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. Given the imaging finding, the patient was referred for further diagnostic evaluation, which has led to the present consultation to discuss the findings. The patient has an excellent performance status, ECOG 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was obtained which confirmed the presence of a 2.5 cm solid nodule in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+For staging, a whole-body PET/CT scan was performed. This study demonstrated intense FDG-avidity localized to the right upper lobe nodule, consistent with malignancy. Importantly, there was no evidence of hypermetabolic activity in regional lymph nodes or at any distant sites to suggest locoregional or metastatic disease.
+
+A dedicated MRI of the brain with and without contrast was also obtained as part of the standard staging workup and was negative for any evidence of intracranial metastasis.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified Date]. Histopathologic examination of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on this comprehensive workup, the patient is diagnosed with AJCC 8th Edition Stage IB non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen to assess for targetable alterations.
+- No actionable driver alteration was identified.
+- The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 62-year-old with a new diagnosis of Stage IB (pT2aN0M0) non-small cell lung adenocarcinoma of the right upper lobe. The patient is asymptomatic with an excellent performance status. Molecular profiling of the tumor is notable for the absence of an identified actionable driver mutation.

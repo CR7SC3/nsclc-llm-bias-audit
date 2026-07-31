@@ -1,0 +1,24 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**History of Present Illness:**
+This is a 46-year-old individual with no significant past medical history who presents for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms initially did not respond to a course of antibiotics for presumed community-acquired pneumonia. Due to worsening shortness of breath, which began to limit strenuous activity, further investigation was pursued. The patient denies hemoptysis, fevers, chills, or significant weight loss. They remain fully ambulatory and capable of all self-care, though symptomatic. ECOG performance status is 1. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a left-sided lung mass and a moderate pleural effusion. This prompted a staging CT scan of the chest, abdomen, and pelvis with intravenous contrast. The CT confirmed a 3.5 cm spiculated mass in the left upper lobe and a large, loculated left-sided pleural effusion. No other sites of distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A dedicated MRI of the brain with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+To establish a tissue diagnosis and characterize the pleural effusion, the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass as well as a thoracentesis. Cytological analysis of the pleural fluid was positive for malignant cells, confirming a malignant pleural effusion. Pathological review of the lung mass biopsy specimen established a diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the lung biopsy. The results are as follows:
+- **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry for PD-L1 was negative (Tumor Proportion Score <1%).
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 46-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis is pathologically confirmed from a lung mass biopsy. Staging studies are consistent with AJCC 8th Edition Stage IV (cT2a N0 M1a) disease, defined by the primary lung tumor and a malignant pleural effusion. Staging is otherwise negative for distant metastatic disease, including in the brain. Comprehensive molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The tumor is PD-L1 negative. The patient is treatment-naive and is seen today to discuss the implications of this diagnosis.

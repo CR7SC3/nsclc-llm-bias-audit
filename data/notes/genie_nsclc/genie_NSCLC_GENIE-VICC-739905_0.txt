@@ -1,0 +1,33 @@
+**HPI:**
+This is an 83-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and new-onset mid-back pain. The pain was initially attributed to arthritis but did not respond to over-the-counter analgesics. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a suspicious opacity in the right lung.
+
+The patient was subsequently referred for further evaluation. A CT scan of the chest, abdomen, and pelvis was performed, which confirmed a large right upper lobe lung mass with associated mediastinal lymphadenopathy. The scan also identified a suspicious lesion in the left adrenal gland and a destructive lesion in the thoracic spine, concerning for metastatic disease. An MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+A CT-guided core biopsy of the right lung mass was performed, with pathology confirming non-small cell lung carcinoma. The patient is a former smoker, having quit over 15 years ago. They report feeling generally well aside from the persistent back pain, which is now moderately controlled with scheduled analgesics. They maintain a good appetite and have had no significant weight loss. Performance status is excellent; the patient is fully ambulatory and capable of all self-care (ECOG 1). They are here today to review the diagnosis and discuss the implications of these findings.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:**
+  - Lungs: A 5.2 cm spiculated mass is identified in the posterior segment of the right upper lobe. There are enlarged right hilar and subcarinal lymph nodes, with the largest measuring 1.8 cm in short axis.
+  - Adrenals: A 2.5 cm enhancing nodule is present in the left adrenal gland, consistent with a metastasis. The right adrenal gland is unremarkable.
+  - Bones: A 2.1 cm lytic lesion is noted within the T8 vertebral body.
+  - Impression: Findings consistent with a primary right lung malignancy with mediastinal, adrenal, and osseous metastatic disease.
+
+- **MRI Brain with and without contrast, [De-identified Date]:**
+  - No evidence of intracranial metastatic disease.
+
+- **Pathology, Biopsy of Right Lung Mass, [De-identified Date]:**
+  - Final Diagnosis: Non-small cell lung carcinoma, not otherwise specified (NOS).
+  - Comment: The specimen consists of core biopsies showing nests of malignant cells with pleomorphic nuclei and scant cytoplasm, infiltrating a desmoplastic stroma. Immunohistochemical stains were performed, confirming a non-small cell primary.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested, as this was not standard of care at the time the panel was performed (pre-2017).
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer, NOS histology.
+2.  AJCC Stage IV disease, with metastases to bone (T8 vertebra) and the left adrenal gland.
+3.  Molecular profiling notable for no actionable driver alterations identified.
+4.  ECOG performance status 1.
+5.  Former smoker.

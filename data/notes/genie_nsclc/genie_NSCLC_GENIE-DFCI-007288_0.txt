@@ -1,0 +1,29 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 56-year-old individual with a significant smoking history who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive shortness of breath with exertion. Over the past several weeks, these symptoms have been accompanied by right-sided chest wall pain and an unintentional weight loss of approximately 10-15 pounds. These concerns prompted an initial evaluation which led to diagnostic imaging. The patient remains fully ambulatory and capable of all self-care, though their activity is limited by dyspnea. Performance status is estimated at ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+Initial workup began with a chest X-ray which revealed a large right-sided lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which characterized a large, spiculated mass in the right upper lobe with extensive mediastinal and contralateral hilar lymphadenopathy. There was no evidence of distant metastatic disease to the liver, adrenal glands, or other visceral organs.
+
+A PET/CT was performed for staging, which demonstrated intense FDG-avidity in the primary right upper lobe mass and in multiple mediastinal, hilar, and supraclavicular lymph node stations, consistent with extensive locoregional disease. No distant hypermetabolic foci were identified to suggest metastatic spread.
+
+A staging MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided fine-needle aspiration of a mediastinal lymph node. Pathologic review of the specimen confirmed a diagnosis of poorly differentiated squamous cell carcinoma.
+
+Based on the combination of a large primary tumor with extensive contralateral mediastinal and supraclavicular nodal involvement (N3) and no evidence of distant metastases (M0), the patient is staged as having Stage IIIB disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. The following results were reported:
+*   **Actionable Mutations:** A KRAS G12C mutation was detected.
+*   **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2.
+*   **PD-L1 Expression:** Immunohistochemistry demonstrated a Tumor Proportion Score (TPS) in the 1-49% range.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 56-year-old who presents for initial consultation with a new diagnosis of treatment-naive, locally advanced, unresectable Stage IIIB (AJCC 8th Edition) squamous non-small cell lung cancer. The diagnosis was established via EBUS-guided biopsy, and staging studies confirm disease is confined to the thorax without distant metastases. Molecular profiling is notable for a KRAS G12C mutation and PD-L1 expression of 1-49%. The patient is here today to discuss the diagnosis and the general approach to management.

@@ -1,0 +1,19 @@
+**HPI:**
+This is a 72-year-old who presents for an initial medical oncology consultation. The patient has a history as a former smoker, having quit less than one year ago. The patient's presentation began approximately two months prior to this visit with the insidious onset of a persistent dry cough and progressive shortness of breath with exertion. The patient initially sought care at an urgent care clinic and was treated for a suspected bronchitis without improvement. Due to worsening symptoms, the patient presented to an outside emergency department.
+
+An initial chest radiograph performed at that time was abnormal, demonstrating a right-sided lung opacity and a pleural effusion. This prompted a follow-up staging CT scan of the chest, abdomen, and pelvis with contrast. The patient subsequently underwent a CT-guided biopsy of the identified lung mass to establish a tissue diagnosis. The patient remains ambulatory and capable of self-care but is limited in strenuous activity due to dyspnea, consistent with an ECOG performance status of 1. The patient is now here to establish care and review the comprehensive diagnostic findings.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis with contrast ([De-identified Date]):** This study identified a 5.1 cm spiculated mass in the right upper lobe. Multiple pulmonary nodules were present in the contralateral (left) lung, suspicious for metastatic deposits. A moderate right-sided pleural effusion with associated pleural thickening and nodularity was also noted. There was no evidence of metastatic disease to the liver, adrenal glands, or bone on the visualized portions of the scan.
+*   **PET/CT ([De-identified Date]):** The scan confirmed intense FDG-avidity within the primary right upper lobe mass. Avid uptake was also demonstrated in multiple contralateral lung nodules and throughout the right pleura, consistent with the known sites of metastatic disease. No other distant sites of FDG-avid malignancy were identified.
+*   **MRI Brain with and without contrast ([De-identified Date]):** Negative for evidence of intracranial metastasis.
+*   **Pathology ([De-identified Date]):** A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Histopathologic examination confirmed invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen with the following results:
+*   No actionable driver alteration was identified. Testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+*   PD-L1 expression was not tested, as this was not standard of care at the time the tissue was originally processed.
+
+**Problem Summary:**
+This is a 72-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastases to the contralateral lung and pleura. Molecular testing of the tumor is notable for an absence of common actionable driver mutations.

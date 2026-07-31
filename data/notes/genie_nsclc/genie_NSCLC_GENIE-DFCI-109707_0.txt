@@ -1,0 +1,19 @@
+**HPI:**
+This is a 48-year-old individual with a history of smoking (former, quit over one year ago) who is seen today for an initial medical oncology consultation. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray revealed a right-sided lung mass, prompting further investigation. The patient reports some fatigue but has had no significant weight loss, hemoptysis, or chest pain. They remain fully ambulatory and are managing all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also identified a 1.2 cm nodule in the left lower lobe, suspicious for metastatic disease. There was no evidence of metastatic disease in the liver, adrenal glands, or bones on the reviewed imaging.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the contralateral left lower lobe nodule, consistent with metastatic malignancy. A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology confirmed the diagnosis of non-small cell lung cancer, not otherwise specified (nos).
+
+**Molecular Studies:**
+Tissue from the biopsy was sent for next-generation sequencing and PD-L1 analysis. The results are as follows:
+- **Actionable driver mutations detected:**
+  - EGFR L858R point mutation (sensitizing)
+  - ERBB2 exon 20 insertion (activating)
+- **Negative for rearrangements/mutations in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS.
+- **PD-L1 Expression (TPS):** Negative
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+
+**Problem Summary:**
+This is a 48-year-old with a new diagnosis of Stage IV non-small cell lung cancer (nos histology), metastatic to the contralateral lung. Molecular testing reveals the presence of both an EGFR L858R mutation and an ERBB2 exon 20 insertion. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

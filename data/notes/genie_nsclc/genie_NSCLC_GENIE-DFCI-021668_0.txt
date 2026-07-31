@@ -1,0 +1,17 @@
+**HPI:**
+This is a 59-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year ago. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and mild dyspnea on exertion. An initial chest X-ray was abnormal, prompting further investigation. The patient otherwise feels well, maintaining a good appetite and stable weight. Performance status is excellent, ECOG 0, with the patient remaining fully active and able to carry on all pre-disease activities without restriction.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study revealed a primary mass in the right upper lobe measuring approximately 4.5 cm, associated with bulky ipsilateral mediastinal lymphadenopathy. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other visualized abdominal organs.
+
+A subsequent PET/CT scan was performed for staging. This demonstrated intense FDG avidity in the known right upper lobe mass and in right-sided mediastinal lymph nodes, consistent with locoregional disease. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+To complete staging, a brain MRI with and without contrast was obtained and was negative for any evidence of intracranial metastatic disease.
+
+The patient then underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and definitive nodal staging. Biopsies were successfully obtained from the primary right upper lobe mass and an involved mediastinal lymph node. Pathology from both sites confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alterations were identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). A loss-of-function mutation was identified in the STK11 gene. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 59-year-old former smoker with a new diagnosis of Stage IIIA (non-metastatic) non-small cell lung adenocarcinoma. Staging workup including PET/CT and brain MRI confirms disease is confined to the chest. Molecular profiling is notable for an STK11 loss-of-function mutation, intermediate TMB, and no identified actionable driver mutations. The patient has an excellent performance status and is treatment-naive.

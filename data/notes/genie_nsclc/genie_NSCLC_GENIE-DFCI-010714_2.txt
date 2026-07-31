@@ -1,0 +1,15 @@
+**HPI:**
+This is a 64-year-old individual referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to primary care approximately two months ago with a persistent, non-productive cough. An initial chest radiograph revealed a right upper lobe opacity, which prompted further diagnostic evaluation. The patient is otherwise feeling well, with a good energy level and stable weight. There is no reported hemoptysis, chest pain, or significant dyspnea. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study characterized a 4.5 cm spiculated mass in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified. The visualized portions of the upper abdomen, including the liver and adrenal glands, were free of suspicious lesions.
+
+For definitive staging, a whole-body PET/CT was performed on [De-identified Date]. This confirmed intense FDG-avidity within the known right upper lobe primary tumor. Importantly, there was no evidence of FDG-avid disease in regional lymph nodes or at any distant sites, consistent with localized disease. Given the absence of neurologic symptoms and negative PET findings, dedicated brain imaging was not performed.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. Molecular profiling did not identify any actionable driver alterations; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression analysis was not performed.
+
+**Problem Summary:**
+In summary, this is a 64-year-old former smoker who presents for initial evaluation of a newly diagnosed, treatment-naive, Stage IIA non-small cell lung cancer, adenocarcinoma histology. The primary tumor is located in the right upper lobe. A comprehensive staging workup is negative for regional nodal or distant metastatic disease. Molecular studies are notable for an absence of targetable driver mutations and an intermediate tumor mutational burden.

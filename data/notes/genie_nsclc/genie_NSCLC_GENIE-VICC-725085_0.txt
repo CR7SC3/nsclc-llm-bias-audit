@@ -1,0 +1,17 @@
+**HPI:**
+This is a 76-year-old former smoker who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago, when they noted the gradual onset of progressive shortness of breath with exertion and a persistent dry cough. These symptoms prompted an evaluation with their primary care physician, which led to initial imaging studies. The patient denies fevers, chills, or significant weight loss but does report fatigue. Performance status is good, estimated at ECOG 1, with the patient being fully ambulatory and capable of all self-care, though limited in strenuous physical activity by dyspnea. The patient has a remote smoking history but quit over 15 years ago.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a large left-sided pleural effusion and a suspicious opacity in the left lung. This was followed by a staging CT of the chest, abdomen, and pelvis with intravenous contrast. The CT confirmed a 4 cm spiculated mass in the left upper lobe with associated hilar and mediastinal adenopathy. A large, complex left pleural effusion was again noted. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+For definitive staging and diagnosis, a PET/CT was obtained. This demonstrated intense FDG-avidity in the primary left upper lobe mass, multiple mediastinal lymph nodes (stations 4L, 7), and diffuse uptake along the left pleura, consistent with malignant pleural disease. No evidence of distant metastatic disease outside the thoracic cavity was seen. A dedicated MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+A left-sided thoracentesis was performed for both therapeutic and diagnostic purposes, with removal of 1.2 liters of serosanguinous fluid, which provided symptomatic relief. Cytologic analysis of the pleural fluid was positive for malignant cells, confirming adenocarcinoma consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor cell block from the pleural fluid specimen. Molecular profiling identified an activating EGFR L858R point mutation. Further testing was negative for ALK and ROS1 rearrangements, as well as for mutations in BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was also assessed and found to be high at >16 mut/Mb.
+
+**Problem Summary:**
+This is a 76-year-old with a new diagnosis of Stage IV (M1a) non-small cell lung cancer of adenocarcinoma histology, based on the presence of a malignant pleural effusion. The patient is treatment-naive with a good performance status. Molecular profiling is notable for a sensitizing EGFR L858R mutation, high PD-L1 expression (TPS ≥50%), and a high tumor mutational burden. Brain imaging is negative for metastatic disease.

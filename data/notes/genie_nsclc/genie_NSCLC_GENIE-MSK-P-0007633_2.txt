@@ -1,0 +1,26 @@
+**ATTENDING:** [De-identified], MD
+**MRN:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 76-year-old former smoker who presents for an initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they began to develop a persistent, dry cough and progressive shortness of breath with exertion. This was initially attributed to a seasonal illness, but symptoms failed to resolve. The patient also reports an unintentional weight loss of approximately 10 pounds over the past two months, along with generalized fatigue. These symptoms prompted a visit to their primary care provider, who ordered initial imaging. The patient is otherwise active and independent with activities of daily living. Performance status is ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting a follow-up CT scan of the chest. The chest CT confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe, associated with mediastinal and hilar adenopathy.
+
+For definitive staging, a PET/CT scan was performed. This study demonstrated intense FDG avidity in the primary right upper lobe lung mass and associated mediastinal lymph nodes. Additionally, a solitary, intensely FDG-avid lesion was identified in the right hepatic lobe, consistent with distant metastatic disease. A staging MRI of the brain was also obtained and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Pathology from the biopsy specimen was sent for next-generation sequencing to evaluate for targetable alterations.
+- Molecular profiling did not identify any actionable driver alterations. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested, as sequencing was performed on a platform from a time when this was not yet standard of care.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 76-year-old who presents for initial evaluation of a new diagnosis of metastatic non-small cell lung cancer.
+1.  **Metastatic Non-Small Cell Lung Cancer:** Stage IV (AJCC 8th Edition) adenocarcinoma of the lung, with a primary tumor in the right upper lobe and a solitary metastasis to the liver. Staging brain MRI is negative for central nervous system involvement.
+2.  **Molecular Profile:** No actionable driver mutations identified. Tumor Mutational Burden is intermediate. PD-L1 status is unknown.
+3.  **Performance Status:** The patient is symptomatic but remains fully ambulatory and active, with an ECOG performance status of 1.
+4.  **Treatment Status:** Treatment-naive.

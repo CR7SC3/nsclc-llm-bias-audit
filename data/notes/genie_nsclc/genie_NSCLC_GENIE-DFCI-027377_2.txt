@@ -1,0 +1,15 @@
+**HPI:**
+The patient is a 68-year-old referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside provider several weeks ago with a persistent dry cough and new-onset, intermittent headaches. An initial chest radiograph was abnormal, prompting a more extensive diagnostic evaluation. The patient reports stable appetite and weight, and denies significant fatigue, shortness of breath at rest, or chest pain. The patient remains fully active and independent with all activities of daily living, with an estimated ECOG performance status of 0-1. The history was obtained from the patient and a review of outside medical records.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis performed on [De-identified Date] revealed a 3.5 cm spiculated mass in the left upper lobe, with associated ipsilateral mediastinal and hilar lymphadenopathy. A subsequent whole-body PET/CT scan confirmed high FDG-avidity in the primary lung mass and involved lymph nodes. Given the patient's neurologic symptoms, a brain MRI with contrast was performed, which demonstrated multiple small, enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits. To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the left upper lobe mass on [De-identified Date]. Histopathologic analysis confirmed invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue with the following results:
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was reported as positive.
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+- A KEAP1 loss-of-function mutation was identified, which may be associated with reduced response to immunotherapy.
+
+**Problem Summary:**
+In summary, this is a 68-year-old former smoker with an excellent performance status who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with known metastatic disease to the brain. Comprehensive molecular profiling is notable for positive PD-L1 expression and the presence of a KEAP1 loss-of-function mutation, with no identified targetable driver alterations.

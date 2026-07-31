@@ -1,0 +1,15 @@
+**HPI:**
+This is a 68-year-old individual with a significant history of current tobacco use who is seen today for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago when they developed a persistent, dry cough. This was followed by a single episode of scant hemoptysis, which prompted a visit to their primary care provider. The patient denies fevers, chills, night sweats, or significant weight loss. Appetite and energy levels are reported as near-normal. Performance status is excellent.
+
+An initial chest radiograph revealed a right upper lobe opacity, leading to further imaging. The patient has no other significant past medical history and has undergone no prior surgeries.
+
+**Diagnostic Workup:**
+A diagnostic and staging CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This study confirmed the presence of a 4.8 cm spiculated mass in the posterior segment of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the liver, adrenal glands, and osseous structures were without evidence of metastatic disease. To complete staging, an MRI of the brain was performed and was negative for any intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated non-small cell lung cancer with features most consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. PD-L1 expression was not tested. The tumor mutational burden (TMB) was reported as high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 68-year-old, treatment-naive patient with newly diagnosed, non-metastatic, AJCC Stage IIA squamous cell non-small cell lung cancer. Molecular profiling is notable for a high tumor mutational burden with no identified actionable driver alterations.

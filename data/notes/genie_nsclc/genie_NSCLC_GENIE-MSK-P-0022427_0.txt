@@ -1,0 +1,15 @@
+**HPI:**
+This is a 64-year-old individual with a history of being a never-smoker, referred to Medical Oncology for evaluation of a newly diagnosed non-small cell lung cancer. The patient was in a usual state of good health until approximately six weeks prior to this consultation, when a chest CT was performed as part of a preoperative workup for an elective orthopedic procedure. This scan incidentally revealed a small, solid nodule in the right lung. The patient is asymptomatic from a pulmonary standpoint, denying cough, shortness of breath, hemoptysis, or chest wall pain. A comprehensive review of systems is negative for constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient maintains an excellent performance status, fully active and able to carry on all pre-illness activities without restriction (ECOG 0).
+
+**Diagnostic Workup:**
+Following the incidental finding on the initial chest CT, a diagnostic PET/CT was obtained on [De-identified Date]. This study demonstrated a solitary, intensely FDG-avid 1.8 cm nodule in the right upper lobe. There was no evidence of FDG-avid mediastinal or hilar lymphadenopathy. No suspicious sites of FDG uptake were identified elsewhere in the body to suggest distant metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule on [De-identified Date]. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+As part of the complete staging evaluation, a contrast-enhanced MRI of the brain was performed on [De-identified Date] and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+A portion of the biopsy specimen was sent for comprehensive next-generation sequencing. The analysis did not identify any actionable driver alterations. Specifically, the tumor was found to be negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. The tumor mutational burden (TMB) was determined to be low at <2 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 64-year-old never-smoker who presents for initial oncology consultation with a new diagnosis of Stage IA (pT1bN0M0), non-small cell lung cancer, adenocarcinoma histology. The diagnosis was made via biopsy of a solitary right upper lobe pulmonary nodule found incidentally on imaging. Staging workup, including a PET/CT and brain MRI, is negative for regional or distant metastatic disease. The patient is asymptomatic with an excellent performance status. Molecular profiling of the tumor did not identify any actionable driver mutations.

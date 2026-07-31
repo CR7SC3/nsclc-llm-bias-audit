@@ -1,0 +1,24 @@
+Loading arms: model=gemini-2.5-flash subset=genie_bpc_nsclc_mitig151
+  loaded baseline               1048 cases  (v2_genie_bpc_nsclc_results.json)
+  loaded fairness               151 cases  (v2_genie_bpc_nsclc_mitig151_fairness_results.json)
+  loaded structured_extraction  151 cases  (v2_genie_bpc_nsclc_mitig151_structured_extraction_results.json)
+  loaded counterfactual_check   151 cases  (v2_genie_bpc_nsclc_mitig151_counterfactual_check_results.json)
+  loaded stigma_targeted        151 cases  (v2_genie_bpc_nsclc_mitig151_stigma_targeted_results.json)
+Paired on 151 common cases; 6040 judge items (5 arms x cases x 8 variants).
+Submitted judge batch msgbatch_01EviavLcYTEHjgqasszeGGj (6040 items); polling every 30s...
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+Got 6040 labels.
+Label distribution: {'NEUTRAL': 5156, 'STIGMA': 256, 'APPROPRIATE': 628}
+Wrote judge labels -> /Users/alvarocuervo/Documents/EquityGUIDE/results/annotation/mitigation_judge_gemini-2.5-flash_genie_bpc_nsclc_mitig151.json
+Re-run analyze_mitigation_nsclc.py to pick up the PRIMARY judge estimator.

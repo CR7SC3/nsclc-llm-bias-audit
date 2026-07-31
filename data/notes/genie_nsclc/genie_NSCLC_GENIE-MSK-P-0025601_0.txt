@@ -1,0 +1,20 @@
+**HPI:**
+This is a 59-year-old individual with a recent diagnosis of metastatic non-small cell lung cancer, referred for initial oncology consultation. The patient was in a usual state of health until approximately two months ago, when a persistent, non-productive cough developed, accompanied by progressive dyspnea on exertion and intermittent right-sided chest wall pain. Over the past month, the patient also noted the onset of persistent headaches and dull, constant low back pain. An initial evaluation with a primary care provider led to outpatient imaging. The patient is a lifetime never-smoker and has no significant personal or family history of malignancy. Performance status is good, though with some fatigue related to symptoms; the patient remains fully ambulatory and capable of self-care.
+
+**Diagnostic Workup:**
+A chest CT scan was performed on [De-identified date], which revealed a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated multiple bilateral pulmonary nodules, consistent with contralateral metastatic disease, and mediastinal lymphadenopathy.
+
+Given the clinical presentation including back pain and headaches, further staging studies were pursued. A whole-body PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass, mediastinal nodes, and multiple contralateral lung nodules. Additionally, the scan identified a hypermetabolic focus in the L3 vertebral body and a 3 cm avid mass in the left adrenal gland.
+
+An MRI of the brain with and without contrast was subsequently performed to evaluate the patient's headaches. This study revealed multiple, small, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed on [De-identified date]. Histopathologic examination confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable driver mutation:** An activating EGFR exon 19 deletion was detected.
+- **Negative markers:** The tumor was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Immunotherapy markers:** Immunohistochemistry for PD-L1 demonstrated a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 59-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastatic disease to the brain, bone, contralateral lung, and adrenal gland. The tumor is characterized by a sensitizing EGFR exon 19 deletion and high PD-L1 expression. The patient is treatment-naive and is seen today for initial consultation.

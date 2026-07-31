@@ -1,0 +1,17 @@
+**HPI:**
+This is a 57-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive fatigue. Over the subsequent weeks, they also noted the appearance of a palpable, non-tender nodule on their back and experienced new, localized pain in the right hip. An initial evaluation with their primary care provider led to an outpatient diagnostic workup. The patient is a former smoker, having quit more than one year ago. They have a good performance status and are fully ambulatory, managing activities of daily living without assistance, though they report some limitation in strenuous activity due to the cough and hip pain.
+
+**Diagnostic Workup:**
+The patient's workup began with a chest radiograph that demonstrated a large mass in the left upper lobe. A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a 5.5 cm speculated mass in the left upper lobe with associated mediastinal lymphadenopathy. The scan also revealed multiple lytic lesions in the thoracic spine and right iliac bone, a 2 cm subcutaneous nodule in the posterior trunk, and a 1.5 cm hypodense lesion in the liver, all suspicious for metastatic disease.
+
+To confirm the diagnosis and complete staging, the patient underwent a CT-guided core biopsy of the left upper lobe lung mass. Pathology returned invasive, poorly differentiated adenocarcinoma.
+
+A PET/CT scan was performed, which demonstrated intense hypermetabolic activity in the primary left upper lobe mass, mediastinal lymph nodes, multiple sites in the axial skeleton, the previously identified subcutaneous nodule, and the hepatic lesion, consistent with widespread metastatic disease.
+
+A staging MRI of the brain with and without contrast was obtained and showed no evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) of the tumor tissue was performed. An actionable driver mutation was identified in KRAS G12C. The tumor was found to be negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 57-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirmed metastatic disease to bone, subcutaneous tissue, and the liver. Molecular profiling of the tumor is notable for a KRAS G12C mutation. The patient is here today to discuss the diagnosis in detail.

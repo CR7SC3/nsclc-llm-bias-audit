@@ -1,0 +1,15 @@
+**HPI:**
+This is a 53-year-old individual with an excellent performance status who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, dry cough and mild shortness of breath with exertion. This prompted a visit to their primary care provider, and an initial chest X-ray revealed a left-sided lung mass. The patient denies any fevers, chills, or significant weight loss. They are a lifetime never-smoker. They continue to work and remain fully active in their daily life with an estimated ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study characterized a 4.1 cm spiculated mass in the left upper lobe. The scan also revealed extensive mediastinal and supraclavicular lymphadenopathy, including bulky contralateral mediastinal nodes.
+
+For definitive staging, a whole-body PET/CT was performed on [De-identified date]. This confirmed intense FDG-avidity within the primary left upper lobe mass, as well as in multiple nodal stations including the left supraclavicular and contralateral mediastinal regions. Critically, there was no evidence of FDG-avid disease below the diaphragm or in other distant sites to suggest metastatic disease. A dedicated MRI of the brain with contrast was subsequently completed and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis and for molecular analysis, the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathology returned as invasive adenocarcinoma, consistent with a lung primary. The cumulative findings of the diagnostic workup are consistent with locally advanced, non-metastatic disease, classified as clinical Stage IIIB non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the core biopsy. Molecular profiling was positive for an actionable ROS1 gene rearrangement. The tumor was negative for other tested driver mutations, including EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 immunohistochemistry was not performed on the specimen. The tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 53-year-old lifetime never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIIB non-small cell lung adenocarcinoma. Staging studies have confirmed locally advanced disease confined to the chest and supraclavicular region, with no evidence of distant metastases. Comprehensive molecular testing of the tumor is notable for the identification of a ROS1 rearrangement.

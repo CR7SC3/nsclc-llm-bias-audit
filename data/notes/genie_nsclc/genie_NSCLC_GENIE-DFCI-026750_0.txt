@@ -1,0 +1,30 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient ID:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an 83-year-old with a history of former tobacco use (quit >1 year ago) who presents for an initial medical oncology evaluation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience a progressive, non-productive cough and increasing dyspnea on exertion. This was associated with mild fatigue and an unintentional weight loss of approximately 10 pounds. The patient initially presented to their primary care provider, who obtained a chest radiograph that demonstrated a right-sided lung opacity.
+
+This prompted a follow-up contrast-enhanced CT scan of the chest, abdomen, and pelvis for further characterization. The patient has since undergone a biopsy which confirmed the diagnosis of lung cancer and is now referred for oncologic consultation and discussion of management. The patient is treatment-naive.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+- CT of the chest, abdomen, and pelvis with contrast, performed on [De-identified date], revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. There was associated mediastinal and hilar lymphadenopathy. A solitary 2.1 cm hypoenhancing lesion was identified in segment VI of the liver, highly suspicious for metastatic disease.
+- MRI of the brain with and without contrast, performed for staging on [De-identified date], was negative for any evidence of intracranial metastases.
+
+**Biopsy:**
+- A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date].
+- Pathology from this procedure confirmed a diagnosis of adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue with the following results:
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry (IHC) was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+- A loss-of-function mutation was identified in the STK11 gene.
+
+**PROBLEM SUMMARY:**
+In summary, this is an 83-year-old former smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the liver. Molecular profiling is notable for PD-L1 positivity (TPS 1-49%) and an STK11 loss-of-function mutation, with no other targetable driver alterations identified.

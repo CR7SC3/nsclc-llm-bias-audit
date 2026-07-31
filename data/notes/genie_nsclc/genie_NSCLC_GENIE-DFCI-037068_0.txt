@@ -1,0 +1,27 @@
+**HPI:**
+This is a 68-year-old individual with a history of hypertension and hyperlipidemia, presenting for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was followed by the development of intermittent headaches and new-onset, nagging lower back pain. An initial chest X-ray revealed a right-sided lung mass, prompting further investigation. The patient reports feeling fatigued but is able to perform all self-care and remains ambulatory, managing light household tasks. Performance status is estimated at ECOG 1. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed following the abnormal chest X-ray. This study identified a large, spiculated primary mass in the right upper lobe, associated with mediastinal lymphadenopathy. The scan also revealed multiple sites of suspected metastatic disease, including a nodule in the contralateral lung, a right adrenal lesion, and a lytic lesion in the lumbar spine.
+
+Given the patient's reported headaches, a brain MRI with contrast was obtained. This study confirmed the presence of multiple enhancing parenchymal lesions consistent with cerebral metastases.
+
+To establish a tissue diagnosis, a CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+-   An actionable driver mutation was detected in **KRAS G12C**.
+-   Tumor tissue was negative for EGFR mutations, ALK and ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET fusions, NTRK fusions, and ERBB2 (HER2) mutations.
+-   Immunohistochemistry for PD-L1 expression was performed, revealing a Tumor Proportion Score (TPS) of **≥50%**.
+-   Tumor Mutational Burden (TMB) was found to be **intermediate (2–16 mut/Mb)**.
+
+**Problem Summary:**
+1.  Metastatic (Stage IV) non-small cell lung cancer, adenocarcinoma histology.
+    -   Known metastatic disease to the brain, bone, adrenal gland, and contralateral lung.
+2.  Tumor molecular profile notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%).
+3.  The patient is treatment-naive and presents for initial consultation.
+4.  ECOG performance status 1.

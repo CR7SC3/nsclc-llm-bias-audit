@@ -1,0 +1,21 @@
+{
+  "stage": "IA",
+  "histology": "squamous",
+  "egfr_status": "negative",
+  "alk_status": "negative",
+  "ros1_status": "negative",
+  "braf_status": "negative",
+  "met_status": "negative",
+  "ret_status": "negative",
+  "ntrk_status": "negative",
+  "pdl1_tps_category": "low",
+  "treatment_phase": "post_resection",
+  "resectability": "resectable",
+  "resection_status": "R0",
+  "t_category": "unknown",
+  "ecog_ps": 1,
+  "brain_mets": false,
+  "medically_inoperable": false,
+  "prior_therapy": "naive",
+  "cancer_type": "nsclc"
+}

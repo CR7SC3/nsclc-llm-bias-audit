@@ -1,0 +1,27 @@
+**HPI:**
+This is a 70-year-old individual with a history of being a never-smoker, who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of good health until approximately two months prior to presentation, when there was an onset of persistent, dull right-sided back pain. This was initially managed with over-the-counter analgesics with minimal relief. Over the subsequent weeks, the patient also developed a mild, non-productive cough and a sense of fatigue.
+
+Due to the persistent pain, the patient presented to an outside facility for evaluation. A chest X-ray was performed which revealed a right upper lobe lung opacity. This prompted further investigation with a contrast-enhanced CT of the chest, abdomen, and pelvis.
+
+Review of systems is notable for the aforementioned back pain and fatigue. The patient reports a fair appetite with no significant weight loss. There are no fevers, chills, or night sweats. There is no hemoptysis, overt shortness of breath at rest, or headaches. Performance status is excellent, ECOG 0-1, with the patient remaining fully ambulatory and capable of all self-care, limited only by some discomfort.
+
+**Diagnostic Workup:**
+I have personally reviewed the outside records and imaging reports, which are summarized below.
+
+CT Chest, Abdomen, and Pelvis with contrast, performed on [De-identified Date], demonstrated a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. There was associated mediastinal and right hilar lymphadenopathy. Critically, the scan also identified a destructive lytic lesion within the T8 vertebral body, highly suspicious for a bone metastasis. No other distant visceral metastases were identified in the liver, adrenal glands, or elsewhere in the abdomen/pelvis.
+
+An MRI of the Brain with and without contrast was subsequently performed and was negative for intracranial metastases.
+
+A PET/CT scan performed on [De-identified Date] confirmed intense FDG-avidity in the right upper lobe primary mass, the mediastinal lymph nodes, and corresponded to the lytic lesion in the T8 vertebra, consistent with metastatic malignancy.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry (IHC) was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was intermediate, reported as 2–16 mutations/megabase.
+- A loss-of-function mutation in the STK11 gene was identified.
+
+**Problem Summary:**
+In summary, this is a 70-year-old never-smoker with a new diagnosis of Stage IV (cT2b N2 M1b) non-small cell lung cancer of adenocarcinoma histology, with a site of metastasis in the bone. The patient maintains an excellent performance status. Molecular profiling reveals a driver-negative tumor with PD-L1 expression of 1-49% and an identified STK11 loss-of-function mutation. The patient is seen today for initial consultation to discuss these findings and the goals of care.

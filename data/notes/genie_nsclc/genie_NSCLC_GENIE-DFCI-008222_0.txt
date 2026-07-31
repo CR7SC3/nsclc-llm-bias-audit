@@ -1,0 +1,28 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 59-year-old individual with a history of smoking (quit >1 year ago) who is referred for evaluation and management of newly diagnosed non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began to experience progressive shortness of breath on exertion and a persistent, dry cough. These symptoms prompted a visit to their primary care provider.
+
+An initial chest X-ray was concerning for a right-sided pleural effusion and a possible underlying lung mass. The patient has maintained a good appetite with no significant weight loss. Performance status is excellent, limited only by dyspnea with significant exertion; the patient remains fully ambulatory and capable of all self-care (ECOG Performance Status 1).
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, staging imaging was pursued. A CT of the chest, abdomen, and pelvis with contrast revealed a primary mass in the right upper lobe, associated with mediastinal lymphadenopathy and a large right-sided pleural effusion. There was no evidence of distant metastatic disease in the liver, adrenal glands, or bones. An MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+The patient subsequently underwent a thoracentesis with drainage of the pleural fluid for both therapeutic and diagnostic purposes. Cytologic analysis of the pleural fluid was positive for malignant cells. A core needle biopsy of the right upper lobe lung mass was also performed. Pathology from the biopsy confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+The combination of a primary lung adenocarcinoma and a malignant pleural effusion establishes a diagnosis of Stage IV non-small cell lung cancer (NSCLC).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. Key findings are as follows:
+*   **Actionable Driver Mutation:** An activating KRAS G12C mutation was detected.
+*   **Negative for other drivers:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **Immunotherapy-related Biomarkers:**
+    *   PD-L1 expression was not tested.
+    *   Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+    *   Additional analysis revealed co-occurring loss-of-function mutations in STK11 and KEAP1, which are associated with primary resistance to immunotherapy.
+
+**Problem Summary:**
+In summary, this is a 59-year-old with an excellent performance status who presents with a new diagnosis of Stage IV NSCLC of adenocarcinoma histology, with metastatic disease confined to the pleura. Molecular testing reveals a KRAS G12C mutation along with co-mutations in STK11 and KEAP1. The patient is treatment-naive and is seen today to discuss the diagnosis and establish a plan for initial systemic therapy.

@@ -1,0 +1,21 @@
+{
+  "stage": "IIIA",
+  "histology": "adenocarcinoma",
+  "egfr_status": "negative",
+  "alk_status": "negative",
+  "ros1_status": "negative",
+  "braf_status": "V600E",
+  "met_status": "unknown",
+  "ret_status": "unknown",
+  "ntrk_status": "unknown",
+  "pdl1_tps_category": "low",
+  "treatment_phase": "initial",
+  "resectability": "unknown",
+  "resection_status": "unknown",
+  "t_category": "T1c",
+  "ecog_ps": 0,
+  "brain_mets": false,
+  "medically_inoperable": false,
+  "prior_therapy": "naive",
+  "cancer_type": "nsclc"
+}

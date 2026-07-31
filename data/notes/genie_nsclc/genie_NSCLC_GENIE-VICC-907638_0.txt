@@ -1,0 +1,17 @@
+**HPI:**
+This is a 60-year-old who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted the onset of right-sided pleuritic chest pain. An initial evaluation with a primary care provider led to a chest radiograph which revealed a right-sided lung mass and an associated pleural effusion, prompting an urgent referral for further diagnostic workup. The patient is a lifetime never-smoker. They remain fully ambulatory and functional, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A staging PET/CT scan was performed on [De-identified Date]. This study demonstrated a large, intensely hypermetabolic primary mass in the right upper lobe. The scan confirmed multiple sites of distant metastatic disease consistent with Stage IV cancer. Findings included several metabolically active nodules in the contralateral (left) lung, diffuse FDG-avid right-sided pleural thickening and nodularity, and extensive osseous metastases involving the thoracic spine and multiple ribs. Additionally, widespread hypermetabolic lymphadenopathy was noted in the mediastinum, hilar, and supraclavicular regions.
+
+A staging MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]. Pathologic examination of the tissue specimen confirmed a diagnosis of non-small cell lung cancer, with histology consistent with adenocarcinoma.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive next-generation sequencing. Molecular profiling did not identify any actionable driver alteration; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Consistent with the standard of care at the time of the sequencing (pre-2017), PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 60-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving bone, the contralateral lung, the pleura, and distant lymph nodes. Comprehensive molecular profiling is negative for an actionable oncogenic driver. The patient is treatment-naive and presents today to discuss the diagnosis in detail.

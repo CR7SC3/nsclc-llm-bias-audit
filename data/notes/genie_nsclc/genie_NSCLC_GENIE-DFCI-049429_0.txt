@@ -1,0 +1,30 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+I had the pleasure of evaluating this 58-year-old for a new diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 58-year-old with a past medical history significant only for well-controlled hypertension, who presented for initial oncologic evaluation. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, dry cough and progressive shortness of breath with exertion. Over the subsequent weeks, the patient also noted the new onset of intermittent headaches and a feeling of imbalance. This prompted a visit to an urgent care center, which led to an initial chest radiograph revealing a suspicious left-sided lung mass. The patient was referred for further diagnostic workup.
+
+The patient is a never-smoker. They report a 10-pound unintentional weight loss over the past three months. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study demonstrated a 4.5 cm spiculated mass in the left upper lobe with associated mediastinal and hilar lymphadenopathy. Multiple sub-centimeter nodules were also identified in the right lung, suspicious for contralateral metastatic disease.
+
+For comprehensive staging, a PET/CT was obtained on [De-identified date]. This confirmed intense FDG-avidity within the primary left upper lobe mass and mediastinal lymph nodes. Avid foci were also seen in a right lower lobe pulmonary nodule and within a lesion in the left iliac bone, confirming distant metastatic disease.
+
+Given the patient's neurologic symptoms, a contrast-enhanced MRI of the brain was performed. This revealed multiple, scattered enhancing lesions within the bilateral cerebral hemispheres, the largest measuring 1.2 cm, consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary left upper lobe lung mass was successfully performed on [De-identified date]. Histopathologic analysis confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Tumor tissue from the lung biopsy was sent for comprehensive genomic and biomarker analysis.
+- **Next-Generation Sequencing (NGS):** An actionable sensitizing EGFR exon 19 deletion was detected.
+- **Additional Driver Mutations:** The tumor was negative for rearrangements in ALK and ROS1, and negative for mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Immunohistochemistry:** PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be high (>16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 58-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms a primary left lung mass with metastatic disease to the brain, contralateral lung, and bone. Molecular testing of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and its implications.

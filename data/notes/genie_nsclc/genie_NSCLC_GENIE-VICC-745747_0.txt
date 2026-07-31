@@ -1,0 +1,22 @@
+**Oncology Initial Consultation**
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 50-year-old individual with a history of being a never-smoker who is referred for initial oncologic evaluation of a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This was accompanied by a dull, aching right-sided chest pain and mild fatigue. The symptoms were initially attributed to a musculoskeletal strain but persisted and worsened, prompting a primary care evaluation.
+
+The patient reports being fully ambulatory and capable of all self-care but is limited in strenuous physical activity due to shortness of breath, consistent with an ECOG performance status of 1. There has been an unintentional weight loss of approximately 10 pounds over the last two months. The review of systems is otherwise negative for fevers, night sweats, hemoptysis, or neurologic changes.
+
+**DIAGNOSTIC WORKUP:**
+The patient's initial workup began with a chest radiograph which revealed a right-sided lung mass and a moderate pleural effusion. This prompted a contrast-enhanced CT of the chest, abdomen, and pelvis, which confirmed a 4.5 cm spiculated mass in the right lower lobe, extensive malignant-appearing right-sided pleural thickening and nodularity, and multiple sclerotic lesions in the thoracic spine and ribs suspicious for osseous metastases.
+
+A subsequent whole-body PET/CT scan was performed for staging. This demonstrated intense FDG-avidity in the primary right lower lobe mass, the right-sided pleura, multiple thoracic vertebral bodies, and several ribs, confirming metastatic disease. Staging MRI of the brain was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of the right lower lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of adenocarcinoma, with immunohistochemical staining patterns consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The analysis identified an activating EGFR L858R point mutation. The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14 skipping mutations, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 50-year-old never-smoker presenting with a new diagnosis of Stage IV (cT2b N0 M1c) non-small cell lung adenocarcinoma, metastatic to bone and pleura. The patient is treatment-naive with an excellent performance status (ECOG 1). Molecular profiling is notable for a sensitizing EGFR L858R mutation, which is a key determinant for therapy selection. The case was discussed with the patient in detail, including the diagnosis, staging, and prognostic implications.

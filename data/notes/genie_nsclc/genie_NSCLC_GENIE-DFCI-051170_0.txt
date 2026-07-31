@@ -1,0 +1,19 @@
+**HPI:**
+This is a 57-year-old who is seen in new patient consultation for a recent diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside hospital several weeks ago with new-onset persistent headaches and mild cognitive changes. A brain MRI was performed which revealed multiple enhancing lesions suspicious for metastatic disease. This prompted a full staging workup. A CT of the chest, abdomen, and pelvis was subsequently obtained, which identified a large primary mass in the lung as well as a suspicious lesion in the spine. The patient is a current smoker. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity by symptoms.
+
+**Diagnostic Workup:**
+- **Brain MRI [De-identified]:** Revealed multiple, scattered enhancing cerebral lesions, the largest in the right frontal lobe, consistent with metastatic deposits. There was associated vasogenic edema.
+
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified]:** Showed a 4.5 cm spiculated mass in the left upper lobe with associated mediastinal and hilar lymphadenopathy. A destructive lytic lesion was noted in the T8 vertebral body, concerning for a bone metastasis. No other distant visceral metastases were identified in the chest or abdomen.
+
+- **CT-Guided Core Biopsy, Left Lung Mass [De-identified]:** Pathology confirmed poorly differentiated adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- **Actionable driver mutation identified:** EGFR exon 19 deletion (sensitizing).
+- **Negative for pathogenic alterations in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 2-16 mut/Mb).
+- **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 57-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease to the brain and bone. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

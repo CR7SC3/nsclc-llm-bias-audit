@@ -1,0 +1,33 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HPI:**
+This is an initial oncology consultation for an 80-year-old who presents for evaluation and management of a new diagnosis of metastatic non-small cell lung cancer. The patient has a past medical history notable for a remote smoking history, having quit over one year ago.
+
+The patient was reportedly in their usual state of health until approximately six weeks ago, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. These symptoms prompted an evaluation by their primary care provider. An initial chest X-ray was concerning for a left-sided lung mass and an associated pleural effusion.
+
+The patient was referred for further imaging. A CT of the chest, abdomen, and pelvis with contrast was performed, which confirmed the presence of a spiculated mass in the left upper lobe. The scan also demonstrated extensive nodular thickening of the left pleura and a moderate-to-large pleural effusion, highly suspicious for malignant involvement. No other suspicious lesions in the contralateral lung, liver, adrenal glands, or bones were identified. A subsequent PET/CT scan was performed for staging, which showed intense FDG-avidity in the primary left lung mass and diffuse uptake throughout the left pleura, consistent with metastatic disease. A staging MRI of the brain was obtained and was negative for intracranial metastases.
+
+**Diagnostic Workup:**
+A diagnostic and therapeutic thoracentesis was performed. Cytological analysis of the pleural fluid confirmed the presence of malignant cells, establishing a diagnosis of adenocarcinoma.
+
+**Imaging:**
+- CT Chest/Abdomen/Pelvis: Revealed a primary left upper lobe lung mass with extensive pleural nodularity and a large left pleural effusion. No other distant metastatic disease was identified.
+- PET/CT: Confirmed hypermetabolic activity in the left upper lobe mass and diffusely within the left pleura. No other sites of FDG-avid metastatic disease.
+- Brain MRI: Negative for intracranial metastases.
+
+**Pathology:**
+- Pleural Fluid Cytology: Positive for adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Tissue-based next-generation sequencing was performed on the pleural fluid cell block. The results are as follows:
+- No actionable driver alteration was identified.
+- Testing was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was positive.
+- Tumor Mutational Burden (TMB) was low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is an 80-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura. Molecular profiling is notable for the absence of an identifiable oncogenic driver mutation and positive PD-L1 expression. The patient has a good performance status despite symptomatic dyspnea from the pleural effusion. The diagnosis, staging, and prognostic implications have been discussed.

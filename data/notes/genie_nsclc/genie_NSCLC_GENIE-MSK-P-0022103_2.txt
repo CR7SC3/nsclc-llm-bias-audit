@@ -1,0 +1,18 @@
+**HPI:**
+This is an initial medical oncology consultation for a 70-year-old with a new diagnosis of non-small cell lung cancer. The patient has a past medical history notable for breast cancer, now in remission, and is a current smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This was associated with fatigue and an unintentional 10-pound weight loss over the last three months. These symptoms prompted a visit to their primary care physician, who ordered a chest X-ray that revealed a right-sided lung mass. The patient was subsequently referred for further diagnostic workup. At the time of this evaluation, the patient is fully ambulatory and self-caring but is limited in strenuous activity due to shortness of breath. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a staging CT of the chest, abdomen, and pelvis with intravenous contrast was performed. Imaging revealed a 5.2 cm irregular mass in the right upper lobe with associated mediastinal lymphadenopathy. Critically, the scan also identified bulky contralateral mediastinal and left supraclavicular lymphadenopathy, consistent with distant metastatic disease. A subsequent PET-CT scan confirmed high FDG-avidity in the primary lung mass, as well as in the mediastinal and contralateral supraclavicular nodal stations. A brain MRI with contrast was performed as part of the standard staging workup and was negative for evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed the diagnosis of adenocarcinoma, consistent with a lung primary. The combination of a primary lung tumor with metastasis to contralateral and distant lymph nodes establishes a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor biopsy specimen.
+-   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 Expression:** IHC is strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+-   **Tumor Mutational Burden (TMB):** The TMB is intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 70-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma with metastatic disease to distant lymph nodes. The patient is a current smoker with an ECOG performance status of 1. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of any identified targetable driver mutations.

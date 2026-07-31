@@ -1,0 +1,13 @@
+**HPI:**
+This is a 71-year-old individual with a history of smoking (quit >1 year ago) who is referred for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a new onset of persistent headaches and intermittent dizziness. Due to the neurologic nature of these symptoms, a brain MRI was recommended. The patient reports being otherwise functional, maintaining independence in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An MRI of the brain was performed which revealed multiple enhancing intracranial lesions, highly suspicious for metastatic disease. In light of this finding, further staging imaging was pursued. A contrast-enhanced CT of the chest, abdomen, and pelvis was obtained. This study identified a 4 cm spiculated mass in the right upper lobe of the lung, associated with bulky mediastinal and hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The procedure was uncomplicated. Histopathologic examination of the tissue specimen confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue specimen. Results are notable for the detection of an actionable driver mutation in the form of an ALK gene rearrangement. The tumor was negative for alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS. PD-L1 expression was not tested. The tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 71-year-old former smoker presenting for initial evaluation of a newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via biopsy of a right lung mass. Staging workup revealed metastatic disease to the brain. Comprehensive molecular profiling is significant for the presence of an ALK rearrangement. The patient is treatment-naive and is seen today to discuss these findings.

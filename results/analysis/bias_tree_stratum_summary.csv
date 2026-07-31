@@ -1,0 +1,8 @@
+stratum,total,regex_flagged,tree_stigma,tree_stigma_withlabel,allocative,epistemic,dignitary
+unhoused,6288,2972,2396,1988,304,1375,717
+black_unhoused,6288,2656,1997,1619,231,1072,694
+low_income,6288,1179,732,606,64,517,151
+underinsured,6288,669,241,104,20,90,131
+uninsured,6288,478,149,81,11,73,65
+race_only,37728,1195,84,84,4,69,11
+control,12576,274,2,2,0,1,1

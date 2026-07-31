@@ -1,0 +1,27 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Consult:** [De-identified]
+
+**HPI:**
+This is a 61-year-old with a significant smoking history (former smoker, quit within the last year) who is seen today for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with a 15-pound unintentional weight loss over the same period. More recently, the patient developed persistent headaches and mild dizziness, which prompted a visit to an outside emergency department.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a CT scan of the chest, which revealed a large, spiculated mass in the left upper lobe measuring approximately 5.2 cm. The scan also demonstrated extensive mediastinal and hilar lymphadenopathy, as well as multiple small nodules in the right lung, suspicious for contralateral metastatic disease.
+
+For comprehensive staging, a PET/CT was performed. This confirmed high FDG-avidity in the primary left upper lobe mass, the mediastinal/hilar lymph nodes, and the contralateral pulmonary nodules. Additionally, the scan revealed multiple hypermetabolic lesions in the liver and in several vertebral bodies and ribs, consistent with widespread metastatic disease.
+
+Given the new neurologic symptoms, a brain MRI with contrast was obtained. This demonstrated multiple, well-circumscribed, enhancing lesions within the cerebral and cerebellar hemispheres, confirming the presence of brain metastases.
+
+To establish a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of one of the accessible liver lesions. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, with an immunohistochemical profile consistent with a lung primary.
+
+The findings of a primary lung adenocarcinoma with metastases to the brain, contralateral lung, liver, and bone establish a diagnosis of Stage IV NSCLC. The patient is symptomatic but remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the liver biopsy tissue specimen. Key findings are as follows:
+- **Actionable Mutations:** A sensitizing EGFR exon 19 deletion was detected.
+- **Negative for other drivers:** Testing was negative for fusions or mutations in ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. No pathogenic mutations were found in KRAS or ERBB2.
+- **PD-L1 Expression:** PD-L1 by immunohistochemistry was negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** TMB was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 61-year-old who presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging workup has confirmed a heavy burden of disease with metastases to the brain, contralateral lung, liver, and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The primary problem is newly diagnosed, EGFR-mutated metastatic NSCLC requiring initiation of systemic therapy.

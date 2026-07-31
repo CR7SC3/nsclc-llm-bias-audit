@@ -1,0 +1,33 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 64-year-old individual with a history of smoking (quit <1 year ago) who is referred for initial evaluation and management of newly diagnosed metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months ago, when they began to develop a persistent, dry cough and progressive dyspnea on exertion. These symptoms were initially managed with a course of antibiotics for a presumed bronchitis, with no significant improvement. Over the subsequent weeks, the patient noted worsening shortness of breath, particularly with ambulation, and the new onset of left-sided pleuritic chest pain. This prompted an evaluation with their primary care provider, who ordered a chest radiograph.
+
+The chest X-ray revealed a large left-sided opacity and a significant pleural effusion, leading to an urgent referral for further imaging and diagnostic workup. The patient reports associated fatigue and an unintentional weight loss of approximately 10 pounds over the past two months. They deny fevers, chills, or hemoptysis. They are currently functional but limited by dyspnea, with an estimated ECOG performance status of 1. The patient presents today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was undertaken.
+
+CT of the chest, abdomen, and pelvis with contrast was performed. This demonstrated a large, spiculated 5.5 cm mass in the left upper lobe. The scan also revealed extensive left-sided pleural thickening and a moderate malignant pleural effusion. Multiple small, solid nodules were identified in the contralateral right lung, the largest measuring 1.2 cm, consistent with metastatic disease. There was no evidence of metastatic involvement in the liver, adrenal glands, or bones.
+
+An MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the primary left lung mass. The pathology from this procedure confirmed the diagnosis.
+
+Pathology: Left lung mass, core biopsy: Poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. The results were reviewed:
+- No actionable driver alterations were identified. Testing was negative for mutations, fusions, or amplifications in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS*, and *ERBB2*.
+- PD-L1 expression by tumor proportion score (TPS) was negative (<1%).
+- Tumor Mutational Burden (TMB) was intermediate at 12 mutations/megabase (mut/Mb).
+- A pathogenic loss-of-function mutation was identified in the *STK11* gene.
+
+**Problem Summary:**
+In summary, this is a 64-year-old former smoker presenting with a new diagnosis of metastatic non-small cell lung cancer, adenocarcinoma histology. The clinical stage is Stage IV (cT3 N_x_ M1), with metastatic disease involving the pleura and contralateral lung. Molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and the presence of an *STK11* loss-of-function mutation, a known biomarker associated with primary resistance to PD-1/PD-L1 inhibitors. The patient is treatment-naive and presents for initial oncology consultation.

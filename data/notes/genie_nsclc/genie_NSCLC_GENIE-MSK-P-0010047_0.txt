@@ -1,0 +1,20 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old with a significant history of tobacco use (former smoker, quit within the last year) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was followed by an episode of scant hemoptysis, which prompted a visit to their primary care provider. The patient denies fevers, chills, or significant weight loss but reports some fatigue. They maintain a good performance status and are fully ambulatory and capable of all self-care. Given the concerning symptoms and smoking history, a diagnostic workup was initiated. The patient is now here to discuss the findings and establish care.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest radiograph revealed a right upper lobe opacity, prompting further imaging.
+
+A subsequent CT of the chest confirmed the presence of a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. There was associated adjacent pleural thickening but no definite chest wall invasion. Mediastinal and hilar lymph nodes appeared sub-centimeter and without overtly suspicious features.
+
+A PET/CT scan was performed for staging purposes on [De-identified Date]. This demonstrated intense FDG avidity in the known right upper lobe primary mass. There was no evidence of FDG-avid hilar or mediastinal lymphadenopathy. Crucially, there was no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or skeleton. A dedicated MRI of the brain was obtained and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure confirmed a diagnosis of invasive, moderately differentiated squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+- Histology: Squamous cell carcinoma
+- PD-L1 expression: Not tested.
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).
+- Comprehensive molecular profiling via next-generation sequencing is pending at this time.
+
+**PROBLEM SUMMARY:**
+This is a 68-year-old former smoker who presents as a new patient for evaluation of a recently diagnosed, treatment-naive, non-small cell lung cancer. The diagnostic workup has confirmed a Stage IIA (per AJCC 8th Edition) squamous cell carcinoma of the right upper lobe. Staging studies, including PET/CT and brain MRI, are negative for regional or distant metastatic disease. The patient has a good performance status. Molecular studies are currently incomplete.

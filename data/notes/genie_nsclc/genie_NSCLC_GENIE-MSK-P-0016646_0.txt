@@ -1,0 +1,19 @@
+**HPI:**
+This is the initial medical oncology consultation for a 76-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially managed symptomatically but did not resolve, prompting a visit to their primary care provider. The patient denies hemoptysis, chest pain, or significant dyspnea on exertion. They report mild fatigue but have had no unintentional weight loss and maintain a good appetite. The patient remains fully ambulatory and independent in all activities of daily living.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which prompted a contrast-enhanced CT of the chest. This study confirmed a 3.5 cm spiculated mass in the right upper lobe. It also demonstrated enlarged ipsilateral mediastinal and hilar lymph nodes, concerning for regional metastatic involvement.
+
+For definitive staging, a PET/CT scan was performed on [De-identified Date]. This showed intense FDG-avidity corresponding to the primary right upper lobe mass and the right-sided mediastinal (station 4R) and hilar lymph nodes. Critically, there was no evidence of FDG-avid disease below the diaphragm or in the contralateral hemithorax to suggest distant metastatic spread. A staging MRI of the brain with contrast was also obtained and was negative for any intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative.
+- Tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation was detected in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 76-year-old with an excellent performance status and a new diagnosis of Stage IIIA (AJCC 8th edition) non-small cell lung adenocarcinoma. Molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and the presence of an STK11 loss-of-function mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

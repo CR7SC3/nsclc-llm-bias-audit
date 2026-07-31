@@ -1,0 +1,45 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 56-year-old individual with a past medical history of bladder cancer who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and mild shortness of breath with exertion. These symptoms progressively worsened, prompting a visit to their primary care provider. An initial chest X-ray was performed which revealed a right upper lobe lung mass.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was obtained for staging. This confirmed a 4.8 cm spiculated mass in the right upper lobe. The scan also revealed extensive ipsilateral mediastinal lymphadenopathy, with a conglomerate of nodes in the right paratracheal and subcarinal stations. No suspicious lesions were identified in the liver, adrenal glands, or other visualized portions of the abdomen and pelvis. The patient then underwent a CT-guided core needle biopsy of the right lung mass, which established the diagnosis of squamous cell carcinoma. A staging PET/CT scan demonstrated intense FDG uptake in the primary lung mass and the mediastinal lymph nodes, with no evidence of distant metastatic disease. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient reports a 10-pound unintentional weight loss over the past few months but otherwise denies fevers, chills, or significant chest pain. Their appetite is fair. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 0. The patient is a current smoker and has been counseled on cessation.
+
+**PAST MEDICAL HISTORY**
+- Bladder cancer, status post transurethral resection, under routine urologic surveillance.
+- Hypertension
+
+**ALLERGIES**
+- No known drug allergies.
+
+**MEDICATIONS**
+- Lisinopril 10 mg daily
+
+**SOCIAL HISTORY**
+- Current smoker with an approximately 40-pack-year history.
+
+**PHYSICAL EXAM**
+Vitals: Blood pressure 132/78, pulse 84, temperature 36.8 C, resp. rate 16, SpO2 97% on room air.
+General: Well-appearing, in no acute distress.
+HEENT: Oropharynx is clear, mucous membranes are moist. No cervical or supraclavicular lymphadenopathy.
+Lungs: Clear to auscultation bilaterally. No wheezes or rales.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended.
+Extremities: No clubbing, cyanosis, or edema.
+Neuro: Alert and oriented. Grossly non-focal.
+
+**DIAGNOSTIC WORKUP**
+- **CT Chest/Abdomen/Pelvis with Contrast ([De-identified Date]):** Revealed a 4.8 cm spiculated mass in the right upper lobe with associated bulky ipsilateral mediastinal lymphadenopathy. No evidence of distant metastatic disease.
+- **PET/CT ([De-identified Date]):** Intense FDG-avidity corresponding to the right upper lobe mass and right-sided mediastinal and hilar lymph nodes. No other sites of FDG-avid disease to suggest distant metastases.
+- **MRI Brain ([De-identified Date]):** Negative for intracranial metastatic disease.
+- **CT-Guided Biopsy, Right Lung Mass ([De-identified Date]):** Pathology consistent with invasive, moderately differentiated squamous cell carcinoma.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing performed on the tumor specimen showed no actionable driver alterations, including negative results for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (12 mutations/megabase).
+
+**PROBLEM SUMMARY**
+In summary, this is a 56-year-old with an excellent performance status who presents with a new diagnosis of locally advanced, non-metastatic Stage IIIA non-small cell lung cancer, squamous cell histology. Staging workup including PET/CT and brain MRI confirms disease is confined to the right hemithorax and ipsilateral mediastinum. Molecular profiling is notable for negative PD-L1 expression, an intermediate tumor mutational burden, and no identifiable targetable driver mutations. The patient is here for initial consultation to discuss the diagnosis and review potential treatment strategies.

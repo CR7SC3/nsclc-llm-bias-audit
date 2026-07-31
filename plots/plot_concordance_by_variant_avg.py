@@ -6,7 +6,7 @@ very different concordance levels (~90% vs ~50%); that between-model spread
 swamps any demographic effect. Pooling matched (case × model) pairs removes that
 nuisance level so a real demographic signal (if any) becomes visible:
 
-  FigS_concordance_by_variant_avg_paired.png
+  FigS02_concordance_by_variant_avg_paired.png
       pool every (case × model) matched pair; exact-binomial (McNemar) test of
       variant vs reference per label, BH-FDR across labels. Bar = pooled
       concordance rate with Wilson CI.
@@ -98,9 +98,9 @@ def fig_paired(raws, uniq, cat_map, parser):
     ax.set_title("NCCN concordance by demographic label",
                  fontsize=12.5, fontweight="bold")
     fig.tight_layout()
-    fig.savefig(OUT / "FigS_concordance_by_variant_avg_paired.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT / "FigS02_concordance_by_variant_avg_paired.png", dpi=150, bbox_inches="tight")
     nsig = sum(1 for v in ORDER if q[v] is not None and q[v] < 0.05)
-    print("wrote", OUT / "FigS_concordance_by_variant_avg_paired.png",
+    print("wrote", OUT / "FigS02_concordance_by_variant_avg_paired.png",
           f"(pooled ref={ref_rate:.1f}%; BH-significant labels: {nsig})")
 
     # Honest diagnostic: how close does anything get? Sort by raw p, show the

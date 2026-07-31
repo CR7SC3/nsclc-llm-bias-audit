@@ -1,0 +1,19 @@
+**HPI:**
+This is a 75-year-old individual with a past medical history notable for prostate cancer, who presents for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several months ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with mild fatigue but no significant weight loss, hemoptysis, or chest pain. Due to the persistence of symptoms, a diagnostic workup was initiated. The patient is a former smoker with a significant pack-year history, having quit within the last year. The patient is active and maintains a good performance status, carrying out all self-care and remaining ambulatory.
+
+**Diagnostic Workup:**
+An initial chest X-ray was abnormal, prompting a follow-up CT of the chest. This study identified a 4 cm spiculated mass in the right upper lobe with associated ipsilateral mediastinal and hilar lymphadenopathy.
+
+For staging, a PET/CT scan was performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass and the mediastinal lymph nodes. The scan also revealed multiple hypermetabolic lesions in the liver, the largest in segment VII, as well as a distinct, FDG-avid 1.5 cm nodule in the contralateral left lower lobe. These findings are consistent with distant metastatic disease. A contrast-enhanced MRI of the brain was subsequently performed to evaluate for central nervous system involvement and was negative for any intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed a diagnosis of invasive, poorly differentiated adenocarcinoma of the lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue. Results are as follows:
+- **Actionable Mutations:** A KRAS G12C mutation was detected.
+- **Negative for other drivers:** Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry revealed high PD-L1 expression with a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was found to be high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 75-year-old former smoker presenting with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms a primary right lung mass with metastatic disease to the liver and contralateral lung, with no evidence of brain metastases. Molecular profiling reveals a KRAS G12C mutation, high PD-L1 expression (TPS ≥50%), and a high Tumor Mutational Burden. The patient is treatment-naive and is here today to discuss the diagnosis and potential management options.

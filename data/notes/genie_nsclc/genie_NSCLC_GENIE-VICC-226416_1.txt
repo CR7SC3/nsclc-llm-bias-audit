@@ -1,0 +1,39 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 69-year-old individual with a new diagnosis of non-small cell lung cancer, referred for initial consultation. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was initially treated as bronchitis without improvement.
+
+A subsequent chest X-ray revealed a right upper lobe opacity, prompting a contrast-enhanced CT of the chest. This study demonstrated a large, spiculated mass in the right upper lobe measuring approximately 5 cm, associated with extensive bulky ipsilateral mediastinal and right supraclavicular lymphadenopathy.
+
+For staging purposes, a PET/CT was performed. This confirmed intense FDG-avidity in the primary right upper lobe tumor and in multiple nodal stations, including the mediastinum and right supraclavicular fossa, consistent with N3 disease. Importantly, there was no evidence of FDG-avid distant metastatic disease. A staging MRI of the brain was also obtained and was negative for intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis, with fine-needle aspiration of a subcarinal lymph node. The patient is a former smoker with a significant pack-year history, having quit within the last year. The patient currently reports an ECOG performance status of 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity by shortness of breath.
+
+**PAST MEDICAL HISTORY:**
+- Brain Cancer: Status post-resection and adjuvant radiation therapy approximately 10 years ago, with no evidence of recurrence on surveillance imaging.
+- Hypertension
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+- **CT Chest:** Revealed a 5.1 x 4.8 cm spiculated mass in the right upper lobe. Extensive mediastinal and right supraclavicular lymphadenopathy was noted, with the largest supraclavicular node measuring 2.5 cm.
+- **PET/CT:** Showed intense hypermetabolism in the primary right lung mass (SUVmax 14.2) and in extensive nodal disease involving the right paratracheal, subcarinal, and right supraclavicular stations (SUVmax 11.8). No suspicious hypermetabolic foci to suggest distant metastatic disease were identified.
+- **MRI Brain:** No evidence of acute intracranial abnormality or metastatic disease.
+
+**Pathology:**
+- **EBUS-FNA of Subcarinal Lymph Node:** Cytopathology and cell block confirmed metastatic adenocarcinoma. Immunohistochemical staining was positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Not tested, as this was not standard of care at the time of initial sequencing.
+- **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/megabase).
+- **Other Alterations:** A loss-of-function mutation was identified in the KEAP1 gene.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 69-year-old former smoker with a new diagnosis of Stage IIIB (cT3N3M0) non-small cell lung adenocarcinoma. The diagnostic workup confirms locally advanced, unresectable disease confined to the right hemithorax and ipsilateral supraclavicular fossa, with no evidence of distant metastases. Molecular profiling is notable for the absence of targetable driver mutations, an intermediate tumor mutational burden, and the presence of a KEAP1 loss-of-function mutation. The patient has a good performance status and is seen today to discuss the diagnosis and establish a plan for management.

@@ -1,0 +1,37 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 78-year-old individual with a history of tobacco use (former smoker, quit >1 year ago) who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, dry cough. This was initially attributed to a seasonal illness but did not resolve. Over the subsequent weeks, the patient also noted mild, intermittent chest discomfort. Due to the persistence of these symptoms, they presented to their primary care provider for evaluation.
+
+An initial chest X-ray was concerning for a right-sided lung mass, which prompted a follow-up computed tomography (CT) scan of the chest. This confirmed the presence of a spiculated mass in the right upper lobe. The patient was subsequently referred to Interventional Pulmonology and underwent a CT-guided core needle biopsy of this lesion, which established the diagnosis of squamous cell carcinoma.
+
+Staging evaluation was completed with a positron emission tomography (PET)/CT scan, which demonstrated FDG-avidity confined to the primary right upper lobe mass without evidence of hypermetabolic nodal or distant metastatic disease. A brain MRI was also performed as part of the staging workup and was negative for intracranial metastases.
+
+The patient presents today to discuss these findings. They report a good functional status, remaining fully ambulatory and capable of all self-care, though with some fatigue related to their symptoms. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+
+**Imaging:**
+*   **CT Chest with Contrast, [De-identified date]:** Revealed a 4.8 cm spiculated mass in the posterior segment of the right upper lobe. No definite mediastinal, hilar, or axillary lymphadenopathy was identified.
+*   **PET/CT, [De-identified date]:** Intense FDG uptake corresponding to the known right upper lobe primary tumor. No other sites of abnormal FDG-avidity to suggest regional nodal involvement or distant metastatic disease.
+*   **MRI Brain with and without Contrast, [De-identified date]:** No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **CT-Guided Biopsy, Right Upper Lobe Mass, [De-identified date]:**
+    *   FINAL DIAGNOSIS: Invasive, moderately differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+*   **Tumor Tissue Next-Generation Sequencing:** Comprehensive molecular profiling was performed on the biopsy specimen.
+    *   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+    *   **PD-L1 Expression:** PD-L1 tumor proportion score (TPS) is <1%.
+    *   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker with a new diagnosis of localized non-small cell lung cancer. The diagnosis is Stage IIA (AJCC 8th Edition) squamous cell carcinoma of the right lung. Molecular studies are notable for a lack of actionable driver mutations and negative PD-L1 expression. The patient has an ECOG performance status of 1 and is here for initial consultation and to establish care.

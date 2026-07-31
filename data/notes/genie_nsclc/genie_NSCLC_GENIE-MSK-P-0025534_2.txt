@@ -1,0 +1,20 @@
+**HPI:**
+This is a 56-year-old who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker with a past medical history of breast cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Initial evaluation with a chest X-ray revealed a right-sided lung opacity, prompting further investigation.
+
+A subsequent CT of the chest, abdomen, and pelvis confirmed a primary mass in the right lung and also identified several suspicious nodules in the contralateral left lung, concerning for metastatic disease. A staging PET/CT scan demonstrated FDG-avidity in the primary right lung mass and the contralateral pulmonary nodules, with no evidence of other distant metastatic disease. A dedicated brain MRI was performed for staging and was negative for intracranial metastases. The patient has maintained a good performance status (ECOG 0-1) and reports no significant weight loss, fevers, or other constitutional symptoms.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis:** Revealed a primary mass in the right lung with multiple nodules in the contralateral lung, consistent with metastatic disease. No evidence of hepatic, adrenal, or osseous metastases.
+- **PET/CT:** Confirmed hypermetabolic activity corresponding to the primary right lung mass and contralateral lung nodules. No other sites of FDG-avid disease.
+- **Brain MRI:** Negative for evidence of intracranial metastatic disease.
+- **Biopsy:** A CT-guided core needle biopsy of the primary right lung mass was performed. Pathology returned adenocarcinoma, consistent with a non-small cell lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the following:
+- **Actionable Driver:** ERBB2 (HER2) exon 20 insertion (activating) detected.
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS mutations.
+- **PD-L1:** Negative (Tumor Proportion Score <1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 56-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the contralateral lung. The patient has a history of prior breast cancer. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion. The patient is treatment-naive and presents today to discuss the diagnosis and establish care.

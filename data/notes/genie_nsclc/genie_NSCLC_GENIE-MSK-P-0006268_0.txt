@@ -1,0 +1,22 @@
+**HPI:**
+This is a 70-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive, nagging mid-back pain. The back pain was initially attributed to arthritis but did not respond to over-the-counter analgesics and began to interfere with sleep. Due to the persistence of symptoms, the patient presented to their primary care provider who ordered a chest radiograph, which revealed a right-sided lung mass. The patient was subsequently referred for further diagnostic evaluation. They report mild fatigue but are otherwise fully ambulatory and managing all activities of daily living. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was undertaken.
+
+A CT of the chest, abdomen, and pelvis with contrast confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal and hilar adenopathy. The scan also revealed a 2.5 cm hypodense lesion in the right lobe of the liver, suspicious for a metastasis.
+
+A subsequent whole-body PET/CT scan was performed for staging. This demonstrated intense FDG-avidity in the primary right upper lobe lung mass, as well as in multiple mediastinal lymph nodes. Additionally, there was focal FDG-avidity corresponding to the known liver lesion and a new focus of intense uptake in the L4 vertebral body, consistent with osseous metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed by Interventional Radiology on [De-identified Date]. Pathology returned as poorly differentiated adenocarcinoma, consistent with a primary lung malignancy.
+
+An MRI of the brain with and without contrast was performed to complete staging and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+-   No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression by immunohistochemistry was not performed, as testing was not standard of care at the time of tissue acquisition.
+-   Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms a primary right upper lobe tumor with metastatic disease involving the liver and bone. Brain MRI is negative for central nervous system involvement. The patient has a good performance status (ECOG 1). Molecular profiling of the tumor did not identify any actionable driver mutations and revealed a low tumor mutational burden. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

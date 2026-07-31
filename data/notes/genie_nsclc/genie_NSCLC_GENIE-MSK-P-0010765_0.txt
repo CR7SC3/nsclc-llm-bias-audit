@@ -1,0 +1,20 @@
+**INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 62-year-old with an excellent performance status and a history of being a never-smoker, who is referred for evaluation of a newly diagnosed non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms prompted a visit to their primary care provider, who obtained a chest radiograph that revealed a right upper lobe opacity.
+
+**Diagnostic Workup:**
+The patient proceeded with a contrast-enhanced CT of the chest, which confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. The scan also identified several enlarged right-sided mediastinal lymph nodes.
+
+For definitive staging, a PET/CT was performed. This study demonstrated intense FDG avidity in the known right upper lobe primary mass. Avid uptake was also noted in ipsilateral mediastinal lymph nodes (stations 4R and 7), consistent with N2 nodal involvement. There was no evidence of FDG-avid disease in the contralateral hemithorax, liver, adrenal glands, or skeleton to suggest distant metastatic disease. A dedicated MRI of the brain with contrast was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed. Pathologic examination of the tissue confirmed a diagnosis of adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. A sensitizing EGFR exon 19 deletion was detected. The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was calculated and found to be high (>16 mut/Mb). PD-L1 expression was not tested as part of this panel.
+
+**Problem Summary:**
+In summary, this is a 62-year-old never-smoker who presents with newly diagnosed, treatment-naive, Stage IIIA non-small cell lung adenocarcinoma. The staging workup is consistent with locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion and a high tumor mutational burden. The patient presents today for initial consultation to discuss the diagnosis and its implications.

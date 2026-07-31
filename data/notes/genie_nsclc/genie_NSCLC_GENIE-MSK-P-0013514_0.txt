@@ -1,0 +1,15 @@
+**HPI:**
+This is a 63-year-old individual with a history of tobacco use who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was recently evaluated for a persistent cough, which prompted a chest X-ray. This imaging revealed a suspicious nodule in the right lung. The patient is a former smoker, having quit approximately 6 months ago after a significant pack-year history. The patient otherwise feels well, denies chest pain, shortness of breath, hemoptysis, or unintentional weight loss. Performance status is excellent; the patient is fully active and asymptomatic from this diagnosis (ECOG 0).
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 2.2 cm solid, spiculated mass in the right upper lobe. There was no evidence of hilar or mediastinal lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or other visualized portions of the abdomen and pelvis.
+
+To complete staging, a whole-body PET/CT was obtained, which demonstrated intense FDG-avidity localized to the right upper lobe mass, with no other sites of metabolically active disease concerning for nodal or distant metastases. A brain MRI with and without contrast was also performed and was negative for intracranial metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis confirmed the diagnosis of invasive, moderately differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 63-year-old former smoker with a new diagnosis of AJCC Stage IA non-small cell lung cancer, squamous cell histology. The workup is consistent with localized disease (T1bN0M0) without evidence of regional or distant spread. Molecular profiling did not identify any targetable driver mutations. The patient is seen today for initial consultation to discuss the diagnosis and review management options.

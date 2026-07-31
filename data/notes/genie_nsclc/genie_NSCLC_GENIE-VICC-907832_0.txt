@@ -1,0 +1,26 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 52-year-old with a recent diagnosis of non-small cell lung cancer. The patient presented to their primary care provider approximately six weeks ago with a new, persistent, non-productive cough and mild dyspnea on exertion. They are a former smoker, having quit within the last year. Initial evaluation with a chest X-ray revealed a right-sided lung opacity, prompting further investigation with a CT scan of the chest. The patient reports feeling generally well otherwise, with a good energy level and no significant weight loss. They remain fully ambulatory and are maintaining their activities of daily living.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which demonstrated a spiculated 3.5 cm mass in the right upper lobe. The scan also revealed prominent ipsilateral mediastinal and hilar lymphadenopathy, with the largest node measuring 2.2 cm in the short axis. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+For definitive staging, a PET/CT scan was subsequently obtained. This study confirmed intense FDG-avidity within the primary right upper lobe mass and in the right-sided mediastinal lymph nodes, consistent with the CT findings. Importantly, the PET scan showed no evidence of FDG-avid disease elsewhere in the body, including the contralateral lung, abdomen, or skeleton. A dedicated MRI of the brain with contrast was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology confirmed the diagnosis of non-small cell lung cancer with features most consistent with adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC 8th Edition Stage IIIA disease.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+- No actionable driver alterations were identified. Testing was negative for mutations in *EGFR*, *KRAS*, *BRAF*, and *ERBB2*; fusions involving *ALK*, *ROS1*, *RET*, and *NTRK*; and *MET* exon 14 skipping alterations.
+- PD-L1 expression was not tested.
+- Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- The genomic profile did reveal a loss-of-function mutation in *STK11*.
+
+**Problem Summary:**
+This is a 52-year-old, treatment-naive individual with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup, including PET/CT and brain MRI, confirms locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for the absence of common actionable driver mutations and the presence of an *STK11* loss-of-function mutation.

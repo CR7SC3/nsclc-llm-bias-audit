@@ -1,0 +1,20 @@
+**HPI:**
+This is a 58-year-old individual with a history of smoking (quit within the last year) who is referred for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to a primary care provider several weeks ago with a persistent, dry cough that did not resolve with a course of antibiotics. Due to the persistence of symptoms and the patient's smoking history, a chest x-ray was obtained which was abnormal. The patient reports mild fatigue but is otherwise fully ambulatory and active. There is no hemoptysis, chest pain, significant weight loss, fevers, or night sweats. The patient's ECOG performance status is 1.
+
+**Diagnostic Workup:**
+*   **Chest X-ray, [De-identified Date]:** Revealed a suspicious 4 cm density in the right upper lung zone.
+*   **CT of the Chest, Abdomen, and Pelvis with contrast, [De-identified Date]:** This study was performed to further characterize the lung lesion and for initial staging. It confirmed a 3.9 cm spiculated solid mass in the posterior aspect of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the upper abdomen, including the liver and adrenal glands, were unremarkable and free of metastatic lesions.
+*   **PET/CT, [De-identified Date]:** A full-body PET/CT was performed for definitive staging. This study demonstrated intense FDG-avidity localized to the primary right upper lobe mass. Critically, there was no abnormal FDG uptake in any mediastinal lymph nodes, the contralateral lung, or any distant sites to suggest regional or metastatic disease.
+*   **Brain MRI with and without contrast, [De-identified Date]:** Performed as part of the standard staging workup for non-small cell lung cancer, this study was negative for any evidence of intracranial metastases.
+*   **CT-guided Core Needle Biopsy of Right Lung Mass, [De-identified Date]:** An image-guided biopsy of the right upper lobe mass was successfully performed by Interventional Radiology. Pathology from this specimen confirmed the diagnosis.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tissue obtained from the core biopsy.
+*   **Histology:** Invasive Adenocarcinoma.
+*   **Actionable Driver Mutations:** An EGFR uncommon sensitizing mutation was detected.
+*   **Other Markers:** Testing was negative for mutations or rearrangements involving ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Expression:** PD-L1 immunohistochemistry was not performed on this sample, as testing was not yet standard of care at the time of the initial sequencing panel.
+
+**Problem Summary:**
+This is a 58-year-old former smoker who presents for initial evaluation of a new diagnosis of clinical Stage IIA (cT2bN0M0) non-small cell lung cancer, adenocarcinoma subtype. A comprehensive staging workup, including PET/CT and brain MRI, has confirmed disease localized to the right lung without evidence of nodal or distant metastatic spread. The patient is minimally symptomatic and maintains an excellent performance status. Molecular analysis of the tumor is significant for the presence of an EGFR uncommon sensitizing mutation.

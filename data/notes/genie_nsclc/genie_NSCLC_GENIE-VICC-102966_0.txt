@@ -1,0 +1,29 @@
+**INITIAL CONSULTATION**
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**History of Presenting Illness:**
+This is a 63-year-old with a history of smoking (quit over one year ago) who presents for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. Over the past month, they also noted a new, firm, non-tender lump on their anterior chest wall. This prompted a visit to their primary care provider, who ordered initial imaging.
+
+**Diagnostic Workup:**
+A chest X-ray revealed a large right-sided lung mass, leading to a staging CT scan of the chest, abdomen, and pelvis with contrast.
+
+Imaging studies were reviewed. The CT chest demonstrated a 4.8 cm spiculated mass in the right upper lobe. There was an associated moderate-sized malignant pleural effusion. Multiple enlarged mediastinal, hilar, and supraclavicular lymph nodes were identified, consistent with metastatic involvement. A 1.5 cm subcutaneous nodule was noted in the left anterior chest wall, corresponding to the patient's palpable finding. The CT of the abdomen and pelvis revealed a 3.1 cm enhancing nodule in the left adrenal gland, highly suspicious for a metastasis.
+
+Given the findings of metastatic disease, a brain MRI with and without contrast was obtained for staging, which was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. Key findings are as follows:
+*   An actionable driver alteration was detected: **MET amplification (high-level)**.
+*   The tumor was negative for pathogenic mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   Tumor Mutational Burden (TMB) was **intermediate (2–16 mut/Mb)**.
+*   PD-L1 expression was not tested, as the panel used was from a pre-2017 platform where this was not standard.
+
+**Problem Summary:**
+In summary, this is a 63-year-old former smoker with a new diagnosis of metastatic lung adenocarcinoma, who is treatment-naive and presents for initial evaluation and discussion.
+1.  **Diagnosis:** Stage IV non-small cell lung cancer, adenocarcinoma histology.
+2.  **Sites of Disease:** The primary tumor is in the right upper lobe, with metastatic involvement of the pleura (malignant effusion), distant lymph nodes (supraclavicular), left adrenal gland, and subcutaneous tissue. There is no evidence of central nervous system metastasis.
+3.  **Molecular Profile:** The tumor is characterized by high-level MET amplification.
+4.  **Performance Status:** The patient is fully ambulatory and capable of light activity but is symptomatic from their disease with cough and dyspnea. ECOG performance status is 1.

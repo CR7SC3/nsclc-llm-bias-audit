@@ -1,0 +1,17 @@
+**HPI:**
+This is a 76-year-old individual referred for initial consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to primary care approximately one month ago with a new-onset, persistent dry cough and mild dyspnea on exertion. An initial chest radiograph was concerning for a right-sided pulmonary mass, which prompted a more detailed diagnostic evaluation. The patient has a remote history of smoking but quit over a decade ago. The patient maintains a good functional status, is fully ambulatory and self-caring, consistent with an ECOG performance status of 1. Review of systems is negative for hemoptysis, fevers, significant weight loss, or chest pain. The patient specifically denies any new headaches, visual disturbances, or focal neurologic deficits.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. A discrete 1.5 cm nodule was also identified in the contralateral left lower lobe, highly suspicious for metastatic disease. No evidence of metastatic disease was identified in the liver, adrenal glands, or bones. A subsequent MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue. The results are as follows:
+-   **Actionable driver mutation:** A MET exon 14 skipping mutation was detected.
+-   **Negative for other drivers:** Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 expression:** Negative (Tumor Proportion Score < 1%).
+-   **Tumor Mutational Burden (TMB):** Intermediate (9 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 76-year-old former smoker with a new diagnosis of treatment-naive, Stage IV (AJCC 8th Edition) non-small cell lung adenocarcinoma, with metastatic disease to the contralateral lung. The patient has an excellent performance status (ECOG 1). Molecular profiling of the tumor is notable for a MET exon 14 skipping mutation. PD-L1 expression is negative. The patient is seen today to discuss the diagnosis, review the pathologic and molecular findings, and consider the implications for management.

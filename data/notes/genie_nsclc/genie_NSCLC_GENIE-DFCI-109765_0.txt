@@ -1,0 +1,15 @@
+**HPI:**
+This is a 66-year-old individual with a significant smoking history who is referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and an unintentional 10-pound weight loss over the preceding two months. An initial chest X-ray was concerning for a right-sided lung mass, which prompted further diagnostic evaluation. The patient is otherwise active and maintains a good performance status, reporting minimal fatigue and no significant shortness of breath at rest.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study characterized a 4.5 cm spiculated mass in the right upper lobe with adjacent mediastinal lymphadenopathy. The scan also revealed a 3.2 cm avidly enhancing nodule in the left adrenal gland, suspicious for metastatic disease. No other sites of disease were noted in the chest or abdomen.
+
+A subsequent whole-body PET/CT scan was obtained for staging purposes. This confirmed intense FDG-avidity in the primary right upper lobe tumor, several mediastinal lymph nodes, and the left adrenal lesion. A dedicated MRI of the brain with contrast was performed and was negative for any evidence of intracranial metastases.
+
+The patient proceeded to undergo a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified]. Pathologic analysis of the specimen confirmed the diagnosis of a poorly differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. This comprehensive molecular profiling did not identify any actionable driver alterations. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was found to be high, at greater than 16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 66-year-old current smoker presenting for initial evaluation of a newly diagnosed Stage IV non-small cell lung cancer, squamous cell histology. The diagnostic workup confirms a primary right upper lobe mass with metastatic disease to the left adrenal gland. Molecular profiling is notable for a high tumor mutational burden but is negative for common actionable driver mutations. The patient is treatment-naive.

@@ -1,0 +1,15 @@
+**HPI:**
+This is an 80-year-old individual referred to medical oncology for a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care approximately two months ago with a persistent, dry cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms, a chest radiograph was obtained which demonstrated a right upper lobe opacity. The patient is a former smoker, having quit more than one year ago. The patient denies hemoptysis, fevers, chills, or significant weight loss. Performance status is excellent; the patient remains fully ambulatory and independent in all activities of daily living.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This revealed a 5.5 cm spiculated mass in the posterior aspect of the right upper lobe. No definitive mediastinal or hilar lymphadenopathy was noted. There was no evidence of metastatic disease to the contralateral lung, liver, adrenal glands, or other visualized structures.
+
+To complete staging, a whole-body PET/CT was performed on [De-identified Date]. This demonstrated intense FDG-avidity within the primary right upper lobe mass. No FDG-avid nodal disease or distant metastatic sites were identified. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the specimen confirmed a diagnosis of poorly differentiated non-small cell carcinoma, with immunohistochemical staining supporting a squamous cell carcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is an 80-year-old former smoker with a new diagnosis of AJCC Stage IIB non-small cell lung cancer, squamous cell type, localized to the right upper lobe. The comprehensive staging workup is negative for nodal or distant metastatic disease. Molecular profiling of the tumor is negative for any currently recognized targetable driver mutations. The diagnosis and the results of the workup to date have been reviewed with the patient.

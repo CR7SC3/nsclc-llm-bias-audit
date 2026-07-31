@@ -1,0 +1,33 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 61-year-old individual with a history of being a never-smoker who is seen for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent dry cough and progressive headaches. Over the subsequent weeks, they also noted intermittent dizziness and mild word-finding difficulties, which prompted an evaluation in the emergency department.
+
+An initial MRI of the brain was performed which revealed multiple enhancing parenchymal lesions in the cerebral and cerebellar hemispheres, concerning for metastatic disease. This prompted further staging studies. A full-body PET/CT scan was subsequently obtained, which demonstrated a hypermetabolic primary mass in the right upper lobe of the lung. The scan also revealed extensive metastatic disease, including metabolically active mediastinal and contralateral supraclavicular lymph nodes, a lytic lesion in the thoracic spine, and a suspicious left adrenal nodule.
+
+The patient was referred to Interventional Radiology for a diagnostic tissue biopsy. A CT-guided core biopsy of the right upper lobe lung mass was performed. Pathology confirmed the diagnosis of adenocarcinoma. Given these findings, the patient is now referred to medical oncology for discussion of the diagnosis and management. The patient is symptomatic but remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+*   **MRI Brain with and without contrast:** Revealed multiple, scattered enhancing lesions throughout the cerebral and cerebellar hemispheres, consistent with metastatic disease.
+*   **PET/CT, whole body:**
+    *   Lungs: A 3.8 cm hypermetabolic mass in the right upper lobe.
+    *   Lymph Nodes: FDG-avid mediastinal, hilar, and left supraclavicular lymphadenopathy, consistent with nodal metastases.
+    *   Bone: An FDG-avid lytic lesion identified in the T8 vertebral body.
+    *   Other: A 2.1 cm FDG-avid nodule in the left adrenal gland.
+    *   Impression: Widespread metastatic disease consistent with a right lung primary.
+*   **CT-guided core biopsy, right upper lobe lung mass:** Pathology confirmed invasive adenocarcinoma. Immunohistochemical stains were consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue specimen.
+*   **Actionable driver mutation:** A **RET fusion** was detected.
+*   **Negative for other drivers:** The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 61-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, characterized by a RET fusion. Staging studies confirm metastatic disease involving the brain, bone, distant lymph nodes, and adrenal gland.

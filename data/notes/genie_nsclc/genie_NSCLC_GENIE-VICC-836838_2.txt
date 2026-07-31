@@ -1,0 +1,17 @@
+**HPI:**
+This is a 72-year-old with a history of smoking (quit over one year ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive exertional dyspnea. This was associated with mild fatigue and an unintentional weight loss of approximately 10 pounds over the preceding three months. These symptoms prompted a visit to their primary care provider, who ordered a chest radiograph that revealed a right upper lobe opacity and mediastinal fullness, prompting further diagnostic evaluation. The patient reports a good performance status (ECOG 1), remaining ambulatory and capable of all self-care, but is limited in strenuous activity by dyspnea.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated extensive mediastinal and right-sided supraclavicular lymphadenopathy, with the largest conglomerate of nodes in the subcarinal region measuring up to 3.8 cm. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+To complete staging, a PET/CT scan was obtained. This demonstrated intense FDG-avidity in the primary right upper lobe mass and in the extensive mediastinal and supraclavicular nodal stations, consistent with the CT findings. Importantly, the PET scan did not reveal any evidence of FDG-avid disease elsewhere, confirming the absence of distant metastases. A staging MRI of the brain was also performed and was negative for any intracranial metastatic disease.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and pathologic staging. A fine-needle aspiration (FNA) was performed on a subcarinal lymph node (station 7). Pathology from this specimen confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+Based on the combination of a primary tumor with extensive contralateral mediastinal and supraclavicular nodal involvement (T2bN3M0), the patient is diagnosed with AJCC Stage IIIB disease.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue obtained from the EBUS-FNA. No actionable driver alteration was identified; testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. Consistent with the standard of care at the time of tissue acquisition, PD-L1 immunohistochemistry was not performed. Tumor mutational burden (TMB) analysis was completed and was found to be high, at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 72-year-old former smoker with a new diagnosis of treatment-naive, locally advanced, unresectable Stage IIIB non-small cell lung cancer, adenocarcinoma subtype. The disease is characterized by a high tumor mutational burden (TMB) and is negative for common actionable driver mutations. Staging workup is complete and confirms no evidence of distant metastatic disease. The patient is here for initial consultation to discuss the diagnosis in detail.

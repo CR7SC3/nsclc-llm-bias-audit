@@ -1,0 +1,21 @@
+**HPI:**
+This is an initial medical oncology consultation for a 71-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is referred for discussion of diagnosis and management. The patient has a history as a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. This was associated with a 10-pound unintentional weight loss over the same period. They presented to their primary care provider, who obtained a chest X-ray revealing a right upper lobe lung mass. A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a 4.5 cm spiculated mass in the right upper lobe. The scan also raised suspicion for multiple liver lesions, a moderate right-sided pleural effusion, and a left adrenal nodule, concerning for metastatic disease. The patient reports mild dyspnea on exertion but is otherwise fully ambulatory and managing activities of daily living with minimal assistance. ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+A PET/CT scan was subsequently performed for staging, which demonstrated intense hypermetabolic activity in the known right upper lobe lung mass. It also confirmed FDG-avid metastatic disease involving multiple segments of the liver, the right pleura, and the left adrenal gland.
+
+An MRI of the brain with and without contrast was performed to complete staging and was negative for any evidence of intracranial metastasis.
+
+To establish a tissue diagnosis, the patient underwent an ultrasound-guided core biopsy of a dominant liver lesion performed by Interventional Radiology. Pathology from this specimen confirmed metastatic adenocarcinoma. Immunohistochemical staining (TTF-1 positive, Napsin-A positive) was consistent with a lung primary origin. The overall findings are consistent with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the liver biopsy tissue.
+- An actionable driver mutation was identified in **BRAF (V600E)**.
+- The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+This is a 71-year-old, treatment-naive patient with a new diagnosis of metastatic (Stage IV) non-small cell lung cancer, adenocarcinoma histology, harboring a BRAF V600E mutation. Staging studies confirmed disease involving the primary lung tumor, liver, pleura, and an adrenal gland, with no evidence of brain metastases. The patient presents today for initial consultation to discuss the diagnosis.

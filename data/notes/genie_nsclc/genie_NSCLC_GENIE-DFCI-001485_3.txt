@@ -1,0 +1,29 @@
+**Medical Oncology - Initial Consultation Note**
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HPI:**
+This is a 67-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, dry cough and progressive shortness of breath with exertion. This prompted a visit to their primary care provider. Past medical history is notable for a prior diagnosis of bladder cancer, which is managed by urology and considered unrelated to the current presentation. The patient remains fully ambulatory and independent in all activities of daily living, though reports increasing fatigue over the past several weeks.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a large right upper lobe opacity, prompting further evaluation.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 5.2 cm spiculated mass in the right upper lobe. The scan also revealed extensive mediastinal and right supraclavicular lymphadenopathy, concerning for locoregional spread. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent whole-body PET/CT scan was obtained for staging. This demonstrated intense FDG-avidity in the primary right upper lobe mass as well as in the right paratracheal, subcarinal, and right supraclavicular lymph nodes. No other sites of abnormal FDG uptake suggestive of distant metastatic disease were identified.
+
+Given the high risk of central nervous system involvement, a dedicated MRI of the brain with and without contrast was performed, which was negative for any evidence of intracranial metastases.
+
+The diagnosis was definitively established via a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review confirmed a diagnosis of poorly differentiated squamous cell carcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC Stage IIIB disease.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for next-generation sequencing to assess for targetable alterations. No actionable driver alteration was identified on the comprehensive molecular panel. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 expression was not tested, consistent with standard practice at the time the sequencing was performed.
+
+**Problem Summary:**
+In summary, this is a 67-year-old with a history of bladder cancer who presents with a new diagnosis of locally advanced, non-metastatic Stage IIIB squamous non-small cell lung cancer. Molecular profiling did not identify any actionable driver mutations. The patient has a good performance status and is treatment-naive.

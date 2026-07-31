@@ -1,0 +1,22 @@
+**HPI:**
+This is a 76-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. An initial course of antibiotics from their primary care provider did not lead to improvement.
+
+Due to the persistent symptoms, a chest X-ray was obtained which showed a right upper lobe opacity. This prompted a staging CT scan of the chest, abdomen, and pelvis with contrast. Imaging confirmed a solid mass in the right upper lobe and identified enlarged mediastinal and subcarinal lymph nodes. No suspicious lesions were noted in the contralateral lung, liver, adrenal glands, or visualized bones. To complete staging, a brain MRI with and without contrast was performed and was negative for intracranial metastases.
+
+The patient was subsequently referred for bronchoscopy with endobronchial ultrasound (EBUS) for tissue acquisition and definitive staging. Biopsies were successfully obtained from the primary lung mass and subcarinal lymph nodes. The patient has tolerated the workup well, reporting only mild fatigue but maintaining full ambulatory and self-care capacity, consistent with an ECOG performance status of 0-1.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified]:** Revealed a 4 cm spiculated mass in the posterior aspect of the right upper lobe. Multiple enlarged ipsilateral mediastinal and subcarinal lymph nodes were identified, the largest measuring 2.5 cm in the subcarinal station. No distant metastatic disease was identified.
+- **Brain MRI with/without contrast [De-identified]:** No evidence of intracranial metastatic disease.
+- **PET/CT [De-identified]:** Demonstrated a hypermetabolic primary mass in the right upper lobe (SUVmax 12.4). Intense FDG avidity was also seen in right mediastinal and subcarinal lymph nodes (SUVmax 9.8), consistent with nodal metastases. No other sites of FDG-avid disease suggestive of distant metastases were found.
+- **Bronchoscopy with EBUS-guided biopsy [De-identified]:** Biopsy of the right upper lobe mass and subcarinal (station 7) lymph node. Pathology confirmed invasive adenocarcinoma in both the primary mass and the lymph node.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor tissue returned the following results:
+- **Actionable Driver Mutation:** MET exon 14 skipping mutation detected.
+- **Other Driver Mutations:** Negative for alterations in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Tumor Proportion Score (TPS):** Positive, 1-49%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 76-year-old, treatment-naive former smoker with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Staging workup including PET/CT and brain MRI is negative for distant metastatic disease. Molecular analysis of the tumor is notable for a MET exon 14 skipping mutation and PD-L1 expression of 1-49%. The patient has an excellent performance status and is here to discuss the diagnosis and establish care.

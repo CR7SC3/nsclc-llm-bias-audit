@@ -1,0 +1,23 @@
+**HPI:**
+This is a 66-year-old individual with a history of a persistent, non-productive cough for the past several months. The cough was initially evaluated by a primary care provider and did not resolve with a course of standard antibiotics. Due to the persistence of symptoms and new-onset mild dyspnea on exertion, a chest X-ray was obtained which was suspicious for a right-sided lung mass. The patient was subsequently referred for further diagnostic workup and oncologic evaluation. The patient has a never-smoking history and an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was completed prior to this consultation.
+
+- **CT of the Chest with Contrast:** Performed on [De-identified], this revealed a 4.2 cm spiculated mass in the right upper lobe. There was also evidence of bulky right hilar and ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.5 cm in the subcarinal station.
+
+- **PET/CT Scan:** A whole-body PET/CT was performed for staging. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the right hilar and mediastinal lymph nodes, consistent with the chest CT findings. Importantly, there was no evidence of FDG-avid disease at any distant sites, including the contralateral lung, liver, adrenal glands, or bones.
+
+- **Brain MRI with and without Contrast:** Performed on [De-identified], this was negative for any evidence of intracranial metastatic disease.
+
+- **Biopsy:** A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed the diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable Driver Mutations:** An EGFR exon 19 deletion (sensitizing) was detected.
+- **Additional Molecular Testing:** Negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **PD-L1 Immunohistochemistry:** Negative (Tumor Proportion Score <1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (9 mut/Mb).
+
+**Problem Summary:**
+This is a 66-year-old never-smoker who presents for initial oncology consultation with a new diagnosis of Stage IIIA (cT2b N2 M0) non-small cell lung cancer, adenocarcinoma histology. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion. Staging workup is negative for distant metastatic disease.

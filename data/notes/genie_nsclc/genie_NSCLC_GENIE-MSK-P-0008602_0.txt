@@ -1,0 +1,24 @@
+**HPI:**
+This is a 54-year-old individual with a history of smoking (quit <1 year ago) who is referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility with a several-week history of a persistent non-productive cough, progressive dyspnea on exertion, and new-onset headaches. An initial chest radiograph was abnormal, prompting further investigation. The patient reports feeling generally fatigued but is maintaining activities of daily living. Performance status is excellent, estimated at ECOG 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which identified a 3.5 cm speculated mass in the right upper lobe. The scan also demonstrated mediastinal lymphadenopathy and a moderate-sized right-sided malignant pleural effusion.
+
+For definitive staging, a PET/CT was obtained. This study confirmed high avidity in the primary right upper lobe mass, mediastinal nodes, and extensive pleural nodularity consistent with pleural metastases. Additionally, multiple FDG-avid foci were identified in the thoracic spine and a left rib, concerning for osseous metastases.
+
+Given the presenting symptom of headaches, a brain MRI with contrast was performed. This revealed multiple, scattered enhancing parenchymal lesions in the cerebral hemispheres consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed on [De-identified]. Pathology returned as poorly differentiated non-small cell lung cancer, with immunohistochemistry confirming an adenocarcinoma subtype.
+
+**Molecular Studies:**
+The tissue from the lung biopsy underwent comprehensive next-generation sequencing and molecular analysis.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+1.  Newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology.
+2.  Metastatic disease at diagnosis to the brain, bone, and pleura.
+3.  Molecular profiling notable for the absence of an actionable driver mutation. PD-L1 negative. TMB-Intermediate.
+4.  ECOG performance status 1.
+5.  Former smoker.

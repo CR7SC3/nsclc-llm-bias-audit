@@ -1,0 +1,23 @@
+**HPI:**
+The patient is a 41-year-old individual with a past medical history notable only for well-controlled asthma, who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker. The patient reports the onset of a persistent, non-productive cough and mild exertional dyspnea approximately two months prior to presentation. These symptoms were initially attributed to an upper respiratory infection but did not resolve with conservative management. This prompted further investigation by the primary care provider, beginning with a chest radiograph that demonstrated a right upper lobe opacity. The patient otherwise feels well, with a good energy level and stable appetite and weight. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a CT of the chest with contrast was performed on [De-identified]. This revealed a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated extensive mediastinal and contralateral supraclavicular lymphadenopathy, concerning for advanced nodal involvement. CT of the abdomen and pelvis showed no evidence of visceral or osseous metastatic disease.
+
+A subsequent PET/CT scan on [De-identified] confirmed high FDG-avidity in the primary right upper lobe mass and in multiple nodal stations, including ipsilateral mediastinal, contralateral mediastinal (N3), and right supraclavicular (N3) lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease were identified.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed on [De-identified]. Pathology returned as poorly differentiated adenocarcinoma, with immunohistochemical staining (TTF-1 positive, Napsin-A positive) consistent with a lung primary.
+
+Given the extensive nodal disease, a staging MRI of the brain with and without contrast was performed on [De-identified] to rule out central nervous system involvement. This study was negative for intracranial metastases.
+
+Based on this comprehensive workup, the patient is diagnosed with Stage IIIB (pT2b N3 M0) non-small cell lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+- An **ALK gene rearrangement** was detected.
+- Testing was negative for pathogenic alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry (IHC) was negative (Tumor Proportion Score < 1%).
+- Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 41-year-old never-smoker who presents with newly diagnosed, treatment-naive Stage IIIB (T2b N3 M0) non-small cell lung adenocarcinoma. Molecular profiling of the tumor is notable for the presence of an ALK gene rearrangement.

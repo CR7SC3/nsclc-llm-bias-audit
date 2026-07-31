@@ -1,0 +1,60 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 48-year-old individual with a history of smoking (former, quit >1 year ago) who presents for initial oncology evaluation of newly diagnosed non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed persistent headaches and mild intermittent dizziness. These symptoms prompted an evaluation in the emergency department. An initial head CT was performed, followed by a brain MRI which revealed multiple ring-enhancing lesions consistent with metastatic disease.
+
+Given the findings on brain imaging, a full staging workup was initiated to identify a primary malignancy. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which demonstrated a spiculated 2.8 cm mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed the diagnosis of adenocarcinoma. The patient has had no significant cancer-related pain, weight loss, or respiratory symptoms to date. They report good energy levels and maintain an ECOG performance status of 1. They are here today to discuss the diagnosis and establish care.
+
+**PAST MEDICAL HISTORY:**
+- Non-contributory
+
+**PAST SURGICAL HISTORY:**
+- Non-contributory
+
+**MEDICATIONS:**
+- Per patient report, none at this time.
+
+**ALLERGIES:**
+- No known drug allergies.
+
+**SOCIAL HISTORY:**
+- Tobacco Use: Former smoker, quit more than one year ago.
+
+**PHYSICAL EXAMINATION:**
+Vitals: Reviewed, stable.
+Constitutional: Well-appearing, in no acute distress.
+HEENT: Normocephalic, atraumatic. Anicteric sclerae.
+Neck: Supple, no lymphadenopathy.
+Lungs: Clear to auscultation bilaterally.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended.
+Neurological: Alert and oriented x3. Cranial nerves II-XII grossly intact. Motor strength 5/5 throughout. Sensation intact. No focal deficits noted.
+Skin: Warm and dry, no suspicious lesions.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+- **Brain MRI (with and without contrast):** Multiple enhancing intraparenchymal lesions in the bilateral cerebral hemispheres, the largest measuring 1.5 cm in the left frontal lobe, consistent with metastatic disease.
+- **CT Chest/Abdomen/Pelvis (with contrast):** Revealed a 2.8 cm spiculated mass in the right upper lobe. Prominent mediastinal and right hilar lymph nodes. No suspicious hepatic, adrenal, or osseous lesions identified. Findings consistent with a primary lung malignancy with locoregional nodal involvement.
+
+**Pathology:**
+- **CT-guided biopsy, right upper lobe lung mass:**
+  - **Final Diagnosis:** Invasive adenocarcinoma, non-small cell type.
+
+**MOLECULAR STUDIES (Next-Generation Sequencing Panel on Tumor Tissue):**
+- **Actionable Driver Mutation:** ROS1 rearrangement detected.
+- **Other Drivers:** Negative for EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 (HER2) mutations.
+- **PD-L1 Immunohistochemistry:** Positive, Tumor Proportion Score (TPS) ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 10 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 48-year-old with a new diagnosis of Stage IV (cT2a, N2, M1b) non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. Molecular profiling of the tumor is notable for a ROS1 rearrangement and a high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and presents for initial consultation and management.

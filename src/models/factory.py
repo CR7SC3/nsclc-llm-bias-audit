@@ -19,6 +19,9 @@ _OPENAI_PREFIXES    = ("gpt-", "o1", "o3", "o4")
 _ANTHROPIC_PREFIXES = ("claude",)
 _GROQ_PREFIXES      = ("llama", "mixtral", "gemma")
 _TOGETHER_PREFIXES  = ("meta-llama/", "mistralai/", "togethercomputer/", "qwen/", "google/")
+_DEEPSEEK_PREFIXES  = ("deepseek",)
+_OPENROUTER_PREFIXES = ("openrouter/",)
+_OLLAMA_PREFIXES     = ("ollama/",)
 
 # Exact model IDs that must route to Groq even though their prefix (qwen/,
 # openai/, meta-llama/) would otherwise match OpenAI or Together. These are the
@@ -55,6 +58,17 @@ def create_model(model_name: str, **kwargs):
         from src.models.groq_model import GroqModel
         return GroqModel(model_name=model_name, **kwargs)
 
+    # OpenRouter (prefixed ``openrouter/...``) — checked before Together's
+    # ``meta-llama/`` prefix so the pinned-provider OpenRouter route wins.
+    if any(name_lower.startswith(p) for p in _OPENROUTER_PREFIXES):
+        from src.models.openrouter_model import OpenRouterModel
+        return OpenRouterModel(model_name=model_name, **kwargs)
+
+    # Ollama (prefixed ``ollama/...``) — local inference, on-prem arm.
+    if any(name_lower.startswith(p) for p in _OLLAMA_PREFIXES):
+        from src.models.ollama_model import OllamaModel
+        return OllamaModel(model_name=model_name, **kwargs)
+
     if any(name_lower.startswith(p) for p in _GEMINI_PREFIXES):
         from src.models.gemini_model import GeminiModel
         return GeminiModel(model_name=model_name, **kwargs)
@@ -66,6 +80,10 @@ def create_model(model_name: str, **kwargs):
     if any(name_lower.startswith(p) for p in _ANTHROPIC_PREFIXES):
         from src.models.anthropic_model import AnthropicModel
         return AnthropicModel(model_name=model_name, **kwargs)
+
+    if any(name_lower.startswith(p) for p in _DEEPSEEK_PREFIXES):
+        from src.models.deepseek_model import DeepSeekModel
+        return DeepSeekModel(model_name=model_name, **kwargs)
 
     if any(name_lower.startswith(p) for p in _TOGETHER_PREFIXES):
         from src.models.together_model import TogetherModel
@@ -95,6 +113,7 @@ SUPPORTED_MODELS = [
     "o4-mini",
     # Anthropic
     "claude-opus-4-8",
+    "claude-sonnet-5",
     "claude-sonnet-4-6",
     "claude-haiku-4-5-20251001",
     # Groq (free tier, open-weight) — verified live 2026-06
@@ -109,4 +128,15 @@ SUPPORTED_MODELS = [
     "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",    # Qwen3 235B MoE (non-thinking Instruct)
+    # DeepSeek (~$5/full run)
+    "deepseek-chat",      # DeepSeek V3
+    "deepseek-reasoner",  # DeepSeek R1
+    # OpenRouter (pinned to one provider; ~$8/full run) — prefixed to stay
+    # distinct from the Together meta-llama/ route and checkpoint.
+    "openrouter/meta-llama/llama-3.3-70b-instruct",
+    "openrouter/meta-llama/llama-3.1-8b-instruct",   # Llama 3.1 8B (cheapest 8B arm)
+    # Ollama (local, on-prem arm) — prefixed; served from localhost:11434.
+    "ollama/med42-8b",
+    "ollama/meditron",   # medical pilot (official Ollama lib; base 7B, weak instr)
 ]

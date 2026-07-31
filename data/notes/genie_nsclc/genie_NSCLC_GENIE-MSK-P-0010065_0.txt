@@ -1,0 +1,17 @@
+**HPI:**
+This is a 39-year-old individual referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right hip pain. The pain was initially managed with over-the-counter analgesics but worsened to the point of causing a limp, prompting a visit to an outside emergency department. An x-ray of the pelvis revealed a suspicious lytic lesion in the right iliac bone.
+
+This initial finding prompted a broader imaging workup. The patient is a current smoker. They report fatigue but are otherwise maintaining activities of daily living. They deny fevers, chills, or significant weight loss.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. Multiple bilateral pulmonary nodules were noted, consistent with contralateral lung metastases. There was evidence of nodular pleural thickening concerning for pleural metastasis, as well as extensive mediastinal and right supraclavicular lymphadenopathy. The scan re-demonstrated a lytic lesion in the right iliac wing, and an additional sclerotic lesion was noted in the T7 vertebral body.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core biopsy of the right upper lobe lung mass. Pathology from this procedure returned as poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Staging was completed with a PET/CT scan which confirmed high FDG avidity in the primary right upper lobe mass, the contralateral pulmonary nodules, the pleura, multiple lymph node stations (including mediastinal and supraclavicular), and the previously identified osseous lesions in the pelvis and thoracic spine. As part of the standard metastatic workup, a brain MRI with contrast was performed and was negative for any evidence of intracranial metastatic disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was determined to be low at <2 mutations/megabase. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 39-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The patient is treatment-naive. Staging workup confirms widespread metastatic disease involving the contralateral lung, pleura, distant lymph nodes, and bone. Molecular profiling of the tumor did not identify an actionable driver mutation.

@@ -1,0 +1,36 @@
+**REASON FOR CONSULTATION:** New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 48-year-old individual with a significant smoking history who presents for initial oncologic evaluation. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive shortness of breath with exertion. Symptoms worsened, prompting a visit to an urgent care center.
+
+An initial chest X-ray was concerning for a right-sided lung mass and a large pleural effusion. The patient was subsequently sent for a CT scan of the chest, which confirmed a spiculated mass in the right upper lobe and a large, loculated right-sided pleural effusion.
+
+The patient was referred to Interventional Pulmonology for further evaluation. A thoracentesis was performed, with removal of 1.5 liters of serosanguinous fluid, which provided some symptomatic relief. Cytologic analysis of the pleural fluid confirmed the presence of malignant cells consistent with adenocarcinoma. A staging PET/CT was subsequently performed, which demonstrated FDG-avidity in the primary right upper lobe mass and extensive pleural studding, with no evidence of other distant metastatic disease. A brain MRI was also obtained for staging and was negative for intracranial metastases.
+
+The patient is now referred to medical oncology for discussion of the diagnosis and management options. They report ongoing dyspnea on exertion but are able to perform all self-care. Appetite is fair with a 10-pound weight loss over the past three months. Performance status is ECOG 1.
+
+**PAST MEDICAL HISTORY:** Unremarkable.
+**PAST SURGICAL HISTORY:** None.
+**FAMILY HISTORY:** Noncontributory for malignancy.
+**SOCIAL HISTORY:** Current smoker, approximately one pack per day for 30 years. Denies alcohol or illicit drug use.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+- CT Chest/Abdomen/Pelvis with contrast [De-identified Date]: Revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. There is a large, complex right-sided pleural effusion with associated pleural thickening and nodularity. No suspicious hepatic, adrenal, or osseous lesions.
+- PET/CT [De-identified Date]: Hypermetabolic activity corresponding to the known right upper lobe mass (SUVmax 12.4). Intense, diffuse FDG uptake throughout the right pleura, consistent with extensive pleural metastases. No other sites of FDG-avid metastatic disease identified.
+- MRI Brain with and without contrast [De-identified Date]: No evidence of intracranial metastatic disease.
+
+**Pathology:**
+- Pleural Fluid Cytology ([De-identified] Medical Center, [De-identified Date]): Malignant cells present, consistent with adenocarcinoma. Immunohistochemical stains positive for TTF-1 and Napsin-A, supporting a lung primary.
+
+**Staging:**
+Based on the presence of a primary lung tumor with malignant pleural effusion (M1a), the patient's diagnosis is consistent with AJCC 8th Edition Stage IV non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor specimen obtained from the pleural fluid.
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- PD-L1 expression was not tested, consistent with the standard of care at the time of tissue acquisition.
+- Tumor Mutational Burden (TMB) was reported as high (>16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 48-year-old current smoker who presents with a new diagnosis of metastatic (Stage IV) non-small cell adenocarcinoma of the lung. The disease is characterized by a primary right upper lobe mass with extensive malignant pleural effusion. Comprehensive molecular profiling of the tumor did not identify any actionable driver mutations but did reveal a high tumor mutational burden. The patient is treatment-naive and has an ECOG performance status of 1.

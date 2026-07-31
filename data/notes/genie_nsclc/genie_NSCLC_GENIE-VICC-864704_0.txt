@@ -1,0 +1,15 @@
+**HPI:**
+This is a 50-year-old individual referred for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed persistent headaches and experienced a new-onset seizure. This prompted an evaluation in the emergency department.
+
+An initial CT scan of the head revealed multiple intracranial lesions suspicious for metastatic disease. A comprehensive staging workup was subsequently initiated, which included a CT of the chest, abdomen, and pelvis. This imaging identified a large mass in the right lung. The patient has also endorsed a persistent dry cough for the past several months and an unintentional weight loss of approximately 15 pounds. The patient is a current smoker. Performance status is estimated at ECOG 1; the patient is fully ambulatory and capable of all self-care but is limited in physically strenuous activity by fatigue.
+
+**Diagnostic Workup:**
+Staging evaluation included a contrast-enhanced CT of the chest, which demonstrated a 4.5 cm spiculated mass in the right upper lobe with associated right hilar and mediastinal lymphadenopathy. A dedicated MRI of the brain was performed, which confirmed the presence of multiple ring-enhancing cerebral lesions consistent with metastatic deposits.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Pathologic review of the tissue confirmed a diagnosis of invasive adenocarcinoma. Immunohistochemical staining was consistent with a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable oncogenic driver mutations were identified. The tumor was found to be negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested as part of this panel.
+
+**Problem Summary:**
+In summary, this is a 50-year-old current smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis was established via biopsy of a right lung primary, with staging studies confirming metastatic disease to the brain. Comprehensive molecular profiling did not identify any targetable driver alterations. The diagnosis and findings to date were discussed.

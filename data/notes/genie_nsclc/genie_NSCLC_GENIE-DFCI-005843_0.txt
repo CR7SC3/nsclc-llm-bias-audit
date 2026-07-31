@@ -1,0 +1,19 @@
+**HPI:**
+This is a 66-year-old who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in a usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive exertional dyspnea. Symptoms prompted an evaluation with their primary care provider. The patient denies hemoptysis, fevers, or significant weight loss. They maintain an excellent performance status (ECOG 0) and are fully active.
+
+**Diagnostic Workup:**
+An initial chest radiograph demonstrated a right-sided lung opacity and a moderate pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. Imaging revealed a 3.8 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. A large, right-sided pleural effusion was also noted, with features suspicious for malignant involvement. No other sites of distant metastatic disease were identified in the abdomen or pelvis.
+
+A PET/CT scan was obtained for staging, which demonstrated intense FDG avidity in the primary right upper lobe mass, in several mediastinal lymph nodes, and diffusely throughout the right pleura, consistent with pleural metastasis. A dedicated MRI of the brain with contrast was performed and was negative for intracranial metastases.
+
+The patient underwent a right-sided thoracentesis for both therapeutic relief and diagnostic purposes. Cytologic analysis of the pleural fluid confirmed the presence of malignant cells. The final pathology was consistent with adenocarcinoma, favoring a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the pleural fluid cell block. Molecular profiling identified an activating point mutation in the epidermal growth factor receptor (EGFR) gene, specifically the L858R substitution in exon 21.
+
+Testing was negative for other targetable driver mutations, including rearrangements in ALK and ROS1, as well as mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1-49% range. Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 66-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the pleura. Molecular analysis of the tumor is notable for a sensitizing EGFR L858R mutation.

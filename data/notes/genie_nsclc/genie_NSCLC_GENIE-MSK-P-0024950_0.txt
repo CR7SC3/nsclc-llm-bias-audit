@@ -1,0 +1,30 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 59-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was asymptomatic and underwent a routine low-dose screening chest CT, which revealed a suspicious solid nodule in the right lung.
+
+A subsequent diagnostic contrast-enhanced chest CT was performed, which characterized a 1.7 cm spiculated nodule in the right upper lobe. There was no evidence of hilar or mediastinal lymphadenopathy. To complete staging, a PET/CT scan was obtained. This study demonstrated FDG-avidity isolated to the known right upper lobe nodule, with no uptake in regional lymph nodes or at any distant sites to suggest metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+Given these findings, the patient proceeded with a CT-guided core needle biopsy of the right upper lobe nodule, which established the diagnosis. The patient presents today to discuss the findings and establish oncologic care. They report an excellent functional status, are fully active, and deny any constitutional symptoms such as fevers, weight loss, or fatigue.
+
+**Diagnostic Workup:**
+*   **Imaging:**
+    *   **Chest CT:** Revealed a 1.7 cm spiculated solid nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+    *   **PET/CT:** Showed an FDG-avid right upper lobe nodule corresponding to the lesion seen on CT. There was no evidence of hypermetabolic activity in regional lymph nodes or in any distant organs.
+    *   **MRI Brain:** Negative for evidence of intracranial metastatic disease.
+*   **Pathology:**
+    *   **CT-guided core biopsy, right upper lobe lung nodule:** Invasive adenocarcinoma, non-small cell type.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+*   **Driver Mutations:** No actionable driver alteration identified. Testing was negative for mutations/rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1–49%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 59-year-old former smoker who presents with a new diagnosis of treatment-naive, Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The workup has confirmed localized disease without evidence of regional or distant metastasis. Molecular profiling is notable for PD-L1 expression (TPS 1-49%) with no identified actionable driver mutations. The patient has an excellent performance status (ECOG 0) and is here for initial oncology evaluation.

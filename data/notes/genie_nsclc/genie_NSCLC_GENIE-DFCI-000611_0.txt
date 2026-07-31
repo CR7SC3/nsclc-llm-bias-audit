@@ -1,0 +1,21 @@
+**HPI:**
+This is a 65-year-old individual with a history of being a never-smoker who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care approximately two months ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest radiograph revealed a right upper lobe opacity, which prompted further investigation. The patient is otherwise active with a good performance status (ECOG 1) and denies hemoptysis, significant weight loss, or chest pain. The patient is here today to discuss the diagnosis in detail and establish care.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study characterized a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated extensive and bulky mediastinal and right-sided supraclavicular lymphadenopathy, concerning for advanced locoregional disease.
+
+To complete staging, a whole-body PET/CT was obtained on [De-identified date]. This confirmed high FDG-avidity in the primary right upper lobe mass, as well as in multiple mediastinal (paratracheal, subcarinal) and right supraclavicular nodal stations. No FDG-avid lesions suggestive of distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or bones. A subsequent brain MRI with and without contrast was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary based on immunohistochemical profile.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIIB (cT2aN3M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Actionable driver mutation:** A **ROS1 rearrangement** was detected.
+- **Additional testing:** The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** TMB was intermediate (2–16 mut/Mb).
+- **PD-L1:** PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+This is a 65-year-old never-smoker with newly diagnosed, non-metastatic, unresectable Stage IIIB (cT2aN3M0) ROS1-rearranged non-small cell lung adenocarcinoma. The patient has an excellent performance status and is treatment-naive.

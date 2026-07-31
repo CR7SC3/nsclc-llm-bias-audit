@@ -1,0 +1,25 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**HPI:**
+This is a 71-year-old individual referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to an outside facility approximately one month ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray revealed a right upper lobe opacity, which prompted further diagnostic evaluation. The patient is a former smoker, having quit more than one year ago. They report good baseline functional status, remaining independent with all activities of daily living and ambulating without difficulty, consistent with an ECOG performance status of 1. A review of systems is otherwise negative for constitutional symptoms such as fevers, night sweats, or significant unintentional weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study characterized a 4.8 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky ipsilateral mediastinal lymphadenopathy, involving the paratracheal and subcarinal nodal stations.
+
+A subsequent whole-body PET/CT scan was performed for staging. This demonstrated intense FDG-avidity within the primary right upper lobe mass and the previously identified mediastinal nodal stations, confirming hypermetabolic disease consistent with malignancy. Importantly, the PET/CT scan showed no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, or bones, and no other sites of distant metastatic involvement were identified. A dedicated MRI of the brain was also obtained and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the specimen established the diagnosis.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed a diagnosis of adenocarcinoma. Comprehensive molecular profiling via next-generation sequencing (NGS) was performed on the tumor tissue. The following results were reported:
+-   **Actionable Driver Mutation:** An activating KRAS G12C mutation was detected.
+-   **Other Drivers:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+-   **PD-L1 Expression:** Immunohistochemistry for PD-L1 was negative (Tumor Proportion Score < 1%).
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+-   **Resistance Biomarkers:** A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 71-year-old former smoker who presents with a new diagnosis of locally advanced, non-metastatic Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Molecular testing is notable for the presence of a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation, with negative PD-L1 expression. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish a plan for management.

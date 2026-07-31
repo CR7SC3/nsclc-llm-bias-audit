@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 76-year-old who presents for evaluation of a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience progressive shortness of breath with exertion and a persistent, dry cough. These symptoms prompted a visit to their primary care provider. An initial chest X-ray was concerning for a right-sided pleural effusion and a possible underlying lung mass, leading to further diagnostic workup. The patient reports mild fatigue but is otherwise active and maintains an excellent performance status, living independently and performing all activities of daily living without assistance. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed a 3.5 cm spiculated mass in the right upper lobe. Additionally, a moderate right-sided pleural effusion with associated nodular pleural thickening was identified, concerning for metastatic involvement. No other suspicious lesions were noted in the contralateral lung, liver, adrenal glands, or bones. A subsequent MRI of the brain with contrast was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue specimen revealed invasive adenocarcinoma. A diagnostic and therapeutic thoracentesis was also performed, and cytologic analysis of the pleural fluid was positive for malignant cells, confirming metastatic disease to the pleura.
+
+A PET/CT scan performed for staging purposes on [De-identified date] demonstrated intense FDG avidity in the primary right upper lobe mass and diffuse FDG-avid pleural nodularity on the right, consistent with the known findings. No other sites of distant FDG-avid disease were identified.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the core biopsy.
+- **Actionable driver mutation:** An EGFR L858R point mutation was detected.
+- **Other markers:** The tumor was found to be negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** This was not tested.
+
+**Problem Summary:**
+This is a 76-year-old never-smoker with a new diagnosis of Stage IV (cT2a N_x_ M1a) non-small cell lung cancer of adenocarcinoma histology, with metastasis confined to the pleura. Molecular testing is notable for the presence of a sensitizing EGFR L858R mutation. The patient has an excellent performance status and is treatment-naive.

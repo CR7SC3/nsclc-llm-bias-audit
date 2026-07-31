@@ -1,0 +1,17 @@
+**HPI:**
+This is a 65-year-old individual with a significant smoking history who is referred for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was asymptomatic and was undergoing routine health screening when a low-dose CT of the chest, performed for lung cancer screening, revealed a suspicious pulmonary nodule. The patient denies any cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers or unintentional weight loss. The patient maintains an excellent performance status (ECOG 0) and continues with all usual activities of daily living without limitation.
+
+**Diagnostic Workup:**
+Following the screening scan, a formal diagnostic CT of the chest was performed, which confirmed the presence of a 1.5 cm solid, spiculated nodule in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+Staging evaluation was pursued with a PET/CT scan, which demonstrated focal FDG-avidity within the right upper lobe nodule, consistent with malignancy. Importantly, the scan showed no evidence of hypermetabolic activity in regional lymph nodes or in any distant sites to suggest metastatic disease. A contrast-enhanced MRI of the brain was also performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule on [De-identified date]. Pathologic examination of the specimen confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. This analysis identified two actionable driver mutations: an EGFR L858R point mutation (sensitizing) and a KRAS G12C mutation. Further molecular testing was negative for ALK, ROS1, RET, and NTRK rearrangements, as well as for BRAF V600E, MET exon 14 skipping, and ERBB2 mutations.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. The Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 65-year-old current smoker who presents with a new diagnosis of clinical Stage IA (cT1bN0M0) non-small cell lung cancer, adenocarcinoma subtype, arising in the right upper lobe. The patient is asymptomatic with an excellent performance status. Comprehensive molecular profiling of the tumor is notable for the presence of co-occurring EGFR L858R and KRAS G12C mutations, PD-L1 expression of 1-49%, and an intermediate tumor mutational burden. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and review potential management options.

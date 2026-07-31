@@ -1,0 +1,18 @@
+**HPI:**
+This is a 73-year-old individual with a recent history of smoking (quit <1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and mild exertional shortness of breath. These symptoms prompted a visit to their primary care provider. An initial chest X-ray revealed a right-sided lung opacity, leading to further cross-sectional imaging.
+
+The patient denies fevers, night sweats, or significant unintentional weight loss. They report a slight decrease in overall energy but remain fully independent in all activities of daily living. They are able to ambulate without difficulty and manage their own self-care. Their functional status is excellent, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This study identified a 4.8 cm spiculated mass in the right upper lobe. There was also prominent ipsilateral mediastinal and subcarinal lymphadenopathy noted. A subsequent PET/CT scan confirmed high FDG-avidity within the primary right upper lobe mass, as well as in the right paratracheal (station 4R) and subcarinal (station 7) lymph nodes. The PET/CT did not reveal any other sites of FDG-avid disease concerning for distant metastatic spread. A dedicated MRI of the brain with and without contrast was obtained for staging and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial needle aspiration (TBNA) of a subcarinal lymph node on [De-identified Date]. The pathology from this specimen confirmed the diagnosis. Based on the composite imaging and pathology findings, the patient is staged as having clinical Stage IIIA (cT2bN2M0, AJCC 8th Edition) disease.
+
+**Molecular Studies:**
+Tissue obtained from the EBUS-guided biopsy was sent for molecular analysis.
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).
+- PD-L1 expression by immunohistochemistry was not tested on this specimen.
+- Results from a comprehensive next-generation sequencing panel are pending at this time.
+
+**Problem Summary:**
+In summary, this is a 73-year-old former smoker with a new diagnosis of Stage IIIA (cT2bN2M0) non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via EBUS-guided biopsy of a subcarinal lymph node. Staging workup, including PET/CT and brain MRI, has demonstrated locally advanced disease confined to the right hemithorax without evidence of distant metastases. The patient maintains a good performance status. Initial molecular marker analysis shows a low tumor mutational burden, with further genomic profiling results awaited.

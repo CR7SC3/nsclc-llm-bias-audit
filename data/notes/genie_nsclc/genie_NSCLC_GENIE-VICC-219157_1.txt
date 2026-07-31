@@ -1,0 +1,51 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 73-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This did not resolve with a course of antibiotics from their primary care provider, prompting a chest X-ray which revealed a right upper lobe lung opacity.
+
+A subsequent contrast-enhanced CT of the chest confirmed the presence of a 5.5 cm spiculated mass in the apical segment of the right upper lobe. The mass was noted to abut the pleura with possible early chest wall invasion. No suspicious hilar or mediastinal lymphadenopathy was identified. A staging PET/CT scan was then performed, which demonstrated high FDG avidity within the primary right upper lobe mass, without evidence of avid nodal disease or distant metastatic spread. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology returned as adenocarcinoma. The patient is here today to establish care and discuss the diagnosis.
+
+The patient reports the persistent cough but denies hemoptysis, chest pain, fevers, or significant weight loss. Energy levels are slightly decreased but they remain fully ambulatory and independent in all activities of daily living. ECOG performance status is 1.
+
+**PAST MEDICAL HISTORY:**
+- Hypertension
+- Hyperlipidemia
+
+**MEDICATIONS:**
+- Lisinopril
+- Atorvastatin
+
+**ALLERGIES:**
+- No known drug allergies.
+
+**SOCIAL HISTORY:**
+- The patient is a former smoker, with an estimated 30-pack-year history, but quit over one year ago.
+- Denies current alcohol or illicit substance use.
+
+**PHYSICAL EXAM:**
+Vitals: Reviewed, stable.
+Constitutional: Well-appearing, in no acute distress.
+HEENT: Normocephalic. Sclerae anicteric. Oral mucosa moist.
+Neck: Supple, no lymphadenopathy.
+Lungs: Decreased breath sounds at the right apex. No wheezes or rales.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Abdomen: Soft, non-tender, non-distended.
+Extremities: No clubbing, cyanosis, or edema.
+
+**DIAGNOSTIC WORKUP:**
+- **CT Chest ([De-identified]):** 5.5 cm spiculated mass in the right upper lobe with concern for chest wall invasion. No mediastinal adenopathy.
+- **PET/CT ([De-identified]):** Intense FDG uptake in the right upper lobe mass. No evidence of nodal or distant metastatic disease.
+- **MRI Brain ([De-identified]):** Negative for intracranial metastasis.
+- **Biopsy, Right Lung Mass ([De-identified]):** CT-guided core biopsy demonstrates invasive, moderately differentiated adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the biopsy specimen showed no actionable driver alteration. Specific testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was intermediate at 11 mut/Mb. PD-L1 testing was not performed.
+
+**PROBLEM SUMMARY:**
+This is a 73-year-old with a new diagnosis of treatment-naive, non-metastatic non-small cell lung cancer. The diagnosis is confirmed as adenocarcinoma, clinical Stage IIB (cT3, cN0, cM0), based on a large primary tumor with chest wall involvement and no evidence of nodal or distant metastatic disease on staging imaging. Molecular profiling did not identify any actionable driver mutations. The patient presents today for initial evaluation and to discuss the implications of this diagnosis.

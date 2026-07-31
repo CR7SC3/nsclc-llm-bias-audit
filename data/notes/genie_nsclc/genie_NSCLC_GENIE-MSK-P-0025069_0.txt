@@ -1,0 +1,32 @@
+**REASON FOR CONSULTATION:**
+New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 65-year-old with a history of current tobacco use who presents for initial oncology consultation. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive exertional dyspnea. Over the past month, they also noted the onset of intermittent headaches and a sense of imbalance.
+
+Due to these escalating symptoms, the patient presented to an outside facility for evaluation. A chest CT scan was performed which revealed a large primary mass in the right upper lobe with associated mediastinal lymphadenopathy. Given the new neurological symptoms, a contrast-enhanced MRI of the brain was obtained, which demonstrated multiple enhancing lesions consistent with metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right lung mass to establish a tissue diagnosis. The patient is here today to discuss these findings and establish care. They remain ambulatory and are performing all activities of daily living, though they report significant fatigue. Performance status is ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified Date]:** Revealed a 4.5 cm spiculated mass in the right upper lobe of the lung with prominent mediastinal and right hilar adenopathy. No evidence of metastatic disease in the abdomen or pelvis.
+- **MRI Brain with and without contrast [De-identified Date]:** Showed multiple, scattered supratentorial and infratentorial enhancing lesions, the largest in the left parietal lobe, consistent with metastatic disease.
+
+**Pathology:**
+- **CT-guided core biopsy, right upper lobe lung mass [De-identified Date]:**
+  - **Diagnosis:** Invasive adenocarcinoma, moderately differentiated.
+  - **Immunohistochemistry:** Positive for TTF-1 and Napsin-A, supporting a lung primary.
+
+**Staging:**
+- The combination of a right lung primary with brain metastases is consistent with **AJCC Stage IV non-small cell lung cancer.**
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Driver Mutations:** No actionable driver alteration was identified. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** PD-L1 expression by immunohistochemistry (IHC) was high, with a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be high at >16 mutations/megabase.
+
+**PROBLEM SUMMARY:**
+This is a 65-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. The patient is a current smoker with an ECOG performance status of 1. Molecular profiling of the tumor is notable for the absence of an actionable driver alteration but demonstrates high PD-L1 expression (TPS ≥50%) and a high Tumor Mutational Burden. The patient presents for initial consultation to review these findings and discuss the overall prognosis.

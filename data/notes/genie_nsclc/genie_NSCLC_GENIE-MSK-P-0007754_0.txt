@@ -1,0 +1,25 @@
+**HPI:**
+This is an initial oncology consultation for a 75-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over a year ago. The patient was in their usual state of good health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted mild fatigue and unintentional weight loss of approximately 10 pounds. More recently, the patient developed intermittent headaches and a brief episode of word-finding difficulty, which prompted an evaluation in the emergency department at [De-identified] Hospital. The patient is otherwise active and independent with an excellent performance status, estimated at ECOG 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray in the emergency department was concerning for a right-sided lung mass, leading to further imaging.
+
+A CT of the chest, abdomen, and pelvis with contrast was performed. This demonstrated a 4.5 cm spiculated mass in the right upper lobe. It also revealed multiple bilateral pulmonary nodules, with the largest in the contralateral left lung measuring 1.8 cm. Additionally, the scan identified a 2.1 cm hypodense lesion in the right lobe of the liver, a 1.5 cm left adrenal nodule, and a lytic lesion in the T7 vertebral body, all suspicious for metastatic disease.
+
+Given the neurological symptoms, a brain MRI with contrast was obtained. This revealed multiple, small, ring-enhancing lesions in the bilateral cerebral hemispheres consistent with metastatic deposits.
+
+A subsequent whole-body PET/CT scan was performed for staging and to identify a biopsy target. This confirmed intense FDG-avidity in the primary right upper lobe mass, the contralateral lung nodule, the liver lesion, the left adrenal nodule, and the T7 vertebral body lesion, all consistent with widespread metastatic disease.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic review of the tissue confirmed a diagnosis of adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC Stage IV (M1) NSCLC.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The results are as follows:
+- **Actionable Driver Mutation Detected:** EGFR L858R point mutation (sensitizing)
+- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+- **PD-L1 Expression:** Not tested (per standard of care for the time of sequencing)
+
+**Problem Summary:**
+In summary, this is a 75-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with widespread metastatic disease involving the brain, contralateral lung, liver, bone, and adrenal gland. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation. The patient presents today for initial consultation to discuss the diagnosis and to review potential management options.

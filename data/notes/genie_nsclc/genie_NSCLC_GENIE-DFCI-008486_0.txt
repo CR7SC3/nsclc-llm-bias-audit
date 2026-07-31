@@ -1,0 +1,22 @@
+**HPI:**
+This is a 46-year-old who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit less than one year ago. They were in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Initial evaluation with a chest radiograph demonstrated a right-sided lung opacity, prompting further investigation. The patient has maintained a good appetite and has had no significant weight loss. Performance status is excellent; they remain fully active and ambulatory.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was undertaken.
+*   **CT of the chest, abdomen, and pelvis with contrast:** This study confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe of the lung, associated with adjacent mediastinal lymphadenopathy. The scan also revealed a solitary, enhancing 2.5 cm mass in the left adrenal gland, suspicious for a metastatic deposit. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+*   **PET/CT:** A subsequent PET/CT scan demonstrated intense FDG avidity in the primary right upper lobe lung mass, the mediastinal lymph nodes, and the left adrenal mass, confirming the suspicion of metastatic disease.
+*   **MRI of the brain:** Performed for staging purposes, this was negative for any evidence of intracranial metastases.
+*   **Biopsy:** The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified]. Pathologic examination confirmed the diagnosis.
+
+**Pathology Report from [De-identified]:**
+*   **Specimen:** Right upper lobe lung mass, core biopsy.
+*   **Histology:** Invasive adenocarcinoma, moderately differentiated. Immunohistochemical stains (TTF-1 positive, Napsin A positive) are consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+*   No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested, as this was not standard of care at the time of initial sequencing.
+*   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 46-year-old with a new diagnosis of metastatic non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup is consistent with AJCC 8th Edition clinical Stage IV disease, with the primary tumor in the right lung and a solitary metastasis to the left adrenal gland. Brain MRI is negative for metastatic disease. Molecular profiling did not identify an actionable oncogenic driver.

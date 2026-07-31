@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 77-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was followed by the onset of a dull, constant right-sided chest wall pain. Due to the progression of these symptoms, the patient presented to their primary care physician.
+
+An initial chest radiograph was obtained which revealed a right upper lobe lung mass and a moderate right-sided pleural effusion. The patient was referred for further diagnostic workup. The patient presents today for an initial oncology consultation to discuss the findings and establish care. Performance status is excellent, ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+**CT of the Chest, Abdomen, and Pelvis with contrast:** Performed on [De-identified], this confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated a large, loculated right-sided pleural effusion with associated pleural thickening suspicious for malignant involvement. A 2 cm lytic lesion was noted in the T7 vertebral body. No other sites of visceral metastatic disease were identified in the abdomen or pelvis.
+
+**PET/CT:** Performed on [De-identified], this demonstrated intense FDG-avidity in the primary right upper lobe lung mass, extensive FDG-avid pleural studding on the right, and an intensely avid lytic lesion in the T7 vertebra, consistent with metastatic disease.
+
+**MRI of the Brain:** Performed on [De-identified] for staging, this was negative for intracranial metastases.
+
+**Thoracentesis and Pleural Biopsy:** An ultrasound-guided thoracentesis was performed on [De-identified]. Cytology from the pleural fluid was positive for malignant cells. Pathology from the cell block and pleural tissue biopsy confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy specimen.
+- **Actionable driver mutation:** EGFR exon 19 deletion (sensitizing) was detected.
+- **Additional testing:** The tumor was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** Not tested as part of the initial molecular panel.
+
+**PROBLEM SUMMARY:**
+This is a 77-year-old never-smoker with a new diagnosis of Stage IV (cT3 N0 M1b) non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the pleura and bone. Brain MRI is negative for metastatic disease. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents for initial consultation to discuss the diagnosis and potential management options.

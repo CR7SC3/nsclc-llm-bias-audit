@@ -1,0 +1,35 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 63-year-old who presents for initial medical oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient is a former smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the past several weeks, they also noted the new onset of intermittent headaches and mild right upper quadrant abdominal discomfort. This prompted an evaluation with their primary care provider, which led to the current diagnosis. The patient reports a good performance status, fully ambulatory and capable of all self-care, though with some fatigue.
+
+**DIAGNOSTIC WORKUP:**
+The initial workup began with a chest radiograph that demonstrated a right upper lobe lung mass. A subsequent CT of the chest, abdomen, and pelvis with contrast was performed on [Date]. This study confirmed a large primary mass in the right upper lobe with associated mediastinal lymphadenopathy. It also revealed multiple hypoattenuating lesions throughout the liver and a lytic lesion in the thoracic spine, concerning for metastatic disease.
+
+Given the new-onset headaches, a brain MRI with and without contrast was obtained on [Date]. This revealed multiple enhancing parenchymal lesions consistent with brain metastases.
+
+A whole-body PET/CT scan was performed for definitive staging, which confirmed high FDG avidity in the primary right upper lobe mass, mediastinal nodes, multiple hepatic lesions, and a focus in the thoracic spine, consistent with widespread metastatic disease.
+
+On [Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed the diagnosis of adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Pathology from the lung mass biopsy confirmed non-small cell lung cancer, adenocarcinoma histology.
+Comprehensive molecular profiling was performed on the tissue specimen. No actionable driver alterations were identified. Specific findings include:
+- EGFR: Negative for common activating mutations
+- ALK: Negative for rearrangement
+- ROS1: Negative for rearrangement
+- BRAF: Negative for V600E mutation
+- MET: Negative for exon 14 skipping mutation
+- RET: Negative for rearrangement
+- NTRK: Negative for fusion
+- KRAS: Negative
+- ERBB2 (HER2): Negative for mutation
+
+Immunohistochemistry for PD-L1 expression was performed, revealing a Tumor Proportion Score (TPS) of ≥50%.
+Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 63-year-old, treatment-naive patient with a new diagnosis of AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the brain, liver, and bone. Molecular studies are notable for a PD-L1 TPS of ≥50% with no identified actionable driver mutations.

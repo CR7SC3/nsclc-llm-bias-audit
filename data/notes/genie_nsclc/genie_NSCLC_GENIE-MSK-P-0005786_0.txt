@@ -1,0 +1,19 @@
+**HPI:**
+This is a 45-year-old individual with a history of tobacco use (quit >1 year ago) who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care approximately one month ago with a persistent, dry cough. An initial chest X-ray was notable for a right upper lobe opacity, which prompted further evaluation. The patient has otherwise felt well, reporting no significant fatigue, weight loss, fevers, or hemoptysis. They maintain a fully active lifestyle and are able to perform all usual activities without restriction, consistent with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This study identified a 3.8 cm spiculated mass in the posterior aspect of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity localized to the known right upper lobe mass. No other sites of abnormal hypermetabolism were identified in the chest, abdomen, or pelvis to suggest nodal involvement or distant metastatic disease. A contrast-enhanced MRI of the brain was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Histopathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- An actionable driver was detected: ALK gene rearrangement.
+- Testing was negative for alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was low (<2 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 45-year-old former smoker presenting with newly diagnosed, treatment-naive, non-metastatic Stage IIA (AJCC 8th Edition) non-small cell lung adenocarcinoma, characterized by the presence of an ALK rearrangement.

@@ -1,0 +1,22 @@
+**HPI:**
+This is a 77-year-old former smoker who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. This was accompanied by dull, constant right-sided chest wall pain and an unintentional weight loss of approximately 20 pounds over the past few months. The patient denies fevers, chills, or hemoptysis. Due to the progressive nature of these symptoms, they presented for medical evaluation.
+
+An initial chest X-ray revealed a large right-sided lung mass with an associated pleural effusion. The patient was subsequently sent for further imaging. A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date], which demonstrated a 6.2 cm spiculated mass in the right lower lobe. The scan also revealed multiple bilateral pulmonary nodules concerning for contralateral metastatic spread, several hypoattenuating lesions throughout the liver, and a moderate right-sided malignant-appearing pleural effusion. Lytic lesions were noted in the T7 and T9 vertebral bodies.
+
+Given the concern for metastatic disease, a whole-body PET/CT was performed, which confirmed high FDG-avidity in the primary right lower lobe mass, the contralateral lung nodules, the hepatic lesions, the right-sided pleura, and multiple osseous sites including the thoracic spine and right iliac crest. A diagnostic and therapeutic thoracentesis was performed, and cytology from the pleural fluid was non-diagnostic. Subsequently, the patient underwent a CT-guided core needle biopsy of one of the accessible liver lesions. Pathology from this biopsy confirmed the diagnosis.
+
+The patient is a former smoker with a 40 pack-year history, having quit over 15 years ago. They continue to live independently and manage all activities of daily living, though their activity is limited by dyspnea. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis [De-identified Date]:** 6.2 cm right lower lobe mass. Multiple bilateral pulmonary nodules, liver metastases, and a right pleural effusion. Lytic bone lesions noted.
+- **PET/CT [De-identified Date]:** Hypermetabolic primary right lower lobe mass, with FDG-avid metastatic disease to the contralateral lung, liver, pleura, and multiple bones as described above. No evidence of brain metastases on the limited skull images.
+- **CT-Guided Liver Biopsy [De-identified Date]:** Pathology demonstrates poorly differentiated non-small cell carcinoma, with immunohistochemistry positive for p40 and CK5/6, consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the liver biopsy tissue specimen.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was intermediate (9 mutations/megabase).
+- PD-L1 expression was not tested on this panel.
+
+**Problem Summary:**
+In summary, this is a 77-year-old patient with a new diagnosis of treatment-naive, AJCC Stage IV squamous cell non-small cell lung cancer. The patient has a high burden of metastatic disease involving the contralateral lung, liver, bone, and pleura. Comprehensive molecular profiling did not identify an actionable driver mutation.

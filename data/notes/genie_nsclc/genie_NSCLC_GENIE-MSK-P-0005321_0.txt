@@ -1,0 +1,21 @@
+**HPI:**
+This is a 41-year-old individual presenting for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they noted the onset of a persistent, dry cough and progressive fatigue. These symptoms prompted an evaluation by their primary care provider. The patient reports good functional status, remaining fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1. Notably, there is no history of tobacco use.
+
+**Diagnostic Workup:**
+An initial chest X-ray was concerning for a pulmonary abnormality, leading to further cross-sectional imaging. A staging CT scan of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a primary mass in the right lower lobe of the lung. The scan also revealed multiple hepatic lesions consistent with metastatic deposits, as well as extensive mediastinal and distant supraclavicular lymphadenopathy.
+
+To confirm the diagnosis and obtain tissue for analysis, the patient underwent a CT-guided core needle biopsy of a liver lesion on [De-identified Date]. Histopathologic examination of the specimen confirmed the diagnosis of adenocarcinoma, with features consistent with a lung primary origin.
+
+For central nervous system staging, a contrast-enhanced MRI of the brain was performed and was negative for intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+The liver biopsy specimen was submitted for comprehensive molecular profiling via next-generation sequencing. This analysis was positive for an ALK gene rearrangement.
+
+Further testing was negative for other known driver mutations, including EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not performed on this specimen. The tumor mutational burden (TMB) was low at <2 mut/Mb.
+
+**Problem Summary:**
+In summary, this is a 41-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the liver and distant lymph nodes. The tumor is characterized by an ALK gene rearrangement. The patient is treatment-naive and presents for discussion of their diagnosis and management options.

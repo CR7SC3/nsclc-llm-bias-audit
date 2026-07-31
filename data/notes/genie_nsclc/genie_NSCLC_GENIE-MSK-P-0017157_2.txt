@@ -1,0 +1,23 @@
+**HPI:**
+This is an initial oncology consultation for a 77-year-old who presents with a new diagnosis of non-small cell lung cancer. The patient has a past medical history significant for prostate cancer, treated definitively with radiation therapy over a decade ago with no evidence of recurrence, and hypertension. The patient is a former smoker with a significant pack-year history, having quit approximately 5 years ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms were initially attributed to a viral illness but did not resolve. Due to the persistence of the cough, a chest X-ray was obtained by their primary care provider, which revealed a right upper lobe opacity. The patient was subsequently referred for further evaluation. The patient denies hemoptysis, fevers, chills, or significant weight loss. Performance status is excellent, ECOG 0-1, with the patient remaining fully ambulatory and independent in all activities of daily living.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 3.5 cm spiculated mass in the right upper lobe. It also demonstrated bulky ipsilateral mediastinal and hilar lymphadenopathy, concerning for nodal involvement. There was no evidence of contralateral lung nodules, or metastatic lesions in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal lymph nodes (stations 4R and 7), consistent with the CT findings. Importantly, no other sites of FDG-avid disease were identified to suggest distant metastasis.
+
+Given the findings, a staging MRI of the brain with and without contrast was obtained, which was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent endobronchial ultrasound with transbronchial needle aspiration (EBUS-TBNA) of a subcarinal (station 7) lymph node. Pathologic analysis of the biopsy specimen confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 77-year-old with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA (cT2aN2M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for the absence of targetable driver mutations and high PD-L1 expression (TPS ≥50%). The patient has an excellent performance status and a remote history of treated prostate cancer. The case is presented for discussion of management options.

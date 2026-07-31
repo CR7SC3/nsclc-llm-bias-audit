@@ -1,0 +1,18 @@
+**HPI:**
+This is a 67-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. When the cough did not resolve with conservative measures, they presented to their primary care provider. A chest X-ray was obtained which revealed a suspicious nodule in the right lung. The patient denies hemoptysis, chest pain, or unintentional weight loss. They report stable appetite and energy levels, and performance status is excellent, with the patient remaining fully active and able to carry out all pre-illness activities without restriction. The patient has a significant smoking history and is a current smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed the presence of a 3.2 cm spiculated solid mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+For purposes of staging, a PET/CT was performed on [De-identified]. This demonstrated intense FDG-avidity within the known right upper lobe mass. There was no abnormal FDG uptake in the mediastinal or hilar lymph nodes, nor were there any other sites of FDG-avid disease to suggest distant metastases. A staging MRI of the brain with and without contrast was also performed and was negative for intracranial metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified]. Pathologic analysis confirmed the diagnosis of non-small cell lung cancer.
+
+**Molecular Studies:**
+Pathology from the right upper lobe mass biopsy confirmed invasive adenocarcinoma. Comprehensive next-generation sequencing was performed on the tissue specimen. No actionable driver alteration was identified; testing was negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+1.  Non-small cell lung cancer, adenocarcinoma histology, of the right upper lobe.
+2.  Clinical Stage IB (cT2aN0M0), AJCC 8th Edition.
+3.  Molecular profiling negative for common actionable driver alterations.
+4.  Current tobacco use.

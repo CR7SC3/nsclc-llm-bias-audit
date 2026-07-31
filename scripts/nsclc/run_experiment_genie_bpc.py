@@ -16,8 +16,6 @@ Pipeline
 Cohorts
 ───────
   nsclc  — 1,048 cases  (NCCN scorer available)
-  brca   — 1,093 cases  (actual_treatment as reference only)
-  panc   — 1,022 cases  (actual_treatment as reference only)
 
 Usage
 ─────
@@ -58,8 +56,6 @@ logging.basicConfig(
 
 _PROCESSED_PATHS: dict[str, str] = {
     "nsclc": "data/processed/genie_bpc_nsclc_processed.json",
-    "brca":  "data/processed/genie_bpc_brca_processed.json",
-    "panc":  "data/processed/genie_bpc_panc_processed.json",
 }
 
 _RESULTS_ROOT = Path("results/genie_bpc")
@@ -69,8 +65,7 @@ def _load_cases(cohort: str, limit: int | None) -> list[dict]:
     path = Path(_PROCESSED_PATHS[cohort])
     if not path.exists():
         raise FileNotFoundError(
-            f"Processed cases not found at {path}. "
-            f"Run src/generate/load_genie_bpc{'_brca_panc' if cohort != 'nsclc' else ''}.py first."
+            f"Processed cases not found at {path}. Run src/generate/load_genie_bpc.py first."
         )
     with open(path, encoding="utf-8") as fh:
         cases = json.load(fh)
@@ -250,7 +245,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--cohort",
-        choices=["nsclc", "brca", "panc"],
+        choices=["nsclc"],
         default="nsclc",
     )
     parser.add_argument(

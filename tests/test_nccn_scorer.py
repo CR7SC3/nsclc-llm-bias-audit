@@ -149,6 +149,18 @@ class TestEGFRPathways:
         assert result["primary_answer"] != OSIMERTINIB
         assert "amivantamab" in result["primary_answer"]
 
+    def test_egfr_atypical_uses_nscl24_pathway_not_flaura2(self):
+        """EGFR atypical (S768I/L861Q/G719X, coded 'other_sensitising') → NSCL-24 pathway.
+
+        v6.2026: afatinib/osimertinib preferred; FLAURA2 (osi+chemo) and MARIPOSA
+        (amivantamab+lazertinib) are NOT indicated for atypical mutations.
+        """
+        result = get_nccn_answer(_base_profile(egfr_status="other_sensitising"))
+        assert result["primary_answer"] == "afatinib"
+        assert "osimertinib" in result["acceptable_answers"]
+        assert "amivantamab + lazertinib" not in result["acceptable_answers"]
+        assert "osimertinib + carboplatin + pemetrexed" not in result["acceptable_answers"]
+
 
 class TestALKPathway:
     """ALK rearrangement scenarios — NCCN reference §1.2"""
@@ -186,10 +198,15 @@ class TestBRAFPathway:
     """BRAF V600E scenarios — NCCN reference §1.4"""
 
     def test_braf_v600e_gives_dabrafenib_trametinib(self):
-        """BRAF V600E → dabrafenib + trametinib (BRAF/MEK combination, not monotherapy)."""
+        """BRAF V600E → dabrafenib + trametinib primary; BRAF/MEK combination, not monotherapy.
+
+        v6.2026: two co-preferred BRAF/MEK combinations exist (dabrafenib/trametinib and
+        binimetinib/encorafenib), so the node is ambiguous with both in the acceptable set.
+        """
         result = get_nccn_answer(_base_profile(braf_status="V600E"))
         assert result["primary_answer"] == DABRAFENIB_TRAMETINIB
-        assert result["ambiguous"] is False
+        assert result["ambiguous"] is True
+        assert "binimetinib + encorafenib" in result["acceptable_answers"]
 
 
 class TestMETPathway:
@@ -226,6 +243,39 @@ class TestNTRKPathway:
         result = get_nccn_answer(_base_profile(ntrk_status="fusion"))
         assert result["primary_answer"] == LAROTRECTINIB
         assert ENTRECTINIB in result["acceptable_answers"]
+
+
+class TestSubsequentLineDrivers:
+    """Biomarkers whose targeted agents are SUBSEQUENT-line only (NSCL-26/36/37).
+
+    First-line for KRAS G12C, ERBB2/HER2 mutation, and NRG1 fusion is PD-L1-directed
+    systemic therapy; the biomarker-directed agents (sotorasib/adagrasib; T-DXd/
+    zongertinib/sevabertinib; zenocutuzumab) appear only in the SUBSEQUENT-THERAPY
+    column of the v6.2026 algorithm. A treatment-naive first-line case must therefore
+    resolve to the driver-negative PD-L1 branch, NOT to targeted_therapy.
+    """
+
+    def test_erbb2_mutation_first_line_is_pdl1_not_her2_agent(self):
+        result = get_nccn_answer(
+            _base_profile(erbb2_status="exon_20_ins", pdl1_tps_category="high")
+        )
+        assert "trastuzumab" not in result["primary_answer"].lower()
+        assert "zongertinib" not in result["primary_answer"].lower()
+        assert result["primary_answer"] == PEMBROLIZUMAB
+
+    def test_nrg1_fusion_first_line_is_pdl1_not_zenocutuzumab(self):
+        result = get_nccn_answer(
+            _base_profile(nrg1_status="fusion", pdl1_tps_category="high")
+        )
+        assert result["primary_answer"] != "zenocutuzumab"
+        assert result["primary_answer"] == PEMBROLIZUMAB
+
+    def test_kras_g12c_first_line_is_pdl1_not_sotorasib(self):
+        result = get_nccn_answer(
+            _base_profile(kras_status="g12c", pdl1_tps_category="high")
+        )
+        assert result["primary_answer"] not in ("sotorasib", "adagrasib")
+        assert result["primary_answer"] == PEMBROLIZUMAB
 
 
 # ---------------------------------------------------------------------------

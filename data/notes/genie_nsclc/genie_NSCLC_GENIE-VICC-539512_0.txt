@@ -1,27 +1,22 @@
-**CONSULTATION NOTE**
-
-**Patient:** [De-identified Patient Name]
-**DOB:** [De-identified Date of Birth]
-**MRN:** [De-identified Medical Record Number]
-**Date of Service:** [De-identified Date]
-
 **HPI:**
-This is a 66-year-old patient presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer (NSCLC). The patient reports a several-month history of persistent, non-productive cough and increasing exertional dyspnea. Over the past few weeks, they also noted some mild, intermittent left-sided chest discomfort and generalized fatigue. The patient is a former smoker, having quit more than one year ago, with a prior smoking history of approximately [De-identified] pack-years. These symptoms prompted a visit to their primary care physician, who ordered an initial chest X-ray, revealing an abnormality in the left lung and a small pleural effusion.
+This is a 66-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to this evaluation, when they began to experience a progressive, non-productive cough and increasing dyspnea on exertion. Symptoms initially did not resolve with a course of outpatient antibiotics. Due to worsening shortness of breath, the patient presented to an outside facility for evaluation. An initial chest radiograph was performed which was concerning for a right-sided lung mass and an associated pleural effusion. The patient reports some fatigue but denies fevers, chills, or significant unintentional weight loss. Current performance status is ECOG 1; the patient is ambulatory and capable of all self-care but is restricted in physically strenuous activity by dyspnea.
 
 **Diagnostic Workup:**
-Following the abnormal chest X-ray, a CT scan of the chest, abdomen, and pelvis was performed, which confirmed a spiculated mass in the left upper lobe measuring approximately [De-identified] cm and a moderate left pleural effusion. Multiple mediastinal and hilar lymph nodes were also noted to be enlarged. A subsequent PET/CT scan demonstrated hypermetabolic activity within the left upper lobe mass, the enlarged mediastinal and hilar lymph nodes, and the left pleural effusion. No other distant sites of hypermetabolic disease were identified. A CT-guided core needle biopsy of the left upper lobe mass was performed, confirming adenocarcinoma histology. Thoracentesis was also performed, and cytology of the pleural fluid was positive for malignant cells. A brain MRI was performed as part of the staging workup and was negative for intracranial metastatic disease. Based on these findings, the patient's non-small cell lung cancer is staged as AJCC 8th Edition Stage IV (M1a).
+Following the initial chest X-ray, the patient underwent further staging evaluation.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study revealed a spiculated primary mass in the right upper lobe of the lung, measuring approximately 4.2 cm. The scan also demonstrated a moderate right-sided pleural effusion with associated pleural thickening. No suspicious contralateral lung nodules were seen. There was no evidence of metastatic disease to the liver, adrenal glands, or osseous structures within the imaging field.
+
+A staging MRI of the brain was subsequently performed and was negative for any evidence of intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis of the tissue specimen confirmed a diagnosis of adenocarcinoma, consistent with a primary lung origin. A diagnostic and therapeutic thoracentesis was also performed, and cytologic evaluation of the pleural fluid was positive for malignant cells, confirming the presence of a malignant pleural effusion.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alteration identified, specifically negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusion, KRAS mutation, and ERBB2 (HER2) amplification. PD-L1 expression was positive, with a tumor proportion score (TPS) of 1-49%. Tumor mutational burden (TMB) was low (<2 mut/Mb).
-
-**Past Medical History:**
-Unremarkable, aside from presenting malignancy.
-
-**Social History:**
-Former smoker, quit >1 year ago.
-
-**Review of Systems:**
-Reviewed and largely negative except as described in HPI.
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tissue obtained from the lung mass biopsy. The results are as follows:
+-   No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+-   PD-L1 expression by immunohistochemistry showed a Tumor Proportion Score (TPS) in the 1-49% range.
+-   Tumor Mutational Burden (TMB) was low (<2 mutations/megabase).
 
 **Problem Summary:**
-This 66-year-old patient has newly diagnosed non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV (M1a) due to malignant pleural effusion. The patient is treatment-naive. Molecular profiling shows no actionable driver alterations, PD-L1 TPS is 1-49%, and TMB is low. The patient requires initiation of systemic therapy.
+In summary, this is a 66-year-old individual presenting with a new diagnosis of Stage IV (M1a) non-small cell lung cancer, adenocarcinoma histology. Metastatic disease is defined by a malignant pleural effusion. The staging workup is negative for distant organ or brain metastases. Molecular profiling is notable for the absence of targetable driver mutations and a PD-L1 TPS of 1-49%. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

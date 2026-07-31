@@ -1,0 +1,20 @@
+**HPI:**
+This is a 61-year-old individual with a recent history of a persistent, non-productive cough who is referred for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a cough and progressive dyspnea on exertion. An initial chest radiograph revealed a right upper lobe mass, which prompted further evaluation. The patient has a former history of tobacco use, having quit within the past year. Current ECOG performance status is 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This demonstrated a 4.2 cm spiculated mass in the right upper lobe of the lung. The scan also revealed prominent right-sided hilar and ipsilateral mediastinal lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs to suggest distant metastatic disease.
+
+For definitive staging, a PET/CT scan was subsequently performed. This study confirmed intense FDG-avidity within the primary right upper lobe mass and in right hilar and mediastinal (station 4R) lymph nodes. No other sites of abnormal FDG uptake were identified. To complete the staging workup, a brain MRI with and without contrast was obtained and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration of a right paratracheal (4R) lymph node. Pathologic review of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary. The combined findings of the imaging and pathology are consistent with a clinical stage of IIIA.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the EBUS biopsy specimen revealed the following:
+-   **Actionable Driver Mutation:** KRAS G12C
+-   **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2 mutations
+-   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1-49%
+-   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb)
+-   **Other Findings:** STK11 loss-of-function mutation
+
+**Problem Summary:**
+In summary, this is a 61-year-old individual with a new diagnosis of treatment-naive, Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Molecular profiling is notable for a KRAS G12C mutation, PD-L1 expression of 1-49%, and a co-occurring STK11 loss-of-function mutation. The patient presents for initial consultation to discuss the diagnosis and review management options.

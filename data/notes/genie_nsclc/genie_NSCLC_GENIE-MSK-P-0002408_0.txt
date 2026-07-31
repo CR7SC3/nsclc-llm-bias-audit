@@ -1,0 +1,19 @@
+**HPI:**
+This is a 76-year-old individual referred for initial consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a good state of health until approximately two months prior to presentation, when they developed a persistent dry cough and progressive dyspnea on exertion. This was followed by the onset of a dull, constant ache in the right posterior chest and lower back. These symptoms prompted an evaluation by their primary care provider, which initiated a diagnostic workup. The patient reports some fatigue but remains fully ambulatory and capable of all self-care, consistent with an ECOG performance status of 1. There is a history of prior tobacco use, with cessation over one year ago.
+
+**Diagnostic Workup:**
+An initial chest X-ray was concerning for a right-sided lung mass and an associated pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a primary mass in the right lower lobe, extensive mediastinal and contralateral hilar lymphadenopathy, a moderate right-sided malignant pleural effusion, and multiple sclerotic lesions in the thoracic spine and pelvis consistent with osseous metastases.
+
+For comprehensive staging, a brain MRI was obtained and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right lung mass was performed. Histopathologic analysis confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+- An actionable ALK gene rearrangement was detected.
+- Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry showed a Tumor Proportion Score (TPS) in the 1-49% range.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 76-year-old former smoker with a new diagnosis of Stage IV (M1) non-small cell lung cancer, adenocarcinoma histology. The tumor is characterized by the presence of an ALK gene rearrangement. The patient has metastatic disease involving bone, pleura, and distant lymph nodes, with an ECOG performance status of 1. Staging brain MRI is negative for metastatic disease. The diagnosis and the implications of these findings have been discussed.

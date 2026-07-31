@@ -1,0 +1,41 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION NOTE**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**History of Present Illness:**
+This is a 73-year-old individual with a history of being a never-smoker, who is referred for initial oncologic consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to develop a persistent, dry cough and progressive shortness of breath with exertion. Symptoms prompted a visit to an outside facility. An initial chest radiograph was concerning for a right-sided lung mass and an associated pleural effusion.
+
+A subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed for staging. This imaging confirmed a large primary mass in the right lung, along with multiple smaller nodules in the contralateral left lung, several suspicious lesions in the liver, and a moderate right-sided pleural effusion. Given the radiographic findings, the patient was referred for a tissue diagnosis. The patient reports some fatigue but is otherwise maintaining their weight and appetite. They remain fully ambulatory and are managing their own activities of daily living with some limitation due to dyspnea. Their ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+**IMAGING:**
+CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:
+*   A 4.8 cm spiculated mass is identified in the right lower lobe.
+*   Multiple bilateral pulmonary nodules are present, consistent with metastatic disease. The largest is a 1.5 cm nodule in the left upper lobe.
+*   A moderate right-sided pleural effusion is noted, suspicious for malignant etiology.
+*   Multiple hypoattenuating lesions are seen throughout the liver, consistent with metastases, with the largest measuring 2.5 cm in hepatic segment VI.
+*   No adrenal, osseous, or other distant visceral metastases were identified. Brain imaging was not performed as part of the initial staging workup.
+
+**PATHOLOGY:**
+CT-guided core needle biopsy, right lower lobe lung mass, [De-identified Date]:
+*   FINAL DIAGNOSIS: Invasive Adenocarcinoma, consistent with a lung primary based on immunohistochemical profile.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. Results are as follows:
+*   **EGFR:** Activating point mutation L858R detected.
+*   **ALK fusion:** Negative.
+*   **ROS1 fusion:** Negative.
+*   **BRAF mutation:** Negative.
+*   **MET exon 14 skipping mutation:** Negative.
+*   **RET fusion:** Negative.
+*   **NTRK fusion:** Negative.
+*   **KRAS mutation:** Negative.
+*   **ERBB2 (HER2) mutation:** Negative.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 73-year-old never-smoker presenting for initial evaluation of a newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies demonstrate metastatic disease involving the contralateral lung, liver, and pleura. Molecular profiling of the tumor is notable for an actionable EGFR L858R sensitizing mutation. The patient is treatment-naive and presents with a good performance status (ECOG 1) prior to initiation of any therapy.

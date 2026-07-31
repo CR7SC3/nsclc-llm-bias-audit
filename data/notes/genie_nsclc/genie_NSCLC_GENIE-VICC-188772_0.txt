@@ -1,0 +1,21 @@
+**HPI:**
+This is a 52-year-old individual who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient's history began approximately six weeks prior to evaluation, with the onset of persistent headaches, intermittent dizziness, and a non-productive cough. Due to the progressive nature of the headaches, the patient presented to an outside emergency department for evaluation.
+
+An initial MRI of the brain was performed which revealed multiple enhancing lesions consistent with metastatic disease. This prompted further staging studies. A CT of the chest, abdomen, and pelvis was subsequently obtained, which demonstrated a spiculated 3.5 cm mass in the right upper lobe of the lung, associated mediastinal lymphadenopathy, and a 2.8 cm left adrenal nodule, also suspicious for a metastasis.
+
+The patient was referred to Interventional Pulmonology and underwent bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial biopsy of the right upper lobe mass. The patient tolerated the procedure well. Pathologic analysis confirmed the diagnosis. The patient reports a significant smoking history and is a current smoker. Since the diagnostic workup began, the patient notes increasing fatigue and approximately 10 pounds of unintentional weight loss, but remains fully ambulatory and capable of all self-care activities.
+
+**Diagnostic Workup:**
+- **MRI Brain:** Multiple intraparenchymal enhancing lesions in the bilateral cerebral and cerebellar hemispheres, consistent with metastatic disease.
+- **CT Chest/Abdomen/Pelvis:** Revealed a 3.5 cm primary mass in the right upper lobe with associated mediastinal adenopathy. A 2.8 cm left adrenal metastasis was also identified. No other distant visceral or osseous metastases were noted.
+- **Biopsy:** Bronchoscopy with biopsy of the right upper lobe mass confirmed invasive, moderately differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor specimen.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- A loss-of-function mutation was detected in STK11.
+- Tumor Mutational Burden (TMB) was intermediate (2-16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 52-year-old with newly diagnosed, treatment-naive AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the brain and adrenal gland. Molecular profiling is notable for an STK11 loss-of-function mutation and the absence of common targetable driver alterations.

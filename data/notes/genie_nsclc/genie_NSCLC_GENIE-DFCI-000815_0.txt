@@ -1,0 +1,28 @@
+MEDICAL ONCOLOGY INITIAL CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**HPI:**
+This is a 52-year-old with a significant history of current tobacco use who is seen today for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was followed by the gradual onset of progressive dyspnea on exertion and mild fatigue. The patient initially attributed these symptoms to their smoking history but sought evaluation with their primary care provider when symptoms did not resolve. An initial office evaluation led to a chest X-ray which demonstrated a suspicious opacity in the right lung. The patient was subsequently referred for further diagnostic imaging and pulmonology consultation. The patient denies hemoptysis, fevers, chills, or significant unintentional weight loss. They remain fully ambulatory and are managing activities of daily living, though with some limitations due to shortness of breath.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial staging. This imaging confirmed a 5.2 cm spiculated mass in the right upper lobe. It also revealed several suspicious bilateral mediastinal and hilar lymph nodes. Critically, the scan identified two distinct nodules in the contralateral left lung, measuring 1.4 cm and 0.8 cm, highly concerning for metastatic disease. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+To further delineate the extent of disease, a whole-body PET/CT scan was obtained. This study demonstrated intense FDG-avidity corresponding to the primary right upper lobe mass, the mediastinal/hilar lymphadenopathy, and the contralateral lung nodules. No other sites of FDG-avid disease were identified.
+
+Given the diagnosis of metastatic lung cancer, a brain MRI with and without contrast was performed to rule out central nervous system involvement. This study was negative for any evidence of intracranial metastases.
+
+The patient ultimately underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathological analysis confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the biopsy specimen. The key findings are as follows:
+-   **Actionable Mutation:** A KRAS G12C mutation was detected.
+-   **Other Drivers:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+-   **PD-L1 Expression:** IHC staining for PD-L1 was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+-   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (12 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 52-year-old who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the contralateral lung (M1b). There is no evidence of brain metastases. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%).

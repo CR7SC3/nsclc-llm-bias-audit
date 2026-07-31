@@ -1,0 +1,28 @@
+**INITIAL ONCOLOGY CONSULTATION**
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 69-year-old with a recent diagnosis of non-small cell lung cancer, who presents for initial consultation. The patient was in their usual state of health until approximately one month prior to presentation, when they developed new-onset, persistent headaches and subtle word-finding difficulties. These symptoms prompted an evaluation in the emergency department.
+
+An initial MRI of the brain was performed which revealed several enhancing lesions concerning for metastatic disease. A subsequent staging CT scan of the chest, abdomen, and pelvis was performed to identify a primary source. This imaging identified a dominant mass in the right lung. The patient was referred to Interventional Radiology for a biopsy of the lung mass for definitive diagnosis.
+
+The patient has been tolerating the diagnostic workup well. They report that the headaches have been manageable with over-the-counter analgesics. They deny any significant cough, shortness of breath, hemoptysis, or chest pain. Appetite is slightly decreased but there has been no significant weight loss. The patient remains fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+I have personally reviewed the following key diagnostic studies:
+
+*   **MRI Brain with and without contrast, [De-identified]:** Revealed at least three discrete, ring-enhancing parenchymal lesions in the bilateral cerebral hemispheres consistent with metastatic disease. The largest lesion measures 1.8 cm in the left frontal lobe with moderate surrounding vasogenic edema.
+*   **CT Chest, Abdomen, and Pelvis with contrast, [De-identified]:** Identified a 4.2 cm spiculated mass in the right upper lobe. There is associated right hilar and mediastinal lymphadenopathy. No suspicious liver, adrenal, or osseous metastases were identified in the abdomen or pelvis. The findings are consistent with a primary lung malignancy with locoregional nodal involvement and distant metastatic disease limited to the brain as seen on prior MRI.
+*   **CT-guided Core Needle Biopsy, Right Upper Lobe Lung Mass, [De-identified]:** Pathology from the biopsy specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue from the lung biopsy. The results are as follows:
+*   **PD-L1:** Positive, with a Tumor Proportion Score (TPS) of ≥50%.
+*   **Actionable Driver Mutation:** A MET exon 14 skipping mutation was detected.
+*   **Other Markers:** Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate, 11 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 69-year-old never-smoker presenting with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma. The disease is metastatic to the brain. Molecular profiling of the tumor is notable for a MET exon 14 skipping mutation and high PD-L1 expression (TPS ≥50%). The patient is here for initial consultation to discuss the diagnosis and establish care.

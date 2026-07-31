@@ -1,0 +1,26 @@
+**HPI:**
+This is a 57-year-old with a past medical history significant only for well-controlled hypertension, who is seen today for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of good health until approximately six weeks prior to presentation, when they developed a persistent, dry, non-productive cough. Over the ensuing weeks, this was accompanied by the gradual onset of mild dyspnea with significant exertion. Due to the persistence of these symptoms, the patient presented to an urgent care center and a chest X-ray was obtained, which was suspicious for a right-sided lung mass.
+
+The patient was subsequently referred for further evaluation. A contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed for staging purposes. This confirmed the presence of a primary lung lesion and revealed metastatic disease. A dedicated MRI of the brain was also obtained as part of the staging workup. Following these imaging studies, the patient was referred to Interventional Radiology for a tissue diagnosis. The patient has remained active throughout this workup, with an ECOG performance status of 1, limited only by mild exertional shortness of breath.
+
+**Diagnostic Workup:**
+IMAGING:
+- CT chest/abdomen/pelvis with contrast: This study identified a 3.8 cm spiculated mass in the right lower lobe. Multiple smaller nodules were noted in the contralateral (left) lung, consistent with metastatic disease. Additionally, there was nodular thickening of the right pleura, concerning for pleural carcinomatosis. There was no evidence of metastatic disease in the liver, adrenal glands, or bones within the field of view.
+- MRI Brain with and without contrast: Negative for intracranial metastatic disease.
+
+PATHOLOGY:
+- CT-guided core needle biopsy of the right lower lobe lung mass was performed on [De-identified].
+- Histopathology confirmed invasive, moderately differentiated adenocarcinoma. Immunohistochemical stains (TTF-1 positive, Napsin-A positive) were consistent with a lung primary.
+- The diagnosis is non-small cell lung cancer, adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the lung biopsy.
+- An **ALK gene rearrangement** was detected.
+- The tumor was negative for pathogenic alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 57-year-old never-smoker with a new diagnosis of AJCC Stage IV non-small cell lung adenocarcinoma, metastatic to the contralateral lung and pleura. The patient has an excellent performance status. Molecular profiling of the tumor is notable for the presence of an actionable ALK rearrangement. The patient is seen today for initial consultation to discuss the diagnosis, the results of the diagnostic workup, and the implications for management.

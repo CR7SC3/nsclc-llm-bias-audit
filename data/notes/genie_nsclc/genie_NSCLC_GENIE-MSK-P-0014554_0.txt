@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 57-year-old individual with a history of smoking (former, quit within the last year) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough. After an initial course of antibiotics from their primary care provider failed to provide relief, a chest x-ray was obtained which revealed a right upper lobe opacity. This prompted a referral for further diagnostic evaluation. The patient reports some mild fatigue but denies fevers, chills, hemoptysis, or significant weight loss. ECOG performance status is 0-1.
+
+**Diagnostic Workup:**
+A review of outside records and imaging was performed.
+
+*   **CT Chest/Abdomen/Pelvis with contrast:** Confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. There was associated right hilar lymphadenopathy noted, with the largest node measuring 1.2 cm. No suspicious mediastinal lymphadenopathy was seen. The liver, adrenal glands, and visualized portions of the skeleton were unremarkable, with no findings suggestive of metastatic disease.
+*   **PET/CT:** Performed for staging purposes. This demonstrated intense FDG-avidity within the primary right upper lobe mass. There was corresponding FDG uptake in the right hilar lymph nodes, consistent with nodal involvement. No other sites of abnormal FDG uptake were identified in the neck, chest, abdomen, or pelvis to suggest distant metastatic disease.
+*   **MRI Brain with and without contrast:** Performed for central nervous system staging, this study was negative for intracranial metastases.
+*   **Biopsy:** The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed invasive adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIB (T2a, N1, M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue from the lung biopsy.
+*   **Histology:** Adenocarcinoma
+*   **Driver Mutations:**
+    *   **KRAS G12C mutation detected.**
+    *   Negative for pathogenic alterations in: EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Expression:** Testing was not performed on this specimen.
+*   **Other significant findings:** A loss-of-function mutation in **STK11** was also identified.
+
+**Problem Summary:**
+This is a 57-year-old with a new diagnosis of treatment-naive, non-metastatic Stage IIB (T2a, N1, M0) right upper lobe lung adenocarcinoma. Molecular profiling is notable for the presence of a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation. The patient is here for initial consultation and to discuss the diagnosis.

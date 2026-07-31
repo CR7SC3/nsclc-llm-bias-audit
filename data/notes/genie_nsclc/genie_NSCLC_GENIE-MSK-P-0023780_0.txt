@@ -1,0 +1,20 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HPI:**
+The patient is a 67-year-old with a history of smoking (former, quit several years ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who ordered a chest X-ray which revealed a right upper lobe lung mass. The patient denies hemoptysis, significant dyspnea, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. Performance status is excellent, ECOG 0, fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.5 cm solid mass in the right upper lobe. It also demonstrated several adjacent, mildly enlarged right hilar lymph nodes, suspicious for nodal involvement. The visualized portions of the abdomen and pelvis, including the liver and adrenal glands, were unremarkable with no evidence of metastatic disease.
+
+To complete staging, a PET/CT scan was obtained. This showed intense FDG-avidity within the primary right upper lobe mass and in the right hilar lymph nodes (N1 station). No other sites of abnormal hypermetabolism were identified to suggest distant metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathology from this procedure established a diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive next-generation sequencing. Molecular profiling did not identify any actionable driver alterations; results were negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 67-year-old who presents with a new diagnosis of treatment-naive, Stage IIB non-small cell lung cancer, adenocarcinoma histology. Molecular testing is notable for a PD-L1 TPS of 1–49% and the absence of identified actionable driver mutations.

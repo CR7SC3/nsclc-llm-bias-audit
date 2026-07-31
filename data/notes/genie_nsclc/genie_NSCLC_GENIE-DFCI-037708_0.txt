@@ -1,0 +1,24 @@
+**HPI:**
+This is a 55-year-old who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This prompted a visit to their primary care provider. An initial chest X-ray was abnormal, leading to a follow-up CT scan of the chest. The patient is a former smoker, having quit more than one year ago. They report some fatigue but maintain a good performance status, continuing with all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis was performed. This imaging confirmed the presence of a primary mass in the lung parenchyma and also identified a moderate pleural effusion. There was no evidence of distant metastatic disease in the abdomen or pelvis. A dedicated MRI of the brain was subsequently performed as part of the staging workup, which was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary lung mass. Pathological analysis confirmed the diagnosis of invasive adenocarcinoma. To both evaluate the effusion and complete staging, a thoracentesis was performed. Cytological analysis of the pleural fluid was positive for malignant cells, confirming metastatic involvement of the pleura.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. The results are as follows:
+- **Actionable Drivers Detected:** RET fusion, KRAS G12C mutation.
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, ERBB2 alterations.
+- **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1-49%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+- **Other Significant Findings:** A loss-of-function mutation in STK11 was identified.
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer, Adenocarcinoma histology.
+2.  AJCC Stage IV disease, with metastasis confined to the pleura at the time of diagnosis. No evidence of brain metastases.
+3.  Molecular profile is notable for a RET fusion, a KRAS G12C mutation, and an STK11 loss-of-function mutation.
+4.  PD-L1 TPS is positive at 1-49%.
+5.  The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish a plan of care.

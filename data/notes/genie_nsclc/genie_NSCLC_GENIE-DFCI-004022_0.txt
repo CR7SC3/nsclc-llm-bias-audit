@@ -1,0 +1,30 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**History of Present Illness:**
+This is an 80-year-old individual with a history of former tobacco use (quit over one year ago) who is referred for initial consultation and discussion regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. This was accompanied by a 15-pound unintentional weight loss over the same period. More recently, the patient noted a new, non-tender palpable nodule on the anterior chest wall. An initial evaluation with their primary care provider prompted a chest radiograph, which was abnormal and led to further cross-sectional imaging. The patient reports some intermittent aching in the mid-back but denies acute shortness of breath, hemoptysis, or focal neurologic symptoms. They remain fully ambulatory and independent with all activities of daily living.
+
+**Diagnostic Workup:**
+A diagnostic CT scan of the chest, abdomen, and pelvis revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. The scan also demonstrated multiple sites of suspected metastatic disease, including a 1.5 cm nodule in the contralateral left lung, a 3 cm left adrenal mass, and multiple enlarged supraclavicular and mediastinal lymph nodes.
+
+A subsequent whole-body PET/CT scan was performed for comprehensive staging. This confirmed high FDG avidity in the primary right upper lobe mass. Widespread FDG-avid metastatic disease was confirmed at all sites seen on CT, with additional avid osseous lesions identified in the thoracic spine and ribs, as well as the previously noted subcutaneous nodule in the right anterior chest wall.
+
+To establish a tissue diagnosis, the patient underwent an ultrasound-guided core biopsy of the palpable subcutaneous chest wall nodule. Pathologic examination of this tissue confirmed a diagnosis of metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin A, supporting a lung primary origin.
+
+A staging MRI of the brain was performed and revealed no evidence of intracranial metastatic disease.
+
+Based on the findings of a primary lung mass with distant metastases to contralateral lung, bone, adrenal gland, distant lymph nodes, and subcutaneous tissue, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer, adenocarcinoma subtype.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the subcutaneous nodule biopsy. This comprehensive genomic profiling identified two actionable driver alterations: an EGFR exon 21 L858R point mutation and a concurrent ALK gene rearrangement.
+
+The tumor was confirmed to be negative for mutations or rearrangements in ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor mutational burden (TMB) was low, at <2 mutations/megabase. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is an 80-year-old former smoker presenting with a new diagnosis of treatment-naive, Stage IV lung adenocarcinoma. The diagnostic workup has confirmed widespread metastatic disease involving bone, the contralateral lung, an adrenal gland, distant lymph nodes, and subcutaneous tissue. Brain imaging is negative for metastases. Comprehensive molecular profiling of the tumor is notable for the co-occurrence of an EGFR L858R sensitizing mutation and an ALK rearrangement.

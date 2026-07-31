@@ -1,0 +1,17 @@
+**HPI:**
+This is a 67-year-old who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. This was followed by the onset of new, progressive right hip pain, which prompted an evaluation by their primary care provider. The patient is a former smoker, having quit more than one year ago. They report increasing fatigue and a decline in appetite over the past month, but remain fully ambulatory and capable of self-care, though with some effort.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting further imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also revealed a lytic lesion in the right iliac bone, suspicious for a metastasis. A subsequent whole-body PET/CT scan demonstrated intense FDG-avidity in the primary lung mass, mediastinal nodes, and the right iliac bone lesion, with no other sites of distant hypermetabolic disease. A brain MRI performed for staging purposes was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue with the following results:
+- Actionable driver mutation detected: EGFR exon 19 deletion (sensitizing).
+- Negative for pathogenic variants in: ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by Tumor Proportion Score (TPS) was in the 1-49% range.
+- Tumor Mutational Burden (TMB) was intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 67-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Staging is cT2a N2 M1b. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents today to discuss the diagnosis and potential management options.

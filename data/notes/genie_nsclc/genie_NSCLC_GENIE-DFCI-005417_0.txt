@@ -1,0 +1,27 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 45-year-old individual with a history of smoking (quit over one year ago) who is seen for an initial oncology evaluation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with mild fatigue and an unintentional weight loss of approximately 10 pounds over the preceding three months. The patient initially sought evaluation with their primary care provider, who obtained a chest radiograph revealing a left-sided pleural effusion and a subtle left upper lobe opacity.
+
+This prompted an urgent referral for a CT scan of the chest, abdomen, and pelvis with contrast. The scan confirmed a spiculated 3.5 cm mass in the left upper lobe, a large, malignant-appearing left pleural effusion, and a new 2.2 cm nodule in the right adrenal gland, suspicious for metastatic disease. No evidence of brain metastases was reported on initial staging imaging. Given the findings, the patient was referred for thoracic surgery consultation and underwent a diagnostic and therapeutic thoracentesis. The patient reports some improvement in dyspnea following the procedure. The patient is currently ambulatory and managing most activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis with IV Contrast, [De-identified Date]:** Revealed a 3.5 cm primary mass in the left upper lobe. Findings consistent with a large malignant left pleural effusion. A 2.2 cm enhancing nodule was identified in the right adrenal gland, concerning for a metastasis. No other distant metastatic disease was identified.
+*   **Thoracentesis, [De-identified Date]:** 1.5 liters of serosanguinous fluid were removed. Pleural fluid cytology was performed.
+*   **Pathology (Pleural Fluid Cytology):** Final diagnosis of Adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the cell block from the pleural fluid specimen.
+*   **Actionable Driver Mutation:** An NTRK fusion was detected.
+*   **Negative for Mutations/Rearrangements:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (reported as 11 mutations/megabase).
+*   **PD-L1 Immunohistochemistry:** Not performed.
+
+**Problem Summary:**
+In summary, this is a 45-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura and adrenal gland. Molecular profiling is notable for the presence of an NTRK fusion.

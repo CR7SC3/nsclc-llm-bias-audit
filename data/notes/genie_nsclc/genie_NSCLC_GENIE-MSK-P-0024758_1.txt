@@ -1,0 +1,21 @@
+**HPI:**
+This 73-year-old with a significant former smoking history (quit over one year ago) is seen today for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. An initial chest radiograph demonstrated a right-sided pulmonary opacity, prompting further investigation. The patient is otherwise active with an ECOG performance status of 1 and has had no significant weight loss, hemoptysis, or chest pain.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest was performed, which revealed a 4.2 cm spiculated mass in the right upper lobe. The scan also identified bulky ipsilateral mediastinal and subcarinal lymphadenopathy, concerning for regional metastatic disease.
+
+For comprehensive staging, a PET/CT was subsequently obtained. This study confirmed high metabolic activity within the primary right upper lobe mass and in the right paratracheal and subcarinal lymph node stations. Crucially, the PET/CT did not demonstrate any FDG-avid lesions below the diaphragm or in the contralateral hemithorax, suggesting the absence of distant metastatic disease.
+
+Given the potential for central nervous system involvement, a staging MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue acquisition. A transbronchial needle aspiration (TBNA) of a subcarinal lymph node (station 7) was performed. Pathologic evaluation of the specimen confirmed invasive adenocarcinoma.
+
+**Molecular Studies:**
+The biopsy specimen was submitted for comprehensive molecular profiling and immunohistochemistry. The results are as follows:
+- Histology: Adenocarcinoma, non-small cell type.
+- PD-L1 Immunohistochemistry: Tumor Proportion Score (TPS) ≥50%.
+- Next-Generation Sequencing (NGS) Panel: No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB): Intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 73-year-old presenting for initial evaluation of a newly diagnosed, treatment-naive, Stage IIIA (cT2bN2M0, AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. Staging workup including PET/CT and brain MRI has ruled out distant metastatic disease. Molecular analysis reveals a high PD-L1 expression (TPS ≥50%) without an identifiable targetable driver mutation. The patient is here to establish care and understand the diagnosis.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 69-year-old individual with a history of being a never-smoker who presents for initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, dry cough. An initial course of antibiotics from their primary care provider did not lead to resolution of symptoms. A subsequent chest X-ray was performed which revealed a right upper lobe lung nodule.
+
+The patient was referred for further evaluation. A CT scan of the chest confirmed a solid, spiculated mass in the right upper lobe. They subsequently underwent a CT-guided core needle biopsy of this mass, which yielded the current diagnosis. The patient denies any fevers, chills, or significant weight loss. They report good energy levels and remain fully active with all activities of daily living. They deny any chest pain, shortness of breath at rest, hemoptysis, or new headaches. ECOG performance status is 0.
+
+**Diagnostic Workup:**
+Pathology from the CT-guided core needle biopsy of the right upper lobe mass, performed on [De-identified Date], confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+Staging evaluation included a PET/CT scan from chest to pelvis. This study demonstrated intense FDG-avidity in the known right upper lobe primary mass. There was no evidence of hypermetabolic mediastinal, hilar, or other regional lymphadenopathy. No suspicious FDG-avid lesions were identified in the contralateral lung, liver, adrenal glands, or bones to suggest distant metastatic disease. A contrast-enhanced MRI of the brain was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+Based on these findings, the patient is diagnosed with clinical Stage IIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified. Specific mutational analysis was negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative, with a Tumor Proportion Score (TPS) of <1%.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 69-year-old never-smoker with an excellent performance status who presents with a new diagnosis of treatment-naive, Stage IIA non-small cell lung cancer, adenocarcinoma histology. Molecular profiling is negative for targetable driver mutations and PD-L1 expression is <1%. The patient is here today to discuss the diagnosis and establish oncologic care.

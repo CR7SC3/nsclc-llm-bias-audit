@@ -1,0 +1,40 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness**
+
+The patient is a 66-year-old with a history of tobacco use (former smoker, quit >1 year ago) who presents for initial evaluation of a new diagnosis of non-small cell lung cancer.
+
+The patient was reportedly in their usual state of health until approximately three months ago when they developed a persistent, dry cough and progressive shortness of breath with exertion. Symptoms were initially attributed to a respiratory infection, but failed to improve with a course of antibiotics. Due to worsening dyspnea and the new onset of dull right-sided chest discomfort, the patient sought further medical evaluation. An initial chest radiograph demonstrated a large right-sided lung mass, which prompted an urgent referral for further diagnostic workup.
+
+The patient reports a 15-pound unintentional weight loss over the past three months and significant fatigue, but denies fevers, chills, or hemoptysis. Performance status is limited by dyspnea but the patient remains fully ambulatory and capable of all self-care, spending less than 50% of the day in bed or a chair (ECOG 1).
+
+**Diagnostic Workup**
+
+A comprehensive staging evaluation has been completed.
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 6.1 cm spiculated mass in the right upper lobe with invasion of the mediastinal pleura. There was extensive and bulky mediastinal and right hilar lymphadenopathy, with a large conglomerate nodal mass in the subcarinal region measuring approximately 5.5 cm. No suspicious liver, adrenal, or bone lesions were identified.
+*   **PET/CT:** Performed for staging, this study confirmed intense FDG-avidity in the primary right upper lobe mass and the extensive right hilar, mediastinal, and right supraclavicular lymph node stations. Crucially, there was no evidence of FDG-avid disease at distant sites to suggest metastatic disease.
+*   **MRI Brain:** A dedicated MRI of the brain with and without contrast was performed to complete staging and was negative for any evidence of intracranial metastases.
+
+**Biopsy:**
+*   The patient underwent an endobronchial ultrasound (EBUS) with fine-needle aspiration of a subcarinal lymph node. Pathologic review of the specimen confirmed invasive, poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue.
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of <1%.
+*   **Tumor Mutational Burden (TMB):** TMB was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary**
+
+This is a 66-year-old former smoker with a new diagnosis of locally advanced, unresectable non-small cell lung cancer.
+
+1.  **Non-Small Cell Lung Cancer, Adenocarcinoma:**
+    *   Stage IIIB (clinical T4N3M0) based on a large primary tumor with extensive mediastinal and supraclavicular nodal involvement, and no evidence of distant metastatic disease.
+    *   Molecular profiling is notable for being PD-L1 negative (TPS <1%) with no identified actionable driver mutations.
+    *   The patient is treatment-naive. Performance status is ECOG 1.

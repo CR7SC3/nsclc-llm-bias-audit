@@ -1,0 +1,15 @@
+variant,group,ct_add,ct_rem,ct_net,ct_p,pall_add,pall_rem,pall_net,pall_p,n
+race_only_pooled,pooled,4154,4687,-1.41,1.52e-08,2271,2246,0.07,0.721,37728
+black_race_only,race,682,783,-1.61,0.00896,362,379,-0.27,0.557,6288
+hispanic_race_only,race,702,782,-1.27,0.0403,376,396,-0.32,0.494,6288
+asian_race_only,race,681,784,-1.64,0.00768,327,376,-0.78,0.0702,6288
+native_american_race_only,race,713,770,-0.91,0.146,456,362,1.49,0.00113,6288
+middle_eastern_race_only,race,686,830,-2.29,0.000238,399,353,0.73,0.101,6288
+multiracial_race_only,race,690,738,-0.76,0.214,351,380,-0.46,0.3,6288
+black_female_medicaid,intersectional,715,776,-0.97,0.12,445,350,1.51,0.000846,6288
+latina_female_uninsured,intersectional,776,672,1.65,0.00677,591,319,4.33,1.41e-19,6288
+black_unhoused,intersectional,683,817,-2.13,0.00059,657,335,5.12,8.38e-25,6288
+low_income_black,intersectional,716,774,-0.92,0.14,562,342,3.50,2.49e-13,6288
+black_female_private,intersectional,713,764,-0.81,0.193,384,359,0.40,0.379,6288
+white_male_private,reference,731,753,-0.35,0.586,337,385,-0.76,0.0802,6288
+white_female_medicaid,reference,732,758,-0.41,0.517,435,356,1.26,0.00551,6288

@@ -1,0 +1,17 @@
+**HPI:**
+This is a 65-year-old individual with a significant smoking history who is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside provider approximately one month ago with complaints of new-onset, persistent mid-back pain that was non-radiating and not relieved by over-the-counter analgesics. This was associated with a mild, non-productive cough. An initial chest radiograph was abnormal, prompting further cross-sectional imaging. The patient has maintained their weight and denies fevers, chills, or night sweats. They remain fully ambulatory and capable of all self-care, though the back pain limits strenuous activity. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This revealed a 4.2 cm spiculated mass in the right upper lobe, associated with prominent mediastinal and hilar lymphadenopathy. Critically, the scan also identified a lytic lesion within the T8 vertebral body, highly suspicious for osseous metastasis.
+
+A subsequent whole-body PET/CT scan on [De-identified Date] confirmed intense FDG-avidity in the right upper lobe primary mass, the mediastinal lymph nodes, and the T8 vertebral body lesion. No other sites of FDG-avid disease suggestive of distant metastases in the liver, adrenal glands, or elsewhere were identified.
+
+An MRI of the brain with and without contrast was performed for staging purposes and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Pathology confirmed a primary lung adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was submitted for next-generation sequencing. No actionable driver alteration was identified. The panel was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as this was not standard practice at the time of the initial biopsy.
+
+**Problem Summary:**
+In summary, this is a 65-year-old current smoker who presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging is based on a primary right upper lobe tumor with metastatic disease to bone. Brain MRI is negative for metastatic disease. Molecular profiling did not reveal an actionable driver mutation. The patient is here for an initial consultation to discuss the diagnosis in detail.

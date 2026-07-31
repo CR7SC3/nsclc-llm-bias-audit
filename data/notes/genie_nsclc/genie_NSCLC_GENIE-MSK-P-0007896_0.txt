@@ -1,0 +1,20 @@
+**HPI:**
+This is an 83-year-old individual with an excellent performance status who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until a persistent, non-productive cough prompted a chest X-ray, which showed a subtle opacity. This led to further imaging. The patient is an active individual who denies any constitutional symptoms, including fevers, chills, night sweats, or unintentional weight loss. There is no report of hemoptysis, chest pain, or increasing dyspnea. Notably, the patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest was performed. This imaging confirmed the presence of a 1.8 cm solid, spiculated nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core biopsy of the right upper lobe nodule on [De-identified date]. Pathologic evaluation of the tissue confirmed a primary lung adenocarcinoma.
+
+Staging evaluation was completed with a PET/CT scan. This study demonstrated intense FDG uptake localized to the known right upper lobe primary tumor only. There was no evidence of FDG-avid disease in the mediastinal or hilar lymph nodes, nor were there any findings suspicious for distant metastatic disease in the chest, abdomen, or pelvis. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+Collectively, this workup establishes a clinical Stage IA (cT1bN0M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the biopsy. The following results were reported:
+-   **Actionable driver mutation:** An EGFR L858R point mutation was detected.
+-   **Other drivers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+-   **Immunotherapy markers:** PD-L1 expression was negative. The tumor mutational burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is an 83-year-old never-smoker with a new diagnosis of clinical Stage IA (cT1bN0M0) non-small cell lung adenocarcinoma, characterized by a sensitizing EGFR L858R mutation.

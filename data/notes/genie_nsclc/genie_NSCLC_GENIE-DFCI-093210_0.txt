@@ -1,0 +1,17 @@
+**HPI:**
+This is a 66-year-old individual who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when a persistent, dry cough developed. This was followed by progressive exertional dyspnea and generalized fatigue. More recently, the patient experienced several episodes of headache and mild word-finding difficulty, which prompted evaluation in the emergency department and led to the current workup. The patient is a lifetime never-smoker. Despite the recent symptoms, the patient remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The diagnostic evaluation began with a chest CT scan, which identified a 4.2 cm spiculated mass in the right lower lobe. The scan also revealed multiple bilateral pulmonary nodules, with several concerning nodules in the contralateral left lung. A moderate-sized right-sided pleural effusion was noted. Extrathoracic imaging included a PET/CT scan which demonstrated intense FDG-avidity in the primary right lower lobe mass, the contralateral lung nodules, and the right pleura. Additionally, an FDG-avid lytic lesion was identified in the T7 vertebral body, concerning for osseous metastasis.
+
+Given the presenting neurologic symptoms, a brain MRI with and without contrast was performed. This study confirmed the presence of three distinct enhancing lesions in the right cerebellum and left frontal lobe, the largest measuring 1.1 cm, consistent with brain metastases.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right lung mass. Pathologic examination of the specimen confirmed the diagnosis of lung adenocarcinoma. The combination of these findings establishes a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. This analysis identified an actionable sensitizing point mutation in the epidermal growth factor receptor gene (EGFR L858R).
+
+Further molecular testing was negative for other common driver mutations, including ALK and ROS1 rearrangements, as well as mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was low at <2 mut/Mb. PD-L1 expression was not performed on this sample.
+
+**Problem Summary:**
+In summary, this is a 66-year-old never-smoker who presents for initial consultation for a new diagnosis of Stage IV lung adenocarcinoma. The diagnostic workup has confirmed metastatic disease involving the brain, contralateral lung, pleura, and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation. The patient is treatment-naive with an ECOG performance status of 1. We will discuss the diagnosis, prognosis, and the implications of these findings in detail today.

@@ -1,0 +1,15 @@
+**HPI:**
+This is a 70-year-old individual with a history of hypertension and hyperlipidemia who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider approximately six weeks ago with a persistent, non-productive cough. This prompted a chest X-ray which revealed a right-sided lung opacity. The patient denies hemoptysis, chest pain, fevers, chills, or significant unintentional weight loss. Appetite is reported as stable. The patient is a former smoker, having quit over 15 years ago after a 30-pack-year history. They remain fully ambulatory and independent with all activities of daily living, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This study identified a 4.2 cm spiculated mass in the right upper lobe, associated with mediastinal lymphadenopathy. The abdominal portion of the scan revealed a 2.5 cm enhancing nodule in the left adrenal gland, highly suspicious for a metastatic deposit. No other distant visceral or osseous metastases were identified. A dedicated MRI of the brain with and without contrast was subsequently performed and was negative for intracranial metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The procedure was performed at [De-identified] Hospital on [De-identified Date] and was well-tolerated. Pathologic review of the biopsy specimen confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. This analysis identified an actionable somatic mutation in **KRAS G12C**. The panel was negative for other common driver mutations, including EGFR, ALK, ROS1, BRAF V600E, MET exon 14, RET, NTRK, and ERBB2 (HER2).
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the **1–49%** range. Tumor Mutational Burden (TMB) was calculated and found to be **intermediate (2–16 mut/Mb)**.
+
+**Problem Summary:**
+In summary, this is a 70-year-old with a new diagnosis of **Stage IV** non-small cell lung cancer of **adenocarcinoma histology**. Staging is based on a primary right upper lobe mass with a solitary metastasis to the left adrenal gland. Brain MRI is negative for metastatic disease. Molecular profiling is notable for a **KRAS G12C mutation** and a PD-L1 TPS of 1-49%. The patient is treatment-naive and presents today to discuss the diagnosis and establish oncologic care.

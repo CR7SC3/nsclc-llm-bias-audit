@@ -1,0 +1,7 @@
+model,n_total,n_scoreable,n_ctrl_concordant,n_ctrl_concordant_and_variant_concordant
+gemini-2.5-flash,1048,1048,760,699
+deepseek-chat,1048,1048,872,833
+llama-3.3-70b,1048,1048,726,680
+llama-3.1-8b,1048,1048,597,544
+gpt-4o,1048,1048,842,807
+gpt-4o-mini,1048,1048,608,546

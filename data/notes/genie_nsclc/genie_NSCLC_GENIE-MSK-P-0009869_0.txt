@@ -1,0 +1,13 @@
+**HPI:**
+This is an initial oncology consultation for a 60-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over a year ago. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms initially did not respond to a course of antibiotics from their primary care provider. Due to worsening shortness of breath, a chest radiograph was obtained, which revealed a lung mass and a pleural effusion. The patient was subsequently referred for further diagnostic evaluation. The patient reports some fatigue but maintains an excellent performance status (ECOG 0), continuing to perform all activities of daily living without restriction. A review of systems is otherwise negative for fevers, chills, night sweats, or significant weight loss.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed for staging. Imaging revealed a primary mass in the right lower lobe of the lung measuring approximately 4.5 cm. There was a moderate-sized, malignant-appearing right-sided pleural effusion. Pathologic lymphadenopathy was noted in the mediastinum as well as in the contralateral supraclavicular region, consistent with distant nodal metastasis. No metastatic lesions were identified in the liver, adrenal glands, or bones. A subsequent MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right lower lobe lung mass. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. An actionable driver mutation was identified in **BRAF (V600E)**. The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was determined to be low (<2 mutations/megabase). PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+This is a 60-year-old with an excellent performance status who presents for an initial oncology evaluation. The patient is treatment-naive and has a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the pleura and distant lymph nodes. Molecular profiling of the tumor is notable for a BRAF V600E mutation. The patient is here today to discuss these findings.

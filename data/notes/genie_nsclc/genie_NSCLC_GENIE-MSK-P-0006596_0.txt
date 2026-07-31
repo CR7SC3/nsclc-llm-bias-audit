@@ -1,0 +1,32 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an initial medical oncology consultation for a 69-year-old with a history of former tobacco use, referred for evaluation and management of newly diagnosed metastatic non-small cell lung cancer.
+
+The patient reports first developing symptoms approximately two months prior to presentation, including a persistent non-productive cough, progressive dyspnea on exertion, and an unintentional weight loss of approximately 15 pounds. More recently, the patient began experiencing intermittent headaches and noted a new, firm, non-tender lump under the skin of the anterior chest wall. These escalating symptoms prompted a visit to an urgent care center, which led to an initial diagnostic workup. The patient is currently symptomatic but remains fully ambulatory and independent with activities of daily living.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray revealed a large mass in the right lung. This prompted further comprehensive staging imaging.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This confirmed a large, spiculated primary mass in the right upper lobe with extensive mediastinal and hilar lymphadenopathy. The scan also demonstrated multiple lytic osseous lesions in the thoracic spine and ribs. Additional findings included pathologically enlarged contralateral supraclavicular lymph nodes and multiple discrete subcutaneous nodules.
+
+Given the new-onset headaches, a brain MRI with contrast was performed on [De-identified date]. This study revealed multiple enhancing parenchymal lesions scattered throughout the cerebral hemispheres, consistent with metastatic disease.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right lung mass on [De-identified date]. Final pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The results are summarized as follows:
+*   **Actionable Driver Mutation:** A pathogenic **BRAF V600E** mutation was detected.
+*   **Other Genes Tested (Negative):** No pathogenic alterations were identified in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, or ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (reported as 2–16 mut/Mb).
+*   **PD-L1 Expression:** Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 69-year-old former smoker presenting for initial oncologic evaluation of a new diagnosis of metastatic non-small cell lung cancer.
+
+The diagnosis is biopsy-proven adenocarcinoma of the lung. Comprehensive staging studies have confirmed widespread metastatic disease involving the brain, bone, distant lymph nodes, and subcutaneous tissue, which corresponds to an AJCC Stage IV diagnosis. Molecular profiling of the tumor is significant for the presence of an activating BRAF V600E mutation. The patient is treatment-naive. The primary problem is newly diagnosed Stage IV, BRAF V600E-mutant non-small cell lung cancer.

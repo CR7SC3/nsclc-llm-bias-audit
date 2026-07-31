@@ -1,20 +1,27 @@
-[De-identified] Cancer Center
-Medical Oncology Program
-[De-identified]
-[De-identified]
-Phone: [De-identified] | Fax: [De-identified]
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
 
-Initial Consultation [De-identified]
-Patient: [De-identified]
+**HISTORY OF PRESENT ILLNESS:**
+This is an initial medical oncology consultation for a 60-year-old with a new diagnosis of non-small cell lung cancer. The patient presented to an outside facility several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a right-sided pulmonary opacity, prompting further evaluation with a contrast-enhanced CT of the chest. The patient is a former smoker, having quit within the last year, and reports a significant prior smoking history. Overall, the patient feels well with an ECOG performance status of 0-1, reporting only the mild cough and no constitutional symptoms such as fevers, weight loss, or hemoptysis. The patient is here today to discuss the diagnosis and establish care.
 
-**HPI:**
-A 60-year-old patient presents for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer (NSCLC). The patient reports a history of former smoking, having quit less than one year ago. The diagnosis was established as adenocarcinoma histology. The patient initially presented with a persistent cough and mild dyspnea, prompting further investigation. Performance status is excellent (ECOG 0-1).
+**DIAGNOSTIC WORKUP:**
+A diagnostic CT of the chest confirmed the presence of a 3.4 cm spiculated solid nodule in the right upper lobe. There was no evidence of significant mediastinal or hilar lymphadenopathy.
 
-**Diagnostic Workup:**
-Initial evaluation for the presenting symptoms included a chest X-ray, which revealed a suspicious pulmonary nodule. A subsequent computed tomography (CT) scan of the chest confirmed the presence of a primary lung mass. Bronchoscopy with biopsy of the lesion confirmed the diagnosis of adenocarcinoma. Comprehensive staging workup included a whole-body PET/CT scan, which demonstrated metabolic activity confined to the primary lung lesion, with no evidence of regional lymph node involvement or distant metastatic disease. A magnetic resonance imaging (MRI) of the brain was also performed and was negative for intracranial metastases. Based on these findings, the patient was staged as AJCC Stage IB non-small cell lung cancer.
+A subsequent PET/CT scan was performed for staging purposes. This study demonstrated intense FDG-avidity localized to the known right upper lobe pulmonary nodule. There was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or at any distant sites to suggest metastatic disease.
 
-**Molecular Studies:**
-Tumor tissue underwent comprehensive molecular profiling. Results indicated no actionable driver alterations, with testing negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping alterations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 (HER2) mutations. PD-L1 expression was not assessed, consistent with sequencing performed prior to 2017 when PD-L1 testing was not yet standard of care. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology returned as invasive adenocarcinoma, consistent with a primary lung malignancy.
 
-**Problem Summary:**
-This is a 60-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, staged as AJCC IB. The tumor exhibits no identified actionable driver alterations on comprehensive molecular profiling, and tumor mutational burden is intermediate. The patient has a history of former smoking. Further discussion is warranted to determine the optimal management strategy for this localized disease.
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+Based on this workup, the patient's disease is clinical Stage IB (AJCC 8th Edition).
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue specimen.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** PD-L1 expression was not tested.
+- **Tumor Mutational Burden (TMB):** TMB was intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 60-year-old former smoker with a new diagnosis of Stage IB (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup, including PET/CT and brain MRI, is negative for regional or distant metastatic disease. Molecular profiling of the tumor is notable for an absence of targetable driver mutations. The patient is treatment-naive and presents for initial consultation and discussion of management options.

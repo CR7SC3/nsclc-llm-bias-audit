@@ -1,0 +1,20 @@
+**HPI:**
+This is a 56-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough, progressive dyspnea on exertion, and new-onset headaches. The individual is otherwise active and maintains a good performance status, though reports some fatigue. The initial workup led to the current diagnosis. The patient is here today to establish care and understand the diagnosis.
+
+**Diagnostic Workup:**
+An initial chest X-ray for cough revealed a right-sided lung opacity, prompting a contrast-enhanced CT of the chest. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe with associated bulky mediastinal and hilar adenopathy.
+
+Due to the extent of disease on chest imaging and the patient's headaches, a full staging workup was completed. An MRI of the brain was performed, which demonstrated multiple small, enhancing parenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic disease. A subsequent PET/CT scan was performed for systemic staging, which showed intense hypermetabolic activity in the primary right upper lobe lung mass and mediastinal lymph nodes. Additionally, multiple foci of FDG-avidity were noted in the thoracic spine and pelvis, consistent with osseous metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass on [De-identified Date]. Pathologic review of the specimen confirmed a diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for comprehensive molecular profiling and immunohistochemistry. The results are as follows:
+- Histology: Adenocarcinoma, non-small cell type.
+- Molecular Profiling: An activating EGFR L858R point mutation was detected.
+- Additional Testing: Negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 Tumor Proportion Score (TPS): ≥50%.
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 56-year-old who is treatment-naive with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the brain and bone. Molecular analysis of the tumor is notable for a sensitizing EGFR L858R mutation and high PD-L1 expression. The patient presents for initial evaluation and discussion of the diagnosis.

@@ -14,6 +14,12 @@
 > - The Claude Sonnet audit arm mentioned in planning docs was **dropped** (25-case stub);
 >   claude-sonnet-4-6 remains the blinded judge only.
 > - The remaining items (README circularity framing, manuscript prose) are unchanged.
+> - **Status update (2026-07-31) — Blocker #1 partially resolved.** The 35-item
+>   targeted/contested gold set (κ=0.30) that drove this blocker has been removed from
+>   the manuscript, TRIPOD checklist, and figure set entirely. The retained validation
+>   is the 60-item random gold set (judge–human 91.7%, κ=0.57, PABAK 0.83) — still
+>   single-rater, so the underlying "needs a second blinded rater" risk stands, but the
+>   headline number quoted below (κ=0.30) is no longer in the paper.
 
 ## Bottom line
 
@@ -127,16 +133,18 @@ model × case × variant, pre-registered composite = adherence-doubt OR hallucin
 ## Gating items before submission
 
 ### 1. Single-rater gold-set validation (biggest risk)
-`adjudication/VALIDATION_SUMMARY.md` documents κ=0.30 (human vs. LLM-judge) on a
-35-item gold set labeled by the study author alone — the same person running the
-study. This is explicitly flagged in `PAPER_FRAME.md` as an open "must-fix" and as the
-"highest credibility-per-hour fix." A reviewer at JMIR AI or BMC Med Inform Decis Mak
-will treat single-rater, non-blinded-to-hypothesis gold labeling as close to
-disqualifying for a paper whose entire contribution rests on a stigma classifier's
-validity. There's already a `gold_random40_helper.csv` scaffold in `adjudication/` that
-looks prepared for a second rater — getting even one more independent labeler (a lab
-mate, a clinician collaborator) on that 40-item set to report inter-rater κ would
-close most of this gap.
+The 35-item targeted/contested gold set (κ=0.30, human vs. LLM-judge) has been
+removed from the manuscript, TRIPOD checklist, and figure set — its weak agreement
+number and single-rater over-counting narrative no longer appear anywhere in the
+submission-facing material. The retained validation is the 60-item random gold set
+(judge–human 91.7%, κ=0.57, PABAK 0.83), which is still single-rater (the study
+author). A reviewer at JMIR AI or BMC Med Inform Decis Mak will still treat
+single-rater, non-blinded-to-hypothesis gold labeling as a real limitation for a
+paper whose contribution rests on a stigma classifier's validity, even at the
+stronger 60-item numbers. There's already a `gold_random40_helper.csv` scaffold in
+`adjudication/` that looks prepared for a second rater — getting even one more
+independent labeler (a lab mate, a clinician collaborator) on that set to report
+inter-rater κ would close most of this gap.
 
 ### 2. GPT-4o arm incompleteness
 `results/baseline/v2_genie_bpc_nsclc_n300_gpt-4o_checkpoint.json` has 209/1,048 cases.

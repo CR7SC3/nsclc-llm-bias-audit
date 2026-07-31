@@ -1,0 +1,27 @@
+**HPI:**
+This is an initial oncology consultation for a 63-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a viral illness, but symptoms failed to resolve. Due to worsening fatigue and the persistence of the cough, the patient presented to their primary care provider. A chest X-ray was obtained which revealed a right-sided lung mass, prompting further investigation.
+
+Past medical history is notable for a history of uterus cancer, treated with surgery, with no evidence of recurrence. The patient is otherwise active and maintains a good functional status, able to perform all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This revealed a spiculated 4.5 cm mass in the right lower lobe. Additionally, multiple pulmonary nodules were noted in the contralateral (left) lung, the largest measuring 1.8 cm. Extensive mediastinal and distant supraclavicular lymphadenopathy was also identified.
+
+A subsequent PET/CT scan confirmed high FDG avidity in the primary right lower lobe mass, the contralateral lung nodules, and in multiple nodal stations including the mediastinum and supraclavicular fossa, consistent with widespread metastatic disease.
+
+A CT-guided core needle biopsy of the right lower lobe mass was performed on [De-identified Date]. Pathology confirmed poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Given the diagnosis of metastatic NSCLC, a staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+Based on the above findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Specific results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the tumor was found to be negative.
+
+Tumor mutational burden (TMB) was assessed and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 63-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the contralateral lung and distant lymph nodes. The patient is treatment-naive and has an excellent ECOG performance status of 1. Molecular profiling is notable for the absence of any identified actionable driver alterations, negative PD-L1 expression, and an intermediate tumor mutational burden. The case was discussed with the patient in detail.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 68-year-old individual with a history of being a never-smoker who is seen for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately six weeks ago, when they noted the insidious onset of progressive dyspnea on exertion and a dry, persistent cough. The symptoms did not resolve with a course of oral antibiotics prescribed by their primary care provider. Due to worsening shortness of breath, which began to limit ambulation, the patient presented to an outside emergency department for evaluation. An initial chest X-ray performed at that time was notable for a large left-sided pleural effusion, prompting admission for further diagnostic workup. The patient denies fevers, chills, hemoptysis, or significant weight loss. Performance status is excellent, estimated at ECOG 1, with activity limited only by dyspnea.
+
+**Diagnostic Workup:**
+Following admission, a staging CT scan of the chest, abdomen, and pelvis with intravenous contrast was performed. The chest CT revealed a 3.8 cm spiculated mass in the left upper lobe. A large, loculated left pleural effusion with associated pleural thickening and nodularity was also identified. No suspicious mediastinal or hilar lymphadenopathy was noted. The CT of the abdomen and pelvis was negative for visceral or osseous metastatic disease.
+
+To establish a diagnosis, the patient underwent a CT-guided thoracentesis with drainage of 1.2 liters of serosanguinous fluid, which provided significant symptomatic relief. Cytologic analysis of the pleural fluid confirmed the presence of malignant cells, and the final pathology was consistent with adenocarcinoma of lung primary origin.
+
+A staging MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastases. Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+The pleural fluid cell block was sent for comprehensive next-generation sequencing.
+- **Actionable driver mutation:** A **ROS1 rearrangement** was detected.
+- **Other markers:** Testing was negative for alterations in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 9 mutations/megabase).
+- **PD-L1:** PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 68-year-old never-smoker presenting for initial consultation with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirmed a left upper lobe primary tumor with malignant pleural metastatic disease (cT2a N0 M1a). Molecular profiling of the tumor is notable for the presence of a ROS1 gene rearrangement. The patient is treatment-naive and is here today to discuss these findings in detail.

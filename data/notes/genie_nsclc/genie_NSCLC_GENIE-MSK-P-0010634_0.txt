@@ -1,0 +1,18 @@
+**HPI:**
+This is a 59-year-old individual with a history of smoking (quit over one year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three months ago, when they developed a persistent, non-productive cough and a feeling of chest pressure. These symptoms were initially managed conservatively but did not resolve. Over the past month, the patient also noted the onset of mild dyspnea on exertion and a sense of hoarseness. This prompted further evaluation by their primary care provider, leading to the diagnostic workup detailed below. The patient has a good performance status (ECOG 0-1) and continues to perform all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+The diagnostic evaluation began with a chest X-ray which revealed a right-sided hilar mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization. This study confirmed the presence of a 5 cm mass in the right upper lobe, abutting the mediastinum. Additionally, the scan demonstrated extensive mediastinal and contralateral hilar lymphadenopathy, as well as bulky right supraclavicular lymph nodes. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A whole-body PET/CT scan was then obtained for staging. This demonstrated high FDG-avidity in the primary right upper lobe mass, as well as in multiple mediastinal, hilar, and right supraclavicular nodal stations, consistent with the CT findings. There was no evidence of FDG-avid disease at any distant sites to suggest metastatic disease. A staging MRI of the brain with and without contrast was also performed and was negative for any intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of a right supraclavicular lymph node. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated squamous cell carcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+The biopsy specimen was sent for next-generation sequencing to assess for targetable alterations. The results are as follows:
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested on this specimen.
+- Tumor Mutational Burden (TMB) was reported as intermediate (14 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 59-year-old former smoker who presents with a new diagnosis of AJCC Stage IIIB non-small cell lung cancer, squamous cell histology. An extensive staging workup including PET/CT and brain MRI has confirmed locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor did not identify an actionable driver mutation.

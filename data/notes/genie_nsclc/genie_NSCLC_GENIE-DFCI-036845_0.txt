@@ -1,0 +1,21 @@
+**HPI:**
+This is a 65-year-old individual with a past medical history notable only for well-controlled hypertension, who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience a progressively worsening, non-productive cough and dyspnea on exertion. This was initially attributed to a possible respiratory infection, but symptoms persisted despite a course of antibiotics. The increasing shortness of breath, particularly when lying flat, prompted an evaluation in the emergency department on [De-identified Date]. The patient has maintained a good appetite and has had no significant weight loss. Performance status is excellent, ECOG 0-1.
+
+**Diagnostic Workup:**
+An initial chest radiograph performed in the emergency department revealed a large left-sided pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging purposes. This study confirmed a primary mass in the left upper lobe measuring approximately 4.2 cm. Extensive, loculated left pleural fluid and associated pleural nodularity were also identified, highly suspicious for malignant involvement. No suspicious hepatic, adrenal, or osseous lesions were noted. There was no evidence of contralateral lung metastasis.
+
+For central nervous system staging, a brain MRI with and without contrast was obtained and showed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent an ultrasound-guided left-sided thoracentesis, with removal of 1.5 liters of serosanguinous fluid, which provided significant symptomatic relief. Pathologic analysis of the pleural fluid cytology confirmed the presence of malignant cells consistent with adenocarcinoma, with an immunoprofile supporting a lung primary. A cell block was prepared from the specimen for further molecular analysis.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the pleural fluid cell block.
+-   Actionable driver mutation detected: **EGFR uncommon sensitizing mutation**.
+-   The tumor tested negative for alterations in **ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2**.
+-   PD-L1 expression by immunohistochemistry was **positive, with a Tumor Proportion Score (TPS) of ≥50%**.
+-   Tumor Mutational Burden (TMB) was assessed and found to be **low (<2 mut/Mb)**.
+
+**Problem Summary:**
+This is a 65-year-old lifetime never-smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to the pleura (cT_N_M1a). The patient is treatment-naive with an excellent performance status. Molecular profiling is notable for an uncommon sensitizing EGFR mutation and high PD-L1 expression. The patient is here for initial consultation to discuss the diagnosis and establish a plan of care.

@@ -1,0 +1,15 @@
+**HPI:**
+This is a 72-year-old patient with a history of former smoking (quit over one year ago) who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms, a chest radiograph was obtained which revealed a right upper lobe lung nodule. The patient has remained active with an ECOG performance status of 0-1, reporting only mild fatigue and the aforementioned cough. There is no history of hemoptysis, chest pain, or significant weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This confirmed the presence of a 4.5 cm solid mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+For definitive staging, a PET/CT was performed. This demonstrated high FDG-avidity within the known right upper lobe mass. Importantly, there was no evidence of FDG-avid lymphadenopathy in the mediastinum or hila, and no findings concerning for distant metastatic disease. A brain MRI with and without contrast was subsequently obtained and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis confirmed non-small cell lung cancer, with features most consistent with adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested on this specimen. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 72-year-old former smoker with a new diagnosis of clinical Stage IIA (cT2bN0M0) adenocarcinoma of the right lung. The patient is treatment-naive and presents in good functional status for initial evaluation and discussion of the diagnosis.

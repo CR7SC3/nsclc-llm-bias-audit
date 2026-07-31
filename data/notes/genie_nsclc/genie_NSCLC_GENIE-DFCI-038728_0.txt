@@ -1,0 +1,20 @@
+**HPI:**
+This is a 53-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for an initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and mild dyspnea on exertion. These symptoms were initially attributed to a viral illness but did not resolve with time. Due to the persistence of symptoms, the patient presented to their primary care provider, who ordered a chest X-ray. This imaging revealed a right-sided lung mass, prompting further investigation.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This study demonstrated a 3.8 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. A distinct 1.4 cm nodule was also identified in the contralateral left lower lobe, concerning for metastatic disease. No evidence of metastatic disease was identified in the liver, adrenal glands, or bones. A subsequent brain MRI with and without contrast was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathologic analysis of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary. The patient has an ECOG performance status of 1.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive genomic and biomarker profiling. The results are as follows:
+- **PD-L1 Immunohistochemistry:** Positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mutations/megabase).
+- **Next-Generation Sequencing (NGS):**
+  - **Actionable Mutation Detected:** KRAS G12C
+  - **Negative for other tested drivers:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2.
+
+**Problem Summary:**
+In summary, this is a 53-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung. Molecular studies are notable for a KRAS G12C mutation and a PD-L1 TPS of 1-49%. The patient has a good performance status and is here to establish care and discuss the implications of these findings.

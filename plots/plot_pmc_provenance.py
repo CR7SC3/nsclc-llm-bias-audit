@@ -4,7 +4,7 @@ The real-note replication uses 40 open-access NSCLC case reports from PubMed
 Central. This figure shows where they come from: publisher/journal source, note
 length, and open-access license. Source: data/processed/pmc_nsclc_manifest.json.
 
-Output -> figures/manuscript/fig4_pmc_provenance.png
+Output -> figures/manuscript/FigS01_pmc_note_provenance.png
 Run:  python3 plots/plot_pmc_provenance.py
 """
 from pathlib import Path
@@ -65,8 +65,8 @@ def main():
     fig.suptitle("Where the real notes come from: 40 open-access PubMed Central NSCLC "
                  "case reports\n" + lic_str, fontsize=12, fontweight="bold", y=1.02)
     fig.tight_layout(rect=(0, 0, 1, 0.99))
-    fig.savefig(OUT / "fig4_pmc_provenance.png", dpi=150, bbox_inches="tight")
-    print("wrote", OUT / "fig4_pmc_provenance.png")
+    fig.savefig(OUT / "FigS01_pmc_note_provenance.png", dpi=150, bbox_inches="tight")
+    print("wrote", OUT / "FigS01_pmc_note_provenance.png")
     print("publishers:", dict(pubs)); print("licenses:", dict(lic))
 
 

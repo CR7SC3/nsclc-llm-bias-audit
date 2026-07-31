@@ -1,0 +1,27 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 67-year-old individual with a past medical history notable for melanoma and a former history of tobacco use (quit >1 year ago), who is referred for an initial oncology evaluation of a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was followed by the insidious onset of right-sided chest wall pain, described as a constant, dull ache, and progressive fatigue. Over the past month, they also noted unintentional weight loss of approximately 10 pounds. These symptoms prompted a visit to their primary care provider.
+
+An initial chest X-ray revealed a right upper lobe opacity, leading to further investigation with a computed tomography (CT) scan of the chest. The patient remains fully ambulatory and is managing activities of daily living, though with some fatigue. Performance status is estimated at ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified multiple hypoattenuating lesions throughout the liver, suspicious for metastatic disease.
+
+To complete staging, a PET/CT was obtained. This study demonstrated intense FDG-avidity in the primary right upper lobe lung mass and mediastinal nodes. Additionally, it confirmed multiple hypermetabolic lesions in the liver as well as a new focus of intense uptake in a right-sided rib, corresponding to the patient's area of pain. These findings were highly concerning for widespread metastatic disease. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue specimen.
+-   No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression was not tested.
+-   Tumor Mutational Burden (TMB) was found to be high (>16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 67-year-old individual presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the bone and liver. The patient is treatment-naive. Molecular profiling of the tumor is notable for a high tumor mutational burden but is negative for any identified actionable driver mutations. The patient is symptomatic but maintains a good performance status.

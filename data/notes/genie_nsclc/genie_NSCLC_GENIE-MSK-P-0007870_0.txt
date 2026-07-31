@@ -1,0 +1,23 @@
+**HPI:**
+This is a 37-year-old individual with an excellent baseline state of health who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was well until approximately two months prior to presentation, when a persistent, non-productive cough developed. This was followed by the onset of progressive right-sided chest wall and back pain, initially attributed to a musculoskeletal strain. Due to the persistence of symptoms, along with new-onset fatigue and an unintentional 10-pound weight loss, the patient sought medical evaluation. An initial chest X-ray was abnormal, prompting further investigation. The patient has a good performance status, estimated at ECOG 1, and is independent in all activities of daily living, though activities are limited by pain. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+Staging workup was initiated following an abnormal chest radiograph. A contrast-enhanced CT of the chest, abdomen, and pelvis revealed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal adenopathy. The scan also demonstrated multiple lesions suspicious for metastases, including several hypoattenuating lesions in the liver and lytic osseous lesions in the thoracic spine and ribs.
+
+A subsequent whole-body PET/CT scan confirmed a hypermetabolic primary right upper lobe mass. Widespread FDG-avid metastatic disease was identified, consistent with the CT findings, involving multiple osseous sites, the liver, and distant nodal stations including contralateral mediastinal and supraclavicular lymph nodes.
+
+To establish a tissue diagnosis, a CT-guided core needle biopsy of the right lung mass was performed on [De-identified Date]. Pathology confirmed invasive adenocarcinoma with features consistent with a lung primary.
+
+A contrast-enhanced MRI of the brain was performed to screen for central nervous system involvement and was negative for intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy. The results revealed a complex molecular profile with multiple co-occurring oncogenic driver alterations detected. These include a sensitizing EGFR exon 19 deletion, a ROS1 rearrangement, and high-level MET amplification.
+
+Further analysis showed the tumor to be negative for alterations in ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 immunohistochemistry was not performed as part of the initial panel. Tumor Mutational Burden (TMB) was found to be intermediate (reported range 2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 37-year-old never-smoker presenting with a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, with metastatic disease to bone, liver, and distant lymph nodes. The patient has a good performance status. Molecular testing is notable for the rare co-occurrence of three distinct, actionable driver mutations: an EGFR exon 19 deletion, a ROS1 rearrangement, and high-level MET amplification. The case is presented for discussion of the complex molecular findings and initial management strategy.

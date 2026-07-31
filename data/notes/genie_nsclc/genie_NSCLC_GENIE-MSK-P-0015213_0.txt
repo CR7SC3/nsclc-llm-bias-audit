@@ -1,0 +1,17 @@
+**HPI:**
+This is a 68-year-old individual with a history of tobacco use (former smoker, quit over one year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when a persistent, non-productive cough developed, accompanied by progressive fatigue. Over the past month, the patient noted the onset of new, persistent mid-back pain, which prompted an evaluation with their primary care provider. The patient reports a 10-pound unintentional weight loss over the last three months. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity by symptoms.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung mass, leading to a staging PET/CT scan performed on [De-identified Date]. This study demonstrated a hypermetabolic 4.2 cm primary mass in the right upper lobe. There was evidence of extensive metastatic disease, including hypermetabolic mediastinal and contralateral supraclavicular lymphadenopathy. Distant metastatic disease was identified with avid uptake in a 2.5 cm left adrenal nodule and multiple osseous lesions, including a lytic lesion in the T8 vertebral body corresponding to the patient's site of pain.
+
+A CT-guided core biopsy of the right upper lobe lung mass was performed by Interventional Radiology on [De-identified Date]. Pathologic review confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+A brain MRI with and without contrast was performed for staging purposes and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, showing a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was calculated and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 68-year-old former smoker presenting with newly diagnosed, treatment-naive, AJCC Stage IV non-small cell lung adenocarcinoma, with metastatic disease to bone, adrenal gland, and distant lymph nodes. Molecular profiling is notable for a PD-L1 TPS of 1-49% and the absence of an identifiable targetable driver mutation.

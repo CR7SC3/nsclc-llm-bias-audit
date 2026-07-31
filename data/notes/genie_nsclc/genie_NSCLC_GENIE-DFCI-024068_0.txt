@@ -1,0 +1,28 @@
+**HPI:**
+This is a 54-year-old with a history of smoking (quit <1 year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. An initial course of antibiotics from their primary care provider did not lead to improvement. Due to worsening dyspnea on exertion and an unintentional 10-pound weight loss, a chest X-ray was obtained which revealed a right-sided lung mass and a pleural effusion.
+
+The patient was subsequently referred for a contrast-enhanced CT scan of the chest, abdomen, and pelvis for further characterization and staging. This imaging confirmed a large primary mass in the right lung, a contralateral pulmonary nodule, a left adrenal nodule, and a moderate right-sided pleural effusion, all suspicious for malignancy. The patient has remained fully ambulatory and capable of self-care but is restricted from strenuous activity due to symptoms. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed.
+
+- **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 4.2 cm spiculated mass in the right upper lobe. A separate 1.5 cm nodule was identified in the left lower lobe. A 2.5 cm enhancing nodule was noted in the left adrenal gland. A moderate right-sided pleural effusion with associated pleural nodularity was also present. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+
+- **MRI Brain with contrast:** Performed for central nervous system staging, this was negative for intracranial metastases.
+
+- **Biopsy:** The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed invasive, poorly differentiated adenocarcinoma.
+
+- **Thoracentesis:** A sample of the right-sided pleural fluid was obtained. Cytology was positive for malignant cells, consistent with adenocarcinoma.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV (cT2a N0 M1c) NSCLC.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for next-generation sequencing and PD-L1 immunohistochemistry. The results are as follows:
+
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Negative, with a Tumor Proportion Score (TPS) of <1%.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 9 mutations/megabase, range 2–16 mut/Mb).
+- **Other Findings:** A loss-of-function mutation was detected in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 54-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma. Staging workup confirmed metastatic disease involving the contralateral lung, left adrenal gland, and pleura. Molecular profiling is notable for a PD-L1 TPS <1% and an STK11 loss-of-function mutation, with no actionable oncogenic drivers identified. The patient is here today to discuss the implications of this diagnosis.

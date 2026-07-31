@@ -1,0 +1,24 @@
+**HPI:**
+This is a 51-year-old individual with a history of former tobacco use who is referred for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to an outside facility approximately six weeks ago with a progressive, non-productive cough and increasing dyspnea on exertion. An initial chest X-ray was performed which revealed a large left-sided pleural effusion and a suspicious opacity in the left lung. The patient was subsequently referred for further diagnostic evaluation.
+
+A CT scan of the chest, abdomen, and pelvis was performed, which confirmed the presence of a large mass in the left upper lobe and a significant, complex pleural effusion. The patient reports worsening fatigue and a 10-pound unintentional weight loss over the past three months. The patient remains fully ambulatory and is managing self-care but is not able to perform strenuous activities, consistent with an ECOG performance status of 1. The patient is a former smoker with a 30-pack-year history who quit approximately 10 months prior to presentation.
+
+**Diagnostic Workup:**
+A review of outside records and imaging confirms the following diagnostic pathway:
+
+*   **CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:** Revealed a 5.2 cm spiculated mass in the left upper lobe. A large, loculated left pleural effusion was noted, with associated nodular pleural thickening concerning for malignant involvement. No suspicious lymphadenopathy was identified in the mediastinum. No evidence of distant metastatic disease was seen in the liver, adrenal glands, or bones.
+*   **MRI Brain with and without contrast, [De-identified Date]:** Performed for staging purposes. The study was negative for any evidence of intracranial metastatic disease.
+*   **Thoracentesis and Pathology, [De-identified Date]:** A CT-guided thoracentesis was performed, draining 1.2 liters of serosanguinous fluid. Cytologic analysis of the pleural fluid cell block confirmed the presence of adenocarcinoma. Immunohistochemical staining was positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**Molecular Studies:**
+Tissue from the pleural fluid cell block was sent for comprehensive next-generation sequencing. The results are as follows:
+
+*   **Histology:** Adenocarcinoma.
+*   **Actionable Driver Mutation:** KRAS G12C mutation detected.
+*   **Co-occurring Mutation:** STK11 loss-of-function mutation detected.
+*   **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/Mb).
+*   **PD-L1 Expression:** Not tested.
+*   **Additional Testing:** Negative for targetable genomic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 51-year-old individual presenting for initial evaluation of a newly diagnosed Stage IV (cT3 N0 M1a) non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm the primary tumor in the left upper lobe with metastatic disease confined to the pleura and no evidence of brain metastases. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation.

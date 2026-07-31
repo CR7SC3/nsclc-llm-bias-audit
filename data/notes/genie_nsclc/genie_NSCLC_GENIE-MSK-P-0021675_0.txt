@@ -1,0 +1,19 @@
+**HPI:**
+This is a 66-year-old with a history of being a never-smoker who is seen today for an initial medical oncology consultation. The patient was in their usual state of good health until approximately six weeks ago when they began experiencing intermittent headaches and a sense of imbalance. These symptoms progressively worsened, prompting a visit to their primary care provider. An outpatient MRI of the brain was ordered, which revealed multiple enhancing intracranial lesions suspicious for metastatic disease.
+
+Subsequent staging evaluation with a CT of the chest, abdomen, and pelvis was performed. This imaging identified a primary spiculated mass in the left upper lobe of the lung, along with mediastinal lymphadenopathy. No other sites of distant metastatic disease were identified in the torso. The patient was referred for a CT-guided core needle biopsy of the lung mass for definitive diagnosis. The patient reports a good energy level and is fully ambulatory and self-caring, with an ECOG performance status of 1. They have noted a mild, non-productive cough but deny significant dyspnea, hemoptysis, or chest pain. There has been no significant weight loss.
+
+**Diagnostic Workup:**
+A CT-guided core biopsy of the left upper lobe lung mass was performed on [De-identified date]. The pathology returned as poorly differentiated adenocarcinoma, consistent with a primary lung malignancy.
+
+Imaging studies have been reviewed. An MRI of the brain confirmed the presence of multiple parenchymal metastatic lesions. A contrast-enhanced CT of the chest, abdomen, and pelvis demonstrated a 3.2 cm primary mass in the left upper lobe and ipsilateral mediastinal lymphadenopathy. No evidence of metastatic disease was noted in the liver, adrenal glands, or bones. The combination of a primary lung adenocarcinoma and brain metastases confirms a diagnosis of Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was positive (TPS percentage not available).
+- Tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation in STK11 was detected.
+
+**Problem Summary:**
+This is a 66-year-old never-smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the brain. Molecular profiling is notable for positive PD-L1 expression and an STK11 loss-of-function mutation, with no identified actionable driver mutations. The patient is treatment-naive and presents for initial consultation to discuss the diagnosis.

@@ -1,0 +1,25 @@
+**HPI:**
+This is a 53-year-old individual with an excellent performance status (ECOG 0) presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a mild but persistent dry cough. The cough did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of this symptom, a chest X-ray was obtained which demonstrated a right upper lobe opacity, prompting further diagnostic evaluation. The patient denies any associated hemoptysis, chest pain, shortness of breath, fevers, or unintentional weight loss. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was initiated.
+
+A CT of the chest, abdomen, and pelvis with contrast identified a 3.8 cm spiculated solid mass in the posterior segment of the right upper lobe. There was no evidence of mediastinal, hilar, or axillary lymphadenopathy. The visualized liver, adrenal glands, and other abdominal organs were unremarkable.
+
+A subsequent PET/CT scan was performed for staging. This demonstrated intense metabolic activity (FDG avidity) corresponding to the known right upper lobe mass. There was no abnormal FDG uptake in the mediastinal or hilar lymph nodes, contralateral lung, or at any distant sites to suggest metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma, moderately differentiated.
+
+A brain MRI with and without contrast was obtained as part of the standard staging workup and was negative for any evidence of intracranial metastasis.
+
+Based on this workup, the patient is staged as cT2aN0M0, AJCC 8th Edition Stage IIA.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. Key findings are as follows:
+- **Actionable Driver Mutation:** An activating ERBB2 (HER2) exon 20 insertion was detected.
+- **Other Markers:** The tumor was negative for pathogenic mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+- **PD-L1 Expression:** Negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 53-year-old never-smoker with a new diagnosis of Stage IIA (cT2aN0M0) non-small cell lung adenocarcinoma of the right upper lobe. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion. The patient is treatment-naive with an excellent performance status and is seen today to discuss the diagnosis and establish care.

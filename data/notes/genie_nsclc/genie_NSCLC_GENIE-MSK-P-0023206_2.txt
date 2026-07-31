@@ -1,0 +1,15 @@
+**HPI:**
+This is an initial medical oncology consultation for an 80-year-old individual with a new diagnosis of non-small cell lung cancer. The patient is a never-smoker with a past medical history notable for prostate cancer, for which they were treated in the past and are now under surveillance. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This prompted a visit to their primary care provider, who ordered initial imaging. The patient reports good functional status, with an ECOG performance status of 0-1, and denies any significant weight loss, hemoptysis, or chest pain.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which prompted further evaluation with a contrast-enhanced CT of the chest. The CT scan confirmed the presence of a 4.5 cm solid mass in the right upper lobe. No significant mediastinal or hilar lymphadenopathy was identified.
+
+For staging purposes, a PET/CT was performed on [De-identified]. This study demonstrated intense FDG-avidity within the known right upper lobe primary mass. Importantly, there was no evidence of FDG-avid disease in regional lymph nodes or at any distant sites to suggest metastatic disease. A subsequent MRI of the brain was also performed and was negative for any evidence of intracranial metastases.
+
+Following the imaging workup, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified]. Pathological analysis of the tissue confirmed the diagnosis of lung adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IIA disease.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive next-generation sequencing and immunohistochemistry. Molecular profiling identified a sensitizing EGFR exon 19 deletion. Further testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression by immunohistochemistry was negative. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is an 80-year-old never-smoker with an excellent performance status who presents for initial evaluation of a new diagnosis of Stage IIA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed localized disease confined to the right upper lobe, with no evidence of regional or distant metastasis. Molecular studies are notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive.

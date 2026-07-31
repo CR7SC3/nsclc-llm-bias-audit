@@ -1,0 +1,13 @@
+**HPI:**
+This is a 59-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago, when they began experiencing a persistent, non-productive cough and progressive, dull headaches. Due to the worsening severity of the headaches and new-onset fatigue, the patient presented to an outside hospital for evaluation. The patient is a lifetime never-smoker. Past medical history is notable for a history of Vagina Cancer, treated with local therapy several years ago with no evidence of recurrence. The patient reports a good performance status prior to the onset of these recent symptoms but now notes significant fatigue.
+
+**Diagnostic Workup:**
+The initial diagnostic evaluation included a CT scan of the chest which revealed a primary mass in the left lower lobe, with associated hilar and mediastinal lymphadenopathy. To evaluate the patient's headaches, a contrast-enhanced MRI of the brain was performed, which demonstrated multiple enhancing lesions in the cerebral hemispheres consistent with metastatic disease.
+
+Subsequent staging with a whole-body PET/CT scan was performed. This confirmed the hypermetabolic primary lung mass and locoregional nodal involvement. The scan also revealed widespread distant metastatic disease, including multiple avid lesions throughout the liver, in several osseous sites, and in the right adrenal gland. A CT-guided core biopsy of the primary lung mass was performed on [De-identified], which established the diagnosis.
+
+**Molecular Studies:**
+Pathology from the lung mass confirmed non-small cell lung cancer with adenocarcinoma histology. The tissue was sent for comprehensive molecular profiling and immunohistochemistry. Results are notable for the presence of a sensitizing EGFR exon 19 deletion. Further testing was negative for actionable alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression by immunohistochemistry was negative. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 59-year-old never-smoker with a new diagnosis of treatment-naive, metastatic non-small cell lung adenocarcinoma, AJCC Stage IV. The disease is metastatic to the brain, liver, bone, and adrenal gland. Molecular analysis is significant for an EGFR exon 19 deletion.

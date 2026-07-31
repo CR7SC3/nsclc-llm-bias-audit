@@ -1,0 +1,20 @@
+**HPI:**
+This is a 53-year-old individual with a history of tobacco use (former smoker, quit over one year ago) who is referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation when they noted a new, firm, non-tender lump in the skin of their right flank. This prompted an evaluation with their primary care provider. The patient also endorses a mild, chronic, non-productive cough for several months, which had been attributed to their smoking history, but denies hemoptysis, chest pain, or significant shortness of breath. There has been no reported fever, chills, or unintentional weight loss. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+The initial workup was prompted by the discovery of the palpable subcutaneous lesion. A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified]. This revealed a 3.8 cm spiculated mass in the left lower lobe of the lung with associated mediastinal lymphadenopathy. The scan also confirmed the presence of a 2.1 cm enhancing nodule in the subcutaneous soft tissues of the right flank, consistent with a metastasis. No other sites of distant metastatic disease were identified in the liver, adrenal glands, or bones.
+
+A core needle biopsy of the accessible subcutaneous flank nodule was performed by interventional radiology on [De-identified]. Pathology from this specimen confirmed metastatic, poorly differentiated squamous cell carcinoma, consistent with a lung primary.
+
+Given the diagnosis of metastatic disease, a staging MRI of the brain with and without contrast was subsequently obtained on [De-identified], which was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the biopsy specimen with the following results:
+- **Histology:** Squamous cell carcinoma
+- **PD-L1 Tumor Proportion Score (TPS):** ≥50%
+- **Actionable driver mutation detected:** KRAS G12C
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+- **Additional testing was negative for pathogenic alterations in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 53-year-old former smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer of squamous histology. The diagnosis was established via biopsy of a subcutaneous metastasis. Staging evaluation is otherwise negative for distant disease, including a negative brain MRI. Molecular profiling of the tumor is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and presents for discussion of their diagnosis and consideration of systemic therapy options.

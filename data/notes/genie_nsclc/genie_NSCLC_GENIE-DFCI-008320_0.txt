@@ -1,0 +1,30 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 55-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker who presented to their primary care provider approximately six weeks ago with a persistent dry cough and new-onset, nagging lower back pain. These symptoms had been progressive over the preceding two months. The patient was initially managed with conservative measures without relief, prompting an initial imaging study. The patient reports mild fatigue but is fully ambulatory and continues to perform all activities of daily living.
+
+**Diagnostic Workup:**
+A chest CT scan was performed which identified a 3.8 cm spiculated mass in the left upper lobe, along with prominent mediastinal and hilar lymphadenopathy. The scan also incidentally noted suspicious sclerotic lesions in the thoracic spine.
+
+For comprehensive staging, a full-body PET/CT was subsequently ordered. This study confirmed high metabolic activity in the primary left upper lobe mass and in multiple mediastinal lymph node stations. Furthermore, it revealed FDG-avid disease in contralateral supraclavicular lymph nodes and multiple osseous sites, including the lumbar spine and pelvis, confirming distant metastatic disease.
+
+A CT-guided core needle biopsy of the left upper lobe lung mass was performed. Pathologic examination established a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+As part of the standard staging workup for advanced disease, a contrast-enhanced MRI of the brain was obtained, which was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy tissue. Key findings are as follows:
+*   **Actionable Driver Mutation:** EGFR exon 19 deletion detected.
+*   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 rearrangements or mutations.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1:** Not tested.
+
+**Problem Summary:**
+1.  Newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology.
+2.  Metastatic disease identified in bone and distant lymph nodes. Brain MRI is negative for metastatic disease.
+3.  Molecular testing is significant for a sensitizing EGFR exon 19 deletion.
+4.  ECOG performance status is 1.
+5.  Former smoker.

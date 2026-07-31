@@ -1,0 +1,30 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF SERVICE:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 59-year-old with a history of former tobacco use (quit >1 year ago) who presents for initial oncologic evaluation after a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. After an initial course of antibiotics from their primary care provider failed to resolve symptoms, a chest X-ray was obtained which revealed a suspicious right upper lobe opacity.
+
+A follow-up CT scan of the chest confirmed the presence of a spiculated mass in the right upper lobe, measuring approximately 4 cm, with associated prominent mediastinal and right hilar lymphadenopathy. Given the concern for malignancy, a comprehensive staging evaluation and tissue diagnosis were recommended.
+
+**DIAGNOSTIC WORKUP:**
+A full staging evaluation was pursued. A PET/CT scan demonstrated high FDG avidity in the known right upper lobe primary mass and in multiple mediastinal nodal stations, including the paratracheal and subcarinal regions. Importantly, the PET/CT showed no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic disease. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for definitive diagnosis and staging. Biopsies were successfully obtained from the primary mass and from an enlarged subcarinal (station 7) lymph node. Pathology from both sites returned invasive adenocarcinoma, confirming a non-small cell lung cancer primary. The nodal biopsy confirmed metastatic involvement, consistent with locally advanced disease.
+
+The patient has tolerated the diagnostic workup well and maintains a good performance status, remaining fully ambulatory and capable of self-care. They report a stable appetite and a 5-pound weight loss over the past three months.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tissue biopsy specimen.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry (IHC) was negative, with a Tumor Proportion Score (TPS) of <1%.
+- Tumor Mutational Burden (TMB) was determined to be low (<2 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 59-year-old former smoker with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Staging evaluation confirms locally advanced disease with mediastinal lymph node involvement, but no evidence of distant metastatic disease. Molecular profiling is notable for the absence of any targetable driver mutations and negative PD-L1 expression. The patient is here today to discuss the diagnosis in detail and review potential management strategies.

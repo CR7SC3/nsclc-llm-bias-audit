@@ -1,0 +1,31 @@
+**Initial Medical Oncology Consultation**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness**
+This is a 59-year-old with a history of current tobacco use who presents for initial oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. An initial chest radiograph was concerning for a right-sided lung mass, prompting further investigation.
+
+The patient reports feeling generally fatigued but has maintained their weight and appetite. Performance status is ECOG 1. The patient denies fevers, chills, night sweats, or significant hemoptysis. A comprehensive review of systems is otherwise negative.
+
+**Diagnostic Workup**
+A diagnostic timeline was established through review of outside records:
+
+*   **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 4.5 cm spiculated mass in the right upper lobe. Multiple enlarged right-sided mediastinal and subcarinal lymph nodes were noted, with the largest measuring 2.8 cm in short axis. No suspicious liver, adrenal, or other distant visceral lesions were identified.
+*   **PET/CT:** Confirmed intense FDG-avidity in the right upper lobe primary mass (SUVmax 14.2) and in the right paratracheal and subcarinal lymph nodes (SUVmax 9.8), consistent with hypermetabolic malignant disease. No evidence of FDG-avid metastatic disease was seen elsewhere in the body.
+*   **MRI Brain with and without contrast:** Performed for staging purposes and was negative for any evidence of intracranial metastatic disease.
+*   **Endobronchial Ultrasound (EBUS) with FNA:** Biopsy was performed on a subcarinal (station 7) lymph node. Pathology from this procedure confirmed the diagnosis.
+
+**Pathology:**
+*   **Subcarinal Lymph Node, FNA:** Malignant cells present, consistent with metastatic adenocarcinoma, primary in the lung.
+
+**Molecular Studies**
+Next-generation sequencing performed on the tissue biopsy specimen revealed the following:
+*   **PD-L1 Tumor Proportion Score (TPS):** 35% (positive, 1-49% range)
+*   **Tumor Mutational Burden (TMB):** 11 mutations/megabase (intermediate)
+*   **Driver Mutations:** No actionable driver alteration identified. Testing was negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+*   **Other Findings:** A loss-of-function mutation was identified in *KEAP1*.
+
+**Problem Summary**
+In summary, this is a 59-year-old current smoker with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for PD-L1 expression in the 1-49% range and a *KEAP1* loss-of-function mutation, with no other actionable driver alterations identified. The patient is here today to discuss the diagnosis and establish care.

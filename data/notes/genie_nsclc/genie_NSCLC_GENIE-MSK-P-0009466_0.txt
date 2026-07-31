@@ -1,0 +1,20 @@
+**HPI:**
+This is an initial oncology consultation for a 69-year-old individual with a new diagnosis of metastatic non-small cell lung cancer. The patient is referred by Dr. [De-identified] for evaluation and management.
+
+The patient has a history as a former smoker, having quit over one year ago. They were in their usual state of health until approximately two months prior to this consultation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted the onset of dull, aching pain in the right posterior ribs. These symptoms prompted a visit to an urgent care center, which led to further diagnostic evaluation. The patient remains fully ambulatory and independent with activities of daily living, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray was reportedly abnormal, prompting a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This study revealed a primary mass in the right upper lobe of the lung, associated with a moderate right-sided pleural effusion and pleural nodularity. The scan also identified suspicious osseous lesions and enlarged, metabolically active distant lymph nodes.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed intense FDG-avidity in the right upper lobe primary tumor, as well as in multiple sites consistent with metastatic disease, including the pleura, multiple bone sites, and contralateral mediastinal and supraclavicular lymph nodes. A dedicated MRI of the brain with contrast was performed as part of the standard metastatic workup and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. The pathology from this procedure confirmed a diagnosis of adenocarcinoma, consistent with a non-small cell lung cancer primary. The combination of these findings establishes a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+The lung biopsy tissue was sent for comprehensive molecular profiling and immunohistochemistry.
+- **PD-L1:** Immunohistochemistry was positive, with a Tumor Proportion Score (TPS) of 1-49%.
+- **Driver Mutations:** Next-generation sequencing did not identify any actionable driver alterations. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** TMB was classified as intermediate, with a value of 2-16 mutations per megabase.
+
+**Problem Summary:**
+In summary, this is a 69-year-old former smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease involving the bones, pleura, and distant lymph nodes, with no evidence of brain metastases. Molecular profiling is notable for a PD-L1 TPS of 1-49% and the absence of any identified actionable driver mutations. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish oncologic care.

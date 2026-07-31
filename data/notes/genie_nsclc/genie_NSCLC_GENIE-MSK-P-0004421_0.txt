@@ -1,0 +1,15 @@
+**HPI:**
+This is a 73-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough and new-onset, progressive right-sided hip pain. The patient initially sought evaluation with their primary care provider, who ordered a chest radiograph that revealed a right upper lobe lung opacity.
+
+Subsequent staging evaluation with a CT of the chest, abdomen, and pelvis confirmed the presence of a 4 cm spiculated mass in the right upper lobe, along with suspicious mediastinal adenopathy. Critically, the scan also demonstrated a lytic lesion in the right iliac bone, concerning for metastatic disease. The patient has a remote but significant history of tobacco use, having quit within the past year. They remain fully ambulatory and independent in all activities of daily living, though the hip pain is a limiting factor for long-distance walking. Performance status is ECOG 1. The patient is now seen in oncology clinic for initial consultation.
+
+**Diagnostic Workup:**
+- **Imaging:** CT chest/abdomen/pelvis on [De-identified date] demonstrated a 4 cm right upper lobe lung mass with associated mediastinal lymphadenopathy and a lytic lesion in the right iliac bone. A subsequent MRI of the brain was performed for staging purposes and showed no evidence of intracranial metastases.
+
+- **Pathology:** A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date]. Histopathologic review confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor biopsy specimen did not identify any actionable driver alterations. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as this was performed using a pre-2017 panel where testing was not standard.
+
+**Problem Summary:**
+This is a 73-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to bone. The patient's tumor is notable for an absence of targetable driver mutations and an intermediate tumor mutational burden. The patient presents with a good performance status for initial evaluation and discussion of the diagnosis.

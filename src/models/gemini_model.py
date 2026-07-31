@@ -75,10 +75,14 @@ class GeminiModel:
 
         # vertexai=True routes through Vertex AI using ADC credentials,
         # billing your Cloud project instead of AI Studio prepay credits.
+        # http_options.timeout (ms) bounds each request so an occasionally-stuck
+        # Vertex call fails fast and hits generate_with_retry instead of hanging
+        # the whole run indefinitely.
         self._client = genai.Client(
             vertexai=True,
             project=project,
             location=location,
+            http_options=types.HttpOptions(timeout=120_000),
         )
 
         self.model_name = model_name
@@ -90,10 +94,13 @@ class GeminiModel:
         # Disable extended thinking — oncology prompts trigger Gemini 2.5 Flash's
         # full reasoning mode (~23s/call). thinking_budget=0 forces direct
         # generation (~2-3s/call) which is appropriate for structured prompts.
+        # NOTE: was 600 — that truncated 100% of responses mid-rationale, biasing
+        # soft-bias metrics low and making Gemini non-comparable to the other
+        # models (2048). Raised to 2048 to match openai/deepseek/anthropic wrappers.
         self._gen_config = types.GenerateContentConfig(
             temperature=temperature,
             thinking_config=types.ThinkingConfig(thinking_budget=0),
-            max_output_tokens=600,
+            max_output_tokens=2048,
         )
 
         logger.info(

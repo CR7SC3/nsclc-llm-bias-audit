@@ -1,0 +1,33 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 63-year-old with a history of former tobacco use (quit >1 year ago) who presents for initial oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. These symptoms were initially attributed to a possible respiratory infection but did not resolve with a course of antibiotics. Due to worsening shortness of breath and the new onset of mild chest discomfort, the patient presented to an outside facility for evaluation.
+
+Initial workup included a chest radiograph which revealed a right-sided lung opacity, prompting further investigation with cross-sectional imaging. The patient reports a non-quantified but noticeable weight loss over the past several months and increasing fatigue, but otherwise denies fevers, chills, night sweats, or hemoptysis. They remain fully ambulatory and capable of all self-care, with an ECOG performance status of 1. The patient is here today to discuss the findings and establish care.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the available outside records, imaging, and pathology reports, which are summarized below.
+
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast:** Performed on [De-identified]. This study demonstrated a large, spiculated mass in the right upper lobe. There was extensive mediastinal and hilar lymphadenopathy, including bulky contralateral mediastinal (N3) lymph nodes, consistent with locally advanced disease. The visualized portions of the abdomen and pelvis were negative for evidence of metastatic disease, with no suspicious lesions noted in the liver, adrenal glands, or bones.
+
+- **PET/CT:** Performed on [De-identified] for staging. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the extensive bilateral mediastinal and supraclavicular lymph node stations. No other sites of FDG-avid disease suspicious for distant metastasis were identified.
+
+- **MRI Brain with and without contrast:** Performed on [De-identified]. This study was negative for intracranial metastases.
+
+**Pathology:**
+- **Endobronchial Ultrasound (EBUS) with Biopsy:** An EBUS-guided transbronchial needle aspiration of a subcarinal lymph node was performed on [De-identified]. Pathology confirmed the presence of adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Immunohistochemistry for PD-L1 expression demonstrated a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 63-year-old with an excellent performance status and a new diagnosis of treatment-naive, Stage IIIB (AJCC 8th edition) non-small cell lung cancer, adenocarcinoma histology. The disease is locally advanced and unresectable based on extensive contralateral mediastinal nodal involvement. Staging workup is negative for distant metastatic disease. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of any identified actionable oncogenic driver mutations.

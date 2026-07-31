@@ -1,0 +1,25 @@
+**HPI:**
+This is a 72-year-old individual with a history of hypertension, presenting for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed persistent headaches and a dull, aching pain in the right hip. The headaches were intermittent but progressive, not fully relieved by over-the-counter analgesics. The hip pain was worse with weight-bearing.
+
+These symptoms prompted an outpatient workup. An MRI of the brain was performed which revealed multiple enhancing intracranial lesions concerning for metastatic disease. A subsequent CT scan of the chest, abdomen, and pelvis was obtained to identify a primary malignancy. This study demonstrated a spiculated mass in the left upper lobe of the lung, along with mediastinal lymphadenopathy and a lytic lesion in the right iliac bone. The patient was referred for pulmonology consultation and underwent a CT-guided core needle biopsy of the lung mass, which established the diagnosis.
+
+The patient is a former smoker, having quit approximately 10 years ago. Review of systems is notable for fatigue and an unintentional 10-pound weight loss over the past three months. The patient denies significant cough, shortness of breath, or hemoptysis. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+The diagnosis and staging have been established by the following studies, which were reviewed:
+
+*   **MRI Brain with and without contrast [De-identified Date]:** Revealed at least three enhancing parenchymal lesions in the bilateral cerebral hemispheres, the largest measuring 1.5 cm in the left parietal lobe, consistent with metastatic deposits. There is mild surrounding vasogenic edema.
+*   **CT Chest, Abdomen, and Pelvis with contrast [De-identified Date]:** Identified a 4.2 cm spiculated mass in the left upper lobe. There is associated bulky mediastinal and left hilar adenopathy. A 2.5 cm lytic lesion is present in the right iliac bone. No other distant visceral metastases were identified in the abdomen or pelvis.
+*   **Pathology [De-identified Date]:** CT-guided core biopsy of the left lung mass confirmed poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Based on the presence of a primary lung tumor with metastases to the brain and bone, the patient's disease is classified as AJCC 8th Edition Stage IV.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor biopsy specimen with the following results:
+
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor is negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is ≥50%.
+*   **Tumor Mutational Burden (TMB):** High, at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 72-year-old individual with newly diagnosed Stage IV non-small cell lung cancer of adenocarcinoma histology, metastatic to the brain and bone. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and a high Tumor Mutational Burden, with no identified actionable driver mutations. The patient presents today for initial consultation to discuss these findings.

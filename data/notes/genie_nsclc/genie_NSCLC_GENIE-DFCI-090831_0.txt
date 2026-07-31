@@ -1,0 +1,21 @@
+**HPI:**
+This is a 51-year-old individual with a significant smoking history who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. These symptoms prompted a visit to their primary care provider. The patient denies hemoptysis, fevers, or significant weight loss. They remain fully ambulatory and independent in all activities of daily living, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest radiograph revealed a right upper lobe opacity, which led to a contrast-enhanced CT of the chest, abdomen, and pelvis on [De-identified Date]. This study characterized a 5.2 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky right-sided mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.8 cm in short axis. No distant visceral or osseous metastases were identified in the chest, abdomen, or pelvis.
+
+To complete staging, a whole-body PET/CT was performed on [De-identified Date]. This confirmed high FDG-avidity in the primary right upper lobe mass and in the extensive mediastinal and subcarinal nodal stations, consistent with the CT findings. There was no evidence of FDG-avid disease below the diaphragm or in the contralateral hemithorax.
+
+A brain MRI with and without contrast was subsequently performed on [De-identified Date] to evaluate for central nervous system disease and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial needle aspiration of a subcarinal lymph node. Pathologic analysis of the tissue confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (nos).
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue. Results are as follows:
+-   **Actionable Driver Mutation:** KRAS G12C mutation detected.
+-   **Other Markers:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+-   **PD-L1 Expression:** Immunohistochemistry demonstrated a Tumor Proportion Score (TPS) of ≥50%.
+-   **Tumor Mutational Burden (TMB):** TMB was found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+This is a 51-year-old current smoker with newly diagnosed, treatment-naive, locally advanced non-small cell lung cancer. The final diagnosis is non-small cell lung cancer (nos), AJCC Stage IIIA. The disease is non-metastatic. Molecular profiling is notable for a KRAS G12C mutation, high PD-L1 expression (TPS ≥50%), and a high Tumor Mutational Burden. The patient is here today to discuss the diagnosis and potential management options.

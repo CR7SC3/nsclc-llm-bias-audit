@@ -1,0 +1,29 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT ID:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+**ATTENDING PHYSICIAN:** [De-identified], MD
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 75-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology evaluation and discussion of management.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. The shortness of breath initially occurred with significant activity but has progressed to occurring with minimal exertion, such as walking around the house. This prompted evaluation by their primary care provider.
+
+An initial chest X-ray was concerning for a left-sided lung mass and an associated pleural effusion. The patient was subsequently referred for a contrast-enhanced CT scan of the chest, abdomen, and pelvis for further characterization and staging. Given the symptomatic pleural effusion, the patient underwent a diagnostic and therapeutic thoracentesis, which yielded fluid for cytologic analysis and provided some relief of dyspnea. The patient is a former smoker with a significant pack-year history, having quit within the past year. They report a 10-pound unintentional weight loss over the past three months and persistent fatigue but denies fevers, chills, or hemoptysis. At present, the patient is fully ambulatory and capable of all self-care but is restricted in strenuous activity, consistent with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+- **CT Chest/Abdomen/Pelvis, [De-identified]:** Revealed a 4.5 cm spiculated mass in the left upper lobe. A large, loculated left pleural effusion was also identified, with associated pleural thickening suspicious for malignant involvement. No evidence of metastatic disease in the contralateral lung, liver, adrenal glands, or bones.
+- **Thoracentesis, [De-identified]:** Pleural fluid cytology was positive for malignant cells, confirming adenocarcinoma, consistent with a lung primary.
+- **MRI Brain, [De-identified]:** Performed for central nervous system staging, this was negative for intracranial metastases.
+
+The findings of a primary lung tumor with a malignant pleural effusion are consistent with AJCC Stage IV disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing and immunohistochemistry were performed on the pleural fluid cell block.
+- **Actionable Driver:** ALK rearrangement detected.
+- **Negative for:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- **PD-L1:** Positive (TPS percentage not available).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 75-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer (adenocarcinoma histology), characterized by an ALK rearrangement and metastatic disease to the pleura.

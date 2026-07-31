@@ -1,0 +1,16 @@
+**HPI:**
+This is a 67-year-old individual referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient reports a several-month history of a progressively worsening, non-productive cough and increasing dyspnea on exertion. This was associated with mild fatigue and an unintentional weight loss of approximately 10 pounds over the past two months. The patient is a current smoker. Due to the persistence of symptoms, the patient sought evaluation with their primary care provider, which initiated a diagnostic workup. The patient is here today to discuss the findings and establish oncologic care. Performance status is estimated at ECOG 1; the patient is symptomatic but remains fully ambulatory and capable of light daily activities.
+
+**Diagnostic Workup:**
+Initial workup included a chest CT scan which revealed a 4.8 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The scan was extended to the abdomen and pelvis, which demonstrated a solitary 2.5 cm hypodense lesion in segment VI of the liver, concerning for a distant metastasis. A contrast-enhanced MRI of the brain was subsequently performed and showed no evidence of intracranial metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The pathology from this procedure confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary. Based on the presence of a primary lung tumor with a distant liver lesion, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+The tumor specimen from the lung biopsy underwent next-generation sequencing and immunohistochemical analysis.
+-   Molecular profiling did not identify an actionable driver alteration. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   Immunohistochemistry for PD-L1 was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+-   Tumor Mutational Burden (TMB) was low at <2 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 67-year-old with newly diagnosed Stage IV non-small cell lung adenocarcinoma, with metastatic disease to the liver confirmed on imaging. The patient is treatment-naive. Molecular testing of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of any identified targetable driver mutations.

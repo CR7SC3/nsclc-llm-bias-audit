@@ -1,0 +1,25 @@
+**HPI:**
+This is an initial oncology consultation for a 58-year-old with a new diagnosis of non-small cell lung cancer. The patient is a never-smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and a sense of chest fullness. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider, prompting further investigation.
+
+A chest X-ray was obtained which was concerning for a right-sided pulmonary infiltrate or mass. This was followed by a contrast-enhanced CT of the chest, which confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. The CT also revealed prominent right-sided mediastinal and hilar lymphadenopathy, concerning for regional involvement. The patient has noted mild fatigue but denies fevers, chills, hemoptysis, or significant weight loss. Performance status is excellent, ECOG 1. Past medical history is notable for melanoma and esophageal cancer, both considered in remission.
+
+**Diagnostic Workup:**
+The patient proceeded with a comprehensive staging evaluation.
+
+A PET/CT scan performed on [De-identified] demonstrated intense FDG-avidity in the known right upper lobe primary mass. Avid uptake was also noted in multiple ipsilateral mediastinal lymph node stations, including the right paratracheal region (station 4R). Critically, there was no evidence of FDG-avid disease elsewhere in the body, including the contralateral lung, liver, adrenal glands, or skeleton, consistent with locoregionally confined disease.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for any evidence of intracranial metastases.
+
+A bronchoscopy with endobronchial ultrasound (EBUS) was performed for tissue diagnosis. Fine-needle aspiration (FNA) of a right paratracheal (4R) lymph node was successfully performed. Pathology from this specimen returned adenocarcinoma, consistent with a lung primary.
+
+Based on this workup, the patient's disease is staged as clinical Stage IIIA (AJCC 8th Edition).
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the EBUS-FNA.
+- An activating (sensitizing) EGFR exon 19 deletion was detected.
+- The tumor was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 58-year-old never-smoker with an excellent performance status who presents for initial evaluation of a newly diagnosed, treatment-naive, Stage IIIA non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup has confirmed disease confined to the right hemithorax and ipsilateral mediastinum. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient's past medical history is significant for prior malignancies including melanoma and esophageal cancer.

@@ -1,0 +1,13 @@
+**HPI:**
+This is a 47-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient has a significant history of tobacco use and is a current smoker. The patient initially presented to an outside urgent care clinic several weeks ago with a persistent, non-productive cough and increasing dyspnea on exertion. This was associated with mild right-sided pleuritic chest pain and an unintentional 10-pound weight loss over the preceding two months. An initial chest X-ray revealed a right-sided pleural effusion and a suspected lung mass, prompting referral to the emergency department for further evaluation. The patient is otherwise active and reports an ECOG performance status of 1, limited only by dyspnea with significant exertion.
+
+**Diagnostic Workup:**
+Upon presentation to the hospital, a CT of the chest, abdomen, and pelvis with contrast was performed. This confirmed a 4.5 cm spiculated mass in the right upper lobe of the lung. There was an associated large, right-sided pleural effusion. No suspicious mediastinal or hilar adenopathy was definitively identified. The scan of the abdomen and pelvis did not reveal evidence of distant metastatic disease to the liver, adrenal glands, or bones. A subsequent MRI of the brain with and without contrast was performed for staging purposes and was negative for intracranial metastases.
+
+To establish a diagnosis and relieve symptoms, the patient underwent a right-sided thoracentesis under ultrasound guidance. Approximately 1.5 liters of serosanguinous fluid were removed, with significant improvement in dyspnea. Cytological analysis of the pleural fluid was positive for malignant cells, consistent with adenocarcinoma, confirming a diagnosis of non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the pleural fluid cell block was sent for comprehensive next-generation sequencing. Molecular profiling did not identify an actionable driver alteration. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not performed, as this was not standard practice at the time of the initial diagnostic workup. Tumor mutational burden (TMB) was determined to be low at <2 mutations/megabase.
+
+**Problem Summary:**
+This is a 47-year-old with a new diagnosis of Stage IV (cT2b N0 M1a) non-small cell lung cancer, adenocarcinoma histology, metastatic to the pleura. The patient is a current smoker with an ECOG performance status of 1. Molecular studies are notable for the absence of any identified actionable driver alterations and a low tumor mutational burden. The patient is here today to discuss the diagnosis and establish care.

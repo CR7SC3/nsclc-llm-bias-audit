@@ -1,0 +1,15 @@
+**HPI:**
+This is a 72-year-old individual with a history of smoking, who quit over one year ago, referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider. The patient denies any associated hemoptysis, fevers, chills, or significant weight loss. They remain fully active and independent with an excellent performance status, carrying out all activities of daily living without difficulty.
+
+**Diagnostic Workup:**
+An initial chest X-ray ordered by the primary care provider was notable for a right upper lobe pulmonary nodule. This was followed by a diagnostic CT scan of the chest on [De-identified date], which confirmed a 2.8 cm spiculated solid mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+For staging, a PET/CT scan was performed on [De-identified date]. This demonstrated intense FDG-avidity localized to the right upper lobe mass, consistent with malignancy. Importantly, there was no evidence of FDG-avid disease in the regional lymph nodes or at any distant sites. A contrast-enhanced MRI of the brain was also obtained as part of the comprehensive staging workup, which was negative for any intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was successfully performed. Pathological analysis of the tissue confirmed a diagnosis of squamous cell carcinoma, a subtype of non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was determined to be intermediate (12 mutations/megabase). PD-L1 expression was not tested, as this was not standard practice at the time of the initial diagnostic sequencing.
+
+**Problem Summary:**
+In summary, this is a 72-year-old former smoker who presents with a new diagnosis of Stage IB non-small cell lung cancer, squamous cell histology. The diagnostic workup confirms disease localized to the right lung, with no evidence of nodal or distant metastatic spread. Molecular profiling of the tumor did not identify any actionable driver mutations. The patient is treatment-naive and is seen today for initial consultation to review these findings.

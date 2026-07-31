@@ -1,0 +1,31 @@
+**REASON FOR CONSULTATION:** Initial evaluation of newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 60-year-old individual with a history of former tobacco use (quit >1 year ago) who is referred for oncologic consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient initially presented to an outside facility approximately one month prior with a persistent, non-productive cough. An initial chest radiograph was abnormal, prompting a follow-up CT scan of the chest. This imaging identified a suspicious mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy.
+
+A subsequent staging workup was initiated. A PET/CT scan confirmed the hypermetabolic right upper lobe mass and mediastinal nodal involvement but did not reveal distant extracranial disease. For comprehensive staging, a brain MRI was performed, which revealed the presence of multiple small intracranial lesions consistent with metastatic disease. A CT-guided core needle biopsy of the right lung mass was then performed, establishing the diagnosis.
+
+At present, the patient reports a mild, stable cough but denies hemoptysis, chest pain, or significant dyspnea. The patient is neurologically asymptomatic, denying headaches, dizziness, seizures, or focal motor or sensory changes. The patient maintains an excellent performance status, is fully ambulatory, and is managing all self-care.
+
+**DIAGNOSTIC WORKUP:**
+*   **CT Chest/Abdomen/Pelvis, [Date De-identified]:** Revealed a 3.8 cm spiculated mass in the right upper lobe with associated right hilar and mediastinal lymphadenopathy. No evidence of metastatic disease in the abdomen or pelvis.
+*   **PET/CT, [Date De-identified]:** Confirmed intense FDG-avidity in the primary right upper lobe mass and in multiple mediastinal lymph node stations. No other sites of FDG-avid metastatic disease were identified.
+*   **MRI Brain with and without Contrast, [Date De-identified]:** Demonstrated multiple small, enhancing parenchymal lesions in the bilateral cerebral hemispheres, characteristic of metastatic deposits.
+*   **CT-guided Core Biopsy (Right Lung Mass), [Date De-identified]:** Histopathology confirmed poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue with the following results:
+*   **Actionable Driver Mutation:** KRAS G12C mutation detected.
+*   **Other Markers:** Negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1–49%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 60-year-old with a new diagnosis of Stage IV non-small cell lung cancer.
+1.  **Diagnosis:** Metastatic Non-Small Cell Lung Cancer, Adenocarcinoma histology.
+2.  **Stage:** AJCC 8th Edition, Stage IV.
+3.  **Metastatic Disease:** Confirmed metastatic disease to the brain.
+4.  **Molecular Profile:** KRAS G12C positive, PD-L1 positive (TPS 1-49%).
+5.  **Clinical Status:** Patient is treatment-naive with a good performance status (ECOG 1).

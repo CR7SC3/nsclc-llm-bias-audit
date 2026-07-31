@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial consultation for a 69-year-old who presents for discussion regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms prompted a visit to their primary care physician, who ordered initial imaging. The patient is a former smoker, having quit over a year ago. They report good energy levels and a stable appetite, and maintain an excellent performance status, continuing with daily activities without significant limitation.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung mass, which led to a follow-up staging CT scan of the chest, abdomen, and pelvis with IV contrast. This study characterized a 4.2 cm spiculated mass in the right upper lobe. The scan also identified a 1.8 cm nodule in the left lower lobe, concerning for contralateral metastatic disease, as well as several enlarged mediastinal lymph nodes.
+
+A subsequent PET/CT scan was performed for further characterization and staging. This demonstrated high FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the contralateral lung nodule in the left lower lobe. No other distant sites of FDG-avid disease were identified in the neck, abdomen, or pelvis.
+
+A dedicated MRI of the brain with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass at [De-identified] Hospital on [De-identified date]. Pathological review confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. An actionable driver mutation was detected in KRAS G12C. The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor mutational burden (TMB) was intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 69-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung. Molecular profiling is notable for a KRAS G12C mutation. The patient is treatment-naive and has an excellent performance status.

@@ -1,0 +1,65 @@
+id,claim_text,type,value,section,likely_source,assigned_agent
+C1,NCCN concordance delta DeepSeek-chat: -0.1 percentage points,numeric_stat,-0.1pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C2,NCCN concordance delta Llama-3.3-70B: -0.4 percentage points,numeric_stat,-0.4pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C3,NCCN concordance delta Llama-3.1-8B: -0.5 percentage points,numeric_stat,-0.5pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C4,NCCN concordance delta GPT-4o: -1.0 percentage points,numeric_stat,-1.0pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C5,NCCN concordance delta GPT-4o-mini: +0.9 percentage points,numeric_stat,+0.9pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C6,NCCN concordance delta Gemini-2.5-flash: +1.1 percentage points,numeric_stat,+1.1pp,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C7,Absolute reference concordance DeepSeek-chat 90.7%,numeric_stat,90.7%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C8,Absolute reference concordance GPT-4o 89.7%,numeric_stat,89.7%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C9,Absolute reference concordance Gemini-2.5-flash 81.7%,numeric_stat,81.7%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C10,Absolute reference concordance Llama-3.3-70B 75.9%,numeric_stat,75.9%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C11,Absolute reference concordance GPT-4o-mini 55.6%,numeric_stat,55.6%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C12,Absolute reference concordance Llama-3.1-8B 49.5%,numeric_stat,49.5%,Results - Guideline Concordance,results/nccn_concordance_by_model.csv,stats
+C13,Flip-rate range across models: 11.7% (GPT-4o) to 22.1% (GPT-4o-mini),numeric_stat,11.7%-22.1%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C14,Mean flip rate GPT-4o 11.7%,numeric_stat,11.7%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C15,Mean flip rate DeepSeek-chat 13.3%,numeric_stat,13.3%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C16,Mean flip rate Llama-3.3-70B 14.5%,numeric_stat,14.5%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C17,Mean flip rate Llama-3.1-8B 17.5%,numeric_stat,17.5%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C18,Mean flip rate Gemini-2.5-flash 19.7%,numeric_stat,19.7%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C19,Mean flip rate GPT-4o-mini 22.1%,numeric_stat,22.1%,Results - Flip Rate,results/flip_rate_by_model.csv,stats
+C20,"TOST equivalence 29/29 variants for Llama-3.3-70B, Llama-3.1-8B, and GPT-4o",numeric_stat,29/29,Results - TOST Equivalence,results/tost_equivalence_by_model.csv,stats
+C21,TOST equivalence 27/29 variants for DeepSeek-chat,numeric_stat,27/29,Results - TOST Equivalence,results/tost_equivalence_by_model.csv,stats
+C22,TOST equivalence 26/29 variants for GPT-4o-mini,numeric_stat,26/29,Results - TOST Equivalence,results/tost_equivalence_by_model.csv,stats
+C23,TOST equivalence 14/29 variants for Gemini-2.5-flash,numeric_stat,14/29,Results - TOST Equivalence,results/tost_equivalence_by_model.csv,stats
+C24,"Single BH-FDR survivor of 174 grid-wide directional decision tests: DeepSeek-chat underinsured_only, 94 downgrades vs. 48 upgrades, sign-test p=0.0001, grid-wide BH-FDR q=0.0245",numeric_stat,"94 down/48 up, p=0.0001, q=0.0245",Results - Guideline Concordance,results/bhfdr_directional_tests.csv,stats
+C25,Table 2 Cohen's d white_male_private (Tier A reference) mean d=-0.016,numeric_stat,-0.016,Table 2,results/table2_29variant_summary.csv,stats
+C26,"Table 2 Cohen's d for race-only variants averaging near zero (e.g., black_race_only d=0.005, asian_race_only d=0.019, hispanic_race_only d=0.005)",numeric_stat,~0.0-0.1,Table 2,results/table2_29variant_summary.csv,stats
+C27,Table 2 Cohen's d underinsured_only mean d=1.010 (range 0.46-1.55),numeric_stat,1.010,Table 2,results/table2_29variant_summary.csv,stats
+C28,Table 2 Cohen's d uninsured_only mean d=0.818 (range 0.43-1.41),numeric_stat,0.818,Table 2,results/table2_29variant_summary.csv,stats
+C29,Table 2 Cohen's d unhoused_patient mean d=0.758 (range 0.09-1.43),numeric_stat,0.758,Table 2,results/table2_29variant_summary.csv,stats
+C30,Table 2 Cohen's d low_income_patient mean d=0.772 (range 0.13-1.49),numeric_stat,0.772,Table 2,results/table2_29variant_summary.csv,stats
+C31,Table 2 Cohen's d latina_female_uninsured mean d=0.774 (range 0.32-1.62),numeric_stat,0.774,Table 2,results/table2_29variant_summary.csv,stats
+C32,Table 2 Cohen's d high_income_patient (control) mean d=0.020 (range -0.05 to 0.13),numeric_stat,0.020,Table 2,results/table2_29variant_summary.csv,stats
+C33,Cochran-Armitage trend test z range 15.4-46.6 (p<0.001) across five of six models,numeric_stat,z=15.4-46.6,Results - Dose-Response Gradient,results/cochran_armitage_trend_by_model.csv,stats
+C34,"GPT-4o-mini exception to Cochran-Armitage monotone trend: z=1.3, p=0.20",numeric_stat,"z=1.3, p=0.20",Results - Dose-Response Gradient,results/cochran_armitage_trend_by_model.csv,stats
+C35,Spearman off-diagonal median rho across six-model pairwise comparison = 0.72,numeric_stat,0.72,Discussion - Comparison With Prior Work,results/spearman_intermodel_agreement.csv,stats
+C36,"Cohort total N=1,048 real de-identified NSCLC cases",cohort_count,1048,Methods - Data Source and Cohort,data/genie_bpc_cohort.csv,stats
+C37,"Cohort by institution: MSK n=556, DFCI n=343, VICC n=149",cohort_count,556/343/149,Methods - Data Source and Cohort,data/genie_bpc_cohort.csv,stats
+C38,"Stage distribution: Stage IV n=594, Stage III n=251, Stage I-II n=203",cohort_count,594/251/203,Table 1 - Cohort Description,data/genie_bpc_cohort.csv,stats
+C39,"Histology distribution: adenocarcinoma n=884, squamous n=123, NOS n=41",cohort_count,884/123/41,Table 1 - Cohort Description,data/genie_bpc_cohort.csv,stats
+C40,"Biomarker counts: EGFR n=224, KRAS G12C n=116, ALK n=42, MET exon14 n=22, ROS1 n=19, RET n=14, BRAF n=11, NTRK n=2",cohort_count,224/116/42/22/19/14/11/2,Table 1 - Cohort Description,data/genie_bpc_biomarkers.csv,stats
+C41,PD-L1 TPS available for 377/1048 (36.0%) of cases,cohort_count,377/1048,Table 1 - Cohort Description,data/genie_bpc_biomarkers.csv,stats
+C42,Figure 2: Guideline concordance TOST equivalence results between reference and demographic variants across six models,figure_ref,Figure 2,Results - Guideline Concordance,figures/fig2_tost_concordance.png,figures
+C43,"Figure 4 (4A, 4B): Flip rate stability vs. soft-framing intensity fanning out by socioeconomic tier",figure_ref,Figure 4,Results - Framing Narrative,figures/fig4_flip_vs_framing.png,figures
+C44,"Figure 5: Forest plot of Cohen's d across 29 variants and six models, race-only vs SES",figure_ref,Figure 5,Results - Framing Bias Driven by SES,figures/fig5_forest_plot.png,figures
+C45,Figure 5b: Volcano plot of effect size vs BH-FDR-corrected significance across 174 model x variant contrasts,figure_ref,Figure 5b,Results - Framing Bias Driven by SES,figures/fig5b_volcano_plot.png,figures
+C46,Figure 6: Decomposition of soft bias into stigmatizing vs appropriate composite net%,figure_ref,Figure 6,Results - Decomposing Soft Bias,figures/fig6_stigma_appropriate_decomposition.png,figures
+C47,Figure 7: Stigmatizing-language dose-response gradient with socioeconomic disadvantage strata,figure_ref,Figure 7,Results - Stigmatizing Language Gradient,figures/fig7_stigma_gradient.png,figures
+C48,Figure 7b: Cochran-Armitage trend test visualization across five ordered SES strata,figure_ref,Figure 7b,Results - Stigmatizing Language Gradient,figures/fig7b_cochran_armitage.png,figures
+C49,Figure 8: Defensible vs non-defensible stigma composite decomposition,figure_ref,Figure 8,Results - Stigma Decomposition,figures/fig8_defensible_nondefensible.png,figures
+C50,"Figure 9: Robustness controls overview (circularity, real-note replication, salience artifact)",figure_ref,Figure 9,Results - Gradient Robustness,figures/fig9_robustness_controls.png,figures
+C51,Figure 9a: Circularity control comparing LLM-generated vs template notes,figure_ref,Figure 9a,Results - Gradient Robustness,figures/fig9a_circularity_control.png,figures
+C52,Figure 9b: Real-note replication using 40 PubMed Central case reports,figure_ref,Figure 9b,Results - Gradient Robustness,figures/fig9b_pmc_replication.png,figures
+C53,Figure 9c: Salience-artifact control comparing bracketed tag vs natural prose injection,figure_ref,Figure 9c,Results - Gradient Robustness,figures/fig9c_salience_control.png,figures
+C54,Supplementary Figure S0: Full breakdown of PD-L1 TPS testing status by era,figure_ref,Figure S0,Table 1 - Cohort Description,figures/supp_figS0_pdl1_breakdown.png,figures
+C55,Supplementary Figure S3 referenced alongside Supplementary Table S3 per-model breakdown,figure_ref,Figure S3,Results - Full 29-Variant Summary,figures/supp_figS3_per_model_breakdown.png,figures
+C56,Supplementary Figure S_intermodel_agreement: Spearman rho pairwise cross-model agreement heatmap,figure_ref,Figure S_intermodel_agreement,Discussion - Comparison With Prior Work,figures/supp_figS_intermodel_agreement.png,figures
+C57,Named script analyze_results_v2.py used for reproducible analysis,method_script,scripts/nsclc/analyze_results_v2.py,Methods - Statistical Software and Reproducibility,scripts/nsclc/analyze_results_v2.py,codebase
+C58,Named script correct_analysis.py used for reproducible analysis,method_script,scripts/nsclc/correct_analysis.py,Methods - Statistical Software and Reproducibility,scripts/nsclc/correct_analysis.py,codebase
+C59,Named script plot_circularity_ci.py used for Figure 9a circularity control plotting,method_script,plots/plot_circularity_ci.py,Methods - Statistical Software and Reproducibility,plots/plot_circularity_ci.py,codebase
+C60,Named script plot_pmc_replication.py used for Figure 9b PMC replication plotting,method_script,plots/plot_pmc_replication.py,Methods - Statistical Software and Reproducibility,plots/plot_pmc_replication.py,codebase
+C61,Reference 7 (NCCN NSCLC guideline) is a placeholder citation missing specific version number,citation,ref 7 NCCN version placeholder,References,manuscript_references.bib,codebase
+C62,Reference 8 (CancerGUIDE dataset/benchmark) is a placeholder citation missing full citation,citation,ref 8 CancerGUIDE placeholder,References,manuscript_references.bib,codebase
+C63,"Reference 14 (ambient clinical-documentation/EHR-LLM deployment vendors: Nuance DAX, Abridge, Epic GPT-4o) is a placeholder citation missing vendor sources",citation,ref 14 deployment vendors placeholder,References,manuscript_references.bib,codebase
+C64,All analyses reproducible from project repository per Methods reproducibility statement,reproducibility,reproducible from scripts/nsclc and plots directories,Methods - Statistical Software and Reproducibility,scripts/nsclc/ and plots/ directories,codebase

@@ -1,0 +1,18 @@
+**HPI:**
+This is a 60-year-old individual who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately two months ago, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. Over the past month, these symptoms have been accompanied by right-sided pleuritic chest pain and a dull, constant ache in the left hip. The patient sought evaluation which began with a chest radiograph, revealing a right lung mass and a large pleural effusion. The patient is a former smoker, having quit more than one year ago. They remain ambulatory and capable of all self-care but are limited in strenuous physical activity due to dyspnea. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A staging PET/CT scan was performed on [De-identified Date]. This imaging demonstrated a hypermetabolic 4.5 cm primary mass in the right upper lobe. There was extensive FDG-avidity throughout the right pleura, consistent with a large malignant pleural effusion. Metastatic disease was also identified in multiple osseous sites, including the T7 vertebra and the left iliac bone, corresponding to the patient's site of pain. Avid contralateral mediastinal and left supraclavicular lymphadenopathy was also noted. A subsequent MRI of the brain with and without contrast was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination confirmed invasive adenocarcinoma with a lepidic component, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed the following:
+- **Actionable Driver Mutation:** An activating EGFR point mutation, L858R in exon 21, was detected.
+- **Other Drivers:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Immunotherapy Markers:**
+  - PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score < 1%).
+  - Tumor Mutational Burden (TMB) was low (<2 mutations/Mb).
+
+**Problem Summary:**
+In summary, this is a 60-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung adenocarcinoma, metastatic to bone, pleura, and distant lymph nodes. Molecular profiling is notable for a sensitizing EGFR L858R mutation. The patient is seen today to review these findings and discuss the diagnosis.

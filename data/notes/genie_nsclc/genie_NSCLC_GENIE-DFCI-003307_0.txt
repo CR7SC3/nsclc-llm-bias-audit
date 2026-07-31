@@ -1,0 +1,22 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF VISIT:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 67-year-old individual with a significant smoking history who is referred for evaluation of newly diagnosed non-small cell lung cancer. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and mild exertional dyspnea. An initial chest radiograph was concerning for a right-sided lung mass, which prompted further investigation. The patient otherwise feels well, with a good energy level and stable appetite. Performance status is excellent; the patient is fully ambulatory and continues to perform all activities of daily living without assistance. The patient is a current smoker.
+
+**DIAGNOSTIC WORKUP:**
+A CT scan of the chest was performed which confirmed the presence of a 4.8 cm spiculated mass in the right upper lobe. The scan also revealed ipsilateral hilar lymphadenopathy.
+
+For definitive staging, a PET/CT scan was subsequently obtained. This study demonstrated intense FDG-avidity corresponding to the primary right upper lobe mass and the right hilar lymph nodes. Crucially, there was no evidence of FDG-avid disease in the contralateral hemithorax, mediastinum, or at any distant sites such as the liver, adrenal glands, or bones, consistent with locoregionally confined disease.
+
+A dedicated MRI of the brain with and without contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer, with features of an adenocarcinoma histology.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue. Molecular profiling did not identify any actionable driver alterations; the tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was evaluated and was determined to be high, at greater than 16 mutations/megabase.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 67-year-old current smoker with a new diagnosis of Stage IIB non-small cell lung cancer, adenocarcinoma histology, localized to the right lung and ipsilateral hilar lymph nodes. The workup is negative for distant metastatic disease. Molecular analysis is notable for a high tumor mutational burden but is negative for common targetable driver mutations. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish a plan for management.

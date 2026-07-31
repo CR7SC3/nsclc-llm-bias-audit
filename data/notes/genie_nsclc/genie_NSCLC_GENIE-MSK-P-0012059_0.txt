@@ -1,0 +1,27 @@
+**HPI:**
+This is a 60-year-old individual with a history of former tobacco use who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began to experience a persistent dry cough and new, progressive mid-thoracic back pain. The back pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistent cough, a chest X-ray was performed by their primary care provider, which demonstrated a right-sided lung mass.
+
+The patient was subsequently referred for staging imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed a large, spiculated mass in the right upper lobe and also identified multiple nodules in the contralateral (left) lung, enlarged mediastinal and supraclavicular lymph nodes, and a suspicious lytic lesion in a thoracic vertebral body. A subsequent PET-CT scan demonstrated high FDG-avidity in the primary right lung mass, the contralateral lung nodules, multiple nodal stations, and the thoracic spine lesion, confirming widespread metastatic disease. The patient then underwent a CT-guided core needle biopsy of the primary lung mass, which established the diagnosis.
+
+The patient reports ongoing moderate fatigue and persistent back pain, but remains fully ambulatory and capable of all activities of daily living, with an ECOG performance status of 1. They have a 30 pack-year smoking history but quit over one year ago.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast ([Date]):** Revealed a 4.8 cm spiculated mass in the right upper lobe. Multiple bilateral pulmonary nodules were noted, including several in the left lung suspicious for metastatic deposits. A lytic lesion was identified in the T7 vertebral body. Pathologic mediastinal and right supraclavicular lymphadenopathy was also present.
+- **PET/CT ([Date]):** Confirmed intense FDG-avidity in the primary right upper lobe tumor, multiple contralateral pulmonary nodules, the T7 vertebral body lesion, and in mediastinal and right supraclavicular lymph nodes, consistent with extensive metastatic disease. Brain MRI was negative for intracranial metastasis.
+- **Pathology ([Date], [De-identified] Pathology #):** CT-guided core biopsy of the right upper lobe mass demonstrated invasive adenocarcinoma, consistent with a non-small cell lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor tissue revealed the following:
+- **Actionable driver mutation detected:** KRAS G12C
+- **Tumor was negative for mutations or rearrangements in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **PD-L1 expression:** Not tested.
+- **Tumor Mutational Burden (TMB):** Intermediate (12 mutations/megabase).
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer (NSCLC), Adenocarcinoma Histology.
+    -   AJCC Stage IV at diagnosis.
+    -   Metastatic disease to contralateral lung, bone, and distant lymph nodes.
+2.  Molecular profiling notable for an activating KRAS G12C mutation.
+3.  Symptomatic disease with back pain and fatigue.
+4.  ECOG performance status 1.
+5.  Former smoker.

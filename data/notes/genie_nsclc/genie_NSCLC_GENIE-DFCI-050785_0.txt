@@ -1,0 +1,28 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+I had the pleasure of seeing this 74-year-old for an initial consultation regarding a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS**
+The patient is a 74-year-old with a past medical history significant for being a former smoker (quit over one year ago) who presented to their primary care provider several months ago with a persistent, non-productive cough and progressive dyspnea on exertion. An initial course of antibiotics for presumed bronchitis did not lead to improvement.
+
+Due to the persistence of symptoms, a chest X-ray was obtained which revealed a suspicious right upper lobe lung mass. The patient was subsequently referred for further diagnostic evaluation. The patient reports some fatigue but has maintained their weight and appetite. They remain fully ambulatory and independent with all activities of daily living, though their exercise tolerance is diminished.
+
+**DIAGNOSTIC WORKUP**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial staging. This imaging confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. It also identified several suspicious mediastinal lymph nodes and, critically, a 1.2 cm solid nodule in the contralateral left lower lobe, concerning for metastatic disease.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right upper lobe mass, multiple mediastinal lymph nodes, and the contralateral left lower lobe nodule, consistent with metastatic malignancy. No other distant sites of FDG-avid disease were identified in the neck, abdomen, or pelvis.
+
+To complete staging and evaluate for central nervous system involvement, a brain MRI with and without contrast was performed. This was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathologic review of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. An actionable driver mutation was detected in KRAS G12C. The panel was negative for other targetable alterations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+Immunohistochemistry for PD-L1 was reported as positive. The specific Tumor Proportion Score (TPS) is pending. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY**
+This is a 74-year-old former smoker who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung. The patient is treatment-naive. Molecular profiling is notable for the presence of a KRAS G12C mutation and positive PD-L1 expression. The patient has a good performance status (ECOG 1), limited primarily by mild dyspnea. They are seen today to discuss the diagnosis in detail and establish care for management.

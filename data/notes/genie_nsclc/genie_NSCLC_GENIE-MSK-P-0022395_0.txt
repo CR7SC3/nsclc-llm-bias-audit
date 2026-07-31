@@ -1,0 +1,27 @@
+**REASON FOR CONSULTATION:**
+New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 47-year-old who presents for initial oncology consultation for a new diagnosis of metastatic lung cancer. The patient was in their usual state of health until approximately one month prior to diagnosis, when they developed a persistent dry cough and focal pain in the right posterior chest wall. This prompted an evaluation with their primary care provider.
+
+An initial chest radiograph was abnormal, showing a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest confirmed a 3.5 cm spiculated mass in the right upper lobe with adjacent mediastinal lymphadenopathy. Given the concern for malignancy, the patient was referred for a CT-guided core needle biopsy of the lung mass.
+
+Pathology from this procedure confirmed the diagnosis of adenocarcinoma. Staging evaluation was completed with a PET/CT, which demonstrated intense FDG-avidity in the primary lung mass and mediastinal nodes. The scan also revealed a solitary, intensely avid lytic lesion in a right posterior rib, consistent with osseous metastatic disease. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+The patient is a former smoker, having quit more than one year ago. They report their cough is stable and the rib pain is intermittent and manageable. They maintain a good performance status, are fully ambulatory, and continue to work.
+
+**DIAGNOSTIC WORKUP:**
+*   **CT Chest, Abdomen, and Pelvis [De-identified Date]:** Revealed a 3.5 cm spiculated mass in the right upper lobe with mediastinal lymphadenopathy. No other sites of visceral metastatic disease were identified.
+*   **PET/CT Scan [De-identified Date]:** Showed hypermetabolic activity corresponding to the right upper lobe mass and mediastinal nodes. A solitary focus of intense FDG uptake was noted in a right-sided rib, confirming M1b disease.
+*   **MRI Brain [De-identified Date]:** Negative for intracranial metastatic disease.
+*   **CT-Guided Biopsy of Right Lung Mass [De-identified Date]:** Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Tissue from the lung biopsy was sent for next-generation sequencing and immunohistochemistry. The results are as follows:
+*   **Actionable Driver Mutation:** EGFR exon 20 insertion detected.
+*   **Other Genes:** Negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+*   **PD-L1 Expression:** Tumor Proportion Score (TPS) ≥50%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 47-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Molecular profiling is positive for an EGFR exon 20 insertion mutation and high PD-L1 expression (TPS ≥50%).

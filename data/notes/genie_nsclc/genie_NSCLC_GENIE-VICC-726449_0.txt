@@ -1,0 +1,22 @@
+**HPI:**
+This is a 63-year-old individual who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience a new, persistent dry cough and progressively worsening headaches. Due to the severity of the headaches, they presented to an outside emergency department for evaluation.
+
+An initial non-contrast head CT performed at that time revealed multiple intracranial lesions concerning for metastatic disease. This prompted further staging imaging with a CT of the chest, abdomen, and pelvis with intravenous contrast. This study identified a primary mass in the right upper lobe of the lung, associated mediastinal lymphadenopathy, and a distinct mass in the left adrenal gland. A subsequent contrast-enhanced MRI of the brain was performed, which confirmed the presence of multiple cerebral metastases.
+
+To establish a definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The patient reports some ongoing fatigue and intermittent headaches, but remains fully ambulatory and independent in all activities of daily living (ECOG Performance Status 1). They have noted an approximately 10-pound unintentional weight loss over the past three months. They are a current smoker. The patient is here today to discuss the diagnosis in detail.
+
+**Diagnostic Workup:**
+- **CT Chest, Abdomen, and Pelvis with contrast, [De-identified Date]:** Revealed a 3.8 cm spiculated mass in the right upper lobe. Associated mediastinal and hilar lymphadenopathy was noted. A 2.5 cm enhancing mass was identified in the left adrenal gland, consistent with a metastasis. No other distant visceral or osseous metastatic disease was identified.
+
+- **MRI Brain with and without contrast, [De-identified Date]:** Confirmed the presence of at least three enhancing parenchymal metastases in the bilateral cerebral hemispheres, with the largest lesion in the left frontal lobe measuring 1.4 cm and associated with a small amount of surrounding vasogenic edema.
+
+- **CT-guided core biopsy, right upper lobe lung mass, [De-identified Date]:** Pathology confirmed invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- PD-L1 expression was positive, with a Tumor Proportion Score (TPS) of 1–49%.
+- Tumor Mutational Burden (TMB) was high, reported as >16 mutations/megabase.
+
+**Problem Summary:**
+This is a 63-year-old current smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease to the brain and the left adrenal gland. Molecular profiling of the tumor is notable for the absence of targetable driver alterations, a PD-L1 TPS of 1-49%, and a high Tumor Mutational Burden. The patient is treatment-naive and is seen today for initial consultation.

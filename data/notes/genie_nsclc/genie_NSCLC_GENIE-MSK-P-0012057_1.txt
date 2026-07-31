@@ -1,0 +1,30 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 77-year-old individual with a remote history of tobacco use who is referred for initial evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care several weeks ago with a persistent, non-productive cough. This prompted an initial chest X-ray which revealed a right-sided lung opacity. The patient denies hemoptysis, chest pain, or significant weight loss. Performance status is excellent, estimated at ECOG 0-1, with full ambulatory capacity and no limitations on activities of daily living.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was obtained. This study characterized a 4.8 cm spiculated mass in the right upper lobe.
+
+For definitive staging, a PET/CT was performed on [De-identified Date]. This demonstrated intense FDG avidity within the primary right upper lobe mass. Avid uptake was also noted in ipsilateral peribronchial and hilar lymph nodes, consistent with locoregional nodal involvement. Critically, there was no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, or skeleton to suggest distant metastasis.
+
+A subsequent MRI of the brain with and without contrast was performed for central nervous system staging and was negative for any intracranial metastatic disease.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the specimen confirmed the diagnosis of a poorly differentiated squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+Tissue from the biopsy specimen was sent for comprehensive next-generation sequencing and PD-L1 immunohistochemistry. The results are as follows:
+
+*   **Histology:** Squamous cell carcinoma
+*   **Actionable Alterations Detected:**
+    *   EGFR: L858R point mutation
+    *   MET: Amplification (high-level)
+*   **Additional Markers (Negative):** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+*   **Immunotherapy Markers:**
+    *   PD-L1 Tumor Proportion Score (TPS): ≥50%
+    *   Tumor Mutational Burden (TMB): Intermediate (2–16 mut/Mb)
+
+**PROBLEM SUMMARY:**
+In summary, this is a 77-year-old with an excellent performance status who presents with a new diagnosis of Stage IIB (AJCC 8th Edition) squamous non-small cell lung cancer, localized to the right upper lobe with associated hilar nodal involvement. Staging studies including PET/CT and brain MRI confirm no evidence of distant metastatic disease. Molecular profiling of the tumor is complex, revealing co-occurring actionable alterations including a sensitizing EGFR L858R mutation and high-level MET amplification, as well as high PD-L1 expression. The patient is treatment-naive and is seen today for initial consultation to discuss these findings.

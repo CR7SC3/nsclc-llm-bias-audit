@@ -1,0 +1,17 @@
+**HPI:**
+This is a 74-year-old who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially attributed to a seasonal allergy but did not resolve with over-the-counter remedies. Over the past month, the patient also noted mild progressive dyspnea on exertion and an unintentional weight loss of approximately 10 pounds. This prompted a visit to their primary care physician. The patient is a lifetime never-smoker and has no significant occupational exposures. Performance status is excellent, estimated at ECOG 0-1, with the patient remaining fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+An initial chest X-ray ordered by the primary care physician revealed a right upper lobe opacity. This led to a referral for a contrast-enhanced CT of the chest, abdomen, and pelvis for further characterization and initial staging. The CT scan confirmed a 3.8 cm spiculated mass in the right upper lobe. It also demonstrated multiple enlarged lymph nodes in the contralateral mediastinum and left supraclavicular fossa, concerning for distant metastatic disease. No metastatic lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent whole-body PET/CT scan was performed, which showed intense FDG-avidity in the primary right upper lobe mass, as well as in the contralateral mediastinal and left supraclavicular lymph nodes, consistent with sites of active malignancy.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathology from this procedure confirmed invasive adenocarcinoma.
+
+Given the findings of distant nodal disease on imaging, a staging brain MRI with and without contrast was performed. This study was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+The biopsy specimen from the right upper lobe mass was sent for comprehensive next-generation sequencing. Pathologic review confirmed lung adenocarcinoma histology. Molecular analysis identified an actionable sensitizing mutation, specifically an EGFR L858R point mutation. Further testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase. PD-L1 expression was not tested on this panel.
+
+**Problem Summary:**
+This is a 74-year-old with an excellent performance status and a new diagnosis of Stage IV (cT2a N3 M1b) non-small cell lung adenocarcinoma, based on a right upper lobe primary with metastases to contralateral mediastinal and supraclavicular lymph nodes. The patient is a never-smoker. The tumor is characterized by a sensitizing EGFR L858R mutation and is negative for other common driver mutations. The patient is treatment-naive and presents today to discuss the diagnosis and establish care.

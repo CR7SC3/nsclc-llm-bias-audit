@@ -1,0 +1,393 @@
+[
+  {
+    "case_id": "genie_NSCLC_GENIE-MSK-P-0013483_0",
+    "record_id": "GENIE-MSK-P-0013483",
+    "ca_seq": "0",
+    "institution": "MSK",
+    "age_dx": "58",
+    "demographics": {
+      "race": "White",
+      "sex": "Female",
+      "ethnicity": "Spanish surname only",
+      "race_ethnicity": "Hispanic/Latinx",
+      "race_raw": "White",
+      "sex_raw": "Female",
+      "institution": "MSK"
+    },
+    "clinical_profile": {
+      "cancer_type": "nsclc",
+      "stage": "IIIA",
+      "histology": "adenocarcinoma",
+      "ecog_ps": 1,
+      "prior_therapy": "naive",
+      "egfr_status": "unknown",
+      "alk_status": "unknown",
+      "ros1_status": "unknown",
+      "braf_status": "unknown",
+      "met_status": "unknown",
+      "ret_status": "unknown",
+      "ntrk_status": "unknown",
+      "pdl1_tps_category": "unknown",
+      "pdl1_final": "negative",
+      "pdl1_status": "negative",
+      "prior_cancers": [],
+      "brain_mets": false,
+      "mets_sites": [],
+      "m1a_no_distant": false,
+      "kras_status": "unknown",
+      "erbb2_status": "unknown",
+      "met_amp_status": "unknown",
+      "stk11_status": "unknown",
+      "keap1_status": "unknown",
+      "brain_met_timing": null,
+      "tmb_category": "low (<2 mut/Mb)",
+      "smoking_history": "never smoker"
+    },
+    "actual_treatment": "Crizotinib",
+    "biomarkers_available": false,
+    "biomarkers_raw": {
+      "egfr_mutations": [],
+      "alk_fusions": [],
+      "ros1_fusions": [],
+      "braf_mutations": [],
+      "met_mutations": [],
+      "ret_fusions": [],
+      "ntrk_fusions": {
+        "NTRK2": [],
+        "NTRK1": [],
+        "NTRK3": []
+      },
+      "kras_mutations": [],
+      "tp53_mutations": [],
+      "sample_ids": [
+        "GENIE-MSK-P-0013483-T01-IM5"
+      ]
+    },
+    "panel_sample_ids": [
+      "GENIE-MSK-P-0013483-T01-IM5"
+    ],
+    "structured_note": "Patient Name: [De-identified]\nMRN: [De-identified]\n\nOBJECTIVE:\nAge at Diagnosis: 58 years\nSex: Female\nRace: White\nEthnicity: Spanish surname only\nECOG Performance Status: 1\n\nPAST MEDICAL HISTORY:\nPrior malignancy: None reported\n\nSTAGING:\nAJCC Stage: IIIA\nHistology: Adenocarcinoma\nMetastatic Sites: N/A (non-metastatic)\nSurgical resectability: Tumor is surgically resectable; patient is medically operable\n\nMOLECULAR PROFILE:\nNo actionable driver identified\nEGFR status: unknown\nALK status: unknown\nROS1 status: unknown\nBRAF status: unknown\nKRAS status: unknown\nERBB2 status: unknown\nMET status: unknown\nMET amplification: unknown\nRET status: unknown\nNTRK status: unknown\nPD-L1: negative\nTMB: low (<2 mut/Mb)\nImmunotherapy resistance biomarkers: None identified\n\nSOCIAL HISTORY:\nSmoking history: never smoker. No alcohol or illicit drug use reported. Lives independently.\n",
+    "stage_raw": "3A",
+    "histology_raw": "Adenocarcinoma",
+    "oncotree_code": "LUAD",
+    "n_regimens": 6,
+    "clean_note": "**HPI:**\nThis is a 58-year-old individual with a history of being a never-smoker who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild shortness of breath with exertion. These symptoms prompted a visit to their primary care provider, which led to an initial chest X-ray that was concerning for a right-sided lung mass. The patient reports good functional status, remaining fully ambulatory and capable of self-care, consistent with an ECOG performance status of 1.\n\n**Diagnostic Workup:**\nFollowing the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was obtained. This study identified a 4.2 cm spiculated mass in the right upper lobe. Additionally, the scan revealed enlarged right paratracheal and subcarinal lymph nodes, raising suspicion for mediastinal nodal involvement. No definitive evidence of distant metastatic disease was identified in the visualized portions of the liver, adrenal glands, or osseous structures.\n\nTo complete staging, a whole-body PET/CT scan was performed. This demonstrated high FDG-avidity in the primary right upper lobe mass and in the right paratracheal (4R) and subcarinal (7) nodal stations, confirming suspected locoregional disease. No other sites of abnormal hypermetabolism were seen to suggest distant metastatic disease. A dedicated MRI of the brain with and without contrast was also performed as part of the staging evaluation and was negative for intracranial metastases.\n\nThe patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A fine-needle aspiration biopsy was performed on the right upper lobe mass and the subcarinal lymph node. Pathology from both sites returned as invasive adenocarcinoma, confirming the diagnosis and the presence of nodal metastasis.\n\n**Molecular Studies:**\nImmunohistochemistry for PD-L1 was performed on the biopsy specimen and showed a Tumor Proportion Score (TPS) of 0%, which is considered negative. Tumor Mutational Burden (TMB) was assessed and found to be low at <2 mut/Mb. Tissue has been sent for comprehensive next-generation sequencing, and these results are pending at the time of this consultation.\n\n**Problem Summary:**\nIn summary, this is a 58-year-old never-smoker with a new diagnosis of treatment-naive, Stage IIIA non-small cell lung cancer, adenocarcinoma histology. The diagnosis was established by EBUS-guided biopsy of a right upper lobe mass and a positive subcarinal lymph node. Staging workup is notable for locoregionally advanced disease without evidence of distant metastases. Initial biomarker analysis is significant for PD-L1 negative and TMB-low disease. The patient is seen today for initial consultation to review these findings."
+  },
+  {
+    "case_id": "genie_NSCLC_GENIE-MSK-P-0009102_0",
+    "record_id": "GENIE-MSK-P-0009102",
+    "ca_seq": "0",
+    "institution": "MSK",
+    "age_dx": "75",
+    "demographics": {
+      "race": "White",
+      "sex": "Female",
+      "ethnicity": "Non-Spanish; non-Hispanic",
+      "race_ethnicity": "Non-Hispanic White",
+      "race_raw": "White",
+      "sex_raw": "Female",
+      "institution": "MSK"
+    },
+    "clinical_profile": {
+      "cancer_type": "nsclc",
+      "stage": "IIA",
+      "histology": "adenocarcinoma",
+      "ecog_ps": 1,
+      "prior_therapy": "naive",
+      "egfr_status": "negative",
+      "alk_status": "positive",
+      "ros1_status": "negative",
+      "braf_status": "negative",
+      "met_status": "negative",
+      "ret_status": "negative",
+      "ntrk_status": "negative",
+      "pdl1_tps_category": "unknown",
+      "pdl1_final": "not_tested",
+      "pdl1_status": "not tested",
+      "prior_cancers": [],
+      "brain_mets": false,
+      "mets_sites": [],
+      "m1a_no_distant": false,
+      "kras_status": "negative",
+      "erbb2_status": "negative",
+      "met_amp_status": "negative",
+      "stk11_status": "wildtype",
+      "keap1_status": "wildtype",
+      "brain_met_timing": null,
+      "tmb_category": "low (<2 mut/Mb)",
+      "smoking_history": "former smoker (quit >1 year ago)"
+    },
+    "actual_treatment": "Cisplatin, Vinorelbine Tartrate",
+    "biomarkers_available": true,
+    "biomarkers_raw": {
+      "egfr_mutations": [],
+      "alk_fusions": [
+        "EML4-ALK fusion"
+      ],
+      "ros1_fusions": [],
+      "braf_mutations": [],
+      "met_mutations": [],
+      "ret_fusions": [],
+      "ntrk_fusions": {
+        "NTRK2": [],
+        "NTRK1": [],
+        "NTRK3": []
+      },
+      "kras_mutations": [],
+      "tp53_mutations": [],
+      "sample_ids": [
+        "GENIE-MSK-P-0009102-T01-IM5"
+      ]
+    },
+    "panel_sample_ids": [
+      "GENIE-MSK-P-0009102-T01-IM5"
+    ],
+    "structured_note": "Patient Name: [De-identified]\nMRN: [De-identified]\n\nOBJECTIVE:\nAge at Diagnosis: 75 years\nSex: Female\nRace: White\nEthnicity: Non-Spanish; non-Hispanic\nECOG Performance Status: 1\n\nPAST MEDICAL HISTORY:\nPrior malignancy: None reported\n\nSTAGING:\nAJCC Stage: IIA\nHistology: Adenocarcinoma\nMetastatic Sites: N/A (non-metastatic)\nSurgical resectability: Tumor is surgically resectable; patient is medically operable\n\nMOLECULAR PROFILE:\nALK fusion\nEGFR status: negative\nALK status: positive\nROS1 status: negative\nBRAF status: negative\nKRAS status: negative\nERBB2 status: negative\nMET status: negative\nMET amplification: negative\nRET status: negative\nNTRK status: negative\nPD-L1: not tested (pre-2017 sequencing)\nTMB: low (<2 mut/Mb)\nImmunotherapy resistance biomarkers: None identified\n\nSOCIAL HISTORY:\nSmoking history: former smoker (quit >1 year ago). No alcohol or illicit drug use reported. Lives independently.\n",
+    "stage_raw": "2A",
+    "histology_raw": "Adenocarcinoma",
+    "oncotree_code": "LUAD",
+    "n_regimens": 5,
+    "clean_note": "**HPI:**\nThis is a 75-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient has a history of being a former smoker, having quit over one year ago. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. After a course of antibiotics prescribed by their primary care provider failed to resolve the symptoms, a chest X-ray was obtained which showed a right upper lobe opacity. This prompted further diagnostic evaluation. The patient reports mild fatigue but is fully ambulatory and managing all self-care, with an ECOG performance status of 1. They deny fevers, chills, night sweats, or significant unintentional weight loss.\n\n**Diagnostic Workup:**\nA contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified], which confirmed a 4.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or other visualized portions of the abdomen and pelvis.\n\nFor staging purposes, a PET/CT was performed on [De-identified]. This demonstrated intense FDG-avidity within the known right upper lobe mass. There was no evidence of hypermetabolic activity in the regional lymph nodes or in any distant sites to suggest metastatic disease. A staging MRI of the brain was also performed and was negative for intracranial metastases.\n\nOn [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathological analysis of the tissue confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.\n\nBased on this workup, the patient is diagnosed with AJCC Stage IIA disease.\n\n**Molecular Studies:**\nTissue from the biopsy was sent for next-generation sequencing. The results are as follows:\n- Actionable driver mutation detected: ALK rearrangement.\n- No pathogenic mutations detected in: EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.\n- PD-L1: Not tested.\n- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).\n\n**Problem Summary:**\nThis is a 75-year-old with an excellent performance status who presents for an initial consultation to discuss a new diagnosis of treatment-naive, non-metastatic Stage IIA non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement."
+  },
+  {
+    "case_id": "genie_NSCLC_GENIE-MSK-P-0009293_3",
+    "record_id": "GENIE-MSK-P-0009293",
+    "ca_seq": "3",
+    "institution": "MSK",
+    "age_dx": "76",
+    "demographics": {
+      "race": "White",
+      "sex": "Female",
+      "ethnicity": "Non-Spanish; non-Hispanic",
+      "race_ethnicity": "Non-Hispanic White",
+      "race_raw": "White",
+      "sex_raw": "Female",
+      "institution": "MSK"
+    },
+    "clinical_profile": {
+      "cancer_type": "nsclc",
+      "stage": "IA",
+      "histology": "adenocarcinoma",
+      "ecog_ps": 1,
+      "prior_therapy": "naive",
+      "egfr_status": "negative",
+      "alk_status": "negative",
+      "ros1_status": "negative",
+      "braf_status": "negative",
+      "met_status": "negative",
+      "ret_status": "negative",
+      "ntrk_status": "negative",
+      "pdl1_tps_category": "unknown",
+      "pdl1_final": "negative",
+      "pdl1_status": "negative",
+      "prior_cancers": [],
+      "brain_mets": false,
+      "mets_sites": [],
+      "m1a_no_distant": false,
+      "kras_status": "negative",
+      "erbb2_status": "negative",
+      "met_amp_status": "negative",
+      "stk11_status": "wildtype",
+      "keap1_status": "wildtype",
+      "brain_met_timing": null,
+      "tmb_category": "high (>16 mut/Mb)",
+      "smoking_history": "former smoker (quit >1 year ago)"
+    },
+    "actual_treatment": "Gemcitabine Hydrochloride, Vinorelbine Tartrate",
+    "biomarkers_available": true,
+    "biomarkers_raw": {
+      "egfr_mutations": [],
+      "alk_fusions": [],
+      "ros1_fusions": [],
+      "braf_mutations": [
+        "p.G596R",
+        "p.G596R"
+      ],
+      "met_mutations": [],
+      "ret_fusions": [],
+      "ntrk_fusions": {
+        "NTRK2": [],
+        "NTRK1": [],
+        "NTRK3": []
+      },
+      "kras_mutations": [],
+      "tp53_mutations": [
+        "p.E285V",
+        "p.E285V"
+      ],
+      "sample_ids": [
+        "GENIE-MSK-P-0009293-T01-IM5",
+        "GENIE-MSK-P-0009293-T02-IM6"
+      ]
+    },
+    "panel_sample_ids": [
+      "GENIE-MSK-P-0009293-T01-IM5",
+      "GENIE-MSK-P-0009293-T02-IM6"
+    ],
+    "structured_note": "Patient Name: [De-identified]\nMRN: [De-identified]\n\nOBJECTIVE:\nAge at Diagnosis: 76 years\nSex: Female\nRace: White\nEthnicity: Non-Spanish; non-Hispanic\nECOG Performance Status: 1\n\nPAST MEDICAL HISTORY:\nPrior malignancy: None reported\n\nSTAGING:\nAJCC Stage: IA\nHistology: Adenocarcinoma\nMetastatic Sites: N/A (non-metastatic)\nSurgical resectability: Tumor is surgically resectable; patient is medically operable\n\nMOLECULAR PROFILE:\nNo actionable driver identified\nEGFR status: negative\nALK status: negative\nROS1 status: negative\nBRAF status: negative\nKRAS status: negative\nERBB2 status: negative\nMET status: negative\nMET amplification: negative\nRET status: negative\nNTRK status: negative\nPD-L1: negative\nTMB: high (>16 mut/Mb)\nImmunotherapy resistance biomarkers: None identified\n\nSOCIAL HISTORY:\nSmoking history: former smoker (quit >1 year ago). No alcohol or illicit drug use reported. Lives independently.\n",
+    "stage_raw": "1A",
+    "histology_raw": "Adenocarcinoma",
+    "oncotree_code": "LUAD",
+    "n_regimens": 2,
+    "clean_note": "**HPI:**\nThis is an initial oncology consultation for a 76-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over a year ago. The patient initially presented to their primary care provider several weeks ago with a mild, persistent, non-productive cough. An initial chest radiograph was performed which revealed a right upper lobe pulmonary nodule, prompting further evaluation. The patient reports a stable energy level and denies fevers, chills, night sweats, or significant unintentional weight loss. Performance status is excellent, ECOG 0.\n\n**Diagnostic Workup:**\nFollowing the abnormal chest X-ray, a contrast-enhanced chest CT was performed on [De-identified]. This confirmed the presence of a 1.9 cm solid, spiculated nodule in the apical segment of the right upper lobe. No other suspicious pulmonary nodules were identified. There was no mediastinal or hilar lymphadenopathy.\n\nFor definitive staging, a PET/CT was obtained on [De-identified]. This demonstrated intense FDG avidity corresponding to the right upper lobe nodule (SUVmax 8.1). Importantly, there was no evidence of hypermetabolic activity in any mediastinal or hilar lymph nodes, nor were there any findings concerning for distant metastatic disease in the chest, abdomen, or pelvis.\n\nGiven the diagnosis of adenocarcinoma, a brain MRI with and without contrast was performed on [De-identified] to complete staging, which was negative for any intracranial metastases.\n\nOn [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule. The procedure was well-tolerated. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma.\n\n**Molecular Studies:**\nTumor tissue from the biopsy was sent for comprehensive next-generation sequencing and biomarker analysis.\n- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.\n- **PD-L1:** Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of 0%.\n- **Tumor Mutational Burden (TMB):** TMB was found to be high at >16 mutations/megabase.\n\n**Problem Summary:**\nIn summary, this is a 76-year-old with a new diagnosis of clinical Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, confined to the right upper lobe. Staging workup including PET/CT and brain MRI is negative for regional nodal involvement or distant metastatic disease. Molecular profiling of the tumor demonstrates a high Tumor Mutational Burden (TMB-high) and is negative for PD-L1 expression and common targetable driver mutations."
+  },
+  {
+    "case_id": "genie_NSCLC_GENIE-MSK-P-0011234_2",
+    "record_id": "GENIE-MSK-P-0011234",
+    "ca_seq": "2",
+    "institution": "MSK",
+    "age_dx": "72",
+    "demographics": {
+      "race": "Asian",
+      "sex": "Female",
+      "ethnicity": "Non-Spanish; non-Hispanic",
+      "race_ethnicity": "AAAPI (Asian, Asian American, and Pacific Islander)",
+      "race_raw": "Chinese",
+      "sex_raw": "Female",
+      "institution": "MSK"
+    },
+    "clinical_profile": {
+      "cancer_type": "nsclc",
+      "stage": "IB",
+      "histology": "adenocarcinoma",
+      "ecog_ps": 1,
+      "prior_therapy": "naive",
+      "egfr_status": "exon_19_del",
+      "alk_status": "negative",
+      "ros1_status": "negative",
+      "braf_status": "negative",
+      "met_status": "negative",
+      "ret_status": "negative",
+      "ntrk_status": "negative",
+      "pdl1_tps_category": "unknown",
+      "pdl1_final": "not_tested",
+      "pdl1_status": "not tested",
+      "prior_cancers": [],
+      "brain_mets": false,
+      "mets_sites": [],
+      "m1a_no_distant": false,
+      "kras_status": "negative",
+      "erbb2_status": "negative",
+      "met_amp_status": "negative",
+      "stk11_status": "wildtype",
+      "keap1_status": "wildtype",
+      "brain_met_timing": null,
+      "tmb_category": "low (<2 mut/Mb)",
+      "smoking_history": "never smoker"
+    },
+    "actual_treatment": "Carboplatin, Paclitaxel",
+    "biomarkers_available": true,
+    "biomarkers_raw": {
+      "egfr_mutations": [
+        "p.E746_A750del",
+        "p.E746_A750del"
+      ],
+      "alk_fusions": [],
+      "ros1_fusions": [],
+      "braf_mutations": [],
+      "met_mutations": [],
+      "ret_fusions": [],
+      "ntrk_fusions": {
+        "NTRK2": [],
+        "NTRK1": [],
+        "NTRK3": []
+      },
+      "kras_mutations": [],
+      "tp53_mutations": [
+        "p.H214Rfs*25"
+      ],
+      "sample_ids": [
+        "GENIE-MSK-P-0011234-T01-IM5",
+        "GENIE-MSK-P-0011234-T02-IM5"
+      ]
+    },
+    "panel_sample_ids": [
+      "GENIE-MSK-P-0011234-T01-IM5",
+      "GENIE-MSK-P-0011234-T02-IM5"
+    ],
+    "structured_note": "Patient Name: [De-identified]\nMRN: [De-identified]\n\nOBJECTIVE:\nAge at Diagnosis: 72 years\nSex: Female\nRace: Asian\nEthnicity: Non-Spanish; non-Hispanic\nECOG Performance Status: 1\n\nPAST MEDICAL HISTORY:\nPrior malignancy: None reported\n\nSTAGING:\nAJCC Stage: IB\nHistology: Adenocarcinoma\nMetastatic Sites: N/A (non-metastatic)\nSurgical resectability: Tumor is surgically resectable; patient is medically operable\n\nMOLECULAR PROFILE:\nEGFR exon 19 del\nEGFR status: exon_19_del\nALK status: negative\nROS1 status: negative\nBRAF status: negative\nKRAS status: negative\nERBB2 status: negative\nMET status: negative\nMET amplification: negative\nRET status: negative\nNTRK status: negative\nPD-L1: not tested (pre-2017 sequencing)\nTMB: low (<2 mut/Mb)\nImmunotherapy resistance biomarkers: None identified\n\nSOCIAL HISTORY:\nSmoking history: never smoker. No alcohol or illicit drug use reported. Lives independently.\n",
+    "stage_raw": "1B",
+    "histology_raw": "Adenocarcinoma",
+    "oncotree_code": "LUAD",
+    "n_regimens": 2,
+    "clean_note": "**HPI:**\nThis is a 72-year-old individual with a history of being a never-smoker who is seen today in the Thoracic Oncology clinic for an initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health and asymptomatic until a lung nodule was incidentally discovered on a chest CT scan performed for a non-pulmonary indication. The patient denies any cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers, chills, or unintentional weight loss. They maintain a very active lifestyle with an ECOG performance status of 0. Following the discovery of the lung mass, the patient was referred for further diagnostic evaluation.\n\n**Diagnostic Workup:**\nThe initial diagnostic chest CT revealed a 3.2 cm spiculated solid nodule in the superior segment of the right lower lobe. There was no associated mediastinal or hilar lymphadenopathy.\n\nFor purposes of staging, a whole-body PET/CT was performed on [De-identified date]. This study demonstrated intense FDG-avidity corresponding to the known right lower lobe primary tumor. Importantly, there was no evidence of FDG-avid disease in any regional lymph node stations or at any distant sites.\n\nTo complete staging, a brain MRI with and without contrast was obtained on [De-identified date], which was negative for any evidence of intracranial metastatic disease.\n\nA CT-guided core needle biopsy of the right lower lobe mass was subsequently performed by Interventional Radiology on [De-identified date]. Pathologic review of the tissue specimen confirmed the diagnosis of invasive adenocarcinoma of the lung.\n\nBased on this comprehensive workup, the tumor is a T2aN0M0, corresponding to AJCC 8th Edition Stage IB.\n\n**Molecular Studies:**\nNext-generation sequencing (NGS) was performed on the tumor tissue. The results are notable for the detection of an actionable sensitizing EGFR exon 19 deletion.\n\nFurther molecular analysis was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.\n\nPD-L1 expression was not tested. Tumor Mutational Burden (TMB) was low (<2 mut/Mb).\n\n**Problem Summary:**\nIn summary, this is a 72-year-old never-smoker who presents for initial oncologic evaluation of a newly diagnosed, asymptomatic Stage IB (T2aN0M0) pulmonary adenocarcinoma of the right lower lobe. Molecular profiling of the tumor is positive for a sensitizing EGFR exon 19 deletion. The patient has an excellent performance status and is fully active and independent."
+  },
+  {
+    "case_id": "genie_NSCLC_GENIE-MSK-P-0022777_0",
+    "record_id": "GENIE-MSK-P-0022777",
+    "ca_seq": "0",
+    "institution": "MSK",
+    "age_dx": "54",
+    "demographics": {
+      "race": "White",
+      "sex": "Female",
+      "ethnicity": "Non-Spanish; non-Hispanic",
+      "race_ethnicity": "Non-Hispanic White",
+      "race_raw": "White",
+      "sex_raw": "Female",
+      "institution": "MSK"
+    },
+    "clinical_profile": {
+      "cancer_type": "nsclc",
+      "stage": "IIIA",
+      "histology": "adenocarcinoma",
+      "ecog_ps": 1,
+      "prior_therapy": "naive",
+      "egfr_status": "exon_19_del",
+      "alk_status": "negative",
+      "ros1_status": "negative",
+      "braf_status": "negative",
+      "met_status": "negative",
+      "ret_status": "negative",
+      "ntrk_status": "negative",
+      "pdl1_tps_category": "intermediate",
+      "pdl1_final": "intermediate",
+      "pdl1_status": "negative",
+      "prior_cancers": [],
+      "brain_mets": false,
+      "mets_sites": [],
+      "m1a_no_distant": false,
+      "kras_status": "negative",
+      "erbb2_status": "negative",
+      "met_amp_status": "negative",
+      "stk11_status": "wildtype",
+      "keap1_status": "wildtype",
+      "brain_met_timing": null,
+      "tmb_category": "low (<2 mut/Mb)",
+      "smoking_history": "never smoker"
+    },
+    "actual_treatment": "Investigational Drug",
+    "biomarkers_available": true,
+    "biomarkers_raw": {
+      "egfr_mutations": [
+        "p.E746_A750del"
+      ],
+      "alk_fusions": [],
+      "ros1_fusions": [],
+      "braf_mutations": [],
+      "met_mutations": [],
+      "ret_fusions": [],
+      "ntrk_fusions": {
+        "NTRK2": [],
+        "NTRK1": [],
+        "NTRK3": []
+      },
+      "kras_mutations": [],
+      "tp53_mutations": [
+        "p.R273C"
+      ],
+      "sample_ids": [
+        "GENIE-MSK-P-0022777-T01-IM6"
+      ]
+    },
+    "panel_sample_ids": [
+      "GENIE-MSK-P-0022777-T01-IM6"
+    ],
+    "structured_note": "Patient Name: [De-identified]\nMRN: [De-identified]\n\nOBJECTIVE:\nAge at Diagnosis: 54 years\nSex: Female\nRace: White\nEthnicity: Non-Spanish; non-Hispanic\nECOG Performance Status: 1\n\nPAST MEDICAL HISTORY:\nPrior malignancy: None reported\n\nSTAGING:\nAJCC Stage: IIIA\nHistology: Adenocarcinoma\nMetastatic Sites: N/A (non-metastatic)\nSurgical resectability: Tumor is surgically resectable; patient is medically operable\n\nMOLECULAR PROFILE:\nEGFR exon 19 del\nEGFR status: exon_19_del\nALK status: negative\nROS1 status: negative\nBRAF status: negative\nKRAS status: negative\nERBB2 status: negative\nMET status: negative\nMET amplification: negative\nRET status: negative\nNTRK status: negative\nPD-L1: positive, TPS 1–49%\nTMB: low (<2 mut/Mb)\nImmunotherapy resistance biomarkers: None identified\n\nSOCIAL HISTORY:\nSmoking history: never smoker. No alcohol or illicit drug use reported. Lives independently.\n",
+    "stage_raw": "3A",
+    "histology_raw": "Adenocarcinoma",
+    "oncotree_code": "LUAD",
+    "n_regimens": 3,
+    "clean_note": "**HPI:**\nThis is a 54-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology consultation. The patient is treatment-naive. The history was obtained from the patient and a review of available medical records.\n\nThe patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was followed by the gradual onset of mild dyspnea with strenuous activity. They initially sought evaluation with their primary care provider, who ordered a chest X-ray which revealed a right upper lobe opacity. The patient was subsequently referred to Pulmonology for further evaluation.\n\nThe patient is a lifetime never-smoker. They deny fevers, chills, night sweats, or significant weight loss. They remain fully active and independent in all activities of daily living, with an ECOG performance status of 0.\n\n**Diagnostic Workup:**\nA comprehensive staging workup was completed.\n\n- **CT Chest/Abdomen/Pelvis with contrast:** Performed on [De-identified], this revealed a 3.8 cm spiculated mass in the posterior segment of the right upper lobe. There was associated bulky mediastinal and hilar lymphadenopathy, including enlarged subcarinal and right paratracheal nodes, with the largest node measuring 2.5 cm in short-axis dimension. No suspicious lesions were identified in the liver, adrenal glands, or other visualized portions of the abdomen and pelvis.\n- **PET/CT:** Performed on [De-identified], this confirmed intense FDG-avidity within the right upper lobe primary mass (SUVmax 14.2) and in multiple ipsilateral mediastinal lymph node stations, including the subcarinal station (SUVmax 9.5). There was no evidence of FDG-avid disease below the diaphragm or elsewhere to suggest distant metastasis.\n- **MRI Brain with and without contrast:** Performed on [De-identified], this was negative for intracranial metastatic disease.\n- **Bronchoscopy with EBUS-TBNA:** The patient underwent bronchoscopy with endobronchial ultrasound-guided transbronchial needle aspiration of the primary mass and a subcarinal lymph node (station 7) on [De-identified]. Pathology from both sites was consistent with invasive adenocarcinoma of lung origin.\n\n**Molecular Studies:**\nNext-generation sequencing and PD-L1 immunohistochemistry were performed on the biopsy tissue. The results are as follows:\n- **Actionable driver(s) detected:** EGFR exon 19 deletion (sensitizing)\n- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2\n- **PD-L1 TPS:** 1-49%\n- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb)\n\n**Problem Summary:**\nIn summary, this is a 54-year-old never-smoker with a new diagnosis of treatment-naive, Stage IIIA (cT2aN2M0, AJCC 8th Edition) EGFR-mutated non-small cell lung adenocarcinoma."
+  }
+]

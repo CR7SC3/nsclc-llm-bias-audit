@@ -1,0 +1,19 @@
+**HPI:**
+This is a 62-year-old individual with a history of a 30-pack-year smoking habit, who quit over one year ago, presenting for initial oncology consultation. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. This was initially managed as a respiratory infection without resolution. Due to the persistence of symptoms, a chest radiograph was obtained, which revealed a right upper lobe opacity. The patient denies hemoptysis, fevers, or significant weight loss but does report progressive fatigue and mild dyspnea on exertion. They remain fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a 4.2 cm spiculated mass in the right upper lobe. Additionally, the scan revealed bulky ipsilateral mediastinal and hilar lymphadenopathy, with a right paratracheal node measuring 2.5 cm in short axis. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other visualized portions of the abdomen and pelvis.
+
+A subsequent PET/CT scan confirmed intense FDG-avidity in the right upper lobe primary mass and in the right hilar and right paratracheal nodal stations, consistent with locoregionally advanced disease. No other sites of FDG-avid disease were identified to suggest distant metastases. A dedicated MRI of the brain with contrast was performed for staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology returned invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy.
+- **Actionable driver mutation:** An EGFR L858R point mutation was detected.
+- **Additional testing:** The tumor was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 9 mutations/megabase).
+- **PD-L1:** Immunohistochemistry for PD-L1 was not performed on the specimen.
+
+**Problem Summary:**
+This is a 62-year-old former smoker with a new diagnosis of treatment-naive, non-metastatic Stage IIIA (AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirms disease confined to the right hemithorax, involving the primary lung parenchyma and ipsilateral mediastinal lymph nodes. Molecular profiling is notable for the presence of a sensitizing EGFR L858R mutation. The patient has a good performance status (ECOG 1) and is seen today for initial consultation to discuss the diagnosis in detail.

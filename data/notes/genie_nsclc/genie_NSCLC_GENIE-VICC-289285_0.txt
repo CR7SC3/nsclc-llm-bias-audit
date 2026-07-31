@@ -1,11 +1,28 @@
-**HPI:**
-[De-identified] is a 76-year-old who presents for initial oncology evaluation of newly diagnosed non-small cell lung cancer. The patient first noted symptoms approximately three months ago, including a persistent cough, mild dyspnea on exertion, and generalized fatigue. Concurrently, the patient developed a new, slowly enlarging subcutaneous nodule on the left anterior chest wall, which prompted medical attention. The patient has a history of controlled hypertension but otherwise reports good health prior to these recent symptoms. Notably, the patient is a never smoker.
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 76-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago when they noted a new, firm, non-tender lump on their anterior chest wall. This lump gradually increased in size, prompting a visit to their primary care provider. The patient denies any associated cough, shortness of breath, hemoptysis, or constitutional symptoms such as fevers or significant weight loss. They remain fully active and independent with all activities of daily living, with an ECOG performance status of 0. Of note, the patient is a lifetime never-smoker.
+
+Initial evaluation included a chest CT scan which identified a primary lung mass in addition to the subcutaneous lesion. A subsequent PET/CT was performed for staging, which confirmed the findings and led to a biopsy of the most accessible lesion. The patient presents today to discuss the diagnosis and establish care.
 
 **Diagnostic Workup:**
-Initial evaluation included a chest X-ray demonstrating a suspicious lung mass. This was followed by a CT scan of the chest, abdomen, and pelvis which confirmed a primary lesion measuring approximately 4.5 cm in the right upper lobe and identified the subcutaneous nodule as a potential metastatic site. A subsequent PET/CT scan confirmed hypermetabolic activity in both the primary lung lesion and the subcutaneous nodule, with no other sites of distant metastatic disease noted. A brain MRI was performed as part of the staging workup and was negative for intracranial metastases. Biopsy of the primary lung lesion, performed via bronchoscopy, revealed non-small cell lung cancer, squamous cell carcinoma histology. A concurrent excisional biopsy of the subcutaneous nodule confirmed metastatic squamous cell carcinoma, consistent with the lung primary. Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer (M1b, due to subcutaneous metastasis). The patient's performance status is estimated at ECOG 1, with mild symptoms and able to carry out light work.
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 3.8 cm spiculated mass in the left upper lobe. A 2.5 cm enhancing subcutaneous nodule was noted in the right anterior chest wall, corresponding to the palpable area of concern. No other suspicious visceral or nodal disease was identified in the chest or abdomen.
+*   **PET/CT:** Demonstrated intense FDG-avidity in the left upper lobe lung mass (SUVmax 12.4) and the right chest wall subcutaneous nodule (SUVmax 9.8). No other sites of FDG-avid metastatic disease were identified.
+*   **MRI Brain:** Performed for staging, this was negative for intracranial metastases.
+
+**Pathology:**
+*   **Excisional biopsy, right chest wall subcutaneous nodule:** The specimen showed infiltration by a poorly differentiated malignant neoplasm. Immunohistochemical stains were positive for p40 and CK5/6, and negative for TTF-1 and Napsin-A, confirming a diagnosis of metastatic squamous cell carcinoma, consistent with a lung primary.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with comprehensive testing negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusions, KRAS mutations, and ERBB2 (HER2) alterations. Programmed death-ligand 1 (PD-L1) expression was positive, with a tumor proportion score (TPS) of 1–49%. Tumor mutational burden (TMB) was reported as high, at >16 mutations/megabase (mut/Mb).
+Next-generation sequencing (tissue-based) was performed on the biopsy specimen.
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 by immunohistochemistry (IHC) was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+*   **Tumor Mutational Burden (TMB):** TMB was determined to be high, at >16 mutations/megabase.
 
 **Problem Summary:**
-[De-identified] is a 76-year-old with newly diagnosed, treatment-naive non-small cell lung cancer, squamous cell carcinoma histology, AJCC Stage IV, with metastatic disease involving subcutaneous tissue. The patient is a never smoker. Molecular testing revealed no actionable driver mutations. PD-L1 expression is positive (TPS 1-49%), and tumor mutational burden is high (>16 mut/Mb). This initial consultation serves to establish care and discuss potential systemic therapy options.
+In summary, this is a 76-year-old with a new diagnosis of Stage IV non-small cell lung cancer of squamous histology (cT2a N0 M1b), diagnosed via a biopsy of a subcutaneous metastasis. The patient is a lifetime never-smoker and maintains an excellent performance status. Staging workup, including a brain MRI, shows disease is limited to the primary lung tumor and the single site of subcutaneous metastasis. Comprehensive molecular profiling is notable for the absence of an actionable driver mutation, PD-L1 expression of 1-49%, and a high Tumor Mutational Burden.

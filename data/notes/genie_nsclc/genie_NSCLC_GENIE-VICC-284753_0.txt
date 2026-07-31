@@ -1,0 +1,25 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 60-year-old individual with a history of prior tobacco use who is referred for initial consultation and management of a new diagnosis of non-small cell lung cancer. The patient presented to primary care approximately one month ago with a new-onset, persistent cough and progressive shortness of breath on exertion. The patient remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1. Social history is notable for being a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+The initial presentation prompted a chest X-ray which revealed a right-sided pulmonary mass. Subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This confirmed a primary mass in the right upper lobe with associated bulky ipsilateral mediastinal and hilar lymphadenopathy. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones to suggest distant metastatic disease.
+
+A PET/CT scan was then obtained, which demonstrated high FDG-avidity in the primary right upper lobe tumor and the adjacent mediastinal and hilar lymph nodes, consistent with locoregional disease. No other sites of FDG-avid disease were identified. A brain MRI with contrast was performed to complete staging and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the specimen confirmed invasive adenocarcinoma, consistent with a primary non-small cell lung cancer.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing (NGS) was performed on the tumor biopsy tissue. The results are summarized below:
+- **Actionable Driver Alteration:** High-level MET amplification was detected.
+- **Other Drivers:** Testing was negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping mutations, RET, NTRK, KRAS, and ERBB2 mutations.
+- **Immunotherapy Biomarkers:**
+    - PD-L1 expression by immunohistochemistry was negative, with a Tumor Proportion Score (TPS) of <1%.
+    - Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+    - A loss-of-function mutation in STK11 was identified, a potential biomarker for primary resistance to PD-1/PD-L1 blockade.
+
+**Problem Summary:**
+In summary, this is a 60-year-old former smoker with a new diagnosis of non-metastatic, locoregionally advanced Stage IIIA non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup has confirmed disease confined to the right hemithorax. Comprehensive molecular profiling of the tumor is notable for high-level MET amplification, negative PD-L1 expression, and the presence of an STK11 loss-of-function mutation. The patient is here today for initial consultation to discuss the diagnosis and establish a plan for management.

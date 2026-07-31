@@ -1,0 +1,52 @@
+**REASON FOR VISIT:**
+Initial consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old with a significant smoking history (former smoker, quit over one year ago) who presents for evaluation of newly diagnosed metastatic lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms were initially attributed to a possible respiratory infection but did not improve with a course of antibiotics. Over the past month, the patient also noted the insidious onset of right-sided rib cage pain and approximately 10 pounds of unintentional weight loss.
+
+Due to the persistence of symptoms, a chest X-ray was obtained, which revealed a large left upper lobe mass and a moderate left-sided pleural effusion. This prompted an urgent referral for further evaluation. A CT of the chest, abdomen, and pelvis with contrast was subsequently performed, confirming the findings and detailing the extent of disease. The patient has been feeling fatigued but remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1. They are here today to discuss the diagnosis and establish care.
+
+**PAST MEDICAL HISTORY:**
+- Hypertension
+- Hyperlipidemia
+
+**PAST SURGICAL HISTORY:**
+- Appendectomy, remote
+
+**SOCIAL HISTORY:**
+- Tobacco Use: Former smoker with a 40-pack-year history. Quit approximately 3 years ago.
+- Alcohol Use: Denies regular alcohol use.
+- Illicit Drug Use: Denies.
+
+**REVIEW OF SYSTEMS:**
+- CONSTITUTIONAL: Positive for fatigue and a 10-pound weight loss. Negative for fevers or night sweats.
+- RESPIRATORY: Positive for dry cough and shortness of breath with exertion. Negative for hemoptysis.
+- MUSCULOSKELETAL: Positive for right-sided rib pain.
+- All other systems reviewed and are negative.
+
+**PHYSICAL EXAMINATION:**
+- VITALS: BP 134/82, Pulse 88, Temp 37.1 C, Resp 18, SpO2 96% on room air.
+- GENERAL: Alert and oriented, in no acute distress. Appears well-nourished.
+- ECOG PERFORMANCE STATUS: 1
+- HENT: Mucous membranes are moist. No oral lesions.
+- NECK: Supple. No supraclavicular or cervical lymphadenopathy.
+- LUNGS: Decreased breath sounds at the left base. No wheezes or rhonchi. Right lung is clear to auscultation.
+- CARDIOVASCULAR: Regular rate and rhythm. No murmurs.
+- ABDOMEN: Soft, non-tender, non-distended. No hepatosplenomegaly.
+- EXTREMITIES: No lower extremity edema.
+- NEUROLOGIC: Alert and oriented x3. Grossly non-focal.
+
+**DIAGNOSTIC WORKUP:**
+- **CT Chest/Abdomen/Pelvis with IV Contrast [Date De-identified]:** Revealed a 5.5 cm spiculated mass in the left upper lobe. Multiple bilateral pulmonary nodules were noted, consistent with contralateral metastatic disease. A moderate left-sided pleural effusion was present. Multiple sub-centimeter hypodense liver lesions, a 2.1 cm left adrenal nodule, and a lytic lesion in a right-sided rib were identified, all suspicious for metastatic deposits.
+- **MRI Brain with and without Contrast [Date De-identified]:** Negative for intracranial metastases.
+- **CT-Guided Core Biopsy of Left Lung Mass [Date De-identified]:** Pathology confirmed invasive, poorly differentiated adenocarcinoma, consistent with a non-small cell lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+- **Actionable Driver Mutations:** A sensitizing EGFR L858R point mutation was detected.
+- **Additional Driver Genes:** Testing was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Tumor Proportion Score (TPS):** 0% (Negative).
+- **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 68-year-old former smoker who presents for initial oncologic evaluation. The workup has confirmed a diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology. Staging studies demonstrate widespread metastatic disease involving the contralateral lung, pleura, bone, liver, and adrenal gland. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR L858R mutation. The patient is treatment-naive with an ECOG performance status of 1.

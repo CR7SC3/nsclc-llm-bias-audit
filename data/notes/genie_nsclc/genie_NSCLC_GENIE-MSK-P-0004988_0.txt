@@ -1,0 +1,19 @@
+**HPI:**
+This is a 55-year-old with a history of smoking (quit within the last year) who presents for initial oncology consultation following a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately three weeks prior to diagnosis, when they began experiencing persistent headaches and a single episode of what was described as a focal seizure affecting the left arm. This prompted an evaluation in the emergency department. An urgent MRI of the brain was performed which revealed multiple lesions concerning for metastatic disease. A subsequent staging workup was initiated. The patient is currently on a tapering course of dexamethasone for management of cerebral edema and reports improvement in headaches. They are generally feeling well with an ECOG performance status of 1, maintaining their weight and appetite.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was completed.
+- **MRI Brain with and without contrast, [De-identified Date]:** Revealed at least three ring-enhancing lesions in the bilateral cerebral hemispheres, the largest in the right parietal lobe, consistent with metastatic deposits. There was associated vasogenic edema.
+- **CT Chest, Abdomen, and Pelvis with IV contrast, [De-identified Date]:** Identified a 3.8 cm spiculated mass in the right upper lobe of the lung. There was evidence of ipsilateral mediastinal and hilar lymphadenopathy. No other sites of visceral or osseous metastatic disease were identified in the chest, abdomen, or pelvis.
+- **CT-guided core needle biopsy of the right upper lobe lung mass, [De-identified Date]:** Pathology confirmed invasive, moderately differentiated adenocarcinoma, consistent with a non-small cell lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+- An actionable driver mutation was detected in **KRAS (G12C)**.
+- A co-occurring loss-of-function mutation was identified in **STK11**.
+- Tumor Mutation Burden (TMB) was determined to be **intermediate (9 mutations/Mb)**.
+- The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 expression was not tested, consistent with the standard of care at the time of the initial biopsy and sequencing.
+
+**Problem Summary:**
+This is a 55-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the brain at the time of initial presentation. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a co-occurring STK11 loss-of-function mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and establish a plan for care.

@@ -1,0 +1,41 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF VISIT:** [De-identified]
+
+**History of Present Illness**
+
+This is a 57-year-old individual with a notable past medical history of melanoma and thyroid cancer, who is referred for initial oncologic evaluation of a newly diagnosed non-small cell lung cancer.
+
+The patient was reportedly in their usual state of health until a screening chest CT, performed for surveillance of prior malignancies, incidentally identified a solid nodule in the right lung. The patient was asymptomatic at the time of this finding and continues to deny any cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers or unintentional weight loss.
+
+A comprehensive diagnostic workup was initiated. A follow-up PET/CT scan demonstrated avid uptake isolated to the right lung nodule, with no evidence of hypermetabolic activity in the mediastinal lymph nodes or at any distant sites. To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass on [De-identified Date], which confirmed the presence of adenocarcinoma. The patient has a good performance status, fully ambulatory and capable of all self-care.
+
+**Past Medical History**
+- Melanoma, status post-resection (x2)
+- Thyroid Cancer, status post-thyroidectomy
+
+**Social History**
+- Tobacco Use: Never smoker.
+
+**Diagnostic Workup**
+
+**Imaging:**
+I have personally reviewed the patient's relevant imaging studies.
+- **PET/CT ([De-identified Date]):** Findings are significant for a 3.2 cm spiculated, intensely FDG-avid nodule in the right upper lobe. There is no evidence of FDG-avid mediastinal or hilar lymphadenopathy (N0). There is no evidence of distant metastatic disease (M0).
+- **MRI Brain with and without contrast ([De-identified Date]):** No evidence of intracranial metastatic disease.
+
+**Pathology:**
+- **CT-Guided Biopsy, Right Upper Lobe Nodule ([De-identified Date]):** Invasive adenocarcinoma, consistent with a non-small cell lung primary.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor specimen with the following key results:
+- **Actionable Driver:** A ROS1 gene rearrangement was detected.
+- **Additional Genes Tested:** Negative for pathogenic variants in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** Low (<2 mutations/megabase).
+
+**Problem Summary**
+
+In summary, this is a 57-year-old never-smoker presenting with a new diagnosis of clinical Stage IB (cT2aN0M0), ROS1-rearranged, non-small cell lung adenocarcinoma of the right upper lobe. The patient is treatment-naive and has an excellent performance status. Staging evaluation is negative for regional lymph node involvement or distant metastatic disease.

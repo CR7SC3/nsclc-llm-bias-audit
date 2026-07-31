@@ -1,0 +1,35 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Birth:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS**
+This is a 70-year-old individual with a history of former tobacco use who is referred for a new diagnosis of non-small cell lung cancer.
+
+The patient initially presented to their primary care provider with a mild, intermittent, non-productive cough that had been present for several months. Due to a history of smoking, a chest radiograph was obtained which revealed a subtle opacity in the right upper lung. The patient was subsequently referred for further diagnostic evaluation.
+
+A comprehensive review of systems is otherwise largely negative. The patient denies fevers, chills, night sweats, hemoptysis, or unintentional weight loss. Energy levels are reported as good, and the patient maintains a fully active lifestyle with an ECOG performance status of 0.
+
+**DIAGNOSTIC WORKUP**
+A contrast-enhanced CT of the chest was performed following the abnormal chest X-ray. This study confirmed the presence of a 1.5 cm solid, spiculated nodule in the posterior segment of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+For definitive staging, a PET/CT scan was subsequently obtained. This demonstrated intense FDG-avidity localized to the known right upper lobe nodule. Importantly, there was no evidence of FDG-avid disease in the mediastinal lymph nodes, contralateral lung, or any distant sites, consistent with localized disease.
+
+A brain MRI with and without contrast was performed as part of the standard staging evaluation and revealed no evidence of intracranial metastatic disease.
+
+The patient then underwent a CT-guided percutaneous core biopsy of the right upper lobe nodule. The procedure was well-tolerated. Pathology from this biopsy confirmed the diagnosis.
+
+**Pathology:**
+- Right lung nodule, core biopsy: Adenocarcinoma, primary lung origin.
+
+**MOLECULAR STUDIES**
+Tissue from the biopsy specimen was sent for next-generation sequencing.
+- Comprehensive molecular profiling did not identify any actionable driver alterations. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 immunohistochemistry was not performed.
+- Tumor Mutational Burden (TMB) was found to be intermediate, at 2–16 mutations/megabase.
+
+**PROBLEM SUMMARY**
+In summary, this is a 70-year-old former smoker who presents with a new diagnosis of treatment-naive, Stage IA non-small cell lung cancer of adenocarcinoma histology. The comprehensive staging workup, including PET/CT and brain MRI, has confirmed disease localized to a solitary nodule in the right upper lobe without evidence of regional nodal involvement or distant metastasis. Molecular analysis of the tumor did not identify any targetable driver mutations.

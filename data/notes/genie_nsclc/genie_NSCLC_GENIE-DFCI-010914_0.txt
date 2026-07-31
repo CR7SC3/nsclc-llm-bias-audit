@@ -1,0 +1,19 @@
+**HPI:**
+This is a 70-year-old individual with a remote smoking history who is referred for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and mild progressive shortness of breath with exertion. These symptoms prompted an evaluation by their primary care provider. The patient denies any fevers, chills, hemoptysis, or significant weight loss. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest radiograph was concerning for a right-sided pulmonary mass. Subsequent staging CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This study identified a 4.8 cm spiculated mass in the right upper lobe. There was evidence of mediastinal and hilar adenopathy. The scan also revealed a discrete 1.5 cm nodule in the contralateral left lower lobe, concerning for metastatic disease. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+To further delineate the extent of disease, a whole-body PET/CT was performed. This demonstrated intense FDG-avidity within the primary right upper lobe mass, as well as in multiple mediastinal lymph node stations and the previously noted contralateral lung nodule in the left lower lobe. No other sites of FDG-avid disease were identified.
+
+A staging MRI of the brain with and without contrast was completed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass on [De-identified Date]. Pathologic analysis confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for next-generation sequencing and immunohistochemistry. Comprehensive molecular profiling did not identify any actionable driver alterations; testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative with a Tumor Proportion Score (TPS) of <1%. The Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker presenting for initial consultation for a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via biopsy of a right upper lobe mass. Staging evaluation confirmed metastatic disease to the contralateral lung, with no evidence of brain metastases. The patient is treatment-naive with a good performance status (ECOG 1). Molecular studies are notable for the absence of targetable driver mutations and negative PD-L1 expression.

@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY VISIT
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 53-year-old individual with an excellent performance status (ECOG 0) who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness but did not resolve. Over the subsequent weeks, the patient also noted the onset of mild right-sided chest discomfort and slight shortness of breath with significant exertion. Due to the persistence of these symptoms, they presented to their primary care provider, who ordered initial imaging.
+
+The patient's review of systems is otherwise negative. They deny fevers, chills, night sweats, or unintentional weight loss. They remain fully active and continue to work without limitation.
+
+**Diagnostic Workup:**
+A chest X-ray revealed a right upper lobe opacity, which prompted a follow-up contrast-enhanced CT of the chest. This study characterized a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. The scan also demonstrated enlarged ipsilateral mediastinal and hilar lymph nodes, concerning for regional involvement.
+
+To complete staging, a full-body PET/CT was performed. This confirmed high FDG-avidity within the primary right upper lobe mass and in multiple right-sided mediastinal lymph nodes (paratracheal and subcarinal stations). Crucially, the PET/CT showed no evidence of FDG-avid disease below the diaphragm or in the contralateral hemithorax, consistent with locoregionally confined disease. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided transbronchial needle aspiration (TBNA) of a right paratracheal (4R) lymph node for definitive diagnosis and staging.
+
+Pathology from the lymph node biopsy confirmed metastatic adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the biopsy specimen with the following results:
+*   **Actionable Driver Mutation:** An **EGFR L858R point mutation** was detected.
+*   **Other Markers:** Testing was **negative** for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 was **negative** (Tumor Proportion Score < 1%).
+*   **Tumor Mutational Burden (TMB):** TMB was **intermediate** (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 53-year-old never-smoker with a new diagnosis of treatment-naive, non-metastatic **Stage IIIA non-small cell lung adenocarcinoma** (AJCC 8th Edition). Staging workup has confirmed locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and negative PD-L1 expression. The patient presents today with an excellent performance status to discuss the implications of this diagnosis and review the findings in detail.

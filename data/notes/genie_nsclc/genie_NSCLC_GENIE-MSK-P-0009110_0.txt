@@ -1,0 +1,17 @@
+**HPI:**
+This is a 53-year-old who presents to clinic for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began experiencing a persistent, non-productive cough and new-onset headaches. These symptoms progressed, prompting an evaluation with their primary care provider. The patient is a former smoker, having quit more than one year ago. Functionally, the patient remains ambulatory and capable of all self-care but is restricted in physically strenuous activity, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The patient's initial workup included a chest CT scan which revealed a large, spiculated mass in the right upper lobe, with associated mediastinal and hilar lymphadenopathy. A subsequent staging CT of the abdomen and pelvis was performed, which demonstrated multiple hypoattenuating lesions throughout the liver, suspicious for metastatic deposits.
+
+Given the patient's presenting neurologic symptoms, a contrast-enhanced MRI of the brain was obtained. This study confirmed the presence of multiple enhancing parenchymal lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed to establish a tissue diagnosis. Pathologic examination of the specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+The lung biopsy tissue was sent for comprehensive molecular profiling and immunohistochemistry. Next-generation sequencing was performed, which did not identify any actionable driver alterations. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score <1%). Tumor Mutational Burden (TMB) was assessed and found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+This is a 53-year-old, treatment-naive patient with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain and liver. Molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and a high Tumor Mutational Burden.

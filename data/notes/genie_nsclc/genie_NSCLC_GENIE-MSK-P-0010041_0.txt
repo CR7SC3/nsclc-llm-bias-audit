@@ -1,0 +1,33 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS**
+This is a 46-year-old individual referred for evaluation and management of newly diagnosed metastatic non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately one month prior to presentation, when they began experiencing intermittent, dull headaches and occasional episodes of blurred vision. These symptoms gradually increased in frequency and severity, prompting a visit to an outside emergency department. An initial CT of the head was performed, which was suspicious for intracranial pathology. This was followed by a brain MRI that confirmed the presence of multiple lesions.
+
+Given the imaging findings concerning for metastatic disease, a search for a primary malignancy was initiated. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which revealed a primary mass in the right lung. The patient subsequently underwent a CT-guided biopsy of this lung mass, which established the diagnosis.
+
+The patient reports some mild fatigue but is otherwise asymptomatic from a pulmonary standpoint, with no cough, dyspnea, or chest pain. They have had no significant weight loss. They remain fully ambulatory and engaged in all activities of daily living. Performance status is excellent, ECOG 1. The patient is a lifetime never-smoker.
+
+**DIAGNOSTIC WORKUP**
+**Brain MRI with and without contrast ([De-identified Date]):** Revealed multiple, well-circumscribed, enhancing lesions within the bilateral cerebral hemispheres, consistent with metastatic deposits.
+
+**CT of Chest, Abdomen, and Pelvis with contrast ([De-identified Date]):** Identified a 3.2 cm spiculated mass in the right upper lobe. Several enlarged mediastinal lymph nodes were also noted. No suspicious metastatic lesions were identified in the liver, adrenal glands, or osseous structures within the field of view.
+
+**CT-guided Core Needle Biopsy, Right Upper Lobe Mass ([De-identified Date]):** Pathologic examination of the tissue specimen revealed invasive adenocarcinoma. Immunohistochemical staining was positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**AJCC Staging (8th Edition):** Stage IV non-small cell lung cancer.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+- **Actionable driver mutation:** An **ALK gene rearrangement** was detected.
+- **Other markers:** The tumor was found to be negative for pathogenic alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Testing was not performed.
+- **Tumor Mutational Burden (TMB):** Low (<2 mutations/megabase).
+
+**PROBLEM SUMMARY**
+This is a 46-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirmed a primary right upper lobe lung mass with metastatic disease to the brain. Comprehensive molecular profiling of the tumor is notable for the presence of an ALK gene rearrangement. The patient is treatment-naive and presents for initial oncology consultation.

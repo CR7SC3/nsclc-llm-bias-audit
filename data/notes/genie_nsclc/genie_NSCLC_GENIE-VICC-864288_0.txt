@@ -1,0 +1,20 @@
+**HPI:**
+This is a 49-year-old individual referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed persistent headaches, intermittent dizziness, and a subtle decline in coordination. These symptoms progressed, prompting an evaluation at an outside emergency department on [De-identified Date].
+
+An initial non-contrast CT of the head revealed findings suspicious for intracranial masses, which led to a contrast-enhanced MRI of the brain. The MRI confirmed the presence of multiple enhancing lesions in the cerebral hemispheres, consistent with metastatic disease. A subsequent staging PET/CT scan was performed, which identified a hypermetabolic primary mass in the right lung and mediastinal lymphadenopathy. The patient underwent a biopsy of the lung mass for definitive diagnosis.
+
+At present, the patient reports ongoing fatigue but is fully ambulatory and capable of all self-care activities, with an ECOG performance status of 1. They are a current smoker. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+*   **MRI Brain ([De-identified Date]):** Revealed multiple, ring-enhancing intracranial lesions within the bilateral cerebral hemispheres, characteristic of metastatic deposits.
+*   **PET/CT ([De-identified Date]):** Demonstrated a hypermetabolic mass in the right upper lobe of the lung, with FDG-avid mediastinal lymph nodes. Multiple supratentorial brain lesions were also noted, consistent with the prior MRI findings. No other distant metastatic disease was identified in the chest, abdomen, or pelvis.
+*   **CT-guided Core Biopsy, Right Lung Mass ([De-identified Date]):** Pathology confirmed a diagnosis of non-small cell lung cancer with features most consistent with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue with the following key results:
+*   **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) of ≥50%.
+*   **Tumor Mutational Burden (TMB):** High, at >16 mutations/megabase.
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+**Problem Summary:**
+This is a 49-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the brain. Molecular testing is notable for high PD-L1 expression (TPS ≥50%) and a high tumor mutational burden, with no targetable driver mutations identified. The patient is treatment-naive.

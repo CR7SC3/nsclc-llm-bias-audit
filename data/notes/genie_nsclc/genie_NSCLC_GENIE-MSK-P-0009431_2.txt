@@ -1,0 +1,31 @@
+**REASON FOR CONSULTATION:** New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS**
+This is a 73-year-old who presents for an initial oncology consultation. The patient was in their usual state of health until approximately two months ago, when they began to experience a persistent, dry cough and progressive shortness of breath with exertion. Over the subsequent weeks, they also developed dull, intermittent headaches and a new, aching pain in their right hip. Due to the progression of these symptoms, the patient sought medical evaluation.
+
+The patient reports being able to perform all self-care but is limited in strenuous activity due to dyspnea, consistent with an ECOG performance status of 1. They deny fevers, chills, or significant weight loss.
+
+**PAST MEDICAL HISTORY**
+- Uterus Cancer, status post definitive treatment, with no evidence of recurrence.
+- Hypertension
+
+**SOCIAL HISTORY**
+- Tobacco: Former smoker, quit more than one year ago.
+
+**DIAGNOSTIC WORKUP**
+An initial chest X-ray revealed a left upper lobe lung opacity, prompting further investigation. A staging CT scan of the chest, abdomen, and pelvis was performed, which characterized a 4 cm spiculated mass in the left upper lobe with associated mediastinal adenopathy. The scan also identified a destructive lytic lesion in the right iliac bone.
+
+Given the patient's neurologic symptoms, a contrast-enhanced MRI of the brain was obtained. This study revealed several small, enhancing parenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the primary left lung mass on [De-identified date]. Histopathologic examination confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+The cumulative findings from imaging and pathology confirm a diagnosis of AJCC Stage IV non-small cell lung cancer.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Specific findings are as follows:
+- Negative for mutations or fusions in: EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- Tumor Mutational Burden (TMB): intermediate (2–16 mut/Mb).
+- PD-L1: not tested (pre-2017 sequencing — testing not yet standard of care).
+
+**PROBLEM SUMMARY**
+This is a 73-year-old former smoker with a new diagnosis of treatment-naive Stage IV NSCLC, adenocarcinoma histology, with metastases to the brain and bone. Molecular profiling did not identify any actionable driver mutations.

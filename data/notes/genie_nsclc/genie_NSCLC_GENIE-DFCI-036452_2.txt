@@ -1,0 +1,35 @@
+**REASON FOR CONSULTATION:**
+New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 56-year-old with a past medical history of melanoma and former tobacco use who presents for initial oncology consultation. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a seasonal illness, but due to lack of resolution, they presented to their primary care provider.
+
+An initial chest X-ray was performed which revealed a suspicious opacity in the right upper lung. This prompted a follow-up contrast-enhanced CT of the chest, which confirmed the presence of a spiculated mass in the right upper lobe. Given the high suspicion for malignancy, the patient was referred for a CT-guided core needle biopsy of the mass.
+
+Following the biopsy, a full staging evaluation was undertaken including a PET/CT scan and a brain MRI. The PET/CT demonstrated avidity in the primary right upper lobe mass and in a single ipsilateral hilar lymph node, with no evidence of mediastinal, contralateral, or distant metastatic disease. The subsequent brain MRI was negative for any intracranial metastases. The patient has remained active with an ECOG performance status of 0-1 and reports no significant weight loss, hemoptysis, or bone pain. They are here today to discuss the findings and establish care.
+
+**DIAGNOSTIC WORKUP:**
+A review of outside records and imaging was performed.
+
+**CT Chest, [De-identified Date]:**
+Revealed a 3.8 cm spiculated solid mass in the posterior segment of the right upper lobe. A 1.2 cm right hilar lymph node was noted.
+
+**PET/CT, [De-identified Date]:**
+FINDINGS: Intense FDG uptake within the known 3.8 cm right upper lobe mass (SUVmax 11.8). Avid uptake is also noted in a right hilar lymph node (SUVmax 7.2). No other sites of abnormal FDG avidity to suggest regional nodal spread beyond the hilum or distant metastatic disease.
+
+**MRI Brain with and without contrast, [De-identified Date]:**
+FINDINGS: No evidence of intracranial mass, hemorrhage, or metastatic disease.
+
+**Pathology, CT-guided biopsy of right lung mass, [De-identified Date]:**
+DIAGNOSIS: Non-small cell lung cancer, not otherwise specified (NOS).
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen with the following results:
+- **Actionable driver mutation detected:** KRAS G12C
+- **Additional mutation:** STK11 loss-of-function mutation identified.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 2-16 mut/Mb).
+- **Other markers:** The tumor was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **PD-L1 Expression:** Not tested.
+
+**PROBLEM SUMMARY:**
+This is a 56-year-old former smoker presenting for initial oncologic evaluation. The patient has a new diagnosis of clinical Stage IIB non-small cell lung cancer of the right upper lobe, histology not otherwise specified. Staging workup, including PET/CT and brain MRI, is negative for distant metastatic disease. Molecular profiling of the tumor is significant for a KRAS G12C mutation and a concurrent STK11 loss-of-function mutation. The patient is treatment-naive.

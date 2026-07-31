@@ -1,0 +1,17 @@
+**History of Present Illness**
+
+This is a 73-year-old with a new diagnosis of metastatic non-small cell lung cancer, referred for initial oncology consultation. The patient presented to an outside facility approximately one month ago with a chief complaint of progressive right-sided chest pain and a non-productive cough. An initial chest X-ray revealed a right-sided lung mass and an associated pleural effusion.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This confirmed a 5.2 cm spiculated mass in the right upper lobe. The scan also demonstrated a moderate right-sided pleural effusion with associated pleural thickening, concerning for malignant involvement. Multiple osseous lesions were identified in the thoracic spine and ribs, suspicious for metastatic disease. Additionally, pathologic contralateral mediastinal and supraclavicular lymphadenopathy were noted. A staging MRI of the brain was obtained and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed invasive adenocarcinoma, consistent with a lung primary. Given the findings of metastatic disease to bone, pleura, and distant lymph nodes, the diagnosis is consistent with AJCC Stage IV disease.
+
+Past medical history is notable for a history of prostate cancer, managed with observation, and a history of smoking, having quit over five years ago. The patient remains active, able to perform all activities of daily living with some symptoms of chest discomfort, consistent with an ECOG performance status of 1.
+
+**Molecular Studies**
+
+Next-generation sequencing was performed on the tumor tissue specimen. Results are notable for the detection of an actionable KRAS G12C mutation. Additional testing was negative for common driver mutations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. ERBB2 (HER2) was also negative. Tumor Mutational Burden (TMB) was reported as intermediate at 14 mutations/megabase. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary**
+
+This is a 73-year-old with a new diagnosis of Stage IV non-small cell adenocarcinoma of the lung, metastatic to bone, pleura, and distant lymph nodes. Molecular profiling of the tumor is positive for a KRAS G12C mutation. The patient is treatment-naive with a good performance status (ECOG 1).

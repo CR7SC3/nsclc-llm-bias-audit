@@ -1,0 +1,21 @@
+**HPI:**
+This is a pleasant 82-year-old who is seen today for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of good health until approximately six weeks ago when a chest radiograph, obtained as part of a preoperative evaluation for an elective orthopedic procedure, revealed a right upper lobe pulmonary nodule. The patient has been largely asymptomatic, denying any cough, shortness of breath, chest pain, hemoptysis, or constitutional symptoms such as fevers or weight loss. Performance status is excellent; the patient is fully ambulatory and independent in all activities of daily living. Past medical history is notable for a remote history of tobacco use, having quit over a decade ago. The patient is here today to review the diagnostic findings and discuss the diagnosis.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed, which confirmed the presence of a 2.3 cm solid, spiculated nodule in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity within the known right upper lobe nodule (SUV max 10.4) without evidence of FDG-avid disease elsewhere in the chest, including the mediastinum and hila. There were no distant sites of FDG-avid disease identified in the abdomen or pelvis.
+
+Given the concern for a primary lung malignancy, a brain MRI with and without contrast was obtained to complete staging, and this was negative for any evidence of intracranial metastatic disease.
+
+The patient then underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathology returned as invasive adenocarcinoma, moderately differentiated. Based on the completed workup, the patient is staged with AJCC Stage IA non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for next-generation sequencing. Results are as follows:
+- An actionable driver was detected: ALK gene rearrangement.
+- Testing was negative for alterations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is an 82-year-old former smoker with an excellent performance status who presents with a new diagnosis of Stage IA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup, including PET/CT and brain MRI, has shown no evidence of regional or distant metastatic disease. Molecular profiling of the tumor is significant for the presence of an ALK rearrangement. The patient is treatment-naive. The purpose of today's visit is to discuss these findings in detail.

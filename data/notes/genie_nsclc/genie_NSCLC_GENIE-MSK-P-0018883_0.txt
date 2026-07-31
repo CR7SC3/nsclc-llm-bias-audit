@@ -1,0 +1,20 @@
+**HPI:**
+This is a 67-year-old former smoker (quit over one year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they developed a persistent cough and progressive shortness of breath with exertion. An initial chest X-ray ordered by their primary care provider revealed a right-sided lung mass.
+
+For further evaluation, a staging PET/CT scan was performed. This demonstrated a large, hypermetabolic primary mass in the right upper lobe. The scan also revealed extensive FDG-avid lymphadenopathy within the mediastinum and in the right supraclavicular region. Importantly, there was no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or bones. A subsequent MRI of the brain was performed for staging purposes and was negative for intracranial metastases.
+
+Given these findings, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for definitive tissue diagnosis and staging. Biopsies were obtained from a subcarinal lymph node, which confirmed the diagnosis. The patient has been referred for discussion of the diagnosis and management options. They report a good performance status (ECOG 1), remaining fully ambulatory and capable of self-care, though limited in strenuous activity by dyspnea.
+
+**Diagnostic Workup:**
+*   **Imaging (PET/CT, dated [De-identified]):** A 5.2 cm hypermetabolic mass is noted in the right upper lobe. There is extensive, bulky, FDG-avid lymphadenopathy involving multiple right-sided mediastinal and ipsilateral supraclavicular nodal stations (N2 and N3 disease). No evidence of distant metastatic disease (M0).
+*   **Imaging (Brain MRI, dated [De-identified]):** No evidence of intracranial metastatic disease.
+*   **Pathology (EBUS-FNA, subcarinal node, dated [De-identified]):** Invasive Adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained via biopsy.
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor was found to be negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 expression was not tested.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 67-year-old with a new diagnosis of locally advanced, unresectable Stage IIIB non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for an absence of identified targetable driver alterations. The patient is treatment-naive and presents for initial evaluation and to discuss the diagnosis.

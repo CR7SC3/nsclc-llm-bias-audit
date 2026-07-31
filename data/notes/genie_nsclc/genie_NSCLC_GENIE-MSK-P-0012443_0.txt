@@ -1,0 +1,13 @@
+**HPI:**
+I had the pleasure of evaluating this 32-year-old for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker who was in their usual state of good health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms prompted a visit to an urgent care center, where a chest radiograph revealed a right-sided lung mass and a moderate pleural effusion. The patient was subsequently referred for further evaluation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This confirmed a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated a moderate right-sided pleural effusion and several small contralateral pulmonary nodules in the left lung, consistent with M1a disease. There was no evidence of metastatic disease in the abdomen or pelvis, with the liver, adrenal glands, and bones appearing unremarkable. A subsequent MRI of the brain with contrast was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Concurrently, a thoracentesis was performed, and analysis of the pleural fluid cytology was positive for malignant cells. The pathology from the core biopsy confirmed the diagnosis of non-small cell lung cancer, not otherwise specified (NOS).
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue from the core biopsy. No actionable driver alterations were identified. Specifically, the tumor was negative for mutations or rearrangements in *EGFR*, *ALK*, *ROS1*, *BRAF*, *MET* exon 14, *RET*, *NTRK*, *KRAS*, and *ERBB2*. Tumor mutational burden (TMB) was found to be intermediate at 2–16 mut/Mb. PD-L1 expression was not tested, as this was not standard practice at the time of the initial diagnostic workup.
+
+**Problem Summary:**
+In summary, this is a 32-year-old never-smoker who presents for initial consultation with a new diagnosis of Stage IV (M1a) non-small cell lung cancer, histology not otherwise specified. The diagnosis was established via CT-guided biopsy of a right upper lobe mass. Staging studies confirmed metastatic disease based on a malignant pleural effusion and contralateral lung nodules, with no evidence of distant organ or brain metastases. Comprehensive molecular profiling of the tumor did not identify any targetable driver mutations. The patient has an excellent performance status and is here today to discuss the diagnosis.

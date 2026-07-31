@@ -1,0 +1,19 @@
+**HPI:**
+This is a 65-year-old individual with a history of smoking (quit over one year ago) who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. An initial course of antibiotics prescribed by their primary care provider did not lead to improvement. Over the subsequent weeks, the patient noted the onset of new, localized mid-back pain, which was constant and progressively worsening. This prompted an emergency department visit. The patient remains fully ambulatory and independent with activities of daily living, though reports increased fatigue. They deny hemoptysis, fevers, or significant unintentional weight loss.
+
+**Diagnostic Workup:**
+The initial diagnostic evaluation began with a chest X-ray that revealed a right-sided pulmonary opacity. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization. This study identified a 4.2 cm spiculated mass in the right upper lobe, associated with mediastinal lymphadenopathy. Additionally, the scan demonstrated multiple small nodules in the contralateral (left) lung and a lytic lesion in the T8 vertebral body, highly suspicious for metastatic disease.
+
+A whole-body PET/CT scan was obtained for staging purposes. It confirmed high FDG-avidity in the primary right upper lobe mass, several mediastinal lymph nodes, the contralateral pulmonary nodules, and the thoracic spine lesion. A staging MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date]. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. Molecular profiling did not identify an actionable driver alteration. Specific testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+1.  Stage IV (cT2a N2 M1b) Non-Small Cell Lung Cancer, Adenocarcinoma histology.
+2.  Metastatic disease involving the contralateral lung and bone.
+3.  Tumor molecular profile negative for common actionable driver mutations.
+4.  ECOG Performance Status 1.
+5.  Former smoker.

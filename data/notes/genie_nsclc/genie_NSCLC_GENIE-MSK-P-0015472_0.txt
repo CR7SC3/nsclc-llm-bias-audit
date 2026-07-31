@@ -1,0 +1,20 @@
+**HPI:**
+This is a 77-year-old individual with a significant smoking history who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider approximately one month ago with a persistent, dry cough and progressive dyspnea on exertion. More recently, the patient began experiencing intermittent headaches and a brief episode of word-finding difficulty, which prompted an evaluation in the emergency department at [De-identified] Hospital on [De-identified Date]. The patient is a current smoker and reports feeling increasingly fatigued but has maintained their weight. They are here today to establish care and understand the diagnosis.
+
+**Diagnostic Workup:**
+An initial chest radiograph in the emergency department was suspicious for a right-sided lung mass, leading to further imaging. A subsequent CT of the chest, abdomen, and pelvis with contrast was performed. This study identified a 4.2 cm spiculated mass in the right upper lobe with associated bulky mediastinal and hilar lymphadenopathy.
+
+Given the new neurological symptoms, a contrast-enhanced MRI of the brain was obtained. This revealed three distinct ring-enhancing lesions in the bilateral cerebral hemispheres, the largest measuring 1.5 cm in the left parietal lobe, consistent with metastatic disease.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic evaluation of the biopsy specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+The combination of a primary lung mass with confirmed metastases to the brain establishes the diagnosis of Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+The lung biopsy tissue was sent for next-generation sequencing to assess for molecular alterations.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be high, at >16 mutations/megabase.
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 77-year-old current smoker presenting with a new diagnosis of metastatic (Stage IV) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed a primary right upper lobe lung tumor with multiple metastases to the brain. Molecular profiling is notable for a high Tumor Mutational Burden but is negative for common actionable driver mutations. The patient is treatment-naive and presents today for initial evaluation and discussion of the diagnosis.

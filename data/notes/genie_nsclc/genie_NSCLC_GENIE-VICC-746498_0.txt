@@ -1,0 +1,20 @@
+**HPI:**
+This is an initial oncology consultation for a 68-year-old individual with a new diagnosis of non-small cell lung cancer. The patient is a former smoker who quit over one year ago. They were in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms worsened to include right-sided pleuritic chest discomfort. Due to increasing shortness of breath, the patient presented to an outside emergency department for evaluation.
+
+An initial chest X-ray demonstrated a right-sided pleural effusion and a suspected lung mass. A subsequent CT scan of the chest confirmed these findings. The patient was admitted for further diagnostic workup, including a therapeutic and diagnostic thoracentesis. Cytological analysis of the pleural fluid confirmed the presence of malignant cells. The patient reports a 10-pound unintentional weight loss over the past two months and fatigue, but is otherwise fully ambulatory and capable of all self-care, with an ECOG performance status of 1. They are here today to establish care and discuss the diagnosis.
+
+**Diagnostic Workup:**
+- **CT Chest, Abdomen, and Pelvis with contrast, [De-identified date]:** Revealed a 4.5 cm spiculated mass in the right upper lobe of the lung. A large, moderate-sized right-sided malignant pleural effusion was present, with associated pleural nodularity. No suspicious mediastinal or hilar lymphadenopathy was definitively identified. The visualized upper abdomen, including the liver and adrenal glands, showed no evidence of metastatic disease.
+- **MRI Brain with and without contrast, [De-identified date]:** Performed for central nervous system staging. This was negative for intracranial metastatic disease.
+- **Thoracentesis, [De-identified date]:** 1.5 liters of serosanguinous fluid were removed, with significant improvement in dyspnea. Cytopathology of the pleural fluid confirmed adenocarcinoma, consistent with a lung primary. A cell block was prepared for molecular analysis.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block.
+- **Actionable Mutations:** An activating **KRAS G12C** mutation was detected.
+- **Negative Markers:** Testing was negative for other targetable driver mutations, including **EGFR, ALK, ROS1, BRAF, MET exon 14, RET,** and **ERBB2**.
+- **Immunotherapy Markers:**
+    - PD-L1 expression by immunohistochemistry (IHC) was high, with a **Tumor Proportion Score (TPS) of ≥50%**.
+    - Tumor Mutational Burden (TMB) was **high (>16 mut/Mb)**.
+
+**Problem Summary:**
+In summary, this is a 68-year-old with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura (pT2a N0 M1a). The patient has an excellent performance status (ECOG 1). Molecular profiling is notable for a KRAS G12C mutation, high PD-L1 expression (TPS ≥50%), and a high Tumor Mutational Burden. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish a plan for management.

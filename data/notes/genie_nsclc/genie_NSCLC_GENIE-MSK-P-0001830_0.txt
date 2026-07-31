@@ -1,0 +1,25 @@
+**HPI:**
+This is a 73-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago, when they began to notice a persistent, dry cough and increasing shortness of breath with exertion. Over the subsequent weeks, they also experienced fatigue and an unintentional weight loss of approximately 15 pounds. They presented to their primary care provider, who obtained a chest X-ray which was suspicious for a lung mass. The patient was then referred for further diagnostic evaluation. The patient reports ongoing cough and dyspnea but is able to perform all activities of daily living with some difficulty. Performance status is estimated at ECOG 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study revealed a 4.2 cm spiculated mass in the left upper lobe of the lung. There was extensive ipsilateral mediastinal and hilar lymphadenopathy noted. Additionally, several enlarged and suspicious contralateral supraclavicular lymph nodes were identified. No discrete liver, adrenal, or bone metastases were seen.
+
+For definitive staging, a PET/CT scan was obtained. This demonstrated intense FDG-avidity in the primary left upper lobe mass, as well as in the mediastinal and hilar lymph nodes. Notably, there was high metabolic activity in a right supraclavicular lymph node, consistent with distant metastatic disease (M1b).
+
+The patient subsequently underwent an ultrasound-guided core needle biopsy of the right supraclavicular lymph node, as this was the most accessible site for tissue diagnosis. Pathology from this procedure confirmed metastatic adenocarcinoma, with immunohistochemical stains (TTF-1 positive, Napsin-A positive) supporting a lung primary.
+
+A staging MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the supraclavicular node biopsy. The key findings are as follows:
+- No actionable driver alterations were identified. The tumor was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was intermediate (reported as 11 mutations/megabase).
+- A pathogenic loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+This is a 73-year-old former smoker presenting for initial evaluation of a new cancer diagnosis. The clinical situation is summarized as:
+1.  **Diagnosis:** Stage IV non-small cell lung cancer, adenocarcinoma histology. Based on the workup, this is clinical stage T2a N3 M1b.
+2.  **Metastatic Disease:** Disease is metastatic to distant lymph nodes (contralateral supraclavicular). The staging workup, including a brain MRI, is negative for other sites of distant disease.
+3.  **Molecular Profile:** The tumor lacks common actionable driver mutations. It has an intermediate tumor mutational burden and a loss-of-function STK11 mutation.
+4.  **Clinical Status:** The patient is symptomatic but remains fully ambulatory with an ECOG performance status of 1. They are treatment-naive.

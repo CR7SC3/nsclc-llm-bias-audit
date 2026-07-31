@@ -1,0 +1,23 @@
+**Medical Oncology Initial Consultation Note**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old individual with a history of smoking (quit >1 year ago) who is referred for evaluation of a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. This was associated with mild fatigue but no significant weight loss, hemoptysis, or chest pain. Due to the persistence of symptoms, they presented to their primary care provider, who ordered initial imaging. The patient remains fully ambulatory and is managing all activities of daily living, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest radiograph demonstrated a right-sided pulmonary opacity, prompting further evaluation with a contrast-enhanced CT of the chest, abdomen, and pelvis. This study revealed a 4.2 cm spiculated mass in the right upper lobe with associated bulky ipsilateral mediastinal and hilar lymphadenopathy. The scan also identified multiple enlarged, suspicious lymph nodes in the retroperitoneum, consistent with distant metastatic disease.
+
+A subsequent PET/CT scan was performed for definitive staging. This confirmed high FDG-avidity in the primary right upper lobe mass, the mediastinal/hilar lymph nodes, and the retroperitoneal lymph nodes, confirming M1b disease. A staging MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**MOLECULAR STUDIES:**
+Tumor tissue from the biopsy was sent for comprehensive genomic profiling and PD-L1 analysis.
+- **Next-Generation Sequencing:** No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+- **PD-L1 Expression:** Immunohistochemistry demonstrated high PD-L1 expression, with a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 68-year-old with a new diagnosis of Stage IV (cT2aN2M1b) non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to distant abdominal lymph nodes, with no evidence of brain metastases on dedicated imaging. The patient has an excellent performance status. Molecular studies are notable for the absence of an identifiable oncogenic driver and high PD-L1 expression (TPS ≥50%). The patient is here for an initial oncology consultation to discuss these findings and the implications for management.

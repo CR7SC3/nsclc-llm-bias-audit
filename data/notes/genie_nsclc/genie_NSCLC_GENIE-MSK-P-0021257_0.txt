@@ -1,0 +1,25 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 64-year-old individual with a new diagnosis of non-small cell lung cancer, referred for consultation regarding management. The patient was in their usual state of good health until approximately two months ago when they developed a mild, non-productive cough following a viral upper respiratory infection. When the cough persisted, a chest X-ray was obtained which revealed a small, ill-defined opacity in the right upper lung.
+
+This prompted a follow-up contrast-enhanced CT of the chest, which confirmed the presence of a 1.8 cm solid, spiculated nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified. The patient reports the cough has since resolved. They deny any hemoptysis, chest pain, shortness of breath, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient is fully active and independent with all activities of daily living, with an ECOG performance status of 0. The patient is a lifetime never-smoker.
+
+**DIAGNOSTIC WORKUP:**
+A comprehensive staging evaluation was undertaken following the initial CT findings.
+
+A PET/CT scan was performed on [De-identified]. This demonstrated intense FDG-avidity corresponding to the known 1.8 cm right upper lobe pulmonary nodule. There was no evidence of FDG-avid hilar or mediastinal lymphadenopathy. No distant metastatic disease was identified in the chest, abdomen, or pelvis.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was subsequently performed on [De-identified]. Pathology confirmed the diagnosis of invasive adenocarcinoma.
+
+To complete staging, an MRI of the brain with and without contrast was performed on [De-identified] and was negative for any evidence of intracranial metastases.
+
+Based on this workup, the patient is diagnosed with clinical Stage IA disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy. An actionable ALK gene rearrangement was detected. The tumor was negative for mutations or fusions in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS. Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase. PD-L1 immunohistochemistry was not performed on the specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 64-year-old never-smoker with an excellent performance status who presents with a new diagnosis of Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, of the right upper lobe. Molecular profiling of the tumor is notable for the presence of an ALK rearrangement. The patient is treatment-naive.

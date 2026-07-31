@@ -1,0 +1,31 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is an 86-year-old individual with a history of hypertension and hyperlipidemia who is seen today for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year ago.
+
+The patient was in their usual state of health until approximately six weeks ago when they noted the onset of a persistent, dry cough and progressive fatigue. Over the past month, they also became aware of a new, firm, non-tender lump under the skin of their right flank. Due to these concerns, they presented to their primary care provider.
+
+Initial workup included a chest CT scan which revealed a spiculated 3.5 cm mass in the left upper lobe of the lung, along with suspicious mediastinal lymphadenopathy. The scan also confirmed the presence of a 2 cm subcutaneous soft tissue nodule in the right flank. A subsequent PET/CT scan was performed for staging purposes.
+
+Given the accessibility of the subcutaneous lesion, the patient underwent an excisional biopsy of this nodule for definitive diagnosis. The patient presents today to discuss the diagnosis and establish care. On review of systems, the patient endorses ongoing fatigue and a 10-pound unintentional weight loss over the past two months. They deny fevers, chills, significant shortness of breath, or chest pain. Their ECOG performance status is 1 (symptomatic but fully ambulatory).
+
+**Diagnostic Workup:**
+**Imaging:**
+*   **PET/CT Scan, [De-identified Date]:** A hypermetabolic mass was identified in the left upper lobe, consistent with the primary malignancy. Avid mediastinal lymphadenopathy was noted. A distinct, intensely FDG-avid subcutaneous nodule was seen in the right flank, consistent with a site of metastatic disease. No other distant metastatic sites were identified.
+*   **MRI Brain with and without contrast, [De-identified Date]:** No evidence of intracranial metastasis.
+
+**Pathology:**
+*   **Biopsy, Right Flank Subcutaneous Nodule, [De-identified Date]:** Pathology revealed metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor specimen.
+*   **Driver Alterations:** No actionable driver alteration was identified. The tumor was negative for mutations, fusions, or amplifications in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Immunohistochemistry:** Positive.
+*   **Tumor Mutational Burden (TMB):** High (>16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is an 86-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with a confirmed metastasis to the subcutaneous tissue. The diagnosis corresponds to AJCC 8th Edition Stage IV (cT2, cN2, cM1b). Brain imaging is negative for metastatic disease. Molecular profiling of the tumor is notable for the absence of targetable driver alterations, positive PD-L1 expression, and a high tumor mutational burden.

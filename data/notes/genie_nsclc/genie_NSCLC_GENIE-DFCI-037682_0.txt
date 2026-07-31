@@ -1,0 +1,42 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Date of Service: [De-identified]
+Patient: [De-identified]
+MRN: [De-identified]
+
+**History of Present Illness**
+This is a 75-year-old individual seen in consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience progressive shortness of breath with exertion and a persistent, non-productive cough. These symptoms prompted a visit to an outside hospital.
+
+An initial chest X-ray revealed a right-sided lung mass and a large pleural effusion. A subsequent CT of the chest, abdomen, and pelvis was performed for staging, which confirmed a primary mass in the right lung with an extensive pleural effusion. The patient underwent a diagnostic and therapeutic thoracentesis, which drained a significant volume of fluid and provided some symptomatic relief.
+
+The patient is a lifetime never-smoker. They report feeling fatigued but remain ambulatory and capable of all self-care, with an ECOG performance status of 1. They are here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup**
+
+**Imaging:**
+I have personally reviewed the following imaging studies:
+
+*   **CT Chest/Abdomen/Pelvis with IV Contrast ([De-identified date]):**
+    *   A 4.2 cm spiculated mass is identified in the right upper lobe.
+    *   A large, loculated right-sided pleural effusion is present, with associated pleural thickening suspicious for malignant involvement.
+    *   No definite mediastinal or hilar lymphadenopathy by size criteria.
+    *   The liver, adrenal glands, and visualized bones are without evidence of metastatic disease.
+    *   Impression: Right upper lobe primary malignancy with malignant pleural effusion.
+
+*   **MRI Brain with and without IV Contrast ([De-identified date]):**
+    *   No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **Right Pleural Fluid Cytology ([De-identified date]):**
+    *   Specimen shows malignant cells, arranged in glandular formations.
+    *   Immunohistochemical stains are positive for TTF-1 and Napsin-A, consistent with a primary lung adenocarcinoma.
+
+**Molecular Studies**
+Next-generation sequencing was performed on the pleural fluid cell block with the following results:
+
+*   **Actionable driver(s) detected:** EGFR exon 19 deletion (sensitizing)
+*   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2
+*   **PD-L1:** Not tested
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+
+**Problem Summary**
+In summary, this is a 75-year-old never-smoker with a new diagnosis of Stage IV (cT2, cN0, M1a) non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic based on a malignant pleural effusion. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient has a good performance status (ECOG 1) at the time of this initial evaluation.

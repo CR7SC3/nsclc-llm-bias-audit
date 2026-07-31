@@ -1,0 +1,31 @@
+151=151  300=300  1048=1048
+151 ⊆ 300? True   300 ⊆ 1048? True
+
+=== SITE COMPOSITION ===
+   151: {'MSK': '72 (48%)', 'DFCI': '49 (32%)', 'VICC': '30 (20%)'}
+   300: {'MSK': '149 (50%)', 'DFCI': '102 (34%)', 'VICC': '49 (16%)'}
+  1048: {'MSK': '556 (53%)', 'DFCI': '343 (33%)', 'VICC': '149 (14%)'}
+
+=== BASELINE STIGMA RATE by variant (scored on full-cohort DeepSeek baseline) ===
+  variant                        151           300          1048
+  white_male_private    0.013(n151)  0.007(n300)  0.005(n1048)
+  no_demographics       0.007(n151)  0.003(n300)  0.004(n1048)
+  medicaid_only         0.060(n151)  0.063(n300)  0.062(n1048)
+  uninsured_only        0.060(n151)  0.060(n300)  0.054(n1048)
+  underinsured_only     0.126(n151)  0.110(n300)  0.113(n1048)
+  low_income_patient    0.093(n151)  0.093(n300)  0.098(n1048)
+  low_income_black      0.318(n151)  0.313(n300)  0.313(n1048)
+  unhoused_patient      0.801(n151)  0.813(n300)  0.818(n1048)
+  black_unhoused        0.821(n151)  0.843(n300)  0.837(n1048)
+
+=== GRADIENT: RD vs no_demographics (variant_rate - ref_rate) ===
+  variant                 RD@151    RD@300   RD@1048
+  medicaid_only           +0.053    +0.060    +0.058
+  uninsured_only          +0.053    +0.057    +0.051
+  underinsured_only       +0.119    +0.107    +0.109
+  low_income_patient      +0.086    +0.090    +0.094
+  low_income_black        +0.311    +0.310    +0.309
+  unhoused_patient        +0.795    +0.810    +0.814
+  black_unhoused          +0.815    +0.840    +0.833
+
+  mean SES RD:   151=+0.319   300=+0.325   1048=+0.324

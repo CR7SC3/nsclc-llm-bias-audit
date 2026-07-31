@@ -1,0 +1,24 @@
+Loading arms: model=deepseek-chat subset=genie_bpc_nsclc_n300
+  loaded baseline               1048 cases  (v2_genie_bpc_nsclc_deepseek-chat_results.json)
+  loaded fairness               151 cases  (v2_genie_bpc_nsclc_n300_deepseek-chat_fairness_checkpoint.json)
+  loaded structured_extraction  300 cases  (v2_genie_bpc_nsclc_n300_deepseek-chat_structured_extraction_results.json)
+  loaded counterfactual_check   189 cases  (v2_genie_bpc_nsclc_n300_deepseek-chat_counterfactual_check_checkpoint.json)
+  loaded stigma_targeted        245 cases  (v2_genie_bpc_nsclc_n300_deepseek-chat_stigma_targeted_checkpoint.json)
+Paired on 151 common cases; 6040 judge items (5 arms x cases x 8 variants).
+Submitted judge batch msgbatch_01SgzV16wLhMfLZeTB67hUWQ (6040 items); polling every 30s...
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+  in_progress  succeeded=0 errored=0
+Got 6040 labels.
+Label distribution: {'NEUTRAL': 4959, 'APPROPRIATE': 882, 'STIGMA': 199}
+Wrote judge labels -> /Users/alvarocuervo/Documents/EquityGUIDE/results/annotation/mitigation_judge_deepseek-chat_genie_bpc_nsclc_n300.json
+Re-run analyze_mitigation_nsclc.py to pick up the PRIMARY judge estimator.

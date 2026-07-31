@@ -1,0 +1,17 @@
+**HPI:**
+This is a 33-year-old individual with a recent diagnosis of metastatic non-small cell lung cancer, referred for initial oncology consultation. The patient was in their usual state of health until approximately two months ago, when they developed a persistent dry cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted the onset of dull, constant mid-back pain and a general sense of fatigue. After an initial evaluation with their primary care provider, a chest X-ray was obtained which revealed a right-sided lung mass, prompting further investigation. The patient is a lifetime never-smoker. They report a good performance status (ECOG 1), limited only by some back discomfort, but they remain fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial staging. This imaging confirmed the presence of a large primary mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also revealed multiple metastatic lesions, including several nodules in the liver, a suspicious nodule in the contralateral (left) lung, and a lytic lesion in a thoracic vertebral body. A dedicated MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. Pathology from this procedure confirmed the diagnosis of non-small cell lung cancer, with features most consistent with adenocarcinoma histology.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was sent for comprehensive molecular profiling via next-generation sequencing and immunohistochemistry. The results are as follows:
+- **Actionable Driver Mutations:** An EGFR exon 19 deletion (sensitizing) was detected.
+- **Additional Testing:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry shows a Tumor Proportion Score (TPS) in the 1–49% range.
+- **Tumor Mutational Burden (TMB):** TMB is intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 33-year-old never-smoker who presents with newly diagnosed, treatment-naive Stage IV (cT4 N2 M1c) non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the bone, liver, and contralateral lung. Molecular analysis of the tumor is significant for a sensitizing EGFR exon 19 deletion and PD-L1 expression of 1-49%. The patient is seen today for initial consultation to discuss these findings.

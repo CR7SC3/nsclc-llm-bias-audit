@@ -1,22 +1,21 @@
 **HPI:**
-The patient is a 72-year-old individual presenting for an initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician approximately three months ago with a several-week history of persistent, non-productive cough, progressive dyspnea on exertion, and occasional dull, right-sided pleuritic chest pain. These symptoms prompted initial investigations, including a chest X-ray, which revealed a suspicious right lung mass and a moderate right pleural effusion. Subsequent contrast-enhanced computed tomography (CT) of the chest, abdomen, and pelvis confirmed the presence of a primary lung lesion in the right lower lobe, extensive nodular pleural thickening, and a large right-sided pleural effusion. Additionally, a suspicious enhancing lesion was noted in the right adrenal gland, concerning for metastatic disease. A PET-CT scan was performed and demonstrated avid uptake in the primary lung mass, the diffuse pleural disease, and the right adrenal lesion. Biopsy of the primary lung mass, guided by CT, confirmed adenocarcinoma histology. The patient's performance status is currently ECOG 1, with the patient largely independent in activities of daily living but experiencing some fatigue and mild exertional dyspnea.
+This is a 72-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with a 15-pound unintentional weight loss over the same period. An initial evaluation with their primary care provider led to a chest X-ray that revealed a right-sided lung mass. The patient is a former smoker, having quit approximately 15 years ago, with a prior 30-pack-year history. The patient remains ambulatory and capable of all self-care but is limited in strenuous activity, consistent with an ECOG performance status of 1.
 
 **Diagnostic Workup:**
-*   **Imaging:**
-    *   [De-identified Date]: Chest X-ray: Revealed a right lower lobe mass and a moderate right pleural effusion.
-    *   [De-identified Date]: CT Chest/Abdomen/Pelvis with contrast: Demonstrated a 3.5 cm mass in the right lower lobe, extensive nodular pleural thickening, and a large right-sided pleural effusion. Additionally, a 2.1 cm enhancing lesion was noted in the right adrenal gland, highly suspicious for metastatic disease. No evidence of obstructive uropathy or significant lymphadenopathy beyond the chest was observed.
-    *   [De-identified Date]: PET-CT scan: Confirmed hypermetabolic activity in the right lower lobe lung mass (SUVmax 12.5), diffuse pleural disease (SUVmax 8.2), and the right adrenal lesion (SUVmax 7.8). No other sites of distant metastatic disease were identified.
-    *   [De-identified Date]: Brain MRI with contrast: Performed to complete staging, demonstrated no evidence of intracranial metastatic disease.
-*   **Pathology:**
-    *   [De-identified Date]: CT-guided biopsy of the right lower lobe lung mass: Histology confirmed invasive adenocarcinoma of the lung.
-    *   AJCC Stage: Stage IV (cT2b cN2 cM1b, based on pleural metastases and distant adrenal metastasis).
-*   **Smoking History:** The patient is a former smoker, having quit greater than one year ago.
+Following the abnormal chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This demonstrated a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed a moderate-sized, malignant-appearing right pleural effusion and a 2.1 cm hypodense lesion in segment VI of the liver, suspicious for a metastasis. No other sites of distant disease were noted in the chest or abdomen.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass, the right pleura, and the hepatic lesion. No other suspicious hypermetabolic foci were identified. A dedicated MRI of the brain with contrast was performed for staging purposes and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Based on the presence of a primary lung tumor with metastases to the pleura and liver, the patient's cancer is classified as AJCC 8th Edition Stage IV.
 
 **Molecular Studies:**
-Comprehensive molecular profiling was performed on the tumor tissue from the lung biopsy.
-*   **Actionable Driver Alterations:** No actionable driver alterations were identified. Specifically, testing was negative for mutations in *EGFR*, *ALK* rearrangements, *ROS1* rearrangements, *BRAF* V600E, *MET* exon 14 skipping mutations, *RET* fusions, *NTRK* fusions, *KRAS* mutations, and *ERBB2* (HER2) mutations.
-*   **PD-L1 Expression:** Programmed death-ligand 1 (PD-L1) expression by immunohistochemistry (IHC) was positive with a tumor proportion score (TPS) of ≥50%.
-*   **Tumor Mutational Burden (TMB):** Tumor mutational burden was intermediate, reported as 2–16 mutations/megabase (mut/Mb).
+Comprehensive next-generation sequencing was performed on the tumor tissue specimen. No actionable driver alterations were identified; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-The patient is a 72-year-old individual with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease involving the pleura and right adrenal gland. Molecular testing revealed no identifiable actionable driver alterations, a PD-L1 TPS ≥50%, and intermediate tumor mutational burden. The patient maintains a good performance status (ECOG 1).
+In summary, this is a 72-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the pleura and liver. Molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and the absence of identified targetable driver mutations.

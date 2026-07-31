@@ -1,0 +1,19 @@
+**HPI:**
+This is a 78-year-old individual with a history of smoking (quit over one year ago) who presents for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. This was associated with a decreased appetite and an unintentional weight loss of approximately 10 pounds over the past three months. The patient denies hemoptysis, fevers, or significant chest pain. Due to the persistence of these symptoms, they presented to their primary care provider for evaluation.
+
+The patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity, with an ECOG performance status of 1. They report feeling more tired than usual but are otherwise managing daily activities.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting further investigation with a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This study characterized a 4.2 cm spiculated mass in the right upper lobe. It also identified a 3.1 cm enhancing mass in the left adrenal gland, highly concerning for a distant metastasis. No other sites of distant disease were identified in the chest or abdomen.
+
+To complete staging, a dedicated MRI of the brain with contrast was performed, which was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NSCLC, NOS).
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified. The tumor was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. The tumor mutational burden (TMB) was determined to be intermediate (in the range of 2–16 mutations/megabase). PD-L1 expression was not tested, consistent with the standard of care at the time the sequencing was performed.
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer (histology NOS), metastatic to the adrenal gland. Molecular profiling did not identify an actionable driver mutation and revealed an intermediate tumor mutational burden. The patient is here for initial consultation to discuss the diagnosis and the implications of these findings.

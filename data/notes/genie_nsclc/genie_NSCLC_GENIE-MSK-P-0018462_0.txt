@@ -1,0 +1,24 @@
+**HPI:**
+This is a 62-year-old patient with a history of smoking (former, quit <1 year ago) who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. Over the subsequent weeks, they also noted the onset of intermittent headaches and a 10-pound unintentional weight loss. Due to the worsening headaches, the patient presented to an outside emergency department on [De-identified]. A workup was initiated.
+
+**Diagnostic Workup:**
+A CT of the chest, abdomen, and pelvis was performed, which revealed a large primary mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also demonstrated a suspicious left adrenal nodule and multiple non-regional enlarged lymph nodes.
+
+Given the presenting neurological symptoms, a contrast-enhanced MRI of the brain was obtained. This study confirmed the presence of multiple parenchymal metastatic lesions consistent with the patient's primary malignancy.
+
+A subsequent PET/CT scan was performed for staging, which confirmed high metabolic activity in the right upper lobe primary tumor, mediastinal lymph nodes, the left adrenal gland, and distant nodal sites. An additional site of metastatic disease was noted in a rib.
+
+A CT-guided core needle biopsy of the right lung mass was performed on [De-identified]. Pathologic analysis confirmed the diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed non-small cell lung cancer, adenocarcinoma histology.
+Comprehensive molecular profiling was performed on the tissue specimen.
+- PD-L1 Tumor Proportion Score (TPS): ≥50%
+- Tumor Mutational Burden (TMB): Intermediate (2–16 mut/Mb)
+- Actionable driver mutation detected: KRAS G12C
+- Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+**Problem Summary:**
+This is a 62-year-old patient with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease involving the brain, adrenal gland, bone, and distant lymph nodes. Molecular studies are notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient is here for an initial consultation to discuss the diagnosis and establish care.

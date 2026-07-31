@@ -1,0 +1,23 @@
+**HPI:**
+This is a 44-year-old individual with a history of being a never-smoker who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild shortness of breath with exertion. These symptoms were initially managed as a possible respiratory infection without improvement. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity, prompting further investigation with a contrast-enhanced chest CT scan. The patient denies any significant constitutional symptoms such as fevers, night sweats, or unintentional weight loss. They remain fully active and ambulatory, with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+A chest CT scan performed on [De-identified Date] identified a 4.2 cm spiculated mass in the apical segment of the right upper lobe. The scan also revealed bulky mediastinal lymphadenopathy, with notable involvement of the right paratracheal (station 4R) and subcarinal (station 7) lymph node stations.
+
+A subsequent whole-body PET/CT scan was performed for staging purposes. This study confirmed intense FDG-avidity within the primary right upper lobe mass and in the previously identified mediastinal nodal stations, consistent with locoregionally advanced disease. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+To complete staging and rule out central nervous system involvement, a brain MRI with contrast was obtained. This was negative for any evidence of intracranial metastases.
+
+The patient underwent an endobronchial ultrasound (EBUS) with transbronchial needle aspiration (TBNA) of a subcarinal lymph node. Pathological review of the specimen confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Based on the combination of a primary tumor with mediastinal nodal involvement (N2) and no evidence of distant metastases (M0), the patient is diagnosed with AJCC Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-guided biopsy.
+- An actionable sensitizing EGFR exon 19 deletion was detected.
+- The tumor was negative for fusions or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 was reported as positive; a specific Tumor Proportion Score (TPS) percentage is not available.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 44-year-old never-smoker who presents for initial evaluation of a newly diagnosed, treatment-naive, Stage IIIA non-small cell lung adenocarcinoma. The tumor is characterized by a sensitizing EGFR exon 19 deletion.

@@ -22,8 +22,16 @@ data/genie_bpc/
 # Raw per-call result files (too numerous, stored in baseline/ checkpoints instead)
 results/raw/*.json
 
-# Checkpoint files are duplicates of _results.json — exclude to keep repo size down
-results/baseline/*_checkpoint.json
+# New baseline runs are 100-400MB per model, over GitHub's per-file limit.
+# Generated notes and results are available upon reasonable request (see README).
+# A small set of early pilot results already committed to history is unaffected.
+results/baseline/*.json
+results/baseline/*.jsonl
+results/baseline/*.log
+results/baseline/*.lock
+
+# Ad hoc run logs, not needed for reproducibility
+logs/
 
 # Claude Code internal files
 .claude/

@@ -1,0 +1,22 @@
+**INITIAL ONCOLOGY CONSULTATION**
+
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 64-year-old individual with a significant smoking history who is referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility approximately six weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. Symptoms did not resolve with a course of antibiotics. A subsequent chest radiograph was notable for a right-sided lung opacity, prompting further investigation. The patient reports feeling generally well aside from the shortness of breath, which limits more strenuous activity. There is no report of hemoptysis, fevers, or significant weight loss. Performance status is excellent, consistent with an ECOG of 1.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This study identified a spiculated 4.5 cm mass in the right upper lobe. The scan also revealed multiple suspicious nodules in the contralateral (left) lung and evidence of nodular pleural thickening, concerning for metastatic involvement.
+
+A subsequent PET/CT scan was performed to fully delineate the extent of disease. This demonstrated intense FDG-avidity in the primary right upper lobe mass, multiple contralateral pulmonary nodules, and the areas of pleural thickening. No other sites of distant FDG-avid disease were identified in the neck, abdomen, or pelvis.
+
+A dedicated MRI of the brain with and without contrast was performed for central nervous system staging and revealed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of non-small cell lung cancer, with an adenocarcinoma histology.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. This analysis did not identify any actionable driver alterations. Specifically, the tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. The tumor mutational burden (TMB) was low (<2 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 64-year-old, treatment-naive individual with a new diagnosis of Stage IV (cT2b N0 M1c) non-small cell lung cancer, adenocarcinoma subtype. Staging studies confirm metastatic disease involving the contralateral lung and pleura, with no evidence of brain metastases. Molecular profiling of the tumor is notable for the absence of any identified actionable driver mutations and a low tumor mutational burden. The patient has a good performance status and is here today to discuss the diagnosis and potential management options.

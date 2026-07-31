@@ -1,0 +1,16 @@
+**HPI:**
+This is a 50-year-old individual who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, dry cough and progressive shortness of breath with exertion. They initially attributed these symptoms to a seasonal allergy but sought evaluation with their primary care provider when symptoms worsened, accompanied by mild right-sided chest discomfort. The patient is a former smoker, having quit more than one year ago. They are otherwise active and functional, though report increased fatigue over the past month.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung mass, which prompted a contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed a 3.8 cm spiculated mass in the right upper lobe with associated ipsilateral mediastinal lymphadenopathy. A discrete 1.5 cm nodule was also identified in the contralateral left lower lobe, concerning for metastatic disease. A subsequent whole-body PET/CT scan was performed for staging, which demonstrated high FDG avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the contralateral left lung nodule, consistent with metastatic disease. A staging MRI of the brain was obtained and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass on [De-identified]. Histopathologic review confirmed invasive adenocarcinoma with features consistent with a lung primary. Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. This analysis identified two actionable driver alterations: a sensitizing EGFR L858R point mutation and a RET fusion.
+Further testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2.
+Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of <1%.
+The Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 50-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung. The patient has an excellent performance status. Molecular profiling of the tumor is notable for co-occurring EGFR L858R and RET fusion driver alterations. PD-L1 expression is negative.

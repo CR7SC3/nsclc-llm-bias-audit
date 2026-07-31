@@ -1,0 +1,18 @@
+**HPI:**
+This is an initial medical oncology consultation for a 73-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over a year ago. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a right upper lobe opacity, which prompted a subsequent comprehensive diagnostic evaluation. The patient has maintained a good performance status throughout this period, with no significant weight loss, hemoptysis, or chest pain reported.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study identified a 4.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the abdomen and pelvis were negative for metastatic disease, with no suspicious lesions noted in the liver, adrenal glands, or bone.
+
+A subsequent PET/CT scan was performed for staging, which confirmed a hypermetabolic primary mass in the right upper lobe without other sites of FDG-avidity to suggest regional nodal involvement or distant metastatic disease. A dedicated brain MRI with contrast was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer, with features consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alterations were identified. The tumor was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, consistent with the standard of care at the time of tissue acquisition.
+
+**Problem Summary:**
+MRN: [De-identified]
+Date of Consult: [De-identified]
+
+In summary, this is a 73-year-old former smoker who presents for initial consultation with a new diagnosis of Stage IIA (cT2b N0 M0) squamous non-small cell lung cancer of the right upper lobe. The comprehensive diagnostic workup, including PET/CT and brain MRI, shows localized disease with no evidence of regional or distant metastasis. Molecular profiling of the tumor did not identify any actionable driver mutations. The patient is treatment-naive.

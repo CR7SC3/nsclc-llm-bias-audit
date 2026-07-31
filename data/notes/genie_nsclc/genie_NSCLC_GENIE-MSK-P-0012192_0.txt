@@ -1,0 +1,21 @@
+**HPI:**
+This is a 72-year-old individual with a significant former smoking history (quit <1 year ago) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This was followed by the onset of intermittent headaches, dizziness, and a feeling of imbalance, which prompted an evaluation in the emergency department. The patient has a functional status of ECOG 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+An initial chest X-ray was abnormal, leading to further cross-sectional imaging.
+
+CT of the chest, abdomen, and pelvis with contrast, performed on [De-identified], revealed a large, spiculated primary mass in the right upper lobe. The study also demonstrated extensive metastatic disease, including multiple nodules in the contralateral (left) lung, several hypodense lesions throughout the liver, a large right-sided pleural effusion, and bulky mediastinal, hilar, and supraclavicular lymphadenopathy.
+
+Given the new neurologic symptoms, an MRI of the brain with and without contrast was subsequently performed on [De-identified]. This study confirmed the presence of multiple enhancing lesions in the cerebral hemispheres and cerebellum, consistent with widespread brain metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathologic analysis confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. Results are as follows:
+-   **Actionable driver mutation detected:** KRAS G12C
+-   **Negative for pathogenic alterations in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+-   **PD-L1 Expression:** Not tested
+
+**Problem Summary:**
+In summary, this is a 72-year-old former smoker presenting with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms widespread metastatic disease involving the brain, contralateral lung, liver, pleura, and distant lymph nodes. Molecular profiling of the tumor is notable for a KRAS G12C mutation.

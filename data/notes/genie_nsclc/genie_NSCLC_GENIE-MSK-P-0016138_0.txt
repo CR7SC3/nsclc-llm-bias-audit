@@ -1,0 +1,35 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 58-year-old individual referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient presented to an outside facility approximately one month ago with a persistent, non-productive cough and mild fatigue. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. A subsequent CT of the chest, abdomen, and pelvis was performed for staging. This imaging confirmed a spiculated mass in the right upper lobe and also identified a suspicious lesion in the left adrenal gland.
+
+The patient was referred for a comprehensive staging workup, which included a PET/CT scan. This study demonstrated intense FDG avidity in the primary right upper lobe lung mass, as well as in mediastinal lymph nodes and the solitary left adrenal lesion, confirming metastatic disease. A dedicated MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed the diagnosis of adenocarcinoma. The patient is a former smoker, having quit more than one year ago. The patient is here today to discuss the diagnosis and establish care.
+
+Review of systems is notable for a lingering cough but is otherwise negative for shortness of breath, hemoptysis, chest pain, or significant weight loss. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+*   **Imaging:**
+    *   **CT Chest/Abdomen/Pelvis:** Revealed a 3.8 cm spiculated mass in the right upper lobe of the lung with associated mediastinal adenopathy. A 2.5 cm nodule was noted in the left adrenal gland.
+    *   **PET/CT:** Confirmed intense hypermetabolism in the right upper lobe primary tumor (SUVmax 12.4), mediastinal lymph nodes, and the solitary left adrenal lesion (SUVmax 8.9), consistent with M1 disease.
+    *   **MRI Brain:** No evidence of acute intracranial abnormality or metastatic disease.
+
+*   **Pathology:**
+    *   **CT-guided Core Biopsy, Right Lung Mass:** Invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue with the following results:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations/rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Negative (Tumor Proportion Score <1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/megabase; range 2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 58-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the adrenal gland. Staging per AJCC 8th Edition is Stage IV. Molecular profiling is notable for the absence of targetable driver mutations and negative PD-L1 expression.

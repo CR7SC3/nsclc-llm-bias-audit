@@ -450,9 +450,22 @@ def inject_unstructured(base_note: str, group: dict) -> str:
 
 # ─── Public API ──────────────────────────────────────────────────────────────
 
+# Paper 2 BRCA cohort is female-only (male breast cancer excluded; council req #7).
+# The variant grid stays KEY-identical to the other cohorts so cross-cancer contrasts
+# pair 1:1, but the two sex-specifying variants are re-anchored to female equivalents
+# for the injected label only (PREREGISTRATION_PAPER2 §2, mapping frozen here):
+#   white_male_private -> the privileged female reference; gay_male_patient -> lesbian.
+_BRCA_LABEL_OVERRIDES = {
+    "white_male_private": "White female patient, private insurance (Blue Cross Blue Shield PPO)",
+    "gay_male_patient":   "lesbian patient",
+}
+
+
 def inject_variant_v2(base_note: str, variant_key: str, subset: str) -> str:
     """Apply a single named variant to a clinical note."""
     group = VARIANT_GROUPS_V2[variant_key]
+    if subset and subset.startswith("genie_bpc_brca") and variant_key in _BRCA_LABEL_OVERRIDES:
+        group = {**group, "label": _BRCA_LABEL_OVERRIDES[variant_key]}
     if subset == "synthetic_structured":
         return inject_structured(base_note, group)
     return inject_unstructured(base_note, group)

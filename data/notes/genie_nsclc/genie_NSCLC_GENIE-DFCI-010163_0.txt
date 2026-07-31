@@ -1,0 +1,25 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 58-year-old former smoker who presents for initial consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks ago, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. Over the past month, these symptoms were accompanied by intermittent headaches and a subjective sense of unsteadiness, which prompted presentation to an outside emergency department for evaluation. The patient reports a 10-pound unintentional weight loss over the past two months. They have a greater than one-year history of smoking cessation. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**DIAGNOSTIC WORKUP:**
+The initial diagnostic evaluation began with imaging studies. A CT scan of the chest with contrast revealed a large, spiculated mass in the right upper lobe measuring approximately 5 cm, with associated bulky mediastinal and hilar lymphadenopathy. The scan also identified several small, concerning nodules in the contralateral (left) lung.
+
+Given the patient's reported headaches, a contrast-enhanced MRI of the brain was performed. This study demonstrated multiple, well-circumscribed, enhancing lesions in the cerebral hemispheres, consistent with metastatic disease.
+
+For definitive diagnosis and staging, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated squamous cell carcinoma.
+
+A staging PET/CT scan was subsequently performed, which demonstrated intense FDG-avidity in the primary right lung mass, the mediastinal lymph nodes, the contralateral lung nodules, and confirmed the previously identified cerebral metastases. No other sites of distant metastatic disease were identified in the neck, abdomen, or pelvis.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was assessed and reported as high (>16 mutations/megabase).
+- PD-L1 expression was not tested on this specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 58-year-old individual with a new diagnosis of Stage IV non-small cell lung cancer, of squamous cell histology. The disease is metastatic to the brain and contralateral lung. Molecular profiling is notable for a high tumor mutational burden (TMB-high) with no identified actionable driver mutations. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis.

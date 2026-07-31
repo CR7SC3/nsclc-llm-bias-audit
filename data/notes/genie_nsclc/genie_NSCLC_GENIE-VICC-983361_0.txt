@@ -1,0 +1,26 @@
+**History of Present Illness**
+
+This is a 62-year-old individual referred to Medical Oncology for consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. This was initially managed symptomatically without resolution. Over the subsequent weeks, the cough was accompanied by the onset of progressive dyspnea on exertion and an unintentional weight loss of approximately 15 pounds. These worsening symptoms prompted further medical evaluation. The patient is a former smoker, having quit within the past year after a long-term history of tobacco use.
+
+Review of systems is notable for fatigue, anorexia, and the aforementioned cough and dyspnea. The patient denies fevers, chills, night sweats, hemoptysis, or significant chest pain. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup**
+
+An initial outpatient chest CT scan with contrast revealed a primary mass in the right lower lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified a 3 cm nodule in the left adrenal gland, suspicious for a metastasis.
+
+A subsequent staging PET/CT scan was performed on [De-identified date]. This study confirmed intense FDG-avidity in the right lower lobe lung mass, multiple mediastinal lymph node stations, and the left adrenal lesion, consistent with metastatic disease. A dedicated MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the primary lung mass was performed. Histopathologic analysis confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma features.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue with the following results:
+*   **Driver Alterations:** No actionable driver mutations were identified. The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   **PD-L1 Expression:** The Tumor Proportion Score (TPS) was <1% (negative).
+*   **Tumor Mutational Burden (TMB):** TMB was determined to be high, at >16 mutations/megabase.
+
+**Problem Summary**
+
+In summary, this is a 62-year-old former smoker with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the adrenal gland. The patient has an ECOG performance status of 1. Molecular profiling of the tumor is notable for the absence of targetable driver alterations, a PD-L1 TPS of <1%, and a high Tumor Mutational Burden.

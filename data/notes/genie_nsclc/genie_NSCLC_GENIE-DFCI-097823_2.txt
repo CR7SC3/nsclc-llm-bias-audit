@@ -1,0 +1,33 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF CONSULTATION:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**REFERRING PROVIDER:** [De-identified]
+
+I had the pleasure of evaluating this pleasant 73-year-old for a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 73-year-old with a past medical history significant for being a former smoker (quit over one year ago) who was in a usual state of good health until approximately two months prior to this consultation. At that time, an incidental finding on chest imaging obtained for an unrelated reason revealed a pulmonary nodule. The patient was asymptomatic from a pulmonary standpoint, denying any cough, shortness of breath, hemoptysis, or chest pain. Subsequent dedicated workup was pursued, ultimately leading to the diagnosis of lung cancer. The patient presents today for initial oncology consultation to discuss the findings and establish care. Performance status is excellent, ECOG 0.
+
+**DIAGNOSTIC WORKUP:**
+Following the initial imaging finding, a contrast-enhanced CT of the chest was performed which confirmed the presence of a 2.2 cm solid, spiculated nodule in the apical segment of the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+To complete staging, a PET/CT was subsequently performed. This study demonstrated intense FDG-avidity localized to the right upper lobe pulmonary nodule, with no other sites of abnormal hypermetabolism concerning for nodal involvement or distant metastatic disease.
+
+A brain MRI with and without contrast was also obtained as part of the standard staging evaluation and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was performed. Pathologic review of the tissue confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+Based on this comprehensive workup, the patient is diagnosed with localized, non-metastatic disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+-   No actionable driver alteration was identified. The tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression was not tested.
+-   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 73-year-old former smoker who presents for initial evaluation of a newly diagnosed, localized non-small cell lung cancer. The workup, including PET/CT and brain MRI, has shown no evidence of regional lymph node or distant metastatic disease.
+
+The final diagnosis is Stage IA non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for the absence of an actionable oncogenic driver.

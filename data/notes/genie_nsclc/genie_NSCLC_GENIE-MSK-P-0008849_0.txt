@@ -1,0 +1,22 @@
+**HPI:**
+This is a 50-year-old patient with a history as a never-smoker, referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted the onset of dull, constant right-sided back pain, which was not relieved by over-the-counter analgesics. Due to worsening symptoms, they presented to an outside hospital for evaluation on [De-identified]. The patient maintains a good performance status, able to perform all activities of daily living with some limitation of strenuous activity due to shortness of breath.
+
+**Diagnostic Workup:**
+An initial chest radiograph at the outside facility revealed a large left upper lobe opacity. A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and staging. This demonstrated a 4.5 cm spiculated mass in the left upper lobe. The scan also identified multiple small nodules in the contralateral right lung, a 2.3 cm hypodense lesion in the right lobe of the liver, and sclerotic lesions in the thoracic spine, all suspicious for metastatic disease.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary left upper lobe mass, multiple contralateral pulmonary nodules, the right hepatic lobe lesion, and multiple osseous sites including the T8 vertebral body and right posterior ribs.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient underwent an interventional radiology-guided core needle biopsy of the left upper lobe lung mass on [De-identified]. Pathology confirmed the diagnosis of adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed non-small cell lung cancer, adenocarcinoma histology.
+Next-generation sequencing (NGS) of the tumor tissue was performed.
+- Actionable driver mutations were detected, including an EGFR exon 19 deletion (sensitizing) and a high-level MET amplification.
+- Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested, consistent with the pre-2017 timeframe of the sequencing panel.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 50-year-old patient, a never-smoker, presenting for initial evaluation of a new diagnosis of Stage IV (M1) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease involving the contralateral lung, liver, and bone. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion and concurrent high-level MET amplification. The patient is treatment-naive.

@@ -1,0 +1,44 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 56-year-old individual with a past medical history of prostate cancer, who is referred for initial consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Symptoms were initially attributed to a viral illness, but due to a lack of resolution and the onset of right-sided pleuritic chest pain, the patient presented for medical evaluation.
+
+An initial chest radiograph revealed a right-sided lung opacity and a moderate pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 2.8 cm spiculated mass in the right upper lobe, along with multiple enhancing pleural nodules and a large, complex right-sided pleural effusion. No other sites of distant disease in the abdomen or pelvis were identified.
+
+The patient was referred to Interventional Radiology. A CT-guided core needle biopsy of the right upper lobe mass was performed. Concurrently, a thoracentesis was performed for both diagnostic and therapeutic purposes, with removal of 1.5 liters of serosanguinous fluid, which resulted in a significant improvement in dyspnea.
+
+Pathology from both the core biopsy and pleural fluid cytology confirmed the diagnosis of adenocarcinoma, consistent with a lung primary. A staging workup was completed with a PET/CT scan, which demonstrated intense FDG-avidity in the primary right upper lobe mass and extensive pleural studding, confirming M1a disease. No FDG-avid locoregional lymphadenopathy or distant metastatic sites were identified. A brain MRI with contrast was also obtained and was negative for intracranial metastases.
+
+The patient is a lifetime never-smoker. They report a good performance status (ECOG 1), with activity limited only by mild residual dyspnea. They are here today to discuss the diagnosis and establish care.
+
+**PAST MEDICAL HISTORY:**
+1. Prostate Cancer: Diagnosed 5 years ago, treated with external beam radiation therapy. Currently under surveillance with no evidence of disease.
+2. Hypertension: Well-controlled on medication.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast [Date]:** Revealed a 2.8 cm spiculated right upper lobe mass. Associated large right pleural effusion with multiple enhancing pleural nodules. No suspicious hepatic, adrenal, or osseous lesions.
+*   **PET/CT [Date]:** Intense FDG uptake in the right upper lobe primary mass (SUVmax 12.4). Widespread FDG-avid pleural studding on the right. No FDG-avid mediastinal, hilar, or supraclavicular lymphadenopathy. No evidence of distant metastatic disease elsewhere.
+*   **MRI Brain with and without contrast [Date]:** No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **CT-guided Biopsy, Right Upper Lobe Mass [Date]:** Invasive Adenocarcinoma, lung primary origin favored by morphology and immunohistochemical profile.
+*   **Pleural Fluid Cytology [Date]:** Positive for malignant cells, consistent with adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the tissue biopsy specimen revealed the following:
+*   **Actionable Driver Mutation:** EGFR exon 19 deletion (sensitizing).
+*   **Additional Testing:** Negative for actionable alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (11 mutations/megabase).
+*   **PD-L1 Expression:** Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 56-year-old never-smoker with a new diagnosis of Stage IV (cT2a N0 M1a) non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the pleura, with no evidence of brain or other distant metastases at diagnosis. Molecular profiling is critically important, revealing a sensitizing EGFR exon 19 deletion. The patient is treatment-naive with an excellent performance status and presents today for initial oncologic evaluation and discussion.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 41-year-old individual with a new diagnosis of non-small cell lung cancer, referred for initial oncology consultation. The patient is a lifetime never-smoker and was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially treated empirically with a course of antibiotics without improvement. Due to the persistence of symptoms, a chest radiograph was obtained which revealed a right upper lobe opacity. The patient was subsequently referred to pulmonology for further evaluation. The patient denies fevers, chills, night sweats, or significant weight loss. They maintain an excellent performance status and continue to work and engage in all usual activities.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest was performed on [De-identified], which confirmed a 3.5 cm spiculated solid mass in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For definitive staging, a PET/CT scan was performed on [De-identified]. This demonstrated intense FDG avidity corresponding to the known right upper lobe mass. Importantly, there was no evidence of FDG-avid disease in the mediastinal lymph nodes or at any distant sites in the neck, chest, abdomen, or pelvis.
+
+A brain MRI with and without contrast was also obtained as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Actionable driver:** ALK gene rearrangement was detected.
+- **Negative for:** No pathogenic mutations were identified in EGFR, ROS1, BRAF, MET (exon 14 skipping), RET, NTRK, KRAS, or ERBB2.
+- **PD-L1:** PD-L1 expression was not assessed, consistent with the standard of care at the time of tissue acquisition.
+- **TMB:** Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 41-year-old never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIA (pT2aN0M0) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup is notable for a 3.5 cm right upper lobe primary tumor without evidence of nodal or distant metastatic disease. Molecular profiling of the tumor is significant for the presence of an ALK gene rearrangement. The patient is treatment-naive and is seen today to discuss the diagnosis.

@@ -1,0 +1,18 @@
+**HPI:**
+This is an initial medical oncology consultation for a 63-year-old individual referred for a new diagnosis of metastatic non-small cell lung cancer. The patient is a current smoker who presented to their primary care provider approximately one month ago with a persistent, non-productive cough, fatigue, and an unintentional 10-pound weight loss over the preceding three months. The patient reports feeling generally well otherwise, with a good appetite and an ECOG performance status of 1. They deny chest pain, shortness of breath at rest, or hemoptysis.
+
+**Diagnostic Workup:**
+An initial chest X-ray ordered by the primary care provider was suspicious for a right-sided lung mass. This prompted a staging CT scan of the chest, abdomen, and pelvis with contrast, performed on [De-identified Date]. The CT scan demonstrated a large, spiculated 4.5 cm mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The scan also revealed a 3.2 cm avidly enhancing mass in the left adrenal gland, highly suspicious for a metastasis. No other distant metastatic disease was identified in the chest, abdomen, or pelvis.
+
+To complete staging, a brain MRI with and without contrast was performed and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic analysis confirmed the diagnosis of non-small cell lung cancer, not otherwise specified (nos).
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive molecular profiling and immunohistochemistry. The results are as follows:
+- PD-L1 Tumor Proportion Score (TPS) is negative at <1%.
+- Tumor Mutational Burden (TMB) is high at >16 mutations/megabase.
+- No actionable driver alterations were identified. The tumor is negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+**Problem Summary:**
+This is a 63-year-old, treatment-naive individual with an excellent performance status who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, not otherwise specified (nos). The disease is metastatic to the left adrenal gland, with no evidence of brain metastases. Molecular testing reveals PD-L1 negative (TPS <1%) disease with a high Tumor Mutational Burden and no identified actionable driver mutations.

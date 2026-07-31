@@ -1,0 +1,1049 @@
+case_id,qa_tier,n_failures,n_warnings,failures,warnings
+genie_NSCLC_GENIE-DFCI-000013_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000136_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-000142_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000215_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000263_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-000375_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000381_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000410_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000489_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000539_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000583_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000605_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000611_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000675_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000735_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000750_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000800_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-000815_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-000853_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001060_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001095_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001163_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001247_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001264_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-001305_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001319_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001394_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001442_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-001485_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001487_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001514_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001552_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001563_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001630_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001636_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001825_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-001830_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001852_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-001883_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002004_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002010_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002017_3,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-002140_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002270_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-002274_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002329_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-002433_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002447_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002450_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002689_1,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-002744_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002791_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-002794_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003050_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003113_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003188_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003221_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003244_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003307_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003312_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-003392_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003399_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003408_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003491_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003551_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003560_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003685_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003689_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003730_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003736_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-003755_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-003865_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-003908_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-004022_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-004068_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-004109_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-004262_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-004267_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-004350_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-004410_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-004567_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-005417_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-005621_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-005634_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-005843_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-005924_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-006088_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-006460_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-006728_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-006839_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-006938_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007020_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007030_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007048_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007054_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007175_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007176_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007206_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007288_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007294_1,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007313_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007370_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007505_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007588_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007632_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007635_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007703_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007707_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007789_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007797_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-007846_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-007858_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008075_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008083_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008085_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008106_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008185_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008222_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008260_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008292_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008320_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008353_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008358_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008417_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008421_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008438_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008486_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008526_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008556_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008569_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008570_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008574_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008635_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008692_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008726_1,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-008803_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008921_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008955_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-008990_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009041_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009059_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009073_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009075_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-009139_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-009211_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009309_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009324_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-009511_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009630_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-009649_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009850_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009890_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-009970_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010013_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010071_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010089_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010163_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010239_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010239_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010256_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010311_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010314_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010355_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010390_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010444_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010460_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010656_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010667_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010714_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010744_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010856_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010894_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010914_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-010965_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-010966_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011075_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-011107_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011116_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011141_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011149_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011188_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011193_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011195_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011253_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011355_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-011371_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011375_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011383_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011446_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011487_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-011511_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011589_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-011705_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-012964_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-013119_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-015198_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-021668_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-022473_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-023680_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-023715_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-023753_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-023754_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-024068_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-024181_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-024377_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-024693_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-024726_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-024937_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-025937_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-026566_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-026750_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-027034_1,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-027217_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-027377_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-027678_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-029716_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-031932_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-032021_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-032037_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-032806_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-033743_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-034156_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-035504_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036418_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036430_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036434_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036452_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036465_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036511_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036553_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036632_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036659_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036820_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036829_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036845_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-036927_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-036931_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037043_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037051_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037068_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037196_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037262_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037501_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037602_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037675_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037682_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037708_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037755_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037804_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-037817_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-037985_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-038021_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-038028_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-038728_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-038938_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-039194_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-040919_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-041565_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-042509_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-048905_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-049429_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-050714_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-050717_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-050785_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-050802_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-051008_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-051025_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-051170_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-051192_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-051223_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-052146_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-052755_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-052781_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-053165_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-053214_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-053461_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-053482_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-077267_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-077966_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-078051_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-078202_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-078645_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-081731_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-084697_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-087093_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-087881_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-088313_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-088558_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-089149_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-089200_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-089256_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-089430_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-089523_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-089765_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-089970_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-090156_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090170_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090470_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090492_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090529_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-090809_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090831_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-090904_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-091175_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-091338_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-091884_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-091890_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-092217_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-092267_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-092626_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-093210_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-093519_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-094760_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-095290_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-095812_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-095916_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-096914_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-097693_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-097821_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-097823_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-098574_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-102617_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-104854_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-106618_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-107582_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-108426_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-108457_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-108464_2,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-108870_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-108956_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-109344_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-109626_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-109707_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-109765_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-110148_0,PASS,0,0,,
+genie_NSCLC_GENIE-DFCI-110206_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-110232_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-110630_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-110862_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-111388_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-111445_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-112084_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-DFCI-112311_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0000689_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0000978_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0001243_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0001442_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0001454_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0001830_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0001832_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0002091_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002408_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002506_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0002694_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002718_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002725_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002731_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0002869_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002916_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002917_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0002921_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0002969_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0002996_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003017_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003070_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0003119_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003156_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003213_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0003243_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003250_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0003303_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003368_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003446_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003465_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003527_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003584_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003628_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003712_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003854_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0003863_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0003879_3,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0003967_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004094_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004103_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004129_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004232_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004238_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004271_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004336_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004342_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004421_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004476_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004517_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004591_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004607_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004613_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004655_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004691_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004693_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004701_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004729_3,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004739_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004802_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004827_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004988_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0004990_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0004996_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005191_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005252_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0005259_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0005321_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005456_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005464_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005483_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005543_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005562_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005573_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005734_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005763_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0005786_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005813_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005845_5,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005909_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005927_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005931_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0005959_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006151_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006221_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006268_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006292_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006343_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006474_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006511_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006540_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006596_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006671_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006713_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006768_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006810_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0006844_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006855_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006896_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006912_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006950_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0006995_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007099_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007119_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007236_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007309_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007322_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007345_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007418_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007420_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007424_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007633_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007681_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007745_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007754_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0007757_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007861_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007870_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0007896_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008029_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008131_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008158_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008160_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008161_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008261_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008295_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008310_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008359_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008419_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008427_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008438_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008472_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008485_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008601_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008602_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008650_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008668_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008675_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008744_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008757_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008764_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008849_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008915_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0008935_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008938_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008955_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0008978_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009102_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009110_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009154_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009161_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009259_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009277_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009293_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009301_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009307_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009312_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009353_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009426_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009431_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009466_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009469_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009476_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009487_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009535_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009555_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009559_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009591_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009608_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009655_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009660_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009680_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009748_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009762_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009763_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009764_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009789_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009864_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009869_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009924_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009928_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009948_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009952_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009958_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009984_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0009984_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0009986_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010013_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010041_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010047_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010056_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010063_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010065_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010247_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010269_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010273_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010300_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010329_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010332_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010338_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010355_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010389_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010397_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010507_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010554_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010558_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010563_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010566_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010634_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010648_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010681_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010765_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010793_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010813_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0010863_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0010894_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0011017_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011018_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011025_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0011031_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011049_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011107_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011138_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011154_1,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0011157_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011180_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011234_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011243_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011268_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011301_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011389_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011452_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011517_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011535_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0011537_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0011548_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012000_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012008_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012043_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012049_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012056_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012057_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012059_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012061_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012063_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012083_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012090_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012160_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012192_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012203_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012261_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012341_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012373_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012392_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012393_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012404_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012428_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012436_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012437_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012443_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012514_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012525_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012545_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012592_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012743_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012745_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012778_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012788_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012811_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012821_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012837_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012849_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012886_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012890_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012919_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0012925_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0012951_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013016_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013202_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0013315_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013381_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0013387_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0013435_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0013458_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013483_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013484_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013514_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013554_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013883_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0013886_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0013935_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014008_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014061_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014065_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014075_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014117_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014120_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014128_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014162_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014166_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014172_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014181_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014297_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014308_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014385_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014458_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014473_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014502_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014506_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014524_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014544_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014554_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014733_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014808_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014833_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014875_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014885_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0014896_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014932_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0014968_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015061_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015073_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015075_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015110_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015177_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015213_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015259_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015285_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015296_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015332_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015414_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015434_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015436_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015442_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015472_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015492_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015578_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015590_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015593_4,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015600_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015648_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015667_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015693_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0015929_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015934_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0015978_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016038_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016089_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016108_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016138_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016146_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016175_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016221_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016260_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016319_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016385_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016429_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016521_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016575_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016613_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016613_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016613_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016643_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016646_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016708_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0016744_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016903_3,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016910_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0016994_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017013_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017028_2,PASS,0,2,,brain_mets=False but note appears to mention brain metastasis | possible non-NSCLC/anchor leakage: 'pancreatic'
+genie_NSCLC_GENIE-MSK-P-0017048_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017157_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017158_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017166_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017196_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0017253_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0017284_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0017378_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017386_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017432_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017443_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017479_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017592_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0017596_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017606_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017679_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017722_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017749_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017752_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0017773_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017794_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0017832_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018137_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018179_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018196_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018222_4,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018244_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018322_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018347_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018366_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018452_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018462_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018513_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018517_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018523_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018573_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018604_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018654_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018752_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018814_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018858_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0018883_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0018979_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019070_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019083_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019090_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019128_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019172_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019346_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019370_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019419_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019444_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019485_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019516_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019600_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019605_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019687_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019772_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019852_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019857_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019951_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019966_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0019970_2,PASS,0,2,,brain_mets=False but note appears to mention brain metastasis | possible prior-treatment language (should be naive): 'status post transurethral resection'
+genie_NSCLC_GENIE-MSK-P-0019977_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0019984_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0020011_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0020170_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0020177_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0020236_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0020290_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0020513_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0020664_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0020690_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0020761_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0020874_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021231_1,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021257_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021285_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021349_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021387_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021495_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021675_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021696_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021735_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021855_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021862_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021871_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0021879_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021884_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0021992_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022103_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022174_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022184_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022198_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022289_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022372_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022395_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022398_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022427_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022457_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022458_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022529_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022659_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022765_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022777_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022794_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022824_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022830_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0022838_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022881_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0022949_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023007_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023014_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023102_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023157_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023161_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023205_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023206_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023219_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023221_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023260_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023277_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023306_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023310_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023408_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023451_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023468_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023469_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023504_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023569_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023570_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023583_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023596_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0023602_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023622_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023664_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023678_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023780_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023859_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0023860_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024025_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024037_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024306_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024319_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024467_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024480_2,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024483_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024487_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024493_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024670_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024677_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024685_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024758_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024775_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024822_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024843_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024844_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024907_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0024932_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0024950_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025016_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025069_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025107_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025127_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025155_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025284_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025344_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025377_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025465_1,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025534_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025549_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025601_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025642_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025651_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025691_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025713_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025716_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025741_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025762_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0025836_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025866_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0025956_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-MSK-P-0026033_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0026050_0,PASS,0,0,,
+genie_NSCLC_GENIE-MSK-P-0026080_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-100390_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-101364_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-102966_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-103574_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-112944_3,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-113182_2,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-113334_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-114248_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-125866_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-126797_2,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-127229_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-128065_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-136420_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-138663_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-138866_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-144494_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-150400_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-154267_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-160059_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-188713_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-188772_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-192102_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-195187_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-199259_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-203874_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-211570_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-213021_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-216020_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-219157_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-221384_2,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-226416_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-226565_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-227703_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-228632_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-229301_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-231311_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-235319_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-240075_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-244772_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-247863_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-263112_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-276446_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-284753_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-287735_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-289285_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-294402_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-299760_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-314304_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-324996_2,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-328557_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-328713_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-343380_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-344839_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-352092_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-352202_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-354162_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-356066_2,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-359980_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-367327_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-373109_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-381111_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-390946_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-395682_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-396405_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-396414_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-403992_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-410616_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-426210_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-426435_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-449717_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-450066_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-463357_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-469826_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-476409_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-478107_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-488916_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-489094_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-491798_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-496329_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-503396_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-510591_3,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-522726_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-529086_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-535531_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-539512_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-555881_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-574932_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-588428_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-588847_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-599899_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-600447_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-600807_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-611118_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-617809_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-622042_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-625575_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-634110_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-634969_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-642079_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-644736_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-645488_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-647513_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-649058_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-649357_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-651350_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-676204_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-692944_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-695497_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-707780_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-725085_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-725506_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-726449_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-729177_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-739905_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-740503_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-745747_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-746498_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-757153_4,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-757275_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-757286_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-759601_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-780278_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-794403_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-801162_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-823845_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-836838_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-855326_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-861901_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-864288_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-864704_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-868975_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-874813_2,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-885623_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-889760_1,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-907638_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-907832_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-924668_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-926041_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-939402_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-962331_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-966949_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-968402_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-969019_0,PASS,0,0,,
+genie_NSCLC_GENIE-VICC-972961_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-983361_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-983614_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-987046_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-988032_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis
+genie_NSCLC_GENIE-VICC-996908_0,PASS,0,1,,brain_mets=False but note appears to mention brain metastasis

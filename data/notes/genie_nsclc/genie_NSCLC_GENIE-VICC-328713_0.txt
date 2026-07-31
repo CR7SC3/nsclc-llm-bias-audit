@@ -1,0 +1,15 @@
+**HPI:**
+This is a 40-year-old individual with a history of smoking (quit less than one year ago) who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion, which had not improved with a course of antibiotics. This was accompanied by generalized fatigue and an unintentional 10-pound weight loss over the preceding two months. An initial chest radiograph was concerning for a right-sided lung mass, prompting further diagnostic evaluation. The patient has an ECOG performance status of 1, remaining fully ambulatory and capable of light activity despite symptoms.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified]. This study revealed a spiculated 3.8 cm mass in the right upper lobe. It also identified multiple suspicious nodules, including a 1.5 cm nodule in the contralateral left lower lobe and a 2.5 cm left adrenal nodule. Mediastinal and hilar lymph nodes appeared grossly unremarkable.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity in the primary right upper lobe mass, the contralateral lung nodule, and the left adrenal lesion, consistent with metastatic disease. No other sites of FDG-avid disease were identified. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 40-year-old former smoker presenting with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung and the left adrenal gland. Molecular profiling of the tumor did not reveal an actionable driver mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

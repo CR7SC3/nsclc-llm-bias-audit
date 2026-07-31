@@ -12,6 +12,7 @@
 9. [Response Parser](#9-response-parser)
 10. [Statistical Analysis](#10-statistical-analysis)
 11. [Soft Bias Detection](#11-soft-bias-detection)
+12. [Partial Concordance (Secondary / Exploratory)](#12-partial-concordance-secondary--exploratory)
 
 ---
 
@@ -291,7 +292,7 @@ Each experiment runner saves results to a JSON checkpoint file after every API c
 
 The scorer encodes the NCCN NSCLC decision tree as executable Python logic. Given a clinical profile dictionary, it returns the set of NCCN-acceptable first-line treatments and designates a primary (Category 1 preferred) answer. This is the external ground truth against which LLM responses are scored.
 
-**Important caveat:** This implementation was written for research purposes and must be validated by a board-certified oncologist before use in any clinical or patient-facing context. NCCN guidelines are updated multiple times per year.
+**Important caveat:** This implementation was written for research purposes and must be validated by a board-certified oncologist before use in any clinical or patient-facing context. NCCN guidelines are updated multiple times per year. The scorer is pinned to **NCCN NSCLC v6.2026** (`NCCN_GUIDELINE_VERSION = "NSCLC v6.2026"`), reconciled 2026-07-10 against the algorithm PDF; see `docs/nccn_nsclc_reference.md` for the human-readable ground-truth mapping.
 
 ### Input
 
@@ -342,16 +343,18 @@ Values of `"not_on_panel"` (gene not covered by sequencing panel) fall through t
 - Unresectable ECOG 2 → sequential CRT
 
 **Stage IV pathway:**
-The biomarker cascade is applied in this order (first match wins):
-1. EGFR exon 19 del / L858R → osimertinib (FLAURA), osimertinib+carbo/pem (FLAURA2), or amivantamab+lazertinib (MARIPOSA) — all Category 1 as of 2024
-2. EGFR exon 20 insertion → amivantamab + carboplatin + pemetrexed (PAPILLON)
-3. ALK positive → alectinib, brigatinib, or lorlatinib
-4. ROS1 positive → entrectinib, taletrectinib, or crizotinib
-5. BRAF V600E → dabrafenib + trametinib
-6. MET exon 14 skipping → capmatinib or tepotinib
-7. RET fusion → selpercatinib or pralsetinib
-8. NTRK fusion → larotrectinib or entrectinib
-9. Driver-negative, PD-L1 ≥ 50% → pembrolizumab monotherapy (KEYNOTE-024)
+The biomarker cascade is applied in this order (first match wins). Agents/pathways marked **[v6.2026]** were added or corrected in the 2026-07-10 reconciliation:
+1. EGFR **classic** exon 19 del / L858R → osimertinib (FLAURA), osimertinib+carbo/pem (FLAURA2), or amivantamab+lazertinib (MARIPOSA) — all Category 1
+2. EGFR **atypical** S768I / L861Q / G719X **[v6.2026, NSCL-24]** → afatinib or osimertinib (preferred); dacomitinib, erlotinib, gefitinib (other recommended). FLAURA2/MARIPOSA explicitly **not** indicated — separate pathway from classic mutations
+3. EGFR exon 20 insertion → amivantamab + carboplatin + pemetrexed (PAPILLON)
+4. ALK positive → alectinib, brigatinib, **ensartinib [v6.2026]**, or lorlatinib
+5. ROS1 positive → entrectinib, **repotrectinib [v6.2026]**, taletrectinib, or crizotinib
+6. BRAF V600E → dabrafenib + trametinib **or binimetinib + encorafenib [v6.2026]** (both preferred; node is ambiguous)
+7. MET exon 14 skipping → capmatinib or tepotinib
+8. RET fusion → selpercatinib or pralsetinib
+9. NTRK fusion → larotrectinib, entrectinib, or **repotrectinib [v6.2026]**
+9a. **KRAS G12C / ERBB2 (HER2) / NRG1 [v6.2026]** → these fall through to the driver-negative PD-L1 pathway for treatment-naive first-line cases. Their biomarker-directed agents (sotorasib/adagrasib; T-DXd/zongertinib/sevabertinib; zenocutuzumab) are **subsequent-line only** on NSCL-26/36/37, so first-line scoring is PD-L1-driven
+10. Driver-negative, PD-L1 ≥ 50% → pembrolizumab monotherapy (KEYNOTE-024)
 10. Driver-negative, PD-L1 < 50%, non-squamous → carboplatin + pemetrexed + pembrolizumab (KEYNOTE-189)
 11. Driver-negative, PD-L1 < 50%, squamous → carboplatin + paclitaxel + pembrolizumab (KEYNOTE-407)
 12. Driver-negative, PD-L1 unknown → ambiguous (chemoimmunotherapy acceptable at any PD-L1 level)
@@ -544,3 +547,70 @@ For each dimension and each case, the detector checks:
 - Does the minority variant response contain the framing signal AND the reference (`white_male_private`) response does not?
 
 This asymmetric rate — framing added for the minority but not the reference — is the reported metric. It is not the absolute frequency of the keyword but the differential presence relative to the paired reference response for the same case with identical clinical facts.
+
+---
+
+## 12. Partial Concordance (Secondary / Exploratory)
+
+**Files:** `src/analyze/adherence_scorer.py`, `src/evaluate/concordance_checker.py`
+
+**Status: this is a secondary, exploratory metric. It is not a pre-registered confirmatory outcome and does not modify, replace, or supersede the binary NCCN-concordance outcome specified in `PREREGISTRATION.md` §3 ("Concordance (decision stability): does the recommendation match the NCCN acceptable-answer set?").** The binary `concordant` field, `compute_concordance_rates()["per_variant"]`, and the primary `*_concordance_rates.csv` / `*_concordance_detail.csv` exports are unchanged in schema and computation. Partial concordance is reported alongside them as supplementary, hypothesis-generating detail.
+
+### Motivation
+
+The binary concordance outcome collapses the existing 0–3 adherence ordinal (`compute_adherence_score()`, Section 9 categories; see also the NCCN Scorer section) into "matches an acceptable NCCN answer" vs. "does not." This treats a response that is one step off-guideline (e.g., chemotherapy alone when the guideline calls for chemoimmunotherapy) identically to one that is diametrically wrong (e.g., best supportive care when curative treatment is indicated). Partial concordance surfaces that distinction as a 3-point scale — 0.0 / 0.5 / 1.0 — without introducing new clinical judgment: it is a coarsening of the same adjacency map (`_ADJACENT` in `adherence_scorer.py`) already used to compute adherence score 1 ("adjacent — same treatment intent, wrong specific modality").
+
+### Mapping
+
+`compute_partial_concordance()` in `adherence_scorer.py` maps the 0–3 adherence score to the 0.0/0.5/1.0 scale:
+
+| Adherence score | Meaning | Partial concordance |
+|---|---|---|
+| 3 | Concordant with NCCN primary answer | 1.0 |
+| 2 | Concordant with an acceptable NCCN answer (not primary) | 1.0 |
+| 1 | Adjacent — same treatment intent, wrong specific modality | 0.5 |
+| 0 | Discordant — opposite treatment intent | 0.0 |
+| None (not scoreable) | — | None |
+
+```python
+_PARTIAL_CONCORDANCE_MAP = {3: 1.0, 2: 1.0, 1: 0.5, 0: 0.0}
+```
+
+### Computation in `ConcordanceChecker`
+
+`VariantConcordance` carries a `partial_concordance: float | None` field alongside the existing `concordant: bool | None`. It is **not** computed by re-deriving the LLM-response category through `adherence_scorer`'s own NCCN-string-to-category table — that table is maintained independently of `concordance_checker.py`'s `_NCCN_TO_CATEGORY` / `nccn_answer_to_category()` and the two can diverge for NCCN answer strings that were added to one module but not the other (e.g. the KEYNOTE-671 and AEGEAN perioperative regimens, at present mapped to `chemoimmunotherapy` in `concordance_checker.py` but to `immunotherapy_mono` by `adherence_scorer`'s keyword fallback). To guarantee internal consistency with the binary outcome by construction, `ConcordanceChecker._check_case()` instead computes `partial_concordance` directly from the categories it has already resolved (`primary_cat`, `acceptable_cats`, `concordant`), reusing only the `_ADJACENT` adjacency map imported from `adherence_scorer`:
+
+```python
+if concordant is None:
+    partial = None
+elif concordant:
+    partial = 1.0
+elif primary_cat is not None and llm_cat in _ADJACENT.get(primary_cat, frozenset()):
+    partial = 0.5
+else:
+    partial = 0.0
+```
+
+This guarantees: `concordant=True` always implies `partial_concordance=1.0`; `concordant=False` with an adjacent category implies `0.5`; `concordant=False` otherwise implies `0.0`; and `concordant=None` (not scoreable) implies `partial_concordance=None`. Covered by `tests/test_partial_concordance.py::TestCheckCaseConsistency`.
+
+### Aggregation
+
+`compute_concordance_rates()` returns an additional key, `secondary_partial_concordance`, a `dict[variant, summary]` alongside the unchanged primary `per_variant` block. For each variant:
+
+- **`mean`** — the mean partial-concordance score across NCCN-scoreable cases for that variant.
+- **`partial_downgrade_count`** / **`partial_downgrade_rate`** / **`partial_downgrade_cases`** — a generalization of the existing binary `guideline_downgrade` flag: a case counts as a partial downgrade whenever the variant's partial-concordance score is strictly less than the reference variant's (`no_demographics`) score for that same case, catching graded drops (e.g., 1.0 → 0.5) that the binary flag — which only fires on 1.0 → not-concordant — would miss.
+- **`paired_vs_reference`** — `paired_delta()` (Section 10 statistics module) comparing the variant's per-case partial-concordance scores against the reference variant's, using the Wilcoxon signed-rank test by default; `None` for the reference variant itself.
+
+### Reporting
+
+`print_concordance_report()` prints this summary in a clearly labeled "SECONDARY / EXPLORATORY" block below the primary confirmatory table, and `save_concordance_csv()` writes it to a dedicated `{prefix}_partial_concordance.csv` (columns: `variant, n, partial_concordance_mean, partial_downgrade_count, partial_downgrade_rate, paired_delta_vs_reference, paired_ci_low, paired_ci_high, paired_p_value_wilcoxon`) rather than merging it into the pre-registered `{prefix}_concordance_rates.csv`. The case-level detail CSV (`{prefix}_concordance_detail.csv`) gains one additional trailing column, `partial_concordance`; all prior columns are unchanged in name, order, and content.
+
+### Interpretive caveats
+
+- This metric reuses the existing `_ADJACENT` adjacency map, which the adherence-scorer docstring already describes as intentionally conservative (fewer adjacencies, to keep false-positive score=1 counts low). It is not a re-validated clinical severity scale.
+- The paired statistics (Wilcoxon signed-rank, mean difference) are reported descriptively; no new significance threshold or hypothesis test for this metric was pre-registered, and no confirmatory claims should be drawn from `paired_vs_reference` p-values without treating them as exploratory.
+- Because `partial_downgrade_count` is more permissive than the binary `downgrade_count` (it also catches 1.0→0.5 shifts), the two counts are not directly comparable and should be reported side by side rather than substituted for one another.
+
+### NSCLC cohort pipeline and Fig. 2, panel B
+
+The GENIE BPC NSCLC production pipeline (`scripts/nsclc/analyze_genie_bpc.py`) does not call `ConcordanceChecker` directly — it computes the binary `concordant_primary`/`concordant_any` columns straight from `adherence_scorer.compute_adherence_score()`. For consistency, `scripts/nsclc/analyze_partial_concordance.py` applies `_PARTIAL_CONCORDANCE_MAP` to that same adherence score (not a separate scoring path) across the six full-cohort model result files, producing `results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv` (per-model reference vs. pooled with-demographics mean partial-concordance, Wilson CIs) and `..._by_variant.csv` (per-variant means and paired deltas vs. `no_demographics`). `plots/plot_publishable_nsclc.py::fig2_concordance()` renders this as panel B of `Fig2_concordance_stability.png`, placed alongside the unchanged pre-registered binary-concordance panel A and visually labeled "SECONDARY / EXPLORATORY" so the two are not conflated. If the summary CSV has not yet been generated, panel B is silently skipped and only panel A is drawn.

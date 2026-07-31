@@ -15,7 +15,7 @@ is the construct we care about. Spearman (rank) is robust to the models' very
 different effect magnitudes.
 
 Reads the six *_soft_intensity.csv files (same source as the forest / volcano).
-Output -> figures/manuscript/FigS_intermodel_agreement.png
+Output -> figures/manuscript/FigS05_intermodel_agreement.png
 Run:  python3 plots/plot_intermodel_agreement.py
 """
 from pathlib import Path
@@ -70,13 +70,16 @@ def main():
     labels = [ML[MODELS[k]] for k in order]
 
     fig, ax = plt.subplots(figsize=(7.4, 6.2))
-    im = ax.imshow(C, cmap="RdBu_r", vmin=-1, vmax=1, aspect="equal")
+    # Sequential single-hue ramp scaled to the observed all-positive range (~0.5-1.0);
+    # a diverging red/blue map wastes half its scale and makes near-equal rho cells look
+    # identical (council: dataviz). Printed values keep it grayscale-safe.
+    im = ax.imshow(C, cmap="Reds", vmin=0.5, vmax=1.0, aspect="equal")
     ax.set_xticks(range(n)); ax.set_xticklabels(labels, rotation=30, ha="right", fontsize=9)
     ax.set_yticks(range(n)); ax.set_yticklabels(labels, fontsize=9)
     for i in range(n):
         for j in range(n):
             ax.text(j, i, f"{C[i, j]:.2f}", ha="center", va="center", fontsize=9,
-                    color="white" if abs(C[i, j]) > 0.6 else "0.15")
+                    color="white" if C[i, j] > 0.82 else "0.15")
     med = np.median(C[np.triu_indices(n, 1)])
     ax.set_title("Vendors share one demographic-response profile\n"
                  f"(Spearman ρ of per-variant induced framing effect; off-diagonal median ρ={med:.2f})",
@@ -84,9 +87,16 @@ def main():
     cb = fig.colorbar(im, ax=ax, shrink=0.82)
     cb.set_label("Spearman ρ across 29 demographic variants")
     fig.tight_layout()
-    fig.savefig(OUT / "FigS_intermodel_agreement.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT / "FigS05_intermodel_agreement.png", dpi=150, bbox_inches="tight")
+
+    # Titleless panel for the combined figure (combine_figures.py stamps the letter;
+    # the banner sentence and the median stat move to the caption).
+    ax.set_title("")
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    fig.savefig(PANELS / "p_intermodel.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
-    print("wrote", OUT / "FigS_intermodel_agreement.png",
+    print("wrote", OUT / "FigS05_intermodel_agreement.png",
+          "and", PANELS / "p_intermodel.png",
           f"(off-diagonal median rho={med:.2f})")
 
 

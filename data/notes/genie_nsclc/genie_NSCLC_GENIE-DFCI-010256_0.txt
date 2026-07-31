@@ -1,0 +1,15 @@
+**HPI:**
+This is a 75-year-old individual with a history of being a former smoker (quit >1 year ago) who is referred for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was reportedly in their usual state of health until approximately 2-3 months prior to presentation, when they developed a persistent dry cough. This was followed by the onset of progressive dyspnea on exertion and a sense of right-sided chest pressure. After an initial course of antibiotics for presumed bronchitis did not alleviate symptoms, the patient sought further medical evaluation. The patient presents to clinic today feeling well, with an ECOG performance status of 1, ambulating without difficulty but noting fatigue and the previously described respiratory symptoms.
+
+**Diagnostic Workup:**
+The patient's workup began with a chest X-ray ordered by their primary care provider, which demonstrated a large right hilar opacity. This prompted a contrast-enhanced CT scan of the chest, abdomen, and pelvis for staging. The CT revealed a large, centrally located mass in the right lung associated with extensive ipsilateral mediastinal and supraclavicular lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or other visualized intra-abdominal organs.
+
+To complete staging, a whole-body PET/CT was performed, which confirmed high metabolic activity in the primary right lung mass and the extensive regional nodal disease, consistent with the CT findings. Importantly, the PET/CT showed no evidence of FDG-avid disease at any distant sites. A dedicated MRI of the brain was also obtained and was negative for intracranial metastases.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue acquisition. Biopsies were obtained from the primary tumor and involved mediastinal lymph nodes. The pathology from these samples confirmed the diagnosis of non-small cell lung cancer. Based on the combination of a large primary tumor with extensive nodal involvement and no evidence of distant metastatic disease (M0), the cancer was staged.
+
+**Molecular Studies:**
+Pathology from the bronchoscopic biopsy confirmed poorly differentiated squamous cell carcinoma. The tissue was sent for next-generation sequencing. Molecular profiling did not identify any actionable driver alterations; results were negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression by immunohistochemistry was not tested. Tumor Mutational Burden (TMB) was found to be in the intermediate range (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 75-year-old former smoker who presents for initial oncology evaluation with a new diagnosis of locally advanced, unresectable Stage IIIB squamous non-small cell lung cancer. The patient is treatment-naive. Staging workup including PET/CT and brain MRI is negative for distant metastatic disease. Molecular profiling is notable for the absence of targetable driver mutations.

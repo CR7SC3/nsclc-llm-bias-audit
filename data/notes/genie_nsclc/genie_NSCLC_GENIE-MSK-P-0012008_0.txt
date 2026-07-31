@@ -1,0 +1,19 @@
+**HPI:**
+This is a 56-year-old who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and increasing fatigue. The symptoms did not resolve with a course of antibiotics, prompting further investigation. The patient reports no significant hemoptysis, chest pain, or weight loss. They are a former smoker, having quit more than one year ago. Performance status is excellent, ECOG 1, with the patient remaining fully ambulatory and capable of all self-care, though they note a reduction in their ability to perform more strenuous activities due to fatigue.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray which revealed a right upper lobe opacity. This was followed by a contrast-enhanced CT of the chest, abdomen, and pelvis. This study characterized a 4.1 cm spiculated mass in the right upper lobe, associated with right hilar and mediastinal lymphadenopathy. The scan also revealed a 2.3 cm nodule in the left adrenal gland and multiple enlarged contralateral mediastinal and supraclavicular lymph nodes, concerning for metastatic disease.
+
+A subsequent PET/CT scan was performed for staging, which demonstrated high FDG-avidity in the primary right upper lobe mass, as well as in the mediastinal, supraclavicular, and left adrenal lesions, consistent with metastatic disease. A contrast-enhanced MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+An interventional radiology-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed poorly differentiated non-small cell carcinoma with features most consistent with adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+- **Driver Mutations:** A ROS1 gene rearrangement was detected.
+- **Negative Drivers:** Testing was negative for mutations or rearrangements in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS.
+- **PD-L1:** Immunohistochemistry for PD-L1 demonstrated a Tumor Proportion Score (TPS) of ≥50%.
+- **TMB:** Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 56-year-old with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving distant lymph nodes and the left adrenal gland, with no evidence of central nervous system involvement. Molecular profiling is notable for the presence of a ROS1 rearrangement and high PD-L1 expression (TPS ≥50%). The patient presents today for initial consultation to discuss these findings.

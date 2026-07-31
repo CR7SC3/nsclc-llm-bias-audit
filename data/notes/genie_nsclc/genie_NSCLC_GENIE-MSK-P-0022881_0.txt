@@ -1,0 +1,24 @@
+INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 75-year-old individual with a history of smoking (quit more than one year ago) who is referred for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially treated as bronchitis without resolution. Over the subsequent weeks, the patient noted the onset of mild dyspnea with strenuous activity. This prompted further evaluation by their primary care provider. The patient denies hemoptysis, chest pain, fevers, or unintentional weight loss. They maintain an excellent performance status (ECOG 1), continuing with all activities of daily living.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray revealed a right-sided lung mass, prompting a follow-up staging CT scan of the chest, abdomen, and pelvis with contrast. This imaging characterized a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated bulky ipsilateral mediastinal and hilar lymphadenopathy, consistent with locoregional involvement.
+
+To complete staging, a PET/CT scan was performed. This study showed intense FDG-avidity in the primary right upper lobe mass and in the right mediastinal lymph nodes. Crucially, there was no evidence of FDG-avid disease suggestive of distant metastases in the contralateral lung, liver, adrenal glands, or skeleton. A staging MRI of the brain was also obtained and was negative for any intracranial metastatic disease.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial needle aspiration (TBNA) of a subcarinal lymph node. This procedure was well-tolerated. The pathology from this biopsy confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+The tissue specimen obtained from the EBUS-TBNA was sent for comprehensive next-generation sequencing and biomarker analysis. Testing revealed the presence of an actionable driver mutation, specifically a sensitizing EGFR exon 19 deletion. Further analysis was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 75-year-old former smoker with an excellent performance status who presents with a new diagnosis of treatment-naive, Stage IIIA non-small cell lung cancer, adenocarcinoma histology. The diagnosis was confirmed via EBUS-guided biopsy of a mediastinal lymph node. A comprehensive staging workup including PET/CT and brain MRI has confirmed locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is significant for the presence of a sensitizing EGFR exon 19 deletion.

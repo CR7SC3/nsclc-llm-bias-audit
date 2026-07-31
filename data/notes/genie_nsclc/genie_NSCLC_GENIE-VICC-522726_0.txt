@@ -1,0 +1,17 @@
+**HPI:**
+This is a 71-year-old individual who presents for a new patient consultation in the Thoracic Oncology clinic for a recent diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately six weeks prior to presentation, when they noted the insidious onset of progressive dyspnea on exertion and a persistent, non-productive cough. Symptoms gradually worsened, prompting a visit to their primary care provider. An initial chest X-ray demonstrated a right-sided lung opacity and a moderate pleural effusion. The patient was subsequently referred for further evaluation. On review of systems, the patient denies fevers, chills, or significant weight loss. Performance status is excellent, estimated at ECOG 1, with activity limited only by dyspnea. The patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. Imaging revealed a 3.5 cm spiculated mass in the right upper lobe of the lung, associated with a large, right-sided pleural effusion. There was no evidence of mediastinal or hilar lymphadenopathy. The scan of the abdomen and pelvis did not reveal any evidence of distant metastatic disease to the liver, adrenal glands, or bone. A subsequent MRI of the brain with contrast was negative for intracranial metastases.
+
+Given the large symptomatic pleural effusion, the patient underwent a CT-guided thoracentesis on [De-identified date]. Approximately 1.5 liters of serosanguinous fluid were removed, with significant improvement in dyspnea. Cytopathology and cell block of the pleural fluid confirmed the presence of malignant cells. Final pathology returned as adenocarcinoma, with immunohistochemical staining positive for TTF-1 and Napsin-A, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block specimen.
+-   An actionable driver mutation was identified: **MET exon 14 skipping mutation**.
+-   Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, RET, KRAS, and ERBB2.
+-   Immunohistochemistry for PD-L1 expression demonstrated a **Tumor Proportion Score (TPS) of ≥50%**.
+-   Tumor Mutational Burden (TMB) was assessed and found to be **high (>16 mutations/megabase)**.
+
+**Problem Summary:**
+In summary, this is a 71-year-old never-smoker who presents with newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic involvement of the pleura (cT2a N0 M1a). The patient has an excellent performance status. Molecular profiling is notable for the presence of a MET exon 14 skipping mutation, high PD-L1 expression (TPS ≥50%), and a high Tumor Mutational Burden. The patient is here today to discuss the implications of this diagnosis.

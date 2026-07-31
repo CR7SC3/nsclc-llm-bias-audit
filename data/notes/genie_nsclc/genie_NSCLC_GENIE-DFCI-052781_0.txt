@@ -1,0 +1,31 @@
+**Patient ID:** [De-identified]
+**Date of Consultation:** [De-identified]
+**Attending Physician:** [De-identified], MD
+**Primary Care Provider:** [De-identified], MD
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 73-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient presented to an outpatient clinic approximately one month ago with a persistent dry cough and a feeling of generalized fatigue. An initial chest radiograph was concerning for a right-sided lung opacity, prompting further investigation.
+
+A subsequent CT scan of the chest, abdomen, and pelvis was performed, which identified a 4.2 cm mass in the right upper lobe with associated mediastinal lymphadenopathy. As part of a comprehensive staging evaluation, a PET/CT was obtained, which demonstrated intense FDG-avidity in the primary lung mass and mediastinal nodes. To complete staging, a brain MRI was performed, which revealed several small enhancing lesions consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed, which established the diagnosis of adenocarcinoma. The patient is a former smoker, having quit more than one year ago. The patient remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1. The patient is here today for an initial oncology consultation to discuss the diagnosis and establish care.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with contrast ([Date]):** Revealed a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. Associated right hilar and mediastinal lymphadenopathy was noted. No definite metastatic lesions were identified in the liver, adrenal glands, or other visualized abdominopelvic organs.
+*   **MRI Brain with and without contrast ([Date]):** Demonstrated multiple small, ring-enhancing lesions in the bilateral cerebral hemispheres and cerebellum, characteristic of metastatic deposits.
+*   **PET/CT ([Date]):** Confirmed hypermetabolic activity in the primary right upper lobe lung mass, as well as in mediastinal lymph nodes. Increased uptake was also noted corresponding to the known cerebral metastases.
+
+**Pathology:**
+*   **CT-guided core biopsy, right upper lobe lung mass ([Date]):** Histologic examination confirmed invasive adenocarcinoma. Immunohistochemical stains were consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue with the following results:
+*   **Actionable Driver Mutation:** A MET exon 14 skipping mutation was detected.
+*   **Other Molecular Markers:** The tumor was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is ≥50%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 73-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the brain. The patient has a good performance status (ECOG 1). Molecular profiling is significant for a MET exon 14 skipping mutation and high PD-L1 expression (TPS ≥50%). The patient is seen today for an initial consultation to review these findings.

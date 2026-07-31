@@ -1,0 +1,16 @@
+**HPI:**
+The patient is a 68-year-old with a history of tobacco use (former smoker, quit >1 year ago) who is referred for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. This was followed by the development of dull, constant pain in the mid-back. Due to the progression of these symptoms, the patient sought evaluation with their primary care physician, who obtained a chest X-ray revealing a right-sided lung mass and a pleural effusion, prompting further workup. The patient reports being fully ambulatory and capable of self-care but is limited in strenuous physical activities.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed. Imaging demonstrated a 4.8 cm spiculated mass in the right upper lobe. Further findings were significant for metastatic disease, including multiple small nodules in the contralateral (left) lung, a 2.5 cm left adrenal nodule, a lytic lesion within a thoracic vertebral body, and a moderate right-sided malignant pleural effusion. A subsequent MRI of the brain was obtained as part of the staging evaluation and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen to assess for targetable alterations.
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- PD-L1 immunohistochemistry was not performed, as initial tissue analysis was completed prior to this becoming a standard component of first-line NSCLC workup.
+
+**Problem Summary:**
+This is a 68-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the contralateral lung, bone, adrenal gland, and pleura. Comprehensive molecular profiling did not identify an actionable driver mutation.

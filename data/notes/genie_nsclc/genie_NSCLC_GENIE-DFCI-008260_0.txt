@@ -1,0 +1,17 @@
+**HPI:**
+This is a 59-year-old individual referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they noted the onset of a persistent, dry cough and progressive fatigue. Over the subsequent weeks, they also experienced a 15-pound unintentional weight loss and developed a dull, constant ache in their right posterior ribs. This prompted a visit to their primary care provider, who initiated a diagnostic workup. The patient is a former smoker, having quit more than one year ago. They remain fully ambulatory and capable of all self-care but are limited in strenuous physical activity due to fatigue (ECOG Performance Status 1).
+
+**Diagnostic Workup:**
+The initial diagnostic evaluation included a contrast-enhanced CT scan of the chest, abdomen, and pelvis performed on [De-identified Date]. This study demonstrated a 5 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. It also revealed multiple hypoattenuating lesions throughout both lobes of the liver, concerning for metastatic disease.
+
+To fully characterize the extent of disease, a whole-body PET/CT was subsequently performed. This confirmed high FDG-avidity in the primary right lung mass and mediastinal nodes. Additionally, it showed multiple hypermetabolic hepatic lesions and a new, intensely avid lytic lesion in the right 7th rib, corresponding to the patient's area of pain. A staging MRI of the brain was completed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of an accessible liver lesion. Pathologic analysis confirmed metastatic adenocarcinoma consistent with a lung primary, further classified as non-small cell lung cancer, not otherwise specified (NSCLC, nos).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. This comprehensive molecular profiling did not identify any actionable driver alterations; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not tested. The tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). The analysis did identify a KEAP1 loss-of-function mutation.
+
+**Problem Summary:**
+In summary, this is a 59-year-old with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer (NSCLC, nos). Staging studies have confirmed metastatic disease to the liver and bone, with no evidence of central nervous system involvement. Comprehensive molecular profiling of the tumor is notable for the absence of a targetable oncogenic driver and the presence of a KEAP1 loss-of-function mutation. The patient presents for initial consultation to discuss the diagnosis and the goals and options for management.

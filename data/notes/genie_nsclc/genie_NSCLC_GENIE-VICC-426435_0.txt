@@ -1,0 +1,19 @@
+**HPI:**
+This is a 52-year-old individual with a history of current tobacco use who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially self-managed but did not resolve, prompting a visit to their primary care provider. An initial chest radiograph revealed a right upper lobe opacity, leading to further diagnostic evaluation. The patient reports no significant hemoptysis, fevers, chills, or unintentional weight loss. Performance status is excellent, ECOG 0, and they continue to work and perform all activities of daily living without restriction. They are here today to discuss the findings and establish care.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast:** Performed on [De-identified], this revealed a 5.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal or hilar adenopathy. The visualized portions of the abdomen and pelvis were negative for metastatic disease, with no suspicious lesions in the liver, adrenal glands, or bones.
+- **PET/CT:** A subsequent PET/CT scan on [De-identified] demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. No FDG-avid lymphadenopathy or distant metastatic disease was identified.
+- **MRI Brain with and without contrast:** Performed for staging on [De-identified], this was negative for intracranial metastases.
+- **CT-guided Core Needle Biopsy:** A biopsy of the right upper lobe mass was performed on [De-identified]. Pathology confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+Based on the above workup, the patient's disease is classified as Stage IIB.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- **PD-L1 Expression:** PD-L1 expression by immunohistochemistry (IHC) was negative, with a Tumor Proportion Score (TPS) of <1%.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be high at >16 mutations per megabase (mut/Mb).
+
+**Problem Summary:**
+This is a 52-year-old individual with a new diagnosis of Stage IIB non-small cell lung adenocarcinoma of the right upper lobe. The patient is treatment-naive and presents today for initial consultation and discussion of the diagnosis. Molecular profiling is notable for high TMB and negative PD-L1 expression, with no targetable driver mutations identified.

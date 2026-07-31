@@ -1,0 +1,30 @@
+**HPI:**
+This is a 59-year-old individual with a past history of smoking (quit more than one year ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. An initial course of antibiotics from their primary care provider for presumed bronchitis did not lead to improvement. A subsequent chest X-ray was obtained which revealed a mass in the right lung, prompting further investigation.
+
+The patient reports feeling more fatigued than usual but denies fevers, chills, or significant weight loss. Appetite is fair. Performance status is good; the patient remains fully ambulatory, capable of all self-care, and continues to manage light household activities, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a staging workup was initiated.
+
+A CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This study characterized a 4.1 cm spiculated mass in the right upper lobe. It also identified a distinct 1.5 cm nodule in the contralateral left lower lobe, suspicious for metastatic disease. Several mildly enlarged right-sided mediastinal lymph nodes were also noted. There was no evidence of metastatic disease to the liver, adrenal glands, or other abdominopelvic organs.
+
+To further clarify the extent of disease, a PET/CT scan was performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass, the contralateral left lower lobe nodule, and in right paratracheal and subcarinal lymph nodes. No other sites of distant FDG-avid metastatic disease were identified.
+
+Given the Stage IV diagnosis, a screening MRI of the brain with and without contrast was completed and was negative for any evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis confirmed the diagnosis of non-small cell lung cancer, not otherwise specified (nos).
+
+**Molecular Studies:**
+The tumor tissue obtained from the biopsy was sent for comprehensive molecular profiling and immunohistochemistry. Next-generation sequencing did not identify any actionable oncogenic driver alterations. The tumor was found to be negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+1.  Newly diagnosed metastatic (Stage IV) non-small cell lung cancer, histology not otherwise specified. Disease is metastatic to the contralateral lung.
+2.  AJCC Clinical Stage: Stage IVB (cT2b N2 M1b).
+3.  Molecular profiling negative for common actionable driver mutations.
+4.  Tumor is PD-L1 high (TPS ≥50%).
+5.  ECOG performance status 1.
+6.  Former smoker.

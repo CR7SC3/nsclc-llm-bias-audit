@@ -1,0 +1,19 @@
+**HPI:**
+This is a 44-year-old individual with a recent history of a persistent dry cough and progressive shortness of breath over the past three months, referred for initial oncology consultation. The patient also reports new-onset, nagging right-sided rib and mid-back pain. Due to these symptoms, an initial evaluation was pursued with their primary care provider. The patient is a former smoker, having quit less than one year ago after a significant pack-year history. Despite the recent symptoms, performance status is good, and the patient remains ambulatory and capable of self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity and a moderate right pleural effusion. This prompted a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated extensive malignant-appearing pleural thickening and a moderate-to-large right-sided pleural effusion. Additionally, a lytic lesion was identified in the T7 vertebral body, suspicious for osseous metastasis.
+
+A subsequent PET/CT scan was performed for staging, which showed intense FDG-avidity in the primary right upper lobe lung mass, the right-sided pleura, and the T7 vertebral body lesion, consistent with metastatic disease. No other distant avid sites were identified. A dedicated MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed by Interventional Radiology on [De-identified Date]. Pathology from this specimen confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor tissue returned the following results:
+- **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** No pathogenic variants were identified in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, or ERBB2.
+- **PD-L1 Expression:** Not tested.
+- **Tumor Mutational Burden (TMB):** Intermediate (2-16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 44-year-old former smoker presenting with a new diagnosis of Stage IV (cT2 N0 M1c) non-small cell lung cancer, adenocarcinoma histology, metastatic to the pleura and bone. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

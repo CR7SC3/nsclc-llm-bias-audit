@@ -1,0 +1,17 @@
+**HPI:**
+This is a 76-year-old individual with a history of being a lifetime never-smoker, who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health and fully independent until a right upper lobe pulmonary nodule was incidentally discovered on a pre-operative chest X-ray for an unrelated procedure. This prompted further investigation. The patient is largely asymptomatic, denying fevers, chills, or weight loss. They report a mild, intermittent, non-productive cough over the past several months but no significant shortness of breath, chest pain, or hemoptysis. They maintain an excellent performance status, are fully ambulatory, and continue to manage all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified]. This scan confirmed the presence of a 3.8 cm spiculated solid mass in the posterior segment of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the abdomen and pelvis, including the liver and adrenal glands, were unremarkable and showed no evidence of metastatic disease. A subsequent MRI of the brain with and without contrast was also performed and was negative for any intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin. Based on the comprehensive imaging and pathology results, the cancer is formally staged as AJCC 8th Edition, Stage IIA.
+
+**Molecular Studies:**
+Tissue from the biopsy specimen was submitted for next-generation sequencing to characterize the tumor's molecular profile.
+- An actionable driver mutation was detected: **MET exon 14 skipping mutation**.
+- Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be **intermediate (11 mut/Mb)**.
+- PD-L1 expression was not assessed on this sample, as this was not standard of care at the time the panel was ordered.
+
+**Problem Summary:**
+In summary, this is a 76-year-old never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIA (AJCC 8th Ed.) non-small cell lung adenocarcinoma of the right upper lobe. Molecular profiling of the tumor is notable for the presence of a MET exon 14 skipping mutation. The patient is here today for initial consultation to discuss the diagnosis and review the findings in detail.

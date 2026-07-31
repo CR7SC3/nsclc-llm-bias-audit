@@ -1,0 +1,44 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:** New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 67-year-old with a new diagnosis of Stage IIIA non-small cell lung cancer who presents for initial oncologic evaluation.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. After these symptoms failed to resolve with a course of antibiotics from their primary care provider, a chest X-ray was obtained which revealed a right upper lobe opacity.
+
+This prompted a contrast-enhanced CT of the chest, which characterized a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. The scan also demonstrated bulky mediastinal lymphadenopathy, including in the right paratracheal and subcarinal stations, concerning for nodal involvement.
+
+A subsequent PET/CT scan was performed for staging purposes. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the mediastinal lymph nodes noted on CT. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology returned as invasive adenocarcinoma. The patient reports good functional status, remaining fully ambulatory and independent in all activities of daily living (ECOG 0). They deny fevers, chills, hemoptysis, or significant weight loss.
+
+**PAST MEDICAL HISTORY:**
+1.  Prostate Cancer, previously treated with external beam radiation, in remission.
+2.  Hypertension.
+3.  Hyperlipidemia.
+
+**SOCIAL HISTORY:**
+-   **Tobacco:** Former smoker with a 40-pack-year history. Quit approximately 8 years ago.
+
+**DIAGNOSTIC WORKUP:**
+
+**IMAGING:**
+-   **CT Chest with Contrast:** Revealed a 4.2 cm spiculated mass in the right upper lobe with associated bulky mediastinal lymphadenopathy in the right paratracheal and subcarinal regions.
+-   **PET/CT:** Showed hypermetabolic activity corresponding to the right upper lobe mass (SUVmax 12.4) and mediastinal nodal stations (SUVmax 9.8). No evidence of distant metastatic disease.
+-   **MRI Brain with and without Contrast:** Negative for intracranial metastases.
+
+**PATHOLOGY:**
+-   **CT-guided biopsy, right upper lobe lung mass:** Invasive adenocarcinoma, moderately differentiated.
+
+**MOLECULAR STUDIES:**
+-   **PD-L1 Immunohistochemistry (IHC):** Positive, Tumor Proportion Score (TPS) is 40%.
+-   **Tumor Mutational Burden (TMB):** Low, 1.5 mutations/megabase.
+-   **Comprehensive Next-Generation Sequencing (NGS):** Results are pending at this time.
+
+**PROBLEM SUMMARY:**
+This is a 67-year-old former smoker with an excellent performance status (ECOG 0) who presents with a new diagnosis of non-metastatic, locally advanced, Stage IIIA non-small cell lung cancer (adenocarcinoma). Molecular testing is notable for a PD-L1 TPS of 40%. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and review potential management strategies.

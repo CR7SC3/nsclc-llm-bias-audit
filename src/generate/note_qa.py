@@ -135,8 +135,15 @@ def check_note(note: str, profile: dict[str, Any], biomarkers_available: bool = 
 
     # --- Faithfulness: brain mets consistency ---
     brain = bool(profile.get("brain_mets"))
-    mentions_brain_met = bool(re.search(r"brain\s+met|cerebral\s+met|intracranial\s+met|CNS\s+met",
-                                        note, re.IGNORECASE))
+    mentions_brain_met = bool(re.search(
+        r"brain\s+met|cerebral\s+met|intracranial\s+met|CNS\s+met"   # existing: "brain mets/metastasis"
+        r"|leptomeningeal"                                              # leptomeningeal disease
+        r"|met\w*\s+to\s+the\s+brain"                                  # "metastases to the brain"
+        r"|brain\s+MRI|MRI\s+(?:of\s+the\s+)?brain"                   # brain MRI finding (implies mets workup)
+        r"|brain\s+(?:lesion|involv|disease)"                          # "brain lesions/involvement"
+        r"|intracranial\s+(?:lesion|disease|enhanc|involv)",           # "intracranial lesions/enhancement"
+        note, re.IGNORECASE,
+    ))
     if brain and not mentions_brain_met:
         failures.append("brain_mets=True but no brain metastasis stated")
     if not brain and mentions_brain_met:

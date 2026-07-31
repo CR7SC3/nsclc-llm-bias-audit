@@ -1,0 +1,28 @@
+Patient ID: [De-identified]
+Attending Physician: [De-identified], MD
+
+**HPI:**
+This is an initial medical oncology consultation for an 83-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. They also self-palpated a new, non-tender nodule on their anterior chest wall. They initially presented to their primary care provider, who ordered a chest radiograph that revealed a right-sided lung opacity and a small pleural effusion.
+
+This prompted a contrast-enhanced CT of the chest, abdomen, and pelvis for further evaluation. The patient reports being generally active with an ECOG performance status of 1, limited only by some shortness of breath with significant activity. They deny fevers, chills, or significant weight loss.
+
+**Diagnostic Workup:**
+Staging CT of the chest, abdomen, and pelvis revealed a 3.5 cm spiculated mass in the right upper lobe of the lung. There was associated malignant-appearing right-sided pleural thickening and a moderate pleural effusion. A 2 cm subcutaneous nodule in the right anterior chest wall was also identified, corresponding to the lesion palpated by the patient. No other distant visceral or osseous metastases were identified.
+
+A CT-guided core needle biopsy of the subcutaneous chest wall nodule was performed. Pathology confirmed metastatic adenocarcinoma with an immunohistochemical profile (TTF-1 positive, Napsin-A positive) consistent with a lung primary.
+
+A dedicated MRI of the brain with contrast was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy.
+- **Actionable driver:** A sensitizing EGFR L858R point mutation was detected.
+- **Additional testing:** Testing was negative for ALK, ROS1, RET, and NTRK fusions/rearrangements. No pathogenic mutations were identified in BRAF, KRAS, ERBB2 (HER2), or for MET exon 14 skipping.
+- **Tumor Mutational Burden (TMB):** TMB was low at <2 mutations/megabase.
+- **PD-L1:** Immunohistochemistry for PD-L1 showed a Tumor Proportion Score (TPS) of 1-49%.
+
+**Problem Summary:**
+In summary, this is an 83-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura and subcutaneous tissue. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and PD-L1 expression of 1-49%. The patient is treatment-naive and has a good performance status.

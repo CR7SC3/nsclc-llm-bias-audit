@@ -1,0 +1,39 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 48-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient has a significant history of tobacco use and is a current smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, dry cough and progressive dyspnea on exertion. These symptoms were associated with right-sided pleuritic chest discomfort and an unintentional weight loss of approximately 15 pounds over the past three months. The patient initially sought care at an urgent care clinic and was treated with a course of antibiotics without improvement.
+
+Due to worsening shortness of breath, the patient presented to an outside emergency department. A chest X-ray performed at that time was abnormal, showing a large right-sided lung mass and a pleural effusion. A subsequent staging CT scan of the chest, abdomen, and pelvis was obtained, which further characterized the extent of disease. The patient then underwent a CT-guided biopsy of the primary lung mass, which confirmed the diagnosis of adenocarcinoma. A dedicated brain MRI was also performed as part of the staging workup.
+
+The patient is now referred to our clinic for evaluation and to establish care. At today's visit, the patient reports ongoing dyspnea, particularly with ambulation, but is able to perform all activities of daily living. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+
+*   **CT Chest, Abdomen, and Pelvis with IV contrast, [De-identified date]:**
+    *   A large, spiculated 6.2 cm mass is identified in the right upper lobe.
+    *   Multiple bilateral pulmonary nodules are present, with several solid nodules in the left lung measuring up to 1.5 cm, consistent with contralateral metastatic disease.
+    *   A moderate right-sided pleural effusion with associated nodular pleural thickening is noted, highly suspicious for malignant involvement.
+    *   No evidence of metastatic disease to the liver, adrenal glands, or bones within the imaged fields.
+
+*   **MRI Brain with and without IV contrast, [De-identified date]:**
+    *   No evidence of intracranial metastatic disease.
+
+*   **Pathology - CT-guided core biopsy, right upper lobe mass, [De-identified date]:**
+    *   FINAL DIAGNOSIS: Invasive adenocarcinoma, non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. The following results are noted:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations, fusions, or amplifications involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1:** Immunohistochemistry (IHC) for PD-L1 expression is negative (Tumor Proportion Score < 1%).
+*   **Tumor Mutational Burden (TMB):** TMB is intermediate (reported as 11 mutations/megabase).
+*   **Other Findings:** A pathogenic loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 48-year-old current smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastatic disease involving the contralateral lung and pleura. Molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and the presence of an STK11 loss-of-function mutation, which may confer primary resistance to immunotherapy. The patient is treatment-naive and presents today for initial evaluation.

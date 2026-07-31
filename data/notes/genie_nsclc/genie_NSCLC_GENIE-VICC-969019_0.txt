@@ -1,0 +1,26 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 69-year-old with a history of former tobacco use (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough and new-onset, deep aching pain in the mid-back. The symptoms did not resolve with conservative measures, prompting evaluation by their primary care provider. An initial chest radiograph showed a right-sided lung opacity, leading to a contrast-enhanced CT of the chest, abdomen, and pelvis. This study identified a large, spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. It also revealed multiple osseous lesions in the thoracic spine concerning for metastatic disease.
+
+For definitive staging, a PET/CT scan was performed which confirmed a hypermetabolic primary mass in the right lung and widespread FDG-avid osseous metastases. A staging MRI of the brain was subsequently performed and was negative for any intracranial metastatic disease.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified date]. Pathology confirmed the diagnosis of adenocarcinoma. The patient reports their pain is adequately controlled with scheduled analgesics and denies significant shortness of breath, hemoptysis, or constitutional symptoms at this time. Their ECOG performance status is 1, as they remain ambulatory and capable of all self-care but are restricted in physically strenuous activity. They are here today to discuss the diagnosis in detail and establish care.
+
+**DIAGNOSTIC WORKUP**
+*   **Imaging:**
+    *   PET/CT Scan: Showed a hypermetabolic primary mass in the right upper lobe with mediastinal adenopathy and multiple hypermetabolic osseous metastases.
+    *   MRI Brain: Negative for evidence of central nervous system metastases.
+*   **Pathology:**
+    *   Biopsy of right upper lobe lung mass ([De-identified date]): Invasive adenocarcinoma.
+*   **Staging:**
+    *   The patient's diagnosis is Stage IV non-small cell lung cancer (NSCLC).
+
+**MOLECULAR STUDIES**
+*   Next-generation sequencing (NGS) was performed on the tumor tissue specimen.
+*   No actionable driver alteration was identified. Testing was negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+*   Immunohistochemistry for PD-L1 is positive, with a Tumor Proportion Score (TPS) of ≥50%.
+*   Tumor Mutational Burden (TMB) is high, measured at >16 mutations/megabase.
+
+**PROBLEM SUMMARY**
+This is a 69-year-old with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. The patient is a former smoker and is treatment-naive. Staging studies confirm metastatic disease to bone with no evidence of brain metastases. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and high tumor mutational burden (TMB-H), with no identified actionable oncogenic driver.

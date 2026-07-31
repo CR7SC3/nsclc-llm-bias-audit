@@ -1,0 +1,19 @@
+**HPI:**
+This is a 67-year-old individual with a history of prior tobacco use (quit >1 year ago) who is referred for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider approximately one month ago with a persistent, dry cough and progressive fatigue. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. The patient reports feeling generally well but notes a decrease in energy levels over the past several weeks. They maintain their ability to perform all activities of daily living and remain ambulatory. ECOG performance status is estimated at 1. There is no report of significant weight loss, hemoptysis, or focal neurologic symptoms.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. Imaging revealed a 4.1 cm spiculated mass in the right upper lobe with associated ipsilateral mediastinal lymphadenopathy. A solitary 2.5 cm enhancing nodule was also identified in the left adrenal gland, highly suspicious for metastatic disease. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis. A subsequent MRI of the brain was performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core biopsy of the right upper lobe lung mass. Histopathologic examination confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive next-generation sequencing.
+- Molecular profiling did not identify any actionable oncogenic driver alterations. The tumor was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested on this specimen.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+This is a 67-year-old, treatment-naive former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the left adrenal gland. The patient has an ECOG performance status of 1. Molecular studies are notable for the absence of actionable driver mutations and the presence of an STK11 loss-of-function mutation.

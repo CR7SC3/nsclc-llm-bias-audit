@@ -1,0 +1,17 @@
+**HPI:**
+This is a 73-year-old with a history of tobacco use (former smoker, quit over one year ago) who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience progressive shortness of breath on exertion and a persistent, non-productive cough. This prompted a visit to their primary care provider. The patient denies fevers, chills, or significant weight loss. They remain ambulatory and are managing activities of daily living, with an ECOG performance status of 1, limited only by dyspnea.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest radiograph which demonstrated a right-sided lung mass and a large pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This confirmed the presence of a primary mass in the right upper lobe and a large, complex right-sided pleural effusion. No definitive evidence of distant metastatic disease to the liver, adrenal glands, or bones was identified.
+
+A staging MRI of the brain was performed on [De-identified] and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a video-assisted thoracoscopic surgery (VATS) for a diagnostic and therapeutic pleurodesis. Biopsies of the pleura and cytologic analysis of the pleural fluid were obtained. Pathology from the pleural fluid and tissue confirmed the presence of malignant cells consistent with adenocarcinoma. The presence of a malignant pleural effusion establishes the diagnosis of Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the pleural biopsy. Molecular profiling did not identify any actionable driver alterations. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was found to be intermediate, at a level of 2–16 mutations per megabase. PD-L1 expression was not tested on this specimen, as it was not yet standard of care at the time the sample was procured.
+
+**Problem Summary:**
+In summary, this is a 73-year-old with a good performance status presenting with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the pleura. Molecular profiling is notable for an absence of targetable driver mutations and an intermediate Tumor Mutational Burden. The patient is here today to discuss the implications of this diagnosis.

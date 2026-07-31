@@ -1,0 +1,19 @@
+**HPI:**
+This is a 78-year-old who presents for an initial oncology consultation. The patient has a significant smoking history, having quit within the last year, and was in a usual state of health until approximately two months prior to presentation. The patient developed a persistent, non-productive cough and progressive dyspnea on exertion, accompanied by a 15-pound unintentional weight loss. An initial chest radiograph performed by the primary care physician was suspicious for a right-sided lung mass, prompting further imaging. The patient is otherwise active and independent with activities of daily living.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This revealed a large, spiculated 5.2 cm mass in the right upper lobe. The scan also identified multiple suspicious lesions, including a 1.8 cm nodule in the contralateral left lower lobe, a 3.4 cm left adrenal mass, and a lytic lesion in the T7 vertebral body.
+
+A subsequent PET/CT scan confirmed high FDG avidity in the primary right upper lobe mass, the contralateral lung nodule, the left adrenal mass, and the T7 vertebral body, consistent with widespread metastatic disease. A brain MRI with and without contrast was performed as part of the staging evaluation and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology returned poorly differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified; testing was negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as this was not standard of care at the time of diagnosis.
+
+**Problem Summary:**
+1. Metastatic (Stage IV) non-small cell lung cancer, squamous histology.
+2. Sites of metastatic disease include the contralateral lung, left adrenal gland, and bone.
+3. No targetable driver mutations identified on molecular profiling.
+4. History of tobacco use.
+5. ECOG performance status 1.

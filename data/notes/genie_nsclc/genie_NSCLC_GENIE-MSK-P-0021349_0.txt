@@ -1,0 +1,17 @@
+**HPI:**
+This is a 61-year-old individual with a history of former tobacco use who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to evaluation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms prompted a visit to their primary care provider. The patient denies hemoptysis, fevers, chills, or significant weight loss. They remain active and independent with all activities of daily living but note fatigue with strenuous activity. ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided pulmonary opacity, leading to further imaging. A contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a 4.8 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. The scan also revealed a 3.5 cm enhancing mass in the left adrenal gland, suspicious for a metastasis.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary right upper lobe tumor, several mediastinal lymph nodes, and the solitary left adrenal lesion, consistent with metastatic disease. A staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. The pathology from this procedure confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was sent for comprehensive genomic and biomarker profiling. Next-generation sequencing did not identify an actionable driver alteration; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative with a Tumor Proportion Score (TPS) of <1%. The Tumor Mutational Burden (TMB) was determined to be intermediate at 12 mutations per megabase (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 61-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging workup has confirmed a primary right upper lobe mass with metastatic disease to the left adrenal gland. Molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and an intermediate tumor mutational burden. The patient is treatment-naive and is seen today to discuss the diagnosis and prognosis.

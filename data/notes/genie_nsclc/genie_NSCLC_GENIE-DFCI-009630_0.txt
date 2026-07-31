@@ -1,0 +1,31 @@
+MEDICAL ONCOLOGY INITIAL CONSULTATION
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 69-year-old individual with a history of former tobacco use who presents for an initial oncology consultation. The patient was in their usual state of health until approximately two months prior to this evaluation when they developed a persistent, dry cough and progressive shortness of breath with exertion. Over the past several weeks, the patient also noted the onset of intermittent headaches and a sense of imbalance, which prompted a visit to their primary care provider.
+
+An initial chest X-ray was concerning for a right-sided pulmonary mass, leading to further cross-sectional imaging. A staging CT scan of the chest, abdomen, and pelvis confirmed the presence of a large, irregular mass in the right upper lobe of the lung, associated with significant mediastinal and hilar lymphadenopathy. Given the concurrent neurologic symptoms, a brain MRI was performed, which revealed multiple enhancing intracranial lesions consistent with metastatic disease.
+
+To obtain a definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the primary lung mass. Pathology confirmed a diagnosis of non-small cell lung cancer. The patient has a good performance status (ECOG 1), remaining ambulatory and capable of self-care, though limited in strenuous activity by dyspnea. The patient is here today to discuss the diagnosis in detail and establish a plan for management.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest, Abdomen, and Pelvis with Contrast:** Revealed a 5.2 cm spiculated mass in the right upper lobe. There is extensive ipsilateral mediastinal (4R, 4L) and hilar lymphadenopathy. No evidence of metastatic disease to the liver, adrenal glands, or bone was identified.
+*   **MRI Brain with and without Contrast:** Demonstrated at least three distinct, enhancing lesions within the bilateral cerebral hemispheres, the largest measuring 1.5 cm in the right parietal lobe with surrounding vasogenic edema. Findings are diagnostic for intracranial metastases.
+
+**Pathology:**
+*   **CT-guided Core Biopsy, Right Upper Lobe Lung Mass:** Invasive adenocarcinoma, poorly differentiated. Morphology is consistent with a primary lung malignancy.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor biopsy specimen with the following results:
+*   **Actionable Driver Mutation:** Positive for a KRAS G12C mutation.
+*   **Other Driver Mutations:** Negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1-49%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (9.5 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 69-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. Molecular profiling of the tumor is notable for the presence of a KRAS G12C mutation and a PD-L1 TPS in the 1-49% range. The patient is treatment-naive and presents today to discuss the findings and establish oncologic care.

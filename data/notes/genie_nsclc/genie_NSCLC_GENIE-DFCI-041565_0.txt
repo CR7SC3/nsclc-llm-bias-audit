@@ -1,0 +1,15 @@
+**HPI:**
+This is the initial oncology consultation for a 63-year-old with a new diagnosis of non-small cell lung cancer. The patient is a current smoker with a significant tobacco history who presented to an outside facility approximately one month ago with a persistent, non-productive cough and worsening dyspnea on exertion over the preceding several months. An initial chest X-ray was concerning for a left-sided lung mass, which prompted further diagnostic evaluation. The patient reports some associated fatigue but remains fully ambulatory and independent in all activities of daily living. A comprehensive review of systems is otherwise negative for constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient has no history of prior malignancy.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This imaging revealed a large, 5.5 cm spiculated mass in the left upper lobe. The scan also demonstrated prominent ipsilateral mediastinal and hilar lymphadenopathy, with lymph nodes measuring up to 2.8 cm in short-axis diameter.
+
+For definitive staging, a whole-body PET/CT was performed on [De-identified date]. This study confirmed intense FDG-avidity within the primary left upper lobe mass and in multiple ipsilateral mediastinal lymph node stations (hilar, subcarinal). Crucially, the PET/CT showed no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, bones, or other distant sites to suggest metastatic disease. A dedicated MRI of the brain with contrast was subsequently obtained and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A transbronchial needle aspiration was performed on a subcarinal (station 7) lymph node. Pathologic analysis of the specimen confirmed poorly differentiated non-small cell carcinoma, with an immunohistochemical profile consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Tissue from the EBUS biopsy was sent for comprehensive next-generation sequencing. Molecular analysis identified an actionable KRAS G12C mutation. Further testing was negative for other known driver mutations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor mutational burden (TMB) was found to be in the intermediate range (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 63-year-old with a new diagnosis of locally advanced, non-metastatic non-small cell lung cancer, squamous cell histology. The diagnosis was confirmed via EBUS-guided biopsy of a mediastinal lymph node. Staging workup, including PET/CT and brain MRI, is consistent with AJCC Stage IIIA disease. Molecular testing of the tumor is notable for a KRAS G12C mutation. The patient has a good performance status and is here today to discuss the diagnosis and establish care.

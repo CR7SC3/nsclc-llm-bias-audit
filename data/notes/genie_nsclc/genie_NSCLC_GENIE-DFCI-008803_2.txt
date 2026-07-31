@@ -1,0 +1,20 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 70-year-old individual with a history of smoking (former, quit within the last year) who is referred for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially treated as bronchitis without resolution, which prompted further imaging. The patient reports good energy levels and has an ECOG performance status of 0. They deny constitutional symptoms such as fevers, night sweats, or unintentional weight loss.
+
+**DIAGNOSTIC WORKUP:**
+A chest radiograph was performed which demonstrated a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest confirmed the presence of a 3.2 cm spiculated mass in the right upper lobe, without evidence of significant mediastinal or hilar lymphadenopathy.
+
+For staging purposes, a PET/CT was performed. This demonstrated intense FDG-avidity within the known right upper lobe mass. There was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or any distant sites. A dedicated MRI of the brain was also obtained and was negative for any evidence of intracranial metastasis.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology from this procedure confirmed the diagnosis of lung adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with clinical Stage IB (T2aN0M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested, as was standard at the time of this diagnostic workup.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 70-year-old individual, former smoker, with an excellent performance status who presents for initial oncology evaluation. They have a new diagnosis of treatment-naive, clinical Stage IB (T2aN0M0) non-metastatic lung adenocarcinoma of the right upper lobe. Molecular profiling did not identify an actionable driver mutation. The patient is here today to discuss the diagnosis and the potential role of further therapy.

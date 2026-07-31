@@ -1,0 +1,29 @@
+**Medical Oncology Initial Consultation Note**
+
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 70-year-old with a significant history of tobacco use (former smoker, quit >1 year ago) who presents for initial medical oncology evaluation following a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. This was initially attributed to a seasonal illness, but when symptoms failed to resolve, the patient presented to their primary care provider. An initial chest X-ray was concerning for a right-sided lung mass, which prompted a full diagnostic workup. The patient denies hemoptysis, fevers, or significant unintentional weight loss. They maintain an excellent performance status (ECOG 0), continuing with their daily activities without significant limitation.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was obtained. This study characterized a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed prominent ipsilateral mediastinal and hilar lymphadenopathy, with the largest node measuring 2.2 cm in the short axis. There was no evidence of contralateral nodal involvement or distant metastatic disease in the liver, adrenal glands, or other visualized portions of the abdomen and pelvis.
+
+For definitive staging, a PET/CT scan was performed. This demonstrated intense FDG-avidity corresponding to the known right upper lobe primary mass. There was also marked hypermetabolism within the right hilar and ipsilateral mediastinal lymph node stations (stations 4R and 7), consistent with nodal metastases. No other sites of abnormal FDG uptake suggestive of distant metastatic disease were identified.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS). Transbronchial needle aspiration (TBNA) of a right-sided mediastinal lymph node (station 4R) was performed. Pathology from this specimen confirmed the diagnosis of poorly differentiated squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-guided biopsy. No actionable oncogenic driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested, consistent with the standard of care at the time of tissue acquisition. Tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 70-year-old former smoker with an excellent performance status who presents for consultation regarding a new diagnosis of locally advanced, non-metastatic non-small cell lung cancer.
+
+- **Diagnosis:** Squamous cell carcinoma of the right lung.
+- **Stage:** AJCC Stage IIIA (cT2b N2 M0).
+- **Molecular Profile:** No actionable driver alterations identified; TMB-intermediate.
+
+The patient is treatment-naive. The diagnosis, staging, and prognostic implications have been discussed. The patient and their family have had their initial questions addressed. Further discussion regarding definitive treatment options is planned.

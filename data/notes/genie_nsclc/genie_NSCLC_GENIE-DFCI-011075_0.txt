@@ -1,0 +1,23 @@
+**HPI:**
+This is a 52-year-old individual with a history of never smoking who presents for an initial medical oncology consultation following a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience a persistent, non-productive cough and progressive exertional dyspnea. Over the subsequent weeks, they also developed new-onset headaches and intermittent right-sided rib pain, which prompted a visit to their primary care provider. The patient is otherwise active and maintains a good performance status, though is noted to have some fatigue related to symptoms.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung mass, which led to further cross-sectional imaging.
+
+A CT of the chest, abdomen, and pelvis with contrast was performed, which demonstrated a large primary mass in the right upper lobe with associated mediastinal and hilar adenopathy. The scan also identified multiple bilateral pulmonary nodules consistent with contralateral metastatic disease, a left adrenal metastasis, and suspicious supraclavicular lymphadenopathy.
+
+A whole-body PET/CT scan was subsequently obtained for staging. This confirmed high metabolic activity in the known right upper lobe primary mass, as well as in sites of metastatic disease involving the contralateral lung, mediastinal/hilar/supraclavicular lymph nodes, the left adrenal gland, and multiple osseous sites, including the ribs.
+
+Given the presenting complaint of headaches, a brain MRI with contrast was performed. This revealed multiple small parenchymal metastases consistent with intracranial metastatic disease.
+
+A CT-guided core biopsy of the right upper lobe lung mass was performed. Pathology confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue.
+- **Driver Mutations:** An actionable sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Tumor Proportion Score (TPS) was <1%.
+- **TMB:** Tumor Mutational Burden was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 52-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the brain, bone, adrenal gland, contralateral lung, and distant lymph nodes. The patient is a never-smoker. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial evaluation and discussion of the diagnosis.

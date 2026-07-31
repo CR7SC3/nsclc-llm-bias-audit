@@ -1,0 +1,15 @@
+**HPI:**
+This is a 72-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a mild, persistent, non-productive cough. This prompted a visit to their primary care provider, who obtained a chest x-ray that revealed a right upper lobe pulmonary nodule. The patient was subsequently referred to Pulmonology for further evaluation. The patient denies any associated hemoptysis, chest pain, fevers, or significant weight loss. They maintain an excellent performance status, ECOG 0, and continue with all activities of daily living without restriction.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest was performed on [De-identified], which confirmed the presence of a 2.1 cm spiculated solid nodule in the posterior aspect of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+For definitive staging, a PET/CT scan was performed on [De-identified]. This study demonstrated intense FDG avidity localized to the known right upper lobe nodule. Importantly, there was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or any distant sites to suggest metastatic disease. A dedicated MRI of the brain with and without contrast was also obtained and was negative for any evidence of intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung nodule. Pathologic review of the specimen confirmed a diagnosis of invasive, moderately differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen. No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was assessed and found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 72-year-old with an excellent performance status who presents with a new diagnosis of AJCC Stage IA non-small cell lung cancer, adenocarcinoma histology. Comprehensive staging workup, including PET/CT and brain MRI, has confirmed localized disease confined to the lung without evidence of regional nodal involvement or distant metastases. Molecular profiling did not reveal an actionable driver mutation.

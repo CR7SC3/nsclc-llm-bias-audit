@@ -1,0 +1,21 @@
+**Date of Consultation:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+This is a 64-year-old individual with a history of former tobacco use (quit over one year ago) who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was feeling well and was largely asymptomatic when a lung nodule was discovered incidentally on a low-dose CT scan performed for lung cancer screening. The patient denies any significant cough, shortness of breath, chest pain, hemoptysis, or constitutional symptoms such as fevers or unintentional weight loss. Performance status is excellent; the patient remains fully active and independent with all activities of daily living. The patient is here today to discuss the findings and establish care.
+
+**Diagnostic Workup:**
+The initial low-dose screening CT of the chest identified a solid, spiculated 1.5 cm nodule in the right upper lobe. This prompted a follow-up diagnostic CT of the chest with intravenous contrast, which confirmed the right upper lobe lesion without evidence of mediastinal or hilar lymphadenopathy.
+
+For purposes of staging, a PET/CT was subsequently performed. This study demonstrated intense FDG-avidity localized to the known right upper lobe nodule. There was no evidence of hypermetabolic activity in the mediastinum, contralateral lung, adrenal glands, liver, or bones to suggest nodal or distant metastatic disease. A contrast-enhanced MRI of the brain was also performed and was negative for intracranial metastases.
+
+Given these findings, the patient underwent a CT-guided percutaneous core needle biopsy of the right upper lobe nodule. Pathologic examination of the tissue confirmed the diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative, with a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb). The molecular panel was also notable for the identification of a STK11 loss-of-function mutation.
+
+**Problem Summary:**
+This is a 64-year-old with an excellent performance status who presents for initial evaluation of a new diagnosis of Stage IA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed disease localized to the right upper lobe. Molecular profiling is significant for the absence of targetable driver mutations, PD-L1 expression <1%, and the presence of an STK11 loss-of-function mutation.

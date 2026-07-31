@@ -1,0 +1,22 @@
+**HPI:**
+This is a 51-year-old individual with a history of current tobacco use who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive shortness of breath on exertion. This was associated with mild chest discomfort and an unintentional 10-pound weight loss. These symptoms prompted a visit to their primary care provider, which led to a diagnostic workup.
+
+An initial chest radiograph revealed a right-sided lung mass, prompting a follow-up contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed the presence of a large mass in the right upper lobe with associated bulky mediastinal lymphadenopathy. There was no evidence of distant visceral or osseous metastatic disease on the body CT. A staging PET/CT was subsequently performed, which demonstrated high FDG avidity in the primary right lung mass and in ipsilateral mediastinal lymph nodes, consistent with locoregional involvement. No other sites of FDG-avid disease suggestive of distant metastases were identified. A brain MRI with contrast was also obtained as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient was referred to pulmonology and underwent a bronchoscopy with endobronchial ultrasound (EBUS) for definitive diagnosis and staging. Fine-needle aspiration was performed on both the primary mass and a right paratracheal lymph node. The patient has tolerated the diagnostic procedures well and remains ambulatory with a good performance status, though reports ongoing fatigue and dyspnea with significant exertion.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis ([De-identified Date]):** Revealed a 4.5 cm spiculated mass in the right upper lobe. Prominent right-sided mediastinal and hilar lymphadenopathy was noted. No evidence of metastatic disease in the liver, adrenal glands, or bones.
+- **PET/CT ([De-identified Date]):** Showed a hypermetabolic primary mass in the right upper lobe (SUVmax 14.2). Intense FDG uptake was seen in ipsilateral mediastinal lymph nodes, including the right paratracheal (station 4R) and subcarinal (station 7) regions. No evidence of distant metastatic disease.
+- **MRI Brain ([De-identified Date]):** No evidence of intracranial metastatic disease.
+- **Bronchoscopy with EBUS-guided FNA ([De-identified Date]):** Biopsy of a right paratracheal (4R) lymph node was performed. Pathology confirmed malignant cells consistent with non-small cell lung cancer.
+
+**Pathology & Molecular Studies:**
+- **Histology:** Biopsy of the right paratracheal lymph node confirmed poorly differentiated Non-Small Cell Lung Cancer, Not Otherwise Specified (NSCLC, NOS).
+- **Molecular Profiling:** Comprehensive next-generation sequencing was performed on the tumor tissue.
+    - No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+    - **PD-L1:** Immunohistochemistry was negative (Tumor Proportion Score < 1%).
+    - **Tumor Mutational Burden (TMB):** TMB was high, measured at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 51-year-old who presents with a new diagnosis of locally advanced, unresectable Stage IIIA (cT2bN2M0) non-small cell lung cancer, NOS histology. The patient is a current smoker and has an excellent performance status. Staging workup including PET/CT and brain MRI has confirmed disease confined to the right hemithorax. Molecular profiling of the tumor is notable for the absence of targetable driver mutations, negative PD-L1 expression, and a high tumor mutational burden. The patient is here for initial consultation to discuss the diagnosis and review potential management options.

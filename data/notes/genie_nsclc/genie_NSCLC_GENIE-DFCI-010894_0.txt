@@ -1,0 +1,21 @@
+**HPI:**
+This is a 56-year-old individual with a history of being a never-smoker who is seen today for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough. Over the subsequent weeks, this was accompanied by progressive fatigue and the new onset of intermittent headaches. Due to the persistence of these symptoms, the patient presented to their primary care physician who initiated a diagnostic workup. The patient maintains a good performance status, ECOG 0-1, and is independent in all activities of daily living.
+
+**Diagnostic Workup:**
+An initial chest radiograph revealed a right-sided lung opacity, prompting a contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed a spiculated 4.5 cm mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also identified a suspicious 1.2 cm nodule in the contralateral left lower lobe, concerning for metastatic disease. No other sites of extracranial metastatic disease were identified in the abdomen or pelvis.
+
+Given the new onset of headaches, a brain MRI with and without contrast was performed. This study revealed multiple, small, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was subsequently performed on [De-identified date]. The pathology from this procedure confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Taken together, the findings of a primary lung adenocarcinoma with contralateral lung and brain metastases are consistent with a clinical diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue obtained from the biopsy.
+- Molecular profiling identified an activating **EGFR L858R point mutation**.
+- Testing was negative for genomic alterations in **ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2**.
+- Immunohistochemistry for PD-L1 was positive, with a **Tumor Proportion Score (TPS) of ≥50%**.
+- Tumor mutational burden (TMB) was determined to be **intermediate (2–16 mut/Mb)**.
+
+**Problem Summary:**
+In summary, this is a 56-year-old never-smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease to the brain and contralateral lung. Comprehensive molecular testing of the tumor is notable for the presence of a sensitizing EGFR L858R mutation and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and is seen today to discuss the diagnosis and review findings.

@@ -1,0 +1,29 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 65-year-old individual with a history of tobacco use who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Over the subsequent weeks, they also noted intermittent right-sided chest wall discomfort and an unintentional weight loss of approximately 10 pounds. This prompted a visit to their primary care provider, who ordered a chest X-ray.
+
+The radiograph revealed a suspicious opacity in the right upper lung. A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a spiculated mass in the right upper lobe and also identified prominent mediastinal and hilar lymphadenopathy. There were no definitive metastatic lesions identified in the liver, adrenal glands, or bones.
+
+Given these findings, the patient was referred to Pulmonology for a diagnostic bronchoscopy with endobronchial ultrasound (EBUS). This procedure was performed on [De-identified Date]. Biopsies were obtained from the primary mass and from a subcarinal lymph node. Pathologic review confirmed the diagnosis of adenocarcinoma.
+
+Staging was completed with a PET/CT scan, which demonstrated intense FDG-avidity in the right upper lobe primary mass and in ipsilateral mediastinal and subcarinal lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease were identified. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+The patient is a current smoker. They have a good performance status, ECOG 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity. They are now referred for discussion of their diagnosis and consideration of treatment options.
+
+**DIAGNOSTIC WORKUP:**
+*   **CT Chest/Abdomen/Pelvis:** Revealed a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. Enlarged right paratracheal and subcarinal lymph nodes were noted. No suspicious lesions in the abdomen or pelvis.
+*   **PET/CT Scan:** Showed intense hypermetabolism in the known right upper lobe mass (SUVmax 12.8) and in multiple mediastinal nodal stations, including the subcarinal (SUVmax 9.5) and right paratracheal regions. No evidence of distant metastatic disease.
+*   **MRI Brain:** No evidence of acute intracranial abnormality or metastatic disease.
+*   **EBUS-guided Biopsy (Subcarinal Lymph Node):** Pathology confirmed poorly differentiated adenocarcinoma, consistent with a lung primary. This confirms N2 nodal involvement.
+
+Based on these findings, the patient is diagnosed with clinical Stage IIIA (T2b N2 M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tissue specimen.
+*   No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 65-year-old current smoker who presents as treatment-naive with a new diagnosis of Stage IIIA (non-metastatic) non-small cell lung cancer, adenocarcinoma histology. Comprehensive molecular profiling did not reveal any actionable driver mutations. The patient has a good performance status and is here to discuss the diagnosis.

@@ -1,0 +1,23 @@
+**HPI:**
+This is a 76-year-old former smoker who presents for initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months ago when a screening chest X-ray was performed as part of a preoperative evaluation for an elective orthopedic procedure. This imaging incidentally revealed a small right-sided lung nodule. The patient denies any associated symptoms, including cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient has a good energy level and performance status remains excellent. Following the abnormal chest X-ray, the patient was referred for further diagnostic evaluation.
+
+**Diagnostic Workup:**
+A follow-up contrast-enhanced CT of the chest confirmed the presence of a 2.1 cm spiculated solid nodule in the right upper lobe. No other suspicious pulmonary nodules were identified. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+To complete staging, a PET/CT was performed. This demonstrated intense FDG-avidity corresponding to the known right upper lobe nodule, with no other areas of abnormal hypermetabolism in the chest or throughout the rest of the body to suggest nodal or distant metastatic disease.
+
+A staging MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was subsequently performed. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC 8th Edition clinical Stage IA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was negative.
+
+Tumor mutational burden (TMB) was assessed and found to be high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 76-year-old with an excellent performance status who presents for initial consultation regarding a new diagnosis of clinical Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. The diagnosis was made on the basis of an incidentally discovered right upper lobe pulmonary nodule. Staging workup, including PET/CT and brain MRI, is negative for regional or distant metastatic disease. Molecular profiling is notable for a high tumor mutational burden but is negative for PD-L1 expression and did not identify any actionable driver alterations.

@@ -1,0 +1,43 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION NOTE
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**History of Present Illness:**
+This is a 67-year-old individual with a past medical history of prostate cancer, who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and a feeling of chest congestion. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms and a history of smoking, a chest X-ray was obtained, which revealed a suspicious right-sided lung mass. This prompted an urgent referral for further diagnostic evaluation. The patient reports a 10-pound unintentional weight loss over the past three months but denies fevers, night sweats, or hemoptysis. They maintain an excellent performance status, continuing with daily activities without significant limitation.
+
+**Past Medical History:**
+- Prostate Cancer, diagnosed 5 years ago, under active surveillance.
+- Hypertension
+
+**Social History:**
+- Tobacco: Former smoker (approximately 30 pack-years), quit within the last year.
+- Alcohol: Denies significant alcohol use.
+
+**Physical Examination:**
+- Vitals: Within normal limits.
+- Constitutional: Well-appearing, in no acute distress.
+- Performance Status: ECOG 0.
+- HEENT: Mucous membranes moist. No oral lesions.
+- Neck: Supple, no supraclavicular lymphadenopathy.
+- Lungs: Clear to auscultation bilaterally, with mildly diminished breath sounds at the right apex.
+- Cardiovascular: Regular rate and rhythm.
+- Abdomen: Soft, non-tender, non-distended.
+- Extremities: No cyanosis, clubbing, or edema.
+
+**Diagnostic Workup:**
+- CT Chest/Abdomen/Pelvis with contrast: Revealed a 4.1 cm spiculated mass in the right upper lobe. There was associated prominent right hilar and ipsilateral mediastinal lymphadenopathy, with the largest node in the subcarinal space measuring 2.5 cm. No suspicious hepatic, adrenal, or other distant visceral lesions were identified.
+- PET/CT: Showed intense FDG-avidity corresponding to the right upper lobe primary tumor (SUVmax 12.4) and the right hilar and mediastinal nodal stations (SUVmax 9.8). There was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+- MRI Brain with contrast: Negative for intracranial metastatic disease.
+- Bronchoscopy with EBUS-FNA: Biopsy of the right upper lobe mass and sampling of a subcarinal (station 7) lymph node were performed. Pathologic analysis of both specimens confirmed invasive, moderately differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested on this pre-2017 specimen.
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 67-year-old, treatment-naive individual with an excellent performance status who presents with a new diagnosis of non-metastatic, Stage IIIA (AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling of the tumor did not identify any common actionable driver mutations. The patient is here today to discuss the diagnosis and the implications for management.

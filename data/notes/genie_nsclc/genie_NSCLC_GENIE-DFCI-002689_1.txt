@@ -1,0 +1,28 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 62-year-old individual with a history of tobacco use (former smoker) who presents for initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they began experiencing persistent headaches and intermittent episodes of dizziness. These symptoms prompted an evaluation in an emergency department. An initial non-contrast CT of the head was performed which raised concern for intracranial pathology. The patient has a good performance status, fully ambulatory and capable of self-care, consistent with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+Following the initial head imaging, a comprehensive staging evaluation was undertaken.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study revealed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also identified a 2.8 cm enhancing mass in the left adrenal gland, suspicious for metastatic disease.
+
+To further characterize the intracranial findings, a contrast-enhanced MRI of the brain was obtained. This confirmed the presence of multiple enhancing lesions within the cerebral hemispheres and cerebellum, consistent with widespread brain metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathologic analysis of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+The combination of a primary lung adenocarcinoma with confirmed metastatic disease to the brain and a highly suspicious adrenal lesion establishes a diagnosis of AJCC Stage IV disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. The analysis did not identify an actionable driver alteration. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression analysis was not performed, as this was not standard of care at the time of the tissue acquisition and molecular profiling. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 62-year-old former smoker who presents for initial evaluation of newly diagnosed Stage IV non-small cell lung adenocarcinoma. Staging workup has confirmed metastatic disease involving the brain and the left adrenal gland. Molecular profiling of the tumor is notable for an absence of common actionable driver mutations. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

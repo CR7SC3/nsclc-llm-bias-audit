@@ -1,0 +1,21 @@
+**HPI:**
+This is a 59-year-old individual with a past medical history notable for breast cancer, now presenting for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was largely asymptomatic from a pulmonary standpoint. The current diagnosis was initiated by an incidental finding of a small pulmonary nodule on a surveillance CT scan. Given this finding, the patient was referred to Pulmonology for further evaluation. The patient is a never-smoker.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest confirmed the presence of a 1.4 cm solid nodule in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For staging purposes, a PET/CT scan was performed. This demonstrated focal FDG-avidity confined to the right upper lobe nodule, consistent with malignancy. Importantly, there was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or any distant sites.
+
+A brain MRI with and without contrast was also obtained as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe nodule on [De-identified Date]. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the biopsy tissue.
+-   **Actionable driver:** A sensitizing EGFR L858R point mutation was detected.
+-   **Other markers:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1:** PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+-   **TMB:** Tumor Mutational Burden was low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 59-year-old never-smoker who presents with a new diagnosis of Stage IA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology, arising in the right upper lobe. The diagnostic workup shows localized disease with no evidence of regional or distant metastases. Molecular profiling is notable for the presence of a sensitizing EGFR L858R mutation. The patient is treatment-naive for this diagnosis and is seen today to discuss the findings.

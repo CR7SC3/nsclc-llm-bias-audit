@@ -1,0 +1,24 @@
+**HPI:**
+This is a 57-year-old individual whom I am seeing in new patient consultation for a recent diagnosis of metastatic non-small cell lung cancer. The history was obtained from the patient and a review of available outside medical records.
+
+The patient is a former smoker, having quit over one year ago. They were in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent dry cough and progressive right-sided back pain. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the worsening symptoms, they presented to an urgent care center, which prompted an initial diagnostic workup. The patient reports some fatigue but has been able to maintain their activities of daily living and remains ambulatory, with an estimated ECOG performance status of 1. They deny fevers, chills, or significant recent weight loss.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung opacity, leading to a subsequent contrast-enhanced CT of the chest, abdomen, and pelvis. This imaging confirmed the presence of a large, spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also demonstrated multiple hypoattenuating lesions throughout the liver and a distinct nodule in the left adrenal gland, all highly suspicious for metastatic disease.
+
+Given the clinical concern for widespread disease and the patient's reported back pain, a whole-body bone scan was performed. This study revealed multiple areas of abnormal radiotracer uptake in the thoracic spine and ribs, consistent with osseous metastases. A dedicated MRI of the brain was performed for staging and was negative for intracranial metastases.
+
+To establish a definitive diagnosis, the patient underwent an ultrasound-guided core needle biopsy of an accessible liver lesion, performed by Interventional Radiology. The pathology from this specimen confirmed the diagnosis.
+
+**Molecular Studies:**
+Pathology from the liver biopsy was consistent with adenocarcinoma with features suggesting a lung primary. The tumor tissue was sent for comprehensive next-generation sequencing and immunohistochemical analysis.
+
+Key findings are as follows:
+- Histology: Adenocarcinoma, non-small cell type.
+- Molecular Profiling: An activating ERBB2 (HER2) exon 20 insertion was detected.
+- Additional Testing: Tumor was negative for mutations in EGFR, KRAS, and BRAF. No fusions or rearrangements were detected in ALK, ROS1, RET, or NTRK. No MET exon 14 skipping mutations were identified.
+- PD-L1 Expression: Negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 57-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the liver, bone, and adrenal gland. The patient is treatment-naive. Molecular testing of the tumor is notable for an activating ERBB2 exon 20 insertion, negative PD-L1 expression, and a low tumor mutational burden. The purpose of this visit is to discuss the implications of this new diagnosis.

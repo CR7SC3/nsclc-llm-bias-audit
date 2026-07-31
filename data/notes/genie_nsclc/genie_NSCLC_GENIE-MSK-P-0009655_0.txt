@@ -1,0 +1,21 @@
+**HPI:**
+This is the initial oncology consultation for a 68-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over one year ago, and was in their usual state of health until approximately three months prior to presentation. At that time, they began to develop a persistent, non-productive cough and progressive fatigue. An initial course of antibiotics from their primary care provider did not lead to improvement. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right-sided lung mass, prompting referral for further evaluation. The patient reports a 10-pound unintentional weight loss over the past two months but has a good appetite. They remain fully ambulatory and capable of all self-care, though their daily activities are somewhat limited by fatigue. They are here today to discuss the findings of their diagnostic workup and to understand the diagnosis.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. The scan also revealed several suspicious nodules in the contralateral (left) lung and enlarged supraclavicular lymph nodes, concerning for metastatic disease.
+
+A subsequent PET/CT scan was performed for staging purposes. This demonstrated intense FDG avidity in the primary right upper lobe mass. Additionally, there was FDG uptake corresponding to the nodules in the contralateral lung and in distant non-regional lymph nodes, confirming M1 disease.
+
+To complete staging and assess for central nervous system involvement, a brain MRI with contrast was performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed by Interventional Radiology. Pathology from this specimen confirmed the diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for next-generation sequencing to identify molecular drivers and biomarkers. The results are as follows:
+- An actionable driver mutation was detected: EGFR exon 19 deletion (sensitizing).
+- Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 immunohistochemistry was not performed, as this was not standard of care at the time the sample was processed.
+
+**Problem Summary:**
+In summary, this is a 68-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung and distant lymph nodes. Molecular profiling is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is here for initial consultation to discuss this diagnosis.

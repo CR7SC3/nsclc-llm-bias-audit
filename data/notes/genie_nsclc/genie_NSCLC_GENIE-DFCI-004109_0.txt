@@ -1,0 +1,19 @@
+**HPI:**
+This is a 46-year-old individual with a history of being a lifetime never-smoker, who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health until approximately two months ago when they developed a persistent, dry cough. When the cough did not resolve with conservative measures and was accompanied by mild, intermittent dyspnea on exertion, they sought evaluation.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which prompted a contrast-enhanced CT of the chest, abdomen, and pelvis for further characterization and staging. The CT scan demonstrated a 4.5 cm spiculated mass in the right upper lobe. There was associated ipsilateral hilar lymphadenopathy noted, with the largest node measuring approximately 1.7 cm. The scan of the abdomen and pelvis was negative for any evidence of hepatic, adrenal, or other visceral metastatic disease. No suspicious osseous lesions were identified.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified]. Pathology from this procedure confirmed invasive adenocarcinoma, with features consistent with a lung primary.
+
+For complete staging, a dedicated MRI of the brain with and without contrast was performed, which was negative for intracranial metastases. The comprehensive workup is consistent with a clinical Stage IIB (cT2bN1M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue specimen.
+- An actionable driver mutation was detected: ERBB2 (HER2) exon 20 insertion (activating).
+- Testing was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+- PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 46-year-old never-smoker with a new diagnosis of Stage IIB (cT2bN1M0) non-small cell lung adenocarcinoma of the right upper lobe. The patient has an excellent performance status. Molecular profiling is notable for an activating ERBB2 exon 20 insertion and high PD-L1 expression (TPS ≥50%). The patient is here for initial consultation to discuss the diagnosis and management options.

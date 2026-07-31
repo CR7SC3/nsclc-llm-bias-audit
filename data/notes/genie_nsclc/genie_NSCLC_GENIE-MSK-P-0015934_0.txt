@@ -1,0 +1,29 @@
+**History of Present Illness**
+
+This is a 68-year-old individual with a significant former smoking history who is referred for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months ago when they developed a persistent, dry cough. This was initially managed conservatively without resolution. Due to the persistence of the cough, associated with new-onset mild dyspnea on exertion, the patient presented to their primary care provider. An initial chest X-ray revealed a right-sided lung opacity, which prompted further investigation. The patient is a former smoker, having quit less than one year ago.
+
+Review of systems is notable for the aforementioned cough and mild fatigue. The patient denies hemoptysis, chest pain, fevers, night sweats, or significant unintentional weight loss. They maintain a good appetite. Performance status is excellent; the patient is fully ambulatory, independent in all activities of daily living, and continues to engage in light recreational activities (ECOG 1).
+
+**Diagnostic Workup**
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study identified a 4.2 cm spiculated mass in the right upper lobe. There was extensive mediastinal and hilar lymphadenopathy. The scan also revealed pathologically enlarged contralateral mediastinal and left supraclavicular lymph nodes, consistent with distant metastatic disease (M1b).
+
+A subsequent whole-body PET/CT scan was performed for staging and to identify an optimal biopsy target. This confirmed intense FDG-avidity in the primary right upper lobe mass, as well as in multiple mediastinal and distant nodal stations, including the left supraclavicular region. No other distant visceral or osseous metastases were identified.
+
+On [De-identified date], the patient underwent an ultrasound-guided fine-needle aspiration and core biopsy of a left supraclavicular lymph node. Pathologic analysis of the specimen confirmed metastatic, poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Staging was completed with a magnetic resonance imaging (MRI) of the brain with and without contrast, which was negative for any evidence of intracranial metastases.
+
+**Molecular Studies**
+
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue obtained from the biopsy.
+
+Molecular profiling did not identify an actionable driver alteration. The tumor was found to be negative for mutations or rearrangements in *EGFR*, *ALK*, *ROS1*, *BRAF*, *MET* exon 14, *RET*, *NTRK*, *KRAS*, and *ERBB2*.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was assessed and found to be high, at greater than 16 mutations per megabase.
+
+**Problem Summary**
+
+In summary, this is a 68-year-old with an excellent performance status who presents with a new diagnosis of AJCC Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease limited to distant lymph nodes, with no evidence of brain metastases. Molecular testing is notable for the absence of targetable driver mutations, a PD-L1 TPS of 1-49%, and a high Tumor Mutational Burden. The patient is treatment-naive. We will discuss the diagnosis, prognosis, and goals of care at today's visit.

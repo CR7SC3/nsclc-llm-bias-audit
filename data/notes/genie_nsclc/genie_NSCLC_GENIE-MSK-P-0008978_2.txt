@@ -1,0 +1,19 @@
+**HPI:**
+This is a 55-year-old individual with a history of being a never-smoker who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation when they developed a persistent, dry cough. This was initially attributed to a viral illness but did not resolve. Over the subsequent weeks, the patient also noted mild exertional dyspnea and intermittent right-sided chest discomfort. An initial chest X-ray obtained by their primary care provider demonstrated a right upper lobe opacity, prompting further investigation. The patient is otherwise active, fully ambulatory, and maintains an excellent performance status (ECOG 0-1).
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study characterized a 3.5 cm spiculated mass in the right upper lobe. It also revealed prominent right-sided mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.2 cm in the short axis. The CT of the abdomen and pelvis was negative for evidence of distant visceral or osseous metastatic disease.
+
+A subsequent PET/CT scan on [De-identified Date] demonstrated intense FDG-avidity within the primary right upper lobe mass as well as in the corresponding right paratracheal, hilar, and subcarinal lymph node stations, consistent with locoregionally advanced disease. No other suspicious hypermetabolic foci were identified to suggest distant metastases. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided transbronchial needle aspiration of the right upper lobe mass and a subcarinal lymph node. Pathologic analysis of both specimens confirmed the diagnosis of invasive adenocarcinoma. The presence of tumor in the mediastinal lymph node established nodal stage N2 disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tissue obtained from the biopsy specimen.
+-   **Actionable driver:** A sensitizing EGFR exon 19 deletion was detected.
+-   **Other markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 rearrangements or mutations.
+-   **PD-L1:** Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score <1%).
+-   **TMB:** Tumor mutational burden was low (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 55-year-old never-smoker who presents for initial evaluation of a newly diagnosed, non-metastatic non-small cell lung cancer. The diagnosis is Stage IIIA (AJCC 8th Edition) lung adenocarcinoma, established by imaging and biopsy demonstrating a primary right upper lobe tumor with ipsilateral mediastinal lymph node involvement and a negative workup for distant metastatic disease. The patient is treatment-naive with an excellent performance status. Molecular profiling is notable for the presence of a sensitizing EGFR exon 19 deletion.

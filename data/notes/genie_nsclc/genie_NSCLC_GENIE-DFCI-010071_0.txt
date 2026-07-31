@@ -1,0 +1,15 @@
+**HPI:**
+This is the initial medical oncology consultation for a 56-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker who was in their usual state of health until approximately three months prior to this evaluation. They developed a persistent, dry cough, which was initially managed symptomatically without resolution. Due to the persistence of symptoms, a chest X-ray was ordered by their primary care provider, which revealed a right-sided pulmonary nodule. The patient was subsequently referred for further diagnostic workup. They deny any associated hemoptysis, shortness of breath, chest pain, fevers, or unintentional weight loss. They maintain an excellent performance status, continuing to work full-time and engage in all usual activities of daily living without restriction (ECOG 0).
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest was performed on [De-identified Date]. This study confirmed the presence of a 2.5 cm spiculated solid nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+For definitive staging, a PET/CT scan was performed on [De-identified Date]. This demonstrated intense FDG-avidity localized to the right upper lobe nodule, consistent with malignancy. Importantly, there was no evidence of FDG-avid disease in any regional lymph nodes or at any distant sites, including the contralateral lung, liver, adrenal glands, or bones. A dedicated MRI of the brain with and without contrast was also obtained and was negative for any evidence of intracranial metastatic disease.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathologic review of the biopsy specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. Comprehensive molecular profiling did not identify any actionable driver alterations; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). The genomic analysis did identify a loss-of-function mutation in STK11 as well as a loss-of-function mutation in KEAP1.
+
+**Problem Summary:**
+In summary, this is a 56-year-old with a new diagnosis of treatment-naive, clinical Stage IB (cT2aN0M0) non-small cell lung cancer of adenocarcinoma histology. A comprehensive staging workup, including PET/CT and brain MRI, has confirmed disease localized to the right upper lobe without evidence of regional nodal or distant metastatic spread. Molecular profiling of the tumor is notable for the absence of common targetable driver mutations but reveals the presence of co-occurring loss-of-function mutations in STK11 and KEAP1. The patient presents today to discuss the diagnosis and establish care.

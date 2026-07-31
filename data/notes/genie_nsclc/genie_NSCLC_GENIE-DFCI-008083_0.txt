@@ -1,0 +1,15 @@
+**HPI:**
+This is a 40-year-old patient with an excellent performance status (ECOG 0) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a never-smoker and was in a usual state of good health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and a sensation of mild chest fullness. These symptoms did not resolve with a course of antibiotics from their primary care physician. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity, prompting further investigation. The patient denies fevers, chills, hemoptysis, or significant weight loss. They remain fully active and without limitations in their daily activities.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed following the abnormal chest X-ray. This study demonstrated a 4.2 cm spiculated mass in the right upper lobe. Additionally, the scan revealed bulky mediastinal and hilar lymphadenopathy, including enlarged right paratracheal and subcarinal nodes measuring up to 2.5 cm in short-axis diameter. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs.
+
+To complete staging, a whole-body PET/CT scan was performed. This demonstrated intense FDG-avidity corresponding to the known right upper lobe primary tumor and the extensive right-sided mediastinal and hilar lymphadenopathy. There was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread. A contrast-enhanced MRI of the brain was also obtained and was negative for any intracranial metastases.
+
+The patient subsequently underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and definitive nodal staging. Transbronchial needle aspiration (TBNA) was performed on the right upper lobe mass and a subcarinal lymph node. Pathology from both sites confirmed invasive adenocarcinoma, consistent with a non-small cell lung cancer primary. The findings are consistent with AJCC 8th edition Stage IIIA disease.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor tissue obtained from the biopsy specimen. The results revealed the presence of an **ALK rearrangement** as well as **high-level MET amplification**. The tumor was negative for pathogenic mutations in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 40-year-old never-smoker who presents with a new diagnosis of Stage IIIA non-small cell lung adenocarcinoma, confirmed by bronchoscopic biopsy of a right upper lobe mass with mediastinal nodal involvement. Staging workup has confirmed locoregionally advanced disease without evidence of distant metastases. Comprehensive molecular profiling of the tumor is notable for an ALK rearrangement and high-level MET amplification. The patient is treatment-naive and presents today to discuss the diagnosis in detail.

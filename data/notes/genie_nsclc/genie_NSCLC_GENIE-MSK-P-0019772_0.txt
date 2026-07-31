@@ -1,0 +1,19 @@
+**HPI:**
+This is a 54-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of good health until approximately six weeks ago when they developed a persistent, dry cough. This prompted a visit to their primary care provider. The patient denies any associated hemoptysis, shortness of breath, fevers, or unintentional weight loss. They maintain an excellent functional status, consistent with an ECOG performance status of 0, and continue to work full-time and engage in regular physical activity.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which led to a contrast-enhanced CT of the chest. This study characterized a 4.5 cm spiculated mass in the right upper lobe, without evidence of suspicious mediastinal or hilar lymphadenopathy.
+
+To complete staging, a full-body PET/CT was obtained on [De-identified Date]. This scan demonstrated intense FDG-avidity corresponding to the known right upper lobe primary tumor. Importantly, there was no evidence of FDG-avid disease in the mediastinal lymph nodes or at any distant sites to suggest metastatic spread. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+Following the imaging workup, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed a diagnosis of lung adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIA (cT2bN0M0) disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. Results are notable for the detection of an actionable driver, specifically an uncommon sensitizing EGFR mutation.
+
+Additional molecular testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, revealing a positive result with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was calculated and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 54-year-old never-smoker with a new diagnosis of Stage IIA (cT2bN0M0) non-small cell lung cancer, adenocarcinoma histology. Staging workup is negative for nodal or distant metastatic disease. Molecular profiling of the tumor is significant for an uncommon sensitizing EGFR mutation and a PD-L1 TPS of 1-49%. The patient has an excellent performance status and is seen today for initial consultation.

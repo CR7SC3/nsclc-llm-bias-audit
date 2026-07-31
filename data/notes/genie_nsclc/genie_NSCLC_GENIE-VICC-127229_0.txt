@@ -1,0 +1,23 @@
+**HPI:**
+This is a 70-year-old individual who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a mild, persistent, non-productive cough. This prompted a visit to their primary care provider, who obtained a chest X-ray revealing a right upper lobe lung nodule. The patient denies any associated hemoptysis, chest pain, fevers, chills, or unintentional weight loss. They report good energy levels and continue their daily activities without limitation, with an ECOG performance status of 0. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT of the chest with contrast was performed on [De-identified date]. This study characterized a 2.8 cm solid, spiculated nodule in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+For staging purposes, a whole-body PET/CT was performed on [De-identified date]. This demonstrated intense FDG-avidity corresponding to the known right upper lobe nodule. There was no evidence of hypermetabolic activity in regional lymph nodes or at any distant sites to suggest metastatic disease.
+
+A brain MRI with and without contrast was completed on [De-identified date] and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was successfully performed on [De-identified date]. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IB (AJCC 8th Edition) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. No actionable driver alterations were identified. The tumor was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative, with a Tumor Proportion Score (TPS) of <1%.
+
+Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old with an excellent performance status and a new diagnosis of treatment-naive, clinical Stage IB (AJCC 8th ed.) non-small cell lung adenocarcinoma. Molecular profiling is notable for the absence of targetable driver mutations and a PD-L1 TPS of <1%. The patient is seen today for initial consultation to discuss the diagnosis and potential management options.

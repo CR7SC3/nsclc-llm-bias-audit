@@ -1,0 +1,17 @@
+**HPI:**
+This is a 69-year-old individual with a significant smoking history who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience a persistent, non-productive cough and progressive shortness of breath with exertion. This was associated with generalized fatigue and an unintentional weight loss of approximately 10 pounds over the past three months. Due to the persistence of these symptoms, the patient sought evaluation with their primary care provider, which initiated a diagnostic workup. The patient remains fully ambulatory and capable of all self-care but notes that fatigue limits more strenuous physical activity.
+
+**Diagnostic Workup:**
+An initial chest radiograph demonstrated a large right-sided pulmonary opacity, prompting a contrast-enhanced CT of the chest, abdomen, and pelvis for further characterization. The CT scan confirmed the presence of a large, spiculated mass in the right upper lobe. This study also revealed a suspicious 1.5 cm nodule in the contralateral left lower lobe and an enlarged, enhancing left adrenal gland, raising concern for metastatic disease.
+
+For definitive staging, a whole-body PET/CT was performed. This demonstrated intense FDG avidity in the primary right upper lobe mass, several mediastinal lymph nodes, the contralateral lung nodule, and the left adrenal lesion, consistent with a clinical picture of metastatic malignancy. A subsequent MRI of the brain was performed to evaluate for central nervous system involvement and was negative for any intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen to assess for targetable alterations. No actionable driver alteration was identified; the tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, which showed a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was calculated and found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+This is a 69-year-old individual with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the contralateral lung and the left adrenal gland, with no evidence of brain metastases. The patient has an ECOG performance status of 1. Molecular profiling is notable for PD-L1 negative disease (TPS <1%) and a high Tumor Mutational Burden (TMB), with no identified actionable driver mutations. The case is reviewed today for discussion of the diagnosis and consideration of systemic therapy.

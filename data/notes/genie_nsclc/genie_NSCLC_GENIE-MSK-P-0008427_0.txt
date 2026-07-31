@@ -1,0 +1,55 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+This is a 52-year-old individual referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The history was obtained from the patient and a comprehensive review of available medical records and imaging.
+
+**HISTORY OF PRESENT ILLNESS**
+The patient is a 52-year-old with a history of being a never-smoker who was in their usual state of health until approximately six weeks prior to presentation. They developed persistent headaches, intermittent dizziness, and a sense of imbalance. These symptoms progressively worsened, prompting an evaluation in the emergency department.
+
+An initial non-contrast CT of the head revealed multiple intracranial lesions. A subsequent contrast-enhanced MRI of the brain was performed, which confirmed the presence of numerous enhancing lesions in the cerebral hemispheres and cerebellum, consistent with metastatic disease.
+
+Given the findings, a search for a primary malignancy was initiated. A staging CT of the chest, abdomen, and pelvis was performed. This study identified a large primary mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also revealed multiple suspicious lesions in the liver, a left adrenal nodule, and widespread osseous lesions.
+
+To confirm the diagnosis and fully characterize the extent of disease, the patient underwent a CT-guided core biopsy of the right upper lobe lung mass. Pathological analysis of the tissue confirmed the diagnosis of adenocarcinoma. The patient is now seen in clinic for initial consultation and to establish care.
+
+The patient reports ongoing mild headaches, generalized fatigue, and a dull ache in the right hip. They remain ambulatory and able to perform activities of daily living with some effort. ECOG performance status is 1.
+
+**PAST MEDICAL HISTORY:** Non-contributory.
+**PAST SURGICAL HISTORY:** None.
+**MEDICATIONS:** None.
+**ALLERGIES:** No Known Drug Allergies.
+**SOCIAL HISTORY:** Never smoker. Denies alcohol or illicit drug use.
+
+**PHYSICAL EXAM**
+Vitals: Reviewed, within normal limits.
+Constitutional: Alert, appears stated age. No acute distress.
+HEENT: Normocephalic, atraumatic. Sclerae anicteric. Mucous membranes moist.
+Neck: Supple. No supraclavicular lymphadenopathy palpable.
+Lungs: Clear to auscultation bilaterally.
+Cardiovascular: Regular rate and rhythm. No murmurs.
+Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.
+Extremities: No lower extremity edema.
+Neurological: Alert and oriented x3. Cranial nerves II-XII grossly intact. Strength 5/5 throughout. Gait is steady.
+
+**DIAGNOSTIC WORKUP**
+
+**Imaging:**
+*   **MRI Brain:** Multiple, scattered enhancing intraparenchymal lesions throughout the cerebrum and cerebellum, consistent with widespread metastatic disease.
+*   **CT Chest/Abdomen/Pelvis with Contrast:** Revealed a 4.5 cm spiculated mass in the right upper lobe. Extensive mediastinal and hilar lymphadenopathy. Multiple hypoattenuating lesions throughout both lobes of theliver, the largest measuring 3.2 cm. A 2.8 cm left adrenal mass. Multiple lytic and blastic bone lesions identified in the thoracic spine, pelvis, and ribs. Distant retroperitoneal and supraclavicular lymphadenopathy also noted.
+*   **PET/CT:** Corroborated CT findings, showing intense FDG-avidity in the primary right upper lobe lung mass, mediastinal/hilar/supraclavicular lymph nodes, multiple hepatic lesions, the left adrenal gland, and numerous osseous sites, confirming widespread metastatic disease. The previously identified brain metastases were also noted.
+
+**Pathology:**
+*   **CT-Guided Core Biopsy, Right Upper Lobe Lung Mass:** Adenocarcinoma, non-small cell type.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing was performed on the tumor tissue.
+*   **Actionable Driver Mutations:** **EGFR exon 19 deletion (sensitizing) detected.**
+*   **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2 rearrangements or mutations.
+*   **PD-L1:** Not tested.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY**
+In summary, this is a 52-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm widespread disease with metastases to the brain, bone, liver, adrenal glands, and distant lymph nodes. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents today for initial oncology evaluation.

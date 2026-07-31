@@ -1,0 +1,34 @@
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+**REASON FOR CONSULTATION:** New diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 69-year-old with a new diagnosis of metastatic squamous cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent dry cough and progressive shortness of breath with exertion. This prompted a visit to an outside emergency department.
+
+Initial evaluation included a chest radiograph which was suspicious for a right-sided lung mass. A follow-up contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This imaging confirmed the presence of a large, irregular mass in the right upper lobe, with associated mediastinal and hilar lymphadenopathy.
+
+Given these findings, the patient underwent a CT-guided core needle biopsy of the right lung mass. Pathology from this procedure returned as poorly differentiated non-small cell carcinoma, with immunohistochemical staining confirming squamous cell histology.
+
+Staging workup was completed, including a dedicated MRI of the brain. The brain MRI revealed several small enhancing lesions within the cerebral hemispheres, consistent with metastatic disease. A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right upper lobe mass and the extensive mediastinal lymphadenopathy, but did not identify other sites of distant metastatic disease.
+
+The patient's past medical history is notable for prostate cancer, which was treated previously. The patient is a former smoker, with cessation over one year ago. They report mild fatigue and the aforementioned cough but are otherwise fully ambulatory and managing all activities of daily living. They present today for initial oncology consultation to discuss the findings.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis [Date]:** Revealed a large, spiculated mass in the right upper lobe measuring approximately 5.2 cm. Extensive mediastinal and right hilar lymphadenopathy was noted. No definite metastatic disease identified in the abdomen or pelvis.
+*   **MRI Brain [Date]:** Performed for staging, this demonstrated multiple small, enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits.
+*   **PET/CT [Date]:** Confirmed intense hypermetabolic activity in the primary right upper lobe tumor and associated mediastinal and hilar nodal stations. No other sites of FDG-avid metastatic disease were identified.
+
+**Pathology:**
+*   **Right Lung Mass Biopsy [Date]:** CT-guided core biopsy showed poorly differentiated non-small cell carcinoma. Immunohistochemical profile (p40 positive, TTF-1 negative) is consistent with squamous cell carcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing performed on the tumor tissue specimen revealed the following:
+*   **PD-L1 Expression (TPS):** Positive, 1-49%
+*   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb)
+*   **Actionable Driver Alterations:** None identified. Comprehensive testing was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**PROBLEM SUMMARY:**
+This is a 69-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of squamous histology, metastatic to the brain. Molecular profiling is notable for positive PD-L1 expression (TPS 1-49%) and the absence of any identified actionable driver mutations.

@@ -1,0 +1,23 @@
+INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**HPI:**
+This is a 75-year-old individual referred for initial consultation and management of a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. After an initial course of antibiotics for presumed bronchitis failed to provide relief, a chest X-ray was obtained which revealed a suspicious right-sided lung mass.
+
+The patient was subsequently referred for further evaluation. A CT scan of the chest, abdomen, and pelvis was performed for staging purposes. This imaging confirmed the presence of a primary lung tumor and also identified a solitary mass in the left adrenal gland. The patient reports some fatigue but has had no significant weight loss, hemoptysis, or focal neurologic symptoms. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Staging evaluation included a contrast-enhanced CT of the chest, abdomen, and pelvis. This study demonstrated a 4.2 cm spiculated mass in the upper lobe of the right lung with associated mediastinal lymphadenopathy. The scan also revealed a 3.1 cm enhancing mass in the left adrenal gland, highly suspicious for a distant metastasis. A subsequent whole-body PET/CT scan showed intense FDG-avidity in the primary right upper lobe mass, several mediastinal lymph nodes, and the left adrenal mass, consistent with metastatic disease. A staging MRI of the brain was performed and was negative for any intracranial metastases.
+
+A CT-guided core needle biopsy of the primary lung mass was performed on [De-identified]. Pathologic review of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma, non-small cell type.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive genomic and biomarker profiling. No actionable oncogenic driver mutations were identified; testing was negative for alterations in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS*, and *ERBB2*.
+
+Immunohistochemistry for PD-L1 expression was performed and demonstrated a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was calculated from the sequencing data and was found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 75-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the adrenal gland. The patient has an excellent performance status (ECOG 1). The tumor is characterized by high PD-L1 expression (TPS ≥50%) and a high Tumor Mutational Burden (TMB), with no identified targetable driver alterations. The patient presents today for initial consultation to discuss the diagnosis and establish oncologic care.

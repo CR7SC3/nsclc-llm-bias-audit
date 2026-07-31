@@ -1,0 +1,17 @@
+**HPI:**
+This is a 55-year-old individual with a history of being a former smoker (quit >1 year ago) who is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to primary care approximately one month ago with a persistent dry cough and new, progressive right-sided hip and low back pain. The pain was initially managed with over-the-counter analgesics with limited relief. Due to the persistence of symptoms, an initial chest X-ray was obtained, which was suspicious for a right-sided lung mass, prompting a full staging workup. The patient reports moderate fatigue but remains fully ambulatory and capable of self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe of the lung. The scan also revealed multiple sclerotic osseous lesions throughout the lumbar spine and pelvis, as well as a 2.5 cm enhancing nodule in the left adrenal gland. These findings were highly suspicious for metastatic disease.
+
+A subsequent whole-body PET/CT scan demonstrated intense FDG-avidity corresponding to the right upper lobe primary tumor, the left adrenal nodule, and multiple sites of osseous involvement, confirming the presence of distant metastatic disease. A dedicated MRI of the brain with and without contrast was also performed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was not performed on this specimen. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 55-year-old former smoker presenting for initial evaluation of a new diagnosis of Stage IV (cT2 N0 M1) non-small cell lung cancer, adenocarcinoma histology. Staging evaluation has confirmed a primary right upper lobe lung tumor with metastatic disease to the bone and adrenal gland. Brain imaging is negative for metastatic disease. Comprehensive molecular profiling of the tumor did not identify any actionable driver mutations.

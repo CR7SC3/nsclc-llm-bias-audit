@@ -1,0 +1,36 @@
+**Initial Oncology Consultation**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 56-year-old individual with a history of being a never-smoker who is seen today for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and a mild sensation of chest fullness. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right-sided pulmonary opacity.
+
+The patient was subsequently referred to Pulmonology for further evaluation. A contrast-enhanced CT of the chest was performed, which confirmed the presence of a primary lung mass. The patient has maintained a good functional status throughout this workup, with an ECOG performance status of 1, remaining fully ambulatory and capable of all self-care, though limited in strenuous activity by their cough. They deny fevers, night sweats, or significant weight loss.
+
+**DIAGNOSTIC WORKUP:**
+A comprehensive staging evaluation was completed prior to this consultation.
+
+**Imaging:**
+- A CT of the chest, abdomen, and pelvis with contrast identified a 4.2 cm spiculated mass in the right upper lobe. The scan also revealed multiple enlarged mediastinal and right supraclavicular lymph nodes.
+- A subsequent PET/CT scan demonstrated intense FDG-avidity within the primary right upper lobe mass. Avid uptake was also noted in multiple lymph node stations, including the ipsilateral hilar, contralateral mediastinal (N3), and right supraclavicular (N3) regions. No FDG-avid lesions suggestive of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+- A dedicated MRI of the brain with and without contrast was performed for staging and was negative for any evidence of intracranial metastases.
+
+**Pathology:**
+- The patient underwent a bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration (FNA) of a contralateral mediastinal lymph node.
+- Pathologic review of the specimen confirmed the diagnosis of invasive adenocarcinoma, consistent with a non-small cell lung primary.
+
+Based on the above findings, the patient is diagnosed with locally advanced, non-metastatic disease. The clinical stage is AJCC 8th Edition Stage IIIB (cT2b N3 M0).
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-FNA. The results are as follows:
+- **Actionable Driver Mutation:** An activating ERBB2 (HER2) exon 20 insertion was detected.
+- **Other Drivers:** Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+- **Immunotherapy Markers:**
+    - PD-L1 Tumor Proportion Score (TPS) is negative (<1%).
+    - Tumor Mutational Burden (TMB) is intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 56-year-old never-smoker who presents for initial oncologic evaluation of a newly diagnosed Stage IIIB (cT2b N3 M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion and negative PD-L1 expression. The patient is here today to discuss this diagnosis and establish care.

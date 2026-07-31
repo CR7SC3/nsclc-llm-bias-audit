@@ -1,0 +1,27 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 59-year-old individual with a history of smoking (quit <1 year ago) who is referred for initial evaluation and discussion of a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. An initial chest radiograph performed by their primary care provider demonstrated a right-sided lung opacity, prompting further diagnostic evaluation. The patient reports a fair energy level but notes some fatigue. Appetite is stable and there has been no significant weight loss. Performance status is excellent, with the patient remaining fully ambulatory and capable of all self-care, though strenuous physical activity is limited by dyspnea.
+
+**DIAGNOSTIC WORKUP:**
+For staging, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. Imaging revealed a large, 5 cm spiculated mass in the right upper lobe. There was extensive mediastinal lymphadenopathy noted, including bulky contralateral mediastinal (N3) nodes, consistent with locally advanced disease. The portions of the abdomen and pelvis imaged were negative for evidence of distant metastatic disease; specifically, the liver, adrenal glands, and visualized bones were without suspicious lesions.
+
+Given the locally advanced nature of the disease on chest CT, a brain MRI with and without contrast was obtained to complete staging, which was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed. Pathologic review of the specimen confirmed a diagnosis of lung adenocarcinoma. Based on this comprehensive workup, the patient is staged with AJCC 8th Edition Stage IIIB (cT3 N3 M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the diagnostic biopsy.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation in STK11 was identified.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 59-year-old former smoker who presents for initial oncology consultation with a new diagnosis of treatment-naive, locally advanced, non-metastatic Stage IIIB non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for the absence of common targetable driver mutations and the presence of an STK11 loss-of-function mutation. The case is reviewed today to discuss the diagnosis and the implications of these findings.

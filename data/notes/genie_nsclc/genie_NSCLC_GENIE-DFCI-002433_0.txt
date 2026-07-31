@@ -1,0 +1,19 @@
+**HPI:**
+This is a 62-year-old individual with a history of former tobacco use (quit approximately 5 years ago) who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of good health and asymptomatic until a small, persistent cough prompted a chest X-ray by their primary care provider. This revealed a subtle opacity in the right lung field, leading to further investigation. The patient denies any fevers, chills, night sweats, hemoptysis, chest pain, or unintentional weight loss. Performance status is excellent; the patient remains fully active and able to carry out all pre-illness activities without restriction (ECOG 0).
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified]. This identified a 2.3 cm spiculated solid nodule in the apical segment of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+To complete staging, a PET/CT was performed on [De-identified]. This demonstrated intense FDG avidity localized to the right upper lobe pulmonary nodule, with no other sites of abnormal uptake concerning for nodal or distant metastatic disease. A brain MRI with and without contrast was also obtained as part of the standard staging workup and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for comprehensive genomic profiling via next-generation sequencing. Results are as follows:
+- No actionable oncogenic driver mutations were identified. Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score < 1%).
+- Tumor Mutational Burden (TMB) was determined to be high (>16 mut/Mb).
+- The analysis did identify a loss-of-function mutation in STK11 as well as a loss-of-function mutation in KEAP1.
+
+**Problem Summary:**
+This is a 62-year-old, treatment-naive patient with an excellent performance status who is newly diagnosed with AJCC Stage IA (cT1bN0M0) non-small cell lung cancer, adenocarcinoma histology. The workup confirms disease localized to the right upper lobe without evidence of regional or distant metastasis. Molecular profiling is notable for a high tumor mutational burden but is negative for PD-L1 expression and lacks an actionable driver mutation. The tumor harbors co-occurring loss-of-function mutations in STK11 and KEAP1. The patient is seen today to discuss the implications of this diagnosis.

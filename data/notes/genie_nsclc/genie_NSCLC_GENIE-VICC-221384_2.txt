@@ -1,0 +1,42 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 68-year-old with a significant former smoking history who is seen today for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience persistent headaches, intermittent dizziness, and a subtle decline in cognitive function. These symptoms progressively worsened, prompting presentation to an outside emergency department. An initial head CT followed by a contrast-enhanced MRI of the brain was performed, which revealed multiple intracranial lesions suspicious for metastatic disease.
+
+A subsequent staging workup was initiated, including a CT scan of the chest, abdomen, and pelvis. This imaging identified a primary mass in the right lung. The patient was referred for a CT-guided biopsy of the lung mass, which established the diagnosis.
+
+On review of systems, the patient confirms ongoing mild headaches and fatigue. They report an unintentional weight loss of approximately 10 pounds over the last three months. Appetite is fair. There is no significant cough, shortness of breath, or chest pain. The patient remains fully ambulatory and independent with all activities of daily living, with an ECOG performance status of 1.
+
+**PAST MEDICAL HISTORY:**
+- As reviewed in the electronic medical record.
+
+**SOCIAL HISTORY:**
+- **Tobacco:** Former smoker, quit approximately 3 years ago with a prior 40-pack-year history.
+- **Alcohol:** Denies regular alcohol use.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+- **MRI Brain with and without contrast [Date]:** Revealed three discrete, ring-enhancing intraparenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits. The largest lesion measures 1.5 cm in the right parietal lobe with associated vasogenic edema.
+- **CT Chest, Abdomen, Pelvis with contrast [Date]:** Identified a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. Several enlarged right hilar and subcarinal lymph nodes were also noted. No evidence of metastatic disease was identified within the abdomen or pelvis.
+
+**Pathology:**
+- **CT-guided core needle biopsy, right upper lobe lung mass [Date]:**
+    - **Final Diagnosis:** Invasive Adenocarcinoma, moderately differentiated.
+    - **Immunohistochemistry:** Positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen. Key findings are as follows:
+- **Actionable Driver Mutations:** A sensitizing **EGFR L858R** point mutation was detected.
+- **Other Markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **PD-L1 Expression (IHC):** Tumor Proportion Score (TPS) is **≥50%**.
+- **Tumor Mutational Burden (TMB):** Intermediate (9 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 68-year-old who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain. The diagnostic workup is complete. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR L858R mutation and high PD-L1 expression (TPS ≥50%). The patient's performance status is good at ECOG 1. The clinical situation and potential management strategies were discussed in detail.

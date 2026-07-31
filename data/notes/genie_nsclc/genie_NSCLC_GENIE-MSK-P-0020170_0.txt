@@ -1,0 +1,17 @@
+**HPI:**
+This is a 60-year-old who presents for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifelong never-smoker and was in a usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided pleuritic chest pain. Over the subsequent weeks, they also noted the development of a firm, non-tender nodule on their left flank and new, persistent low back pain. These symptoms prompted evaluation by their primary care physician. Initial chest imaging revealed a right-sided lung mass and an associated pleural effusion. The patient was subsequently referred for a comprehensive diagnostic workup and oncologic evaluation. The patient maintains a good performance status, remaining fully ambulatory and capable of all self-care, though is limited in strenuous physical activity due to symptoms.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was undertaken. A PET/CT scan performed on [De-identified] demonstrated a hypermetabolic primary mass in the right lower lobe of the lung. The scan also revealed extensive metastatic disease, including a large, malignant right-sided pleural effusion, multiple FDG-avid osseous lesions consistent with bone metastases, and a hypermetabolic subcutaneous nodule in the left flank. A dedicated MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+Following imaging, the patient underwent an interventional radiology-guided core needle biopsy of the subcutaneous flank nodule. Pathologic evaluation of the tissue confirmed a diagnosis of Non-Small Cell Lung Cancer, Not Otherwise Specified (NSCLC, NOS).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the biopsy specimen. The results are summarized below:
+- **Actionable Driver Mutations:** An EGFR L858R point mutation was detected.
+- **Other Drivers:** Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry (IHC) for PD-L1 showed a Tumor Proportion Score (TPS) of ≥50%.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 60-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, metastatic to bone, pleura, and subcutaneous tissue. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and presents for initial consultation to discuss the diagnosis and prognosis.

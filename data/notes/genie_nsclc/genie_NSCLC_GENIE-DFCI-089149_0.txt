@@ -1,0 +1,13 @@
+**HPI:**
+This is a 69-year-old individual with a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and increasing dyspnea on exertion. More recently, the patient noted the onset of intermittent headaches and a 10-pound unintentional weight loss over the past two months. The patient is a former smoker, having quit approximately 5 years ago. Initial evaluation included a chest radiograph which was concerning for a right upper lobe mass, prompting further investigation. The patient remains functional with an ECOG performance status of 1, able to perform all self-care but restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed multiple hepatic lesions consistent with metastases, a lytic lesion in the T7 vertebral body, and extensive mediastinal and supraclavicular lymphadenopathy. Given the new-onset headaches, a brain MRI with contrast was subsequently obtained, which demonstrated several small enhancing cerebral lesions consistent with metastatic disease.
+
+An interventional radiology-guided core needle biopsy of the primary right lung mass was performed on [De-identified Date]. Pathology review confirmed invasive adenocarcinoma, consistent with a non-small cell lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tissue specimen. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) of 1-49%. Tumor Mutational Burden (TMB) was determined to be intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+This is a 69-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastatic disease to the brain, liver, bone, and distant lymph nodes. Molecular profiling is notable for a PD-L1 TPS of 1-49% and the absence of an identified actionable driver mutation. The patient is here for initial consultation and to discuss the diagnosis.

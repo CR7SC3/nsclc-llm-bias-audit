@@ -1,0 +1,23 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 69-year-old individual with a history of former tobacco use who is referred for initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who obtained a chest X-ray revealing a right upper lobe opacity.
+
+The patient reports good functional status, with an ECOG performance status of 0. They are fully ambulatory and continue to perform all activities of daily living without assistance. They deny constitutional symptoms, including fevers, night sweats, or significant unintentional weight loss. A focused review of systems is negative for headaches, visual changes, bone pain, or abdominal discomfort. The patient is a former smoker, having quit more than one year ago.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed the presence of a 3.8 cm spiculated mass in the posterior segment of the right upper lobe. There was no evidence of significant mediastinal or hilar lymphadenopathy.
+
+For staging purposes, a whole-body PET/CT scan was subsequently obtained. This demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. Importantly, no FDG-avid lymphadenopathy was identified in the mediastinum, hila, or supraclavicular regions. There was no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or skeleton. A brain MRI with and without contrast was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathologic examination of the tissue confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS) histology.
+
+**MOLECULAR STUDIES:**
+Tissue from the biopsy specimen was sent for comprehensive next-generation sequencing and immunohistochemistry. Molecular profiling did not identify any actionable driver alterations; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) analysis was performed and was found to be high at >16 mutations/megabase.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 69-year-old former smoker with an excellent performance status who presents with a new diagnosis of AJCC 8th Edition Stage IIA non-small cell lung cancer, NOS histology. Staging workup, including PET/CT and brain MRI, has confirmed localized disease without evidence of regional nodal involvement or distant metastasis. Molecular studies are notable for the absence of an actionable driver mutation, a PD-L1 TPS of 1-49%, and a high Tumor Mutational Burden. The patient is treatment-naive and presents today for initial consultation.

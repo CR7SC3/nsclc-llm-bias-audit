@@ -1,0 +1,17 @@
+**HPI:**
+This is a 61-year-old individual with a history of former tobacco use who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. An initial chest X-ray ordered by their primary care provider was notable for a right-sided pulmonary mass, which prompted further investigation. The patient reports a 10-pound unintentional weight loss over the past three months but denies fevers, chills, or hemoptysis. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study revealed a 4.2 cm spiculated mass in the right upper lobe. Additionally, a discrete 1.5 cm nodule was identified in the left lower lobe, and multiple subcentimeter hypodense lesions were noted throughout the liver, the largest measuring 1.8 cm in hepatic segment VI. These findings were highly suspicious for a primary lung malignancy with distant metastatic disease.
+
+A subsequent whole-body FDG-PET/CT scan confirmed intense hypermetabolic activity corresponding to the right upper lobe primary mass, the contralateral lung nodule, and the multiple hepatic lesions. No other sites of FDG-avid disease were identified.
+
+An MRI of the brain with and without contrast was performed for staging purposes and was negative for any evidence of intracranial metastasis.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the tissue specimen confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. Results identified an actionable EGFR uncommon sensitizing mutation. Further molecular analysis was negative for ALK and ROS1 rearrangements, as well as for mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 61-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the liver and the contralateral lung. The patient has an excellent performance status of ECOG 1. Molecular profiling of the tumor is notable for an EGFR uncommon sensitizing mutation. The case is reviewed today to discuss the diagnosis, prognosis, and implications of the molecular findings.

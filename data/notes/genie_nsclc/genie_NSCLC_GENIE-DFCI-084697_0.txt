@@ -1,0 +1,18 @@
+**HPI:**
+This is a 74-year-old with a recent diagnosis of non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This prompted a visit to their primary care provider. The patient is a former smoker, having quit over one year ago. They deny fevers, chills, or significant weight loss but note increasing fatigue. They remain independent with all activities of daily living and have a good performance status.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right-sided lung mass, prompting a contrast-enhanced CT of the chest, abdomen, and pelvis for further characterization and staging. The CT scan demonstrated a large primary mass in the right upper lobe with extensive mediastinal and contralateral hilar lymphadenopathy. No evidence of distant metastatic disease was identified in the visualized portions of the liver, adrenal glands, or osseous structures.
+
+A subsequent PET/CT scan was performed, which confirmed high FDG-avidity in the primary right upper lobe mass and in multiple mediastinal and supraclavicular lymph nodes, consistent with the CT findings. There were no FDG-avid lesions identified below the diaphragm to suggest distant metastatic disease. A staging MRI of the brain was also obtained and was negative for any intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and staging. A fine-needle aspiration of a mediastinal lymph node was performed. Pathologic analysis of the biopsy specimen confirmed the diagnosis of poorly differentiated, invasive squamous cell carcinoma. Based on the integrated clinical and imaging findings, the patient is staged with AJCC Stage IIIB non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for next-generation sequencing and molecular profiling.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+This is a 74-year-old, treatment-naive patient with a new diagnosis of Stage IIIB non-small cell lung cancer, squamous cell histology. The disease is locally advanced and unresectable, with no evidence of distant metastatic disease. Molecular studies are notable for PD-L1 expression (TPS 1-49%) and the absence of any identified actionable driver mutations. The patient is here today to discuss the diagnosis and the implications for management.

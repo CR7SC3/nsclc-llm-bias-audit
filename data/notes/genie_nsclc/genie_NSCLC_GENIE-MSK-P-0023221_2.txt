@@ -1,0 +1,15 @@
+**HPI:**
+This is a 57-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of health until approximately two months ago when they developed a persistent, dry cough. When symptoms did not resolve with a course of outpatient antibiotics, a chest X-ray was obtained which demonstrated a right upper lobe opacity. The patient was referred for further diagnostic evaluation. The patient reports good functional status, maintaining all activities of daily living without significant fatigue or weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This confirmed the presence of a spiculated 3 cm mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated.
+
+For comprehensive staging, a PET/CT scan was performed on [De-identified]. This study demonstrated intense FDG avidity isolated to the primary right upper lobe mass, with no evidence of hypermetabolic activity in regional lymph nodes or in any distant sites to suggest metastatic disease. To complete the staging workup, a brain MRI with and without contrast was obtained and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed by Interventional Radiology on [De-identified]. Pathologic analysis of the specimen confirmed non-small cell carcinoma, with squamous histology.
+
+**Molecular Studies:**
+The biopsy specimen underwent comprehensive molecular profiling via next-generation sequencing and immunohistochemistry. An actionable driver mutation was detected, specifically an EGFR L858R point mutation. Further analysis was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS. Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 57-year-old, treatment-naive patient with a new diagnosis of Stage IIA (AJCC 8th Edition) squamous non-small cell lung cancer. The patient is a never-smoker. The tumor is characterized by an EGFR L858R sensitizing mutation and high PD-L1 expression (TPS ≥50%). The case is reviewed today for discussion of the diagnosis and consideration of management options.

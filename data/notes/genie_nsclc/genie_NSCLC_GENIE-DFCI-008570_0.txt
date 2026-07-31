@@ -1,0 +1,35 @@
+Patient ID: [De-identified]
+Date of Visit: [De-identified]
+Attending Physician: [De-identified], MD
+
+**RE: Initial Medical Oncology Consultation**
+
+**HISTORY OF PRESENT ILLNESS**
+This is a consultation for an 83-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience progressive shortness of breath with exertion and a persistent, non-productive cough. This was initially attributed to age, but symptoms worsened, prompting a visit to their primary care provider. A chest X-ray was obtained which revealed a right-sided lung opacity and a moderate pleural effusion.
+
+The patient was subsequently referred for further diagnostic evaluation. They report ongoing dyspnea, particularly with ambulation, but deny chest pain, hemoptysis, or significant weight loss. Their functional status is good; they remain fully ambulatory and capable of all self-care, though their activity is limited by shortness of breath. Performance status is estimated as ECOG 1.
+
+**DIAGNOSTIC WORKUP**
+Staging workup has been completed.
+
+**Imaging:**
+*   A CT of the chest, abdomen, and pelvis with contrast was performed. This demonstrated a spiculated mass in the right upper lobe of the lung, along with a large, right-sided malignant pleural effusion and associated pleural-based nodules. No suspicious hepatic, adrenal, or osseous metastases were identified in the chest or abdomen/pelvis.
+*   A PET/CT scan confirmed high metabolic activity in the right upper lobe primary mass and extensive hypermetabolic activity throughout the right pleura, consistent with widespread pleural metastasis. No other sites of distant hypermetabolic disease were identified.
+*   An MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+**Pathology:**
+*   The patient underwent a right-sided thoracentesis for diagnostic and therapeutic purposes.
+*   Cytologic analysis of the pleural fluid was positive for malignant cells. The cell block pathology confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+*   Based on the presence of a malignant pleural effusion (M1a disease), the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the pleural fluid tumor specimen. Results are as follows:
+*   **Actionable Driver Mutations:** An EGFR uncommon sensitizing mutation was detected.
+*   **Other Drivers:** The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 IHC was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+*   **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY**
+This is an 83-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology, metastatic to the pleura. The patient is symptomatic with dyspnea but maintains an ECOG performance status of 1. Molecular testing is notable for the presence of an EGFR uncommon sensitizing mutation and PD-L1 expression of 1-49%. The purpose of this visit is to discuss the diagnosis, prognosis, and goals of care.

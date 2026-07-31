@@ -1,0 +1,37 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+This is a 59-year-old individual who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The history was obtained from the patient and a thorough review of available outside medical records, imaging, and pathology reports.
+
+**History of Present Illness:**
+The patient is a current smoker who was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms failed to resolve with a course of antibiotics. Due to worsening shortness of breath and new-onset right-sided chest discomfort, the patient presented to an outside facility for evaluation.
+
+A chest radiograph revealed a large right upper lobe opacity, prompting a contrast-enhanced CT of the chest. This study confirmed the presence of a large mass in the right upper lobe with associated bulky right-sided mediastinal and hilar lymphadenopathy. To complete staging, a PET/CT was subsequently performed, which demonstrated intense FDG avidity in the primary right upper lobe mass and in ipsilateral mediastinal lymph node stations. Importantly, there was no evidence of distant metastatic disease. A brain MRI was also obtained and was negative for intracranial metastases.
+
+The patient was referred for bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis and nodal staging. Biopsies were successfully obtained from the primary mass and an involved subcarinal lymph node. Pathology confirmed squamous cell carcinoma.
+
+The patient reports some fatigue but remains fully ambulatory and independent in all activities of daily living. They have had an approximate 10-pound unintentional weight loss over the past three months. They deny fevers, chills, night sweats, or significant hemoptysis. They are here today to establish care and discuss the findings.
+
+**Diagnostic Workup:**
+
+**Imaging:**
+*   **CT Chest with Contrast:** Revealed a 6.2 cm spiculated mass in the right upper lobe. There was significant associated mediastinal lymphadenopathy, including enlarged right paratracheal and subcarinal nodes, with the largest measuring 2.5 cm in short axis.
+*   **PET/CT:** Confirmed high FDG uptake in the primary right upper lobe mass (SUVmax 14.2) and in the right paratracheal (SUVmax 9.8) and subcarinal (SUVmax 11.5) lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease were identified in the neck, contralateral hemithorax, abdomen, or pelvis.
+*   **MRI Brain with and without Contrast:** Negative for evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **Bronchoscopy with EBUS-guided biopsy of right upper lobe mass and subcarinal lymph node:**
+    *   DIAGNOSIS: Invasive, moderately differentiated squamous cell carcinoma. Nodal biopsy positive for metastatic carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue with the following results:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Negative (<1% Tumor Proportion Score).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **Other Biomarkers:** A KEAP1 loss-of-function mutation was detected, which is a finding that may be associated with reduced response to immunotherapy.
+
+**Problem Summary:**
+In summary, this is a 59-year-old with a new diagnosis of locally advanced, non-metastatic, Stage IIIA (AJCC 8th Edition) non-small cell lung cancer of squamous histology. The tumor is PD-L1 negative and lacks targetable driver mutations. Molecular profiling is notable for an intermediate tumor mutational burden and the presence of a KEAP1 loss-of-function mutation. The patient is treatment-naive and presents today to review these findings in detail and understand the diagnosis and prognosis.

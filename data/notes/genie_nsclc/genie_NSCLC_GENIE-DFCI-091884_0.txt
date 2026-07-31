@@ -1,0 +1,20 @@
+**HPI:**
+This is a 61-year-old individual with a history of tobacco use (former smoker, quit >1 year ago) who is seen for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. Over the past month, they also developed intermittent headaches and focal right-sided rib pain, which prompted further evaluation. The patient has maintained a good performance status but reports a 10-pound unintentional weight loss over the last three months.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a left upper lobe mass with associated pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified], which confirmed a 4.5 cm spiculated mass in the left upper lobe. The scan also demonstrated a moderate left-sided malignant pleural effusion, multiple suspicious osseous lesions including one in the right 7th rib corresponding to the patient's pain, and extensive mediastinal and contralateral supraclavicular lymphadenopathy.
+
+Given the new-onset headaches, a brain MRI with contrast was performed. This study revealed multiple, scattered, enhancing intracranial lesions consistent with metastatic disease.
+
+A CT-guided core biopsy of the left upper lobe lung mass was performed on [De-identified]. Pathologic review confirmed the diagnosis of invasive adenocarcinoma. Based on the comprehensive imaging findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy was sent for comprehensive next-generation sequencing.
+- **Histology:** Adenocarcinoma
+- **PD-L1 Tumor Proportion Score (TPS):** ≥50%
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 9 mutations/megabase)
+- **Driver Mutations:** No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Other Significant Findings:** A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+This is a 61-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms metastatic disease involving the brain, bone, pleura, and distant lymph nodes. Molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and an STK11 loss-of-function mutation, with no targetable oncogenic driver alterations identified. The patient is here today to discuss the diagnosis and establish care.

@@ -1,0 +1,16 @@
+**HPI:**
+This is a 53-year-old individual with a history of tobacco use (quit approximately 8 months ago) who is referred for initial oncologic consultation for a new diagnosis of metastatic lung cancer. The patient was in their usual state of health until approximately three months prior to this evaluation, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. Over the past six weeks, they also noted the onset of intermittent dull headaches, mild dizziness, and an unintentional 12-pound weight loss. Due to the persistence of these symptoms, they presented for medical evaluation. The patient remains fully ambulatory and able to perform all activities of daily living but has stopped working due to fatigue. Current ECOG performance status is 1.
+
+**Diagnostic Workup:**
+An initial chest CT scan revealed a large, spiculated 4.8 cm mass in the right upper lobe with associated bulky mediastinal lymphadenopathy. The scan also identified a suspicious 1.2 cm nodule in the contralateral left lung. Given the report of headaches, a brain MRI with contrast was subsequently performed, which demonstrated multiple enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits. A staging PET/CT scan was performed, which confirmed high FDG avidity in the primary right lung mass, mediastinal nodes, and the contralateral lung nodule. No other sites of distant metastatic disease in the neck, abdomen, or pelvis were identified.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date]. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was sent for comprehensive molecular profiling.
+- Next-generation sequencing did not identify any actionable driver alterations. Testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was assessed and found to be high (>16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 53-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastases to the brain and contralateral lung. The diagnosis is confirmed by CT-guided biopsy. The patient has a good performance status (ECOG 1) despite symptoms of cough, dyspnea, and headaches. Molecular testing is notable for the absence of targetable driver mutations but shows high PD-L1 expression (TPS ≥50%) and a high tumor mutational burden. The patient is seen today for initial consultation to review these findings.

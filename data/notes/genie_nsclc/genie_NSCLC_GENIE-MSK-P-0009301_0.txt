@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial medical oncology consultation for a 69-year-old individual referred for evaluation and management of newly diagnosed metastatic non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of good health until approximately three months ago, when they began to experience a persistent, non-productive cough and progressive, localized pain in the right posterior ribs. The pain was described as sharp and pleuritic. An initial course of antibiotics for presumed bronchitis did not provide relief. Due to the persistence of symptoms, a chest X-ray was obtained, which revealed a right-sided lung mass, prompting an urgent referral for further oncologic workup. The patient reports mild fatigue but is otherwise fully ambulatory and maintains an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A diagnostic CT scan of the chest, abdomen, and pelvis with contrast was performed on [De-identified date]. Imaging revealed a 5.2 cm spiculated mass in the right lower lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified a destructive lytic lesion in the T8 vertebral body and a solitary 2.5 cm nodule in the contralateral (left) lung, both highly suspicious for metastatic deposits.
+
+To establish a definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the right lower lobe lung mass. Pathologic review of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma.
+
+A dedicated MRI of the brain with and without contrast was subsequently performed as part of the standard metastatic staging workup and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. The key findings are as follows:
+*   **Actionable driver detected:** ALK rearrangement.
+*   **Negative for mutations in:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 69-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving bone and the contralateral lung. Molecular analysis of the tumor is positive for an ALK rearrangement. The patient is treatment-naive.

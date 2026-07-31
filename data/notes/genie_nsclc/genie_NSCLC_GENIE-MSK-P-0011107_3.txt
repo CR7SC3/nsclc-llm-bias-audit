@@ -1,0 +1,43 @@
+**MEDICAL ONCOLOGY - INITIAL CONSULTATION**
+
+**Patient ID:** [De-identified]
+**Date of Visit:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 74-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months ago when they developed a mild, persistent dry cough. This did not resolve with a course of over-the-counter remedies. They presented to their primary care provider, who obtained a chest X-ray that was suspicious for a right upper lobe pulmonary nodule.
+
+A follow-up non-contrast CT of the chest was performed, which confirmed the presence of a 1.9 cm solid, spiculated nodule in the apical segment of the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy. Given the suspicious features and the patient's smoking history, they were referred to Interventional Pulmonology for further evaluation.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathology from this procedure established a diagnosis of invasive adenocarcinoma. Staging studies were then completed, which did not reveal any evidence of regional or distant disease.
+
+The patient has been referred for discussion of the diagnosis, prognosis, and management options. Clinically, they feel well. The cough has minimally changed. They report no hemoptysis, chest pain, dyspnea, fevers, or unintentional weight loss. They remain fully active and independent with all activities of daily living, with an ECOG performance status of 0.
+
+**PAST MEDICAL HISTORY:**
+1.  History of Non-Small Cell Lung Cancer
+2.  Hypertension
+3.  Hyperlipidemia
+
+**SOCIAL HISTORY:**
+The patient is a former smoker with a 40-pack-year history, who quit approximately 10 months ago. They report occasional alcohol use.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+-   **CT Chest ([De-identified]):** Revealed a 1.9 cm solid, spiculated nodule in the right upper lobe. No mediastinal or hilar adenopathy.
+-   **PET/CT ([De-identified]):** Showed intense FDG-avidity within the known right upper lobe nodule (SUVmax 7.2). No other sites of abnormal FDG uptake, specifically no evidence of mediastinal, hilar, or distant metastatic disease.
+-   **MRI Brain ([De-identified]):** Performed for staging, and was negative for any evidence of intracranial metastases.
+
+**Pathology:**
+-   **CT-Guided Biopsy, Right Upper Lobe Nodule ([De-identified]):** Invasive Adenocarcinoma, non-small cell type.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor specimen with the following results:
+-   **Actionable Driver Mutation:** EGFR uncommon sensitizing mutation detected.
+-   **Negative for pathogenic alterations in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+-   **PD-L1 Expression (TPS):** Positive, 1-49%.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 74-year-old with an excellent performance status and a new diagnosis of clinical Stage IA (AJCC 8th Edition) pulmonary adenocarcinoma. Staging workup, including PET/CT and brain MRI, is negative for any regional or distant metastatic disease. Molecular profiling of the tumor is notable for an uncommon sensitizing EGFR mutation and a PD-L1 TPS of 1-49%. The diagnosis and findings have been discussed with the patient.

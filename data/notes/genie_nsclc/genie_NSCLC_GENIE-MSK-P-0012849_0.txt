@@ -1,0 +1,21 @@
+**HPI:**
+This is a 65-year-old with a history of tobacco use (former smoker, quit >1 year ago) who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This prompted an evaluation by their primary care provider, which included a chest radiograph revealing a right upper lobe lung nodule. The patient is otherwise feeling well, reporting no significant shortness of breath, chest pain, hemoptysis, or constitutional symptoms such as fevers or weight loss. Performance status is excellent, ECOG 0.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was pursued. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified], which characterized a 3.8 cm spiculated mass in the posterior segment of the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the abdomen and pelvis were negative for metastatic disease, with no suspicious lesions in the liver, adrenal glands, or bones.
+
+A PET/CT scan performed on [De-identified] confirmed a hypermetabolic primary mass in the right upper lobe (SUVmax 12.4) without evidence of FDG-avid regional nodal or distant metastatic disease. A dedicated MRI of the brain with and without contrast was subsequently performed and was negative for intracranial metastases.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIA (AJCC 8th Edition) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the biopsy specimen.
+-   Actionable driver mutation detected: **KRAS G12C**
+-   Tumor was negative for pathogenic mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+-   Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+-   PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is a 65-year-old with a new diagnosis of treatment-naive, Stage IIA (pT2aN0M0) non-small cell lung adenocarcinoma, notable for a KRAS G12C mutation.

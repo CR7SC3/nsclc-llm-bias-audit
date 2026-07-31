@@ -1,0 +1,20 @@
+**HPI:**
+This is a 65-year-old individual with a remote history of tobacco use who is referred for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, dry cough. After an initial course of antibiotics for presumed bronchitis failed to provide relief, a chest radiograph was obtained. This imaging revealed a right upper lobe lung opacity, prompting further diagnostic evaluation. The patient denies any associated hemoptysis, chest pain, fevers, or unintentional weight loss. They maintain an excellent functional capacity, continuing with all usual activities of daily living without limitation (ECOG Performance Status 0).
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study characterized a 3.8 cm spiculated mass in the posterior segment of the right upper lobe. No suspicious contralateral lung nodules, pleural effusions, or evidence of metastatic disease in the liver, adrenal glands, or other visualized abdominal organs were identified.
+
+A subsequent whole-body PET/CT scan was performed for staging purposes. This demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. There was no evidence of hypermetabolic mediastinal lymphadenopathy or distant metastatic disease.
+
+A brain MRI with and without contrast was completed as part of the standard staging workup and was negative for any intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic analysis of the tissue confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+- No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as high (>16 mut/Mb).
+- PD-L1 expression by immunohistochemistry was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 65-year-old, treatment-naive former smoker with a new diagnosis of Stage IIA non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed localized disease with no evidence of regional nodal or distant metastases. Molecular profiling is notable for a high tumor mutational burden and the absence of common oncogenic drivers. The patient has an excellent performance status and is asymptomatic from the disease.

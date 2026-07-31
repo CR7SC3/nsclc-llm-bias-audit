@@ -1,0 +1,24 @@
+**HPI:**
+This is a 72-year-old with a history of tobacco use (former smoker, quit >1 year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough. This was initially attributed to a viral illness but did not resolve. Over the past month, the patient noted the onset of dull, aching right-sided thoracic back pain and a 10-lb unintentional weight loss. These symptoms prompted a visit to their primary care physician, who ordered a chest radiograph revealing a right upper lobe mass. The patient is otherwise active with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was initiated.
+
+*   **CT Chest/Abdomen/Pelvis with contrast:** Confirmed a 4.5 cm spiculated mass in the right upper lobe. It also revealed multiple sub-centimeter hypodense liver lesions concerning for metastases, a lytic lesion in the T8 vertebral body, and a moderate right-sided pleural effusion. Several mediastinal lymph nodes were noted to be enlarged.
+*   **PET/CT:** Showed intense FDG-avidity in the primary right upper lobe mass, as well as in mediastinal lymph nodes (stations 4R and 7). Avid metastatic disease was confirmed in the liver, the T8 vertebral body, and within the right-sided pleural effusion, consistent with malignant pleural disease.
+*   **MRI Brain with and without contrast:** Performed for staging, this was negative for intracranial metastases.
+*   **CT-guided core needle biopsy of the right upper lobe lung mass ([De-identified Date]):** Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+*   **Thoracentesis of the right pleural effusion ([De-identified Date]):** Cytology was positive for malignant cells, consistent with metastatic adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+*   **Actionable Driver Mutations:** No pathogenic mutations were identified in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, or ERBB2.
+*   **PD-L1 Expression:** Tumor Proportion Score (TPS) is ≥50%.
+*   **Tumor Mutational Burden (TMB):** High, at >16 mut/Mb.
+
+**Problem Summary:**
+In summary, this is a 72-year-old with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to bone, liver, and pleura. The patient has an excellent performance status. Molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and high TMB, with no identified actionable driver alterations.

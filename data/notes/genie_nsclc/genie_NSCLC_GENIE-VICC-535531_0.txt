@@ -1,23 +1,18 @@
-[De-identified Patient Name]
-DOB: [De-identified DOB]
-MRN: [De-identified MRN]
-Date of Service: [De-identified Date]
-Referring Provider: [De-identified Referring Provider]
-
-This 52-year-old patient is seen today for an initial oncology consultation regarding newly diagnosed non-small cell lung cancer. The history was obtained from the patient, along with review of available medical records.
-
-**HPI (History of Present Illness):**
-The patient initially presented approximately three months ago with a persistent cough and increasing shortness of breath, accompanied by generalized fatigue and unintentional weight loss of approximately 10 pounds over several weeks. The patient is a never smoker. Initial evaluation included a chest X-ray, which revealed a suspicious lung mass. Subsequent imaging and biopsy confirmed the diagnosis of non-small cell lung cancer. The patient reports an ECOG performance status of 1, able to carry out light work and maintain independence in daily activities, though experiencing some fatigue and occasional mild discomfort attributed to the disease. No significant pain requiring regular analgesia is reported at this time.
+**HPI:**
+This is a 52-year-old who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. These symptoms were initially managed with a course of antibiotics for presumed bronchitis without resolution. Over the subsequent weeks, the patient noted the onset of dull, aching pain in the mid-back and a 10-pound unintentional weight loss. Due to the persistence of symptoms, the patient presented to their primary care provider who ordered initial imaging. The patient is a lifetime never-smoker. The patient maintains a good performance status, fully ambulatory and capable of all self-care, though limited in physically strenuous activity due to dyspnea.
 
 **Diagnostic Workup:**
-Initial diagnostic workup involved a CT scan of the chest, abdomen, and pelvis, which identified a primary mass in the right upper lobe of the lung, along with suspicious lesions in the liver, right adrenal gland, and a contralateral lung nodule. Enlarged mediastinal and hilar lymph nodes were also noted. A CT-guided biopsy of the right lung mass confirmed adenocarcinoma histology. Comprehensive staging with a PET-CT scan further delineated the extent of disease, showing avid uptake in the primary lung lesion, multiple bone lesions (e.g., in the thoracic spine), the known liver and adrenal lesions, a contralateral lung nodule, and distant lymphadenopathy (e.g., supraclavicular and abdominal nodes). Based on these findings, the patient is diagnosed with Stage IV non-small cell lung cancer, adenocarcinoma.
+A chest CT with contrast was performed, which revealed a 4.8 cm spiculated mass in the left lower lobe with extensive mediastinal and hilar lymphadenopathy. The scan also noted multiple bilateral pulmonary nodules, a 2.1 cm hypodense lesion in the right lobe of the liver, and a 3.0 cm left adrenal nodule.
+
+For definitive staging, a PET/CT scan was obtained on [De-identified date]. This study confirmed high metabolic activity in the primary left lower lobe mass (SUV max 14.2) and in mediastinal, hilar, and supraclavicular lymph nodes. Additionally, multiple FDG-avid foci were identified consistent with widespread metastatic disease, including in the contralateral lung, the liver, the left adrenal gland, and multiple osseous sites including the T8 vertebral body and the right iliac crest. No evidence of brain metastases was seen on the CT portion of the study.
+
+A CT-guided core needle biopsy of the left lower lobe mass was subsequently performed. Pathologic review of the specimen confirmed invasive, moderately differentiated adenocarcinoma.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue, revealing the following results:
-*   **Actionable Drivers:** EGFR exon 19 deletion (sensitizing) detected.
-*   **Negative for:** ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, KRAS mutation, ERBB2 (HER2) mutation.
-*   **PD-L1 Expression:** Positive, with a tumor proportion score (TPS) of 1–49%.
-*   **Tumor Mutational Burden (TMB):** High (>16 mut/Mb).
+Next-generation sequencing performed on the tumor tissue identified an actionable driver mutation, specifically an EGFR exon 19 deletion.
+Additional molecular testing was negative for ALK and ROS1 rearrangements, as well as for mutations in BRAF, MET exon 14, RET, KRAS, and ERBB2.
+Immunohistochemistry for PD-L1 was performed, revealing a Tumor Proportion Score (TPS) in the 1–49% range.
+Tumor Mutational Burden (TMB) was determined to be high (>16 mut/Mb).
 
 **Problem Summary:**
-This 52-year-old patient presents with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is characterized by metastatic involvement of bone, liver, adrenal gland, contralateral lung, and distant lymph nodes. Molecular testing demonstrates an EGFR exon 19 deletion (sensitizing), PD-L1 expression of 1-49%, and high tumor mutational burden (>16 mut/Mb), with no other common actionable drivers detected. The patient is seeking initial oncology evaluation and discussion of systemic treatment options.
+This is a 52-year-old never-smoker with a new diagnosis of Stage IV metastatic non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms widespread metastatic disease involving contralateral lung, liver, adrenal gland, bone, and distant lymph nodes. Molecular profiling is notable for a sensitizing EGFR exon 19 deletion, PD-L1 expression of 1-49% TPS, and high TMB.

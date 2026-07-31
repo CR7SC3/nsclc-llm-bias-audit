@@ -1,0 +1,36 @@
+**Initial Oncology Consultation**
+**Date of Service:** [De-identified]
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+
+I had the pleasure of evaluating this 65-year-old for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+**History of Present Illness**
+The patient is a 65-year-old with a history of being a never-smoker who presented to an outside facility approximately six weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. These symptoms were associated with mild fatigue but no significant weight loss, fevers, or hemoptysis. An initial chest X-ray revealed a right-sided lung mass, prompting further investigation.
+
+The patient has remained active and independent with activities of daily living, though has had to limit more strenuous activities due to shortness of breath. Current ECOG performance status is 1.
+
+**Diagnostic Workup**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This demonstrated a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed multiple suspicious nodules in the contralateral (left) lung, the largest measuring 1.2 cm. There was evidence of right-sided pleural thickening and a small pleural effusion. Pathologic mediastinal and right supraclavicular lymphadenopathy were also noted. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT confirmed high FDG-avidity in the primary right upper lobe mass, the contralateral lung nodules, the right pleura, and in mediastinal and right supraclavicular lymph nodes, consistent with widespread metastatic disease.
+
+An MRI of the brain with and without contrast was performed for staging and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies**
+Next-generation sequencing (NGS) performed on the tumor biopsy specimen revealed the following:
+*   **Actionable Driver:** ALK gene rearrangement detected.
+*   **Negative for:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations/rearrangements.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+*   **PD-L1 Expression:** Not tested.
+
+**Problem Summary**
+In summary, this is a 65-year-old never-smoker presenting for initial oncologic evaluation of a newly diagnosed metastatic non-small cell lung cancer.
+1.  **Metastatic Non-Small Cell Lung Cancer:**
+    *   **Histology:** Adenocarcinoma.
+    *   **Stage:** AJCC Stage IV. Disease is metastatic to the contralateral lung, pleura, and distant (supraclavicular) lymph nodes. No evidence of brain metastases.
+    *   **Molecular Profile:** ALK-rearranged.
+    *   **Performance Status:** ECOG 1.
+    *   **Treatment Status:** Treatment-naive.

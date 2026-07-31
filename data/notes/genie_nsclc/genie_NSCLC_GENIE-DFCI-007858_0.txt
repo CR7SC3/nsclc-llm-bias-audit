@@ -1,0 +1,15 @@
+**HPI:**
+This is a 58-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately one month prior to presentation, when they began to experience progressive shortness of breath with exertion and a persistent, dry cough. This was associated with mild left-sided pleuritic chest discomfort. The patient was evaluated in an outside emergency department, where a chest X-ray revealed a large left-sided pleural effusion. The patient is currently ambulatory and managing activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the initial chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This imaging demonstrated a spiculated mass in the left upper lobe measuring approximately 4.5 cm, with associated mediastinal lymphadenopathy. A large, loculated left pleural effusion with nodular pleural thickening was also identified.
+
+A subsequent PET/CT scan was performed for staging purposes. This revealed intense FDG-avidity in the primary left upper lobe mass, multiple mediastinal lymph nodes, and diffusely throughout the left pleura, consistent with metastatic disease. No other FDG-avid lesions suggestive of distant metastases were identified in the abdomen, pelvis, or bones. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided thoracentesis and left pleural biopsy. Pathologic analysis of the pleural tissue and fluid cytology both confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the pleural biopsy specimen did not identify any actionable driver alterations. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested, as is consistent with profiling panels from the era of this specimen's analysis. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 58-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnosis is based on a pleural biopsy confirming metastatic disease (M1a) to the pleura. Staging workup is complete and demonstrates disease confined to the left hemithorax, with no evidence of brain or other distant organ metastases. Comprehensive molecular profiling is negative for any currently recognized targetable driver mutations. The patient is treatment-naive and presents today for initial evaluation and discussion of the diagnosis.

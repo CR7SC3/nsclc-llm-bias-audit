@@ -1,0 +1,21 @@
+**HPI:**
+This is a 56-year-old individual with a history of smoking (quit <1 year ago) who is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Symptoms worsened, prompting a visit to an outside emergency department. An initial chest X-ray revealed a left-sided pleural effusion and a suspicious opacity in the left lung. The patient was subsequently admitted for further diagnostic evaluation.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis performed on [De-identified] confirmed a 4.2 cm spiculated mass in the left upper lobe. The scan also demonstrated extensive nodular thickening of the left pleura and a moderate, loculated left-sided pleural effusion, consistent with malignant pleural disease. Several ipsilateral mediastinal lymph nodes were noted to be enlarged. No evidence of metastatic disease was identified in the contralateral lung, liver, adrenal glands, or bones.
+
+A diagnostic and therapeutic thoracentesis was performed, with removal of 1.2 liters of serosanguinous fluid, which resulted in partial improvement of dyspnea. A subsequent PET/CT scan on [De-identified] demonstrated intense FDG-avidity in the primary left upper lobe mass, several mediastinal lymph nodes, and diffusely throughout the left pleura, confirming the findings on CT. No other sites of FDG-avid disease were identified.
+
+A CT-guided core needle biopsy of the left upper lobe mass was performed on [De-identified]. Pathology returned invasive, moderately differentiated adenocarcinoma. Cytology from the pleural fluid was also positive for malignant cells consistent with adenocarcinoma.
+
+Given the diagnosis of metastatic disease, a brain MRI with and without contrast was obtained on [De-identified], which was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. The following results were reported:
+-   **Actionable driver mutation:** An activating **BRAF V600E** mutation was detected.
+-   **Negative for other drivers:** The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **Tumor Mutational Burden (TMB):** TMB was reported as **intermediate** (2–16 mut/Mb).
+-   **PD-L1:** PD-L1 expression was not tested on this panel.
+
+**Problem Summary:**
+In summary, this is a 56-year-old former smoker presenting with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the pleura (M1a), with no evidence of brain metastases. Molecular profiling of the tumor is notable for a BRAF V600E mutation. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish care.

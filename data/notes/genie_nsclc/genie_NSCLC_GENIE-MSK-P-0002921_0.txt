@@ -1,0 +1,17 @@
+**HPI:**
+This is a 70-year-old with a history of former tobacco use (quit over one year ago) who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they began to develop a persistent, non-productive cough and mild dyspnea on exertion. These symptoms gradually progressed, prompting a visit to their primary care provider. The patient denies hemoptysis, fevers, or significant chest pain. They report an unintentional weight loss of approximately 8 pounds over the last few months. The patient maintains a good functional status, able to perform all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+An initial chest X-ray was obtained which demonstrated a right upper lobe lung mass. This prompted a follow-up contrast-enhanced CT of the chest, abdomen, and pelvis. The chest CT confirmed a 4.2 cm spiculated mass in the right upper lobe. It also revealed multiple enlarged ipsilateral mediastinal and subcarinal lymph nodes, with the largest measuring 2.5 cm in short axis. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or bones on the CT imaging.
+
+For definitive staging, a whole-body PET/CT scan was performed. This study demonstrated intense FDG avidity in the primary right upper lobe mass and in the right-sided mediastinal and subcarinal lymph nodes, corresponding to the findings on diagnostic CT. There was no evidence of FDG-avid disease at any distant sites. A staging MRI of the brain was also completed and was negative for intracranial metastases.
+
+The patient subsequently underwent an endobronchial ultrasound (EBUS) with transbronchial needle aspiration (TBNA) of a subcarinal lymph node (station 7). Pathological analysis of the specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Comprehensive molecular profiling was performed on the tumor tissue specimen via next-generation sequencing. No actionable driver alterations were identified. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed and was negative, with a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was found to be in the intermediate range (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 70-year-old, treatment-naive patient with a new diagnosis of Stage IIIA (cT2bN2M0, AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. Molecular studies are notable for the absence of an identified targetable driver mutation and negative PD-L1 expression. The patient is here today to discuss the diagnosis and implications.

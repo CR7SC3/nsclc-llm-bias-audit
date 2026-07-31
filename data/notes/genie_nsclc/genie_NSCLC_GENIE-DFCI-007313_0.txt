@@ -1,0 +1,20 @@
+**HPI:**
+This is an 83-year-old individual with a history of former tobacco use who is seen for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive fatigue. An initial chest x-ray was concerning for a right-sided lung mass, prompting further evaluation.
+
+The patient is currently experiencing mild fatigue but is able to perform all activities of daily living without assistance and remains ambulatory. There is no significant shortness of breath, chest pain, or hemoptysis reported. Appetite is fair with no significant weight loss. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A CT of the chest, abdomen, and pelvis with contrast was performed on [Date of Scan] which revealed a 4.2 cm spiculated mass in the right upper lobe. Additionally, a 3.1 cm enhancing nodule was identified in the left adrenal gland, highly suspicious for a metastatic deposit. No other suspicious thoracic or abdominal visceral or nodal disease was noted.
+
+For comprehensive staging, a whole-body PET/CT was subsequently obtained. This study demonstrated intense FDG-avidity in the right upper lobe lung mass as well as in the left adrenal nodule, confirming the suspicion of metastatic disease. No other sites of hypermetabolic activity were identified. An MRI of the brain with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+On [Date of Biopsy], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Tumor tissue from the core biopsy was sent for comprehensive next-generation sequencing.
+- No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested, as initial sequencing was performed pre-2017 when this was not yet standard of care.
+
+**Problem Summary:**
+In summary, this is an 83-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging workup has confirmed metastatic disease to a single site in the left adrenal gland, with no evidence of central nervous system involvement. Comprehensive molecular profiling did not identify an actionable oncogenic driver. The patient is treatment-naive with a good performance status (ECOG 1) and is here today to discuss the diagnosis and potential management options.

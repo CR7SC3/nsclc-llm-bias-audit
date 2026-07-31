@@ -1,0 +1,21 @@
+**HPI:**
+This is a 63-year-old individual with a history of current tobacco use who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. This was accompanied by right-sided pleuritic chest pain and an estimated 10-pound weight loss. Symptoms prompted an evaluation in the emergency department. The patient remains ambulatory and capable of all self-care but is limited in strenuous activity due to shortness of breath.
+
+**Diagnostic Workup:**
+Initial workup began with a chest radiograph which demonstrated a right-sided lung mass and a moderate pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and initial staging. This revealed a 3.8 cm spiculated mass in the right lower lobe, extensive right-sided pleural thickening and nodularity, and a large, loculated pleural effusion. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+A PET/CT scan was obtained, which confirmed intense FDG-avidity in the primary right lower lobe mass and in the diffuse right-sided pleural disease, consistent with metastatic involvement. No other distant sites of FDG-avid disease were seen. A dedicated MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a video-assisted thoracoscopic surgery (VATS) with pleural biopsy and partial decortication on [De-identified]. Pathological analysis of the pleural tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary. Cytology from the pleural fluid was also positive for malignant cells.
+
+Based on this workup, the patient is diagnosed with metastatic non-small cell lung cancer. The formal AJCC (8th edition) stage is Stage IV, based on the presence of malignant pleural disease (M1a).
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the pleural biopsy specimen. Key findings are as follows:
+- An activating KRAS G12C mutation was detected.
+- The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 expression by immunohistochemistry revealed a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 63-year-old who is a current smoker, presenting with a new diagnosis of Stage IV non-small cell lung adenocarcinoma. The diagnostic workup has confirmed a right lower lobe primary with metastatic disease confined to the pleura. The patient is treatment-naive with an excellent performance status. Molecular profiling of the tumor is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient presents today to discuss the implications of this new diagnosis.

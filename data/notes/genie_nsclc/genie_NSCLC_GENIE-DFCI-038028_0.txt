@@ -1,0 +1,20 @@
+**HPI:**
+This is a 62-year-old who presents for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they noted the insidious onset of a persistent, non-productive cough and progressive fatigue. More recently, they palpated a new, firm, non-tender nodule under the skin of their right abdomen, which prompted an evaluation by their primary care provider. The patient is a lifetime never-smoker. They remain fully ambulatory and capable of all self-care but report being limited in physically strenuous activity due to fatigue. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right lung opacity, prompting further imaging. A staging PET/CT scan was performed on [De-identified Date]. This demonstrated a large, hypermetabolic primary mass in the right upper lobe with associated mediastinal and supraclavicular lymphadenopathy. The scan also revealed multiple sites of distant metastatic disease, including several small nodules in the contralateral (left) lung, a metabolically active left adrenal lesion, and the previously noted FDG-avid subcutaneous nodule in the right anterior abdominal wall.
+
+A dedicated MRI of the brain with and without contrast was subsequently performed to complete staging and was negative for intracranial metastases.
+
+Given the accessibility of the subcutaneous lesion, the patient underwent an ultrasound-guided core needle biopsy of the abdominal wall nodule. Pathologic analysis of the specimen confirmed metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin-A, consistent with a lung primary origin.
+
+Based on this workup, the patient is diagnosed with AJCC 8th Edition Stage IV disease.
+
+**Molecular Studies:**
+Tissue from the biopsy specimen was sent for comprehensive molecular profiling via next-generation sequencing (NGS).
+- No actionable driver alteration was identified. The tumor was negative for mutations, fusions, or amplifications in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+- PD-L1 expression by immunohistochemistry (22C3 pharmDx) was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma. Staging studies have confirmed widespread metastatic disease involving the contralateral lung, adrenal gland, distant lymph nodes, and subcutaneous tissue. A brain MRI was negative for central nervous system involvement. Comprehensive molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and the absence of an identifiable oncogenic driver mutation. The patient is here today to discuss the implications of this diagnosis.

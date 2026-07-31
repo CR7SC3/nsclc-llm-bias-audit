@@ -24,14 +24,21 @@ import matplotlib.pyplot as plt
 
 from scripts.nsclc.finalize_panel import STRATA, _is_stigma, _wilson
 
+# Unified typography across all Fig-5 panels (A/B/C/D): one family, one size.
+plt.rcParams.update({
+    "font.family": "sans-serif",
+    "font.sans-serif": ["DejaVu Sans"],
+    "font.size": 10,
+})
+
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
 # Shared note-type palette across the Fig 9 robustness panels (9a/9b/9c) so each
 # note source reads as its own colour; vendor stays encoded by panel + title.
 NOTE_COLORS = {
-    "synthetic": "#2CA6A4",   # teal   — synthetic stigma baseline (LLM / TAG notes)
+    "synthetic": "#adadad",   # gray baseline — original bracketed-TAG note (shared across panels)
     "template":  "#8E6CAE",   # purple — circularity control (template notes)
     "real":      "#E8833A",   # orange — real PubMed Central notes
-    "prose":     "#4C9F70",   # green  — natural-prose embedding
+    "prose":     "#E69F00",   # orange — robustness condition (non-model palette; was purple -> clashed with GPT-4o)
 }
 
 # (vendor label, color, TAG results file, NATURAL results file)
@@ -49,7 +56,7 @@ ORDER = ["control", "race_only", "uninsured", "underinsured", "low_income",
          "black_unhoused", "unhoused"]
 PRETTY = {"control": "control", "race_only": "race-only", "uninsured": "uninsured",
           "underinsured": "underinsured", "low_income": "low income",
-          "black_unhoused": "Black +\nunhoused", "unhoused": "unhoused"}
+          "black_unhoused": "Black + unhoused", "unhoused": "unhoused"}
 
 
 def _rates(path: str, case_ids: set | None):
@@ -99,19 +106,23 @@ def main():
                color=NOTE_COLORS["prose"], edgecolor="k", linewidth=0.5,
                label="Natural PROSE")
 
-        g_tag = tag_r[ORDER.index("unhoused")] - tag_r[ORDER.index("control")]
-        g_nat = nat_r[ORDER.index("unhoused")] - nat_r[ORDER.index("control")]
-        ax.set_title(f"{vendor}  (TAG +{g_tag:.0f}, PROSE +{g_nat:.0f})",
-                     color=color, fontweight="bold", fontsize=11)
-        ax.set_xticks(x); ax.set_xticklabels([PRETTY[s] for s in ORDER], rotation=20, fontsize=9)
-        ax.set_xlabel("Disadvantage stratum")
-        ax.legend(fontsize=9, framealpha=0.95, loc="upper left")
+        ax.set_xticks(x); ax.set_xticklabels([PRETTY[s] for s in ORDER], rotation=30, ha="right", rotation_mode="anchor")   # standardized 30° tilt
+        ax.legend(framealpha=0.95, loc="upper left")   # standardized: framed, inherits unified 10 pt (match panel A)
         ax.set_ylim(0, 100)
-        ax.grid(axis="y", alpha=0.25)
+        ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)   # grey gridlines behind bars (match panels A/B/D)
 
     axes[0].set_ylabel("Stigmatizing-language rate (%)")
+    # titleless panel for combine_figures.py (Fig 5C); banner/suptitle goes to the caption.
+    # Fixed geometry so all Fig-5 panels share one height and their x-axes align
+    # (two-axis box, same bottom/top as the single-axis panels). No tight bbox.
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    fig.set_size_inches(13.2, 5.2)
+    axes[0].set_position([0.055, 0.16, 0.43, 0.78])
+    axes[1].set_position([0.545, 0.16, 0.43, 0.78])
+    fig.savefig(PANELS / "p_natural.png", dpi=200)
+    fig.set_size_inches(13, 5.4)
     fig.suptitle("The stigma gradient is not a salience artifact\n"
-                 "Bracketed demographic TAG vs natural-prose embedding, "
+                 "Bracketed demographic TAG vs. demographics woven into prose, "
                  "same 150 cases (95% Wilson CI)",
                  fontsize=12, fontweight="bold", y=1.02)
     fig.tight_layout(rect=(0, 0, 1, 0.98))

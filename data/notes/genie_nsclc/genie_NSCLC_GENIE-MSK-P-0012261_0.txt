@@ -1,0 +1,17 @@
+**HPI:**
+This is a 60-year-old individual with an excellent performance status (ECOG 0) who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of health until approximately three months prior to presentation when they developed a mild, persistent, non-productive cough. This prompted a chest radiograph which revealed a right upper lobe pulmonary nodule. The patient denies any associated fevers, chills, shortness of breath, hemoptysis, or unintentional weight loss. They remain active and fully functional, without any limitations on their daily activities.
+
+**Diagnostic Workup:**
+Following the abnormal chest radiograph, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified. The visualized portions of the abdomen and pelvis, including the liver and adrenal glands, were unremarkable with no evidence of metastatic disease.
+
+A subsequent PET/CT scan was obtained for staging, which demonstrated intense FDG-avidity localized to the right upper lobe mass, with no other sites of suspicious uptake in the chest or elsewhere to suggest nodal or distant metastatic disease. A brain MRI was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the tissue confirmed the diagnosis of lung adenocarcinoma.
+
+Based on a 3.5 cm primary tumor with no evidence of lymph node involvement or distant metastasis (T2aN0M0), the patient is diagnosed with AJCC Stage IB non-small cell lung cancer.
+
+**Molecular Studies:**
+Tumor tissue from the biopsy was sent for comprehensive next-generation sequencing. No actionable driver alterations were identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. The tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb). Of note, the analysis did reveal a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+This is a 60-year-old never-smoker with newly diagnosed, treatment-naive, clinical Stage IB (T2aN0M0) non-small cell lung adenocarcinoma involving the right upper lobe. The patient is asymptomatic with an excellent performance status. Molecular profiling is notable for the absence of targetable driver mutations and the presence of an STK11 loss-of-function mutation, which is associated with primary resistance to PD-1 pathway inhibitors. The patient is seen today for initial consultation to discuss the diagnosis and establish care.

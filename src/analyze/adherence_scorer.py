@@ -239,6 +239,59 @@ def describe_score(score: int | None) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Partial concordance (secondary / exploratory 3-level score)
+# ---------------------------------------------------------------------------
+# NOTE: this is a SECONDARY, EXPLORATORY metric. It is a coarsening of the
+# existing 0-3 adherence ordinal above -- it introduces no new clinical
+# judgment and reuses the same _ADJACENT map that already backs score=1
+# ("adjacent"). It does NOT replace or redefine the pre-registered binary
+# `concordant` outcome used for the confirmatory Fisher's-exact / chi-square
+# tests in src/evaluate/concordance_checker.py. See docs/METHODS.md.
+#
+#   adherence score 3 or 2  (concordant-primary or concordant-acceptable)
+#       -> 1.0  fully concordant
+#   adherence score 1       (adjacent: same treatment intent, wrong modality)
+#       -> 0.5  partially concordant
+#   adherence score 0       (discordant: opposite treatment intent)
+#       -> 0.0  not concordant
+#   adherence score None    (not scoreable: unknown/error response, or NCCN
+#                            ground truth unavailable)
+#       -> None
+
+_PARTIAL_CONCORDANCE_MAP: dict[int, float] = {3: 1.0, 2: 1.0, 1: 0.5, 0: 0.0}
+
+
+def compute_partial_concordance(
+    llm_category: str,
+    nccn_primary: str | None,
+    nccn_acceptable: list[str] | None = None,
+) -> float | None:
+    """Return a 3-level partial-concordance score: 0.0, 0.5, or 1.0.
+
+    This is a direct coarsening of ``compute_adherence_score()``'s 0-3 ordinal:
+    scores of 3 and 2 (any NCCN-acceptable match) both collapse to 1.0 ("fully
+    concordant"), score 1 ("adjacent" per the existing ``_ADJACENT`` map)
+    becomes 0.5 ("partially concordant"), and score 0 ("discordant") becomes
+    0.0 ("not concordant"). Returns None when the underlying adherence score
+    is not scoreable (unknown/error LLM response, or no NCCN ground truth).
+
+    Secondary/exploratory metric -- see module-level note above.
+    """
+    adherence = compute_adherence_score(llm_category, nccn_primary, nccn_acceptable)
+    if adherence is None:
+        return None
+    return _PARTIAL_CONCORDANCE_MAP[adherence]
+
+
+def describe_partial_concordance(score: float | None) -> str:
+    """Human-readable label for a partial-concordance score."""
+    if score is None:
+        return "not_scored"
+    labels = {1.0: "fully_concordant", 0.5: "partially_concordant", 0.0: "not_concordant"}
+    return labels.get(score, f"unknown_score_{score}")
+
+
+# ---------------------------------------------------------------------------
 # Batch scoring helpers
 # ---------------------------------------------------------------------------
 

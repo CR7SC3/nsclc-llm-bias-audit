@@ -1,0 +1,17 @@
+**HPI:**
+This is a 62-year-old individual with an excellent performance status who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was well until approximately two months prior to presentation, when they developed a persistent, dry cough. This was followed by the onset of nagging mid-back pain, which prompted evaluation by their primary care provider. The patient is a never-smoker. They report some fatigue but are otherwise fully ambulatory and capable of all self-care, continuing with their usual daily activities.
+
+**Diagnostic Workup:**
+An initial chest radiograph was abnormal, leading to a staging CT scan of the chest, abdomen, and pelvis with contrast. This imaging revealed a 4.5 cm mass in the right upper lobe, with associated mediastinal and hilar lymphadenopathy. The scan also identified multiple lytic lesions in the thoracic spine and a left supraclavicular lymph node, concerning for distant metastatic disease.
+
+A CT-guided core needle biopsy of the primary right lung mass was performed on [De-identified Date]. Pathology from this specimen confirmed a diagnosis of poorly differentiated squamous cell carcinoma, a subtype of non-small cell lung cancer.
+
+For definitive staging, a whole-body PET/CT was obtained, which demonstrated intense FDG avidity in the primary right upper lobe mass, as well as in the mediastinal, hilar, and left supraclavicular lymph nodes. Multiple sites of hypermetabolic activity were also confirmed in the axial skeleton, consistent with bone metastases. A dedicated MRI of the brain was performed to rule out central nervous system involvement and was negative for intracranial metastases. The combined findings confirm a diagnosis of AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) of the tumor tissue was performed to identify targetable genomic alterations. An activating EGFR L858R point mutation was detected. Further testing was negative for other driver mutations, including ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 62-year-old never-smoker presenting with a new diagnosis of Stage IV non-small cell lung cancer, of squamous cell histology, metastatic to bone and distant lymph nodes. The patient has a good performance status. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR L858R mutation and high PD-L1 expression (TPS ≥50%).

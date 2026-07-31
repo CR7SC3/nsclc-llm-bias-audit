@@ -1,0 +1,15 @@
+**HPI:**
+This is a 66-year-old who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider approximately six weeks ago with a persistent, non-productive cough and progressive fatigue. They also noted a new, non-tender lump on the right side of their chest wall. Their past medical history is otherwise non-contributory. The patient is a lifetime never-smoker. Given the constellation of symptoms, a chest X-ray was obtained which revealed a right-sided lung mass and a pleural effusion, prompting further diagnostic evaluation. The patient has maintained a good performance status throughout the workup, with minimal symptoms apart from the cough and fatigue.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. Imaging revealed a 4.2 cm spiculated mass in the right upper lobe of the lung. Associated findings included a moderate-sized malignant-appearing right pleural effusion, a 2.5 cm avid nodule in the left adrenal gland, and multiple subcutaneous nodules, including one corresponding to the palpable lesion on the right anterior chest wall. A 1.8 cm hypodense lesion was also noted in segment VI of the liver, suspicious for a metastatic deposit. A subsequent MRI of the brain with and without contrast was performed as part of the standard metastatic workup and was negative for any intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent an ultrasound-guided core needle biopsy of the most accessible lesion, the subcutaneous nodule on the chest wall. Pathology from this biopsy confirmed poorly differentiated adenocarcinoma. Immunohistochemical stains (TTF-1 positive, Napsin-A positive) were consistent with a lung primary.
+
+The combination of these findings confirms a diagnosis of Stage IV non-small cell lung cancer (adenocarcinoma).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the biopsy specimen. The results revealed an activating ERBB2 (HER2) exon 20 insertion. The panel was negative for other common driver mutations, including EGFR, ALK, ROS1, BRAF V600E, MET exon 14 skipping, RET, and NTRK fusions, as well as KRAS mutations. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on this sample, as it was not standard of care at the time of initial sequencing.
+
+**Problem Summary:**
+This is a 66-year-old never-smoker with a new diagnosis of Stage IV NSCLC, adenocarcinoma histology, with metastatic disease involving the pleura, a contralateral adrenal gland, liver, and subcutaneous tissue. The patient is treatment-naive with a good performance status. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion.

@@ -1,0 +1,30 @@
+**Oncology Initial Consultation Note**
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Consult:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 47-year-old with a history of smoking (quit >1 year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of good health until approximately three months ago, when they began to experience a persistent, non-productive cough and progressive fatigue. Over the past six weeks, these symptoms were accompanied by the onset of intermittent headaches, mild nausea, and a persistent, dull ache in the lower back and right hip. Due to the worsening and constellation of these symptoms, the patient presented to an outside emergency department for evaluation, which prompted an inpatient admission for an expedited diagnostic workup. The patient has an ECOG performance status of 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**DIAGNOSTIC WORKUP:**
+An initial CT scan of the chest, abdomen, and pelvis with contrast was performed during the recent hospitalization. This imaging revealed a 5.2 cm irregular mass in the left upper lobe with associated bulky mediastinal and hilar lymphadenopathy. The scan also identified multiple hypodense lesions throughout the liver, the largest measuring 3.4 cm, and a destructive lytic lesion in the L4 vertebral body, all highly suspicious for metastatic disease.
+
+Given the report of new-onset headaches, a brain MRI with contrast was subsequently obtained. This study demonstrated multiple small, ring-enhancing lesions in the bilateral cerebral hemispheres and cerebellum, consistent with brain metastases.
+
+To confirm the diagnosis and stage the disease, the patient underwent a CT-guided core biopsy of an accessible peripheral liver lesion. Pathological examination of the tissue confirmed metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin-A, consistent with a lung primary.
+
+A staging PET/CT scan was performed, which showed intense FDG-avidity corresponding to the primary left upper lobe lung mass, mediastinal/hilar lymph nodes, the multiple liver lesions, and the lytic bone lesion in the lumbar spine, confirming widespread metastatic involvement.
+
+The diagnosis is AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the liver biopsy specimen.
+-   **Actionable Driver Mutations:** An EGFR exon 19 deletion was detected.
+-   **Other Mutations/Fusions:** Testing was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+-   **PD-L1 Expression:** Negative (Tumor Proportion Score < 1%).
+-   **Tumor Mutational Burden (TMB):** Intermediate (reported as 11 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 47-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the brain, liver, and bone. The patient is treatment-naive and has a good functional status (ECOG 1). Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion and negative PD-L1 expression. The patient is seen today for initial consultation to discuss the diagnosis in detail and establish oncologic care.

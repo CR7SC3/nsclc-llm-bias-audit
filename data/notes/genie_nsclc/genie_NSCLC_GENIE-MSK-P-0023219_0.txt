@@ -1,0 +1,20 @@
+**HPI:**
+This is a 79-year-old individual with a history of hypertension and hyperlipidemia, who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago when they developed a persistent, non-productive cough. This was initially attributed to a seasonal allergy but did not resolve with over-the-counter remedies. Over the past month, the patient noted worsening fatigue and occasional shortness of breath with exertion. There is no reported hemoptysis, fevers, or significant weight loss. Due to the persistence of symptoms, the patient presented to their primary care provider, who initiated a diagnostic workup. The patient is a former smoker, having quit more than one year ago. They maintain an excellent performance status (ECOG 0), remaining fully independent with all activities of daily living and continuing to ambulate without difficulty.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting further evaluation. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. It also demonstrated prominent ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.8 cm in short axis. No suspicious lesions were identified in the liver, adrenal glands, or other visualized abdominal organs.
+
+For definitive staging, a whole-body PET/CT was obtained on [De-identified date]. This study showed intense FDG-avidity in the primary right upper lobe mass and in the previously identified ipsilateral mediastinal and subcarinal lymph nodes, consistent with locoregionally advanced disease. Importantly, no other sites of FDG-avid disease were identified to suggest distant metastases. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic review of the tissue confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tissue from the biopsy was sent for comprehensive molecular profiling via next-generation sequencing and immunohistochemistry. Key findings are as follows:
+- An actionable driver was detected: an uncommon sensitizing EGFR mutation.
+- Testing was negative for mutations in KRAS, BRAF, MET exon 14, and ERBB2.
+- Testing was negative for fusions/rearrangements involving ALK, ROS1, RET, and NTRK.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 79-year-old former smoker with an excellent performance status who presents with a new diagnosis of non-metastatic, AJCC Stage IIIA non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirmed a primary lung tumor with ipsilateral mediastinal nodal involvement but no evidence of distant metastatic disease. Molecular analysis of the tumor is notable for the presence of an uncommon sensitizing EGFR mutation. The tumor is PD-L1 negative and has an intermediate tumor mutational burden. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

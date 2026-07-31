@@ -1,0 +1,23 @@
+**HPI:**
+This is a 56-year-old individual with a history of smoking (quit >1 year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive shortness of breath with exertion. Symptoms initially did not respond to a course of outpatient antibiotics. Due to worsening dyspnea, the patient presented to an urgent care clinic, where a chest X-ray revealed a right-sided lung mass and a large pleural effusion. The patient was subsequently referred for further diagnostic evaluation. The patient reports a 10-pound unintentional weight loss over the past three months but otherwise denies fevers, night sweats, or significant fatigue. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was undertaken, with the following key findings:
+
+*   **CT Chest, Abdomen, and Pelvis with contrast [De-identified Date]:** Revealed a 5.2 cm spiculated mass in the right upper lobe. Associated with a large, free-flowing right-sided pleural effusion and diffuse pleural thickening. No suspicious mediastinal or hilar lymphadenopathy was definitively identified. The visualized liver, adrenal glands, and osseous structures were without evidence of metastatic disease.
+*   **PET/CT [De-identified Date]:** Showed intense FDG-avidity in the right upper lobe primary mass. There was also diffuse, intense FDG uptake throughout the right pleura, consistent with malignant pleural involvement. No other sites of FDG-avid disease were identified to suggest distant metastases.
+*   **MRI Brain with and without contrast [De-identified Date]:** Performed for central nervous system staging, which was negative for intracranial metastases.
+*   **Thoracentesis and Pleural Biopsy [De-identified Date]:** An ultrasound-guided thoracentesis was performed, yielding a large volume of exudative fluid. Cytology was positive for malignant cells consistent with adenocarcinoma. A subsequent tissue biopsy of the pleura confirmed the diagnosis.
+*   **Pathology:** Biopsy of the pleura confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the pleural biopsy specimen. The results are as follows:
+
+*   **Histology:** Adenocarcinoma.
+*   **Actionable Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression (IHC):** Negative (Tumor Proportion Score <1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **Other Findings:** A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 56-year-old former smoker who presents with newly diagnosed, treatment-naive Stage IV (cT3 N0 M1a) non-small cell lung cancer of adenocarcinoma histology, metastatic to the pleura. Comprehensive molecular profiling is notable for the absence of targetable driver mutations, negative PD-L1 expression, and the presence of an STK11 loss-of-function mutation, which is associated with primary resistance to PD-1/PD-L1 inhibitors. The patient is here to discuss the diagnosis and establish care.

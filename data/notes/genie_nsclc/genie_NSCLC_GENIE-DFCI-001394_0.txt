@@ -1,0 +1,23 @@
+**HPI:**
+This is a 64-year-old with a recent diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient is treatment-naive.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially treated as a respiratory infection without resolution. Over the subsequent weeks, the patient also noted the onset of dull, constant right-sided hip pain, which has been progressive. Due to the persistence of these symptoms, the patient presented to their primary care provider who ordered initial imaging. The patient has a lifetime history as a never-smoker. The patient is otherwise active and independent with all activities of daily living, with an ECOG performance status of 1, limited only by pain.
+
+**Diagnostic Workup:**
+A chest X-ray performed on [De-identified] revealed a right upper lobe opacity. This prompted a follow-up CT of the chest, abdomen, and pelvis with contrast, which confirmed a 3.5 cm spiculated mass in the right upper lobe, along with mediastinal and hilar lymphadenopathy. The scan also identified a suspicious lytic lesion in the right iliac bone, corresponding to the patient's area of pain.
+
+Given these findings concerning for metastatic disease, a PET/CT was obtained on [De-identified]. This demonstrated intense FDG avidity in the primary right upper lobe lung mass (SUV max 12.4), in multiple mediastinal lymph nodes, and in the right iliac crest lesion (SUV max 9.8). No other distant sites of FDG-avid disease were identified.
+
+A brain MRI with and without contrast was performed for staging purposes and was negative for any evidence of intracranial metastatic disease.
+
+On [De-identified], the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis confirmed the diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+Pathology from the lung mass biopsy confirmed adenocarcinoma histology. Next-generation sequencing (NGS) was performed on the tissue specimen.
+- An actionable sensitizing EGFR mutation was detected: L858R point mutation in exon 21.
+- Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+This is a 64-year-old never-smoker presenting with a new diagnosis of Stage IV (cT2a N2 M1b) non-small cell lung cancer of adenocarcinoma histology, with metastasis to bone. Molecular profiling is notable for a sensitizing EGFR L858R mutation. The patient has a good performance status and is seen today to discuss the diagnosis and implications.

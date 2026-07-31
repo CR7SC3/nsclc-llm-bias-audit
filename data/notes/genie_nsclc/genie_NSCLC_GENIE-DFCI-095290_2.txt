@@ -1,0 +1,15 @@
+**HPI:**
+This is a 68-year-old individual with a past medical history notable for melanoma, now referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care physician approximately one month ago with a persistent, non-productive cough. This prompted an initial chest X-ray which was abnormal, leading to further cross-sectional imaging. The patient is a former smoker, having quit more than one year ago. They report a stable weight and appetite, and maintain an excellent performance status (ECOG 0), continuing with all usual activities of daily living without significant limitation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date] for staging. This study identified a primary mass in the lung parenchyma, with associated mediastinal lymphadenopathy. Critically, the scan also revealed multiple pulmonary nodules in the contralateral lung, consistent with M1 disease. A subsequent dedicated MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary lung mass. Pathologic evaluation of the specimen confirmed a diagnosis of squamous cell carcinoma, a subtype of non-small cell lung cancer. Based on the integrated imaging findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen. Molecular profiling revealed the presence of a sensitizing EGFR exon 19 deletion. Further testing was negative for other actionable driver mutations, including ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) in the 1–49% range. The Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 68-year-old with an excellent performance status presenting with a new diagnosis of Stage IV non-small cell lung cancer, squamous cell histology. Staging studies confirm metastatic disease to the contralateral lung. Molecular analysis of the tumor is significant for an activating EGFR exon 19 deletion and a PD-L1 TPS of 1-49%. The patient is treatment-naive and is seen today to discuss the diagnosis and the implications of these findings.

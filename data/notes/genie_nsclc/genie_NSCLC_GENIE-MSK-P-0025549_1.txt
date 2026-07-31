@@ -1,0 +1,25 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+The patient is a 78-year-old former smoker who is seen today for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago when they began to experience a persistent dry cough and progressive fatigue. These symptoms did not resolve with a course of antibiotics, prompting further investigation. The patient has a remote smoking history but quit over 20 years ago. The patient maintains a good performance status, is fully ambulatory, and manages all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which led to a subsequent contrast-enhanced CT of the chest. The CT scan confirmed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy.
+
+For staging purposes, a PET/CT scan was performed. This study demonstrated intense FDG avidity in the primary right upper lobe mass and in multiple mediastinal lymph node stations. Additionally, a solitary, intensely hypermetabolic lesion was identified in the left adrenal gland, consistent with distant metastatic disease. A dedicated MRI of the brain was performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right lung mass was performed. Pathology confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer (cT2b N2 M1b).
+
+**Molecular Studies:**
+Comprehensive molecular profiling via next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- The sequencing report did identify a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 78-year-old with an excellent performance status who presents with a new diagnosis of Stage IV lung adenocarcinoma. The disease is metastatic to a contralateral adrenal gland. Comprehensive molecular testing is notable for the absence of any targetable driver mutations, negative PD-L1 expression, and the presence of an STK11 loss-of-function mutation, a known biomarker for primary resistance to PD-1/PD-L1 inhibitor monotherapy. The patient is treatment-naive.

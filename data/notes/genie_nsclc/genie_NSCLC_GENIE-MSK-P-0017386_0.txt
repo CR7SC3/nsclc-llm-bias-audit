@@ -1,0 +1,25 @@
+**HPI:**
+This is a 57-year-old individual referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, dull ache in the mid-back. The pain was initially managed with over-the-counter analgesics with minimal relief. Due to the persistent and worsening nature of the discomfort, the patient sought evaluation from their primary care provider.
+
+An initial chest X-ray was notable for a suspicious opacity in the left lung field. This prompted further investigation with staging imaging. The patient reports some fatigue but is otherwise well, maintaining their weight and appetite. They are able to perform all activities of daily living but find strenuous physical activity is limited by the back pain. Performance status is ECOG 1. There is a history of tobacco use, but the patient quit smoking over a year ago.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 4.8 cm spiculated mass in the left upper lobe, with associated ipsilateral mediastinal lymphadenopathy. Critically, the scan also revealed a lytic lesion in the T7 vertebral body, highly concerning for a bone metastasis. No other distant visceral metastases were identified in the chest or abdomen.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+A brain MRI with and without contrast was subsequently performed as part of the standard staging workup and was negative for any evidence of intracranial metastatic disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen. Key findings are as follows:
+- An actionable driver mutation was identified: a sensitizing EGFR exon 19 deletion.
+- Testing was negative for genomic alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was positive, with a Tumor Proportion Score (TPS) of 35% (in the 1-49% range).
+- Tumor Mutational Burden (TMB) was found to be intermediate at 11 mutations/megabase.
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer, adenocarcinoma histology.
+2.  AJCC Stage IV, with metastatic disease to bone. The patient is treatment-naive.
+3.  Tumor molecular profile is positive for a sensitizing EGFR exon 19 deletion.
+4.  PD-L1 TPS is 1-49%.
+5.  ECOG Performance Status 1.

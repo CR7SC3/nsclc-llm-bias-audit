@@ -1,0 +1,30 @@
+**INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 53-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology consultation and management discussion. The patient is a former smoker, having quit within the last year.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. These symptoms initially did not respond to a course of antibiotics. Due to the persistence of symptoms, a chest radiograph was obtained, which revealed a right-sided lung opacity. This prompted referral for further diagnostic evaluation. The patient denies fevers, chills, or significant weight loss but notes ongoing fatigue. Performance status is good; the patient remains fully ambulatory and capable of all self-care, though strenuous activity is limited by shortness of breath.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which identified a 4.8 cm spiculated mass in the right upper lobe. The scan also revealed multiple enlarged ipsilateral mediastinal and subcarinal lymph nodes, concerning for regional metastatic disease. No suspicious lesions were identified in the contralateral lung, liver, or adrenal glands.
+
+For definitive staging, a whole-body PET/CT was performed. This demonstrated high FDG-avidity in the primary right upper lobe mass and in the ipsilateral mediastinal and subcarinal nodal stations, consistent with the CT findings. There was no evidence of FDG-avid disease elsewhere to suggest distant metastases. A brain MRI with and without contrast was subsequently performed and was negative for intracranial metastatic disease.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A fine-needle aspiration of a subcarinal lymph node was performed. Pathologic review of the specimen confirmed the diagnosis of poorly differentiated adenocarcinoma.
+
+Based on this workup, the patient is diagnosed with AJCC 8th Edition Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-guided biopsy.
+- **Actionable driver(s) detected:** ERBB2 (HER2) exon 20 insertion (activating).
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS mutations.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 53-year-old former smoker with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion. The patient presents for initial consultation to discuss the diagnosis and potential management strategies.

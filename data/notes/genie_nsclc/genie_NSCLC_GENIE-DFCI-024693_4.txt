@@ -1,0 +1,19 @@
+**HPI:**
+This is a 62-year-old individual with a past medical history significant only for well-controlled hypertension, who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health and asymptomatic until a right upper lobe pulmonary nodule was incidentally discovered on a chest X-ray performed for pre-operative clearance for an elective orthopedic procedure.
+
+The patient denies cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient is fully active and maintains an excellent ECOG performance status of 0. Social history is notable for being a never smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic chest CT with contrast was obtained. This confirmed the presence of a 2.4 cm solid, spiculated mass in the posterior segment of the right upper lobe. No mediastinal, hilar, or axillary lymphadenopathy was appreciated.
+
+Staging was completed with a PET/CT scan, which demonstrated intense FDG-avidity localized to the right upper lobe mass. There was no evidence of FDG-avid locoregional nodal involvement or distant metastatic disease. A contrast-enhanced MRI of the brain was also performed as part of the staging evaluation and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the tumor tissue revealed no actionable driver alterations. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb). A loss-of-function mutation was identified in the STK11 gene. PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 62-year-old never smoker with an excellent performance status who presents for initial evaluation of a new diagnosis of clinical Stage IB (cT2aN0M0) non-small cell lung cancer, adenocarcinoma histology, of the right upper lobe. The tumor is characterized by the absence of common oncogenic drivers and the presence of an STK11 loss-of-function mutation. The patient is treatment-naive.

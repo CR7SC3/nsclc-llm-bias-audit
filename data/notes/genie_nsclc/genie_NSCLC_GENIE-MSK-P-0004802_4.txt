@@ -1,0 +1,19 @@
+**HPI:**
+This is a 67-year-old who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient has a past medical history significant for breast cancer, treated definitively over a decade ago, and is a former smoker, having quit more than one year ago. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. This prompted a visit to their primary care provider, who obtained a chest X-ray revealing a right upper lobe lung mass. The patient was subsequently referred for further diagnostic evaluation. The patient reports good functional status, maintaining full ambulatory capacity and carrying out all activities of daily living without assistance, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study confirmed the presence of a 3.5 cm spiculated mass in the right upper lobe. It also revealed extensive mediastinal and hilar lymphadenopathy, as well as suspicious contralateral mediastinal and left supraclavicular lymph nodes. No discrete hepatic, adrenal, or osseous metastases were identified.
+
+A subsequent PET/CT scan on [De-identified] was performed for staging. This demonstrated intense FDG-avidity in the primary right upper lobe mass, as well as in multiple right-sided and contralateral mediastinal lymph node stations and the left supraclavicular fossa. These findings were consistent with metastatic disease. A dedicated MRI of the brain with and without contrast was obtained and was negative for intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent an ultrasound-guided core needle biopsy of an enlarged left supraclavicular lymph node on [De-identified]. Pathology from this specimen confirmed metastatic adenocarcinoma, with immunohistochemical staining patterns consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lymph node biopsy. Key findings are as follows:
+- **Actionable Mutations:** A KRAS G12C mutation was detected.
+- **Negative for other drivers:** Testing was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+- **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 67-year-old former smoker with a history of breast cancer who presents with a new diagnosis of treatment-naive, Stage IV (cT2a N3 M1b) non-small cell lung cancer of adenocarcinoma histology, metastatic to distant lymph nodes. The patient has an excellent performance status. Molecular profiling of the tumor is notable for the presence of a KRAS G12C mutation. Brain imaging is negative for metastatic disease. The patient is seen today for initial consultation to discuss this diagnosis.

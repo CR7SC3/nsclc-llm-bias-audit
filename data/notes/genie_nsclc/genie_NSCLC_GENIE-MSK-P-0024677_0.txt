@@ -1,0 +1,21 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 44-year-old individual with a recent diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough and progressive dyspnea on exertion. Over the subsequent weeks, they noted the onset of intermittent dull headaches and a focal pain in the right posterior ribs. An associated unintentional weight loss of approximately 15 pounds was also reported. These escalating symptoms prompted a visit to an urgent care center, which led to an initial diagnostic workup. The patient is a former smoker, having quit over a year ago. They are active and functional, though limited by dyspnea, with an estimated ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+A chest X-ray revealed a right upper lobe opacity, which prompted further investigation with cross-sectional imaging.
+
+A CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified Date]. This study identified a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal and right hilar lymphadenopathy. Multiple small nodules were noted throughout the left lung, concerning for contralateral metastatic disease. The scan also revealed a lytic lesion in the right seventh rib, suspicious for a bone metastasis.
+
+Given the report of headaches, a brain MRI with and without contrast was subsequently performed on [De-identified Date]. This demonstrated three small, ring-enhancing lesions in the left frontal and right parietal lobes, consistent with cerebral metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was successfully performed on [De-identified Date]. Pathologic review confirmed the diagnosis.
+
+**MOLECULAR STUDIES:**
+Pathology from the lung mass biopsy confirmed a diagnosis of invasive adenocarcinoma, poorly differentiated.
+
+Comprehensive molecular profiling via next-generation sequencing (NGS) was performed on the tumor specimen. The results were positive for an actionable sensitizing mutation, specifically an EGFR exon 19 deletion. The panel was negative for other common driver alterations, including ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, showing a Tumor Proportion Score (TPS) in the 1-49% range. Tumor Mutational Burden (TMB) was reported as intermediate (2-16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 44-year-old, treatment-naive individual with a new diagnosis of Stage IV (cT3 N2 M1c) non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the brain, bone (rib), and contralateral lung. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion and PD-L1 expression of 1-49%. The patient's case is reviewed today to discuss the diagnosis in detail and consider the implications for management.

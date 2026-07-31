@@ -1,0 +1,24 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION NOTE**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**ATTENDING:** [De-identified], MD
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 78-year-old individual who presents to the thoracic oncology clinic for an initial consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago, when they began to experience a persistent, dry cough and progressive shortness of breath, particularly with exertion. These symptoms worsened, prompting evaluation by their primary care provider. The patient is a former smoker, having quit more than one year ago. They maintain a good functional status, with an ECOG performance status of 1, limited primarily by dyspnea.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest radiograph revealed a right lung mass and a moderate pleural effusion. For further characterization and staging, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was obtained. This study demonstrated a 4 cm spiculated mass in the right upper lobe, along with a moderate-to-large right-sided pleural effusion and associated pleural nodularity. No suspicious hepatic, adrenal, or osseous lesions were identified. A dedicated MRI of the brain was subsequently performed and was negative for any evidence of intracranial metastatic disease.
+
+The patient underwent a right-sided thoracentesis for both diagnostic and therapeutic purposes. Pathologic analysis of the pleural fluid cytology confirmed the presence of malignant cells consistent with adenocarcinoma, establishing a diagnosis of metastatic disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor specimen. The results are as follows:
+- **Actionable Driver Mutation:** A KRAS G12C mutation was detected.
+- **Additional Testing:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **Immunotherapy Markers:**
+  - PD-L1 Tumor Proportion Score (TPS) is high at ≥50%.
+  - Tumor Mutational Burden (TMB) is high (>16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 78-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to the pleura. The patient is treatment-naive. Molecular profiling is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient is here today to review these findings and discuss the diagnosis.

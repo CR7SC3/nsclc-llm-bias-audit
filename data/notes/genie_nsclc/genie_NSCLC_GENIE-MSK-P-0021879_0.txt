@@ -1,0 +1,35 @@
+**INITIAL ONCOLOGY CONSULTATION**
+
+**Patient:** [De-identified MRN]
+**Date of Consultation:** [De-identified Date]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 61-year-old individual with a history of former tobacco use who is seen today for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months prior to presentation, when they began to experience a persistent, dry cough and progressive shortness of breath with exertion. These symptoms were initially attributed to a benign cause, but due to their persistence and the subsequent development of fatigue and an unintentional 15-pound weight loss, the patient sought medical evaluation.
+
+An initial chest X-ray ordered by their primary care provider demonstrated a right-sided lung mass. This prompted a referral for further staging studies. A diagnostic CT scan of the chest, abdomen, and pelvis with contrast was performed, which identified a 4 cm spiculated mass in the right upper lobe with associated bulky mediastinal lymphadenopathy. Critically, the scan also revealed a 1.2 cm nodule in the contralateral left upper lobe, concerning for metastatic disease. There was no evidence of metastatic involvement of the liver, adrenal glands, or other abdominopelvic organs.
+
+To complete the initial staging workup, a whole-body PET/CT scan was obtained. This study confirmed intense FDG-avidity corresponding to the primary right upper lobe mass, multiple mediastinal lymph nodes, and the contralateral left lung nodule, consistent with metastatic disease. A subsequent MRI of the brain was performed to evaluate for central nervous system involvement and was negative for any intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathologic review of the tissue confirmed the diagnosis of adenocarcinoma. The patient has a remote 35 pack-year smoking history but quit over 10 years ago. They are currently active and independent with all activities of daily living, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis ([De-identified Date]):** 4 cm spiculated mass in the right upper lobe with mediastinal adenopathy. A 1.2 cm nodule in the left upper lobe, suspicious for metastasis. No other sites of distant disease identified.
+*   **PET/CT Scan ([De-identified Date]):** Intense FDG uptake in the primary right upper lobe mass, mediastinal lymph nodes, and the contralateral left lung nodule. No other distant hypermetabolic foci.
+*   **MRI Brain ([De-identified Date]):** No evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **CT-Guided Biopsy, Right Upper Lobe Mass ([De-identified Date]):** Invasive Adenocarcinoma, consistent with a non-small cell lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue from the right upper lobe biopsy. Results are as follows:
+*   **Actionable Driver Mutations:** A RET gene fusion was detected.
+*   **Other Driver Mutations:** The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, NTRK, KRAS, and ERBB2 (HER2).
+*   **PD-L1 Expression (TPS):** 0% (Negative).
+*   **Tumor Mutational Burden (TMB):** Low (<2 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 61-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the contralateral lung (cT2bN2M1b). Molecular testing of the tumor is notable for the presence of a RET fusion. The tumor is PD-L1 negative and has a low tumor mutational burden. The patient is treatment-naive and has an excellent performance status.

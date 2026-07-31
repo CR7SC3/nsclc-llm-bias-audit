@@ -1,0 +1,24 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 59-year-old individual with a history of smoking (quit over one year ago) who presents for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately three months prior to presentation, when an insidious onset of a persistent, dry cough and mild dyspnea on exertion was noted. These symptoms progressed, prompting a visit to a primary care provider. An initial chest X-ray revealed a right-sided lung mass, leading to further diagnostic evaluation.
+
+The patient reports some associated fatigue but denies fevers, chills, night sweats, or significant unintentional weight loss. Appetite is fair. The patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity due to shortness of breath, consistent with an ECOG performance status of 1. The patient is here today to review the completed workup and discuss the diagnosis.
+
+**DIAGNOSTIC WORKUP:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This imaging identified a 4.5 cm spiculated mass in the right upper lobe. It also revealed a 1.8 cm nodule in the contralateral left lower lobe and a new 2.2 cm hypodense lesion in the right hepatic lobe, both suspicious for metastatic disease.
+
+A subsequent whole-body PET/CT scan was performed for staging. This study confirmed intense FDG-avidity corresponding to the primary right upper lobe mass, the contralateral lung nodule, and the hepatic lesion. No other distant sites of FDG-avid disease were identified in the neck, mediastinum, adrenals, or skeleton.
+
+A staging MRI of the brain with and without contrast was completed and was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass on [De-identified Date]. Pathologic review of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Tissue from the lung biopsy was sent for next-generation sequencing and immunohistochemistry. The results are as follows:
+*   **Histology:** Adenocarcinoma
+*   **PD-L1 Tumor Proportion Score (TPS):** <1%
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+*   **Actionable Mutations:** A sensitizing EGFR L858R point mutation was detected.
+*   **Additional Testing:** Negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 59-year-old, treatment-naive former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the contralateral lung and liver. Molecular profiling is notable for the presence of an EGFR L858R sensitizing mutation and a PD-L1 TPS of less than 1%.

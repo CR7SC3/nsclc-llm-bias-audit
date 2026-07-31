@@ -1,0 +1,15 @@
+**HPI:**
+This is a 62-year-old individual referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider approximately two months ago with a persistent, dry cough and progressive dyspnea on exertion. These symptoms were accompanied by worsening fatigue and an unintentional weight loss of approximately 15 pounds over the past three months. More recently, the patient developed new-onset, localized pain in the right posterior ribs and noted a small, firm, non-tender lump under the skin of the upper abdomen. The patient is a former smoker with a significant pack-year history who quit less than one year ago.
+
+**Diagnostic Workup:**
+The initial workup began with a chest radiograph that demonstrated a large opacity in the right upper lung. A subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed for further characterization. This study confirmed a 6 cm spiculated mass in the right upper lobe with extensive mediastinal and hilar adenopathy. The scan also revealed multiple hypoattenuating lesions throughout the liver, a lytic lesion in a right-sided rib corresponding to the patient's pain, and scattered enlarged retroperitoneal lymph nodes.
+
+For definitive staging, a PET/CT scan was obtained. This demonstrated intense FDG-avidity in the primary right lung mass, the mediastinal and distant (supraclavicular) nodal stations, numerous hepatic lesions, and multiple osseous sites. The previously noted subcutaneous nodule was also avid. A staging MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of an accessible liver lesion. Pathologic review confirmed poorly differentiated adenocarcinoma, with an immunoprofile consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing performed on the liver biopsy specimen did not identify any actionable driver alterations. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was assessed and reported as high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old former smoker with newly diagnosed, treatment-naive AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The patient has a high burden of metastatic disease involving the bone, liver, distant lymph nodes, and subcutaneous tissue. Molecular profiling is notable for a high tumor mutational burden with no identified actionable driver mutations.

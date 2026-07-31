@@ -1,0 +1,25 @@
+**HPI:**
+This is an initial oncology consultation for a 67-year-old who presents with a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. Over the subsequent weeks, this was associated with progressive fatigue, a 10-pound unintentional weight loss, and the development of new, nagging mid-back pain. These symptoms prompted an evaluation by their primary care provider.
+
+The patient is a former smoker, having quit within the last year. Review of systems is notable for the aforementioned cough, fatigue, weight loss, and back pain. They deny fevers, chills, night sweats, hemoptysis, or headaches. Their current ECOG performance status is 1; they are fully ambulatory and capable of all self-care but are restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray which revealed a right upper lobe lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and staging. This study confirmed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The scan also revealed a lytic lesion in the T8 vertebral body and a 2.1 cm nodule in the left adrenal gland, both highly suspicious for metastatic disease.
+
+A whole-body PET/CT scan was obtained, which demonstrated intense FDG-avidity in the primary right upper lobe mass, multiple mediastinal lymph node stations, the T8 vertebral lesion, and the left adrenal nodule, consistent with widespread metastatic disease. An MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+The tumor specimen from the lung biopsy underwent next-generation sequencing and immunohistochemistry. Pathologic review confirmed non-small cell lung cancer with adenocarcinoma histology.
+
+Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score <1%).
+
+Molecular profiling did not identify any actionable oncogenic driver alterations. Specifically, the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was found to be high at >16 mutations/megabase.
+
+The molecular panel did identify a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+This is a 67-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to bone and the adrenal gland. Molecular studies are notable for a lack of actionable driver mutations, negative PD-L1 expression, high Tumor Mutational Burden (TMB-high), and the presence of an STK11 loss-of-function mutation. The patient has an ECOG performance status of 1 and is seen today for initial consultation.

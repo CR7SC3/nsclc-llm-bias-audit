@@ -1,17 +1,25 @@
-**Initial Consultation Note**
+**History of Present Illness**
 
-**Patient:** [De-identified Patient Name], 83-year-old
-**Date of Service:** [De-identified Date]
-**MRN:** [De-identified MRN]
+This is an 83-year-old individual with a history of smoking (quit over one year ago) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience progressive shortness of breath with exertion and a persistent, non-productive cough. This was associated with mild, pleuritic-type right-sided chest discomfort. The patient initially attributed these symptoms to age, but sought evaluation with their primary care physician when the dyspnea began to limit daily activities.
 
-**HPI:**
-The patient is an 83-year-old, treatment-naive individual presenting for an initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year prior to presentation. Approximately three months ago, the patient began experiencing a persistent, non-productive cough, coupled with progressive shortness of breath, particularly with exertion. This was accompanied by a dull, persistent left-sided chest discomfort and a reported unintentional weight loss of approximately 10 pounds over the past two months. Given these symptoms, the patient sought evaluation with their primary care physician.
+An initial chest X-ray was performed which revealed a right-sided lung mass and a moderate pleural effusion. This prompted a referral to a pulmonologist for further evaluation. The patient reports being generally functional, though fatigues more easily. They are able to perform all self-care activities but are restricted in physically strenuous activity. The patient's performance status is estimated to be ECOG 1.
 
-**Diagnostic Workup:**
-Initial evaluation included a chest X-ray, which revealed a left lung mass and a moderate left pleural effusion. Subsequent contrast-enhanced CT of the chest confirmed a spiculated mass in the left upper lobe, measuring approximately 4 cm, along with a significant left pleural effusion and diffuse pleural thickening and nodularity. To establish a diagnosis, a thoracentesis was performed, yielding exudative fluid. Cytological analysis of the pleural fluid was positive for adenocarcinoma. A CT-guided core needle biopsy of the left upper lobe mass was also performed, confirming invasive adenocarcinoma of the lung. Further staging workup included a PET/CT scan, which demonstrated hypermetabolic activity in the primary left upper lobe mass and extensive uptake within the left pleura, consistent with metastatic disease. There was no evidence of other distant metastatic sites on PET/CT. A dedicated MRI of the brain was performed, which showed no evidence of intracranial metastatic disease. Based on these findings, the patient was diagnosed with Stage IV (cT2a N0 M1a) non-small cell lung cancer, adenocarcinoma histology, with metastatic involvement of the pleura. The patient's performance status at the time of consultation is generally good, with mild limitations due to dyspnea on exertion.
+**Diagnostic Workup**
 
-**Molecular Studies:**
-Comprehensive molecular profiling was performed on tumor tissue from the lung biopsy. Results revealed the presence of a KRAS G12C mutation, which is considered an actionable driver mutation. Testing for other common driver mutations was negative, including EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusion, NTRK fusion, and ERBB2 (HER2) mutations. PD-L1 expression was not tested, as this diagnostic modality was not standard of care at the time of initial sequencing. Tumor mutational burden (TMB) was reported as intermediate, falling within the range of 2–16 mutations/megabase.
+A staging CT scan of the chest, abdomen, and pelvis was performed on [De-identified Date]. This confirmed the presence of a 4.5 cm spiculated mass in the right lower lobe of the lung. There was an associated large, loculated right-sided pleural effusion with nodular pleural thickening, concerning for malignant involvement. No other distant metastatic disease was identified in the chest, abdomen, or pelvis. A brain MRI was performed and was negative for intracranial metastases.
 
-**Problem Summary:**
-This 83-year-old former smoker presents with newly diagnosed Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the pleura, with no identified brain metastases. Molecular testing demonstrates a KRAS G12C mutation, with other common driver mutations being negative. PD-L1 status was not assessed, and TMB is intermediate. The patient is treatment-naive and now seeks discussion of therapeutic options.
+To obtain a tissue diagnosis, the patient underwent a video-assisted thoracoscopic surgery (VATS) with talc pleurodesis on [De-identified Date]. Biopsies of the pleura were obtained and fluid was drained. Surgical pathology from the pleural biopsy specimens demonstrated infiltration by adenocarcinoma. Cytology from the pleural fluid was also positive for malignant cells. The morphology was consistent with a primary lung adenocarcinoma.
+
+These findings confirm a diagnosis of Stage IV non-small cell lung cancer (adenocarcinoma).
+
+**Molecular Studies**
+
+Next-generation sequencing was performed on the pleural biopsy tissue to identify molecular drivers and biomarkers. The results are as follows:
+- An actionable driver mutation was detected in **KRAS (G12C)**.
+- Testing was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary**
+
+In summary, this is an 83-year-old former smoker presenting for initial oncologic evaluation of a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura. The diagnosis was confirmed via pleural biopsy. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling is notable for a KRAS G12C mutation.

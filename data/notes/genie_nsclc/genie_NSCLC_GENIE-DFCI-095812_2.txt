@@ -1,0 +1,29 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**History of Present Illness:**
+This is a 79-year-old who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient has a significant past medical history of Head and Neck Cancer and a prior, separate Non-Small Cell Lung Cancer, both of which are in remission.
+
+The patient was feeling well and was undergoing routine surveillance imaging when a chest CT revealed a new, spiculated solid nodule in the right upper lobe. The patient denies any new or worsening cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. Performance status is excellent; the patient remains fully ambulatory, independent in all activities of daily living, and continues to engage in usual activities. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+Following the initial chest CT finding, a comprehensive staging evaluation was undertaken.
+
+A PET/CT scan was performed which demonstrated a hypermetabolic 4.3 cm mass in the right upper lobe, consistent with the known malignancy. Importantly, there was no evidence of FDG-avid mediastinal, hilar, or supraclavicular lymphadenopathy. No distant metastatic disease was identified in the chest, abdomen, or pelvis.
+
+A dedicated MRI of the brain with and without contrast was also performed as part of the standard staging workup and revealed no evidence of intracranial metastasis.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed. Pathology confirmed the diagnosis of invasive adenocarcinoma.
+
+Based on the combined imaging and pathology findings, the patient is diagnosed with AJCC 8th Edition clinical Stage IIA (cT2b N0 M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the biopsy.
+-   No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression by immunohistochemistry (IHC) was determined to be high, with a Tumor Proportion Score (TPS) of ≥50%.
+-   Tumor Mutational Burden (TMB) was found to be intermediate, reported as 2–16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 79-year-old with an excellent performance status and a history of prior treated malignancies, who now presents with a new primary diagnosis of treatment-naive, Stage IIA (cT2bN0M0) lung adenocarcinoma. Staging workup has confirmed the disease is localized to the right upper lobe without evidence of nodal or distant metastatic spread. Molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and the absence of targetable driver mutations. The patient is here today for initial consultation and to establish care.

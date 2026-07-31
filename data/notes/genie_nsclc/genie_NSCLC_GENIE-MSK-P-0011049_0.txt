@@ -1,0 +1,22 @@
+**HPI:**
+This is a 55-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms, a chest x-ray was obtained which demonstrated a right upper lobe opacity, prompting further evaluation with a CT scan of the chest. The patient is a former smoker, having quit over one year ago. They report good baseline functional status, remaining active with daily activities and without significant weight loss, hemoptysis, or chest pain.
+
+**Diagnostic Workup:**
+A CT of the chest with contrast revealed a 4.2 cm spiculated mass in the right upper lobe. The scan also identified prominent ipsilateral mediastinal lymphadenopathy, most notably in the right paratracheal (4R) station.
+
+For definitive staging, a PET/CT was performed on [De-identified Date]. This study demonstrated high FDG avidity corresponding to the known right upper lobe mass (SUVmax 12.4) and the right paratracheal lymph node (SUVmax 8.9). No other sites of FDG-avid disease were identified in the chest, abdomen, or pelvis to suggest distant metastatic disease.
+
+A staging MRI of the brain with and without contrast was completed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS). A transbronchial needle aspiration of the right paratracheal (4R) lymph node was performed, along with a biopsy of the primary right upper lobe mass. Pathology from both the primary mass and the lymph node returned as invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+The combination of these findings is consistent with a clinical stage IIIA (cT2bN2M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+- Histology: Adenocarcinoma
+- Comprehensive molecular profiling: Results are pending.
+- PD-L1 expression: Not tested.
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb).
+
+**Problem Summary:**
+The patient is a 55-year-old with a new diagnosis of treatment-naive, non-metastatic, Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Performance status is excellent with an ECOG of 0. The case is reviewed today to discuss the diagnosis and the implications for management.

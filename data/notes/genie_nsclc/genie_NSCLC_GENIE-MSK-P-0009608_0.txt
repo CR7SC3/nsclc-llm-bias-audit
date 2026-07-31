@@ -1,0 +1,26 @@
+**MEDICAL RECORD NUMBER:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 72-year-old individual with a history of smoking (quit over one year ago) who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. Over the subsequent weeks, this was accompanied by progressive exertional dyspnea and a dull, aching pain in the right posterior chest. An initial evaluation with a primary care provider led to a chest X-ray that revealed a right-sided lung mass and a moderate pleural effusion.
+
+The patient was subsequently referred for further diagnostic workup. A CT of the chest, abdomen, and pelvis was performed, which confirmed the presence of a primary lung mass, mediastinal adenopathy, a large malignant-appearing pleural effusion, and a suspicious lytic lesion in a thoracic vertebra. Given these findings, the patient was referred to Interventional Radiology for a tissue diagnosis. The patient has remained active and independent with all activities of daily living, with an ECOG performance status of 1, limited only by dyspnea on significant exertion.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:** A CT of the chest, abdomen, and pelvis performed on [De-identified] demonstrated a 4.5 cm spiculated mass in the right upper lobe. There was associated mediastinal lymphadenopathy. A large, loculated right-sided pleural effusion was present, with associated pleural thickening concerning for malignant involvement. An osseous survey revealed a lytic lesion in the T8 vertebral body, consistent with metastatic disease. No evidence of metastatic disease was identified in the brain, liver, or adrenal glands on the completed staging scans.
+
+**Pathology:** A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Histopathologic examination confirmed the diagnosis of invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+Based on the presence of a primary lung tumor with distant metastatic disease to the pleura and bone, the patient carries a diagnosis of AJCC Stage IV NSCLC.
+
+**MOLECULAR STUDIES:**
+Tumor tissue from the lung biopsy was sent for next-generation sequencing. The key findings are as follows:
+*   **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+*   **Other Markers:** Testing was negative for mutations or rearrangements in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** This was not tested, consistent with the standard of care for sequencing panels from that time frame.
+*   **Tumor Mutational Burden (TMB):** Intermediate (reported as 2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 72-year-old former smoker who presents as a new patient for management of newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging workup has confirmed metastatic disease involving the pleura and bone. The patient is treatment-naive and maintains an excellent performance status. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion.

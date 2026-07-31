@@ -1,0 +1,21 @@
+**HPI:**
+This is a 58-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was followed by mild, progressive shortness of breath with exertion. They denied fevers, chills, hemoptysis, or significant weight loss. Due to the persistence of symptoms, they sought evaluation with their primary care provider. The patient is a lifetime never-smoker. They maintain an excellent performance status, continuing with work and daily activities without significant compromise.
+
+**Diagnostic Workup:**
+An initial chest radiograph was performed which demonstrated a right upper lobe opacity, prompting further imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was subsequently obtained on [De-identified Date]. This study identified a 4.2 cm spiculated mass in the right upper lobe. Multiple enlarged ipsilateral mediastinal lymph nodes were noted, specifically in the paratracheal and subcarinal stations, measuring up to 2.1 cm in short axis. No suspicious lesions were seen in the contralateral lung, liver, adrenal glands, or bones.
+
+A whole-body PET/CT scan was performed for definitive staging. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the ipsilateral mediastinal lymph nodes. There was no evidence of FDG-avid disease elsewhere to suggest distant metastatic spread. A brain MRI was also performed and was negative for intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EUS) for tissue diagnosis and staging. Transbronchial needle aspiration was performed on a subcarinal lymph node. Pathology from this specimen confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Initial biomarker testing on the biopsy specimen has been completed.
+- Tumor Mutational Burden (TMB): Low (<2 mut/Mb)
+- PD-L1 expression: Not tested
+- Comprehensive next-generation sequencing panel results are pending.
+
+**Problem Summary:**
+1.  Newly diagnosed, treatment-naive Stage IIIA (AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology.
+2.  Disease is localized to the chest, with a primary right upper lobe tumor and ipsilateral mediastinal lymphadenopathy. Staging workup, including PET/CT and brain MRI, is negative for distant metastatic disease.
+3.  The patient is a lifetime never-smoker with an excellent performance status.
+4.  Molecular profiling is incomplete, with results for comprehensive genomic alterations currently pending.

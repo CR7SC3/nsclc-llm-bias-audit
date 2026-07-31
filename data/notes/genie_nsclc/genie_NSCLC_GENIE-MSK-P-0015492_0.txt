@@ -1,11 +1,21 @@
 **HPI:**
-[De-identified] is a 52-year-old patient presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer. The patient initially sought medical attention several weeks ago for a persistent cough and mild exertional dyspnea. Initial evaluation by their primary care physician led to a chest X-ray, which revealed a suspicious lung mass. The patient reports a history of former smoking, having quit over one year ago. Performance status is currently excellent, with the patient maintaining full activity and independence in daily life. This is the patient's first encounter with medical oncology, and they are treatment-naive for this malignancy.
+This is a 52-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially sought evaluation with their primary care provider several weeks ago due to a persistent dry cough, progressive fatigue, and an unintentional weight loss of approximately 15 pounds over the last three months. The patient is a former smoker, having quit more than one year prior. An initial chest x-ray demonstrated a right-sided lung mass, which prompted a full diagnostic workup. The patient is here today to discuss the findings and establish care. The patient maintains a good performance status, is fully ambulatory, and capable of all self-care.
 
 **Diagnostic Workup:**
-Following the abnormal chest X-ray, a comprehensive diagnostic workup was initiated. A CT scan of the chest, abdomen, and pelvis confirmed a primary lung mass and identified enlarged distant lymph nodes, as well as a suspicious lesion in the left adrenal gland. A subsequent PET-CT scan demonstrated avid uptake in the primary lung mass, the distant lymph nodes, and the adrenal lesion, further supporting metastatic disease. To confirm the diagnosis, a CT-guided biopsy of the lung mass was performed, which revealed non-small cell lung cancer with adenocarcinoma histology. A brain MRI was also performed as part of the staging workup and was negative for any intracranial metastases. Based on these findings, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. Imaging revealed a 4.2 cm primary mass in the right upper lobe. There was evidence of mediastinal and contralateral supraclavicular lymphadenopathy. A discrete 2.5 cm enhancing nodule was also identified in the left adrenal gland, concerning for a site of distant metastasis.
+
+To complete staging, a brain MRI with and without contrast was performed and showed no evidence of intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic evaluation of the tissue confirmed invasive adenocarcinoma, consistent with a lung primary based on immunohistochemical staining.
+
+Based on this workup, the patient is diagnosed with AJCC Stage IV disease.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue. Results indicate no actionable driver alterations, with testing specifically negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 mutations. PD-L1 expression was positive, with a tumor proportion score (TPS) of 1-49%. Tumor mutational burden (TMB) was found to be intermediate, ranging from 2–16 mutations per megabase (mut/Mb). Additionally, a STK11 loss-of-function mutation was identified.
+Comprehensive next-generation sequencing was performed on the tumor tissue specimen.
+- No actionable oncogenic driver mutations were identified. The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation was detected in the STK11 gene.
 
 **Problem Summary:**
-In summary, this is a 52-year-old former smoker with newly diagnosed AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology, presenting with metastatic disease involving distant lymph nodes and the adrenal gland. Molecular profiling demonstrates no actionable driver alterations, PD-L1 TPS 1-49%, intermediate TMB, and an STK11 loss-of-function mutation. The patient is treatment-naive and presents for discussion of management options.
+In summary, this is a 52-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to distant lymph nodes and the left adrenal gland. Molecular profiling is notable for PD-L1 expression (TPS 1-49%) and the presence of an STK11 loss-of-function mutation, with no other identified targetable driver mutations. The patient is treatment-naive and presents today to discuss the diagnosis in detail.

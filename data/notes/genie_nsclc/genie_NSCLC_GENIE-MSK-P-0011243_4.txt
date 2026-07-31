@@ -1,0 +1,17 @@
+**HPI:**
+This is a 71-year-old with a past medical history of breast cancer who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when a persistent, non-productive cough developed. This was followed by the onset of a dull, constant ache in the right hip, which prompted a primary care evaluation. The patient is a former smoker, having quit over one year ago.
+
+The present review of systems is notable for the aforementioned cough and hip pain. The patient also endorses mild fatigue and an unintentional weight loss of approximately 10 pounds over the past three months. There is no hemoptysis, fevers, chills, or night sweats. The patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity due to symptoms, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe lung mass, which prompted further imaging. A staging PET/CT scan was performed on [De-identified], which demonstrated a hypermetabolic 4.5 cm primary mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also revealed avid foci of disease consistent with distant metastases, including a 2 cm right adrenal nodule and a lytic lesion in the right iliac bone, corresponding to the patient's site of pain.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed on [De-identified]. Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+Given the diagnosis of metastatic disease, a contrast-enhanced MRI of the brain was obtained to evaluate for intracranial involvement. This study was completed on [De-identified] and was negative for any evidence of brain metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lung biopsy. No actionable driver alteration was identified; the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested, as the sequencing panel was performed prior to this becoming a standard of care. Tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb). The analysis did identify a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 71-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with metastatic disease involving the bone and adrenal gland. The patient is symptomatic but maintains a good performance status (ECOG 1). Molecular profiling of the tumor is notable for the absence of common targetable driver mutations but reveals an STK11 loss-of-function mutation. The immediate issue is the management of newly diagnosed, treatment-naive metastatic NSCLC.

@@ -1,0 +1,76 @@
+row_id,case_id,ground_truth_label,nccn_category,scorer_concordant
+1,cancerguide_synt_381,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+2,cancerguide_synt_211,Observation only,observation,1
+3,cancerguide_synt_38,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+4,cancerguide_synt_126,Lung-sparing resection (preferred) OR Radiation OR IGTA,surgical_resection,0
+5,cancerguide_synt_25,Observation only,observation,0
+6,cancerguide_synt_342,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+7,cancerguide_synt_203,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+8,cancerguide_synt_177,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+9,cancerguide_synt_194,Observation only,observation,1
+10,cancerguide_synt_51,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+11,cancerguide_synt_83,Resection + chemo OR chemoradiation,chemoradiation,0
+12,cancerguide_synt_55,Definitive RT (preferably SABR),radiation_only,0
+13,cancerguide_synt_349,Resection + chemo OR chemoradiation,chemotherapy,0
+14,cancerguide_synt_116,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+15,cancerguide_synt_13,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+16,cancerguide_synt_266,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+17,cancerguide_synt_39,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+18,cancerguide_synt_166,Definitive concurrent CRT (category 1) + Durvalumab,chemoradiation,0
+19,cancerguide_synt_367,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+20,cancerguide_synt_214,Observation only,observation,1
+21,cancerguide_synt_315,Adjuvant Systemic Therapy (NSCL-E),chemoradiation,0
+22,cancerguide_synt_80,Observation only,observation,1
+23,cancerguide_synt_221,Observe or Option: systemic therapy (NSCL-E),observation,0
+24,cancerguide_synt_156,Observation only,observation,1
+25,cancerguide_synt_69,Observe or Option: systemic therapy (NSCL-E),observation,1
+26,cancerguide_synt_274,N2 positive – initial therapy choice,chemoradiation,0
+27,cancerguide_synt_12,Palliative chemotherapy ± local palliation OR Observe,radiation_only,0
+28,cancerguide_synt_40,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+29,cancerguide_synt_291,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+30,cancerguide_synt_17,Definitive RT (preferably SABR),radiation_only,1
+31,cancerguide_synt_152,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+32,cancerguide_synt_193,Surgical resection + nodal sampling,surgical_resection,1
+33,cancerguide_synt_308,Observation only,observation,1
+34,cancerguide_synt_281,SRS alone OR surgery + ± RT,chemoimmunotherapy,0
+35,cancerguide_synt_89,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+36,cancerguide_synt_154,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+37,cancerguide_synt_66,Observe or Option: systemic therapy (NSCL-E),surgical_resection,1
+38,cancerguide_synt_332,Definitive chemoradiation,chemoimmunotherapy,0
+39,cancerguide_synt_0,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+40,cancerguide_synt_11,Adjuvant Systemic Therapy (NSCL-E),chemotherapy,0
+41,cancerguide_synt_47,Surgery + nodal sampling → Adjuvant Treatment (NSCL-4),surgical_resection,0
+42,cancerguide_synt_190,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+43,cancerguide_synt_197,Resection + chemo OR chemoradiation,chemotherapy,0
+44,cancerguide_synt_200,Observe or Option: systemic therapy (NSCL-E),observation,0
+45,cancerguide_synt_363,Observation only,observation,1
+46,cancerguide_synt_304,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+47,cancerguide_synt_235,Resection + chemo OR chemoradiation,chemotherapy,1
+48,cancerguide_synt_2,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+49,cancerguide_synt_30,Observe or Option: systemic therapy (NSCL-E),observation,1
+50,cancerguide_synt_45,Resection + chemo OR chemoradiation,surgical_resection,0
+51,cancerguide_synt_114,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+52,cancerguide_synt_311,Resection + chemo OR chemoradiation,chemoradiation,0
+53,cancerguide_synt_79,Surgical resection + nodal sampling,surgical_resection,1
+54,cancerguide_synt_276,Surgery + nodal dissection then Adjuvant Systemic Therapy (NSCL-E),chemoradiation,0
+55,cancerguide_synt_97,Observation only,observation,1
+56,cancerguide_synt_121,Resection + chemo OR chemoradiation,chemotherapy,0
+57,cancerguide_synt_172,Observation only,observation,0
+58,cancerguide_synt_317,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+59,cancerguide_synt_115,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+60,cancerguide_synt_58,Testing Results – Molecular / PD-L1,chemoimmunotherapy,1
+61,cancerguide_synt_249,Observation only,observation,1
+62,cancerguide_synt_326,Observation only,observation,1
+63,cancerguide_synt_325,Observation only,surgical_resection,0
+64,cancerguide_synt_123,Surgery + nodal sampling → Adjuvant Treatment (NSCL-4),surgical_resection,0
+65,cancerguide_synt_273,Resection + chemo OR chemoradiation,chemotherapy,1
+66,cancerguide_synt_220,Observe or Option: systemic therapy (NSCL-E),observation,0
+67,cancerguide_synt_386,Pre-op concurrent CRT then surgical re-evaluation,surgical_resection,0
+68,cancerguide_synt_7,Resection + chemo OR chemoradiation,chemotherapy,1
+69,cancerguide_synt_60,Observation only,observation,1
+70,cancerguide_synt_62,Observation only,observation,1
+71,cancerguide_synt_175,Observation only,observation,1
+72,cancerguide_synt_77,Surgical lobectomy/segmentectomy + mediastinal LN dissection/sampling,surgical_resection,1
+73,cancerguide_synt_165,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1
+74,cancerguide_synt_113,Observe or Option: systemic therapy (NSCL-E),observation,1
+75,cancerguide_synt_393,Concurrent chemoradiation (category 1) then Durvalumab (category 1),chemoradiation,1

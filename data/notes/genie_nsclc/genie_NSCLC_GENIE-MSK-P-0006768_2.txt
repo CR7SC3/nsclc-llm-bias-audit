@@ -1,0 +1,51 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**REFERRING PROVIDER:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 65-year-old individual with a past medical history of prostate cancer, who is referred for initial evaluation of newly diagnosed non-small cell lung cancer. The patient is a former smoker, having quit within the last year.
+
+The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough and mild dyspnea on exertion. This prompted a visit to their primary care provider. An initial chest radiograph revealed a right-sided lung opacity, leading to further cross-sectional imaging. The patient has an excellent performance status, estimated at ECOG 1, and remains fully ambulatory and capable of all self-care, though is limited in physically strenuous activity by their respiratory symptoms.
+
+**PAST MEDICAL HISTORY:**
+1.  Prostate Cancer, managed with active surveillance.
+2.  Hypertension.
+
+**SOCIAL HISTORY:**
+-   Smoking: Former smoker, quit approximately 8 months ago after a 40-pack-year history.
+-   Alcohol: Denies.
+-   Occupation: [De-identified]
+
+**REVIEW OF SYSTEMS:**
+-   CONSTITUTIONAL: Reports mild fatigue. Denies fevers, chills, or unintentional weight loss.
+-   RESPIRATORY: Positive for persistent cough and mild shortness of breath with significant exertion. Denies hemoptysis or chest pain.
+-   All other systems reviewed and are negative.
+
+**PHYSICAL EXAMINATION:**
+-   VITALS: Within normal limits.
+-   CONSTITUTIONAL: Alert and oriented, well-appearing, in no acute distress.
+-   LUNGS: Clear to auscultation bilaterally, with mildly diminished breath sounds in the right upper lung field. No wheezes or rales.
+-   CARDIOVASCULAR: Regular rate and rhythm, no murmurs.
+-   ABDOMEN: Soft, non-tender, non-distended.
+-   EXTREMITIES: No cyanosis, clubbing, or edema.
+-   PERFORMANCE STATUS: ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+A diagnostic CT of the chest with contrast was performed, which demonstrated a 4.8 cm spiculated mass in the right upper lobe. The scan also identified multiple enlarged ipsilateral mediastinal lymph nodes, with the largest measuring 2.2 cm in the paratracheal station.
+
+Subsequent staging with a PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass and in the right paratracheal and subcarinal lymph nodes, consistent with the findings on the diagnostic CT. No other sites of FDG-avid disease were identified in the chest, abdomen, or pelvis to suggest distant metastatic disease.
+
+A dedicated MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathology returned as invasive adenocarcinoma, consistent with a primary lung malignancy.
+
+**MOLECULAR STUDIES:**
+Tumor tissue from the biopsy was submitted for next-generation sequencing and immunohistochemical analysis.
+-   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. Testing for KRAS and ERBB2 was also negative.
+-   **PD-L1 Expression:** Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of 0%.
+-   **Tumor Mutational Burden (TMB):** TMB was categorized as intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 65-year-old with an excellent performance status (ECOG 1) who presents with a new diagnosis of treatment-naive, clinical Stage IIIA (cT2bN2M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling of the tumor is notable for being driver-negative and PD-L1 negative. The patient is here today to discuss the diagnosis and potential management options.

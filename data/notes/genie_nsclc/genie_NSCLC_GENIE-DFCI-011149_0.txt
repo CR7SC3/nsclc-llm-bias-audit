@@ -1,0 +1,19 @@
+**HPI:**
+This is a 66-year-old former smoker who presents for initial oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, non-productive cough and new-onset right-sided back pain. The pain was initially attributed to a muscle strain but did not improve with conservative measures. Due to the persistence of symptoms, the patient presented to their primary care provider, who ordered a chest X-ray.
+
+The X-ray revealed a suspicious opacity in the right lung, prompting a follow-up CT scan of the chest, abdomen, and pelvis. This study confirmed the presence of a 3.5 cm speculated mass in the right upper lobe with associated mediastinal lymphadenopathy. Critically, the scan also identified a lytic lesion in the T8 vertebral body, highly concerning for an osseous metastasis. The patient has an excellent ECOG performance status of 1, remaining fully ambulatory and capable of all self-care, though the back pain requires intermittent use of non-prescription analgesics.
+
+**Diagnostic Workup:**
+A staging PET/CT scan was performed on [De-identified date], which demonstrated high FDG-avidity in the primary right upper lobe lung mass, several mediastinal lymph nodes, and the previously identified osseous lesion in the T8 vertebra, confirming metastatic disease. A brain MRI with and without contrast was also obtained as part of the staging evaluation and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified date]. Histopathology confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the biopsy specimen. The key findings are as follows:
+- An actionable sensitizing mutation was detected: EGFR exon 19 deletion.
+- The tumor was negative for rearrangements or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative, with a Tumor Proportion Score (TPS) of <1%.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 66-year-old with an excellent performance status and a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to bone. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is here today to review these findings and discuss the implications for management.

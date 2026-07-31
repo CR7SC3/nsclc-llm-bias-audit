@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 78-year-old with a new diagnosis of non-small cell lung cancer. The patient has a past medical history significant for a prior malignancy (other) and is a former smoker, having quit over one year ago. The current diagnosis was established after an incidental finding on imaging. The patient was reportedly asymptomatic from a pulmonary standpoint, without cough, dyspnea, or hemoptysis, prior to the workup. The patient presents today to discuss the diagnosis and establish care. Performance status is excellent, and the patient is fully active and independent.
+
+**Diagnostic Workup:**
+The patient underwent a chest CT for an unrelated indication which revealed a 1.8 cm solid, spiculated nodule in the right upper lobe. No other pulmonary nodules, pleural effusions, or significant mediastinal or hilar lymphadenopathy was noted on this initial scan.
+
+A subsequent PET/CT was performed for staging. This demonstrated intense FDG-avidity within the right upper lobe nodule, consistent with malignancy. Importantly, there was no evidence of FDG-avid disease in the mediastinal or hilar lymph nodes, nor were any distant metastatic sites identified.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core biopsy of the right upper lobe nodule. Pathology returned as invasive adenocarcinoma of the lung.
+
+Staging was completed with a contrast-enhanced MRI of the brain, which was negative for any evidence of intracranial metastases.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IA non-small cell lung cancer (cT1bN0M0).
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. The tumor was also found to be KRAS and ERBB2 wild-type. Tumor mutational burden (TMB) was determined to be low (<2 mut/Mb). PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker who presents for initial oncologic evaluation of a new diagnosis of Stage IA (cT1bN0M0) invasive adenocarcinoma of the lung. The diagnosis was made following an incidental finding of a right upper lobe pulmonary nodule, with subsequent biopsy confirmation. Staging studies, including PET/CT and brain MRI, have confirmed the disease is localized to the lung without evidence of regional nodal involvement or distant metastases. Comprehensive molecular profiling did not identify any actionable oncogenic drivers. The patient is treatment-naive and is here to discuss the findings and potential management options.

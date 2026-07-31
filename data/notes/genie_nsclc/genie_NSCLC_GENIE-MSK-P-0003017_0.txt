@@ -1,0 +1,15 @@
+**HPI:**
+The patient is a 78-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to diagnosis, when they developed a persistent dry cough and new-onset, localized pain in the right posterior ribs. The patient initially managed symptoms with over-the-counter analgesics but sought evaluation with their primary care provider due to worsening pain and the development of mild dyspnea on exertion. The patient is a lifetime never-smoker. They remain fully ambulatory and capable of all self-care, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+An initial chest radiograph ordered by the primary care provider was abnormal, showing a left-sided lung opacity. This prompted a contrast-enhanced CT of the chest, abdomen, and pelvis performed on [De-identified]. The scan revealed a 5 cm spiculated mass in the left upper lobe with associated mediastinal and hilar lymphadenopathy. Critically, the scan also demonstrated a lytic lesion in the right seventh rib, consistent with the patient's reported site of pain.
+
+A subsequent whole-body PET/CT scan on [De-identified] was performed for staging purposes. This study confirmed intense FDG-avidity in the primary left upper lobe mass, multiple mediastinal lymph node stations, and the lytic lesion in the right seventh rib, confirming metastatic disease.
+
+On [De-identified], the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic analysis established the diagnosis. A staging MRI of the brain was also performed and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Pathology from the lung biopsy confirmed non-small cell lung cancer, adenocarcinoma histology. Comprehensive next-generation sequencing was performed on the tumor tissue specimen. No actionable driver alteration was identified. Testing was negative for mutations, fusions, or amplifications involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is a 78-year-old never-smoker who presents for initial oncologic evaluation of a new diagnosis of metastatic lung cancer. The comprehensive diagnostic workup has established a diagnosis of AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to bone, with a negative staging brain MRI. Molecular profiling of the tumor did not reveal an actionable driver mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

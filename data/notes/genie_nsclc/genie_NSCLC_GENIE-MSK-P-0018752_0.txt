@@ -1,0 +1,30 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Patient:** [De-identified Name]
+**MRN:** [De-identified MRN]
+**Date of Consultation:** [De-identified Date]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 78-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial medical oncology evaluation and management of a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks prior to presentation, when they began to experience progressive, dull lower back pain and increasing fatigue. The back pain was not associated with a specific injury. An initial evaluation by their primary care provider led to imaging, which ultimately revealed a lung mass. The patient has remained ambulatory but notes a decline in energy. They deny significant weight loss, hemoptysis, or shortness of breath at rest.
+
+**DIAGNOSTIC WORKUP:**
+The patient's workup began with a chest radiograph that showed a suspicious density in the right upper lung.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This imaging confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. It also revealed multiple enlarged mediastinal lymph nodes, a lytic lesion in the L3 vertebral body, and a 3.2 cm enhancing mass in the left adrenal gland. These findings were highly suspicious for metastatic disease.
+
+A whole-body PET/CT scan was obtained, which demonstrated intense FDG-avidity in the primary right upper lobe lung mass, multiple mediastinal lymph nodes, the L3 vertebral body lesion, and the left adrenal mass, consistent with widespread metastatic disease. An MRI of the brain was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis of the specimen confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS).
+
+**MOLECULAR STUDIES:**
+The lung biopsy tissue was submitted for comprehensive molecular profiling and immunohistochemistry.
+
+Next-generation sequencing did not identify any actionable driver alterations. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression by immunohistochemistry was determined to be high, with a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) was found to be low (<2 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 78-year-old former smoker who presents for initial consultation for a new diagnosis of Stage IV non-small cell lung cancer, not otherwise specified histology. Staging workup confirms metastatic disease involving bone and the left adrenal gland, with no evidence of central nervous system involvement. The patient is treatment-naive. Comprehensive genomic and immune biomarker testing is notable for high PD-L1 expression (TPS ≥50%) but no identified targetable driver mutations and a low tumor mutational burden.

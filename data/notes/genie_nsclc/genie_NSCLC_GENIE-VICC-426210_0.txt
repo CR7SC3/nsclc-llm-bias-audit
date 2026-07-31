@@ -1,0 +1,15 @@
+**HPI:**
+This is a 70-year-old individual with a history of tobacco use (former smoker, quit over one year ago) who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Initial evaluation by their primary care provider led to a chest radiograph which was suspicious for a right-sided lung mass. The patient denies hemoptysis, fevers, chills, or significant weight loss. They maintain an excellent performance status, continuing with all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This revealed a 4.5 cm spiculated mass in the right upper lobe. There was associated prominent right hilar and ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.2 cm in short axis. No suspicious hepatic, adrenal, or osseous lesions were identified to suggest distant metastatic disease.
+
+To further characterize the extent of disease, a PET/CT was obtained. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the right hilar and mediastinal nodal stations, consistent with the CT findings. No other sites of FDG-avid disease suggestive of distant metastases were seen. A brain MRI was also performed for staging purposes and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed by Interventional Radiology on [De-identified date]. Pathology confirmed invasive, moderately differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor specimen. No actionable driver alterations were identified. Specific testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 expression showed a Tumor Proportion Score (TPS) of <1%. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old with an excellent performance status and a new diagnosis of AJCC Stage IIIA (cT2bN2M0) squamous non-small cell lung cancer of the right lung. Molecular profiling is notable for the absence of an actionable driver mutation and a PD-L1 TPS of <1%. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

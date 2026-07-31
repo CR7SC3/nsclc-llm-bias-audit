@@ -1,0 +1,20 @@
+**HPI:**
+This is a 62-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility approximately four weeks ago with progressive shortness of breath on exertion and a persistent dry cough. An initial chest X-ray demonstrated a large right-sided pleural effusion, which prompted further investigation. The patient reports mild fatigue but is otherwise fully ambulatory and capable of all self-care, with an ECOG performance status of 1. There is no history of hemoptysis, fevers, or significant weight loss.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This revealed a 3.8 cm spiculated mass in the right upper lobe, associated with bulky right hilar and mediastinal lymphadenopathy. A large, free-flowing right-sided pleural effusion was also noted, concerning for malignant involvement. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+A subsequent MRI of the brain with and without contrast was performed on [De-identified Date] and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a right-sided thoracentesis. A large volume of serosanguinous fluid was removed, which provided significant symptomatic relief. Cytologic analysis and cell block evaluation of the pleural fluid were performed. Pathology confirmed the presence of malignant cells consistent with adenocarcinoma.
+
+Based on the presence of a malignant pleural effusion, the patient is diagnosed with Stage IV non-small cell lung cancer, adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor specimen obtained from the pleural fluid cell block.
+-   Molecular profiling did not identify an actionable driver alteration. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression by immunohistochemistry was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+-   Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old former smoker presenting for initial oncologic evaluation of a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the pleura. The patient is treatment-naive. Molecular profiling is notable for the absence of an actionable driver mutation and high PD-L1 expression (TPS ≥50%).

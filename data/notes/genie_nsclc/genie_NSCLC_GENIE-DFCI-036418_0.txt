@@ -1,0 +1,19 @@
+**HPI:**
+This is a 53-year-old individual with a history of current tobacco use who is referred for initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside emergency department several weeks ago with a persistent, non-productive cough and new-onset headaches. Due to these concerns, an initial diagnostic workup was initiated. The patient reports feeling more fatigued than usual but remains fully ambulatory and capable of all self-care activities. Performance status is excellent.
+
+**Diagnostic Workup:**
+Initial imaging included a CT scan of the chest, abdomen, and pelvis for staging purposes. This revealed a primary mass in one lung with associated mediastinal lymphadenopathy. The scan also demonstrated multiple pulmonary nodules in the contralateral lung, suspicious for metastatic disease.
+
+Given the patient's presenting headaches, a contrast-enhanced MRI of the brain was subsequently performed. This imaging confirmed the presence of multiple cerebral metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary lung mass. Pathologic examination of the specimen confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the biopsy tissue.
+- An actionable driver mutation was identified in KRAS G12C.
+- PD-L1 expression by immunohistochemistry was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%.
+- Testing was negative for other common driver mutations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 53-year-old current smoker presenting for initial evaluation of a newly diagnosed Stage IV non-small cell lung adenocarcinoma, metastatic to the brain and contralateral lung. The patient is treatment-naive. Molecular profiling of the tumor is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The purpose of this consultation is to review these findings and establish care.

@@ -1,0 +1,27 @@
+**Patient ID:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 63-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months ago when a chest X-ray was performed as part of a routine preoperative evaluation for an elective orthopedic procedure. The radiograph was notable for a small, ill-defined opacity in the right upper lung. The patient is a lifetime never-smoker and denies any new or worsening cough, shortness of breath, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. Performance status is excellent, ECOG 0.
+
+Following the abnormal chest X-ray, the patient was referred for further evaluation.
+
+**DIAGNOSTIC WORKUP:**
+A diagnostic CT of the chest with contrast was performed, which confirmed the presence of a 1.8 cm spiculated solid nodule in the posterior segment of the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For staging purposes, a PET/CT was subsequently obtained. This demonstrated intense FDG-avidity within the right upper lobe nodule (SUVmax 8.2) without evidence of FDG-avid disease in the mediastinum, contralateral lung, or elsewhere in the body. A staging MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe pulmonary nodule was performed. Pathology returned as invasive adenocarcinoma. The combination of these findings is consistent with clinical Stage IA disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Actionable driver mutation:** EGFR L858R point mutation (sensitizing) was detected.
+- **Additional markers:** The tumor was negative for rearrangements in ALK and ROS1, mutations in BRAF, MET exon 14 skipping mutations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 (HER2) mutations.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+- **PD-L1:** Not tested.
+
+**PROBLEM SUMMARY:**
+1.  Non-small cell lung cancer, adenocarcinoma histology, clinical Stage IA (cT1bN0M0) of the right upper lobe.
+2.  EGFR L858R mutation positive.
+3.  Excellent performance status (ECOG 0).
+4.  Never-smoker.

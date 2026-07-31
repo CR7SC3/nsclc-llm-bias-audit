@@ -1,0 +1,25 @@
+**HPI:**
+This is a 62-year-old individual referred for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient presented to an outside hospital approximately three weeks ago with a several-week history of persistent dry cough, progressive dyspnea on exertion, and right-sided pleuritic chest pain. The patient denies fevers, chills, or significant weight loss but does endorse fatigue. An initial chest radiograph was abnormal, prompting further investigation.
+
+The patient is a former smoker with a significant pack-year history, having quit less than one year ago. The patient remains fully ambulatory and capable of all self-care but is limited in strenuous activity due to dyspnea, consistent with an ECOG performance status of 1. The patient is here today to discuss the diagnosis in detail.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This revealed a large, spiculated mass in the right upper lobe of the lung. The study also demonstrated a moderate right-sided pleural effusion, extensive mediastinal and right supraclavicular lymphadenopathy, and a lytic lesion within a thoracic vertebral body, suspicious for metastatic disease.
+
+A subsequent MRI of the brain with and without contrast was performed for staging and showed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination confirmed a diagnosis of poorly differentiated non-small cell carcinoma, with immunohistochemical staining consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, and the result was negative (Tumor Proportion Score <1%).
+
+Tumor Mutational Burden (TMB) was determined to be low at <2 mutations/megabase.
+
+**Problem Summary:**
+1.  Stage IV non-small cell lung cancer, squamous cell histology, with metastatic disease to bone, pleura, and distant lymph nodes.
+2.  No actionable driver mutation identified.
+3.  PD-L1 negative, TMB low.
+4.  ECOG performance status 1.
+5.  Former tobacco use.

@@ -1,0 +1,28 @@
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF CONSULT:** [De-identified]
+
+**REASON FOR CONSULTATION:** Initial evaluation of newly diagnosed non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 52-year-old with a history of current tobacco use who presented for initial oncologic consultation. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive shortness of breath on exertion. This was associated with mild right-sided chest discomfort and an unintentional 10-pound weight loss over the past several months.
+
+The patient initially sought evaluation with their primary care provider, who obtained a chest X-ray revealing a large opacity in the right upper lung. This prompted an urgent referral for further imaging.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed. Imaging demonstrated a large, spiculated 5.5 cm mass in the right upper lobe. There was extensive and bulky mediastinal and right supraclavicular lymphadenopathy, concerning for significant nodal involvement. The CT of the abdomen and pelvis was negative for evidence of distant metastatic disease. Given the extent of locoregional disease, a staging MRI of the brain was also performed, which was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the tissue confirmed a diagnosis of adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+Based on the combination of a large primary tumor with extensive contralateral mediastinal and supraclavicular nodal involvement (N3) and no evidence of distant metastatic disease (M0), the patient's cancer is formally staged.
+
+**AJCC Stage at Diagnosis:** Stage IIIB Non-Small Cell Lung Cancer
+
+**MOLECULAR STUDIES:**
+Pathology from the biopsy specimen was sent for next-generation sequencing to assess for targetable alterations.
+-   No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression was not tested.
+-   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 52-year-old with a new diagnosis of Stage IIIB non-small cell lung adenocarcinoma, characterized by locally advanced, non-metastatic disease. The patient has a good performance status and is seen today for initial consultation. Molecular profiling is notable for an intermediate tumor mutational burden without an identifiable actionable driver mutation. The diagnosis, staging, and prognostic implications were discussed.

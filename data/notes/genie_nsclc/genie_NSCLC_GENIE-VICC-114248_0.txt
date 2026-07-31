@@ -1,0 +1,24 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 69-year-old who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive fatigue. Over the subsequent weeks, they noted new-onset dull pain in the lower back and right flank, which prompted a visit to their primary care provider. The patient is a former smoker, having quit more than one year ago. They are otherwise active with an ECOG performance status of 1, symptomatic but fully ambulatory and capable of light work.
+
+**Diagnostic Workup:**
+An initial chest X-ray was concerning for a right-sided lung mass. This was followed by a staging PET/CT scan on [De-identified], which revealed a large, hypermetabolic primary mass in the right upper lobe. The scan also demonstrated extensive mediastinal and supraclavicular lymphadenopathy. Multiple sites of distant metastatic disease were identified, including avid lytic lesions in the thoracic spine and a hypermetabolic nodule in the left adrenal gland.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass. Pathologic examination of the specimen confirmed a diagnosis of adenocarcinoma.
+
+Given the findings on PET/CT, a contrast-enhanced MRI of the brain was performed to complete staging. This study was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Tissue from the lung biopsy was sent for comprehensive next-generation sequencing.
+-   Molecular profiling did not identify any actionable driver alterations. The tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+-   Tumor Mutational Burden (TMB) was reported as high (>16 mut/Mb).
+-   PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+In summary, this is a 69-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving bone, the adrenal gland, and distant lymph nodes, with no evidence of brain metastases. The patient is treatment-naive. Molecular analysis is notable for a high tumor mutational burden and the absence of targetable driver mutations. The patient presents today for evaluation and to discuss the diagnosis.

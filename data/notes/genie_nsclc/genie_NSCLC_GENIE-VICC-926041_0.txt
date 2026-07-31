@@ -1,0 +1,23 @@
+**HPI:**
+This is an initial medical oncology consultation for a 71-year-old individual referred for discussion and management of a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker who quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the past month, they also noted the onset of intermittent headaches and a new, localized pain in the right posterior ribs. Due to the worsening of these symptoms, they presented to their primary care physician.
+
+An initial chest X-ray was abnormal, prompting a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This identified a large, spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also revealed a suspicious nodule in the left lower lobe and a lytic lesion in a right-sided rib, concerning for metastatic disease. Given the report of headaches, a brain MRI was performed which confirmed the presence of multiple metastatic lesions. The patient remains ambulatory and is managing their own activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup has been completed. I have personally reviewed the relevant imaging and pathology reports.
+
+- **CT Chest/Abdomen/Pelvis:** Revealed a 4.5 cm spiculated mass in the right upper lobe with extension to the adjacent pleura. There is significant mediastinal and right hilar lymphadenopathy. A 1.2 cm solid nodule is noted in the left lower lobe, consistent with a metastatic deposit. A lytic lesion is identified in the posterior aspect of the right 7th rib. The visualized upper abdomen was unremarkable.
+
+- **MRI Brain with and without contrast:** Demonstrated three discrete, ring-enhancing lesions in the cerebral hemispheres, the largest measuring 1.5 cm in the left parietal lobe, with surrounding vasogenic edema. Findings are consistent with metastatic disease.
+
+- **PET/CT:** Showed intense FDG-avidity corresponding to the primary right upper lobe mass (SUVmax 14.2), the mediastinal and hilar lymph nodes, the contralateral lung nodule in the left lower lobe, and the lytic lesion in the right 7th rib. No other distant sites of FDG-avid disease were identified.
+
+- **Pathology:** A CT-guided core biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as high (>16 mutations/megabase). PD-L1 immunohistochemistry was not performed on this sample, consistent with standard practice at the time of the initial assay.
+
+**Problem Summary:**
+In summary, this is a 71-year-old former smoker with a new diagnosis of Stage IV (AJCC 8th Edition) non-small cell lung adenocarcinoma. The disease is metastatic to the brain, bone, and contralateral lung. Molecular profiling is notable for a high Tumor Mutational Burden (TMB) but is negative for any identified targetable driver alterations. The patient is seen today for initial consultation to discuss the diagnosis and establish goals of care.

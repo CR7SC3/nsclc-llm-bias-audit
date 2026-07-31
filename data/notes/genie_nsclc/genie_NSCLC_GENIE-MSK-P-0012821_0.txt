@@ -1,0 +1,15 @@
+**HPI:**
+This is a 64-year-old individual with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they developed a persistent cough and progressive fatigue. Over the last several weeks, they noted the onset of significant right-sided chest wall pain and unintentional weight loss, which prompted medical evaluation. Initial workup began with a chest radiograph that showed a right upper lobe opacity, leading to further investigation. The patient is here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified date]. This imaging revealed a large, irregular mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also demonstrated multiple hypoattenuating lesions throughout the liver, highly suspicious for metastatic deposits. Additionally, a lytic lesion was identified in a right-sided rib, corresponding to the patient's reported area of pain.
+
+A subsequent MRI of the brain with and without contrast was performed for staging purposes and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right lung mass on [De-identified date]. Pathologic review of the biopsy specimen confirmed a diagnosis of poorly differentiated non-small cell carcinoma. Immunohistochemical stains were positive for p40 and negative for TTF-1, consistent with squamous cell carcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 64-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer of squamous histology, metastatic to the liver and bone. Molecular profiling did not identify any actionable oncogenic driver mutations.

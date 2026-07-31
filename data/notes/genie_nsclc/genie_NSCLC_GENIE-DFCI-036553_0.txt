@@ -1,0 +1,19 @@
+**HPI:**
+This is a 59-year-old with a history of smoking (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside emergency department several weeks ago with a persistent, non-productive cough and new-onset headaches. An initial chest X-ray was concerning for a right-sided lung mass, and the patient was referred for further diagnostic evaluation. The patient reports mild fatigue and intermittent pain in the right posterior ribs but is otherwise maintaining weight and appetite. Performance status is excellent, ECOG 1, with the patient remaining fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This study revealed a 4.5 cm spiculated mass in the right upper lobe, associated with bulky mediastinal lymphadenopathy. The scan also demonstrated a 1.2 cm nodule in the left lower lobe, suspicious for a contralateral metastasis, and a lytic lesion in the right 7th rib, concerning for osseous metastatic disease.
+
+Given the presenting symptom of headaches, a brain MRI with and without contrast was subsequently obtained. This imaging demonstrated multiple, small, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed by Interventional Radiology on [De-identified]. Pathologic examination of the tissue confirmed the diagnosis of a primary lung adenocarcinoma.
+
+A staging PET/CT scan was performed which confirmed intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, the contralateral lung nodule, and the right 7th rib lesion, corroborating the findings of metastatic disease. No other distant sites of FDG-avid disease were identified in the neck, abdomen, or pelvis.
+
+**Molecular Studies:**
+Tissue from the lung mass biopsy was sent for comprehensive molecular profiling and immunohistochemistry. Next-generation sequencing (NGS) of the tumor tissue detected an actionable driver mutation, specifically an EGFR L858R point mutation in exon 21. Further molecular analysis was negative for ALK and ROS1 rearrangements, as well as for mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was assessed by immunohistochemistry (IHC) and was found to be positive, with a Tumor Proportion Score (TPS) in the 1-49% range. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 59-year-old who presents for initial evaluation of a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed metastatic disease involving the brain, bone (right rib), and contralateral lung. Molecular testing of the tumor is notable for the presence of a sensitizing EGFR L858R mutation and PD-L1 expression of 1-49%. The patient has a good performance status and is here to establish care and discuss the implications of these findings.

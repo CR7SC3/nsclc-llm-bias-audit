@@ -1,11 +1,24 @@
 **HPI:**
-[De-identified] is a 64-year-old individual presenting for initial oncology consultation following a recent diagnosis of non-small cell lung cancer. The patient initially presented with a persistent cough, progressive shortness of breath, and unintentional weight loss over the past several months. Additionally, the patient reported new onset headaches and increasing lower back pain. The patient has a history of former smoking, having quit over one year ago.
+This is a 64-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial oncology consultation following a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with an unintentional 10-pound weight loss. More recently, the patient developed intermittent headaches and noted a new, non-tender lump under the skin on the chest. They have a good performance status (ECOG 1), remaining ambulatory and capable of self-care, though their daily activities are somewhat limited by shortness of breath.
+
+The patient presented to their primary care provider, and an initial chest X-ray was concerning for a right-sided lung mass. This prompted a full diagnostic workup, which has led to the current diagnosis and referral.
 
 **Diagnostic Workup:**
-The initial diagnostic workup commenced with a chest X-ray, which prompted a CT scan of the chest, abdomen, and pelvis. This imaging revealed a primary lung mass, along with suspicious lesions in the contralateral lung, bone, and subcutaneous tissue. A subsequent PET/CT scan confirmed widespread metabolically active disease consistent with metastatic spread to these sites. Due to the reported headaches, a brain MRI was performed, which identified multiple enhancing lesions consistent with brain metastases. Histologic confirmation was obtained via CT-guided core biopsy of the primary lung lesion, which demonstrated adenocarcinoma. Biopsy of a subcutaneous nodule also confirmed metastatic adenocarcinoma. Based on these findings, the patient is diagnosed with Stage IV (M1) non-small cell lung cancer. The patient's current performance status is ECOG 1.
+CT Chest/Abdomen/Pelvis with contrast was performed, which identified a 4.8 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. Multiple nodules were noted in the contralateral (left) lung, suspicious for metastatic disease. Additionally, a lytic lesion was suspected in the T7 vertebral body.
+
+A subsequent staging PET/CT scan confirmed intense FDG-avidity in the primary right lung mass, multiple mediastinal lymph nodes, numerous bilateral pulmonary nodules, and multiple osseous sites including the thoracic spine and ribs. The scan also demonstrated a hypermetabolic subcutaneous nodule in the right anterior chest wall, corresponding to the palpable lesion noted by the patient.
+
+Given the new onset of headaches, an MRI of the brain with and without contrast was obtained. This revealed multiple small, scattered enhancing lesions in the cerebral and cerebellar hemispheres consistent with brain metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed by Interventional Radiology to establish a tissue diagnosis. Pathology confirmed non-small cell lung cancer, adenocarcinoma histology.
 
 **Molecular Studies:**
-Comprehensive molecular profiling was performed on the tumor tissue. Results indicated the presence of an actionable KRAS G12C mutation. Testing for other common oncogenic drivers was negative, specifically for EGFR mutations, ALK fusions, ROS1 fusions, BRAF mutations, MET exon 14 skipping, RET fusions, NTRK fusions, and ERBB2 (HER2) mutations. Programmed death-ligand 1 (PD-L1) immunohistochemistry was positive, with a tumor proportion score (TPS) of 1–49%. Tumor mutational burden (TMB) was assessed as intermediate, falling within the range of 2–16 mutations/megabase.
+Pathology from the lung biopsy specimen was sent for comprehensive molecular profiling.
+- **Histology:** Adenocarcinoma
+- **Actionable Driver Mutations:** KRAS G12C mutation detected.
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2 alterations.
+- **PD-L1 Tumor Proportion Score (TPS):** 35% (positive, 1-49% range).
+- **Tumor Mutational Burden (TMB):** 12 mutations/megabase (Intermediate).
 
 **Problem Summary:**
-[De-identified] is a 64-year-old treatment-naive individual with newly diagnosed Stage IV (M1) non-small cell lung cancer, adenocarcinoma histology. The disease has metastasized to the brain, bone, contralateral lung, and subcutaneous tissue. Molecular analysis confirms an actionable KRAS G12C mutation, absence of other common driver alterations, positive PD-L1 expression (TPS 1–49%), and intermediate tumor mutational burden. The patient is here for initial discussion of therapeutic options.
+This is a 64-year-old former smoker with a new diagnosis of Stage IV (AJCC 8th edition) non-small cell lung cancer, adenocarcinoma histology. Staging studies have confirmed metastatic disease involving the brain, bone, contralateral lung, and subcutaneous tissue. Molecular profiling is notable for an activating KRAS G12C mutation and a PD-L1 TPS of 35%. The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish care.

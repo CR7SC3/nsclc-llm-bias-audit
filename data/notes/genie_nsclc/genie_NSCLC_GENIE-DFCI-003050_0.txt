@@ -1,0 +1,23 @@
+**HPI:**
+This is a 59-year-old who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of good health until approximately three months prior to presentation, when a persistent, dry cough developed. This was initially attributed to a viral illness but did not resolve. Over the subsequent weeks, the patient noted the onset of mild dyspnea on exertion and an unintentional weight loss of approximately 10 pounds. This prompted a visit to a primary care provider, who ordered a chest radiograph that was suspicious for a right-sided lung mass. The patient is a former smoker, having quit within the last year after a significant pack-year history. The patient remains fully ambulatory and self-caring with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a comprehensive staging evaluation was undertaken.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This identified a 4.5 cm spiculated mass in the right upper lobe. It also revealed multiple enlarged right-sided mediastinal and subcarinal lymph nodes, with the largest measuring 2.2 cm in short-axis dimension. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs.
+
+A PET/CT scan was subsequently performed on [De-identified Date] to complete staging. This confirmed intense FDG-avidity in the primary right upper lobe mass (SUVmax 12.4) and in the ipsilateral mediastinal (paratracheal) and subcarinal lymph nodes, consistent with nodal metastases (N2 disease). There was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+A brain MRI with and without contrast was performed on [De-identified Date] and was negative for any evidence of intracranial metastatic disease.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration (FNA) of a subcarinal lymph node. Pathologic review of the specimen confirmed poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-FNA.
+- No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+- A loss-of-function mutation was identified in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 59-year-old with a new diagnosis of treatment-naive, non-metastatic Stage IIIA (cT2bN2M0) non-small cell lung cancer of adenocarcinoma histology. The patient has a good performance status. Molecular profiling of the tumor is notable for the absence of common targetable driver mutations but did reveal an STK11 loss-of-function mutation. The patient is seen in clinic today to review these findings and discuss the diagnosis.

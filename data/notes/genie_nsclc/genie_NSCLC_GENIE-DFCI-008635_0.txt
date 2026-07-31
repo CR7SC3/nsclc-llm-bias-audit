@@ -1,0 +1,20 @@
+**HPI:**
+This is a 42-year-old who is seen in our oncology clinic for an initial consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive, localized pain in the mid-thoracic back. The back pain was initially attributed to a muscle strain but did not resolve with conservative measures. Due to the persistence of symptoms, a chest X-ray was performed by their primary care provider, which revealed a left upper lobe lung mass.
+
+The patient was subsequently referred for further evaluation. A CT scan of the chest, abdomen, and pelvis was performed which confirmed a 4.2 cm spiculated mass in the left upper lobe, associated with mediastinal lymphadenopathy. Critically, the scan also identified a lytic lesion in the T7 vertebral body, suspicious for a metastasis. A whole-body PET/CT scan was then obtained for staging, which demonstrated intense FDG uptake in the primary lung mass, several mediastinal lymph nodes, and a solitary focus of high avidity in the T7 vertebral body, consistent with metastatic disease. A brain MRI was performed as part of the staging workup and was negative for intracranial metastases.
+
+The patient has a past history of tobacco use but quit over one year ago. They are otherwise active and maintain a good appetite and stable weight. They report that the back pain is now managed with scheduled over-the-counter analgesics. Functionally, they are fully ambulatory and carrying out all activities of daily living but are limited in more strenuous physical activity due to the back pain, corresponding to an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+CT-guided core needle biopsy of the left upper lobe lung mass was performed on [De-identified Date]. Pathology confirmed the diagnosis of invasive adenocarcinoma, non-small cell type.
+
+Staging imaging, including a contrast-enhanced CT of the chest, abdomen, and pelvis and a whole-body PET/CT, confirms a primary lung malignancy with locoregional nodal involvement and a solitary site of distant metastasis in the thoracic spine.
+
+- CT Chest/Abdomen/Pelvis: 4.2 cm spiculated mass in the left upper lobe. Enlarged mediastinal lymph nodes. A 1.5 cm lytic lesion within the T7 vertebral body. No other distant visceral metastases identified in the liver, adrenal glands, or elsewhere.
+- Brain MRI: No evidence of intracranial metastatic disease.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue from the lung biopsy. No actionable driver alteration was identified. The tumor was found to be negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. KRAS and ERBB2 were also wild-type. Tumor mutational burden (TMB) was intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as this was not standard of care at the time of the initial biopsy.
+
+**Problem Summary:**
+In summary, this is a 42-year-old former smoker presenting with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology, with a solitary metastasis to bone. Comprehensive molecular profiling of the tumor did not identify any targetable oncogenic drivers. The patient has a good performance status and is seen today to discuss the diagnosis and establish care.

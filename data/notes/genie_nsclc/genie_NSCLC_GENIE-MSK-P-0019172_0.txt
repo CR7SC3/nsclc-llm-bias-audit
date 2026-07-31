@@ -1,0 +1,19 @@
+**HPI:**
+This is a 69-year-old individual with a history of former tobacco use (quit over a year ago) who is referred for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when there was an onset of a persistent, non-productive cough and progressive dyspnea on exertion. Over the past several weeks, the patient also developed a focal, sharp pain in the right posterior chest wall. These symptoms prompted an evaluation by a primary care provider. The patient is otherwise active and independent with activities of daily living, though reports increased fatigue.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity and a right-sided pleural effusion. A subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed on [De-identified date] for staging. This study confirmed a 5.2 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The CT also demonstrated evidence of widespread metastatic disease, including multiple hypodense hepatic lesions consistent with metastases, a lytic lesion in the right eighth rib corresponding to the patient's site of pain, and a moderate-to-large right-sided malignant pleural effusion.
+
+A staging MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of an accessible 2.5 cm lesion in the liver. Pathologic examination of the biopsy specimen confirmed metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1, consistent with a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tissue specimen.
+- An actionable driver mutation was detected in **KRAS (G12C)**.
+- Testing was **negative** for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Immunohistochemistry for PD-L1 was performed, and the result was **negative** (Tumor Proportion Score < 1%).
+- Tumor Mutational Burden (TMB) was found to be **intermediate** (12 mutations/megabase).
+
+**Problem Summary:**
+This is a 69-year-old individual with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is characterized by a KRAS G12C mutation, negative PD-L1 expression, and an intermediate tumor mutational burden. Staging studies demonstrate metastatic disease to the liver, bone, and pleura. The patient has a good performance status (ECOG 1) and presents today to discuss the diagnosis and establish care.

@@ -1,0 +1,23 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 57-year-old individual with a past medical history significant for ovarian cancer, now in remission, who is referred for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to an outside facility approximately six weeks ago with a persistent, non-productive cough. An initial chest radiograph demonstrated a right upper lobe opacity, prompting further investigation. The patient is otherwise well, reporting no fevers, chills, hemoptysis, or unintentional weight loss. Performance status is excellent, ECOG 0. The patient is a lifetime never-smoker.
+
+**DIAGNOSTIC WORKUP**
+Staging workup was initiated. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a 3.8 cm spiculated mass in the right upper lobe. It also revealed prominent ipsilateral mediastinal lymphadenopathy, including enlarged paratracheal and subcarinal nodes, with the largest measuring 2.2 cm in short-axis diameter. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other visualized intra-abdominal organs.
+
+A subsequent PET/CT scan on [De-identified Date] confirmed intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal nodal stations corresponding to the CT findings. There was no evidence of FDG-avid disease elsewhere to suggest distant metastases.
+
+A staging MRI of the brain with and without contrast was completed on [De-identified Date] and was negative for intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology returned invasive adenocarcinoma, moderately differentiated.
+
+Based on this workup, the patient is diagnosed with AJCC 8th Edition Stage IIIA non-small cell lung cancer.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing was performed on the tumor tissue from the lung biopsy. The following results were reported:
+- **Actionable Driver:** An activating EGFR point mutation, L858R in exon 21, was detected.
+- **Other Markers:** The tumor was found to be negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+- **Tumor Mutational Burden (TMB):** TMB was reported as intermediate (2–16 mut/Mb).
+- **PD-L1:** PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY**
+This is a 57-year-old never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIIA non-small cell lung cancer of adenocarcinoma histology. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation. The patient is treatment-naive for this malignancy. The clinical situation was discussed in detail.

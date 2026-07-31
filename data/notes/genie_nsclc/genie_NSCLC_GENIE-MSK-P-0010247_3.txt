@@ -1,0 +1,21 @@
+**HISTORY OF PRESENT ILLNESS:**
+This is a 77-year-old with a past medical history of breast cancer, who is seen in consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough. This prompted an evaluation by their primary care provider, which included a chest X-ray that was suspicious for a lung mass. The patient is a former smoker, having quit over a year ago. On review of systems, the patient reports the cough but denies hemoptysis, chest pain, or significant shortness of breath. They note a mild decrease in energy but remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified Date]. This confirmed the presence of a 3.1 cm spiculated mass in the right upper lobe. There was no evidence of pleural effusion or definite mediastinal lymphadenopathy.
+
+For staging, a PET/CT scan was performed on [De-identified Date]. This demonstrated intense FDG-avidity in the known right upper lobe primary mass. No other sites of FDG-avid disease were identified to suggest regional nodal involvement or distant metastases. A brain MRI with and without contrast was also obtained as part of the standard staging workup and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathology from this specimen confirmed a diagnosis of adenocarcinoma.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIA non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- Actionable driver mutation detected: EGFR L858R point mutation (sensitizing).
+- The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was low (<2 mut/Mb).
+- PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 77-year-old former smoker with a past medical history of breast cancer who presents with a new diagnosis of treatment-naive, non-metastatic, Stage IIA non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for a sensitizing EGFR L858R mutation. The patient is seen today for initial oncology consultation to discuss the diagnosis.

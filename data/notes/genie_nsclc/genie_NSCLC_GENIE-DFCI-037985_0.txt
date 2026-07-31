@@ -1,0 +1,23 @@
+**HPI:**
+This is a 70-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately 6 weeks prior to this evaluation, when they began to develop a persistent, non-productive cough and mild dyspnea on exertion. Over the past month, these symptoms have been accompanied by new-onset intermittent headaches and a feeling of unsteadiness. Due to the progression of these symptoms, the patient presented for medical evaluation. They report increased fatigue but remain ambulatory and are able to perform all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray that revealed a suspicious right upper lobe lung opacity.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study characterized a 3.8 cm spiculated mass in the right upper lobe, with associated bulky mediastinal and right hilar adenopathy.
+
+Given the patient's presenting neurologic symptoms, a brain MRI with and without contrast was obtained. This imaging demonstrated multiple, well-circumscribed, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+
+A whole-body PET/CT scan was performed for staging, which confirmed high FDG-avidity in the primary right lung mass, the mediastinal/hilar lymph nodes, and the known cerebral metastases. No other sites of FDG-avid disease were identified in the neck, chest, abdomen, or pelvis.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified date]. Pathologic analysis confirmed a diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. Comprehensive testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+PD-L1 expression was not tested, as this was not standard practice at the time of the initial tissue analysis.
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker presenting for initial evaluation of a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of adenocarcinoma histology, metastatic to the brain. Molecular profiling of the tumor is negative for common actionable driver mutations. The patient is here today to discuss the diagnosis and establish care.

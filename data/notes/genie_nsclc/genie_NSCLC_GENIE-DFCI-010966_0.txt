@@ -1,0 +1,19 @@
+**HPI:**
+This is a 72-year-old individual with a history of former tobacco use (quit over one year ago) who is seen today for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months ago when they developed a persistent dry cough. An initial course of antibiotics from their primary care provider did not lead to resolution. Subsequent evaluation with a chest X-ray revealed a right-sided lung nodule, prompting further diagnostic imaging.
+
+The patient reports good energy levels and denies constitutional symptoms, including fevers, chills, night sweats, or unintentional weight loss. There is no reported hemoptysis, chest pain, or dyspnea. The patient maintains full independence with all activities of daily living and continues to engage in their usual hobbies. ECOG performance status is 0.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest with contrast revealed a 2.4 cm solid, spiculated nodule in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For staging purposes, a PET/CT was performed. This study demonstrated intense FDG uptake corresponding to the known right upper lobe nodule. Importantly, there was no evidence of FDG-avid regional nodal involvement or distant metastatic disease in the neck, chest, abdomen, or pelvis.
+
+Given the PET findings, a CT-guided core needle biopsy of the right upper lobe nodule was performed by interventional radiology on [De-identified Date]. Pathologic analysis of the tissue confirmed invasive adenocarcinoma.
+
+A staging MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the core biopsy. The results were positive for a KRAS G12C mutation. Additional testing was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor mutational burden (TMB) was reported as high (>16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 72-year-old, treatment-naive patient with an excellent performance status who presents with a new diagnosis of clinical Stage IB non-small cell lung cancer, adenocarcinoma histology. The workup has confirmed disease localized to the right upper lobe without evidence of nodal or distant metastatic spread. Molecular testing of the tumor is notable for a KRAS G12C mutation and a high tumor mutational burden.

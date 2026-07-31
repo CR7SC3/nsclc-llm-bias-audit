@@ -1,0 +1,30 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 78-year-old who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until a routine chest X-ray, performed for a non-pulmonary issue, revealed a suspicious left upper lobe nodule.
+
+A follow-up CT scan of the chest was performed which confirmed the presence of a 1.8 cm solid, spiculated nodule in the apical segment of the left upper lobe. There was no associated mediastinal or hilar lymphadenopathy noted. The patient was subsequently referred for a CT-guided core needle biopsy of this lesion. Pathology from this procedure confirmed the diagnosis of invasive adenocarcinoma.
+
+Staging evaluations were pursued, including a PET/CT scan and a brain MRI. These studies did not demonstrate evidence of regional nodal involvement or distant metastatic disease.
+
+The patient is a former smoker, having quit over a decade ago. They are currently asymptomatic from this diagnosis, with a reported ECOG performance status of 0. They deny any cough, shortness of breath, hemoptysis, chest pain, or recent weight loss. The history was obtained from the patient and a review of all available outside medical records and imaging.
+
+**Diagnostic Workup:**
+*   **Imaging:**
+    *   **CT Chest with contrast, [De-identified date]:** Revealed a 1.8 cm solid, spiculated nodule in the left upper lobe. No mediastinal or hilar adenopathy.
+    *   **PET/CT, [De-identified date]:** Showed focal FDG-avidity confined to the left upper lobe nodule. There was no evidence of hypermetabolic activity in mediastinal or hilar lymph nodes, nor in any distant sites to suggest metastatic disease.
+    *   **MRI Brain with and without contrast, [De-identified date]:** Negative for intracranial metastasis.
+
+*   **Pathology:**
+    *   **Left upper lobe lung nodule, CT-guided core biopsy, [De-identified date]:** Invasive adenocarcinoma, acinar predominant pattern.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing was performed on the biopsy specimen. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. The Tumor Mutational Burden (TMB) was found to be high at >16 mut/Mb.
+
+**Problem Summary:**
+In summary, this is a 78-year-old former smoker with an excellent performance status who presents with a new diagnosis of clinical Stage IA non-small cell lung cancer, adenocarcinoma histology. Staging workup is negative for any regional or distant metastatic disease. Molecular profiling of the tumor is notable for a high Tumor Mutational Burden but is negative for any identified actionable driver mutations.

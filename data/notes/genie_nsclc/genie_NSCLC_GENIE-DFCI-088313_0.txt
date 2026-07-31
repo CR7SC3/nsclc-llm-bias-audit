@@ -1,0 +1,18 @@
+**HPI:**
+This is a 53-year-old former smoker who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago, when they began experiencing persistent, dull headaches and a new, non-productive cough. Initially, the cough was attributed to their smoking history (quit within the last year), but the headaches became progressively more frequent. Due to the neurologic symptoms, the patient underwent an evaluation which included brain imaging. This revealed findings suspicious for metastatic disease, which prompted a subsequent systemic workup. The patient has an ECOG performance status of 1, fully ambulatory and able to carry out light work, but limited by symptoms.
+
+**Diagnostic Workup:**
+A diagnostic evaluation was pursued to identify a primary malignancy and confirm the extent of disease.
+- **Brain MRI ([De-identified Date]):** Revealed multiple enhancing parenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+- **CT Chest, Abdomen, and Pelvis with contrast ([De-identified Date]):** Imaging identified a 3.8 cm spiculated mass in the left upper lobe of the lung, associated with ipsilateral mediastinal and hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+- **CT-guided Core Needle Biopsy of Left Lung Mass ([De-identified Date]):** Pathologic evaluation of the tissue specimen confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Tumor tissue from the lung biopsy was sent for next-generation sequencing to identify molecular drivers and biomarkers.
+- **Actionable Driver Mutations:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** Testing was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+- **Tumor Mutational Burden (TMB):** TMB was determined to be intermediate (reported as 9 mutations/megabase).
+- **PD-L1:** PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 53-year-old with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the brain. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis in detail.

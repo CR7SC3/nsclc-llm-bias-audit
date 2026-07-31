@@ -1,0 +1,29 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 49-year-old with a new diagnosis of non-small cell lung cancer, referred for initial consultation and discussion of management. The patient is a former smoker (quit >1 year ago). Past medical history is notable for a prior renal kidney cancer, which was managed with surgical resection several years prior with no evidence of recurrence.
+
+The patient was in their usual state of health until approximately two months ago when they developed a persistent, non-productive cough. This was initially attributed to a viral illness but failed to resolve with conservative measures. Due to the persistence of symptoms, a chest x-ray was obtained which revealed a right-sided pulmonary opacity, prompting further investigation with a CT scan of the chest.
+
+The patient reports the persistent cough but denies hemoptysis, significant dyspnea, or chest pain. They note a mild decrease in energy but have been able to maintain daily activities and employment. There has been no significant weight loss. Review of systems is otherwise negative. The patient is here today to review the completed diagnostic workup and discuss the diagnosis. Performance status is excellent, ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+*   **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 3.5 cm spiculated mass in the right upper lobe. Also noted was prominent right-sided hilar and ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.2 cm in the paratracheal station. The liver, adrenal glands, and other visualized abdominal organs were free of suspicious metastatic lesions.
+*   **PET/CT:** Performed for staging. This demonstrated intense FDG-avidity in the known right upper lobe primary tumor (SUVmax 12.5) and in the right hilar and ipsilateral mediastinal lymph nodes, consistent with the CT findings. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread.
+*   **MRI Brain with contrast:** Performed for central nervous system staging, this was negative for any evidence of intracranial metastasis.
+*   **Bronchoscopy with EBUS-FNA:** An endobronchial ultrasound-guided fine-needle aspiration of a right paratracheal lymph node was performed. Pathology from this sample confirmed metastatic adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tissue biopsy specimen.
+*   **Actionable Driver Mutations:** EGFR exon 19 deletion DETECTED.
+*   **Other Genes Tested (Not Detected):** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+*   **PD-L1 Tumor Proportion Score (TPS):** Negative (<1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 49-year-old with a new diagnosis of non-metastatic, Stage IIIA (AJCC 8th Edition) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup confirmed a primary right upper lobe tumor with ipsilateral mediastinal lymph node involvement. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents for initial oncologic evaluation.

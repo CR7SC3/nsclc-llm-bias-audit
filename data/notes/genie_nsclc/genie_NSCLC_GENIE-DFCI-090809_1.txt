@@ -1,0 +1,17 @@
+**HPI:**
+This is a 60-year-old individual with a past medical history of treated esophagus cancer who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility with a several-month history of a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray revealed a right upper lobe opacity, which prompted further investigation. The patient is a current smoker. Review of systems is otherwise negative for hemoptysis, fevers, chills, or significant weight loss. The patient maintains an excellent functional status, carrying out all activities of daily living without restriction, and is assessed as ECOG Performance Status 1.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis with contrast was performed, which identified a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed bulky right-sided mediastinal and hilar lymphadenopathy, with the largest node measuring 2.8 cm in the subcarinal station. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs.
+
+To complete staging, a PET/CT was obtained. This study demonstrated intense FDG-avidity corresponding to the known right upper lobe primary mass as well as in multiple ipsilateral mediastinal and hilar lymph node stations (N2 disease). There was no evidence of FDG-avid disease in the contralateral hemithorax or at any distant sites to suggest metastatic disease.
+
+Given the locally advanced nature of the disease, a staging MRI of the brain with and without contrast was performed, which was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathology confirmed the diagnosis of non-small cell lung cancer with features most consistent with adenocarcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the core biopsy. No actionable driver alteration was identified; testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 expression was not tested, as this was not standard of care at the time the tissue was sequenced.
+
+**Problem Summary:**
+In summary, this is a 60-year-old current smoker who presents for initial evaluation of a new diagnosis of treatment-naive, locally advanced non-small cell lung cancer. The diagnosis is Stage IIIA (AJCC 8th Edition) NSCLC, adenocarcinoma histology, based on a right upper lobe primary tumor with extensive ipsilateral mediastinal lymph node involvement and a negative workup for distant metastatic disease. Molecular profiling is negative for actionable driver alterations. The patient has an excellent performance status (ECOG 1) and is here to discuss the diagnosis.

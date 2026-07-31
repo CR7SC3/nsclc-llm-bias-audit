@@ -1,0 +1,25 @@
+**INITIAL CONSULTATION NOTE**
+MRN: [De-identified]
+Date of Visit: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 57-year-old who presents for initial medical oncology evaluation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of excellent health and has a documented history as a never-smoker. Approximately three months prior to this consultation, the patient developed a persistent dry cough. An initial course of antibiotics from their primary care provider did not lead to resolution of symptoms. Due to the persistent nature of the cough, a chest radiograph was obtained, which revealed a right-sided pulmonary opacity. This prompted further diagnostic evaluation. The patient reports the cough but denies hemoptysis, chest pain, fevers, or significant weight loss. Performance status is excellent; the patient remains fully active and ambulatory, carrying out all normal activities with some symptoms (ECOG 1).
+
+**DIAGNOSTIC WORKUP:**
+- **CT Chest/Abdomen/Pelvis with Contrast, [De-identified]:** This study was performed to characterize the abnormality seen on chest X-ray. It demonstrated a 5.5 cm spiculated mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy. The visualized portions of the upper abdomen, including the liver and adrenal glands, were unremarkable and without evidence of metastatic lesions.
+
+- **PET/CT, [De-identified]:** A whole-body PET/CT was performed for staging. This confirmed intense FDG-avidity within the known right upper lobe mass, consistent with malignancy. There was no evidence of FDG-avid disease in regional lymph nodes or at any distant sites, including the contralateral lung, liver, adrenal glands, or skeleton.
+
+- **MRI Brain with and without Contrast, [De-identified]:** A dedicated brain MRI was performed as part of the standard staging workup for non-small cell lung cancer. The study was negative for any evidence of intracranial metastatic disease.
+
+- **CT-Guided Core Needle Biopsy, [De-identified]:** A biopsy of the right upper lobe mass was performed by Interventional Radiology. Pathologic analysis of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Pathology from the core biopsy specimen was sent for next-generation sequencing. The results are as follows:
+- **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **Tumor Mutational Burden (TMB):** Low (<2 mutations/megabase).
+- **PD-L1 Expression:** Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 57-year-old never-smoker with an excellent performance status (ECOG 1) who presents for consultation regarding a new diagnosis of Stage IIB (cT3 N0 M0) non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup has confirmed disease localized to the right lung without evidence of regional nodal or distant metastatic spread. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion.

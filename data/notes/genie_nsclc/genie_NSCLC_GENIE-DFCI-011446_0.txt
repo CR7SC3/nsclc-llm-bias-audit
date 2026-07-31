@@ -1,0 +1,23 @@
+**HISTORY OF PRESENT ILLNESS**
+
+This is a 51-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial medical oncology consultation. The patient was in their usual state of excellent health until approximately six weeks ago, when they noted the insidious onset of a dry, persistent cough and progressive dyspnea on exertion. These symptoms worsened to the point of causing shortness of breath with minimal activity, which prompted a visit to an urgent care center on [De-identified Date].
+
+A chest X-ray performed at that time revealed a large left-sided pleural effusion and suspicion for a left lung mass. The patient was subsequently referred for further evaluation. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 3.8 cm spiculated mass in the left upper lobe, extensive left-sided pleural nodularity, and a large, loculated malignant-appearing pleural effusion. No mediastinal or hilar lymphadenopathy was definitively identified. The visualized portions of the abdomen and pelvis, including the liver, adrenal glands, and bones, were negative for metastatic disease. An MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of a left-sided pleural nodule. Pathologic examination of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+The patient reports a 5-pound unintentional weight loss over the past two months and fatigue, but is otherwise well. They deny fevers, chills, night sweats, or significant chest pain. They remain fully ambulatory and are managing all activities of daily living without assistance. Their ECOG performance status is 1. The patient is a lifetime never-smoker.
+
+**MOLECULAR STUDIES**
+
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the pleural biopsy. Key findings are as follows:
+- **Actionable Driver Mutation:** An activating EGFR point mutation, L858R in exon 21, was detected.
+- **Other Markers:** Testing was negative for fusions or mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS.
+- **PD-L1 Expression:** Tumor Proportion Score (TPS) is 25%.
+- **Tumor Mutational Burden (TMB):** Intermediate, at 11 mutations/megabase.
+
+**PROBLEM SUMMARY**
+
+In summary, this is a 51-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the pleura (cT2 N0 M1a). The patient has an excellent performance status (ECOG 1). Molecular profiling is notable for a sensitizing EGFR L858R mutation.
+
+At today's initial consultation, we discussed the diagnosis of a metastatic lung cancer. I explained that while the disease is not curable, it is treatable, with the primary goals of therapy being to control the cancer, improve symptoms, and prolong life while maintaining the best possible quality of life. We reviewed the diagnostic findings, pathology, and the significance of the identified EGFR mutation in guiding therapy choices. The patient and their family had the opportunity to ask questions, which were answered in full.

@@ -1,0 +1,24 @@
+**HPI:**
+This is a 69-year-old with a recent diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation to discuss the diagnosis and potential management options. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately six weeks ago, when they began experiencing intermittent, dull headaches and a new, dry cough. The headaches gradually increased in frequency, prompting a visit to their primary care provider. An initial neurologic exam was non-focal. Due to the persistent nature of the headaches, a brain MRI was ordered. This study revealed multiple enhancing intracranial lesions concerning for metastatic disease.
+
+Subsequently, the patient underwent a staging CT scan of the chest, abdomen, and pelvis, which identified a primary mass in the left upper lobe of the lung. There was no evidence of metastatic disease in the chest or abdomen. The patient was referred for a CT-guided core needle biopsy of the lung lesion, which confirmed the diagnosis of non-small cell lung cancer.
+
+The patient reports mild fatigue but remains active and independent with all activities of daily living. They have had no significant weight loss, hemoptysis, or bone pain. Performance status is excellent, ECOG 1.
+
+**Diagnostic Workup:**
+*   **Brain MRI (with and without contrast):** Revealed three enhancing lesions in the right cerebellum and left frontal lobe, the largest measuring 1.2 cm, consistent with metastatic deposits. Associated vasogenic edema was mild.
+*   **CT Chest/Abdomen/Pelvis (with contrast):** Showed a 3.8 cm spiculated mass in the left upper lobe. Mediastinal lymph nodes were sub-centimeter. No evidence of metastatic disease to the contralateral lung, liver, adrenal glands, or bones.
+*   **Pathology (CT-guided biopsy of left lung mass):** Invasive, moderately differentiated adenocarcinoma. Immunohistochemical stains were consistent with a primary lung origin.
+*   **Staging:** Based on the presence of a primary lung tumor and distant brain metastases, the diagnosis is Stage IV NSCLC (AJCC 8th Edition).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+*   **Actionable Mutations:** KRAS G12C mutation detected.
+*   **Negative for pathogenic alterations in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+*   **PD-L1 Expression:** Not tested.
+
+**Problem Summary:**
+This is a 69-year-old, treatment-naive individual with an excellent performance status who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the brain. Molecular profiling of the tumor is positive for a KRAS G12C mutation.

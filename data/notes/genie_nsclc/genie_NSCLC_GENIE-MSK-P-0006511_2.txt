@@ -1,0 +1,32 @@
+Patient ID: [De-identified]
+Visit Date: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 65-year-old with a pertinent past medical history of bladder cancer, now presenting for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient presented to an outside facility several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a right upper lobe opacity, prompting further investigation. A subsequent contrast-enhanced CT of the chest confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe, without significant mediastinal or hilar adenopathy. The patient is a current smoker and reports a good performance status, remaining active with minimal symptoms.
+
+For staging purposes, a PET/CT was performed. This study demonstrated intense FDG-avidity in the known right upper lobe mass. There was no evidence of hypermetabolic activity in regional lymph nodes or at any distant sites to suggest metastatic disease. A brain MRI was also performed as part of the staging workup and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis confirmed the diagnosis of squamous cell carcinoma. The patient is now referred for discussion of the diagnosis and to establish care.
+
+**PAST MEDICAL HISTORY:**
+- Bladder Cancer, status post prior treatment, reportedly with no current evidence of disease.
+- Current smoker.
+
+**DIAGNOSTIC WORKUP:**
+- **CT Chest:** Revealed a 4.2 cm spiculated mass in the right upper lobe. No significant mediastinal or hilar lymphadenopathy.
+- **PET/CT:** Intense FDG uptake in the right upper lobe mass. No evidence of regional nodal involvement or distant metastatic disease.
+- **MRI Brain:** Negative for intracranial metastasis.
+- **Biopsy, Right Upper Lobe Mass:** CT-guided core biopsy showed invasive, moderately differentiated squamous cell carcinoma.
+- **Staging:** Based on the above workup, the patient is staged as AJCC 8th Edition, Stage IIA (T2bN0M0).
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Actionable driver(s) detected:** KRAS G12C mutation.
+- **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2 mutations or rearrangements.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+- **PD-L1:** Not tested.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 65-year-old current smoker with a new diagnosis of Stage IIA (T2bN0M0) squamous non-small cell lung cancer. Molecular profiling of the tumor is notable for a KRAS G12C mutation. The patient is treatment-naive and presents today for initial consultation and to discuss the implications of this diagnosis.

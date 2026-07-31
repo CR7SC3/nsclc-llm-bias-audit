@@ -1,0 +1,17 @@
+**HPI:**
+This is a 75-year-old who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately one month prior to presentation, when they began to develop progressive shortness of breath with exertion and a persistent, dry cough. These symptoms worsened to the point of limiting daily activities, prompting a visit to an urgent care center on [De-identified date]. A chest X-ray performed at that time revealed a large left-sided pleural effusion.
+
+The patient was subsequently referred to the emergency department for further evaluation and was admitted for a diagnostic workup. They report some associated fatigue but deny fevers, chills, night sweats, or significant weight loss. They specifically deny any headaches, vision changes, focal weakness, or bone pain. The patient is a former smoker, having quit over 15 years ago. Performance status is estimated to be ECOG 1, limited primarily by dyspnea.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. Imaging revealed a 4.2 cm spiculated mass in the left upper lobe, highly suspicious for a primary malignancy. A large, loculated left pleural effusion was also identified, along with associated pleural thickening. No suspicious contralateral lung nodules were seen. There was no evidence of distant metastatic disease to the liver, adrenal glands, or bones. A brain MRI with and without contrast was subsequently performed and was negative for any intracranial metastases.
+
+On [De-identified date], the patient underwent a video-assisted thoracoscopic surgery (VATS) for drainage of the effusion and pleural biopsy. Pathologic analysis of the pleural tissue confirmed the diagnosis of invasive adenocarcinoma. Cytologic evaluation of the pleural fluid was also positive for malignant cells, confirming a malignant pleural effusion. The overall findings are consistent with AJCC Stage IV (M1a) disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural biopsy tissue. An activating KRAS G12C mutation was detected. The tumor was negative for other actionable driver mutations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 75-year-old with a new diagnosis of treatment-naive, Stage IV (M1a) non-small cell lung adenocarcinoma with a malignant pleural effusion. Molecular profiling is notable for a KRAS G12C mutation and high PD-L1 expression (TPS ≥50%). The patient has an ECOG performance status of 1 and is here today for an initial consultation to discuss the diagnosis in detail.

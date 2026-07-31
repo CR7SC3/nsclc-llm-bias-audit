@@ -1,0 +1,38 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+The patient is a 64-year-old who is seen in the Thoracic Oncology clinic today for a new diagnosis of non-small cell lung cancer. This is an initial consultation. The history was obtained from the patient and through a comprehensive review of available medical records.
+
+**HISTORY OF PRESENT ILLNESS**
+
+The patient is a former smoker (quit over one year ago) who was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. The cough did not improve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity.
+
+This prompted a follow-up contrast-enhanced CT of the chest, which confirmed the presence of a solid, spiculated mass in the posterior segment of the right upper lobe. No associated mediastinal, hilar, or axillary lymphadenopathy was identified. For definitive staging, a PET/CT was performed. This study demonstrated intense FDG avidity within the known right upper lobe mass, with no evidence of FDG-avid disease in the regional lymph nodes or at any distant sites. A staging MRI of the brain was also performed and was negative for intracranial metastasis.
+
+Following the imaging workup, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure established the diagnosis of non-small cell lung cancer. The patient has had no significant weight loss, hemoptysis, or chest pain. Performance status is excellent, ECOG 0. The patient is here today to discuss the diagnosis and potential management options.
+
+**DIAGNOSTIC WORKUP**
+
+**Imaging:**
+*   **CT Chest with Contrast:** Revealed a 3.2 cm solid, spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was noted.
+*   **PET/CT:** Showed an intensely FDG-avid right upper lobe mass (SUVmax 9.4) corresponding to the lesion seen on CT. No other sites of abnormal FDG uptake were identified to suggest nodal or distant metastatic disease.
+*   **MRI Brain with and without Contrast:** Negative for evidence of intracranial metastatic disease.
+
+**Pathology:**
+*   **CT-guided Core Biopsy, Right Upper Lobe Mass:**
+    *   **Final Diagnosis:** Non-small cell carcinoma, consistent with squamous cell carcinoma.
+
+**MOLECULAR STUDIES**
+
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **Tumor Mutational Burden (TMB):** Intermediate (reported as 11 mutations/megabase).
+*   **PD-L1 Expression:** Not tested.
+
+**PROBLEM SUMMARY**
+
+In summary, this is a 64-year-old with an excellent performance status and a new diagnosis of Stage IB (pT2a N0 M0) non-small cell lung cancer of squamous histology, diagnosed via biopsy of a right upper lobe mass. The comprehensive staging workup, including PET/CT and brain MRI, shows no evidence of regional nodal involvement or distant metastatic disease. Molecular profiling of the tumor is negative for any identified actionable driver alterations. I have reviewed the pertinent pathology and imaging studies in detail. I have had a detailed discussion with the patient regarding these findings.

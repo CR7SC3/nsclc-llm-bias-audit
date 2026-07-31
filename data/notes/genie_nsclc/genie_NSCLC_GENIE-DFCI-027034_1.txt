@@ -1,0 +1,25 @@
+**HPI:**
+This is a 76-year-old individual with a past medical history significant for a prior Head and Neck Cancer, who is referred for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately three months ago when they began to experience a persistent, dry cough and progressive shortness of breath with exertion. Over the past month, the patient also developed intermittent headaches and a feeling of unsteadiness, which prompted a visit to their primary care provider. The patient is a former smoker, having quit more than one year ago. Despite the new symptoms, the patient remains ambulatory and able to perform all activities of daily living, though fatigue has become more pronounced.
+
+**Diagnostic Workup:**
+An initial workup was initiated, beginning with chest imaging that was suspicious for a primary lung malignancy.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study identified a 4.8 cm primary mass in the right upper lobe with associated bulky mediastinal and hilar lymphadenopathy. No metastatic disease was identified within the chest, abdomen, or pelvis on this scan.
+
+Given the patient's neurological symptoms, a contrast-enhanced MRI of the brain was performed. This revealed several discrete, enhancing lesions within the bilateral cerebral hemispheres, consistent with intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathological review of the specimen confirmed poorly differentiated adenocarcinoma. The morphology is consistent with a lung primary.
+
+Taken together, these findings are consistent with AJCC 8th Edition Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor biopsy specimen. The results are as follows:
+*   **Actionable Driver Mutation:** KRAS G12C mutation was detected.
+*   **Other Markers:** The tumor was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 Tumor Proportion Score (TPS) is positive in the 1–49% range.
+*   **Tumor Mutational Burden (TMB):** TMB is intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 76-year-old individual with a new diagnosis of metastatic (Stage IV) non-small cell lung adenocarcinoma, with confirmed metastases to the brain. Molecular analysis of the tumor is notable for a KRAS G12C mutation and a PD-L1 TPS of 1-49%. The patient is treatment-naive for this malignancy and is seen today for initial consultation.

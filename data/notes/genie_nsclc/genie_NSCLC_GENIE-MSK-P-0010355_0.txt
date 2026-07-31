@@ -1,0 +1,31 @@
+**INITIAL ONCOLOGY CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENTING ILLNESS:**
+This is a 68-year-old individual with a history of former tobacco use (quit >1 year ago) who is seen today for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. Over the subsequent weeks, they noted unintentional weight loss and the onset of intermittent headaches. Due to the persistence of these symptoms, they presented to their primary care provider.
+
+An initial chest X-ray revealed a right-sided lung mass, prompting further investigation with a contrast-enhanced CT of the chest, abdomen, and pelvis. This study confirmed a large primary mass in the right lung with associated mediastinal adenopathy, as well as multiple lesions in the liver and a suspicious lesion in the thoracic spine, concerning for metastatic disease. Given the report of headaches, a brain MRI was performed which demonstrated multiple cerebral metastases. The patient has remained ambulatory and is managing activities of daily living, though is symptomatic from their disease burden. Their ECOG performance status is estimated to be 1.
+
+**DIAGNOSTIC WORKUP:**
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with Contrast:** Revealed a 5.2 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. Multiple hypoattenuating lesions were noted throughout the liver, the largest measuring 3.4 cm, highly suspicious for metastatic deposits. A lytic lesion was identified in the T8 vertebral body.
+*   **MRI Brain with and without Contrast:** Demonstrated at least five distinct enhancing intraparenchymal lesions in the bilateral cerebral hemispheres, consistent with metastatic disease.
+*   **PET/CT:** Performed for staging, this showed intense FDG-avidity corresponding to the known right upper lobe lung primary, mediastinal lymph nodes, multiple liver lesions, and the T8 vertebral body lesion. No other sites of distant FDG-avid disease were identified.
+
+**Pathology:**
+*   **CT-guided core biopsy of a liver lesion:** Histopathologic examination revealed poorly differentiated adenocarcinoma. Immunohistochemical staining was positive for TTF-1 and Napsin-A, and negative for GI and other markers, confirming a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue from the liver biopsy.
+*   **Actionable Mutations:** An activating KRAS G12C mutation was identified.
+*   **Negative for other drivers:** Testing was negative for genomic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1 Expression:** PD-L1 testing was not performed on this specimen.
+*   **Tumor Mutational Burden (TMB):** TMB was reported as intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 68-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The clinical workup confirms metastatic disease involving the brain, liver, and bone. The patient has an ECOG performance status of 1. Molecular profiling of the tumor is notable for the presence of a KRAS G12C mutation. The patient is here for initial consultation to discuss the diagnosis and the implications of these findings.

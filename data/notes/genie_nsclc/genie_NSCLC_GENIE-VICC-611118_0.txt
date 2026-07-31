@@ -1,0 +1,19 @@
+**HPI:**
+This is a 37-year-old individual with a history of being a never-smoker, referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided pleuritic chest pain. Symptoms were initially attributed to a musculoskeletal strain. Over the subsequent weeks, the patient noted increasing fatigue, an unintentional weight loss of approximately 10 pounds, and new-onset dull pain in the mid-back. Due to worsening shortness of breath on exertion, the patient presented to an outside emergency department for evaluation.
+
+**Diagnostic Workup:**
+Initial workup in the emergency department included a chest X-ray which demonstrated a right-sided lung mass and a moderate pleural effusion. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging on [De-identified Date]. This study confirmed the presence of a spiculated mass in the right lower lobe, measuring approximately 5.2 cm. The scan revealed extensive metastatic disease, including multiple nodular densities in the contralateral (left) lung, several hypodense lesions throughout the liver consistent with metastases, and multiple lytic osseous lesions in the thoracic spine and ribs. A significant right-sided malignant pleural effusion was also noted.
+
+A dedicated MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the primary right lung mass. The procedure was uncomplicated. Histopathologic examination of the tissue confirmed a diagnosis of poorly differentiated adenocarcinoma, with features consistent with a lung primary.
+
+**Molecular Studies:**
+Tumor tissue from the core biopsy was sent for comprehensive next-generation sequencing. The key findings are as follows:
+-   **Actionable Driver Mutation:** An **NTRK fusion** was detected.
+-   **Negative for other drivers:** The panel was explicitly negative for alterations in **EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2**.
+-   **Tumor Mutational Burden (TMB):** TMB was reported as **intermediate (2–16 mut/Mb)**.
+-   **PD-L1 Expression:** PD-L1 immunohistochemistry was **not tested** on this specimen, consistent with the standard practice for the panel utilized (pre-2017).
+
+**Problem Summary:**
+In summary, this is a 37-year-old never-smoker presenting for initial oncologic evaluation of a newly diagnosed, treatment-naive, **Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology**. Staging studies demonstrate widespread metastatic disease involving the bone, liver, contralateral lung, and pleura. Comprehensive molecular profiling of the tumor is notable for the identification of an actionable NTRK fusion. The patient has a good performance status and is here today to discuss the diagnosis and establish care.

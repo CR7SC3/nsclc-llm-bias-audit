@@ -1,0 +1,55 @@
+**HPI:**
+This is a 54-year-old individual with a history of former tobacco use who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they began to develop a persistent, dry cough and progressive dyspnea on exertion. Over the subsequent weeks, they also noted mild, intermittent left-sided pleuritic chest discomfort and an unintentional 10-pound weight loss. These escalating symptoms prompted evaluation by their primary care provider, which initiated a diagnostic workup.
+
+The patient is currently functional with an ECOG performance status of 1, limited only by exertional shortness of breath. They deny fevers, chills, night sweats, or hemoptysis. Appetite is fair. They report feeling anxious about the new diagnosis but are otherwise coping well.
+
+**Past Medical History:**
+- Hypertension
+- Hyperlipidemia
+
+**Past Surgical History:**
+- None
+
+**Medications:**
+- Lisinopril
+- Atorvastatin
+
+**Allergies:**
+- No Known Drug Allergies
+
+**Family History:**
+- Non-contributory for thoracic or other malignancies.
+
+**Social History:**
+- Tobacco Use: Former smoker, quit over five years ago. Reports a prior 20 pack-year history.
+- Alcohol Use: Occasional social use.
+- Occupation: [De-identified]
+
+**Physical Exam:**
+Vitals: T 36.8C, BP 134/82, P 88, RR 18, SpO2 96% on room air.
+General: Alert and oriented, in no acute distress. Well-appearing.
+HEENT: Anicteric sclerae. Oropharynx is clear with moist mucous membranes.
+Neck: Supple, without cervical or supraclavicular lymphadenopathy.
+Lungs: Diminished breath sounds at the left base. No wheezes or rhonchi.
+Cardiovascular: Regular rate and rhythm, no murmurs, gallops or rubs.
+Abdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.
+Extremities: No clubbing, cyanosis, or edema.
+Skin: No suspicious cutaneous lesions.
+Neurologic: Grossly non-focal. Alert and oriented x3.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray that demonstrated a left-sided opacity and a small effusion.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study characterized a 3.8 cm spiculated mass in the left upper lobe. It also revealed multiple small pulmonary nodules in the right lung, suspicious for contralateral metastatic disease. A moderate left-sided pleural effusion with associated nodular pleural thickening was also identified. No evidence of hepatic, adrenal, or osseous metastases was seen.
+
+A PET/CT scan was then obtained for staging, which confirmed intense FDG-avidity in the primary left upper lobe mass, the contralateral lung nodules, and the left pleura. No other sites of FDG-avid disease were identified.
+
+A dedicated MRI of the brain with contrast was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. The pathology confirmed a diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) performed on the tumor biopsy specimen identified an activating KRAS G12C mutation. The panel was negative for other actionable genomic alterations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and ERBB2. Tumor mutational burden (TMB) was determined to be high at >16 mut/Mb. PD-L1 immunohistochemistry was not performed.
+
+**Problem Summary:**
+In summary, this is a 54-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the contralateral lung and pleura (M1a), with no evidence of brain metastases. The patient has a good performance status. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a high tumor mutational burden. The patient is here today to discuss these findings.

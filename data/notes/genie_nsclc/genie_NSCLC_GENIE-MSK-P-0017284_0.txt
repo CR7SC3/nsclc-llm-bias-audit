@@ -1,0 +1,28 @@
+**HPI:**
+This is a 62-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, referred for initial consultation and discussion of management. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough and progressive shortness of breath on exertion. This prompted an evaluation by their primary care provider, which included a chest radiograph revealing a right-sided pulmonary mass.
+
+Staging workup was initiated with a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This confirmed a large primary mass in the right lung and additionally demonstrated multiple nodules in the contralateral (left) lung, several hypodense lesions throughout the liver, and extensive mediastinal and supraclavicular lymphadenopathy. These findings were highly suspicious for widely metastatic disease. A subsequent MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right lung mass. The patient reports ongoing fatigue and dyspnea but remains fully ambulatory and capable of all self-care. Performance status is ECOG 1. Of note, the patient is a lifetime never-smoker.
+
+**Diagnostic Workup:**
+**Imaging:**
+- **CT Chest/Abdomen/Pelvis with contrast, [De-identified Date]:** Revealed a primary mass in the right lung. Multiple bilateral pulmonary nodules were present, including in the contralateral lung. Numerous low-density hepatic lesions consistent with metastatic deposits were identified. Prominent mediastinal and distant (supraclavicular) lymphadenopathy was also noted.
+- **MRI Brain with and without contrast, [De-identified Date]:** Negative for intracranial metastatic disease.
+
+**Pathology:**
+- **CT-Guided Core Biopsy, Right Lung Mass, [De-identified Date]:** Histopathology confirmed non-small cell lung cancer, adenocarcinoma subtype.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue with the following results:
+- **Actionable Driver Mutation:** A sensitizing EGFR L858R point mutation was detected.
+- **Other Markers:** The tumor was negative for ALK, ROS1, RET, and NTRK rearrangements, and negative for mutations in BRAF, KRAS, ERBB2, and MET exon 14 skipping.
+- **PD-L1 Expression (IHC):** Negative (Tumor Proportion Score < 1%).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+1.  Newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology.
+2.  Metastatic disease at diagnosis involving the liver, contralateral lung, and distant lymph nodes.
+3.  Tumor molecular profile notable for a sensitizing EGFR L858R mutation.
+4.  PD-L1 expression is negative.
+5.  ECOG performance status 1.

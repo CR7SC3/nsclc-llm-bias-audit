@@ -1,0 +1,23 @@
+**HPI:**
+This is a 73-year-old former smoker who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, which led to a chest x-ray and subsequent chest CT scan. The patient reports some mild fatigue but denies hemoptysis, chest pain, or significant weight loss. They maintain an active lifestyle and have an excellent performance status. They are here today to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A diagnostic chest CT with contrast revealed a spiculated mass in the right upper lobe, as well as ipsilateral mediastinal lymphadenopathy. A subsequent PET/CT scan was performed for staging, which demonstrated FDG-avidity in the primary right upper lobe mass and in the mediastinal lymph nodes. No evidence of distant metastatic disease was identified on the PET/CT.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS). A biopsy of the right upper lobe mass confirmed the diagnosis of adenocarcinoma. Fine-needle aspiration (FNA) of the mediastinal lymph nodes was also performed and confirmed metastatic involvement, consistent with N2 disease.
+
+A brain MRI with and without contrast was obtained as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+The cumulative findings from imaging and pathology are consistent with a clinical Stage IIIA (non-metastatic) non-small cell lung cancer.
+
+**Molecular Studies:**
+Pathology from the tumor biopsy confirmed adenocarcinoma histology. Comprehensive next-generation sequencing was performed on the tissue. An actionable driver mutation was detected, specifically a MET exon 14 skipping mutation. Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) in the 1-49% range. Tumor Mutational Burden (TMB) was found to be intermediate (2-16 mutations/megabase).
+
+**Problem Summary:**
+1. Non-Small Cell Lung Cancer, Adenocarcinoma Histology
+   - Stage IIIA (cT_N2M0)
+   - Treatment-naive
+   - MET exon 14 skipping mutation positive
+   - PD-L1 TPS 1-49%

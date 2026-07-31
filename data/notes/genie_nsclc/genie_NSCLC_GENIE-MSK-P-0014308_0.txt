@@ -1,0 +1,15 @@
+**HPI:**
+This is a 69-year-old individual with a significant smoking history who is referred for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began to experience a persistent, dry cough and progressive dyspnea on exertion. Over the past month, this has been associated with a dull, constant pain in the right posterior chest and an unintentional weight loss of approximately 15 pounds. The patient remains fully ambulatory and capable of all self-care but is limited from more strenuous activities due to shortness of breath. The ECOG performance status is estimated to be 1.
+
+**Diagnostic Workup:**
+The patient’s initial evaluation included a chest X-ray that demonstrated a right-sided lung mass. This prompted a staging CT scan of the chest, abdomen, and pelvis with contrast on [De-identified date]. This study revealed a 6 cm primary mass in the right upper lobe with associated mediastinal lymphadenopathy. Widespread metastatic disease was identified, including multiple small nodules in the contralateral (left) lung, several hypodense lesions throughout the liver, and a lytic lesion in the right seventh rib, corresponding to the patient’s focal pain.
+
+A staging MRI of the brain was performed and revealed no evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of an accessible liver lesion. Pathologic review of the specimen confirmed poorly differentiated squamous cell carcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as high (>16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 69-year-old with a new diagnosis of Stage IV non-small cell lung cancer of squamous histology, with metastatic disease involving the contralateral lung, liver, and bone. Molecular profiling is notable for a high tumor mutational burden and the absence of an identifiable actionable driver mutation. The patient is treatment-naive and is seen today to discuss the diagnosis and prognosis.

@@ -1,0 +1,31 @@
+**History of Present Illness**
+
+This is a 58-year-old individual with a history of being a never-smoker who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to seasonal allergies but did not resolve with over-the-counter remedies. Over the subsequent weeks, the patient also noted the onset of mild shortness of breath with significant exertion. They deny any fevers, chills, hemoptysis, or unintentional weight loss.
+
+Due to the persistence of symptoms, the patient sought evaluation with their primary care provider. A chest X-ray was performed which revealed a right-sided pulmonary opacity, prompting a referral for further diagnostic imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was obtained, which confirmed the presence of a primary mass in the right upper lobe, along with prominent ipsilateral mediastinal and subcarinal lymphadenopathy. No evidence of distant metastatic disease was identified in the chest, abdomen, or pelvis.
+
+To complete staging and obtain a tissue diagnosis, the patient underwent a PET/CT scan which demonstrated intense FDG-avidity corresponding to the right upper lobe mass and the mediastinal lymph nodes, with no other suspicious sites of hypermetabolic activity. A subsequent MRI of the brain was negative for intracranial metastases. The patient then underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided fine-needle aspiration of both the primary lung mass and a subcarinal lymph node, which established the diagnosis. The patient has a good performance status (ECOG 1) and remains active, with symptoms that are present but not debilitating.
+
+**Diagnostic Workup**
+
+*   **CT Chest/Abdomen/Pelvis with contrast [De-identified Date]:** Revealed a 4.2 cm spiculated mass in the posterior segment of the right upper lobe. Associated enlarged right paratracheal (station 4R) and subcarinal (station 7) lymph nodes were noted, with the largest measuring 2.1 cm in short-axis. The liver, adrenal glands, and osseous structures were free of metastatic lesions.
+*   **PET/CT [De-identified Date]:** Showed intense hypermetabolic activity in the right upper lobe mass (SUVmax 11.8) and in the right paratracheal and subcarinal lymph nodes (SUVmax 9.2). No other sites of abnormal FDG uptake to suggest distant metastatic disease.
+*   **MRI Brain with and without contrast [De-identified Date]:** No evidence of intracranial metastatic disease.
+*   **Bronchoscopy with EBUS-FNA [De-identified Date]:** Biopsy of the right upper lobe mass and a subcarinal lymph node was performed. Pathology from both sites was consistent with invasive adenocarcinoma.
+
+**Pathology Report Summary (from EBUS-FNA):**
+*   **Specimen:** Right upper lobe lung mass and subcarinal lymph node (Station 7).
+*   **Final Diagnosis:** Invasive Adenocarcinoma, consistent with lung primary.
+*   **Staging:** The combination of a >4 cm primary tumor (T2b) and ipsilateral mediastinal/subcarinal nodal involvement (N2) in the absence of distant metastases (M0) is consistent with **AJCC 8th Edition Pathologic Stage Group IIIA (pT2bN2M0)**.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) performed on the tumor tissue returned the following results:
+*   **Actionable Driver Mutation:** EGFR exon 19 deletion detected.
+*   **Additional Markers (Negative):** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 rearrangements/mutations were not detected.
+*   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1-49%.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mutations/megabase).
+
+**Problem Summary**
+
+In summary, this is a 58-year-old never-smoker with a new diagnosis of Stage IIIA (T2bN2M0) non-small cell lung cancer, adenocarcinoma histology. The patient has completed a full staging workup which confirms locoregionally advanced disease without distant metastases. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion and PD-L1 expression of 1-49%. The patient is seen today for initial consultation to discuss the diagnosis and establish a plan for oncologic care.

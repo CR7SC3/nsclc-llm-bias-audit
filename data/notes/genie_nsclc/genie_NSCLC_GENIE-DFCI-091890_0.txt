@@ -1,0 +1,27 @@
+**PATIENT IDENTIFICATION:**
+This is a 60-year-old individual referred for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer.
+MRN: [De-identified]
+Date of Consult: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 60-year-old with a history of being a never-smoker who presented to their primary care provider several weeks ago with a persistent, non-productive cough and progressive fatigue. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. The patient has maintained a good functional status, estimated at ECOG 1, with minimal symptoms outside of the cough and fatigue. They deny any significant weight loss, hemoptysis, or chest pain.
+
+**DIAGNOSTIC WORKUP:**
+A CT of the chest, abdomen, and pelvis was performed, which identified a 3.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal adenopathy. The scan also revealed a solitary, suspicious 2 cm lesion in the right lobe of the liver.
+
+A subsequent PET/CT scan was obtained for staging purposes. This confirmed high avidity in the primary right upper lobe lung mass and mediastinal lymph nodes. Additionally, it demonstrated a hypermetabolic focus in the liver, consistent with a distant metastasis.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed by Interventional Radiology. Pathology from this procedure confirmed a diagnosis of adenocarcinoma, with features consistent with a lung primary.
+
+To complete staging, a brain MRI was performed, which was negative for any evidence of intracranial metastasis.
+
+Based on these findings, the patient is diagnosed with metastatic non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- No actionable driver alteration was identified. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 60-year-old never-smoker who presents for an initial oncology evaluation with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirmed metastatic disease involving the liver, with no evidence of brain metastases. Comprehensive molecular profiling is notable for a PD-L1 TPS of 1-49% and the absence of an identifiable actionable driver mutation. The patient has a good performance status and is now seen to discuss the diagnosis and potential management options.

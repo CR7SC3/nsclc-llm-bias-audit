@@ -1,0 +1,37 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness**
+
+This is a 39-year-old who presents for initial medical oncology evaluation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided back pain. The symptoms were initially managed conservatively. Due to a lack of improvement and the onset of fatigue and an unintentional 10-pound weight loss, the patient sought further medical evaluation.
+
+An initial chest X-ray was performed which showed a right-sided lung opacity, prompting a follow-up CT scan of the chest. This study confirmed a primary mass in the right lung and noted suspicious mediastinal lymphadenopathy. For definitive staging, a PET/CT was subsequently performed. This demonstrated widespread metastatic disease. A bronchoscopy with biopsy of the primary lung mass was then performed for tissue diagnosis. The patient presents today to discuss the findings and establish care.
+
+Review of systems is notable for the aforementioned cough, back pain, and fatigue. The patient denies fevers, chills, or hemoptysis. Performance status is ECOG 1, symptomatic but fully ambulatory and able to carry out light work.
+
+**Diagnostic Workup**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with Contrast:** Revealed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal and hilar adenopathy. Multiple non-specific nodules were noted in the contralateral lung. Several hypoattenuating lesions were seen in the liver, suspicious for metastases.
+*   **PET/CT:** Confirmed intense FDG-avidity in the primary right upper lobe mass and extensive mediastinal lymphadenopathy. Multiple sites of distant FDG-avid disease were identified, consistent with metastases. These included multiple hepatic lesions, a nodule in the left lung, multiple osseous lesions involving the thoracic spine and ribs, and distant non-regional lymph nodes.
+*   **MRI Brain:** Performed for staging, showed no evidence of intracranial metastases.
+
+**Pathology:**
+*   **Bronchoscopy with Endobronchial Ultrasound and Biopsy (Right Upper Lobe Mass):** Histopathologic examination confirmed invasive, moderately differentiated adenocarcinoma. The morphology was consistent with a primary lung origin.
+
+**Molecular Studies**
+
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+*   **Actionable driver mutation detected:** EGFR exon 19 deletion (sensitizing).
+*   **Testing was negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+*   **PD-L1 Expression:** Not tested.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary**
+
+In summary, this is a 39-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastases to the contralateral lung, liver, bone, and distant lymph nodes. Molecular profiling is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents for initial consultation.

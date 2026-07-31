@@ -1,0 +1,32 @@
+**Medical Oncology Initial Consultation**
+
+**Patient:** [De-identified]
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+**Consulting Oncologist:** [De-identified], MD
+
+**History of Present Illness:**
+This is a 64-year-old individual referred to the Thoracic Oncology clinic for an initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months ago, when they noted the onset of a persistent dry cough and a gradual increase in dyspnea with exertion. These symptoms prompted an evaluation by their primary care provider, which included a chest radiograph that revealed a suspicious opacity in the right lung. The patient reports a fair energy level and has maintained their weight. Performance status is estimated at ECOG 1.
+
+Past medical history is significant for prior malignancies, including melanoma and breast cancer, both considered to be in long-term remission.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study characterized a 4-cm spiculated mass in the right upper lobe with associated ipsilateral mediastinal and hilar lymphadenopathy.
+
+A subsequent PET/CT scan was obtained for staging. This confirmed intense FDG-avidity in the primary right upper lobe tumor and the mediastinal lymph nodes. Additionally, the scan revealed hypermetabolic activity in non-regional, distant lymph nodes, including contralateral supraclavicular nodes, consistent with metastatic disease.
+
+A staging MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+A bronchoscopy with transbronchial biopsy of the right upper lobe mass was performed. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen with the following results:
+- **Actionable Driver:** An EGFR uncommon sensitizing mutation was detected.
+- **Negative for:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **PD-L1:** Not tested on this specimen.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 64-year-old with a history of prior malignancies who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The clinical stage is IV, based on the primary lung tumor with metastasis to distant lymph nodes. Staging studies are negative for brain metastases. Molecular profiling of the tumor is notable for an EGFR uncommon sensitizing mutation. The patient is treatment-naive and is seen today for initial oncologic evaluation and to discuss the diagnosis.

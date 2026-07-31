@@ -1,0 +1,18 @@
+**HPI:**
+This is a 56-year-old individual with a history of tobacco use who presents for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, worsening cough and progressive dyspnea on exertion. This was associated with a 15-pound unintentional weight loss over the past three months and increasing fatigue. They initially sought evaluation with their primary care provider, which led to a chest X-ray revealing a right-sided lung mass. The patient remains fully ambulatory and capable of all self-care but is limited in physically strenuous activities. They are a current smoker.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed the presence of a 5.5 cm spiculated mass in the right upper lobe. There was extensive mediastinal and hilar lymphadenopathy noted. The scan also revealed enlarged and avid contralateral supraclavicular lymph nodes, consistent with M1 disease. No hepatic, adrenal, or osseous metastases were identified. A staging MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an ultrasound-guided core needle biopsy of a palpable left supraclavicular lymph node. Pathologic examination of the specimen confirmed metastatic, poorly differentiated squamous cell carcinoma. The morphology is consistent with a lung primary given the clinical and radiographic findings.
+
+AJCC 8th Edition Staging is Stage IV, based on a primary tumor with distant metastasis to contralateral supraclavicular lymph nodes.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the lymph node biopsy.
+- No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+This is a 56-year-old with a new diagnosis of Stage IV metastatic non-small cell lung cancer of squamous cell histology. The diagnostic workup confirms a right upper lobe primary with distant metastasis to contralateral supraclavicular lymph nodes. Molecular profiling did not identify any actionable driver mutations. The patient has a good performance status and is seen today for initial consultation to discuss the diagnosis in detail.

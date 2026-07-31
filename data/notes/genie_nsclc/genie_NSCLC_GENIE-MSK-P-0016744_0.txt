@@ -1,0 +1,25 @@
+**HPI:**
+This is a 46-year-old individual who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of good health until approximately six weeks prior to presentation, when they began experiencing persistent headaches and intermittent dizziness. Over the subsequent weeks, these symptoms progressed and were accompanied by the development of a non-productive cough, generalized fatigue, and a 15-pound unintentional weight loss. Due to worsening headaches, the patient presented to an outside emergency department for evaluation. A history of being a never-smoker is noted.
+
+**Diagnostic Workup:**
+An initial workup in the emergency department included a CT scan of the head, which revealed multiple enhancing intracranial lesions concerning for metastatic disease. This prompted further staging studies.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was subsequently performed. This identified a 4.5 cm spiculated mass in the right upper lobe of the lung, associated with bulky mediastinal and right hilar lymphadenopathy. The scan also demonstrated multiple hypoattenuating lesions throughout the liver, a lytic lesion in the T7 vertebral body, and extensive retroperitoneal and supraclavicular lymphadenopathy.
+
+To further characterize the extent of disease, a whole-body PET/CT scan was obtained. This confirmed intense FDG-avidity in the primary right upper lobe lung mass, as well as in mediastinal, hilar, and supraclavicular lymph nodes. Multiple sites of distant metastatic disease were confirmed, with avid uptake in the liver and multiple osseous sites, including the previously noted T7 lesion.
+
+A dedicated MRI of the brain with contrast confirmed the presence of at least five discrete enhancing parenchymal lesions in the cerebral and cerebellar hemispheres, consistent with brain metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this specimen returned as poorly differentiated adenocarcinoma, consistent with a primary lung origin.
+
+Based on these findings, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer, with metastatic disease to the brain, liver, bone, and distant lymph nodes.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the lung biopsy.
+-   An activating ERBB2 (HER2) exon 20 insertion was detected.
+-   The tumor was found to be negative for mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+-   Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score < 1%).
+-   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 46-year-old never-smoker presenting with newly diagnosed Stage IV NSCLC, adenocarcinoma histology. The diagnostic workup has confirmed widespread metastatic disease involving the brain, liver, bone, and distant lymph nodes. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion, with negative PD-L1 expression and an intermediate tumor mutational burden. The patient is symptomatic from their disease but remains ambulatory with an ECOG performance status of 1. The diagnosis and the implications of these findings have been discussed.

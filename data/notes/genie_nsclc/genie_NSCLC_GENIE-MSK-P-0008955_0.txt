@@ -1,0 +1,19 @@
+**HPI:**
+This is a 47-year-old who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. An initial course of antibiotics for presumed bronchitis was unhelpful. Due to persistent symptoms, a chest radiograph was obtained which revealed a right upper lobe opacity. The patient has a remote history of smoking but is functionally a never-smoker. They are otherwise active and maintain an excellent performance status, continuing to work full-time. They deny hemoptysis, fevers, chills, or significant weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 3.8 cm spiculated mass in the right upper lobe. There was associated mediastinal and right hilar lymphadenopathy. Critically, the scan also identified pathologically enlarged contralateral supraclavicular lymph nodes, the largest measuring 2.1 cm, confirming distant metastatic disease. No evidence of metastatic disease was noted in the liver, adrenal glands, or bones.
+
+A staging MRI of the brain with and without contrast was subsequently performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of non-small cell lung cancer with squamous cell carcinoma histology.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen.
+-   An actionable RET fusion was detected.
+-   The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, and ERBB2.
+-   Tumor Mutational Burden (TMB) was low at <2 mut/Mb.
+-   PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+This is a 47-year-old never-smoker with a new diagnosis of metastatic, treatment-naive, non-small cell lung cancer of squamous cell histology. Staging workup confirmed a primary right upper lobe mass with distant lymph node metastases, consistent with AJCC Stage IV disease. Molecular profiling of the tumor is notable for the presence of a RET fusion. The patient is seen today for initial consultation and discussion of this new diagnosis.

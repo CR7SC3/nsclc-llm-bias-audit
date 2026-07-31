@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 70-year-old former smoker who presents with a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to this evaluation, at which point they developed a persistent dry cough and progressive dyspnea on exertion. These symptoms prompted a visit to their primary care provider. An initial chest X-ray was concerning for a right-sided pulmonary mass, leading to further diagnostic evaluation. The patient reports a 10-pound unintentional weight loss over the past three months but is otherwise functional with an ECOG performance status of 1. They quit smoking over one year ago after a significant pack-year history.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 5.4 cm spiculated mass in the right upper lobe. Multiple nodules were identified in the contralateral left lung, the largest measuring 1.8 cm, suspicious for metastatic disease. A moderate right-sided pleural effusion with associated pleural thickening was also noted. The abdominal and pelvic portions of the scan were negative for other evidence of distant metastatic disease.
+
+A subsequent brain MRI with and without contrast was performed for staging purposes and revealed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent an interventional radiology-guided core needle biopsy of the right upper lobe lung mass. Pathology review of the specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Tissue from the core biopsy was sent for comprehensive next-generation sequencing.
+-   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1:** PD-L1 expression was not tested, as this was not standard practice at the time of initial tissue acquisition.
+-   **Tumor Mutational Burden (TMB):** TMB was reported as intermediate (2–16 mut/Mb).
+-   **Other Findings:** The molecular report did identify a loss-of-function mutation in STK11 and a loss-of-function mutation in KEAP1.
+
+**Problem Summary:**
+In summary, this is a 70-year-old individual with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging workup confirmed metastatic disease to the contralateral lung and the pleura. Comprehensive molecular profiling was negative for an actionable driver mutation but did reveal co-occurring loss-of-function mutations in STK11 and KEAP1. The patient is treatment-naive and presents today to discuss the diagnosis and establish oncologic care.

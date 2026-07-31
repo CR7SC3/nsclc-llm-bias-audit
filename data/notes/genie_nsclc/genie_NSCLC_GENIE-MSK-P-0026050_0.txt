@@ -1,0 +1,23 @@
+**HPI:**
+This is a 62-year-old individual with a history of former tobacco use (quit >1 year ago) who is referred for initial oncologic consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider. An initial chest radiograph showed a right-sided lung opacity, leading to further imaging. The patient denies fevers, chills, or significant weight loss but does endorse some mild fatigue. Performance status is excellent; the patient remains fully ambulatory and capable of all self-care.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was obtained. This study characterized a 3.5 cm spiculated mass in the right upper lobe. It also demonstrated bulky ipsilateral mediastinal and hilar lymphadenopathy, concerning for locoregional nodal involvement. No suspicious lesions were identified in the liver, adrenal glands, or other visceral organs.
+
+For definitive staging, a whole-body PET/CT was performed. This confirmed high metabolic activity within the primary right upper lobe mass and the associated right-sided mediastinal lymph nodes. There was no evidence of FDG-avid disease at any distant site. A dedicated MRI of the brain with and without contrast was subsequently performed and revealed no evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration of a subcarinal lymph node. Pathologic analysis of the specimen confirmed the diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+Pathology from the EBUS-guided biopsy confirmed adenocarcinoma histology. Comprehensive next-generation sequencing and immunohistochemical analysis were performed on the tissue specimen.
+- Actionable driver mutation detected: EGFR uncommon sensitizing mutation.
+- Testing was negative for genomic alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry demonstrated a Tumor Proportion Score (TPS) of 1-49%.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old former smoker presenting for initial evaluation of a newly diagnosed, locally advanced lung cancer. The patient is treatment-naive with a good performance status.
+
+1.  **Non-Small Cell Lung Cancer (NSCLC), Adenocarcinoma Histology, AJCC Stage IIIA.** The disease is localized to the right hemithorax with mediastinal nodal involvement, with no evidence of distant metastatic disease.
+2.  **Molecular Profile:** Positive for an EGFR uncommon sensitizing mutation.
+3.  **Immune Profile:** PD-L1 TPS is 1-49%.

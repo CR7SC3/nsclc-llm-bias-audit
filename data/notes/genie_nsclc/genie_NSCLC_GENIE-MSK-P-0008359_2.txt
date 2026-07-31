@@ -1,0 +1,32 @@
+**HPI:**
+This is a 57-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately one month prior to presentation, when they developed progressive shortness of breath on exertion and a persistent, dry cough. This prompted a visit to an outside emergency department. A chest X-ray performed at that time revealed a large left-sided pleural effusion.
+
+The patient was subsequently admitted for further evaluation. A CT scan of the chest confirmed a left upper lobe lung mass with a large associated pleural effusion. A therapeutic and diagnostic thoracentesis was performed. The patient experienced significant improvement in their dyspnea following the procedure. Cytology from the pleural fluid confirmed the presence of adenocarcinoma. Staging scans, including CT of the abdomen and pelvis and an MRI of the brain, were completed and showed no other sites of distant metastatic disease.
+
+The patient is a former smoker, having quit more than one year ago. Past medical history is notable for a prior diagnosis of uterus cancer, which was treated with surgery and is considered cured. The patient is currently feeling much improved since the fluid was drained from the lung, with minimal residual cough and improved exercise tolerance. They report an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A review of outside records and imaging was performed.
+
+**CT Chest/Abdomen/Pelvis with Contrast, [De-identified Date]:**
+-   A 3.8 cm spiculated mass is identified in the left upper lobe.
+-   A large, loculated left-sided pleural effusion is present, with associated pleural thickening suspicious for malignant involvement.
+-   Mediastinal and hilar lymph nodes are not pathologically enlarged.
+-   The right lung is clear.
+-   Abdomen and Pelvis: No evidence of metastatic disease. The liver, adrenal glands, and visualized bones are without suspicious lesions.
+
+**MRI Brain with and without Contrast, [De-identified Date]:**
+-   No evidence of intracranial metastatic disease.
+
+**Pleural Fluid Cytology, [De-identified Date]:**
+-   DIAGNOSIS: Positive for malignant cells.
+-   COMMENT: The specimen contains numerous clusters of atypical cells with large, hyperchromatic nuclei and prominent nucleoli, consistent with adenocarcinoma. Immunohistochemical stains performed on the cell block are positive for TTF-1 and Napsin-A, supporting a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block. Results are as follows:
+-   No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+-   PD-L1 expression was not tested, as this was not standard of care at the time of tissue acquisition.
+
+**Problem Summary:**
+In summary, this is a 57-year-old with a good performance status who presents with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology. The diagnosis was confirmed by cytology from a malignant pleural effusion. Staging workup has confirmed the disease is characterized by a primary left lung mass with pleural metastases (M1a), with no evidence of additional distant metastatic disease. Comprehensive molecular profiling did not identify an actionable driver mutation. The patient is here today for initial consultation to discuss these findings.

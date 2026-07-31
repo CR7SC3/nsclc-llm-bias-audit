@@ -1,0 +1,19 @@
+**HPI:**
+This is a 59-year-old with a history of smoking (former, quit >1 year ago) who presents for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they began experiencing persistent, new-onset headaches and intermittent dizziness. These symptoms prompted an evaluation with their primary care provider, who arranged for neurologic imaging. The patient is here today, accompanied by family, to discuss the diagnosis and establish care. Performance status is excellent, ECOG 1.
+
+**Diagnostic Workup:**
+An MRI of the brain, performed on [De-identified], revealed several enhancing parenchymal lesions in the cerebral hemispheres, highly suspicious for metastatic disease.
+
+Subsequent staging evaluation with a CT of the chest, abdomen, and pelvis with contrast was performed. The chest CT identified a 3.5 cm spiculated mass in the right upper lobe, along with ipsilateral mediastinal and hilar lymphadenopathy. No other sites of extracranial metastatic disease were identified in the chest, abdomen, or pelvis.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified]. Pathologic analysis confirmed the diagnosis of lung adenocarcinoma.
+
+**Molecular Studies:**
+Tissue from the lung mass biopsy was sent for next-generation sequencing. Results are notable for the detection of an actionable driver mutation in KRAS G12C.
+
+The tumor was found to be negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+PD-L1 expression was not tested on this specimen. Tumor Mutation Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 59-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the brain. Molecular testing is positive for a KRAS G12C mutation. The patient is treatment-naive and presents for initial consultation.

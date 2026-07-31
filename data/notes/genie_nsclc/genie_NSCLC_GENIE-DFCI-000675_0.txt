@@ -1,0 +1,15 @@
+**HPI:**
+This is a 61-year-old individual who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially sought evaluation with a primary care provider several weeks ago for a persistent, dry cough. This was associated with a mild decline in exercise tolerance. The patient denied fevers, chills, hemoptysis, or significant weight loss. Given a significant smoking history as a current smoker, a chest radiograph was obtained which showed a right upper lobe opacity. This prompted further diagnostic evaluation. The patient remains fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Staging evaluation included a contrast-enhanced CT of the chest, abdomen, and pelvis. This imaging confirmed the presence of a 4.5 cm spiculated solid mass in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified. The visualized portions of the abdomen and pelvis were unremarkable, with no evidence of metastatic disease to the liver, adrenal glands, or other solid organs. A dedicated MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified date]. Histopathologic examination of the tissue confirmed a diagnosis of invasive adenocarcinoma, consistent with a primary lung malignancy. Based on this comprehensive workup, the patient's disease is classified as non-metastatic.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor specimen. Molecular profiling did not identify any actionable driver alterations; results were negative for mutations or rearrangements in *EGFR*, *ALK*, *ROS1*, *BRAF*, *MET* exon 14, *RET*, *NTRK*, *KRAS*, and *ERBB2*.
+
+PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase). The molecular analysis also revealed a loss-of-function mutation in *STK11*.
+
+**Problem Summary:**
+In summary, this is a 61-year-old with a new diagnosis of treatment-naive, Stage IIA non-small cell lung cancer of adenocarcinoma histology. The disease is localized to the right lung without evidence of nodal or distant metastatic spread. Molecular testing is notable for PD-L1 expression of 1-49% and an *STK11* loss-of-function mutation, with no identified targetable driver mutations.

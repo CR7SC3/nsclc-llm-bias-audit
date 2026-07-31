@@ -1,0 +1,32 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**DATE OF CONSULTATION:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**REASON FOR CONSULTATION:**
+I had the pleasure of evaluating this 53-year-old for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a 53-year-old with a history of smoking (quit less than one year ago) who was in their usual state of health until approximately two months prior to presentation. They began to experience a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms worsened, prompting further evaluation. The patient denies hemoptysis, fevers, or significant weight loss but notes increasing fatigue. Functionally, they remain ambulatory and capable of self-care but are limited in strenuous activity due to shortness of breath.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray revealed a right-sided lung mass and a moderate pleural effusion. This prompted a contrast-enhanced CT of the chest, abdomen, and pelvis, which confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. The scan also characterized a moderate, complex right-sided pleural effusion. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the right upper lobe primary mass, as well as in mediastinal lymph nodes and nodular thickening of the right pleura, consistent with malignant involvement. No other sites of distant FDG-avid disease were identified.
+
+Given the advanced stage, a brain MRI with contrast was performed to evaluate for intracranial metastases, which was negative.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a diagnosis of invasive adenocarcinoma. A diagnostic and therapeutic thoracentesis was also performed, and cytologic analysis of the pleural fluid was positive for malignant cells, confirming a malignant pleural effusion.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV (M1a) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the core biopsy.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was strongly positive with a Tumor Proportion Score (TPS) of ≥50%.
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+- A loss-of-function mutation in the KEAP1 gene was detected.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 53-year-old former smoker who presents with a new diagnosis of metastatic (Stage IV, M1a) non-small cell lung cancer, adenocarcinoma histology. The metastatic designation is based on a malignant pleural effusion. Staging workup, including a brain MRI, shows no evidence of distant organ metastases. Molecular profiling of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the presence of a KEAP1 loss-of-function mutation, with no identified actionable oncogenic drivers. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

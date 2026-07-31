@@ -1,0 +1,27 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**DATE OF SERVICE:** [De-identified]
+**ATTENDING PHYSICIAN:** [De-identified], MD
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is an initial oncology consultation for a 55-year-old who presents with a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. This was initially attributed to a viral illness, but symptoms persisted. Over the subsequent weeks, the patient also noted some right-sided chest discomfort and an unintentional weight loss of approximately 10 pounds.
+
+Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity. This prompted a referral for further evaluation. The patient is a former smoker, having quit over one year ago, with a significant prior pack-year history. They maintain an excellent performance status, ECOG 0, and continue to work and perform all activities of daily living without restriction.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for initial characterization and staging. This demonstrated a 4.5 cm spiculated mass in the right upper lobe. There was associated prominent right hilar and ipsilateral mediastinal lymphadenopathy, concerning for nodal involvement.
+
+A subsequent PET/CT scan confirmed high FDG-avidity within the primary right upper lobe mass as well as in the right hilar and mediastinal lymph nodes. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread. A dedicated MRI of the brain was also performed and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+Based on the combination of a primary tumor with ipsilateral mediastinal lymph node involvement and no evidence of distant metastatic disease (T2b N2 M0), the patient is diagnosed with AJCC 8th Edition Stage IIIA disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. No actionable driver alteration was identified; testing was negative for mutations or fusions in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative. The tumor mutational burden (TMB) was determined to be intermediate (2–16 mutations/megabase). Further analysis revealed a loss-of-function mutation in the STK11 gene, a finding associated with primary resistance to PD-1/PD-L1 checkpoint inhibitors.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 55-year-old former smoker with an excellent performance status who presents with a new diagnosis of treatment-naive, non-metastatic Stage IIIA non-small cell lung cancer, adenocarcinoma subtype. Comprehensive molecular profiling did not identify any targetable driver alterations and revealed negative PD-L1 expression, intermediate TMB, and an STK11 loss-of-function mutation. The patient is seen today to discuss the diagnosis and the multidisciplinary management of this localized but advanced-stage lung cancer.

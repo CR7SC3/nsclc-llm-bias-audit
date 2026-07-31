@@ -1,0 +1,17 @@
+**HPI:**
+This is a 70-year-old patient with a history of smoking (quit over one year ago) who is referred for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough and mild dyspnea on exertion. This was associated with generalized fatigue but no significant hemoptysis, fevers, or chest pain. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity, prompting further evaluation. The patient has had a modest unintentional weight loss of approximately 5-7 pounds over the last two months but otherwise maintains a good appetite. They are fully ambulatory and capable of all self-care, consistent with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This revealed a 3.8 cm spiculated mass in the right upper lobe. It also demonstrated several enlarged mediastinal lymph nodes and a discrete 1.5 cm nodule in the left lower lobe, suspicious for a contralateral metastatic deposit. No other sites of distant metastatic disease were identified in the abdomen or pelvis.
+
+A subsequent PET/CT scan confirmed intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the contralateral left lower lobe nodule, consistent with metastatic malignancy. As part of the standard staging workup for metastatic NSCLC, a brain MRI with contrast was performed and was negative for any intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of 0%. The Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb). Further genomic analysis identified a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+In summary, this is a 70-year-old former smoker with an excellent performance status (ECOG 1) who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the contralateral lung. Molecular profiling reveals a PD-L1 negative, driver-negative tumor with an STK11 loss-of-function mutation. The patient is here for an initial consultation to discuss the diagnosis and the implications of these findings.

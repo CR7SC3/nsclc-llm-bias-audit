@@ -1,0 +1,31 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 46-year-old individual referred for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks prior to presentation, when they developed a progressive, non-productive cough and increasing shortness of breath on exertion. Symptoms initially prompted a visit to an urgent care center, where a chest X-ray revealed a large left-sided pleural effusion.
+
+The patient was subsequently referred to a pulmonologist for further evaluation. A diagnostic and therapeutic thoracentesis was performed, which drained a significant volume of fluid and provided temporary symptomatic relief. Cytology from the pleural fluid was suspicious for malignancy. A follow-up CT scan of the chest, abdomen, and pelvis with contrast was obtained, which confirmed a primary mass in the left upper lobe, extensive pleural nodularity, and a re-accumulating pleural effusion. The patient has remained active with an excellent performance status (ECOG 0), continuing to work and perform all activities of daily living without restriction. They report no fevers, chills, or significant weight loss. There is no history of tobacco use.
+
+**DIAGNOSTIC WORKUP**
+Staging and diagnostic studies have been completed and were reviewed.
+
+**Imaging:**
+- A CT of the chest, abdomen, and pelvis with contrast performed on [De-identified Date] demonstrated a 3.5 cm spiculated mass in the left upper lobe. It also revealed extensive left-sided pleural thickening, nodularity, and a moderate-to-large pleural effusion, consistent with malignant pleural disease. No other sites of thoracic or abdominopelvic metastatic disease were identified.
+- A brain MRI with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+**Pathology:**
+- A CT-guided core needle biopsy of a left-sided pleural nodule was performed on [De-identified Date]. Histopathologic examination confirmed the diagnosis of **invasive adenocarcinoma**, consistent with a lung primary.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the pleural biopsy specimen. The key findings are as follows:
+- **Actionable Driver Mutation:** An **ALK gene rearrangement** was detected.
+- **Other Driver Mutations:** Testing was negative for mutations or rearrangements in **EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2**.
+- **PD-L1 Expression (IHC):** Positive, with a Tumor Proportion Score (TPS) in the **1-49%** range.
+- **Tumor Mutational Burden (TMB):** **Intermediate (2-16 mut/Mb)**.
+
+**PROBLEM SUMMARY**
+1.  **Metastatic Non-Small Cell Lung Cancer (NSCLC), Adenocarcinoma Histology**
+    *   AJCC 8th Edition Clinical Stage: **Stage IV**, based on malignant pleural disease (M1a).
+    *   Patient is a 46-year-old never-smoker with an excellent performance status.
+    *   No evidence of brain metastases at diagnosis.
+
+2.  **Tumor Molecular Profile**
+    *   The tumor is driven by an **ALK gene rearrangement**.
+    *   PD-L1 expression is positive (TPS 1-49%).

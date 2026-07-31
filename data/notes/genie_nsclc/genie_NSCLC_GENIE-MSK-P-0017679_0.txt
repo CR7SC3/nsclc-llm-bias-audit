@@ -1,0 +1,19 @@
+**HPI:**
+This is a 45-year-old individual with a history of smoking (quit >1 year ago) who is referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient initially presented to an outside facility approximately four weeks ago with a persistent, non-productive cough and new-onset, localized right-sided chest wall pain. An initial chest X-ray revealed a right upper lobe lung mass, prompting further investigation. The patient is otherwise highly functional with an ECOG performance status of 1, remaining fully ambulatory and capable of all self-care but reports some fatigue and dyspnea with strenuous exertion. Appetite is fair with a stable weight.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified date]. This study demonstrated a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. Multiple hypodense lesions were identified throughout the liver, the largest measuring 3.5 cm in segment VII, highly suspicious for metastatic disease. A 2.0 cm nodule was also noted in the left adrenal gland.
+
+A subsequent whole-body PET/CT scan confirmed high FDG-avidity in the primary right lung mass, mediastinal lymph nodes, the multiple hepatic lesions, and the left adrenal nodule. The scan also revealed a new avid focus in the right 7th rib, corresponding to the patient’s reported site of pain and confirming osseous metastasis.
+
+A dedicated MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, a CT-guided core biopsy of an accessible liver lesion was performed on [De-identified date]. Pathology confirmed metastatic adenocarcinoma. Immunohistochemical stains were positive for TTF-1 and Napsin-A, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the liver biopsy tissue specimen. An activating ERBB2 (HER2) exon 20 insertion was detected. The tumor was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS.
+
+Immunohistochemistry for PD-L1 expression demonstrated a Tumor Proportion Score (TPS) of 40% (within the 1-49% range). Tumor Mutational Burden (TMB) was calculated to be intermediate at 12 mutations/megabase (mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 45-year-old former smoker presenting with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the liver, bone (rib), and adrenal gland, with no evidence of central nervous system involvement. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion and a PD-L1 TPS of 40%. The patient is seen today for initial consultation to discuss the diagnosis, prognosis, and to review goals of care and systemic treatment options.

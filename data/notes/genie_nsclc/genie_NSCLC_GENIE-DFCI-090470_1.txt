@@ -1,0 +1,15 @@
+**HPI:**
+This is a 63-year-old individual who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, dry cough and mild shortness of breath with exertion. These symptoms prompted an evaluation by their primary care provider. The patient reports no hemoptysis, chest pain, or significant weight loss. They remain fully active and independent with all activities of daily living, with an ECOG performance status of 0. Past medical history is otherwise non-contributory. The patient is a former smoker, having quit more than one year ago.
+
+**Diagnostic Workup:**
+An initial chest radiograph revealed a right upper lobe opacity, which led to further imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. This identified a 5.2 cm mass in the right upper lobe. Several ipsilateral hilar lymph nodes were noted, the largest measuring 1.3 cm. There was no evidence of mediastinal invasion, satellite nodules, or contralateral lung lesions. The portions of the abdomen and pelvis included were negative for metastatic disease to the liver, adrenal glands, or bones.
+
+To complete staging, a whole-body PET/CT was performed, which demonstrated intense FDG-avidity in the primary right upper lobe mass and in the ipsilateral hilar nodal station, consistent with the CT findings. No other sites of abnormal hypermetabolism were identified to suggest distant metastatic disease. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the specimen confirmed a diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 was positive. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 63-year-old former smoker with a new diagnosis of treatment-naive, non-metastatic, Stage IIB non-small cell lung cancer (adenocarcinoma histology), based on the AJCC 8th edition staging system. The diagnostic workup is complete and has ruled out distant metastatic disease. Molecular profiling is notable for positive PD-L1 expression and intermediate TMB, with no identified actionable driver mutations. The patient is here today to discuss the diagnosis and potential management options.

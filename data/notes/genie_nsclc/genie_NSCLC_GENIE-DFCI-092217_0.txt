@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 47-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over one year ago. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and intermittent back pain. Over the subsequent weeks, the patient also began to experience progressive headaches and mild word-finding difficulties, which prompted an evaluation in the emergency department on [De-identified Date].
+
+Initial workup included a chest X-ray that revealed a right upper lobe lung mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed which confirmed a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. The scan also identified a suspicious lytic lesion in the T7 vertebral body. Given the new neurologic symptoms, a brain MRI was ordered which demonstrated multiple, scattered, enhancing cerebral lesions consistent with metastatic disease. The patient has an ECOG performance status of 1, remaining ambulatory and capable of all self-care but restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast on [De-identified Date]:** Revealed a 4.5 cm primary mass in the right upper lobe. Mediastinal and hilar lymphadenopathy was noted. A lytic lesion was identified in the T7 vertebral body, suspicious for osseous metastasis. No other distant visceral metastases were identified in the abdomen or pelvis.
+- **MRI Brain with and without contrast on [De-identified Date]:** Showed multiple enhancing parenchymal lesions in the bilateral cerebral hemispheres, the largest measuring 1.2 cm in the left frontal lobe, consistent with brain metastases.
+- **CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]:** Pathology confirmed invasive adenocarcinoma, moderately differentiated.
+
+**Molecular Studies:**
+- **Next-Generation Sequencing (NGS) of tumor tissue:**
+- **Actionable driver mutation detected:** ERBB2 (HER2) exon 20 insertion (activating).
+- **Negative for other targetable alterations:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS.
+- **PD-L1 Immunohistochemistry:** Tumor Proportion Score (TPS) is 25% (positive, range 1-49%).
+- **Tumor Mutational Burden (TMB):** 10 mutations/megabase (intermediate).
+
+**Problem Summary:**
+This is a 47-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastases to the brain and bone. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion mutation and PD-L1 expression of 25%. The patient presents today for initial consultation to discuss the diagnosis and prognosis.

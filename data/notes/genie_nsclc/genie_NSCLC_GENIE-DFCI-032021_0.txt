@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 68-year-old former smoker who presents for evaluation of newly diagnosed metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was associated with mild fatigue and an unintentional 10-pound weight loss over the preceding three months. They were evaluated by their primary care provider, and an initial chest X-ray revealed a right-sided lung mass, which prompted referral for further diagnostic workup. The patient has a remote smoking history but quit over a decade ago. They maintain an excellent performance status (ECOG 0), with no significant comorbidities.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a staging CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This imaging confirmed a 4.8 cm spiculated mass in the right upper lobe. The scan also demonstrated a 1.5 cm nodule in the contralateral left lower lobe and a 2.1 cm enhancing nodule in the left adrenal gland, both highly suspicious for metastatic disease.
+
+A subsequent PET/CT scan on [De-identified Date] demonstrated intense FDG-avidity in the primary right upper lobe mass, the contralateral lung nodule, and the left adrenal nodule. No other sites of FDG-avid disease were identified. A staging MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic analysis of the tissue confirmed the diagnosis.
+
+**Molecular Studies:**
+Pathology from the lung biopsy confirmed poorly differentiated adenocarcinoma. Comprehensive next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable driver mutation:** A KRAS G12C mutation was detected.
+- **Negative markers:** The panel was negative for other common driver mutations, including EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry for PD-L1 showed a Tumor Proportion Score (TPS) of 35% (in the 1-49% range).
+- **Tumor Mutational Burden (TMB):** TMB was intermediate at 12 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 68-year-old individual with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to the contralateral lung and left adrenal gland. Staging imaging of the brain is negative for metastatic disease. The patient is treatment-naive with an excellent performance status. Molecular profiling of the tumor is notable for a KRAS G12C mutation and a PD-L1 TPS of 35%. The patient is here today to discuss the diagnosis and establish care.

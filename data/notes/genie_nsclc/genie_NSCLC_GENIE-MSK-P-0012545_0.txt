@@ -1,0 +1,21 @@
+**HPI:**
+This is a 61-year-old individual with a significant former smoking history who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. Over the subsequent weeks, the cough failed to resolve and was accompanied by the new onset of mild shortness of breath with exertion and a dull, aching discomfort in the right chest. An initial evaluation with their primary care provider led to a chest X-ray, which revealed a right upper lobe opacity. The patient was subsequently referred for further diagnostic workup. The patient has no history of prior malignancy and has received no prior cancer-directed therapy.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest confirmed the presence of a large, spiculated mass in the right upper lobe, measuring approximately 5 cm in greatest dimension. The scan also revealed extensive and bulky mediastinal and right supraclavicular lymphadenopathy.
+
+For staging, a PET/CT scan was performed on [De-identified Date]. This study demonstrated intense FDG-avidity within the primary right upper lobe mass. Avid uptake was also seen in multiple nodal stations, including the right hilar, subcarinal, and right paratracheal regions, as well as in a conglomerate of right supraclavicular nodes, consistent with N3 nodal disease. No FDG-avid lesions suggestive of distant metastatic disease were identified in the remainder of the chest, abdomen, or pelvis.
+
+A dedicated MRI of the brain with contrast was performed on [De-identified Date] and was negative for any evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Histopathologic examination confirmed a diagnosis of non-small cell lung cancer, with features consistent with an adenocarcinoma subtype.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression was not tested.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- A KEAP1 loss-of-function mutation was identified.
+
+**Problem Summary:**
+In summary, this is a 61-year-old who presents for initial oncologic management of a newly diagnosed, treatment-naive Stage IIIB (cT3N3M0) non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm locoregionally advanced disease without evidence of distant metastases. Molecular profiling is notable for the absence of common targetable driver mutations and the presence of a KEAP1 loss-of-function mutation.

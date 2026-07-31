@@ -1,41 +1,23 @@
-[De-identified Date]
-
 **HPI:**
-This is an 83-year-old patient presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer (NSCLC). The patient initially sought medical attention several months ago due to a persistent cough, progressive dyspnea on exertion, and some unintentional weight loss. Initial evaluation by their primary care provider included a chest X-ray, which revealed an abnormality prompting further imaging. The patient reports an ECOG Performance Status of 1, able to perform all self-care activities and light work, but unable to carry out more strenuous activities. They deny significant pain, hemoptysis, or neurological symptoms. The patient is a never smoker.
+This is an 83-year-old with a past medical history notable for [relevant comorbidities, if any, otherwise state well-appearing] who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they began to experience progressive shortness of breath on exertion and a persistent, non-productive cough. These symptoms prompted a visit to their primary care provider, which led to a chest X-ray revealing a large left-sided pleural effusion. The patient was subsequently referred for further diagnostic evaluation. At the time of this consultation, the patient remains fully ambulatory and independent with activities of daily living, though their exercise tolerance is limited by dyspnea.
 
 **Diagnostic Workup:**
-A subsequent chest CT scan identified a suspicious mass in the left lung and a moderate left-sided pleural effusion. To further characterize and stage the disease, a PET/CT scan was performed. This confirmed the primary lung lesion and demonstrated FDG-avid pleural implants, consistent with distant metastatic disease. A dedicated brain MRI was obtained, which showed no evidence of intracranial metastases. A diagnostic thoracentesis was performed, and cytology of the pleural fluid confirmed the presence of adenocarcinoma. Based on these findings, the patient was diagnosed with AJCC Stage IV non-small cell lung cancer.
+A staging CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This imaging demonstrated a 3.8 cm spiculated mass in the left upper lobe, extensive left-sided pleural nodularity, and a large, complex left pleural effusion. No other sites of distant metastatic disease were identified in the contralateral lung, liver, adrenal glands, or bones. A diagnostic and therapeutic thoracentesis was performed, with removal of 1.5 liters of serosanguinous fluid, which provided symptomatic relief.
+
+Pathology from the pleural fluid cytology and a subsequent CT-guided core needle biopsy of the left upper lobe mass both confirmed the diagnosis of invasive adenocarcinoma.
+
+Based on the presence of a primary lung malignancy with a malignant pleural effusion, the patient is diagnosed with AJCC 8th Edition, Stage IV non-small cell lung cancer. A brain MRI has been ordered for comprehensive central nervous system staging.
 
 **Molecular Studies:**
-Tumor tissue obtained from the pleural fluid cytology block underwent comprehensive molecular profiling. This revealed an **EGFR L858R point mutation**, which is a known sensitizing driver mutation. Testing for other common oncogenic drivers was negative, including **ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, KRAS, and ERBB2** alterations. Programmed death-ligand 1 (PD-L1) expression by immunohistochemistry (IHC) was **positive with a Tumor Proportion Score (TPS) of 1–49%**. Tumor Mutational Burden (TMB) was **low (<2 mut/Mb)**.
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the lung mass biopsy specimen with the following results:
 
-**PAST MEDICAL HISTORY:**
-Reviewed and notable for well-controlled hypertension and hyperlipidemia. No other significant medical comorbidities.
-
-**MEDICATIONS:**
-Current medication list reviewed and up-to-date. No medications of specific oncologic relevance.
-
-**ALLERGIES:**
-No known drug allergies.
-
-**SOCIAL HISTORY:**
-The patient lives independently and has a good support system. As noted, they are a never smoker. No history of alcohol or illicit drug use.
-
-**FAMILY HISTORY:**
-Non-contributory for early-onset cancers.
-
-**PHYSICAL EXAM:**
-General: Well-appearing, conversant, and in no acute distress.
-Vitals: Within normal limits for age.
-Lungs: Decreased breath sounds at the left lung base.
-Cardiovascular: Regular rate and rhythm, no murmurs.
-Abdomen: Soft, non-tender, non-distended.
-Extremities: No clubbing, cyanosis, or edema.
-Neurologic: Alert and oriented x3, no focal deficits.
-ECOG Performance Status: 1.
-
-**RELEVANT DIAGNOSTIC STUDIES:**
-All relevant laboratory and imaging studies have been reviewed and are incorporated into the HPI and Diagnostic Workup sections above.
+- **Histology:** Adenocarcinoma
+- **PD-L1 Tumor Proportion Score (TPS):** Positive, 1-49%
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb)
+- **Actionable driver mutation detected:** EGFR L858R point mutation.
+- **Additional testing was negative for mutations or rearrangements in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
 
 **Problem Summary:**
-This is an 83-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IV, with metastatic disease to the pleura. Molecular profiling reveals an EGFR L858R sensitizing mutation, PD-L1 TPS 1-49%, and low TMB. The patient is currently seeking initial oncology evaluation for management recommendations.
+In summary, this is an 83-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is characterized by a malignant pleural effusion and is positive for an EGFR L858R sensitizing mutation. The patient is treatment-naive and is seen today to discuss these findings.

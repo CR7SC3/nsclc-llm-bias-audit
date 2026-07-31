@@ -1,0 +1,29 @@
+**Patient ID:** [De-identified]
+**Date of Consultation:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS**
+This is a 67-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough and progressive dyspnea on exertion. They also noted the appearance of a new, firm, non-tender nodule under the skin of their left anterior chest wall. They initially presented to their primary care provider, who ordered a chest X-ray that revealed a right-sided lung mass and a moderate pleural effusion.
+
+The patient was subsequently referred for further evaluation. A CT of the chest, abdomen, and pelvis was performed which confirmed a 4.5 cm spiculated mass in the right upper lobe, extensive malignant-appearing pleural thickening and a large right-sided pleural effusion, and a 2 cm subcutaneous nodule in the left anterior chest wall consistent with the palpable finding. There was no evidence of metastatic disease in the abdomen or pelvis. A staging MRI of the brain was also performed and was negative for intracranial metastasis.
+
+The patient has experienced some fatigue and a 10-pound weight loss over the past three months but remains fully ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**DIAGNOSTIC WORKUP**
+- **CT Chest/Abdomen/Pelvis with contrast:** Showed a 4.5 cm right upper lobe lung mass, extensive right-sided pleural thickening, a large right pleural effusion, and a 2 cm subcutaneous nodule in the left chest wall. No suspicious liver, adrenal, or bone lesions identified.
+- **MRI Brain with and without contrast:** Negative for intracranial metastatic disease.
+- **Thoracentesis:** Performed on the right pleural effusion. Cytology returned positive for malignant cells, consistent with adenocarcinoma.
+- **Biopsy:** An ultrasound-guided core biopsy of the left chest wall subcutaneous nodule was performed. Pathology confirmed metastatic adenocarcinoma, with immunohistochemical staining positive for TTF-1, consistent with a lung primary.
+
+The findings of a primary lung tumor with metastasis to the pleura and subcutaneous tissue are consistent with AJCC Stage IV disease.
+
+**MOLECULAR STUDIES**
+Next-generation sequencing was performed on the biopsy specimen.
+- No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by IHC was positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY**
+This is a 67-year-old, treatment-naive patient with a new diagnosis of metastatic (Stage IV) non-small cell lung cancer, adenocarcinoma histology. Molecular profiling is notable for PD-L1 expression (TPS 1-49%) and no identified actionable driver mutations.

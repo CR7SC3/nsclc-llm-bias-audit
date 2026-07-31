@@ -1,0 +1,21 @@
+**HPI:**
+This is a 51-year-old individual with a history of smoking (quit <1 year ago) who is referred for an initial medical oncology consultation to discuss a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided chest wall pain. The pain was initially attributed to a muscle strain but worsened over several weeks, prompting a visit to their primary care provider. An initial chest X-ray revealed a suspicious opacity in the right upper lung.
+
+Staging workup was initiated with a CT of the chest, abdomen, and pelvis with contrast. This study confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. Critically, the scan also identified a lytic lesion in the right 7th rib, highly concerning for a bone metastasis. A subsequent dedicated MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastatic disease. The patient reports ongoing, localized pain at the site of the rib lesion, managed with over-the-counter analgesics, and fatigue, but is otherwise fully ambulatory and performing all activities of daily living. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+*   **CT Chest, Abdomen, and Pelvis with contrast [De-identified Date]:** Revealed a 4.5 cm mass in the right upper lobe, prominent mediastinal lymph nodes, and a lytic lesion in the posterior aspect of the right 7th rib consistent with metastatic disease. No other distant visceral metastases were identified.
+*   **MRI Brain with and without contrast [De-identified Date]:** Negative for intracranial metastasis.
+*   **CT-guided Core Biopsy, Right Upper Lobe Mass [De-identified Date]:** Pathology confirmed invasive adenocarcinoma, consistent with a primary non-small cell lung carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen with the following results:
+*   **Actionable Driver:** ALK gene rearrangement detected.
+*   **Negative for:** EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations/rearrangements.
+*   **PD-L1:** Not tested. The sequencing panel used was from a pre-2017 platform where this was not yet standard.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 51-year-old former smoker presenting for initial evaluation of a new diagnosis of Stage IV non-small cell lung adenocarcinoma, metastatic to bone. The diagnosis was confirmed via biopsy of a right lung mass, and staging studies confirmed a solitary bone metastasis in a rib without evidence of brain involvement. Comprehensive molecular profiling of the tumor is notable for the presence of an ALK gene rearrangement. The patient is here today to discuss the diagnosis and establish oncologic care.

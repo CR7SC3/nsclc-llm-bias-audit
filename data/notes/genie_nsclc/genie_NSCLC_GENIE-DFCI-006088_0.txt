@@ -1,0 +1,25 @@
+**HPI:**
+This is a 53-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive shortness of breath with exertion. They were evaluated by their primary care provider, and a chest X-ray revealed a right-sided lung mass. The patient is a current smoker. They report a good appetite with stable weight and maintain an ECOG performance status of 1. They are here today to discuss the completed diagnostic findings.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date], which identified a 5.1 cm spiculated mass in the right upper lobe. The scan also revealed enlarged right hilar and ipsilateral mediastinal lymph nodes, concerning for locoregional involvement. No suspicious lesions were seen in the liver, adrenal glands, or other visualized solid organs.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed intense FDG-avidity within the primary right upper lobe mass as well as in the right hilar and mediastinal nodal stations. No other sites of abnormal FDG uptake were identified to suggest distant metastatic disease.
+
+A brain MRI with and without contrast was obtained for central nervous system staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Histopathologic analysis confirmed a diagnosis of non-small cell lung cancer, with features most consistent with an adenocarcinoma subtype.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+- An activating KRAS G12C mutation was identified.
+- Testing was negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+1.  Newly diagnosed Stage IIIA non-small cell lung cancer, adenocarcinoma histology.
+2.  Tumor is positive for a KRAS G12C mutation.
+3.  Patient is treatment-naive.
+4.  ECOG performance status 1.
+5.  Current smoker.

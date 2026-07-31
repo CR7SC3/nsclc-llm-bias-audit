@@ -1,0 +1,17 @@
+**HPI:**
+This is a 73-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside provider several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. An initial chest X-ray revealed a right-sided lung opacity, which prompted further investigation with a contrast-enhanced CT of the chest. The patient reports a good appetite but some fatigue. Performance status is ECOG 1. Past medical history is notable for prostate cancer, managed previously with local therapy and currently under surveillance without evidence of recurrence. The patient is a former smoker, having quit over one year ago.
+
+**Diagnostic Workup:**
+A staging CT of the chest, abdomen, and pelvis was performed, which identified a large, spiculated mass in the right upper lobe measuring approximately 5.2 cm. This was associated with bulky mediastinal and contralateral supraclavicular lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan was performed for definitive staging. This demonstrated intense FDG-avidity in the primary right upper lobe mass. Avid uptake was also noted in multiple right-sided mediastinal (N2) and left-sided supraclavicular (N3) lymph nodes. There was no evidence of FDG-avid disease below the diaphragm or elsewhere to suggest distant metastatic disease.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for intracranial metastasis.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed a diagnosis of poorly differentiated squamous cell carcinoma, a subtype of non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alteration was identified; results were negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 mutations. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 73-year-old with a new diagnosis of locally advanced, unresectable Stage IIIB (AJCC 8th Edition) squamous cell non-small cell lung cancer. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is negative for common actionable driver alterations.

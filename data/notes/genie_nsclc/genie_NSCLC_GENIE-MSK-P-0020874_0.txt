@@ -1,0 +1,21 @@
+**HPI:**
+This is a 59-year-old individual with a recent history of a persistent, non-productive cough and mild dyspnea on exertion developing over the past several months. The patient initially sought evaluation with a primary care provider, which led to a chest X-ray revealing a right-sided pulmonary opacity. The patient reports a 10-pound unintentional weight loss over the last three months but denies fevers, chills, night sweats, or hemoptysis. The patient is a former smoker, having quit less than one year ago after a multi-decade history of tobacco use. The patient otherwise remains fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1. The patient is referred for initial medical oncology consultation to discuss the diagnosis and management options.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which identified a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed multiple enlarged ipsilateral mediastinal and subcarinal lymph nodes, with the largest measuring 2.2 cm in short-axis diameter. No suspicious lesions were identified in the contralateral lung, liver, adrenal glands, or other visceral organs.
+
+To complete staging, a PET/CT was obtained. This study demonstrated intense FDG-avidity in the primary right upper lobe mass and in the corresponding mediastinal and subcarinal lymph nodes, consistent with the findings on the diagnostic CT. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastasis. A subsequent MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastatic disease.
+
+A bronchoscopy with endobronchial ultrasound (EBUS) was performed for definitive diagnosis and staging. Fine-needle aspiration of a subcarinal lymph node (station 7) was completed. Pathologic review of the specimen confirmed the presence of malignant cells consistent with non-small cell lung cancer, specifically adenocarcinoma histology.
+
+Based on the combination of these findings, the patient is diagnosed with clinical Stage IIIA (cT2bN2M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the EBUS-guided biopsy.
+- An actionable driver mutation was detected in **KRAS G12C**.
+- The tumor was found to be negative for targetable alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- Tumor mutational burden (TMB) was reported as **intermediate (2–16 mut/Mb)**.
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 59-year-old former smoker with a new diagnosis of non-metastatic, AJCC Stage IIIA (cT2bN2M0) non-small cell lung adenocarcinoma of the right lung. The tumor is molecularly characterized by a KRAS G12C mutation. The patient is treatment-naive and presents today for initial consultation.

@@ -1,0 +1,20 @@
+**HPI:**
+This is a 79-year-old individual with a history of smoking (quit over one year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a seasonal illness, but its persistence prompted a visit to their primary care provider. The patient denies hemoptysis, fevers, chills, or significant weight loss but does endorse some mild exertional dyspnea. They maintain a good performance status and are fully independent with all activities of daily living.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which prompted a follow-up computed tomography (CT) scan of the chest. The CT scan confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. It also demonstrated prominent ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest node measuring 2.5 cm.
+
+To complete staging, a PET/CT scan was performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass as well as in the right paratracheal and subcarinal lymph nodes, consistent with the findings on the diagnostic CT. Importantly, there was no evidence of FDG-avid disease below the diaphragm or in the contralateral hemithorax, with no suspicious lesions identified in the liver, adrenal glands, or bones. A contrast-enhanced MRI of the brain was also performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathology returned as non-small cell lung cancer, with features consistent with adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+-   An actionable driver mutation was detected in **KRAS G12C**.
+-   Testing was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+-   PD-L1 expression by immunohistochemistry was **negative** (Tumor Proportion Score <1%).
+-   Tumor Mutational Burden (TMB) was **intermediate** (2–16 mut/Mb).
+-   A **STK11 loss-of-function mutation** was also identified, a finding associated with potential primary resistance to PD-1/PD-L1 inhibitors.
+
+**Problem Summary:**
+This is a 79-year-old former smoker who presents for initial evaluation of a newly diagnosed, treatment-naive, Stage IIIA non-small cell lung cancer, adenocarcinoma subtype. Staging workup including PET/CT and brain MRI confirms locoregionally advanced disease without evidence of distant metastases. Molecular profiling of the tumor is notable for a KRAS G12C mutation, negative PD-L1 expression, and a co-occurring STK11 loss-of-function mutation. The patient is here today to discuss the implications of this diagnosis.

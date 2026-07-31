@@ -1,0 +1,28 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 65-year-old individual with a history of smoking (quit within the last year) who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks ago, when they developed a persistent, dry cough and mild dyspnea on exertion. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms, a chest X-ray was obtained, which revealed a suspicious right-sided lung mass.
+
+A follow-up contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization and staging. This imaging confirmed the presence of a large mass in the right lung and also identified a solitary nodule in the contralateral (left) lung, concerning for metastatic disease. A subsequent PET/CT scan confirmed high metabolic activity in the primary right lung mass, associated mediastinal lymph nodes, and the contralateral lung nodule. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+To establish a definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right lung mass. The patient has tolerated the workup well, though notes some fatigue. They remain fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis ([De-identified Date]):** Revealed a 5.2 cm spiculated mass in the right upper lobe. A separate 1.8 cm nodule was identified in the left lower lobe, consistent with metastatic disease (M1). Multiple enlarged mediastinal and hilar lymph nodes were also noted. No evidence of metastatic disease within the abdomen or pelvis.
+*   **PET/CT ([De-identified Date]):** Confirmed intense FDG-avidity in the right upper lobe primary mass, multiple mediastinal lymph nodes, and the contralateral left lower lobe nodule.
+*   **MRI Brain ([De-identified Date]):** No evidence of intracranial metastatic disease.
+*   **Pathology (CT-guided biopsy, right lung mass, [De-identified Date]):** Histologic analysis demonstrated poorly differentiated non-small cell carcinoma with features consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen.
+*   No actionable driver alteration was identified. The tumor was found to be negative for mutations or rearrangements in *EGFR, ALK, ROS1, BRAF, MET* exon 14, *RET, NTRK, KRAS,* and *ERBB2*.
+*   PD-L1 expression was not tested.
+*   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 65-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, squamous cell histology, with metastasis to the contralateral lung. Molecular profiling is negative for common actionable driver mutations. The patient has a good performance status and is seen today to discuss the diagnosis and establish oncologic care.

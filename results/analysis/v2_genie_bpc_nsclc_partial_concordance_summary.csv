@@ -1,0 +1,7 @@
+model,ref_partial_concordance_pct,n_ref,dem_partial_concordance_pct,n_dem,delta_pp
+gemini-2.5-flash,83.48,1008,84.71,28942,1.23
+deepseek-chat,90.89,1015,90.54,29487,-0.35
+llama-3.3-70B,83.3,1003,83.77,29226,0.47
+llama-3.1-8B,72.22,979,71.68,28539,-0.54
+gpt-4o,90.78,1020,90.23,29703,-0.55
+gpt-4o-mini,76.04,985,75.86,28516,-0.18

@@ -1,0 +1,30 @@
+**INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 64-year-old individual referred for initial oncology evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to their primary care provider several weeks ago with a persistent, non-productive cough. An initial chest radiograph was concerning for a right-sided pulmonary opacity, which prompted further investigation.
+
+The patient reports feeling generally well otherwise, with no significant weight loss, fevers, or night sweats. There is some mild exertional dyspnea but no dyspnea at rest. The patient maintains a good appetite and is fully ambulatory, managing all activities of daily living without assistance. Performance status is excellent, ECOG 1. Past medical history is notable for prior tobacco use, with cessation over one year ago.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest was performed. This imaging confirmed the presence of a 4 cm spiculated mass in the right upper lobe. The scan also revealed prominent ipsilateral mediastinal and hilar lymphadenopathy, concerning for regional metastatic disease.
+
+For definitive staging, a whole-body PET/CT was subsequently obtained. This study demonstrated intense FDG-avidity corresponding to the primary right upper lobe mass and the right-sided mediastinal lymph nodes. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases. A staging MRI of the brain was also performed and was negative for any evidence of intracranial metastatic disease.
+
+To obtain a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided transbronchial needle aspiration of a right paratracheal lymph node. Pathologic review of the specimen confirmed the diagnosis of adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Tissue from the biopsy was sent for molecular analysis.
+- Comprehensive next-generation sequencing panel results are pending at this time.
+- Tumor Mutational Burden (TMB) was found to be low (<2 mut/Mb).
+- PD-L1 immunohistochemistry was not performed.
+
+**Problem Summary:**
+In summary, this is a 64-year-old former smoker with a new diagnosis of treatment-naive, locally advanced non-small cell lung cancer.
+- **Diagnosis:** Adenocarcinoma of the lung, AJCC Stage IIIA.
+- **Staging:** The disease is confined to the right hemithorax, involving the primary tumor and ipsilateral mediastinal lymph nodes, with no evidence of distant metastatic disease.
+- **Molecular Profile:** TMB is low. Full genomic profiling is pending.
+- **Performance Status:** Excellent (ECOG 1).

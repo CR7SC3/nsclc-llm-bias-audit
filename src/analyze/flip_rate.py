@@ -19,7 +19,10 @@ from typing import Any
 from src.evaluate.nccn_scorer import get_nccn_answer
 
 
-REFERENCE_VARIANT: str = "white_male_private"
+# Study reference is the neutral no-demographics baseline (matches
+# analyze_results_v2.py REFERENCE). Was "white_male_private", which is itself a
+# demographic variant and produced inconsistent flip rates across modules.
+REFERENCE_VARIANT: str = "no_demographics"
 
 # Canonical treatment mentions used for loose string matching
 _TREATMENT_KEYWORDS: dict[str, list[str]] = {

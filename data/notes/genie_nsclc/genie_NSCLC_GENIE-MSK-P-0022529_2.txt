@@ -1,0 +1,23 @@
+**HPI:**
+This is a 43-year-old individual with a history as a never-smoker who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. Initial management with a course of antibiotics for presumed bronchitis was unrevealing. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity, prompting further investigation. The patient denies hemoptysis, fevers, chills, or significant weight loss. They maintain an excellent performance status, continuing to work and perform all activities of daily living without restriction (ECOG 0). The patient is here today to review the diagnostic findings and establish care.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study characterized a 3.5 cm spiculated mass in the right upper lobe. It also revealed multiple enlarged right-sided mediastinal and hilar lymph nodes, with the largest measuring 2.1 cm in the short axis. There was no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or other visualized abdominopelvic organs.
+
+A subsequent PET/CT scan was obtained for staging, which demonstrated intense FDG-avidity corresponding to the right upper lobe primary mass as well as the right mediastinal and hilar lymphadenopathy (N2 disease). No other sites of abnormal FDG uptake suspicious for distant metastases were identified.
+
+A brain MRI with and without contrast was performed for central nervous system staging and was negative for any evidence of intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue acquisition. Fine-needle aspiration (FNA) of a right mediastinal lymph node was performed. Pathologic analysis of the specimen confirmed the diagnosis of metastatic non-small cell lung cancer, with features most consistent with an adenocarcinoma histology.
+
+Final staging based on this comprehensive workup is consistent with AJCC Stage IIIA (T2aN2M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the EBUS-FNA.
+- **Actionable Driver Mutation:** An ALK (Anaplastic Lymphoma Kinase) gene rearrangement was detected.
+- **Other Driver Mutations:** Testing was negative for mutations or rearrangements in EGFR, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** The tumor proportion score (TPS) was in the 1-49% range.
+- **Tumor Mutational Burden (TMB):** TMB was low at <2 mutations per megabase.
+
+**Problem Summary:**
+In summary, this is a 43-year-old never-smoker with a new diagnosis of Stage IIIA (T2aN2M0) non-small cell lung adenocarcinoma, found to be ALK-rearranged. The patient is treatment-naive with an excellent performance status (ECOG 0) and is seen today for initial consultation and to establish care.

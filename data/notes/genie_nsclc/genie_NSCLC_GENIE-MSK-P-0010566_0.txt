@@ -1,0 +1,22 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Patient:** [De-identified Name]
+**MRN:** [De-identified MRN]
+**Date of Consultation:** [De-identified Date]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 66-year-old who presents for initial medical oncology evaluation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. More recently, they noted the onset of dull headaches and new, persistent low back pain, which prompted a visit to their primary care provider. The patient is a lifetime never smoker. They remain fully ambulatory and capable of self-care but are symptomatic and have had to reduce strenuous activities due to fatigue and discomfort.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray was abnormal, leading to a CT scan of the chest. This revealed a 4.5 cm spiculated mass in the left upper lobe, with associated mediastinal and hilar lymphadenopathy.
+
+For staging purposes, a PET/CT was subsequently performed. This confirmed high metabolic activity in the primary left upper lobe mass and mediastinal lymph nodes. Additionally, it demonstrated multiple foci of intense FDG uptake in the skeleton, including in the thoracic spine and right iliac bone, consistent with osseous metastases.
+
+Given the patient's report of headaches, an MRI of the brain with and without contrast was obtained. This study revealed several enhancing parenchymal lesions in the bilateral cerebral hemispheres, consistent with brain metastases.
+
+A CT-guided core needle biopsy of the left upper lobe lung mass was performed on [De-identified Date]. Histopathologic analysis confirmed the diagnosis of non-small cell lung cancer, with features of adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue. This analysis identified an actionable sensitizing EGFR exon 19 deletion. The tumor was found to be negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 66-year-old never smoker who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms metastatic disease to the brain and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

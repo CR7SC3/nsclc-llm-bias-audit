@@ -1,0 +1,21 @@
+**HPI:**
+This is a 59-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside provider several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a right-sided lung opacity, which prompted further evaluation with a contrast-enhanced CT scan of the chest. The patient reports good baseline functional status, remaining fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 0. The patient is a former smoker, with cessation over one year ago.
+
+**Diagnostic Workup:**
+A CT of the chest, abdomen, and pelvis confirmed a 3.5 cm spiculated mass in the right upper lobe. There was also evidence of ipsilateral hilar lymphadenopathy. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed on [De-identified date]. Pathology from this procedure established a diagnosis of non-small cell lung cancer, with features consistent with adenocarcinoma histology.
+
+Staging evaluation was completed with a whole-body PET/CT scan. This study demonstrated intense FDG avidity in the primary right upper lobe mass and in an ipsilateral hilar lymph node. No other sites of FDG-avid disease suspicious for distant metastasis were identified. A dedicated MRI of the brain was also performed and was negative for intracranial metastases.
+
+Based on this comprehensive workup, the patient carries a diagnosis of AJCC Stage IIB non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the diagnostic biopsy specimen. Molecular profiling did not identify an actionable driver alteration; results were negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2 mutations or rearrangements.
+
+PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) of 1–49%.
+
+Tumor Mutational Burden (TMB) was found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 59-year-old with an excellent performance status and a new diagnosis of Stage IIB non-small cell lung adenocarcinoma. The patient is treatment-naive. Molecular analysis of the tumor is notable for positive PD-L1 expression (TPS 1-49%) and a high Tumor Mutational Burden, with no targetable driver mutations identified. The patient is seen today to discuss these findings and establish care.

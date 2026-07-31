@@ -1,0 +1,28 @@
+**MEDICAL ONCOLOGY - INITIAL CONSULTATION**
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF VISIT:** [De-identified]
+
+**History of Present Illness:**
+This is a 68-year-old individual with a history of being a never-smoker, referred to Medical Oncology for a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of excellent health until approximately six weeks ago, when they noted the onset of a persistent, dry cough and a sense of fatigue. These symptoms were initially attributed to a viral illness but persisted, prompting a visit to their primary care provider. As the cough did not resolve, a chest radiograph was obtained, which demonstrated a right-sided pulmonary opacity.
+
+The patient was referred for further diagnostic imaging. They have had a minimal, non-quantified weight loss but maintain a good appetite. They deny fevers, chills, night sweats, or hemoptysis. Performance status is excellent; the patient remains fully active, managing all activities of daily living without assistance, corresponding to an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed the presence of a 3.8 cm spiculated mass in the right upper lobe. Multiple bilateral pulmonary nodules were also identified, with the largest in the left lower lobe measuring 1.5 cm, suspicious for metastatic disease. Several subcentimeter mediastinal lymph nodes were noted. The visualized portions of the abdomen and pelvis were without evidence of metastatic lesions.
+
+For central nervous system staging, a brain MRI with and without contrast was performed and showed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Comprehensive next-generation sequencing and immunohistochemistry were performed on the tumor tissue obtained from the biopsy. Key findings are as follows:
+-   **Actionable Driver Mutation:** An *EGFR* exon 19 deletion was detected.
+-   **Other Driver Mutations:** Testing was negative for genomic alterations in *ALK*, *ROS1*, *BRAF*, *MET* exon 14, *RET*, *NTRK*, and *KRAS*.
+-   **PD-L1 Expression:** PD-L1 tumor proportion score (TPS) is positive in the 1-49% range.
+-   **Tumor Mutational Burden (TMB):** TMB is intermediate at 11 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 68-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirmed metastatic disease limited to the contralateral lung, with a negative brain MRI. The patient's performance status is excellent. Molecular analysis of the tumor is notable for a sensitizing *EGFR* exon 19 deletion and PD-L1 expression of 1-49%. The patient is here for an initial consultation to discuss the implications of this diagnosis and to review management options.

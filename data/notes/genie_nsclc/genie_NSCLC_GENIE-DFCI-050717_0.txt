@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial medical oncology consultation for a 67-year-old individual referred for a new diagnosis of metastatic non-small cell lung cancer. The patient is a former smoker who quit over one year ago. They initially presented to primary care approximately two months prior with a persistent, dry cough and progressive fatigue. This was initially managed as a suspected respiratory infection without improvement. Due to worsening dyspnea on exertion and an unintentional 10-pound weight loss over the past month, further investigation was pursued. The patient remains active with an excellent performance status, managing all activities of daily living without assistance.
+
+**Diagnostic Workup:**
+An initial chest CT scan was performed on [De-identified], which revealed a 3.5 cm spiculated mass in the left upper lobe, along with mediastinal lymphadenopathy. For comprehensive staging, a whole-body PET/CT scan was subsequently obtained. This study confirmed high FDG avidity in the primary left upper lobe mass and mediastinal nodes. Additionally, it demonstrated multiple FDG-avid lesions in the liver, consistent with distant metastatic disease. A dedicated contrast-enhanced MRI of the brain was performed and was negative for any evidence of intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent an ultrasound-guided core needle biopsy of a representative liver lesion. Pathologic examination of the specimen confirmed the diagnosis of a poorly differentiated adenocarcinoma. Immunohistochemical staining was consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the liver biopsy tissue to characterize the tumor.
+- Histology: Adenocarcinoma
+- PD-L1 Expression (IHC): Positive, Tumor Proportion Score (TPS) 1-49%.
+- Tumor Mutational Burden (TMB): Intermediate (2-16 mut/Mb).
+- Molecular Profiling: Comprehensive panel testing did not identify any actionable driver alterations. Specific testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 67-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the liver. The diagnostic workup is complete and notable for a PD-L1 TPS of 1-49% with an intermediate tumor mutational burden. Molecular profiling did not reveal any targetable driver mutations. The patient is treatment-naive and presents today with an excellent performance status to discuss the diagnosis and establish care.

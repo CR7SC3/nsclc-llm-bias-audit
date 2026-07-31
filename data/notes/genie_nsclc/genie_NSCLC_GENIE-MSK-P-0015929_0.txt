@@ -1,0 +1,24 @@
+**HPI:**
+This is a 63-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider approximately one month ago with a persistent dry cough and progressive dyspnea on exertion. These symptoms were accompanied by an unintentional weight loss of approximately 15 pounds over the preceding three months and significant fatigue. An initial chest X-ray revealed a right-sided lung opacity, which prompted further investigation.
+
+The patient is a former smoker with a significant pack-year history, having quit more than one year ago. Currently, the patient remains fully ambulatory and independent with all activities of daily living, though notes that fatigue now limits more strenuous household chores and extended walks. Performance status is ECOG 1. A review of systems is negative for headache, vision changes, focal weakness, or significant bone pain.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis performed on [De-identified Date] revealed a 4.8 cm spiculated mass in the right upper lobe. It also demonstrated extensive mediastinal and hilar lymphadenopathy. Multiple metastatic lesions were identified, including several nodules in the contralateral (left) lung, the largest measuring 1.5 cm, and at least three hypoattenuating lesions in the liver consistent with metastases.
+
+A subsequent whole-body PET/CT scan confirmed high FDG-avidity in the primary right lung mass, the mediastinal lymph nodes, the contralateral lung nodules, and the hepatic lesions. The scan also identified FDG-avid distant nodal disease in the retroperitoneum.
+
+For central nervous system staging, a brain MRI with and without contrast was performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the primary right upper lobe lung mass. Pathological review of the specimen confirmed a diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the lung biopsy tissue. The key findings are as follows:
+- **Histology:** Adenocarcinoma
+- **PD-L1 Tumor Proportion Score (TPS):** 25% (Positive, in the 1-49% range)
+- **Tumor Mutational Burden (TMB):** 9 mutations/megabase (Intermediate)
+- **Somatic Mutations:** An activating KRAS G12C mutation was detected.
+- **Other Markers:** Testing was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 63-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease involving the liver, contralateral lung, and distant lymph nodes, with no evidence of brain metastases. Molecular profiling is notable for a KRAS G12C mutation and positive PD-L1 expression (TPS 25%). The patient is treatment-naive and presents today for initial consultation to discuss the diagnosis and establish a plan for management.

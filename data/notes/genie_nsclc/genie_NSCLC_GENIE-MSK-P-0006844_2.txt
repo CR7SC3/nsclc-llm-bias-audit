@@ -1,20 +1,25 @@
-**Patient:** [De-identified Name], 59-year-old
-**MRN:** [De-identified MRN]
-**Date of Visit:** [De-identified Date]
-**Attending Physician:** [De-identified Physician Name], MD
+**HPI:**
+This is an initial oncology consultation for a 59-year-old with a new diagnosis of non-small cell lung cancer. The patient presents to clinic today to discuss the diagnosis and establish care.
 
-**HISTORY OF PRESENT ILLNESS:**
-The patient is a 59-year-old individual presenting for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer (NSCLC). The patient reports experiencing a persistent cough for the past several months, initially attributed to seasonal allergies, but which progressively worsened and became associated with mild dyspnea on exertion. There has been no reported hemoptysis, fevers, or chills. The patient denies significant unintended weight loss or night sweats. Due to the persistence of symptoms, the patient sought evaluation from their primary care physician, which initiated the diagnostic workup. The patient has a past medical history significant for a prior malignancy of melanoma, now resolved. The patient is a never smoker and reports a good functional status, with an ECOG performance status of 0-1, able to perform all usual activities without restriction or with only mild symptoms.
+The patient was in their usual state of good health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and a sense of mild chest tightness. These symptoms were initially attributed to a viral illness but did not resolve. Over the subsequent weeks, the patient noted progressive dyspnea on exertion, particularly when climbing stairs. This prompted a visit to their primary care provider, who ordered initial imaging. The patient is a lifetime never-smoker. Past medical history is notable for a prior diagnosis of melanoma, which has been managed with surveillance and has no evidence of active disease. The patient otherwise feels well, with a good appetite and stable weight, and maintains an excellent performance status (ECOG 1).
 
-**DIAGNOSTIC WORKUP:**
-Initial diagnostic evaluation included a chest X-ray that revealed a suspicious mass in the left upper lobe. This was followed by a contrast-enhanced CT scan of the chest, abdomen, and pelvis, which confirmed a primary lung mass measuring approximately 4.5 cm in the left upper lobe, along with several enlarged ipsilateral mediastinal and subcarinal lymph nodes. No evidence of distant metastatic disease was identified in the abdomen or pelvis. A subsequent PET/CT scan demonstrated hypermetabolic activity in the left upper lobe mass and the involved mediastinal/subcarinal lymph nodes, with no other sites of avid disease. Brain MRI was performed to complete staging and was negative for intracranial metastases. A CT-guided core biopsy of the left upper lobe mass was performed, confirming adenocarcinoma histology. Endobronchial ultrasound with transbronchial needle aspiration (EBUS-TBNA) of the enlarged mediastinal lymph nodes also confirmed metastatic adenocarcinoma. Based on these findings, the patient's cancer is staged as AJCC Stage IIIA.
+**Diagnostic Workup:**
+A chest X-ray performed on [De-identified Date] revealed a right upper lobe opacity, prompting further investigation.
 
-**MOLECULAR STUDIES:**
-Molecular profiling was performed on the tumor biopsy specimen. Key findings include:
-*   **Actionable Driver Mutation:** EGFR exon 19 deletion (sensitizing).
-*   **Negative for:** ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET fusion, NTRK fusion, KRAS mutation, ERBB2 (HER2) mutation.
-*   **PD-L1 Expression:** Positive, with a tumor proportion score (TPS) of ≥50%.
+A subsequent contrast-enhanced CT of the chest confirmed the presence of a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated enlarged ipsilateral mediastinal (station 4R) and subcarinal (station 7) lymph nodes, concerning for regional metastatic involvement.
+
+A whole-body PET/CT scan was performed on [De-identified Date] for staging. This study showed intense FDG-avidity corresponding to the known right upper lobe primary tumor and the mediastinal and subcarinal lymph nodes. Crucially, no other sites of FDG-avid disease were identified to suggest distant metastatic spread.
+
+A brain MRI with and without contrast was obtained for central nervous system staging and was negative for any evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided transbronchial needle aspiration of a subcarinal lymph node. Pathological analysis of the specimen confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the biopsy tissue. The key findings are as follows:
+*   **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+*   **Other Markers:** Testing was negative for genomic alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Tumor Proportion Score (TPS) is ≥50%.
 *   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
 
-**PROBLEM SUMMARY:**
-This 59-year-old patient presents with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The disease involves a primary left upper lobe mass with ipsilateral mediastinal and subcarinal lymph node involvement, without evidence of distant metastasis, including to the brain. Molecular testing revealed a sensitizing EGFR exon 19 deletion, high PD-L1 expression (TPS ≥50%), and intermediate TMB. The patient has a history of prior melanoma. This consultation is for the discussion of further management strategies.
+**Problem Summary:**
+In summary, this is a 59-year-old lifetime never-smoker with an excellent performance status who presents for initial consultation for a new diagnosis of Stage IIIA (cT2aN2M0, AJCC 8th Edition) non-small cell lung cancer, adenocarcinoma histology. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion and high PD-L1 expression (TPS ≥50%). The patient is treatment-naive and is here today to discuss the implications of this diagnosis.

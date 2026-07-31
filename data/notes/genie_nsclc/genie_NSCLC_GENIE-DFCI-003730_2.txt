@@ -1,0 +1,29 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT ID:** [De-identified]
+**DATE OF VISIT:** [De-identified]
+**ATTENDING PHYSICIAN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 67-year-old with a past medical history significant for melanoma, presenting for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a never-smoker.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially managed symptomatically without resolution. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity. This prompted further evaluation with a diagnostic CT scan of the chest. The patient reports mild fatigue but is otherwise active and independent in all activities of daily living, with an estimated ECOG performance status of 1. They deny fevers, chills, night sweats, hemoptysis, or significant weight loss.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which identified a 4.5 cm spiculated mass in the right upper lobe. This was associated with extensive mediastinal and contralateral hilar lymphadenopathy, consistent with locoregionally advanced disease.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed high FDG-avidity in the primary right upper lobe mass and in multiple mediastinal and contralateral nodal stations, confirming N3 disease. Importantly, the PET/CT demonstrated no evidence of FDG-avid disease elsewhere, with no suspicious lesions in the liver, adrenal glands, or bones to suggest distant metastasis.
+
+To complete staging and rule out central nervous system involvement, a dedicated MRI of the brain with and without contrast was obtained. This study was negative for intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A fine-needle aspiration was performed on a subcarinal lymph node. Pathologic review of the specimen confirmed metastatic adenocarcinoma with features consistent with a lung primary.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue obtained from the EBUS-guided biopsy.
+-   **Actionable Mutations:** An activating **EGFR exon 19 deletion** was detected.
+-   **Other Markers:** Testing was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+-   **PD-L1:** PD-L1 expression was not tested on this specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 67-year-old never-smoker with a new diagnosis of unresectable, Stage IIIB (cT2bN3M0) non-small cell lung adenocarcinoma. The tumor is characterized by a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and presents today to discuss the diagnosis and establish care.

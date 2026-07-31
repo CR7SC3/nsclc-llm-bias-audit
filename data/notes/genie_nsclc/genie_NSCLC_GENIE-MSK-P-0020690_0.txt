@@ -1,0 +1,19 @@
+**INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 45-year-old who presents for initial evaluation and consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a life-long never-smoker and was in a prior state of good health until approximately six weeks ago, when they developed a persistent, dry cough and a vague sense of right-sided chest discomfort. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms, a chest radiograph was obtained which revealed a right-sided pulmonary opacity, prompting further investigation. The patient reports mild fatigue but has maintained their weight and appetite. They remain fully ambulatory and continue with activities of daily living. Performance status is ECOG 1.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest x-ray, a staging CT scan of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified]. This study identified a 3.8 cm spiculated mass in the right upper lobe of the lung with associated mediastinal adenopathy. Critically, the scan also demonstrated multiple, scattered, low-density lesions throughout the liver, consistent with metastatic disease. The largest of these hepatic lesions measured approximately 3.2 cm in segment VI. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+
+Given the accessible nature of the liver lesions, the patient underwent an interventional radiology-guided core needle biopsy of a right hepatic lobe lesion. Histopathologic examination of the biopsy specimen confirmed the presence of poorly differentiated adenocarcinoma. The morphologic and immunohistochemical profile was consistent with a primary lung origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the liver biopsy tissue specimen. No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested on this specimen. Tumor Mutational Burden (TMB) was reported as intermediate (11 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 45-year-old never-smoker with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease documented in the liver. Molecular profiling of the tumor is notable for an absence of targetable driver mutations and an intermediate tumor mutational burden. The patient is here for initial consultation to discuss the diagnosis.

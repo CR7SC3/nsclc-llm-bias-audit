@@ -1,0 +1,24 @@
+**HPI:**
+This is a 65-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a mild, persistent, non-productive cough. This prompted a visit to their primary care provider, who obtained a chest x-ray revealing a small right-sided pulmonary nodule. The patient denies any associated hemoptysis, chest pain, shortness of breath, fevers, or unintentional weight loss. They remain fully active and ambulatory without restriction, with an ECOG performance status of 0. Past medical history is non-contributory. The patient is a current smoker with a significant pack-year history.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest was performed on [De-identified Date]. This study confirmed a 1.8 cm spiculated solid nodule in the apical segment of the right upper lobe. No mediastinal, hilar, or axillary lymphadenopathy was identified. The visualized portions of the upper abdomen, including the liver and adrenal glands, were unremarkable.
+
+To complete staging, a PET/CT was performed from the skull base to the mid-thighs. This demonstrated intense FDG-avidity within the right upper lobe nodule, consistent with malignancy. There was no evidence of FDG-avid disease in the mediastinal lymph nodes or at any distant sites. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathologic examination of the tissue confirmed the diagnosis.
+
+**Molecular Studies:**
+Pathology from the core biopsy specimen confirmed invasive adenocarcinoma. The tissue was sent for next-generation sequencing and ancillary studies.
+- **Driver Mutations:** An activating EGFR L858R point mutation was detected.
+- **Additional Testing:** The tumor was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **Immunotherapy Markers:**
+    - PD-L1 expression by Tumor Proportion Score (TPS) was 1-49%.
+    - Tumor Mutational Burden (TMB) was intermediate at 2-16 mutations/megabase.
+
+**Problem Summary:**
+1.  Non-small cell lung cancer, adenocarcinoma histology, clinical Stage IA (cT1b N0 M0) of the right upper lobe.
+2.  Tumor is positive for a sensitizing EGFR L858R mutation.
+3.  PD-L1 TPS is 1-49%.
+4.  ECOG performance status 0.
+5.  Current tobacco use.

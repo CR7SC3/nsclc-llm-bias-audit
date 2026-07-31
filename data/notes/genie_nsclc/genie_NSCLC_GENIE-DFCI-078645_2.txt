@@ -1,0 +1,24 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 77-year-old who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive fatigue. This was associated with an unintentional weight loss of approximately 10 pounds over three months. The patient initially sought evaluation with their primary care provider, which led to a diagnostic workup.
+
+The patient remains fully ambulatory and independent with all activities of daily living, though notes feeling more tired than usual. Performance status is ECOG 1. Past medical history is notable for a prior diagnosis of melanoma, which was treated with surgical excision several years ago with no evidence of recurrence. The patient is a former smoker, having quit more than one year ago.
+
+**DIAGNOSTIC WORKUP:**
+An initial chest X-ray revealed a suspicious opacity in the right lung, prompting further imaging. A staging CT scan of the chest, abdomen, and pelvis was subsequently performed. This study confirmed the presence of a large primary mass in the right upper lobe with associated mediastinal lymphadenopathy. Additionally, the scan identified multiple low-density lesions throughout the liver, highly suspicious for metastatic deposits.
+
+To confirm the diagnosis and complete staging, the patient underwent an interventional radiology-guided core needle biopsy of one of the accessible liver lesions. Pathologic examination of the tissue confirmed metastatic non-small cell lung cancer, not otherwise specified (nos). A staging MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+**MOLECULAR STUDIES:**
+Tumor tissue obtained from the biopsy was sent for comprehensive next-generation sequencing and biomarker analysis. Key findings are as follows:
+*   An activating **EGFR L858R** point mutation was detected.
+*   Immunohistochemistry for PD-L1 was performed, revealing a Tumor Proportion Score (TPS) of **≥50%**.
+*   Tumor Mutational Burden (TMB) was determined to be **intermediate (2–16 mut/Mb)**.
+*   Testing was negative for rearrangements or mutations in **ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2**.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 77-year-old with a good performance status who presents with a new diagnosis of AJCC Stage IV non-small cell lung cancer, not otherwise specified, with metastatic disease to the liver. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR L858R mutation and high PD-L1 expression. The patient is treatment-naive and is here today for a comprehensive discussion of the diagnosis.

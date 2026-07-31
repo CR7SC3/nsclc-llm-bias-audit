@@ -1,0 +1,17 @@
+**HPI:**
+This is an initial oncology consultation for a 60-year-old former smoker (quit >1 year ago) with a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and new-onset, localized pain in the lower back. The symptoms were initially managed conservatively, but due to their persistence, the patient sought further evaluation. An initial chest X-ray was abnormal, prompting further cross-sectional imaging. The patient is now seen in clinic for discussion of the diagnosis and to establish care. The patient remains fully ambulatory and capable of all self-care, though is limited in strenuous activity by back discomfort. Performance status is ECOG 1.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis revealed a 4.2 cm spiculated mass in the right lower lobe with associated right hilar and mediastinal lymphadenopathy. For purposes of staging, a PET/CT was subsequently performed. This confirmed high metabolic activity in the primary right lower lobe mass and in multiple mediastinal nodal stations. Additionally, the PET scan demonstrated a solitary focus of intense FDG-avidity in the L4 vertebral body, suspicious for a distant metastasis.
+
+A contrast-enhanced MRI of the brain was performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right lower lobe lung mass was performed on [De-identified]. Histopathologic examination confirmed the diagnosis of poorly differentiated non-small cell lung cancer, with an immunohistochemical profile consistent with adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the tumor tissue obtained from the lung biopsy. Molecular profiling did not identify any actionable driver alterations, with negative results for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression by immunohistochemistry was strongly positive, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 60-year-old with newly diagnosed, treatment-naive Stage IV (cT2a N2 M1b) non-small cell lung cancer, adenocarcinoma histology, with a solitary metastasis to bone. Molecular analysis of the tumor is notable for high PD-L1 expression (TPS ≥50%) and the absence of identified targetable driver mutations.

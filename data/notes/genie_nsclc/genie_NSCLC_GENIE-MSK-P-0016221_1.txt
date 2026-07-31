@@ -1,0 +1,23 @@
+**HPI:**
+This is a 68-year-old with a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in a usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. An initial chest X-ray ordered by their primary care provider revealed a right upper lobe opacity, prompting further investigation with cross-sectional imaging. The patient denies fevers, chills, night sweats, or significant weight loss. They maintain a good appetite and energy level, with an ECOG performance status of 1, remaining fully ambulatory and capable of all self-care. The patient is here today for initial oncology consultation to discuss the diagnosis and establish care.
+
+**Diagnostic Workup:**
+A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This demonstrated a 4.2 cm spiculated mass in the right upper lobe. There was significant mediastinal and hilar lymphadenopathy, including bulky right paratracheal and subcarinal nodes, with the largest measuring 2.5 cm in short-axis diameter. There was no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan confirmed intense FDG-avidity in the primary right upper lobe mass and in the right paratracheal and subcarinal lymph nodes, consistent with malignancy. No other sites of abnormal FDG uptake suggestive of metastatic disease were identified.
+
+A brain MRI with and without contrast was performed for staging and was negative for any evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS). Biopsies were obtained from the primary right upper lobe mass and via transbronchial needle aspiration (TBNA) from a subcarinal lymph node. Pathology from both sites returned as invasive adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+Based on the combination of a T2 primary tumor with N2 nodal involvement and no evidence of distant metastases (T2bN2M0), the patient is diagnosed with AJCC Stage IIIA disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. Results are as follows:
+-   **Actionable Driver:** RET fusion detected.
+-   **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, NTRK, KRAS, ERBB2 mutations.
+-   **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) 1-49%.
+-   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 68-year-old never-smoker with newly diagnosed, treatment-naive, Stage IIIA non-small cell lung adenocarcinoma, found to be RET-fusion positive. The patient has a good performance status and is seen today for initial consultation.

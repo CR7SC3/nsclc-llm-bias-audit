@@ -1,22 +1,19 @@
-[De-identified] Medical Oncology Consultation Note
-
-**DATE OF CONSULTATION:** [De-identified Date]
-
-**PATIENT IDENTIFICATION:** The patient is a 54-year-old individual presenting for initial oncology evaluation for newly diagnosed non-small cell lung cancer. This patient is treatment-naive.
-
 **HPI:**
-The patient is a 54-year-old individual who was in their usual state of health until approximately [De-identified number] months ago, when they developed a persistent cough, occasionally productive, and some exertional dyspnea. They also report mild fatigue but deny significant weight loss, fevers, or night sweats. Due to worsening symptoms, they sought evaluation by their primary care provider, which led to a chest X-ray revealing a suspicious lung mass. The patient has a remote history of smoking but quit many years ago, and is a never smoker for the purposes of this diagnosis. Their ECOG performance status is currently 0-1, indicating they are fully ambulatory and able to carry out all normal activities with minimal to mild symptoms.
+This is a 54-year-old individual who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of health until approximately two months ago, when they noted the insidious onset of a dry, persistent cough and mild shortness of breath with exertion. These symptoms prompted an evaluation with their primary care provider. An initial chest X-ray was notable for a right upper lobe opacity, which led to further diagnostic imaging. The patient reports good appetite and has not had any significant weight loss. They remain fully ambulatory and active, with an estimated ECOG performance status of 0-1.
 
 **Diagnostic Workup:**
-Following the suspicious chest X-ray, a contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed. This imaging demonstrated a primary mass measuring approximately [De-identified size] cm in the [De-identified lobe, e.g., right upper lobe], along with several enlarged mediastinal and hilar lymph nodes. Critically, no evidence of distant metastatic disease was identified on this scan. A subsequent PET/CT scan confirmed hypermetabolic activity within the primary lung lesion and the involved mediastinal lymph nodes, without uptake in any other distant sites. An MRI of the brain was also performed to rule out intracranial metastases, which revealed no evidence of brain involvement.
-Tissue biopsy, obtained via [De-identified biopsy method, e.g., bronchoscopy with transbronchial biopsy], confirmed the diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology. Based on the imaging findings of a primary tumor with regional nodal involvement but no distant metastases, the patient is staged as AJCC Stage IIIA.
+A contrast-enhanced CT scan of the chest, performed on [Date], confirmed the presence of a 4 cm spiculated mass in the right upper lobe. This scan also revealed prominent right paratracheal and subcarinal lymphadenopathy, raising suspicion for locoregional nodal involvement.
+
+To complete staging, a whole-body PET/CT was performed on [Date]. This study demonstrated intense FDG-avidity corresponding to the known right upper lobe primary tumor and the mediastinal lymph nodes. Critically, the PET/CT showed no evidence of FDG-avid disease in the contralateral lung, liver, adrenal glands, bones, or elsewhere to suggest distant metastatic disease. A dedicated MRI of the brain with and without contrast on [Date] was also performed and was negative for any intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe mass on [Date]. Pathologic analysis of the tissue established a diagnosis of invasive adenocarcinoma of the lung. Based on the combined imaging and pathology findings, the patient is diagnosed with clinical Stage IIIA (AJCC 8th Edition) disease.
 
 **Molecular Studies:**
-Comprehensive molecular profiling was performed on the tumor tissue. Key findings include:
-*   **Actionable driver mutations:** An EGFR exon 19 deletion was detected, which is a sensitizing mutation.
-*   **Other common mutations:** The tumor was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping, RET fusion, NTRK fusion, KRAS mutations, and ERBB2 (HER2) mutations.
-*   **PD-L1 expression:** Programmed death-ligand 1 (PD-L1) expression was positive, with a tumor proportion score (TPS) of 1-49%.
-*   **Tumor Mutational Burden (TMB):** Tumor mutational burden was low (<2 mut/Mb).
+Tissue obtained from the lung biopsy was sent for comprehensive next-generation sequencing and immunohistochemistry. The results are notable for the following:
+-   An activating mutation was detected in the EGFR gene, specifically an exon 19 deletion.
+-   The tumor was negative for alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   PD-L1 expression by immunohistochemistry showed a Tumor Proportion Score (TPS) of 1-49%.
+-   Tumor Mutational Burden (TMB) was low (<2 mutations/Mb).
 
 **Problem Summary:**
-This is a 54-year-old patient with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, staged as AJCC Stage IIIA. The diagnostic workup consistently showed locoregional disease without evidence of distant metastases, including no brain metastases. Molecular profiling revealed an EGFR exon 19 deletion, with negative results for other common driver mutations. PD-L1 expression was positive (TPS 1-49%), and tumor mutational burden was low. The patient maintains a good performance status (ECOG 0-1). Further discussion regarding optimal management strategies given these findings is warranted.
+In summary, this is a 54-year-old lifetime never-smoker with an excellent performance status who presents with a new diagnosis of Stage IIIA non-small cell lung adenocarcinoma of the right lung. The diagnostic workup, including PET/CT and brain MRI, confirms locoregionally advanced disease without evidence of distant metastases. Molecular profiling is significant for the presence of a sensitizing EGFR exon 19 deletion. The patient is here today for initial consultation to discuss these findings.

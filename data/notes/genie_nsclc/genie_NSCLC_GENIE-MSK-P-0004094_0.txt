@@ -1,0 +1,19 @@
+**HPI:**
+This is a 63-year-old who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a lifetime never-smoker and was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially attributed to a viral illness, but when symptoms failed to resolve and were accompanied by mild right-sided chest discomfort and fatigue, the patient sought evaluation from their primary care provider.
+
+The patient remains fully active and independent with all activities of daily living and continues to work. They report a good appetite with stable weight. They deny fevers, night sweats, hemoptysis, or significant shortness of breath. The initial presentation and subsequent diagnostic workup are detailed below.
+
+**Diagnostic Workup:**
+An initial chest X-ray ordered by the primary care provider revealed a right upper lobe mass. This prompted a referral for further imaging.
+
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study characterized a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed extensive and bulky mediastinal and right supraclavicular lymphadenopathy. No suspicious hepatic, adrenal, or other distant visceral or osseous lesions were identified.
+
+A subsequent whole-body PET/CT scan was performed for definitive staging. This confirmed intense FDG-avidity in the primary right upper lobe mass (SUV max 11.8) as well as in multiple right hilar, mediastinal, and right supraclavicular nodal stations, consistent with the CT findings. Importantly, the PET scan did not demonstrate any FDG-avid lesions suggestive of distant metastatic disease. A dedicated MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound-guided fine-needle aspiration (EBUS-FNA) of a subcarinal lymph node. Pathologic analysis of the specimen confirmed adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Tissue from the biopsy specimen was sent for molecular analysis. Tumor mutational burden (TMB) was found to be low at <2 mut/Mb. PD-L1 expression was not tested on this sample. Results from comprehensive next-generation sequencing panel, which includes evaluation for EGFR, ALK, ROS1, and other targetable genomic alterations, are currently pending and are expected in approximately two weeks.
+
+**Problem Summary:**
+In summary, this is a 63-year-old never-smoker with a new diagnosis of locally advanced, non-metastatic Stage IIIB non-small cell lung cancer, adenocarcinoma histology. The diagnosis was established via EBUS-FNA of a mediastinal lymph node. Staging workup, including PET/CT and brain MRI, has ruled out distant metastatic disease. Initial molecular testing reveals a low TMB, with comprehensive genomic profiling results still pending. The patient presents today for initial consultation to discuss the diagnosis and establish care.

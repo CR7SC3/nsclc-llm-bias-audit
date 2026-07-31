@@ -1,0 +1,21 @@
+**REASON FOR CONSULTATION:** New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 66-year-old who presents for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. An initial course of antibiotics for presumed bronchitis did not provide relief. A subsequent chest x-ray revealed a right upper lobe opacity, prompting further evaluation.
+
+The patient has a past medical history significant for breast cancer, treated with lumpectomy and radiation over a decade ago with no evidence of recurrence. They are a former smoker with a 30-pack-year history, having quit over one year ago. Performance status is excellent, ECOG 1, with symptoms limited to the aforementioned cough. The patient denies hemoptysis, fevers, chills, or significant weight loss.
+
+**DIAGNOSTIC WORKUP:**
+A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This study characterized a 4.5 cm spiculated mass in the right upper lobe. It also demonstrated bulky ipsilateral mediastinal (Level 4R) and subcarinal (Level 7) lymphadenopathy, with the largest node measuring 2.8 cm in short axis. No evidence of distant metastatic disease was identified in the chest, abdomen, or pelvis, with the liver, adrenal glands, and bones appearing unremarkable.
+
+A PET/CT scan was subsequently performed on [De-identified Date] for staging. This confirmed intense FDG-avidity in the primary right upper lobe mass as well as in the right paratracheal and subcarinal nodal stations, consistent with the CT findings. There were no other sites of FDG-avid disease to suggest distant metastases. A dedicated MRI of the brain with and without contrast was negative for intracranial metastasis.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology returned as poorly differentiated adenocarcinoma, consistent with a primary lung malignancy.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIIA (cT2bN2M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**PROBLEM SUMMARY:**
+This is a 66-year-old with a new diagnosis of treatment-naive, unresectable Stage IIIA (cT2bN2M0) lung adenocarcinoma. Molecular profiling of the tumor is negative for known targetable driver alterations. The patient is here today to discuss the diagnosis and to consider options for management.

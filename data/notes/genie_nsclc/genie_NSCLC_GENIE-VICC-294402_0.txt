@@ -1,0 +1,16 @@
+**HPI:**
+This is the initial medical oncology consultation for a 44-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient is a current smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough, progressive shortness of breath with minimal exertion, and significant fatigue. Over the past month, they also noted the onset of dull, constant pain in the mid-back, which has been partially responsive to over-the-counter analgesics. These symptoms prompted an evaluation with their primary care provider, which led to an urgent care visit and subsequent hospital admission for an expedited diagnostic workup. The patient has no prior history of cancer and has received no prior cancer-directed therapy. They are referred to our clinic today for evaluation and discussion of management options.
+
+**Diagnostic Workup:**
+Initial imaging included a chest radiograph that revealed a large right-sided lung mass. A subsequent contrast-enhanced CT scan of the chest, abdomen, and pelvis was performed on [De-identified]. This study confirmed the presence of a 5.8 cm primary mass in the right lower lobe with associated bulky mediastinal and hilar lymphadenopathy. The scan also demonstrated extensive metastatic disease, including multiple bilateral pulmonary nodules with several measuring over 1 cm in the contralateral left lung, at least three distinct hypodense lesions in the liver consistent with metastases, and a lytic lesion in the T7 vertebral body concerning for osseous metastasis. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+An interventional radiology-guided core needle biopsy of a 2.5 cm hepatic lesion was performed on [De-identified]. Pathologic examination of the tissue revealed metastatic, poorly differentiated adenocarcinoma. Immunohistochemical staining was positive for TTF-1 and Napsin-A, confirming a lung primary. These findings are consistent with a diagnosis of AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+The liver biopsy tissue was sent for comprehensive next-generation sequencing and biomarker analysis.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+- **PD-L1 Expression:** Immunohistochemistry for PD-L1 was negative, with a Tumor Proportion Score (TPS) of <1%.
+- **Tumor Mutational Burden (TMB):** TMB was found to be high, at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 44-year-old, treatment-naive patient with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology, with metastatic disease involving the contralateral lung, liver, and bone. The patient is symptomatic from their disease burden. Molecular profiling reveals a high Tumor Mutational Burden (TMB) but is notable for a negative PD-L1 status (TPS <1%) and the absence of any identified actionable genomic driver alterations.

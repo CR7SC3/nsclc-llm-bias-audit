@@ -1,0 +1,15 @@
+**HPI:**
+This is a 68-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with complaints of persistent headaches, progressive fatigue, and new-onset lower back pain. An unintentional weight loss of approximately 15 pounds over the past three months was also reported. The patient is a former smoker, having quit more than one year ago. Despite the symptomatic burden, the patient remains fully ambulatory and capable of all self-care, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The initial workup was prompted by the patient's headaches. An MRI of the brain was performed on [De-identified date], which revealed multiple enhancing intracranial lesions consistent with metastatic disease.
+
+Subsequent staging evaluation with a whole-body PET/CT scan was completed on [De-identified date]. This study identified a hypermetabolic primary mass in the right upper lobe of the lung. There was also evidence of FDG-avid mediastinal and hilar lymphadenopathy. Distant metastatic disease was confirmed, with avid lesions noted in a right adrenal nodule and in multiple osseous sites, including the lumbar spine, correlating with the patient's reported back pain.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathologic examination of the specimen confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. An activating ERBB2 (HER2) exon 20 insertion was detected. The tumor was found to be negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and KRAS. Tumor mutational burden (TMB) was low at <2 mut/Mb. PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 68-year-old with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the brain, bone, and adrenal gland. Molecular profiling is notable for an activating ERBB2 exon 20 insertion. The patient is seen today for initial consultation to discuss the diagnosis and establish a plan of care.

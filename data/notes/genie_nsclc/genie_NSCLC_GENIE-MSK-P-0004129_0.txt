@@ -1,0 +1,22 @@
+**HPI:**
+This is a 60-year-old who presents for an initial medical oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a suspicious opacity, which prompted a follow-up computed tomography (CT) scan of the chest. This confirmed the presence of a primary lung mass. The patient was subsequently referred for further diagnostic evaluation, including staging scans and a tissue biopsy.
+
+The patient is a former smoker, having quit less than one year ago after a significant pack-year history. Subjectively, the patient reports feeling reasonably well despite the new diagnosis. There is mild fatigue but no significant weight loss, fevers, or night sweats. Appetite is preserved. The patient remains fully ambulatory and capable of all self-care, consistent with an ECOG performance status of 0-1.
+
+**Diagnostic Workup:**
+Staging evaluation was completed with a PET/CT scan performed on [De-identified date]. This study demonstrated a hypermetabolic primary mass in the right upper lobe. There was associated hypermetabolic ipsilateral hilar and mediastinal lymphadenopathy. A distinct, metabolically active nodule was also identified in the contralateral (left) lung, consistent with metastatic disease. A subsequent MRI of the brain was performed and revealed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe lung mass was performed. Pathology review confirmed a diagnosis of non-small cell lung cancer, with features of adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified; results were negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was negative.
+
+Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+1.  Metastatic (AJCC Stage IV) non-small cell lung cancer, adenocarcinoma histology. Disease is metastatic to the contralateral lung.
+2.  Molecular profiling notable for no actionable driver alterations, negative PD-L1 expression, and intermediate tumor mutational burden.
+3.  Excellent performance status (ECOG 0-1).
+4.  Former smoker.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 45-year-old individual with a recent history of a persistent, non-productive cough and progressive dyspnea on exertion over the past several months. The symptoms initially did not resolve with a course of outpatient antibiotics, prompting a chest X-ray which revealed a suspicious opacity. The patient is a former smoker, having quit less than one year ago after a significant pack-year history. The patient reports some associated fatigue but has maintained weight and a good performance status, remaining fully ambulatory and capable of all self-care. The patient is here today for an initial medical oncology consultation to discuss the diagnosis and findings.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed for staging. Imaging revealed a primary mass in the right upper lobe. Additionally, the scan identified multiple suspicious nodules in the contralateral (left) lung and evidence of right-sided pleural thickening and small effusion, concerning for pleural metastases. No suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed by Interventional Radiology on [De-identified Date]. Histopathologic examination confirmed a diagnosis of non-small cell lung cancer, with features most consistent with an adenocarcinoma subtype.
+
+As part of the complete staging workup for metastatic disease, a brain MRI with and without contrast was obtained. This study was negative for any evidence of intracranial metastases.
+
+Based on the findings of a primary lung tumor with contralateral lung and pleural involvement (M1a), the patient is diagnosed with AJCC 8th edition Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor tissue obtained from the lung biopsy.
+- An actionable driver mutation was detected: an activating **ERBB2 (HER2) exon 20 insertion**.
+- Testing was negative for pathogenic alterations in **EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK,** and **KRAS**.
+- PD-L1 expression by immunohistochemistry was **negative** (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was found to be **intermediate (2–16 mut/Mb)**.
+
+**Problem Summary:**
+In summary, this is a 45-year-old former smoker presenting for initial evaluation of a new diagnosis of metastatic non-small cell lung cancer. The diagnosis is Stage IV adenocarcinoma with metastatic disease involving the contralateral lung and pleura. Molecular profiling of the tumor is notable for an activating ERBB2 exon 20 insertion and negative PD-L1 expression. The patient has a good performance status and is treatment-naive.

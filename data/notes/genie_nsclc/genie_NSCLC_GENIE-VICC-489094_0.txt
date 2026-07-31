@@ -1,0 +1,21 @@
+**HPI:**
+This is a 71-year-old individual referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient presented to an outside facility approximately one month ago with several weeks of progressive shortness of breath on exertion and a persistent, dry cough. An initial chest X-ray was concerning for a left-sided pleural effusion and an underlying lung mass.
+
+The patient was subsequently hospitalized for further evaluation. A CT of the chest, abdomen, and pelvis with contrast was performed, which confirmed a large mass in the left upper lobe and a significant, loculated left pleural effusion with associated nodular pleural thickening, highly suspicious for malignant involvement. No other sites of metastatic disease were identified in the chest, abdomen, or pelvis. The patient is a former smoker, having quit more than one year ago. Since the diagnostic workup began, the patient notes ongoing fatigue and dyspnea with minimal activity, but remains fully ambulatory and capable of all self-care. The current ECOG performance status is 1.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation has been completed.
+*   **CT Chest/Abdomen/Pelvis ([De-identified]):** Revealed a 4.2 cm spiculated mass in the left upper lobe. A large, complex left pleural effusion with nodular pleural enhancement was noted, consistent with metastatic disease. No suspicious hepatic, adrenal, osseous, or contralateral lung lesions were identified.
+*   **MRI Brain with and without contrast ([De-identified]):** Performed for staging, this study was negative for any evidence of intracranial metastatic disease.
+*   **Thoracentesis and Pleural Biopsy ([De-identified]):** The patient underwent a video-assisted thoracoscopic surgery (VATS) for pleural fluid drainage and tissue sampling. Pathology from the pleural biopsy confirmed invasive adenocarcinoma. The morphology is consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the pleural biopsy specimen with the following key results:
+*   **Actionable Driver Mutations:** A sensitizing EGFR exon 19 deletion was detected.
+*   **Other Markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2 alterations.
+*   **Immunotherapy Markers:**
+    *   PD-L1 expression is negative, with a Tumor Proportion Score (TPS) of <1%.
+    *   Tumor Mutational Burden (TMB) is high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 71-year-old with a new diagnosis of treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the pleura (M1a), and staging evaluation is negative for brain or other distant metastases. Molecular testing is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is here today to discuss the implications of this diagnosis and to establish care.

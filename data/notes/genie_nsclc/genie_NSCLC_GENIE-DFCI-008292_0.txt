@@ -1,0 +1,22 @@
+**HPI:**
+This is a 76-year-old individual with a history of tobacco use (former smoker, quit within the past year) who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation when they developed a persistent, non-productive cough. This prompted a visit to their primary care provider, who ordered initial imaging. The patient is otherwise active and independent with an excellent performance status. They deny any constitutional symptoms such as fevers, night sweats, or unintentional weight loss. They specifically deny hemoptysis, chest pain, or bone pain.
+
+**Diagnostic Workup:**
+The patient's initial workup began with a chest X-ray that revealed a suspicious opacity in the right lung. A subsequent contrast-enhanced CT of the chest confirmed the presence of a 2.1 cm solid, spiculated nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+For staging purposes, a PET/CT was performed on [De-identified Date]. This study demonstrated intense FDG-avidity localized to the known right upper lobe nodule. Importantly, there was no evidence of FDG-avid disease in the mediastinal or hilar lymph nodes, nor was there any evidence of distant metastatic disease in the chest, abdomen, or pelvis.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was performed on [De-identified Date]. Pathology from this specimen confirmed a diagnosis of invasive, moderately differentiated squamous cell carcinoma.
+
+A staging MRI of the brain with and without contrast was also obtained and was negative for intracranial metastases.
+
+The cumulative findings of this workup are consistent with a clinical AJCC Stage IA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the biopsy specimen.
+-   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+-   **PD-L1 Expression:** PD-L1 by IHC 22C3 pharmDx was positive, with a Tumor Proportion Score (TPS) of 1-49%.
+-   **Tumor Mutational Burden (TMB):** TMB was intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 76-year-old with an excellent performance status who presents for initial evaluation of a new diagnosis of treatment-naive, AJCC Stage IA (cT1bN0M0) squamous non-small cell lung cancer of the right upper lobe. Molecular profiling is notable for the absence of an actionable driver mutation and PD-L1 expression of 1-49%. The patient is here today to discuss the diagnosis and potential management options.

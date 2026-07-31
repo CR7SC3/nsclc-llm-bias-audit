@@ -1,0 +1,24 @@
+**INITIAL ONCOLOGY CONSULTATION**
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 44-year-old individual, a lifetime never-smoker, who is referred for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to this evaluation, when they began to experience a persistent, non-productive cough and progressive shortness of breath on exertion. The symptoms prompted a visit to their primary care provider. The patient denies hemoptysis, chest pain, or constitutional symptoms such as fevers or unintentional weight loss. Performance status is excellent, ECOG 1, with the patient remaining fully ambulatory and capable of all self-care, limited only during more strenuous physical activities.
+
+**DIAGNOSTIC WORKUP:**
+The initial workup included a chest CT scan which revealed a large primary mass in the right upper lobe, along with significant ipsilateral mediastinal and subcarinal lymphadenopathy. To complete staging, a PET/CT scan was performed. This study confirmed high FDG-avidity in the right upper lobe primary tumor and in multiple mediastinal lymph node stations. Crucially, the PET/CT showed no evidence of FDG-avid disease outside of the thoracic cavity, with no suspicious findings in the liver, adrenal glands, bone, or other distant sites. A staging MRI of the brain with and without contrast was also performed and was negative for intracranial metastases.
+
+For a definitive tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS), and a biopsy of a subcarinal lymph node was successfully obtained. Pathology from this specimen confirmed the diagnosis.
+
+**MOLECULAR STUDIES:**
+Pathology from the lymph node biopsy established a diagnosis of adenocarcinoma, consistent with a non-small cell lung cancer primary. Comprehensive molecular profiling and immunohistochemistry were performed on the tissue with the following results:
+
+*   **Histology:** Adenocarcinoma
+*   **Actionable Driver:** A **ROS1 rearrangement** was detected.
+*   **Negative Markers:** Testing was negative for alterations in EGFR, ALK, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Immunohistochemistry shows a Tumor Proportion Score (TPS) of **≥50%**.
+*   **Tumor Mutational Burden (TMB):** TMB level is **intermediate (2–16 mut/Mb)**.
+
+**PROBLEM SUMMARY:**
+This is a 44-year-old never-smoker with a new diagnosis of locally advanced, unresectable Stage IIIB non-small cell lung cancer, adenocarcinoma histology. Staging is based on a large primary tumor with extensive mediastinal lymph node involvement and a comprehensive workup that is negative for distant metastatic disease. The tumor is characterized by a ROS1 rearrangement and high PD-L1 expression. The patient is treatment-naive and presents today for initial consultation to discuss the implications of this diagnosis and to establish care.

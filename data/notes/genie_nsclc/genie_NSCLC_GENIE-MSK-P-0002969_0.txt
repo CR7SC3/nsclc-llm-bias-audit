@@ -1,0 +1,33 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION NOTE**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Consultation:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 53-year-old with a recent diagnosis of non-small cell lung cancer who presents for an initial oncology consultation to discuss the diagnosis and potential management options. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially treated as a respiratory infection without resolution. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity. This prompted further investigation with a contrast-enhanced CT scan of the chest. The patient is otherwise well, with an excellent performance status (ECOG 0), and denies significant weight loss, hemoptysis, or bone pain.
+
+**DIAGNOSTIC WORKUP:**
+A CT of the chest confirmed the presence of a 3.8 cm spiculated mass in the right upper lobe. There were also several prominent ipsilateral hilar lymph nodes noted.
+
+For the purposes of staging, a PET/CT scan was performed. This demonstrated intense FDG-avidity within the primary right upper lobe mass as well as in several right hilar (N1) lymph nodes. Importantly, there was no evidence of mediastinal (N2/N3) or distant metastatic disease (M0). A subsequent brain MRI with contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathology from this procedure confirmed a diagnosis of invasive adenocarcinoma.
+
+The cumulative findings from imaging and pathology are consistent with clinical Stage IIB non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Comprehensive next-generation sequencing was performed on the tumor tissue obtained from the biopsy specimen.
+
+The analysis did not identify an actionable driver alteration; the tumor was found to be negative for mutations/rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not tested on this specimen, consistent with the standard of care at the time of the initial sequencing.
+
+Tumor mutational burden (TMB) was determined to be high, at greater than 16 mutations/megabase.
+
+The molecular profile also revealed a loss-of-function mutation in the STK11 gene.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 53-year-old with a new diagnosis of treatment-naive, clinical Stage IIB (cT2bN1M0) non-small cell lung cancer, adenocarcinoma histology. The patient has an excellent performance status. Molecular profiling of the tumor demonstrates no actionable driver mutations, but shows a high tumor mutational burden and a loss-of-function STK11 mutation. The patient is here today for an initial consultation to discuss the implications of this diagnosis.

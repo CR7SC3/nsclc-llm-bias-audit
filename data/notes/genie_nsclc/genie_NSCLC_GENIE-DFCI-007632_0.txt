@@ -1,0 +1,21 @@
+**HPI:**
+This is a 50-year-old who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately 4-6 weeks prior to presentation, when they began experiencing persistent daily headaches and intermittent dizziness. These symptoms progressed, prompting a visit to an emergency department.
+
+An initial head CT and subsequent brain MRI were performed, which revealed multiple lesions suspicious for metastatic disease. A staging workup was then initiated to identify a primary source. The patient reports a chronic cough, which they have had for years and attributed to a long-standing history of smoking, but denies any recent change in its character. They also deny hemoptysis, chest pain, or significant shortness of breath. They do endorse an unintentional weight loss of approximately 10 pounds over the last few months and generalized fatigue. The patient remains fully ambulatory and able to perform all activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The diagnostic workup to date has been reviewed.
+*   **Brain MRI ([De-identified date]):** Revealed multiple enhancing lesions in the cerebral hemispheres consistent with metastatic disease.
+*   **CT of the Chest, Abdomen, and Pelvis with contrast ([De-identified date]):** Identified a 4 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. No other sites of distant metastatic disease were identified in the chest, abdomen, or pelvis.
+*   **CT-guided core needle biopsy, right upper lobe lung mass ([De-identified date]):** Histopathology confirmed invasive, moderately differentiated adenocarcinoma, consistent with a lung primary.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen.
+*   Molecular profiling did not identify any actionable driver alterations. The tumor was negative for mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+*   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 50-year-old with a new diagnosis of treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to the brain. The patient is a current smoker with an excellent performance status (ECOG 1). Molecular studies are notable for PD-L1 expression (TPS 1-49%) and the absence of targetable driver mutations. The patient is here today to discuss the diagnosis and establish care.

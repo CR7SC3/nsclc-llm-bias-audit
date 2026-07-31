@@ -1,0 +1,15 @@
+**HPI:**
+This is a 70-year-old individual who presents for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient has a significant smoking history and is a current smoker. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms and associated fatigue, a chest X-ray was performed which revealed a suspicious right-sided pulmonary opacity. The patient was subsequently referred for further diagnostic evaluation. The patient reports a fair energy level and maintains activities of daily living, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was obtained for staging purposes on [De-identified Date]. The chest CT demonstrated a 4.5 cm spiculated mass in the right upper lobe. Additionally, a discrete 1.8 cm nodule was identified in the contralateral left lower lobe, suspicious for metastatic disease. Mediastinal lymph nodes were noted to be sub-centimeter. The abdominal and pelvic portions of the scan were negative for evidence of distant metastatic disease. A subsequent MRI of the brain with and without contrast was performed and was negative for intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the primary right upper lobe mass. Pathologic review of the specimen confirmed a diagnosis of invasive adenocarcinoma. Based on the presence of a primary lung mass with a contralateral lung metastasis, the patient is diagnosed with AJCC Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. Molecular profiling did not identify an actionable driver alteration; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was assessed and found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+This is a 70-year-old with a new diagnosis of metastatic, Stage IV non-small cell lung cancer of adenocarcinoma histology, with disease present in the right lung and a contralateral metastasis in the left lung. The patient is a current smoker with a good performance status (ECOG 1). Molecular studies are notable for the absence of targetable driver mutations. The tumor is PD-L1 positive (TPS 1-49%) and has a high Tumor Mutational Burden. The patient is seen today for initial consultation to discuss the diagnosis and establish a plan of care.

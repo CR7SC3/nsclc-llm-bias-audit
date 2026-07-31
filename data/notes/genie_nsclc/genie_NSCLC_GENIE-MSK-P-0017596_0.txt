@@ -1,0 +1,25 @@
+**REASON FOR CONSULTATION:**
+New diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 70-year-old with a history of smoking (quit less than one year ago) who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms failed to resolve with a course of antibiotics. Due to worsening shortness of breath and the new onset of mild chest wall discomfort, the patient presented to their primary care provider who ordered a chest radiograph. This revealed a large right upper lobe opacity, prompting an urgent referral for further evaluation. The patient is active and independent with an ECOG performance status of 1, limited only by exertional dyspnea.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified]. This confirmed the presence of a large, spiculated 6.5 cm mass in the right upper lobe. The scan also demonstrated extensive and bulky mediastinal and right-sided supraclavicular lymphadenopathy, with the largest conglomerate of nodes measuring approximately 4 cm. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+To complete staging, a PET/CT was obtained. This demonstrated intense FDG-avidity in the primary right upper lobe mass and in the extensive mediastinal and right supraclavicular nodal stations, consistent with the CT findings. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic spread.
+
+A brain MRI with and without contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed by Interventional Radiology. Pathologic analysis of the tissue confirmed the diagnosis of adenocarcinoma.
+
+**MOLECULAR STUDIES:**
+Pathology from the lung mass biopsy was sent for next-generation sequencing.
+- Histology: Invasive adenocarcinoma of the lung.
+- Actionable driver mutation: MET amplification (high-level) was detected.
+- The following were NOT detected: EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- PD-L1: Not tested.
+- Tumor Mutational Burden (TMB): Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+This is a 70-year-old with newly diagnosed, treatment-naive, AJCC Stage IIIB (cT4N3M0) non-small cell lung adenocarcinoma, notable for high-level MET amplification.

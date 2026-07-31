@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial oncology consultation for a 56-year-old who presents with a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago. The patient was in a usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. These symptoms progressively worsened, prompting a visit to their primary care provider. An initial chest X-ray was concerning for a right-sided lung mass, which led to further diagnostic evaluation. The patient reports some fatigue but has maintained their weight and appetite. They remain fully ambulatory and are managing activities of daily living with minimal difficulty, corresponding to an ECOG performance status of 1. The patient is referred to our clinic for discussion of the diagnosis and to establish care.
+
+**Diagnostic Workup:**
+A CT scan of the chest with contrast was performed, which identified a large, spiculated 5 cm mass in the right upper lobe. This was associated with extensive mediastinal and contralateral hilar lymphadenopathy, concerning for locally advanced disease.
+
+To complete staging, a full-body PET/CT was obtained. This study confirmed high FDG-avidity within the primary right upper lobe tumor and in multiple nodal stations, including the mediastinal, hilar, and contralateral hilar regions, consistent with extensive nodal involvement. Importantly, the PET/CT scan showed no evidence of FDG-avid disease below the diaphragm or in other distant sites to suggest metastatic disease.
+
+Given the staging findings, a dedicated MRI of the brain with and without contrast was performed to evaluate for central nervous system involvement. The brain MRI was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the primary right upper lobe mass was successfully performed. Histopathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+Based on this comprehensive workup, the patient is diagnosed with locally advanced, non-metastatic disease, clinically staged as AJCC Stage IIIB.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alterations were identified; testing was negative for mutations or fusions involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb). Of note, a loss-of-function mutation was identified in the STK11 gene. PD-L1 immunohistochemistry was not performed on this sample.
+
+**Problem Summary:**
+This is a 56-year-old former smoker with a new diagnosis of locally advanced, unresectable Stage IIIB non-small cell lung cancer of adenocarcinoma histology. Staging workup, including PET/CT and brain MRI, has confirmed the disease is confined to the chest without evidence of distant metastases. Molecular profiling of the tumor is notable for the absence of common targetable driver mutations but revealed an STK11 loss-of-function mutation. The patient presents today for their initial oncology evaluation to discuss these findings.

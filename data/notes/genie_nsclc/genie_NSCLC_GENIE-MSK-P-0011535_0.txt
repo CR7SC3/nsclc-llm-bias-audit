@@ -1,0 +1,15 @@
+**HPI:**
+This is a 72-year-old individual with a significant history of current tobacco use who is seen in our Thoracic Oncology clinic for initial consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to this evaluation, when they began to experience a persistent, dry cough and progressive fatigue. Over the subsequent weeks, they noted increasing shortness of breath with exertion and an unintentional weight loss of approximately 15 pounds. These symptoms prompted an evaluation with their primary care physician, which initiated a diagnostic workup. The patient reports mild dyspnea at rest but is ambulatory and managing all self-care activities.
+
+**Diagnostic Workup:**
+The patient's workup began with a chest X-ray that revealed a large right-sided pulmonary mass. This was followed by a contrast-enhanced CT of the chest, abdomen, and pelvis for staging. The CT scan confirmed the presence of a 5.1 cm spiculated mass in the right upper lobe, associated with extensive mediastinal lymphadenopathy. The scan also revealed a solitary 2.8 cm enhancing nodule in the left adrenal gland, consistent with a distant metastatic deposit.
+
+To complete staging, a brain MRI with and without contrast was performed, which showed no evidence of intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe lung mass on [De-identified Date]. The pathology from this procedure confirmed the diagnosis of non-small cell lung cancer, as detailed below.
+
+**Molecular Studies:**
+Surgical pathology from the lung mass biopsy established a diagnosis of adenocarcinoma. A portion of the tissue was sent for comprehensive next-generation sequencing to assess for targetable alterations. This analysis did not identify any actionable driver mutations. Specifically, the tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. The tumor mutational burden (TMB) was determined to be intermediate (2–16 mut/Mb). As per the standards at the time of the initial sequencing panel, PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 72-year-old individual presenting with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer of adenocarcinoma histology. The clinical stage is consistent with cT3 N2 M1b. Staging studies have confirmed metastatic disease to the left adrenal gland with no evidence of brain metastases. The patient has a good performance status. Comprehensive molecular profiling of the tumor did not identify any targetable driver alterations. The patient is here today to discuss the implications of this diagnosis and review the findings in detail.

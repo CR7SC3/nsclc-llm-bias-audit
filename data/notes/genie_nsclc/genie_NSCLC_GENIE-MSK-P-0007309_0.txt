@@ -1,0 +1,15 @@
+**HPI:**
+This is a 51-year-old individual with a history of current tobacco use who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was subsequently associated with new-onset mid-back pain and an unintentional 10-pound weight loss over the past month. These symptoms prompted a visit to their primary care provider, which initiated a diagnostic workup. The patient otherwise reports fair energy levels and maintains an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The patient's workup began with a chest radiograph that revealed a large right upper lobe mass. A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified date]. This study confirmed a 5.2 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. The scan also revealed multiple sites of distant disease, including several small nodules in the contralateral (left) lung, a 2.5 cm left adrenal nodule, and a lytic lesion in the T8 vertebral body.
+
+To further characterize the extent of disease and identify a biopsy target, a PET/CT was performed. This demonstrated intense FDG avidity in the primary right lung mass, mediastinal nodes, the contralateral lung nodules, the left adrenal lesion, and the lytic bone lesion in the thoracic spine, consistent with widespread metastatic disease.
+
+A CT-guided core needle biopsy of the primary right lung mass was subsequently performed. Pathology review confirmed invasive, poorly differentiated adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue specimen. No actionable driver alterations were identified; the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested, consistent with the standard of care at the time of tissue acquisition. The tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). Of note, a loss-of-function mutation was detected in the KEAP1 gene, an alteration which has been associated with a reduced likelihood of response to immunotherapy.
+
+**Problem Summary:**
+In summary, this is a 51-year-old current smoker with a new diagnosis of Stage IV (M1) non-small cell adenocarcinoma of the lung. The diagnosis was established via biopsy of a primary right lung mass, with imaging workup confirming metastatic disease involving the contralateral lung, left adrenal gland, and bone. Comprehensive molecular profiling of the tumor did not identify any targetable driver mutations but did reveal a KEAP1 loss-of-function mutation.

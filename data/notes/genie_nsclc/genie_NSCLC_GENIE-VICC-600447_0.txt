@@ -1,0 +1,17 @@
+**HPI:**
+This is a 65-year-old with a history of former tobacco use (quit >1 year ago) who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to notice a persistent, dry cough and progressive shortness of breath with exertion. This was initially attributed to a seasonal illness, but symptoms failed to resolve. Over the past month, the patient also noted intermittent right-sided chest wall discomfort. These symptoms prompted a visit to their primary care provider, who ordered initial imaging. The patient reports no significant weight loss, fevers, or night sweats. Performance status is excellent; the patient is fully ambulatory, independent in all activities of daily living, and continues to work part-time.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, prompting further evaluation with a CT scan of the chest with contrast on [De-identified date]. This study confirmed a 4 cm spiculated mass in the right upper lobe. Additionally, the scan demonstrated bulky mediastinal and right supraclavicular lymphadenopathy.
+
+For definitive staging, a whole-body PET/CT scan was performed on [De-identified date]. This study demonstrated intense FDG-avidity in the primary right upper lobe mass, as well as in multiple right-sided paratracheal, subcarinal, and supraclavicular lymph nodes. No FDG-avid lesions suggestive of distant metastatic disease in the contralateral lung, liver, adrenal glands, or bone were identified. A dedicated MRI of the brain with and without contrast was subsequently performed on [De-identified date] and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and fine-needle aspiration of a subcarinal lymph node to establish a tissue diagnosis and confirm nodal involvement. Pathology from this procedure confirmed the diagnosis of non-small cell lung cancer.
+
+**Molecular Studies:**
+Pathology from the EBUS-guided lymph node biopsy was reviewed and confirmed invasive adenocarcinoma, consistent with a lung primary. The tissue specimen was sent for next-generation sequencing.
+
+Molecular analysis detected an actionable KRAS G12C mutation. The tumor was found to be negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and ERBB2. Tumor Mutational Burden (TMB) was low at <2 mut/Mb. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 65-year-old, treatment-naive patient with a new diagnosis of Stage IIIB (cT2aN3M0) non-small cell lung cancer of adenocarcinoma histology. Staging workup including PET/CT and brain MRI confirms locally advanced disease involving mediastinal and supraclavicular lymph nodes without evidence of distant metastases. Molecular profiling is notable for the presence of a KRAS G12C mutation. The patient presents today for initial consultation to discuss the diagnosis in detail.

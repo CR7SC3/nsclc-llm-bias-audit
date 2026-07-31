@@ -1,0 +1,23 @@
+**HPI:**
+This is a 55-year-old individual with a past medical history significant only for well-controlled hypertension, who is referred for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, dull ache in the right hip, which was initially attributed to a muscle strain. Over the subsequent weeks, the pain progressed and was accompanied by the new onset of a mild, dry cough. The patient was evaluated by their primary care physician. Due to the persistent and localized nature of the hip pain, an X-ray of the pelvis was obtained, which revealed a suspicious lytic lesion in the right iliac crest.
+
+This finding prompted further investigation with a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This study demonstrated a 3.2 cm spiculated mass in the left upper lobe, extensive mediastinal lymphadenopathy, and confirmed a destructive lesion in the right iliac bone. A subsequent whole-body PET/CT scan was performed for staging, which showed intense FDG-avidity in the primary left lung mass, multiple mediastinal lymph nodes, and the known right iliac bone lesion. No other sites of distant metastatic disease were identified. The patient remains fully ambulatory with an excellent performance status (ECOG 1), with hip pain that is adequately controlled with intermittent non-steroidal anti-inflammatory drugs.
+
+**Diagnostic Workup:**
+A comprehensive diagnostic evaluation has been completed. An MRI of the brain with and without contrast was performed as part of the standard metastatic workup and was negative for any evidence of intracranial metastases.
+
+An interventional radiology-guided core needle biopsy of the left upper lobe lung mass was performed on [De-identified date]. Histopathologic examination of the tissue specimen confirmed the diagnosis of invasive adenocarcinoma.
+
+Staging is consistent with AJCC 8th Edition Stage IVB (cT2a N2 M1b).
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the tumor biopsy specimen. The key findings are as follows:
+-   **Actionable Driver Mutation:** A sensitizing EGFR exon 19 deletion was detected.
+-   **Additional Markers:** Testing was negative for ALK rearrangement, ROS1 rearrangement, BRAF V600E mutation, MET exon 14 skipping mutation, RET rearrangement, NTRK fusion, KRAS mutation, and ERBB2 (HER2) mutation.
+-   **PD-L1 Expression:** The Tumor Proportion Score (TPS) is 30%.
+-   **Tumor Mutational Burden (TMB):** The TMB was determined to be 7 mutations/megabase, which is considered intermediate.
+
+**Problem Summary:**
+In summary, this is a 55-year-old lifetime never-smoker who presents for initial oncologic evaluation of newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology, with a solitary site of metastatic disease in the bone. The patient has an excellent performance status. Molecular analysis of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion and a PD-L1 TPS of 30%. The patient is here today to discuss these findings and establish care.

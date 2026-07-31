@@ -84,6 +84,7 @@ def run_experiment(
     # ------------------------------------------------------------------
     model = create_model(
         model_name,
+        temperature=0.0,
         inter_call_sleep=1.0,
         max_retries=3,
         retry_wait=30.0,

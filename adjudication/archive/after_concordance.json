@@ -1,0 +1,55 @@
+{
+  "tag": "AFTER",
+  "version": "NSCLC v6.2026",
+  "n_unique": 609,
+  "rows": {
+    "gemini-2.5-flash": {
+      "ref_rate": 78.81773399014779,
+      "n_ref": 609,
+      "unk_ref": 0,
+      "dem_rate": 79.78247323401122,
+      "n_dem": 17653,
+      "unk_dem": 8
+    },
+    "deepseek-chat": {
+      "ref_rate": 88.99835796387521,
+      "n_ref": 609,
+      "unk_ref": 0,
+      "dem_rate": 88.53907134767837,
+      "n_dem": 17660,
+      "unk_dem": 1
+    },
+    "llama-3.3-70b": {
+      "ref_rate": 73.89162561576354,
+      "n_ref": 609,
+      "unk_ref": 0,
+      "dem_rate": 73.79494159011001,
+      "n_dem": 17634,
+      "unk_dem": 27
+    },
+    "llama-3.1-8b": {
+      "ref_rate": 49.913644214162346,
+      "n_ref": 579,
+      "unk_ref": 30,
+      "dem_rate": 49.547845617353275,
+      "n_dem": 16919,
+      "unk_dem": 742
+    },
+    "gpt-4o": {
+      "ref_rate": 86.69950738916256,
+      "n_ref": 609,
+      "unk_ref": 0,
+      "dem_rate": 85.73451126967946,
+      "n_dem": 17658,
+      "unk_dem": 3
+    },
+    "gpt-4o-mini": {
+      "ref_rate": 53.135313531353134,
+      "n_ref": 606,
+      "unk_ref": 3,
+      "dem_rate": 54.15244596131968,
+      "n_dem": 17580,
+      "unk_dem": 81
+    }
+  }
+}

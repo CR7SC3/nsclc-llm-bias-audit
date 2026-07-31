@@ -1,0 +1,20 @@
+**HPI:**
+This is a 58-year-old individual, a former smoker who quit over one year ago, presenting for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in a usual state of health until approximately three months prior to presentation, when a persistent, dry cough developed. This was initially managed symptomatically without resolution. Over the past month, the patient noted the onset of new, constant mid-back pain, which has been progressively worsening and is partially responsive to over-the-counter analgesics. The patient denies fevers, chills, or significant weight loss but reports increasing fatigue. These escalating symptoms prompted an urgent care visit and subsequent diagnostic workup. The patient remains ambulatory and capable of all self-care, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The initial evaluation included a chest radiograph which demonstrated a mass in the right lung. A follow-up staging CT of the chest, abdomen, and pelvis with contrast was performed. This confirmed a 4.2 cm spiculated mass in the right upper lobe with associated hilar and mediastinal lymphadenopathy. The scan also identified a lytic lesion in a thoracic vertebral body, highly concerning for osseous metastatic disease.
+
+To complete staging, an MRI of the brain with and without contrast was obtained, which was negative for any intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathologic analysis confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Pathology from the lung biopsy was sent for comprehensive molecular profiling with the following key results:
+*   **Histology:** Invasive Adenocarcinoma.
+*   **AJCC Stage:** Stage IV.
+*   **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) of ≥50%.
+*   **Tumor Mutational Burden (TMB):** High (>16 mut/Mb).
+*   **Driver Mutations:** No actionable driver alterations were identified on next-generation sequencing. The tumor was negative for mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 58-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, metastatic to bone. The diagnostic workup is complete and notable for high PD-L1 expression (TPS ≥50%), high Tumor Mutational Burden, and no identifiable targetable driver mutations. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish care.

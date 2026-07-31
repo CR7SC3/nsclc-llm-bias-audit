@@ -1,0 +1,21 @@
+**HPI:**
+This is a 42-year-old individual with a history of former tobacco use (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks ago, when they began to experience a persistent dry cough and progressive shortness of breath with exertion. These symptoms worsened to the point of limiting their ability to walk more than one block without resting. This prompted an evaluation in an urgent care setting, where a chest X-ray revealed a large right-sided lung mass with an associated pleural effusion. The patient was subsequently referred for further diagnostic workup. The patient denies fevers, chills, or significant weight loss. Performance status is ECOG 1; the patient is fully ambulatory and capable of all self-care but is restricted in physically strenuous activity.
+
+**Diagnostic Workup:**
+Following the initial chest radiograph, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study confirmed the presence of a 5.2 cm spiculated mass in the right upper lobe, associated with extensive ipsilateral mediastinal and hilar lymphadenopathy. A large, complex right-sided pleural effusion was also noted. No suspicious lesions were identified in the liver, adrenal glands, or other solid abdominal organs.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified date]. Pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+For definitive staging, a whole-body PET/CT scan was obtained. This demonstrated intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymphadenopathy, and diffuse nodular uptake throughout the right pleura, confirming malignant pleural disease. No other sites of FDG-avid metastatic disease were identified. A staging MRI of the brain with contrast was performed and was negative for intracranial metastases.
+
+The cumulative findings are consistent with a diagnosis of AJCC 8th Edition Stage IV non-small cell lung cancer, clinical stage cT3 N2 M1a.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue obtained from the core biopsy. Results are as follows:
+- **Actionable Driver Mutation:** BRAF V600E mutation was DETECTED.
+- **Other Markers:** Testing was NEGATIVE for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **Tumor Mutational Burden (TMB):** Intermediate (9 mut/Mb).
+- **PD-L1:** Not tested.
+
+**Problem Summary:**
+In summary, this is a 42-year-old who presents with a new diagnosis of Stage IV (M1a) non-small cell lung adenocarcinoma, metastatic to the pleura. The patient is treatment-naive with an ECOG performance status of 1. Molecular profiling of the tumor is notable for an activating BRAF V600E mutation.

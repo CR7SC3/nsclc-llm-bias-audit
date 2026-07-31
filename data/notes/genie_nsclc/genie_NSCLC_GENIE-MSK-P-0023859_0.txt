@@ -1,0 +1,20 @@
+**HPI:**
+This is a 75-year-old individual with a history of hypertension and hyperlipidemia, who is a former smoker, presenting for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, dry cough and progressive exertional dyspnea. This was initially treated as bronchitis without improvement. Due to worsening symptoms and the development of vague right-sided chest discomfort, further evaluation was pursued. The patient remains fully ambulatory and independent with all activities of daily living, though reports increased fatigue. There is no history of hemoptysis, fevers, or significant unintentional weight loss.
+
+**Diagnostic Workup:**
+The patient's initial workup included a chest CT with contrast performed on [De-identified date]. This imaging identified a 4.8 cm spiculated mass in the right upper lobe. It also revealed extensive ipsilateral mediastinal and subcarinal lymphadenopathy, with the largest lymph node conglomerate measuring 3.1 cm in short axis, concerning for nodal metastasis. The liver, adrenal glands, and visualized portions of the skeleton were unremarkable for metastatic disease.
+
+A subsequent whole-body PET/CT scan was performed for staging. This confirmed intense FDG-avidity in the primary right upper lobe mass and in the right-sided mediastinal and subcarinal lymph node stations (N2 disease). No other sites of abnormal FDG uptake suggestive of distant metastatic disease were identified.
+
+For definitive tissue diagnosis and staging, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) and transbronchial needle aspiration of a subcarinal lymph node. Pathology from this specimen confirmed a diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+A staging MRI of the brain with and without contrast was completed on [De-identified date] and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Tissue from the EBUS biopsy was sent for comprehensive next-generation sequencing and PD-L1 testing.
+-   PD-L1 expression by immunohistochemistry was positive, with a Tumor Proportion Score (TPS) of 1–49%.
+-   Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+-   No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 75-year-old former smoker who presents with newly diagnosed, treatment-naive, non-metastatic Stage IIIA (cT2bN2M0) non-small cell lung cancer of adenocarcinoma histology. The patient has a good performance status. Molecular profiling is notable for the absence of an actionable driver mutation and a PD-L1 TPS of 1-49%.

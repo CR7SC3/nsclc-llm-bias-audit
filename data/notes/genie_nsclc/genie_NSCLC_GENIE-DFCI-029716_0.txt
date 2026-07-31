@@ -1,13 +1,21 @@
-[De-identified] is a 70-year-old individual referred to our clinic for initial oncologic evaluation and management of newly diagnosed non-small cell lung cancer.
-
 **HPI:**
-The patient first presented to their primary care physician approximately three months ago with a persistent cough and increasing shortness of breath, accompanied by mild fatigue. They also reported an unintentional weight loss of 8 pounds over the past two months. Given a history of current smoking, a chest X-ray was performed, which revealed a suspicious right upper lobe mass. This finding prompted further diagnostic investigation.
+This is an initial oncology consultation for a 70-year-old with a new diagnosis of non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a persistent, non-productive cough and mild exertional dyspnea that had developed over the preceding two months. The patient is a current smoker but otherwise reports being active and maintaining a good functional status. An initial chest X-ray revealed a right-sided pulmonary opacity, prompting further imaging.
+
+A subsequent CT scan of the chest, abdomen, and pelvis was performed for staging. This confirmed the presence of a primary lung mass and locoregional lymphadenopathy, but no evidence of distant metastatic disease. The patient was referred for a tissue diagnosis and subsequently to our clinic for consultation. The patient remains in good spirits, with an ECOG performance status of 1, fully independent with all activities of daily living.
 
 **Diagnostic Workup:**
-A subsequent CT scan of the chest confirmed a 4.5 cm mass in the right upper lobe with associated mediastinal lymphadenopathy. A CT-guided core needle biopsy of the lung mass was performed, which confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. For comprehensive staging, a PET/CT scan was conducted, demonstrating hypermetabolic activity within the primary right upper lobe mass and in several ipsilateral mediastinal lymph nodes (specifically stations 2R, 4R, and 7). There was no evidence of hypermetabolic activity indicative of distant metastatic disease in the abdomen or pelvis. An MRI of the brain was also performed as part of the staging workup, which showed no evidence of intracranial metastases. Based on these findings, the patient's disease is staged as AJCC Stage IIIA. The patient maintains a good performance status, ECOG 1, reporting mild symptoms but remaining fully ambulatory.
+CT chest/abdomen/pelvis with contrast demonstrated a 4.2 cm spiculated mass in the right upper lobe. There was significant ipsilateral mediastinal lymphadenopathy noted in the right paratracheal (level 4R) and subcarinal (level 7) stations, with the largest node measuring 2.3 cm in short-axis diameter. The visualized portions of the abdomen and pelvis, including the liver and adrenal glands, were negative for metastatic lesions.
+
+A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified]. Pathology confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+Based on this workup, the patient is diagnosed with clinical Stage IIIA (cT2bN2M0) NSCLC.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor biopsy specimen. The results indicate no actionable driver alteration identified, with specific testing being negative for EGFR, ALK, ROS1, BRAF, MET exon 14 skipping, RET fusion, NTRK fusion, KRAS mutation, and ERBB2 (HER2) amplification. PD-L1 expression was not tested, consistent with the pre-2017 sequencing era when this particular assay was not yet standard of care. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+Next-generation sequencing was performed on the tumor biopsy specimen. No actionable driver alteration was identified. Specifically, testing was negative for mutations, fusions, or amplifications involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mutations/megabase). PD-L1 expression was not tested.
 
 **Problem Summary:**
-[De-identified] is a 70-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, AJCC Stage IIIA. The patient has a history of current smoking. Staging workup confirmed locoregional disease involving ipsilateral mediastinal lymph nodes, with no evidence of distant metastases, including to the brain. Molecular studies revealed no actionable driver alterations, an untested PD-L1 status, and an intermediate tumor mutational burden. The patient presents with a good performance status.
+In summary, this is a 70-year-old with a new diagnosis of Stage IIIA non-small cell lung cancer, adenocarcinoma histology. The patient is treatment-naive. Molecular profiling is negative for common actionable driver alterations. The patient is here for initial consultation to discuss the diagnosis and establish care.

@@ -1,0 +1,13 @@
+**HPI:**
+This is a 77-year-old individual with a history of tobacco use (former smoker, quit within the last year) who is seen today for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild dyspnea on exertion. This prompted a visit to their primary care provider, who obtained a chest radiograph that revealed a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest confirmed the presence of a spiculated mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. The patient has maintained a good performance status throughout this workup, with minimal symptoms at present aside from the intermittent cough.
+
+**Diagnostic Workup:**
+A comprehensive staging evaluation was pursued. A PET/CT scan was performed which demonstrated a hypermetabolic 4.5 cm primary mass in the right upper lobe, along with intense FDG-avidity in right-sided mediastinal (station 4R) and hilar lymph nodes. Importantly, the PET/CT showed no evidence of distant metastatic disease in the contralateral lung, liver, adrenal glands, or bones. A dedicated MRI of the brain with contrast was also performed and was negative for intracranial metastases.
+
+To obtain a tissue diagnosis, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS)-guided fine-needle aspiration of the right upper lobe mass and a station 4R lymph node. Pathology from both sites was consistent with a moderately differentiated adenocarcinoma of the lung.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the biopsy specimen. No actionable driver alteration was identified. Comprehensive testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 77-year-old former smoker with a new diagnosis of Stage IIIA (cT2bN2M0) non-small cell lung cancer, adenocarcinoma histology. Staging workup, including PET/CT and brain MRI, is negative for distant metastatic disease. Molecular profiling of the tumor is notable for an absence of common actionable driver mutations.

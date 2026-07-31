@@ -1,0 +1,23 @@
+**HPI:**
+This is a 68-year-old individual with a history of smoking (quit over one year ago) who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. After a course of antibiotics failed to provide relief, a chest x-ray was obtained which revealed a right upper lobe opacity. The patient was referred for further diagnostic evaluation. They deny any significant constitutional symptoms such as fevers, night sweats, or unintentional weight loss. They report good energy levels and maintain an excellent performance status, continuing with their normal daily activities. The patient is here today to review the results of their workup and discuss the diagnosis.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. The scan also demonstrated ipsilateral mediastinal lymphadenopathy, with the largest node measuring 2.1 cm. There was no evidence of contralateral or distant metastatic disease within the chest, liver, adrenal glands, or other visualized structures.
+
+A PET/CT was subsequently performed for staging, which demonstrated intense FDG avidity in the primary right upper lobe mass as well as in the noted ipsilateral mediastinal lymph nodes, consistent with nodal metastases. No other sites of abnormal FDG uptake suggestive of distant metastatic disease were identified.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A biopsy of the right upper lobe mass and fine-needle aspiration (FNA) of the mediastinal lymph node were performed. Pathology from the primary tumor confirmed the diagnosis of squamous cell carcinoma. The EBUS-FNA of the mediastinal node was positive for malignancy, confirming nodal involvement.
+
+Based on these findings, the patient is diagnosed with AJCC Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified; testing was negative for mutations/rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed, revealing a Tumor Proportion Score (TPS) of ≥50%.
+
+Tumor Mutational Burden (TMB) analysis was also conducted, and the result was high (>16 mutations/megabase).
+
+**Problem Summary:**
+This is a 68-year-old with a new diagnosis of Stage IIIA non-small cell lung cancer, squamous cell histology. The patient is treatment-naive and has an excellent performance status. Staging workup is complete and demonstrates locoregionally advanced disease without evidence of distant metastases. Molecular profiling is notable for high PD-L1 expression (TPS ≥50%) and high Tumor Mutational Burden, with no identified actionable driver mutation. The patient is seen today for initial consultation to discuss the diagnosis in detail.

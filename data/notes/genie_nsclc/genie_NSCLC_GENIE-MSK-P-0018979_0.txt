@@ -1,0 +1,23 @@
+**HPI:**
+This is a 63-year-old individual who presents for initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient is a lifetime never-smoker.
+
+The patient was in their usual state of health until approximately one month prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a seasonal illness, but symptoms worsened, prompting a visit to an urgent care center. A chest X-ray performed at that time was abnormal, showing a mass in the right lung.
+
+The patient was referred for further evaluation, which included a contrast-enhanced CT of the chest, abdomen, and pelvis. This confirmed a large primary mass in the right upper lobe, along with findings suspicious for metastatic disease, including a malignant pleural effusion and enlarged contralateral lymph nodes. During this diagnostic period, the patient also began reporting intermittent headaches and mild word-finding difficulty, which prompted a dedicated brain MRI. The patient's functional status remains high, with an ECOG performance status of 1, limited only by mild respiratory symptoms.
+
+**Diagnostic Workup:**
+- **CT Chest, Abdomen, and Pelvis [De-identified date]:** Revealed a primary mass in the right upper lobe. Findings were also notable for a moderate right-sided pleural effusion and enlarged contralateral mediastinal and supraclavicular lymph nodes, consistent with metastatic disease. No other distant visceral metastases were identified in the abdomen or pelvis.
+
+- **MRI Brain [De-identified date]:** Performed to evaluate new neurologic symptoms. The study demonstrated multiple small enhancing parenchymal lesions in the cerebral hemispheres, consistent with metastatic deposits.
+
+- **Pathology [De-identified date]:** A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Histopathologic examination confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry (IHC) were performed on the tumor tissue. Results are as follows:
+- **Actionable Driver Mutations:** ERBB2 (HER2) exon 20 insertion detected.
+- **Negative for other common drivers:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS.
+- **PD-L1 Expression (IHC):** Positive, Tumor Proportion Score (TPS) ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 63-year-old lifetime never-smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The disease is metastatic to the brain, pleura, and distant lymph nodes. Molecular profiling is notable for an activating ERBB2 exon 20 insertion and high PD-L1 expression. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish a plan of care.

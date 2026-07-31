@@ -1,0 +1,13 @@
+**HPI:**
+This is a 71-year-old individual with a history of prostate cancer who presents for initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient reports a several-month history of a persistent, non-productive cough and progressive dyspnea on exertion, which prompted a visit to their primary care provider. The patient also endorses approximately 10 pounds of unintentional weight loss over the past three months and increasing fatigue, but remains ambulatory and capable of all self-care. The patient is a current smoker. Past medical history is otherwise notable for prostate cancer, which was managed with local therapy and is considered in remission.
+
+**Diagnostic Workup:**
+Initial workup began with a chest radiograph that demonstrated a right upper lobe opacity. A subsequent contrast-enhanced CT of the chest confirmed a spiculated 4.5 cm mass in the right upper lobe with associated mediastinal and hilar lymphadenopathy. Given the suspicious findings, a PET/CT was performed for staging, which demonstrated intense FDG-avidity in the primary right upper lobe mass and mediastinal lymph nodes. The PET/CT also revealed a solitary, FDG-avid lesion in the right lobe of the liver, highly suspicious for a distant metastasis. A staging MRI of the brain was subsequently performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core biopsy of the right upper lobe lung mass. Pathology returned as invasive adenocarcinoma of the lung.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. No actionable driver alterations were identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 71-year-old with a new diagnosis of Stage IV (cT3N2M1b) non-small cell lung cancer of adenocarcinoma histology, with metastatic disease to the liver. The patient has a good performance status (ECOG 1). Molecular profiling of the tumor is notable for an absence of actionable driver mutations. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

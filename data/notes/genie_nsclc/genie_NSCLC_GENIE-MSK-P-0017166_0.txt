@@ -1,0 +1,35 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**History of Present Illness:**
+This is a 70-year-old individual with a history of being a never-smoker who presents for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately six weeks ago, when they began to experience a progressive, non-productive cough and increasing shortness of breath with exertion. Symptoms initially occurred with strenuous activity but have progressed to occurring with minimal ambulation, such as walking across a room. This prompted a visit to their primary care provider, who ordered a chest X-ray. The imaging revealed a lung opacity and a significant pleural effusion, leading to an urgent referral to Pulmonology for further evaluation. The patient denies fevers, chills, or significant weight loss but does report fatigue and malaise. Performance status is limited by dyspnea.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was initiated. A CT of the chest, abdomen, and pelvis with contrast was performed. The chest CT confirmed the presence of a primary mass in the right lower lobe, measuring approximately 4 cm. There was an associated large, right-sided malignant pleural effusion with diffuse pleural nodularity, confirming metastatic involvement of the pleura. No other sites of thoracic metastatic disease were identified. The abdomen and pelvis portion of the scan was negative for visceral or adrenal metastases.
+
+For staging and to rule out central nervous system involvement, a brain MRI with and without contrast was completed, which was negative for any intracranial metastases.
+
+A CT-guided thoracentesis was performed. Approximately 1.5 liters of serosanguinous fluid were removed, with some improvement in dyspnea. Pathologic analysis of the pleural fluid cytology confirmed the presence of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block. The results are as follows:
+*   **Actionable driver mutation:** Positive for an EGFR L858R point mutation.
+*   **ALK rearrangement:** Negative.
+*   **ROS1 rearrangement:** Negative.
+*   **BRAF mutation:** Negative.
+*   **MET exon 14 skipping mutation:** Negative.
+*   **RET rearrangement:** Negative.
+*   **NTRK fusion:** Negative.
+*   **KRAS mutation:** Negative.
+*   **ERBB2 (HER2) mutation:** Negative.
+*   **PD-L1 Immunohistochemistry:** Negative (Tumor Proportion Score < 1%).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the pleura (M1a). Staging evaluation is otherwise negative for distant metastatic disease, including the absence of brain metastases. Molecular profiling is significant for the identification of a sensitizing EGFR L858R mutation and negative PD-L1 expression. The patient is treatment-naive and is seen today to discuss the diagnosis, prognosis, and the implications of these findings for management.

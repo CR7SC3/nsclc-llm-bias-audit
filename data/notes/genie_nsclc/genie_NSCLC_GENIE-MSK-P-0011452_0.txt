@@ -1,0 +1,17 @@
+**HPI:**
+This is a 70-year-old individual with a significant smoking history who presents for an initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough. An initial course of antibiotics prescribed by their primary care provider did not lead to resolution of symptoms. This prompted further investigation with chest imaging. The patient is otherwise active with a good performance status, reporting no significant weight loss, hemoptysis, or chest pain.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a suspicious nodule in the right upper lobe. This was followed by a diagnostic CT scan of the chest with contrast on [De-identified Date], which characterized a 2.1 cm spiculated solid mass in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+To complete staging, a whole-body PET/CT scan was performed on [De-identified Date]. This study demonstrated intense FDG-avidity localized to the known right upper lobe mass. There was no abnormal hypermetabolism in the mediastinum, contralateral lung, or elsewhere to suggest regional nodal involvement or distant metastatic disease.
+
+For definitive diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic analysis of the specimen confirmed a diagnosis of squamous cell carcinoma.
+
+A staging MRI of the brain with and without contrast was also performed and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue. Molecular profiling did not identify any actionable driver alteration; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. PD-L1 expression was not tested. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 70-year-old current smoker with a new diagnosis of AJCC Stage IA non-small cell lung cancer, squamous cell histology. Comprehensive staging evaluation, including PET/CT and brain MRI, has confirmed the disease is localized to the right upper lobe without evidence of nodal or distant metastatic spread. Molecular analysis of the tumor is negative for common targetable driver mutations. The patient is treatment-naive and presents today for discussion of the diagnosis and management options.

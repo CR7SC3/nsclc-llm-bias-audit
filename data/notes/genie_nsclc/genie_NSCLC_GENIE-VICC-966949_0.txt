@@ -1,0 +1,19 @@
+**HPI:**
+This is a 62-year-old individual with a history of current tobacco use who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient initially presented to a primary care provider several weeks ago with a persistent, non-productive cough and mild right-sided chest wall discomfort. An initial chest radiograph was abnormal, prompting further investigation. The patient is otherwise active and maintains a good functional status, reporting only mild dyspnea with significant exertion.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest was performed on [De-identified], which revealed a 4.8 cm mass in the right upper lobe. The scan also demonstrated prominent ipsilateral mediastinal and hilar lymphadenopathy.
+
+For staging, a whole-body PET/CT was subsequently obtained. This study confirmed high FDG-avidity within the primary right upper lobe mass and in the corresponding right hilar and mediastinal lymph nodes, consistent with locoregional involvement. Critically, the PET/CT showed no evidence of FDG-avid disease at distant sites to suggest metastatic spread.
+
+To complete the staging evaluation, a brain MRI with and without contrast was performed and was negative for any evidence of intracranial metastases.
+
+The patient underwent bronchoscopy with endobronchial ultrasound-guided fine-needle aspiration (EBUS-FNA) of a mediastinal lymph node. Pathologic review of the biopsy specimen confirmed malignant cells consistent with non-small cell lung cancer, not otherwise specified (NSCLC, nos).
+
+**Molecular Studies:**
+Comprehensive molecular profiling was performed on the tumor tissue via next-generation sequencing. No actionable oncogenic driver alterations were identified; the tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was performed and showed high expression, with a Tumor Proportion Score (TPS) of ≥50%. Tumor Mutational Burden (TMB) was also assessed and was found to be high at >16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 62-year-old current smoker with a new diagnosis of locally advanced, non-metastatic, Stage IIIA non-small cell lung cancer, histology not otherwise specified. The patient has a good performance status (ECOG 1). Staging workup is complete and confirms disease confined to the right hemithorax. Molecular testing is notable for high PD-L1 expression (TPS ≥50%) and a high tumor mutational burden, with no targetable driver mutations. The patient is here today for initial evaluation.

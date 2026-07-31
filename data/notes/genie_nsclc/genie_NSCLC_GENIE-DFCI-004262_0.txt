@@ -1,0 +1,13 @@
+**HPI:**
+This is a 47-year-old individual with a significant former smoking history (quit <1 year ago) who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began to experience progressive shortness of breath with exertion and a persistent, dry cough. Over the subsequent weeks, they also developed right-sided pleuritic chest pain. These symptoms prompted an evaluation at an outside facility, where a chest radiograph revealed a large right-sided pleural effusion. The patient was referred for further diagnostic evaluation. The patient reports feeling somewhat better since a recent diagnostic and therapeutic procedure to drain the fluid but continues to have mild exertional dyspnea. Performance status is good (ECOG 1).
+
+**Diagnostic Workup:**
+Following the initial chest X-ray, a staging CT of the chest, abdomen, and pelvis with intravenous contrast was performed on [De-identified date]. This study demonstrated a 4 cm mass in the right lower lobe of the lung, associated with a large right-sided pleural effusion and suspicious pleural nodularity. There was no evidence of metastatic disease in the contralateral lung, liver, adrenal glands, or bones. A subsequent MRI of the brain with and without contrast was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a right-sided thoracentesis with pleural biopsy. Cytologic analysis of the pleural fluid was positive for malignant cells. Pathologic examination of the pleural tissue confirmed the diagnosis of invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the pleural biopsy specimen. No actionable driver alterations were identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Immunohistochemistry for PD-L1 expression was negative (Tumor Proportion Score <1%). The Tumor Mutational Burden (TMB) was determined to be intermediate (12 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 47-year-old, treatment-naive individual with newly diagnosed metastatic (AJCC Stage IV) non-small cell lung cancer, adenocarcinoma histology, with malignant pleural effusion. Molecular profiling is notable for the absence of any identified targetable driver mutations and negative PD-L1 expression. The patient is here today to discuss the diagnosis and establish care.

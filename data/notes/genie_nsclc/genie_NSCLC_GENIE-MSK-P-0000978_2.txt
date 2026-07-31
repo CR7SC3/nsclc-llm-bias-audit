@@ -1,0 +1,20 @@
+**HPI:**
+This is a 57-year-old individual referred for initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until approximately six weeks ago, when they began to experience progressive dyspnea on exertion and a mild, non-productive cough. Symptoms worsened to the point of causing shortness of breath with minimal activity. This prompted an evaluation with their primary care provider.
+
+An initial chest X-ray revealed a large left-sided pleural effusion. The patient was subsequently sent for a contrast-enhanced CT scan of the chest, abdomen, and pelvis for further characterization. This imaging confirmed a large, loculated left pleural effusion with associated pleural thickening and nodularity, as well as a primary mass in the left upper lobe measuring approximately 4 cm. No suspicious hepatic, adrenal, or osseous lesions were identified. Given the findings, a staging MRI of the brain was performed, which was negative for intracranial metastases.
+
+The patient was referred to interventional pulmonology and underwent a left-sided thoracentesis. Approximately 1.2 liters of serosanguinous fluid were removed, which provided significant improvement in their dyspnea. The patient is a lifetime never-smoker and has no significant occupational exposures. Performance status is currently ECOG 1, limited primarily by mild residual dyspnea.
+
+**Diagnostic Workup:**
+*   **CT Chest, Abdomen, and Pelvis ([De-identified date]):** Revealed a 4.1 cm spiculated mass in the left upper lobe. Extensive enhancing nodularity and thickening of the left pleura with a large associated pleural effusion, consistent with metastatic disease. No evidence of distant metastatic disease in the chest, abdomen, or pelvis.
+*   **MRI Brain ([De-identified date]):** No evidence of intracranial metastasis.
+*   **Thoracentesis ([De-identified date]):** Cytopathology of the left pleural fluid was positive for malignant cells, consistent with adenocarcinoma of lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the pleural fluid cell block.
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1:** Testing was not performed.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2-16 mut/Mb).
+
+**Problem Summary:**
+This is a 57-year-old never-smoker with a new diagnosis of Stage IV (cT2a N0 M1a) non-small cell lung cancer of adenocarcinoma histology, with metastasis confined to the pleura. Molecular profiling did not identify an actionable driver mutation and showed an intermediate tumor mutational burden. The patient is treatment-naive and is seen today to discuss the diagnosis and establish care.

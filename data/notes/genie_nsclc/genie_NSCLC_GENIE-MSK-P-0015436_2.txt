@@ -1,0 +1,20 @@
+**HPI:**
+This is a 59-year-old former smoker who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a mild, persistent, non-productive cough. This prompted a visit to their primary care provider, who ordered a chest X-ray that revealed a suspicious right upper lobe lung nodule. The patient denies any associated hemoptysis, chest pain, shortness of breath, fevers, or unintentional weight loss. They remain fully active and independent with all activities of daily living, with an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed, which confirmed the presence of a 2.3 cm spiculated solid nodule in the apical segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was identified.
+
+A subsequent PET/CT scan was obtained for staging purposes. This demonstrated intense FDG-avidity localized to the right upper lobe nodule (SUVmax 9.8), with no other sites of abnormal uptake to suggest regional nodal involvement or distant metastatic disease. A dedicated brain MRI with and without contrast was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe nodule was performed by Interventional Radiology. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the biopsy specimen.
+- An actionable KRAS G12C mutation was detected.
+- The tumor was negative for pathogenic alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score < 1%).
+- Tumor Mutational Burden (TMB) was intermediate (2–16 mut/Mb).
+- An STK11 loss-of-function mutation was also identified.
+
+**Problem Summary:**
+This is a 59-year-old individual with a new diagnosis of clinical Stage IA (cT1bN0M0) KRAS G12C-mutated, PD-L1 negative non-small cell lung adenocarcinoma, with a co-occurring STK11 mutation. The patient is treatment-naive and presents today to discuss the diagnosis.

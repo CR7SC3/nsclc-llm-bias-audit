@@ -1,0 +1,19 @@
+**HPI:**
+This is an 81-year-old individual with a history of former tobacco use who presents for initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to this evaluation, when they began to experience a progressive, non-productive cough and increasing dyspnea on exertion. These symptoms worsened to the point of limiting strenuous activity, which prompted an evaluation by their primary care physician. The patient has a remote smoking history, having quit more than one year ago. They are currently ambulatory but symptomatic, with an estimated ECOG performance status of 1.
+
+**Diagnostic Workup:**
+The initial workup included a chest radiograph which demonstrated a large left-sided pleural effusion and a suspicious opacity in the left lung. A subsequent contrast-enhanced CT of the chest confirmed a 3.5 cm spiculated mass in the left upper lobe, extensive left-sided pleural thickening, and a large, loculated pleural effusion. No significant mediastinal or hilar lymphadenopathy was noted.
+
+For definitive diagnosis and staging, the patient underwent a CT-guided thoracentesis on [De-identified Date]. Cytologic analysis of the pleural fluid was positive for malignant cells. The pathology was consistent with a well-differentiated adenocarcinoma with an immunophenotype (TTF-1 positive) supporting a lung primary.
+
+A staging PET/CT scan was performed on [De-identified Date]. This study demonstrated intense FDG-avidity within the known left upper lobe primary mass, as well as diffuse avid nodules studding the left pleura, confirming metastatic disease to the pleura (M1a). No other sites of FDG-avid metastatic disease were identified in the chest, abdomen, or pelvis. A staging MRI of the brain was performed and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor cell block from the pleural fluid specimen. The results are as follows:
+- **Actionable driver mutation detected:** EGFR exon 19 deletion (sensitizing).
+- **Negative for alterations in:** ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, ERBB2.
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+- **PD-L1 expression:** Not tested.
+
+**Problem Summary:**
+In summary, this is an 81-year-old with a new diagnosis of Stage IV (cT2a N0 M1a) non-small cell lung cancer, adenocarcinoma histology, defined by a malignant pleural effusion. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion. The patient is symptomatic from their disease but maintains a good performance status. They are here today for initial consultation to discuss the diagnosis and the implications of these findings.

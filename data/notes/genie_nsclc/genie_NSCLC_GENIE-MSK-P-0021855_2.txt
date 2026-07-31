@@ -1,0 +1,32 @@
+**HPI:**
+This is an 82-year-old with a past medical history of prostate cancer, referred for evaluation of a newly diagnosed non-small cell lung cancer. The patient is a former smoker, having quit over one year ago.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. They initially attributed this to a seasonal illness, but due to lack of resolution, they presented to their primary care provider. A chest X-ray was performed which revealed a right upper lobe opacity. The patient was subsequently sent for a contrast-enhanced CT of the chest for further characterization. The patient denies hemoptysis, fevers, chills, or significant weight loss. They report good energy levels and maintain full independence in activities of daily living, with an ECOG performance status of 1.
+
+**Diagnostic Workup:**
+A comprehensive staging workup was initiated following the abnormal imaging.
+
+- **CT Chest/Abdomen/Pelvis with contrast [De-identified Date]:** Revealed a 4.5 cm spiculated mass in the right upper lobe. There was associated bulky right-sided hilar and ipsilateral mediastinal lymphadenopathy, including in the paratracheal and subcarinal stations. No suspicious hepatic, adrenal, or osseous lesions were identified.
+
+- **PET/CT [De-identified Date]:** Confirmed intense FDG-avidity in the primary right upper lobe mass and in the right hilar and mediastinal lymph nodes, consistent with the CT findings. Importantly, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastatic disease.
+
+- **MRI Brain with and without contrast [De-identified Date]:** Performed for staging purposes, this was negative for intracranial metastases.
+
+- **Bronchoscopy with EBUS-FNA [De-identified Date]:** The patient underwent bronchoscopy with endobronchial ultrasound-guided fine needle aspiration of the right upper lobe mass and a subcarinal lymph node. Pathologic analysis of the tissue confirmed the diagnosis.
+
+**Pathology:**
+- **Biopsy Source:** Right upper lobe mass and subcarinal lymph node.
+- **Histology:** Poorly differentiated non-small cell carcinoma, consistent with squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 Expression:** Positive, Tumor Proportion Score (TPS) ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is an 82-year-old with an excellent performance status who presents for an initial oncology consultation. The patient is treatment-naive.
+
+1.  **Non-Small Cell Lung Cancer:** Stage IIIA (AJCC 8th Edition) squamous cell carcinoma of the right lung, with PD-L1 expression of ≥50% and no identified actionable driver mutations. The patient has been fully staged with no evidence of distant metastatic disease.
+2.  **History of Prostate Cancer:** Status post prior therapy, currently in remission.
+3.  **Former Tobacco Use.**

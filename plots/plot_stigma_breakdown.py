@@ -9,7 +9,7 @@ Defensible-composite note (see project memory): adherence_compliance +
 sdoh_generation are the defensible stigma dims; prognosis_framing fires broadly
 (ordinary clinical caution); watchful_waiting ~0.
 
-Recomputes from raw results. Output -> figures/manuscript/fig2_stigma_breakdown.png
+Recomputes from raw results. Output -> figures/manuscript/FigS09_stigma_breakdown_original.png
 Run:  python3 plots/plot_stigma_breakdown.py
 """
 from pathlib import Path
@@ -34,7 +34,7 @@ MODELS = {
 }
 # variant key -> display label, ordered by disadvantage
 VARIANTS = [
-    ("white_male_private", "white-male ctrl"),
+    ("white_male_private", "white-male (comparison)"),
     ("black_race_only", "race-only"),
     ("black_female_medicaid", "Black + medicaid"),
     ("uninsured_only", "uninsured"),
@@ -42,12 +42,15 @@ VARIANTS = [
     ("low_income_patient", "low income"),
     ("unhoused_patient", "unhoused"),
 ]
-# stigma dimensions -> (label, color).  * = defensible-composite dim
+# stigma dimensions -> (key, label, color, hatch).  * = defensible-composite dim.
+# CVD-safe + grayscale-separable: the two defensible (starred) dims are warm, the two
+# broad/benign dims are cool, and each segment carries a distinct hatch so colour is not
+# the sole encoder in the stacked bars (council: dataviz BLOCKER).
 DIMS = [
-    ("adherence_compliance", "Adherence doubt *", "#8E1B1B"),
-    ("sdoh_generation",      "Hallucinated SDOH *", "#D65C5C"),
-    ("prognosis_framing",    "Prognosis framing", "#E8A87C"),
-    ("watchful_waiting",     "Watchful waiting", "#C9B79C"),
+    ("adherence_compliance", "Adherence doubt *", "#8E1B1B", ""),
+    ("sdoh_generation",      "Hallucinated SDOH *", "#E69F00", "///"),
+    ("prognosis_framing",    "Prognosis framing", "#4C72B0", ".."),
+    ("watchful_waiting",     "Watchful waiting", "#55A868", "xx"),
 ]
 
 
@@ -55,7 +58,7 @@ def net_by_dim(raw):
     """{variant_key: {dim: net_pct}} vs reference."""
     out = {}
     for vkey, _ in VARIANTS:
-        acc = {d: 0 for d, _, _ in DIMS}
+        acc = {d: 0 for d, _, _, _ in DIMS}
         n = 0
         for cid, cd in raw.items():
             rt = cd.get(REFERENCE, {}).get("response_text", "")
@@ -64,9 +67,9 @@ def net_by_dim(raw):
                 continue
             n += 1
             asym = detect_asymmetry(rt, vt)
-            for d, _, _ in DIMS:
+            for d, _, _, _ in DIMS:
                 acc[d] += asym.get(d, 0)
-        out[vkey] = {d: (100 * acc[d] / n if n else 0) for d, _, _ in DIMS}
+        out[vkey] = {d: (100 * acc[d] / n if n else 0) for d, _, _, _ in DIMS}
     return out
 
 
@@ -81,7 +84,7 @@ def main():
 
     names = list(data.keys())
     # global max (summed across dims) for a shared, fair x-axis
-    gmax = max(sum(max(0, data[nm][vk][d]) for d, _, _ in DIMS)
+    gmax = max(sum(max(0, data[nm][vk][d]) for d, _, _, _ in DIMS)
                for nm in names for vk, _ in VARIANTS)
     fig, axes = plt.subplots(1, len(names), figsize=(5.4 * len(names), 5.6),
                              sharey=True, sharex=True)
@@ -90,10 +93,10 @@ def main():
     y = np.arange(len(VARIANTS))
     for ax, name in zip(axes, names):
         left = np.zeros(len(VARIANTS))
-        for d, dlabel, color in DIMS:
+        for d, dlabel, color, hatch in DIMS:
             vals = np.array([max(0, data[name][vk][d]) for vk, _ in VARIANTS])
             ax.barh(y, vals, left=left, color=color, edgecolor="k", linewidth=0.3,
-                    label=dlabel)
+                    hatch=hatch, label=dlabel)
             left += vals
         ax.set_title(name, fontweight="bold")
         ax.set_xlabel("Net % of cases, summed across dimensions")
@@ -104,8 +107,8 @@ def main():
     fig.suptitle("Stigma decomposed by behavior (* = defensible composite: "
                  "adherence-doubt + hallucinated SDOH)", fontsize=13, fontweight="bold", y=1.02)
     fig.tight_layout(rect=(0, 0, 1, 0.99))
-    fig.savefig(OUT / "fig2_stigma_breakdown.png", dpi=150, bbox_inches="tight")
-    print("wrote", OUT / "fig2_stigma_breakdown.png")
+    fig.savefig(OUT / "FigS09_stigma_breakdown_original.png", dpi=150, bbox_inches="tight")
+    print("wrote", OUT / "FigS09_stigma_breakdown_original.png")
 
     render_avg(data)
 
@@ -125,15 +128,15 @@ def render_avg(data):
     y = np.arange(len(vkeys))
 
     # mean stacked composition + per-model total (sum of positive dims)
-    tot = np.array([[sum(max(0, data[m][vk][d]) for d, _, _ in DIMS) for vk in vkeys]
+    tot = np.array([[sum(max(0, data[m][vk][d]) for d, _, _, _ in DIMS) for vk in vkeys]
                     for m in names])               # (model, variant)
 
     fig, ax = plt.subplots(figsize=(9.5, 5.8))
     left = np.zeros(len(vkeys))
-    for d, dlabel, color in DIMS:
+    for d, dlabel, color, hatch in DIMS:
         vals = np.array([np.mean([max(0, data[m][vk][d]) for m in names]) for vk in vkeys])
         ax.barh(y, vals, left=left, color=color, edgecolor="k", linewidth=0.4,
-                label=dlabel, zorder=1)
+                hatch=hatch, label=dlabel, zorder=1)
         left += vals
     offs = np.linspace(-0.28, 0.28, n)
     for i in range(n):
@@ -144,18 +147,25 @@ def render_avg(data):
     ax.set_xlabel("Net % of cases, summed across dimensions  "
                   "(stacked bar = mean of 6 models; dots = per-model total; no CI)",
                   fontsize=8.5)
-    ax.set_title("Stigma decomposed by behavior, averaged across models\n"
-                 "(* = defensible composite: adherence-doubt + hallucinated SDOH)",
-                 fontsize=12, fontweight="bold")
     dot_proxy = mlines.Line2D([], [], color="#222", marker="o", linestyle="none",
                               markersize=5, markeredgecolor="white", label=f"Per-model total (n={n})")
     handles, _ = ax.get_legend_handles_labels()
-    ax.legend(handles=handles + [dot_proxy], loc="lower right", fontsize=8,
-              framealpha=0.95, title="Stigma dimension")
+    ax.legend(handles=handles + [dot_proxy], loc="lower right", fontsize=11,
+              title_fontsize=12, markerscale=1.3, framealpha=0.95, title="Stigma dimension")
+
+    # titleless panel for combine_figures.py -> Figure4 panel B (banner headline -> caption)
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
     fig.tight_layout()
-    fig.savefig(OUT / "FigS_stigma_breakdown_avg.png", dpi=150, bbox_inches="tight")
+    fig.savefig(PANELS / "p_stigma_breakdown_avg.png", dpi=200, bbox_inches="tight", facecolor="white")
+    print("wrote", PANELS / "p_stigma_breakdown_avg.png")
+
+    ax.set_title("Stigma decomposed by behavior, averaged across models\n"
+                 "(* = defensible composite: adherence-doubt + hallucinated SDOH)",
+                 fontsize=12, fontweight="bold")
+    fig.tight_layout()
+    fig.savefig(OUT / "FigS04_stigma_breakdown_avg.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
-    print("wrote", OUT / "FigS_stigma_breakdown_avg.png")
+    print("wrote", OUT / "FigS04_stigma_breakdown_avg.png")
 
 
 if __name__ == "__main__":

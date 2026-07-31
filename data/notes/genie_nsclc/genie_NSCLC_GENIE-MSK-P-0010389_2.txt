@@ -1,0 +1,22 @@
+**HISTORY OF PRESENT ILLNESS**
+This is a 68-year-old with a past medical history significant for head and neck cancer (status post-treatment, now in remission) and a former history of tobacco use (quit >1 year ago), who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed new and persistent mid-thoracic back pain. The pain was initially attributed to a musculoskeletal strain but did not resolve with conservative measures. The patient also reports a chronic cough, which has been present for years but may have slightly worsened in severity over the past several months. Due to the persistent pain, the patient sought evaluation with their primary care physician, which initiated a diagnostic workup.
+
+**DIAGNOSTIC WORKUP**
+An initial CT of the chest, abdomen, and pelvis with contrast was performed to evaluate the patient's symptoms. This revealed a 4.5 cm spiculated mass in the right upper lobe of the lung with associated mediastinal lymphadenopathy. The scan also identified a suspicious lytic lesion in the T8 vertebral body.
+
+A subsequent PET/CT scan was obtained for staging purposes. This confirmed intense FDG-avidity in the right upper lobe primary mass and the mediastinal lymph nodes. Additionally, it demonstrated a solitary focus of high avidity in the T8 vertebral body, consistent with a bone metastasis. No other distant sites of FDG-avid disease were identified in the chest, abdomen, or pelvis.
+
+A brain MRI with and without contrast was performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+To establish a tissue diagnosis, the patient underwent an interventional radiology-guided core needle biopsy of the T8 vertebral lesion. Pathology from this specimen confirmed metastatic carcinoma with features of squamous cell differentiation. The findings are consistent with a primary lung malignancy.
+
+**MOLECULAR STUDIES**
+- **Histology:** Squamous cell carcinoma.
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+- **PD-L1 Expression:** Not tested.
+- **Comprehensive Genomic Profiling:** Results are currently pending.
+
+**PROBLEM SUMMARY**
+In summary, this is a 68-year-old former smoker with a new diagnosis of Stage IV non-small cell lung cancer, squamous cell histology. The disease is metastatic to bone. The patient has a good performance status (ECOG 1), remaining fully ambulatory and capable of self-care despite symptoms of back pain. The patient presents to clinic today to discuss the implications of this new diagnosis.

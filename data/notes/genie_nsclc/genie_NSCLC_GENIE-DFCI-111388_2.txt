@@ -1,0 +1,17 @@
+**HPI:**
+I had the pleasure of evaluating this pleasant 50-year-old for an initial medical oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year ago. The diagnosis was prompted by an incidental finding on a chest radiograph performed for an unrelated reason. The patient was asymptomatic at the time and denies cough, dyspnea, hemoptysis, chest pain, or constitutional symptoms such as fevers, night sweats, or unintentional weight loss. Given the imaging finding, the patient was referred for further diagnostic evaluation. The patient maintains an excellent functional status, continuing with all usual activities of daily living, and has an ECOG performance status of 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a diagnostic CT scan of the chest was performed. This confirmed the presence of a 2.5 cm solid, spiculated nodule in the apical segment of the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+For definitive staging, a PET/CT scan was obtained on [De-identified date]. This demonstrated intense FDG-avidity localized to the known right upper lobe pulmonary nodule. Importantly, there was no evidence of FDG-avid disease in the mediastinal or hilar lymph nodes, nor were there any findings concerning for distant metastatic disease. A contrast-enhanced MRI of the brain was also performed as part of the standard staging workup and was negative for any intracranial metastases.
+
+The patient subsequently underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathology from this procedure returned as non-small cell lung cancer with adenocarcinoma histology.
+
+**Molecular Studies:**
+Comprehensive molecular profiling was performed on the biopsy specimen. No actionable driver alteration was identified. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. KRAS and ERBB2 testing was also negative.
+
+Immunohistochemistry for PD-L1 was performed, and the result was negative with a Tumor Proportion Score (TPS) of 0%. Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 50-year-old with a history of prior tobacco use who presents with a new diagnosis of clinical Stage IA (per AJCC 8th edition) non-small cell lung cancer, adenocarcinoma subtype. The diagnosis was made via biopsy of a right upper lobe nodule found incidentally. Staging workup including PET/CT and brain MRI has confirmed localized disease without evidence of nodal involvement or distant metastases. The patient is asymptomatic with an excellent performance status. Molecular studies are notable for the absence of any identified actionable driver mutations and negative PD-L1 expression.

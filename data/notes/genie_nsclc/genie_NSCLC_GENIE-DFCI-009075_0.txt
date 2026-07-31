@@ -1,0 +1,28 @@
+INITIAL MEDICAL ONCOLOGY CONSULTATION
+Patient Name: [De-identified]
+MRN: [De-identified]
+Date of Service: [De-identified]
+Referring Provider: [De-identified]
+
+**History of Present Illness:**
+This is a 59-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, referred for initial oncology consultation. The history is obtained from the patient and a review of available medical records.
+
+The patient is a lifetime never-smoker who was in their usual state of good health until approximately four weeks prior to presentation. At that time, they began experiencing intermittent headaches and a subtle sense of imbalance. Symptoms progressed over two weeks to include mild word-finding difficulties, which prompted an evaluation in the emergency department.
+
+A brain MRI was performed, which revealed multiple enhancing lesions in the cerebral hemispheres, concerning for metastatic disease. A subsequent staging CT of the chest, abdomen, and pelvis was obtained to identify a primary malignancy. This imaging demonstrated a spiculated mass in the right upper lobe of the lung. No other sites of distant metastatic disease were identified in the chest or abdomen.
+
+The patient was subsequently referred for a CT-guided core needle biopsy of the right lung mass. Pathology confirmed the diagnosis of adenocarcinoma. The patient reports a stable energy level but endorses the mild, ongoing neurological symptoms as described. They have a good appetite and deny significant weight loss, fever, or chills. ECOG performance status is 1 (symptomatic but fully ambulatory).
+
+**Diagnostic Workup:**
+*   **Brain MRI ([De-identified]):** Revealed multiple, scattered, ring-enhancing lesions in the bilateral cerebral hemispheres, consistent with metastatic deposits.
+*   **CT Chest, Abdomen, and Pelvis with Contrast ([De-identified]):** Identified a 2.8 cm spiculated mass in the right upper lobe. Associated mediastinal lymphadenopathy was noted. No evidence of metastatic disease in the contralateral lung, liver, adrenal glands, or bones.
+*   **CT-Guided Core Biopsy, Right Lung Mass ([De-identified]):** Pathology demonstrated adenocarcinoma, consistent with a lung primary. Histologic features are of a non-small cell carcinoma.
+
+**Molecular Studies:**
+*   **Histology:** Adenocarcinoma
+*   **Comprehensive Molecular Profiling:** Results are pending.
+*   **PD-L1 Expression:** Not tested.
+*   **Tumor Mutational Burden (TMB):** Low (<2 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 59-year-old never-smoker with a new diagnosis of treatment-naive, AJCC Stage IV non-small cell lung adenocarcinoma, metastatic to the brain. Further molecular testing is in process. The case is discussed for initiation of management.

@@ -1,11 +1,20 @@
 **HPI:**
-This is a [De-identified] 69-year-old individual who presents for an initial oncology consultation regarding a new diagnosis of non-small cell lung cancer. The patient is a never smoker. The diagnosis was initially suspected following a routine chest X-ray that revealed a suspicious lung nodule. This finding prompted further evaluation with a CT scan of the chest, which identified a 2.5 cm solid nodule in the right upper lobe. The patient reports mild, intermittent cough for the past few weeks, but otherwise denies significant constitutional symptoms, hemoptysis, or dyspnea. Performance status is excellent, ECOG 0.
+This is a 69-year-old individual referred for initial oncology consultation and management of a new diagnosis of non-small cell lung cancer. The patient was in their usual state of good health until a small pulmonary nodule was incidentally identified on imaging obtained for an unrelated reason. The patient is asymptomatic from a cardiopulmonary perspective, specifically denying any cough, shortness of breath, chest pain, or hemoptysis. They report an excellent baseline functional status and remain fully active. Pertinent history includes being a never smoker.
 
 **Diagnostic Workup:**
-Following the CT chest, a CT-guided needle biopsy of the right upper lobe lesion was performed, which confirmed the diagnosis of non-small cell lung cancer, adenocarcinoma histology. Subsequent comprehensive staging workup included a whole-body PET/CT scan and a brain MRI. The PET/CT demonstrated uptake confined to the primary lung lesion, with no evidence of regional lymph node involvement or distant metastatic disease. The brain MRI showed no evidence of intracranial metastases. Based on these findings, the patient is diagnosed with clinical Stage IA non-small cell lung cancer.
+Following the initial incidental finding, a formal diagnostic CT of the chest was performed on [De-identified Date]. This study characterized a solitary 1.8 cm solid nodule in the right upper lobe. There was no associated mediastinal or hilar lymphadenopathy.
+
+To complete staging, a PET/CT was obtained on [De-identified Date]. This demonstrated focal FDG-avidity confined to the right upper lobe nodule, with no evidence of hypermetabolism in regional lymph nodes or at any distant sites. A staging MRI of the brain was also performed and was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe nodule. Pathology from this specimen confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+Based on this comprehensive workup, the patient is diagnosed with T1N0M0, AJCC Stage IA non-small cell lung cancer.
 
 **Molecular Studies:**
-Molecular profiling of the tumor tissue was performed and revealed no actionable driver alterations, specifically negative for EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, NTRK fusions, KRAS mutations, and ERBB2 (HER2) mutations. Programmed death-ligand 1 (PD-L1) expression was negative, with a tumor proportion score (TPS) of <1%. Tumor mutational burden (TMB) was found to be intermediate, ranging from 2-16 mut/Mb.
+Tissue from the diagnostic biopsy was sent for comprehensive molecular profiling and biomarker analysis.
+- Next-generation sequencing did not identify any actionable oncogenic driver alterations. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Immunohistochemistry for PD-L1 expression was performed, yielding a Tumor Proportion Score (TPS) of <1%.
+- Tumor Mutational Burden (TMB) was found to be in the intermediate range (2–16 mutations/megabase).
 
 **Problem Summary:**
-[De-identified] is a 69-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, adenocarcinoma histology, Stage IA. Staging workup confirms localized disease without evidence of regional lymph node involvement or distant metastases, including no brain metastases. Molecular profiling indicates no targetable driver alterations, negative PD-L1 expression (TPS <1%), and intermediate tumor mutational burden. The patient is here today to discuss management options for this diagnosis.
+In summary, this is a 69-year-old never smoker with a new diagnosis of Stage IA (T1N0M0) non-small cell lung adenocarcinoma of the right upper lobe. The patient has an excellent performance status and is asymptomatic. Molecular profiling is notable for the absence of an actionable driver mutation and a PD-L1 TPS of <1%. The diagnosis and the implications for treatment options have been discussed.

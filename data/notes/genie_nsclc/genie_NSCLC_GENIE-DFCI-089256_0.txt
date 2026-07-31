@@ -1,0 +1,23 @@
+**HPI:**
+This is a 70-year-old with a new diagnosis of metastatic non-small cell lung cancer. The patient presented to an outside hospital several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. This was followed by the onset of intermittent headaches and mild word-finding difficulty, which prompted an urgent care visit. The patient is a lifetime never-smoker and has no significant personal history of cancer. The initial workup began at that time. The patient is here today for an initial oncology consultation to discuss the diagnosis and establish care.
+
+Currently, the patient reports mild fatigue and an ongoing dry cough. The headaches have been partially responsive to over-the-counter analgesics. Appetite is fair with a recent, unintentional weight loss of approximately 10 pounds over the last two months. The patient maintains an excellent performance status (ECOG 0-1), is fully ambulatory, and capable of all self-care.
+
+**Diagnostic Workup:**
+A chest CT with contrast was performed as part of the initial evaluation. This study revealed a 4.5 cm spiculated mass in the right upper lobe. Additionally, several small nodules were noted in the contralateral left lung, the largest measuring 1.2 cm, suspicious for metastatic disease. Mediastinal and hilar lymphadenopathy was also present.
+
+A PET/CT was subsequently obtained for staging, which demonstrated intense FDG avidity in the primary right upper lobe mass, as well as in multiple mediastinal lymph nodes and the previously identified contralateral lung nodules. No other sites of FDG-avid metastatic disease were identified in the chest, abdomen, or pelvis.
+
+Given the new neurological symptoms, a brain MRI with and without contrast was performed. This revealed three discrete enhancing lesions in the cerebral hemispheres consistent with metastatic deposits, the largest measuring 1.5 cm in the left frontal lobe with surrounding vasogenic edema.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Pathology confirmed poorly differentiated adenocarcinoma, with immunohistochemical staining (TTF-1 positive, Napsin-A positive) supporting a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor tissue from the lung biopsy.
+- **Actionable Driver Mutations:** A sensitizing EGFR exon 19 deletion was detected.
+- **Other Markers:** Testing was negative for ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2 alterations.
+- **PD-L1 Immunohistochemistry:** Tumor Proportion Score (TPS) is ≥50%.
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 70-year-old never-smoker presenting with a new diagnosis of Stage IV (cT2b N2 M1c) non-small cell lung cancer, adenocarcinoma histology. The patient has known metastatic disease to the brain and contralateral lung. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion and high PD-L1 expression (TPS ≥50%).

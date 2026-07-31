@@ -1,0 +1,29 @@
+**INITIAL MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+**Referring Provider:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 39-year-old who presents for an initial medical oncology evaluation following a new diagnosis of non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and mild dyspnea on exertion. These symptoms did not resolve with a course of antibiotics prescribed by their primary care provider. Due to the persistence of symptoms, a chest X-ray was obtained, which revealed a suspicious right-sided lung mass.
+
+This prompted a referral for further evaluation. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed the presence of a primary mass in the right lung and also identified a nodule in the contralateral left lung, concerning for metastatic disease. A subsequent brain MRI was performed as part of the standard staging workup and was negative for intracranial metastases.
+
+The patient was referred to Interventional Pulmonology for a tissue diagnosis. A CT-guided core needle biopsy of the right lung mass was performed. Pathology confirmed the diagnosis of adenocarcinoma. The patient reports some ongoing cough and fatigue but remains fully ambulatory and continues to perform activities of daily living with minimal assistance. Their ECOG performance status is 1. They are a lifetime never-smoker.
+
+**Diagnostic Workup:**
+*   **CT Chest/Abdomen/Pelvis with contrast:** Revealed a 3.5 cm spiculated mass in the right upper lobe. A separate 1.2 cm solid nodule was identified in the left lower lobe, consistent with metastatic disease. No evidence of metastatic involvement in the liver, adrenal glands, or bones. No pathologic mediastinal or hilar lymphadenopathy was noted.
+*   **MRI Brain with and without contrast:** Negative for intracranial metastatic disease.
+*   **CT-Guided Core Needle Biopsy, Right Upper Lobe Mass:** Pathology confirmed invasive adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) and immunohistochemistry were performed on the biopsy specimen.
+*   **Driver Mutations:** No actionable driver alteration was identified. The tumor was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Expression:** Positive, with a Tumor Proportion Score (TPS) in the 1–49% range.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+In summary, this is a 39-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. Staging studies confirm metastatic disease to the contralateral lung. The patient has an ECOG performance status of 1. Molecular profiling is notable for the absence of an actionable driver mutation and a PD-L1 TPS of 1-49%.

@@ -1,0 +1,19 @@
+**HPI:**
+This is an 80-year-old individual referred for initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago, when they began to experience a persistent dry cough and progressive fatigue. Over the past month, they also developed new, nagging mid-back pain that was not positional and did not resolve with simple analgesics. These symptoms prompted an evaluation by their primary care provider. The patient is a former smoker, having quit more than one year ago. They remain fully ambulatory and independent with all activities of daily living, though they note a decreased energy level. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, which led to further imaging. A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This study confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal adenopathy. Additionally, the scan identified a lytic lesion within a thoracic vertebral body, suspicious for a bone metastasis.
+
+To complete staging, a whole-body PET/CT was obtained. This demonstrated intense FDG-avidity in the primary right lung mass and multiple mediastinal lymph nodes. It also confirmed focal hypermetabolism in the T8 vertebral body, consistent with metastatic disease and confirming Stage IV status. A dedicated MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed. Histopathologic analysis confirmed the diagnosis of adenocarcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy.
+- An actionable **KRAS G12C** mutation was detected.
+- The tumor was negative for alterations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+- PD-L1 immunohistochemistry was **positive**, with the specific Tumor Proportion Score (TPS) not available at the time of this report.
+- Tumor Mutational Burden (TMB) was found to be **intermediate** (2–16 mut/Mb).
+
+**Problem Summary:**
+This is an 80-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastasis to bone. Molecular testing is notable for the presence of a KRAS G12C mutation and positive PD-L1 expression. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis.

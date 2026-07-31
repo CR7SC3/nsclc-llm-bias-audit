@@ -1,0 +1,15 @@
+**HPI:**
+This is a 69-year-old former smoker (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately three months ago when they developed a persistent, dry cough and intermittent chest ache. Initial evaluation by a primary care provider and a course of antibiotics did not resolve the symptoms. The patient reports good functional status, remaining active and independent with all activities of daily living, consistent with an ECOG performance status of 1. A chest X-ray was subsequently ordered, which was abnormal and prompted further investigation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date], which revealed a 4.2 cm spiculated mass in the right upper lobe. The scan also demonstrated enlarged ipsilateral mediastinal and hilar lymph nodes, concerning for regional metastatic involvement. There was no evidence of distant metastatic disease to the contralateral lung, liver, adrenal glands, or bones.
+
+To further delineate the extent of disease, a PET/CT was performed on [De-identified Date]. This study confirmed intense FDG-avidity within the primary right upper lobe mass as well as in multiple right-sided mediastinal lymph node stations (paratracheal and subcarinal), consistent with locoregionally advanced disease. No other sites of FDG-avid disease were identified. A staging MRI of the brain with contrast was negative for intracranial metastases.
+
+On [De-identified Date], the patient underwent bronchoscopy with endobronchial ultrasound (EBUS) for tissue diagnosis. A transbronchial needle aspiration (TBNA) of a subcarinal lymph node was performed. Pathology from this specimen confirmed the diagnosis of adenocarcinoma. Based on this comprehensive workup, the patient is diagnosed with AJCC Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+The tissue obtained from the EBUS-TBNA biopsy was sent for next-generation sequencing. Molecular profiling did not identify any actionable driver alterations. Specifically, testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2. Tumor Mutational Burden (TMB) was reported as high (>16 mut/Mb). PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 69-year-old with an excellent performance status who presents for initial consultation regarding a new diagnosis of treatment-naive, Stage IIIA non-small cell lung cancer, adenocarcinoma histology. Molecular analysis reveals a high tumor mutational burden with no identified targetable driver mutations. The patient is here today to discuss the diagnosis and establish oncologic care.

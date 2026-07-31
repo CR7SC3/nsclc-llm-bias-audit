@@ -1,0 +1,17 @@
+**HPI:**
+This is a 49-year-old, referred for initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient is a current smoker and was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. Over the subsequent weeks, the patient also noted the onset of intermittent headaches, mild dizziness, and a sense of imbalance, which prompted an evaluation in the emergency department at an outside hospital. The patient reports a good performance status, fully ambulatory and capable of self-care, though activities are limited by shortness of breath.
+
+**Diagnostic Workup:**
+The initial workup in the emergency department included a chest X-ray which revealed a large right-sided lung opacity. This was followed by a CT scan of the chest, abdomen, and pelvis with contrast, which confirmed a 5.5 cm spiculated mass in the right upper lobe with extensive mediastinal and hilar lymphadenopathy.
+
+Given the new neurologic symptoms, a brain MRI with and without contrast was performed. This study demonstrated multiple enhancing lesions in the cerebral and cerebellar hemispheres, highly characteristic of metastatic disease.
+
+Subsequently, the patient underwent a staging PET/CT scan which showed intense FDG-avidity in the primary right upper lobe lung mass, the mediastinal lymph nodes, and confirmed the previously identified brain lesions as metabolically active, with no other sites of distant metastatic disease identified.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure returned poorly differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified; testing was negative for EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, ERBB2, and KRAS mutations. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb). A loss-of-function mutation was identified in the STK11 gene. PD-L1 immunohistochemistry was not performed on this specimen.
+
+**Problem Summary:**
+This is a 49-year-old with a new diagnosis of treatment-naive, Stage IV non-small cell lung cancer of squamous histology, with known metastases to the brain. Molecular profiling is notable for an STK11 loss-of-function mutation and an intermediate tumor mutational burden, with no targetable driver mutations identified. The patient is here for initial consultation and to discuss the diagnosis.

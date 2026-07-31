@@ -1,0 +1,15 @@
+**HPI:**
+This is a 65-year-old individual with a history of former tobacco use (quit >1 year ago) who is seen today for a new patient consultation to discuss a recent diagnosis of non-small cell lung cancer. The patient was well until approximately one month ago when a chest X-ray, performed as part of a routine pre-operative evaluation for an unrelated procedure, revealed a suspicious right-sided pulmonary nodule.
+
+The patient was asymptomatic from a pulmonary standpoint, denying any cough, shortness of breath, hemoptysis, or chest pain. There were no constitutional symptoms, including no fevers, chills, or unintentional weight loss. The patient maintains an excellent performance status (ECOG 0), carrying out all normal activities without restriction. Following the abnormal chest X-ray, the patient was referred for further diagnostic evaluation.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest was performed which confirmed the presence of a 3.2 cm spiculated solid nodule in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated. Subsequently, a full-body PET/CT scan was obtained for staging. This study demonstrated intense FDG-avidity localized to the known right upper lobe nodule. Importantly, there was no evidence of hypermetabolic activity in any regional lymph node stations or at any distant sites, including the liver, adrenal glands, and bones. A dedicated MRI of the brain was also performed and was negative for intracranial metastasis.
+
+Given these findings, the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic examination of the tissue confirmed the diagnosis of invasive adenocarcinoma. Based on the combined imaging and pathology, the disease is classified as clinical Stage IB (cT2a N0 M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. An actionable driver mutation was detected in KRAS (G12C). The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2. Tumor mutational burden (TMB) was intermediate, reported as 2–16 mutations/megabase. PD-L1 expression was not tested on this specimen.
+
+**Problem Summary:**
+In summary, this is a 65-year-old former smoker with an excellent performance status who presents with newly diagnosed, treatment-naive, clinical Stage IB (cT2a N0 M0) non-small cell lung adenocarcinoma of the right upper lobe. Molecular profiling of the tumor is notable for a KRAS G12C mutation.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 53-year-old individual who presents for an initial medical oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent dry cough and progressive shortness of breath with exertion. More recently, over the past several weeks, they noted the onset of dull headaches and mild fatigue. These symptoms prompted an evaluation with their primary care physician, which led to an urgent diagnostic workup. The patient is a lifetime never-smoker. They remain fully ambulatory and capable of all activities of daily living but are limited in physically strenuous activities. ECOG performance status is 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray was abnormal, prompting a contrast-enhanced CT scan of the chest, abdomen, and pelvis. This study identified a 4.2 cm primary mass in the right upper lobe of the lung with associated mediastinal and supraclavicular lymphadenopathy. Widespread metastatic disease was also identified, including multiple hypodense lesions throughout the liver, bilateral adrenal masses, and a moderate right-sided malignant pleural effusion.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary lung mass, extensive nodal stations, liver, and adrenal glands. The scan also revealed multiple avid osseous lesions consistent with bone metastases in the thoracic spine and right iliac bone.
+
+Given the presenting neurological symptoms, a brain MRI with contrast was obtained. This revealed multiple enhancing parenchymal lesions in the bilateral cerebral and cerebellar hemispheres, consistent with brain metastases.
+
+A CT-guided core biopsy of a metastatic lesion in the liver was performed for histopathological diagnosis. The pathology confirmed metastatic adenocarcinoma with features consistent with a lung primary origin.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- An activating EGFR exon 19 deletion (sensitizing) was detected.
+- The tumor was negative for ALK and ROS1 rearrangements, BRAF V600E mutations, MET exon 14 skipping mutations, RET fusions, and NTRK fusions. KRAS and ERBB2 mutations were not detected.
+- PD-L1 expression by immunohistochemistry was negative (Tumor Proportion Score <1%).
+- Tumor Mutational Burden (TMB) was determined to be intermediate (12 mutations/megabase).
+
+**Problem Summary:**
+This is a 53-year-old never-smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, with an activating EGFR exon 19 deletion. The patient has a high burden of disease with widespread metastases involving the brain, bone, liver, adrenal glands, pleura, and distant lymph nodes. The patient is treatment-naive and presents today to discuss the diagnosis and establish care.

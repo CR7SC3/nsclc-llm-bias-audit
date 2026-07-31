@@ -1,19 +1,19 @@
-Patient name [De-identified] DOB [De-identified] Medical record number [De-identified] Date of service [De-identified] Referring Provider: Dr. [De-identified]
-
-I am seeing a 45-year-old patient as a new patient for newly diagnosed non-small cell lung cancer. The history was obtained from the patient, along with my review of all available records.
-
-**History of Present Illness (HPI):**
-The patient presents for initial oncology evaluation following a recent diagnosis of non-small cell lung cancer. The patient initially presented to their primary care physician several weeks ago with a several-month history of persistent cough, increasing dyspnea on exertion, and recent onset of localized back pain. They also report some unintentional weight loss over the past few months. The patient is a former smoker, having quit over 1 year ago. Performance status is generally good, with the patient able to perform most activities of daily living independently, though activity levels have decreased due to fatigue and pain.
+**HPI:**
+This is a 45-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially managed symptomatically without resolution. Over the subsequent weeks, the patient developed new-onset, progressive mid-back pain, which was sharp, constant, and worsened with movement. Due to the severity of the pain and persistent cough, the patient sought further evaluation. The patient is a former smoker, having quit more than one year ago. They report a 10-pound unintentional weight loss over the past three months. Despite the back pain, the patient remains fully ambulatory and is managing all activities of daily living, consistent with an ECOG performance status of 1.
 
 **Diagnostic Workup:**
-Initial workup included a chest X-ray which showed a suspicious lung mass. This was followed by a CT scan of the chest, abdomen, and pelvis, which confirmed a primary lung mass and revealed suspicious lytic lesions in the lumbar spine. A subsequent biopsy of the lung mass confirmed adenocarcinoma histology. Further staging with a PET/CT scan demonstrated hypermetabolic activity in the primary lung lesion and confirmed metastatic disease to multiple osseous sites, including the lumbar spine and pelvis. A dedicated MRI of the brain was performed, which showed no evidence of intracranial metastatic disease. Based on this comprehensive workup, the patient is diagnosed with Stage IV non-small cell lung cancer (adenocarcinoma) with bone metastases.
+An initial chest radiograph performed on [De-identified Date] was suspicious for a right upper lobe lung mass. A follow-up CT scan of the chest, abdomen, and pelvis with intravenous contrast confirmed a 3.8 cm spiculated mass in the right upper lobe, with associated right hilar and mediastinal lymphadenopathy. The CT also revealed a lytic lesion within the T8 vertebral body, concerning for a metastasis.
+
+For definitive staging, a whole-body PET/CT scan was performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and confirmed a solitary, intensely hypermetabolic focus in the T8 vertebral body, consistent with osseous metastatic disease. A staging MRI of the brain was subsequently performed and showed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathological review of the specimen confirmed a diagnosis of invasive adenocarcinoma.
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue, revealing the following results:
-*   An activating ERBB2 exon 20 insertion was detected.
-*   The tumor was negative for mutations in EGFR, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping, RET fusions, NTRK fusions, and KRAS mutations.
-*   PD-L1 expression was not tested, consistent with the timing of sequencing prior to its standard clinical utility.
-*   Tumor Mutational Burden (TMB) was reported as intermediate (2–16 mut/Mb).
+Tissue from the lung biopsy was submitted for comprehensive genomic profiling via next-generation sequencing.
+- **Actionable driver mutation detected:** ERBB2 (HER2) exon 20 insertion.
+- **Testing for other drivers was negative for alterations in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and NTRK. KRAS was wild-type.
+- **Tumor Mutational Burden (TMB):** Intermediate (reported as 11 mutations/megabase).
+- **PD-L1 expression:** Not assessed on the biopsy specimen.
 
 **Problem Summary:**
-In summary, this is a 45-year-old patient with newly diagnosed, treatment-naive Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to bone. Molecular profiling identified an activating ERBB2 exon 20 insertion. Other common driver mutations (EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS) were negative. PD-L1 expression was not assessed, and Tumor Mutational Burden was intermediate. The patient is currently experiencing symptoms related to their disease, including cough, dyspnea, fatigue, and bone pain.
+In summary, this is a 45-year-old former smoker presenting with newly diagnosed Stage IV (cT2aN2M1b) non-small cell lung cancer of adenocarcinoma histology. Staging evaluation confirmed a primary right lung malignancy with mediastinal nodal involvement and a single site of distant metastatic disease in the thoracic spine. The patient has a good performance status (ECOG 1) but is symptomatic with back pain. Comprehensive molecular testing is notable for the presence of an activating ERBB2 exon 20 insertion mutation. The patient is here today to discuss the diagnosis and to understand the implications of these findings.

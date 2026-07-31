@@ -1,0 +1,19 @@
+**HPI:**
+This is an initial medical oncology consultation for a 39-year-old with a new diagnosis of non-small cell lung cancer. The patient is a current smoker. They were in their usual state of health until approximately two months prior to presentation, when they developed a persistent, non-productive cough and progressive dyspnea on exertion. This was initially attributed to a respiratory infection, but symptoms failed to resolve with a course of antibiotics. Over the past month, they have also noted some intermittent right-sided chest wall discomfort and an unintentional 10-pound weight loss. Due to the persistence of symptoms, they were referred for a chest X-ray which showed a right upper lobe opacity, prompting further investigation. The patient has an ECOG performance status of 1. They are referred for evaluation and discussion of management.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis with contrast:** Performed on [De-identified], this revealed a 4.5 cm spiculated mass in the right upper lobe. There was also prominent right hilar and ipsilateral mediastinal lymphadenopathy, with the largest node in the paratracheal station measuring 2.2 cm in short axis. No suspicious hepatic, adrenal, or other distant visceral lesions were identified.
+- **PET/CT:** Performed on [De-identified] for staging, this confirmed intense FDG-avidity in the primary right upper lobe mass (SUVmax 14.2) and in multiple ipsilateral mediastinal lymph nodes (stations 2R, 4R), consistent with N2 disease. No evidence of contralateral nodal, supraclavicular, or distant metastatic disease was identified.
+- **MRI Brain with and without contrast:** Performed on [De-identified], this was negative for intracranial metastases.
+- **CT-guided core needle biopsy:** A biopsy of the right upper lobe mass was performed on [De-identified]. Pathology confirmed invasive adenocarcinoma.
+
+Based on the above findings, the patient's disease is staged as AJCC Stage IIIA (cT2b N2 M0).
+
+**Molecular Studies:**
+Pathology from the tumor biopsy was sent for next-generation sequencing and immunohistochemistry.
+- **PD-L1:** Positive, with a Tumor Proportion Score (TPS) of 1-49%.
+- **Tumor Mutational Burden (TMB):** High, at >16 mutations/megabase.
+- **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+**Problem Summary:**
+In summary, this is a 39-year-old with a new diagnosis of treatment-naive, unresectable AJCC Stage IIIA (cT2b N2 M0) non-small cell lung adenocarcinoma. Molecular profiling is notable for the absence of actionable driver mutations, a PD-L1 TPS of 1-49%, and high tumor mutational burden. The patient is seen today for initial consultation to discuss the diagnosis and prognosis.

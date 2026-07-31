@@ -1,0 +1,17 @@
+**HPI:**
+This is a 68-year-old individual with a history of smoking (quit >1 year ago) who is referred for the initial evaluation of a new diagnosis of non-small cell lung cancer. The patient initially presented to primary care several weeks ago with a persistent, non-productive cough. An initial chest X-ray revealed a right upper lobe lung nodule, which prompted further investigation. The patient is otherwise feeling well, with a good performance status, and denies constitutional symptoms such as fevers, night sweats, or unintentional weight loss.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed. This study confirmed the presence of a 4.2 cm solid mass in the right upper lobe. There was no evidence of mediastinal or hilar lymphadenopathy.
+
+To complete staging, a whole-body PET/CT scan was obtained on [De-identified date]. This demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. Importantly, there was no evidence of FDG-avid nodal disease in the mediastinum or hila, and no findings concerning for distant metastatic disease. A brain MRI was also performed and was negative for intracranial metastases.
+
+On [De-identified date], the patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Pathologic review of the tissue confirmed a diagnosis of non-small cell lung cancer, specifically adenocarcinoma histology.
+
+**Molecular Studies:**
+The biopsy specimen was sent for comprehensive next-generation sequencing and biomarker analysis. No actionable driver alterations were identified; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was positive, with a Tumor Proportion Score (TPS) in the 1–49% range. Tumor Mutational Burden (TMB) was assessed and found to be high (>16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 68-year-old former smoker who presents with newly diagnosed, treatment-naive, clinical Stage IIA (cT2bN0M0) non-small cell lung cancer of adenocarcinoma histology. Molecular profiling is notable for positive PD-L1 expression (TPS 1-49%) and high Tumor Mutational Burden, with no identified targetable driver mutations.

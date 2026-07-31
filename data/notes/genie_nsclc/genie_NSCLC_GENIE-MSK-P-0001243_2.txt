@@ -1,0 +1,19 @@
+**HPI:**
+This is a 61-year-old individual with a new diagnosis of metastatic non-small cell lung cancer, presenting for initial oncology consultation. The patient was in their usual state of health until approximately two months prior to evaluation, when they developed a persistent, non-productive cough and mild dyspnea on exertion. These symptoms prompted a visit to their primary care provider. The patient is a lifetime never-smoker. They report good functional status and are able to perform all activities of daily living, though they note some fatigue. Performance status is estimated at ECOG 1.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe opacity, leading to further cross-sectional imaging. A CT of the chest, abdomen, and pelvis with contrast was performed on [De-identified Date]. This study identified a 3.8 cm spiculated mass in the right upper lobe, highly suspicious for primary lung malignancy. Multiple enlarged mediastinal lymph nodes were noted. A discrete 1.5 cm nodule was also seen in the contralateral left lower lobe, concerning for metastatic disease. No other suspicious lesions were identified in the liver, adrenal glands, or bones.
+
+A subsequent PET/CT scan confirmed high FDG-avidity in the primary right upper lobe mass, the mediastinal lymph nodes, and the contralateral left lung nodule, consistent with metastatic disease. No other sites of FDG-avid disease were identified. A staging MRI of the brain was performed and showed no evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass on [De-identified Date]. Pathology review confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+Tissue from the biopsy specimen was sent for next-generation sequencing and immunohistochemistry. Key findings are as follows:
+- Actionable driver mutation detected: EGFR exon 19 deletion (sensitizing).
+- Testing was negative for genomic alterations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was negative.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+This is a 61-year-old never-smoker who presents with newly diagnosed, treatment-naive metastatic (Stage IV) non-small cell lung cancer of adenocarcinoma histology. Staging is based on a primary right lung mass with a contralateral lung metastasis. Molecular profiling is positive for a sensitizing EGFR exon 19 deletion. PD-L1 expression is negative. The patient is here to discuss the diagnosis and potential management options.

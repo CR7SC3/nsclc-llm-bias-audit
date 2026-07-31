@@ -1,0 +1,24 @@
+**HPI:**
+This is an 83-year-old individual with a history of former tobacco use (quit more than 15 years ago) who presents for an initial oncology consultation. The patient was in their usual state of good health until approximately two months prior to presentation, when they developed a persistent, non-productive cough. This was initially attributed to a seasonal virus, but when symptoms failed to resolve, they presented to their primary care provider. A chest X-ray was obtained which demonstrated a right-sided lung opacity, prompting further investigation with a contrast-enhanced CT scan of the chest, abdomen, and pelvis.
+
+The patient reports some mild fatigue but otherwise denies fevers, chills, night sweats, hemoptysis, or significant weight loss. Appetite is preserved. The patient remains fully ambulatory and independent with all activities of daily living, with an excellent performance status. They are here today to discuss the findings of their workup and establish care.
+
+**Diagnostic Workup:**
+A diagnostic CT of the chest, abdomen, and pelvis was performed on [De-identified Date]. This revealed a spiculated 3.5 cm mass in the right upper lobe. Additionally, a discrete 1.2 cm nodule was identified in the contralateral left lower lobe, suspicious for metastatic disease. There was no evidence of mediastinal, hilar, or supraclavicular lymphadenopathy. The abdominal and pelvic portions of the scan were negative for other sites of distant metastatic disease. A subsequent MRI of the brain with and without contrast was performed and revealed no evidence of intracranial metastases.
+
+On [De-identified Date], the patient underwent a CT-guided core needle biopsy of the right upper lobe lung mass. Pathology from this procedure confirmed a diagnosis of non-small cell lung cancer with adenocarcinoma histology.
+
+Based on these findings, the patient is staged as having Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. This identified an actionable driver mutation, specifically a MET exon 14 skipping mutation. The panel was negative for pathogenic mutations or rearrangements in EGFR, ALK, ROS1, BRAF, RET, NTRK, KRAS, and ERBB2.
+
+PD-L1 expression was not tested. Tumor mutational burden (TMB) was found to be intermediate (2–16 mutations/megabase).
+
+**Problem Summary:**
+1.  Metastatic Non-Small Cell Lung Cancer (NSCLC), Adenocarcinoma Histology, AJCC Stage IV.
+    -   Primary disease in the right upper lobe with a contralateral lung metastasis.
+    -   No evidence of brain metastases.
+    -   Tumor is positive for a MET exon 14 skipping mutation.
+2.  Excellent performance status (ECOG 0).
+3.  History of former tobacco use.

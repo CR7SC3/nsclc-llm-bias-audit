@@ -1,25 +1,19 @@
-**Patient Identification:**
-[De-identified Name], a 49-year-old individual, presents for initial oncology consultation regarding a recent diagnosis of non-small cell lung cancer.
-
-**History of Present Illness:**
-This 49-year-old individual was referred to medical oncology for evaluation and management of newly diagnosed non-small cell lung cancer (NSCLC). The patient's initial presentation approximately two months prior involved a persistent dry cough and mild dyspnea on exertion. These symptoms prompted a visit to their primary care physician, leading to a chest X-ray that revealed a suspicious mass in the right lung. Subsequent imaging with a CT scan of the chest, abdomen, and pelvis confirmed a primary mass in the right upper lobe, along with a distinct, smaller nodule identified in the contralateral (left) lung. A PET/CT scan demonstrated FDG avidity in both lesions, consistent with malignancy. The diagnosis of NSCLC, not otherwise specified (NOS) histology, was confirmed via a CT-guided core needle biopsy of the right lung mass. Further staging workup, including a brain MRI, was negative for intracranial metastases. Given the presence of disease in the contralateral lung, the patient was staged as AJCC Stage IV. The patient is a former smoker, having quit less than one year ago. This is the patient's first oncology evaluation, and they are treatment-naive.
+**HPI:**
+This is a 49-year-old who presents for an initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and mild exertional dyspnea. An initial course of antibiotics from their primary care physician provided no relief. Due to worsening symptoms and the patient's history as a former smoker (quit within the last year), a chest X-ray was obtained, which revealed a right-sided lung mass. The patient has remained active with a good performance status (ECOG 1), able to perform all activities of daily living with minimal shortness of breath. They report an unintentional weight loss of approximately 5 pounds over the last two months. They deny hemoptysis, fevers, or significant chest pain. The patient is here today to review the completed diagnostic workup and discuss the diagnosis.
 
 **Diagnostic Workup:**
-Initial diagnostic evaluation included:
-*   **Chest X-ray:** Revealed a right upper lobe mass.
-*   **CT Chest/Abdomen/Pelvis:** Demonstrated a primary mass in the right upper lobe measuring approximately [plausible size, e.g., 4.5 cm], and a separate, distinct nodule in the left lower lobe measuring [plausible size, e.g., 1.2 cm]. No evidence of intra-abdominal metastases or significant lymphadenopathy was noted.
-*   **PET/CT Scan:** Showed hypermetabolic activity corresponding to the right upper lobe mass and the left lower lobe nodule. No other hypermetabolic lesions suggestive of distant metastasis were identified.
-*   **MRI Brain:** Performed for metastatic workup, revealed no evidence of brain metastases.
-*   **Biopsy:** CT-guided core needle biopsy of the right upper lobe mass confirmed the diagnosis of non-small cell lung carcinoma, NOS histology.
+A staging CT of the chest, abdomen, and pelvis with contrast was performed following the abnormal chest X-ray. This imaging confirmed a 4.2 cm spiculated mass in the right upper lobe. In addition, a 1.5 cm nodule was identified in the contralateral left lower lobe, suspicious for metastatic disease. There was evidence of mediastinal and hilar lymphadenopathy. No other sites of distant metastatic disease were identified in the liver, adrenal glands, or bones on the portions of the skeleton imaged.
 
-Based on these findings, the patient is diagnosed with AJCC Stage IV NSCLC due to the presence of distant metastasis to the contralateral lung.
+A staging MRI of the brain with and without contrast was performed and showed no evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was subsequently performed. Pathology confirmed a diagnosis of non-small cell lung cancer, not otherwise specified (NOS).
 
 **Molecular Studies:**
-Molecular profiling was performed on the tumor tissue, yielding the following results:
-*   **Actionable Drivers:** High-level MET amplification was detected.
-*   **Negative for:** EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF mutations, MET exon 14 skipping mutations, RET rearrangements, NTRK fusions, KRAS mutations, and ERBB2 (HER2) alterations.
-*   **PD-L1 Expression:** Negative.
-*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+Next-generation sequencing (NGS) was performed on the tumor tissue.
+- **Actionable driver(s) detected:** MET amplification (high-level).
+- **Testing was negative for alterations in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1 expression:** Negative (Tumor Proportion Score 0%).
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
 
 **Problem Summary:**
-[De-identified Name] is a 49-year-old individual with newly diagnosed, treatment-naive non-small cell lung cancer, NOS histology, AJCC Stage IV, with metastasis to the contralateral lung. Molecular studies revealed high-level MET amplification, negative PD-L1 expression, and intermediate tumor mutational burden. The patient is a former smoker.
+In summary, this is a 49-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer (NOS histology), with metastatic disease to the contralateral lung. The tumor is characterized by high-level MET amplification and is PD-L1 negative. The patient is treatment-naive and presents for initial consultation.

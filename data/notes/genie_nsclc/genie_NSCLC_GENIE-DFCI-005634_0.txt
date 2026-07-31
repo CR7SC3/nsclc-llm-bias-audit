@@ -1,0 +1,23 @@
+**INITIAL THORACIC MEDICAL ONCOLOGY CONSULTATION**
+
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**History of Present Illness:**
+This is a 77-year-old with a new diagnosis of non-small cell lung cancer, referred for consultation regarding management. The patient is a former smoker who quit over a year ago. The patient presented to primary care approximately two months prior with a persistent, dry cough and progressive dyspnea on exertion. An initial chest radiograph demonstrated a right upper lobe opacity, prompting further investigation. The patient remains fully ambulatory with an ECOG performance status of 1, reporting some fatigue but otherwise maintaining daily activities.
+
+**Diagnostic Workup:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This study revealed a 5.8 cm solid, spiculated mass in the right upper lobe. No definitive mediastinal or hilar lymphadenopathy was identified. The visualized portions of the abdomen and pelvis, including the liver and adrenal glands, were negative for evidence of metastatic disease.
+
+A subsequent whole-body PET/CT scan was obtained for staging. This demonstrated intense FDG-avidity corresponding to the known right upper lobe mass. No other sites of abnormal hypermetabolism concerning for nodal or distant metastatic disease were identified. To complete staging, a brain MRI with and without contrast was performed and was negative for intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the right upper lobe mass. Histopathologic examination confirmed the diagnosis of an invasive, moderately differentiated squamous cell carcinoma.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alterations were identified. The tumor was found to be negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) of 40%. Tumor Mutational Burden (TMB) was determined to be intermediate at 12 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 77-year-old with a new diagnosis of Stage IIB (T3 N0 M0) non-small cell lung cancer, squamous cell histology, of the right lung. The patient is treatment-naive. Molecular profiling is notable for a PD-L1 TPS of 1-49% and intermediate TMB, with no actionable driver mutations identified. The patient is seen today for initial consultation to discuss the diagnosis and establish care.

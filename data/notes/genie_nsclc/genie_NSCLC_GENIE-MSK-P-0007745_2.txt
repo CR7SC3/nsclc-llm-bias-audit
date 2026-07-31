@@ -1,0 +1,20 @@
+**HPI:**
+This is a 42-year-old with a past medical history of thyroid cancer and a former smoking history (quit >1 year ago) who presents for an initial oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed a persistent, non-productive cough and right-sided chest wall pain. An initial course of antibiotics prescribed by their primary care provider did not lead to improvement. Due to the persistence of symptoms, along with new-onset fatigue and decreased appetite, further diagnostic evaluation was pursued.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a suspicious opacity in the left lung. This prompted a staging CT scan of the chest, abdomen, and pelvis with contrast, performed on [De-identified date]. Imaging confirmed the presence of a 3.8 cm spiculated mass in the left upper lobe, with associated ipsilateral mediastinal and hilar adenopathy. The scan also identified multiple low-density lesions throughout the liver, the largest measuring 2.5 cm, highly suspicious for metastatic deposits.
+
+To further evaluate the reported chest wall pain and for complete staging, a whole-body bone scan was performed. This revealed abnormal radiotracer uptake in the right posterior 7th rib and the T8 vertebral body, consistent with osseous metastatic disease. A contrast-enhanced MRI of the brain was subsequently performed and was negative for any evidence of intracranial metastases.
+
+The patient underwent a CT-guided core needle biopsy of the left upper lobe lung mass. Pathologic review confirmed the diagnosis of adenocarcinoma, consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing and immunohistochemistry were performed on the biopsy specimen. The results are as follows:
+- **Histology:** Adenocarcinoma
+- **Actionable Driver Mutation:** EGFR exon 19 deletion (sensitizing) detected.
+- **Other Markers:** Negative for rearrangements/mutations in ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- **PD-L1:** Negative (Tumor Proportion Score <1%)
+- **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb)
+
+**Problem Summary:**
+This is a 42-year-old former smoker who presents with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology, with metastatic disease to the liver and bone. Molecular profiling of the tumor is notable for a sensitizing EGFR exon 19 deletion. The patient is treatment-naive and is seen today for initial consultation to discuss the diagnosis and establish oncologic care. Performance status is good, and the patient is accompanied by family.

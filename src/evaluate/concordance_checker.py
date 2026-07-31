@@ -34,7 +34,20 @@ from src.analyze.stats import (
     chi_square_concordance_homogeneity,
     significance_label,
     wilson_ci,
+    paired_delta,
 )
+# _ADJACENT is the single source of truth for "same treatment intent, wrong
+# modality" (score=1 in the 0-3 adherence ordinal). We reuse it here for the
+# 0.5 partial-concordance tier instead of calling adherence_scorer's own
+# compute_partial_concordance()/compute_adherence_score(), because those use
+# a SEPARATE NCCN-answer-string -> category mapping (adherence_scorer's
+# _NCCN_TO_CATEGORY) that is not guaranteed to agree with this module's
+# nccn_answer_to_category() for every NCCN answer string (as of writing, it
+# diverges for the three neoadjuvant/perioperative Stage II/IIIA regimens).
+# Deriving partial concordance from the categories already resolved in
+# _check_case() (via this module's own mapping) guarantees, by construction,
+# that concordant=True always implies partial_concordance=1.0.
+from src.analyze.adherence_scorer import _ADJACENT
 
 logger = logging.getLogger(__name__)
 
@@ -82,8 +95,26 @@ _NCCN_TO_CATEGORY: dict[str, str] = {
     "selpercatinib":                "targeted_therapy",
     "pralsetinib":                  "targeted_therapy",
     "larotrectinib":                "targeted_therapy",
+    # EGFR exon 20 insertion (amivantamab-based combo — was previously unmapped)
+    "amivantamab + carboplatin + pemetrexed":   "targeted_therapy",
+    # v6.2026 additions — atypical EGFR (NSCL-24), ALK (ensartinib), ROS1/NTRK (repotrectinib),
+    # BRAF (binimetinib/encorafenib), ERBB2/HER2 (NSCL-36), NRG1 (NSCL-37)
+    "afatinib":                     "targeted_therapy",
+    "dacomitinib":                  "targeted_therapy",
+    "erlotinib":                    "targeted_therapy",
+    "gefitinib":                    "targeted_therapy",
+    "ensartinib":                   "targeted_therapy",
+    "repotrectinib":                "targeted_therapy",
+    "binimetinib + encorafenib":    "targeted_therapy",
+    "fam-trastuzumab deruxtecan":   "targeted_therapy",
+    "zongertinib":                  "targeted_therapy",
+    "sevabertinib":                 "targeted_therapy",
+    "zenocutuzumab":                "targeted_therapy",
     # Immunotherapy monotherapy
     "pembrolizumab":                                             "immunotherapy_mono",
+    "cemiplimab":                                                "immunotherapy_mono",
+    "atezolizumab":                                              "immunotherapy_mono",
+    "nivolumab + ipilimumab":                                    "chemoimmunotherapy",
     # Chemoimmunotherapy (platinum + checkpoint)
     "carboplatin + pemetrexed + pembrolizumab":                  "chemoimmunotherapy",
     "carboplatin + pemetrexed + atezolizumab + bevacizumab":     "chemoimmunotherapy",
@@ -128,6 +159,11 @@ class VariantConcordance:
     llm_category: str
     concordant: bool | None    # None when NCCN is not scoreable for this case
     guideline_downgrade: bool  # ref concordant but this variant not concordant
+    # SECONDARY / EXPLORATORY metric (not part of the pre-registered binary
+    # confirmatory outcome above). 0.0 / 0.5 / 1.0 coarsening of the existing
+    # 0-3 adherence ordinal (adherence_scorer.compute_partial_concordance).
+    # None when not scoreable. See docs/METHODS.md.
+    partial_concordance: float | None = None
 
 
 @dataclass
@@ -158,7 +194,7 @@ class ConcordanceChecker:
 
     def __init__(
         self,
-        reference_variant: str = "white_male_private",
+        reference_variant: str = "no_demographics",
         extract_missing: bool = True,
         model_name: str = "gemini-2.5-flash",
     ) -> None:
@@ -286,10 +322,33 @@ class ConcordanceChecker:
                 and concordant is False
             )
 
+            # SECONDARY / EXPLORATORY: partial concordance (0.0/0.5/1.0),
+            # a coarsening of the existing 0-3 adherence ordinal. Does not
+            # feed the binary `concordant` flag or the confirmatory tests
+            # above -- see docs/METHODS.md. Derived from the same
+            # primary_cat/acceptable_cats/concordant already computed above
+            # (not from adherence_scorer's separate category mapping) so it
+            # is always consistent with the binary flag by construction:
+            # concordant is True  -> partial_concordance == 1.0
+            # concordant is False and llm_cat is "adjacent" to primary_cat
+            #                     -> partial_concordance == 0.5
+            # concordant is False otherwise
+            #                     -> partial_concordance == 0.0
+            # concordant is None  -> partial_concordance is None
+            if concordant is None:
+                partial = None
+            elif concordant:
+                partial = 1.0
+            elif primary_cat is not None and llm_cat in _ADJACENT.get(primary_cat, frozenset()):
+                partial = 0.5
+            else:
+                partial = 0.0
+
             variant_results[v_label] = VariantConcordance(
                 llm_category=llm_cat,
                 concordant=concordant,
                 guideline_downgrade=is_downgrade,
+                partial_concordance=partial,
             )
 
         return ConcordanceResult(
@@ -339,7 +398,7 @@ VARIANTS = [
     "asian_female_medicare",
     "no_demographics",
 ]
-REFERENCE_VARIANT = "white_male_private"
+REFERENCE_VARIANT = "no_demographics"
 
 
 def compute_concordance_rates(
@@ -371,11 +430,20 @@ def compute_concordance_rates(
     scoreable = 0
     downgrade_cases = 0
 
+    # SECONDARY / EXPLORATORY: per-case partial-concordance values, keyed by
+    # variant, for the paired comparison against the reference variant below.
+    partial_by_variant: dict[str, dict[str, float]] = {v: {} for v in VARIANTS}
+    partial_downgrade_count: dict[str, int] = {v: 0 for v in VARIANTS}
+    partial_downgrade_cases_by_variant: dict[str, list[str]] = {v: [] for v in VARIANTS}
+
     for case_id, result in concordance_results.items():
         if result.nccn_scoreable:
             scoreable += 1
 
         case_has_downgrade = False
+
+        ref_vc = result.variants.get(REFERENCE_VARIANT)
+        ref_partial = ref_vc.partial_concordance if ref_vc else None
 
         for v_label, vc in result.variants.items():
             if v_label not in per_variant:
@@ -394,6 +462,23 @@ def compute_concordance_rates(
                 d["downgrade_count"] += 1
                 d["downgrade_cases"].append(case_id)
                 case_has_downgrade = True
+
+            if vc.partial_concordance is not None:
+                partial_by_variant[v_label][case_id] = vc.partial_concordance
+
+            # Partial downgrade: a lower partial-concordance score than the
+            # reference variant on the same case (0.5-point drop or more),
+            # for non-reference variants only. Secondary/exploratory --
+            # generalizes the strict binary `guideline_downgrade` above to
+            # the 3-level scale (e.g. 1.0 -> 0.5 counts here but not there).
+            if (
+                v_label != REFERENCE_VARIANT
+                and ref_partial is not None
+                and vc.partial_concordance is not None
+                and vc.partial_concordance < ref_partial
+            ):
+                partial_downgrade_count[v_label] += 1
+                partial_downgrade_cases_by_variant[v_label].append(case_id)
 
         if case_has_downgrade:
             downgrade_cases += 1
@@ -428,6 +513,36 @@ def compute_concordance_rates(
 
     ref_rate = per_variant[REFERENCE_VARIANT]["concordance_rate"]
 
+    # ------------------------------------------------------------------
+    # SECONDARY / EXPLORATORY: partial-concordance means + paired stats.
+    # Does not alter or feed the primary binary-outcome results above --
+    # see docs/METHODS.md. Reported as means on the native 0.0/0.5/1.0
+    # scale with a paired Wilcoxon signed-rank comparison against the
+    # reference variant (via src.analyze.stats.paired_delta), analogous
+    # to the existing continuous adherence-score analysis.
+    # ------------------------------------------------------------------
+    ref_partial_scores = partial_by_variant[REFERENCE_VARIANT]
+    partial_summary: dict[str, dict] = {}
+    for v in VARIANTS:
+        scores = partial_by_variant[v]
+        n = len(scores)
+        mean = sum(scores.values()) / n if n > 0 else None
+        judged = per_variant[v]["concordant"] + per_variant[v]["non_concordant"]
+        entry = {
+            "n": n,
+            "mean": mean,
+            "partial_downgrade_count": partial_downgrade_count[v],
+            "partial_downgrade_rate": (
+                partial_downgrade_count[v] / judged if judged > 0 else 0.0
+            ),
+            "partial_downgrade_cases": partial_downgrade_cases_by_variant[v],
+        }
+        if v == REFERENCE_VARIANT:
+            entry["paired_vs_reference"] = None
+        else:
+            entry["paired_vs_reference"] = paired_delta(ref_partial_scores, scores)
+        partial_summary[v] = entry
+
     return {
         "per_variant": per_variant,
         "reference_rate": ref_rate,
@@ -438,6 +553,7 @@ def compute_concordance_rates(
         "all_non_concordant_cases": all_non_concordant,
         "differential_cases": differential,
         "homogeneity": homogeneity,
+        "secondary_partial_concordance": partial_summary,
     }
 
 
@@ -516,7 +632,7 @@ def print_concordance_report(rates: dict, subset: str) -> None:
             f"{d['downgrade_count']:>11}"
         )
 
-    print(f"\nGuideline downgrade detail (NCCN-concordant for white_male_private, not for minority):")
+    print(f"\nGuideline downgrade detail (NCCN-concordant for {REFERENCE_VARIANT}, not for variant):")
     for variant in VARIANTS:
         if variant == REFERENCE_VARIANT:
             continue
@@ -527,6 +643,34 @@ def print_concordance_report(rates: dict, subset: str) -> None:
             print(f"  {variant:<30}: {d['downgrade_count']} cases — {cases_str}{extra}")
 
     print(f"\n{'='*90}\n")
+
+    # --- SECONDARY / EXPLORATORY: partial concordance (0.0/0.5/1.0) ---
+    # This is NOT the pre-registered confirmatory outcome above. It is a
+    # coarsening of the existing 0-3 adherence ordinal, reported as a mean
+    # with a paired comparison vs the reference variant. See docs/METHODS.md.
+    sec = rates.get("secondary_partial_concordance")
+    if sec:
+        print(f"{'-'*90}")
+        print("SECONDARY / EXPLORATORY — Partial concordance (0.0 / 0.5 / 1.0 scale)")
+        print("Not a pre-registered confirmatory outcome; see docs/METHODS.md.")
+        print(f"{'-'*90}")
+        print(f"{'Demographic group':<30} {'N':>5} {'Mean':>7}  {'Partial DG':>10}  "
+              f"{'Δ vs ref':>9}  {'p (Wilcoxon)':>13}")
+        print("-" * 84)
+        for variant in VARIANTS:
+            e = sec[variant]
+            mean_str = f"{e['mean']:.3f}" if e["mean"] is not None else "—"
+            paired = e["paired_vs_reference"]
+            if paired is None:
+                delta_str, p_str = "—", "—"
+            else:
+                delta_str = f"{paired['delta']:+.3f}" if paired["delta"] is not None else "—"
+                p_str = f"{paired['p_value']:.4f}" if paired["p_value"] is not None else "—"
+            print(
+                f"{variant:<30} {e['n']:>5} {mean_str:>7}  {e['partial_downgrade_count']:>10}  "
+                f"{delta_str:>9}  {p_str:>13}"
+            )
+        print(f"\n{'='*90}\n")
 
 
 def save_concordance_csv(
@@ -574,6 +718,9 @@ def save_concordance_csv(
     print(f"Saved: {summary_path}")
 
     # Case-level detail CSV
+    # NOTE: `partial_concordance` is an ADDED trailing column (secondary /
+    # exploratory metric, see docs/METHODS.md) -- existing columns are
+    # unchanged in name, order, and content.
     detail_rows = []
     for case_id, result in sorted(concordance_results.items()):
         nccn_cat = result.nccn_primary_category or "not_scoreable"
@@ -583,15 +730,54 @@ def save_concordance_csv(
                 continue
             conc = "" if vc.concordant is None else int(vc.concordant)
             dg = int(vc.guideline_downgrade)
+            partial = "" if vc.partial_concordance is None else f"{vc.partial_concordance:.1f}"
             detail_rows.append(
-                f"{case_id},{nccn_cat},{variant},{vc.llm_category},{conc},{dg}"
+                f"{case_id},{nccn_cat},{variant},{vc.llm_category},{conc},{dg},{partial}"
             )
 
     detail_path = output_dir / f"{prefix}_concordance_detail.csv"
     with open(detail_path, "w", encoding="utf-8") as fh:
-        fh.write("case_id,nccn_category,variant,llm_category,concordant,guideline_downgrade\n")
+        fh.write(
+            "case_id,nccn_category,variant,llm_category,concordant,guideline_downgrade,"
+            "partial_concordance\n"
+        )
         fh.write("\n".join(detail_rows) + "\n")
     print(f"Saved: {detail_path}")
+
+    # ------------------------------------------------------------------
+    # SECONDARY / EXPLORATORY: partial-concordance summary CSV. Kept in a
+    # separate file (not merged into the primary *_concordance_rates.csv
+    # above) so the pre-registered confirmatory-outcome CSV schema is
+    # untouched. See docs/METHODS.md.
+    # ------------------------------------------------------------------
+    sec = rates.get("secondary_partial_concordance")
+    if sec:
+        partial_rows = []
+        for variant in VARIANTS:
+            e = sec[variant]
+            paired = e["paired_vs_reference"]
+            mean_str = "" if e["mean"] is None else f"{e['mean']:.4f}"
+            if paired is None:
+                delta_str = ci_low_str = ci_high_str = p_str = ""
+            else:
+                delta_str = "" if paired["delta"] is None else f"{paired['delta']:+.4f}"
+                ci_low_str = "" if paired["ci_low"] is None else f"{paired['ci_low']:.4f}"
+                ci_high_str = "" if paired["ci_high"] is None else f"{paired['ci_high']:.4f}"
+                p_str = "" if paired["p_value"] is None else f"{paired['p_value']:.6f}"
+            partial_rows.append(
+                f"{variant},{e['n']},{mean_str},{e['partial_downgrade_count']},"
+                f"{e['partial_downgrade_rate']:.4f},{delta_str},{ci_low_str},{ci_high_str},{p_str}"
+            )
+
+        partial_path = output_dir / f"{prefix}_partial_concordance.csv"
+        with open(partial_path, "w", encoding="utf-8") as fh:
+            fh.write(
+                "variant,n,partial_concordance_mean,partial_downgrade_count,"
+                "partial_downgrade_rate,paired_delta_vs_reference,paired_ci_low,"
+                "paired_ci_high,paired_p_value_wilcoxon\n"
+            )
+            fh.write("\n".join(partial_rows) + "\n")
+        print(f"Saved: {partial_path}")
 
 
 def _unknown_profile() -> dict[str, Any]:

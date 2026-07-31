@@ -1,0 +1,26 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+**DATE OF SERVICE:** [De-identified]
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+This is a 62-year-old individual referred for initial consultation and management of newly diagnosed metastatic non-small cell lung cancer. The patient presented to their primary care provider several weeks ago with a progressive, non-productive cough and increasing dyspnea on exertion. This was associated with significant fatigue and an unintentional weight loss of approximately 15 pounds over the past two months. More recently, the patient noted the onset of dull, persistent headaches. The patient is a former smoker, having quit over one year ago. The patient remains ambulatory and capable of self-care but is limited in more strenuous physical activity.
+
+An initial chest X-ray revealed a large right upper lobe lung mass, prompting further investigation. The patient was subsequently sent for comprehensive staging imaging. The patient is here today to discuss the results of this workup and establish care.
+
+**Diagnostic Workup:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed, which confirmed a large, spiculated mass in the right upper lobe of the lung with associated mediastinal and hilar lymphadenopathy. The scan also revealed multiple lesions suspicious for metastatic disease, including several hypodensities in the liver, a nodule in the left adrenal gland, and a lytic lesion in the thoracic spine.
+
+A subsequent PET/CT scan demonstrated intense FDG-avidity in the primary right lung mass, mediastinal lymph nodes, and confirmed hypermetabolic activity consistent with metastatic disease in the liver, left adrenal gland, and multiple sites of bone, including the thoracic spine. Additional distant nodal disease was also noted.
+
+Given the new onset of headaches, a brain MRI with contrast was obtained. This revealed multiple enhancing parenchymal lesions consistent with brain metastases.
+
+To establish a tissue diagnosis, the patient underwent a CT-guided core needle biopsy of one of the accessible liver lesions. Pathology confirmed metastatic adenocarcinoma, with morphology and immunohistochemical staining consistent with a lung primary.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the biopsy specimen. Molecular profiling did not identify an actionable driver alteration. Results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, and the result was negative. Tumor Mutational Burden (TMB) was assessed and found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 62-year-old with a new diagnosis of Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms widespread metastatic disease involving the brain, bone, liver, adrenal glands, and distant lymph nodes. Molecular studies are notable for the absence of any identified actionable driver alterations and negative PD-L1 expression. The patient is treatment-naive.

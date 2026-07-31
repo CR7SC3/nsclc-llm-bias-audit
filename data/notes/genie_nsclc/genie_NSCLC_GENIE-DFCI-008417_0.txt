@@ -1,0 +1,21 @@
+**HPI:**
+This is a 64-year-old individual with a recent diagnosis of non-small cell lung cancer, referred for initial oncology consultation and management. The patient presented to an outside facility approximately one month ago with a persistent, non-productive cough that had been worsening over several weeks. An initial chest X-ray revealed a right-sided lung opacity, prompting further investigation. The patient is a former smoker, having quit within the last year after a significant smoking history. The patient reports good baseline functional status, remaining fully ambulatory and independent in all activities of daily living, with an ECOG performance status of 0-1. There has been no significant weight loss, hemoptysis, or chest pain.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest was performed on [De-identified Date]. This study demonstrated a spiculated 4.2 cm mass in the right upper lobe. Associated ipsilateral mediastinal and subcarinal lymphadenopathy was also noted, raising suspicion for locoregionally advanced disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was subsequently performed on [De-identified Date]. Pathologic review of the tissue confirmed a diagnosis of invasive adenocarcinoma.
+
+For staging purposes, a PET/CT scan was obtained on [De-identified Date]. This study confirmed high FDG avidity within the known right upper lobe primary mass and in multiple ipsilateral mediastinal lymph node stations (paratracheal and subcarinal). Importantly, there was no evidence of contralateral nodal involvement or distant metastatic disease in the chest, abdomen, or pelvis.
+
+A contrast-enhanced MRI of the brain was also performed as part of the standard staging workup and was negative for intracranial metastases.
+
+Based on this comprehensive workup, the patient is diagnosed with clinical Stage IIIA non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor biopsy specimen. An actionable driver mutation was identified in KRAS G12C. The panel was negative for other common targetable alterations, including mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed, and the tumor was found to be negative (Tumor Proportion Score <1%). Tumor mutational burden (TMB) was assessed and found to be in the intermediate range (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 64-year-old with a new diagnosis of treatment-naive, non-metastatic Stage IIIA non-small cell lung cancer of adenocarcinoma histology. The tumor is molecularly characterized by a KRAS G12C mutation, negative PD-L1 expression, and an intermediate tumor mutational burden. The patient is seen today for initial consultation to discuss the diagnosis and establish care.

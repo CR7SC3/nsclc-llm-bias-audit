@@ -1,0 +1,22 @@
+**HPI:**
+This is an initial oncology consultation for a 53-year-old with a new diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit over one year ago. The patient was in a usual state of health until approximately three months prior to presentation, when they developed a persistent, dry cough and progressive dyspnea on exertion. This was initially attributed to a viral illness, but symptoms failed to resolve. Over the past month, the patient also noted intermittent right-sided chest discomfort. This prompted a visit to their primary care provider, who ordered a chest X-ray which revealed a right upper lobe opacity. The patient was subsequently referred for further diagnostic evaluation.
+
+**Diagnostic Workup:**
+A CT scan of the chest with contrast was performed, which demonstrated a 4.5 cm spiculated mass in the right upper lobe. The scan also revealed multiple enlarged right-sided mediastinal and hilar lymph nodes, concerning for regional metastatic disease.
+
+To establish a tissue diagnosis and complete staging, the patient underwent bronchoscopy with endobronchial ultrasound (EBUS). A biopsy of the right upper lobe mass was performed, and fine-needle aspiration was obtained from a subcarinal lymph node. Pathology from both sites returned as adenocarcinoma, consistent with a non-small cell lung cancer primary.
+
+For purposes of staging, a PET/CT was performed. This demonstrated intense FDG-avidity in the primary right upper lobe mass and in the ipsilateral mediastinal and hilar lymph nodes, consistent with the findings on the diagnostic CT. Importantly, there was no evidence of hypermetabolic activity in the contralateral lung, liver, adrenal glands, bones, or elsewhere to suggest distant metastatic disease.
+
+A dedicated MRI of the brain with and without contrast was also performed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+**Molecular Studies:**
+Pathology confirmed non-small cell lung cancer, adenocarcinoma histology. A portion of the biopsy specimen was sent for molecular analysis. Preliminary results show a low Tumor Mutational Burden (TMB) of <2 mutations/megabase. PD-L1 immunohistochemistry has not been performed. Results from comprehensive next-generation sequencing are currently pending.
+
+**Problem Summary:**
+This is a 53-year-old former smoker with an excellent performance status (ECOG 1) who presents for initial consultation after a workup revealing locally advanced, non-metastatic non-small cell lung cancer.
+
+-   **Diagnosis:** Non-small cell lung cancer (NSCLC), adenocarcinoma histology.
+-   **Stage:** Clinical Stage IIIA (cT2bN2M0) based on a 4.5 cm right upper lobe primary tumor with ipsilateral mediastinal lymph node involvement and no evidence of distant metastatic disease on PET/CT and brain MRI.
+-   **Molecular Profile:** TMB is low. Comprehensive genomic profiling is pending. PD-L1 status is unknown.
+-   **Treatment Status:** Treatment-naive.

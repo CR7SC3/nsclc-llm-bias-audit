@@ -1,0 +1,19 @@
+**HPI:**
+This is a 51-year-old who presents for initial medical oncology consultation for a new diagnosis of non-small cell lung cancer. The patient was in a usual state of good health until approximately two months prior to presentation, when they developed a persistent, dry cough. This was initially managed as a presumed respiratory infection without resolution. Due to the persistence of symptoms, a chest X-ray was obtained which revealed a right upper lobe opacity. The patient has a remote history of smoking, having quit within the last year. They are otherwise active and report no significant constitutional symptoms such as fevers, night sweats, or unintentional weight loss. ECOG performance status is 0.
+
+**Diagnostic Workup:**
+Following the abnormal chest X-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 4.5 cm spiculated mass in the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated. There was no evidence of metastatic disease in the abdomen or pelvis.
+
+A subsequent PET/CT scan was performed for staging, which demonstrated intense FDG avidity in the right upper lobe mass, corresponding to the known lesion. There was no evidence of FDG-avid nodal disease in the mediastinum or hila, nor any evidence of distant metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed on [De-identified Date]. Pathology confirmed a primary lung adenocarcinoma.
+
+For complete staging, a brain MRI with and without contrast was obtained and was negative for intracranial metastases.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the tumor tissue. No actionable driver alteration was identified, with results negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 was negative. Tumor mutational burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+**Problem Summary:**
+In summary, this is a 51-year-old with a new diagnosis of Stage IIA (pT2bN0M0) non-small cell lung cancer, adenocarcinoma histology. The patient is treatment-naive with an excellent performance status. Molecular profiling of the tumor is negative for actionable driver alterations and PD-L1 expression.

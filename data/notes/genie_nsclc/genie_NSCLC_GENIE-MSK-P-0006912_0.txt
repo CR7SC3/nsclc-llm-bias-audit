@@ -1,0 +1,22 @@
+**SUBJECTIVE:**
+This is an initial medical oncology consultation for a 74-year-old individual with a new diagnosis of non-small cell lung cancer. The patient is referred by their primary care provider for discussion of diagnosis and management options.
+
+**HISTORY OF PRESENT ILLNESS:**
+The patient is a healthy and active 74-year-old, a life-long never-smoker, who was in their usual state of health until approximately two months prior to presentation when they developed a mild, persistent, non-productive cough. This did not resolve with a course of antibiotics. Due to the persistence of symptoms, a chest X-ray was obtained which demonstrated a right upper lobe opacity. This prompted a follow-up computed tomography (CT) scan of the chest. The patient otherwise feels well, with no significant weight loss, fevers, chills, or hemoptysis. They maintain an excellent performance status (ECOG 0), continuing with all usual activities of daily living without limitation.
+
+**DIAGNOSTIC WORKUP:**
+A contrast-enhanced CT of the chest, abdomen, and pelvis was performed on [De-identified Date], which confirmed the presence of a 3.2 cm spiculated mass in the posterior segment of the right upper lobe. No mediastinal or hilar lymphadenopathy was appreciated. The visualized portions of the upper abdomen were unremarkable.
+
+For the purposes of staging, a whole-body PET/CT was subsequently performed. This demonstrated intense FDG-avidity localized to the primary right upper lobe mass, with no corresponding uptake in mediastinal or hilar lymph nodes. Critically, there was no evidence of FDG-avid disease elsewhere in the body to suggest distant metastases.
+
+Given the potential for curative-intent therapy, a staging MRI of the brain with and without contrast was obtained, which was negative for any evidence of intracranial metastatic disease.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed by Interventional Radiology on [De-identified Date]. Pathology from this specimen confirmed a diagnosis of non-small cell lung cancer, with features of a well-differentiated adenocarcinoma.
+
+Based on the T2aN0M0 classification, the patient is diagnosed with AJCC 8th Edition Stage IIA disease.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) was performed on the tumor tissue obtained from the biopsy. This testing was positive for an actionable driver mutation, specifically a sensitizing EGFR exon 19 deletion. The comprehensive panel was negative for other driver alterations, including ALK and ROS1 rearrangements, as well as mutations in BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2. Tumor mutational burden (TMB) was reported as intermediate (2–16 mut/Mb). PD-L1 immunohistochemistry was not performed on the specimen.
+
+**PROBLEM SUMMARY:**
+In summary, this is a 74-year-old never-smoker with an excellent performance status who presents for initial oncology consultation with a new diagnosis of Stage IIA (T2aN0M0) non-small cell lung cancer of adenocarcinoma histology. The diagnostic workup is complete and has confirmed localized disease confined to the right upper lobe without evidence of regional or distant metastases. Molecular profiling of the tumor is notable for the presence of a sensitizing EGFR exon 19 deletion.

@@ -1,0 +1,21 @@
+**HPI:**
+This is a 60-year-old former smoker (quit >1 year ago) who presents for initial medical oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately six weeks prior to presentation, when they developed progressive dyspnea on exertion, a non-productive cough, and persistent headaches. Over the two weeks prior to admission, the patient's family noted increasing episodes of confusion and word-finding difficulty, prompting presentation to the emergency department at [De-identified] Hospital. At the time of evaluation, performance status is estimated at ECOG 2, limited by dyspnea and neurologic symptoms.
+
+**Diagnostic Workup:**
+An initial workup was initiated in the inpatient setting.
+- **Chest X-ray** revealed a large right-sided pleural effusion and a suspected right upper lobe lung mass.
+- **CT of the Head** without contrast was performed due to neurologic symptoms and demonstrated multiple parenchymal lesions concerning for metastatic disease.
+- **CT of the Chest, Abdomen, and Pelvis** with contrast was subsequently performed for staging. This confirmed a 4.2 cm spiculated mass in the right upper lobe with associated mediastinal lymphadenopathy. A large, loculated right-sided pleural effusion was again noted. A lytic lesion in the T7 vertebral body was identified, suspicious for osseous metastasis. No other distant visceral metastases were identified in the abdomen or pelvis.
+- **MRI of the Brain** with contrast was performed to further characterize the intracranial findings, which confirmed at least five discrete enhancing lesions in the cerebral and cerebellar hemispheres, consistent with metastatic disease.
+- **Thoracentesis** of the right pleural effusion was performed. Cytology and cell block of the pleural fluid confirmed the presence of malignant cells. Pathology was consistent with adenocarcinoma of lung primary origin.
+
+The combination of a primary lung mass with confirmed metastases to the brain, bone, and pleura establishes a diagnosis of Stage IV disease.
+
+**Molecular Studies:**
+Next-generation sequencing (NGS) was performed on the pleural fluid cell block specimen.
+- No actionable driver alteration was identified. Testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- Tumor Mutational Burden (TMB) was determined to be intermediate (10 mutations/megabase).
+- PD-L1 expression was not tested.
+
+**Problem Summary:**
+In summary, this is a 60-year-old with a new diagnosis of AJCC Stage IV non-small cell lung cancer, adenocarcinoma histology. The patient has a significant burden of disease with metastases to the brain, bone, and a malignant pleural effusion. Molecular profiling did not identify any targetable driver alterations. The patient is treatment-naive and is seen today to discuss the diagnosis and potential management options.

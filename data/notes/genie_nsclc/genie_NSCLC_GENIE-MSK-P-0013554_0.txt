@@ -1,0 +1,30 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**Date of Service:** [De-identified]
+**Patient Name:** [De-identified]
+**MRN:** [De-identified]
+
+**HPI:**
+This is a 57-year-old who presents for an initial oncology consultation to discuss a new diagnosis of non-small cell lung cancer. The patient was in their usual state of health until approximately two months ago when they developed a persistent, non-productive cough. This was initially attributed to a seasonal illness, but its persistence, along with the subsequent onset of mild dyspnea on exertion, prompted a visit to their primary care provider.
+
+An initial chest X-ray revealed a right upper lobe opacity, which led to a follow-up contrast-enhanced CT scan of the chest. The scan confirmed a spiculated mass in the right upper lobe measuring approximately 4.2 cm. No significant mediastinal or hilar lymphadenopathy was noted. The patient was referred to Interventional Radiology for a CT-guided core needle biopsy of the mass. Pathologic review of the tissue confirmed a diagnosis of non-small cell lung cancer, with features most consistent with an adenocarcinoma histology.
+
+The patient reports a good functional status, remaining fully ambulatory and independent in all activities of daily living, consistent with an ECOG performance status of 1. They deny fevers, chills, or significant weight loss. They have a long-term history of tobacco use and are a current smoker. The patient is here today to understand the diagnosis and discuss the findings of their workup.
+
+**Diagnostic Workup:**
+A comprehensive staging workup has been completed.
+- **CT Chest:** Revealed a 4.2 cm spiculated mass in the right upper lobe. No suspicious mediastinal or hilar adenopathy was identified.
+- **PET/CT:** A whole-body PET/CT demonstrated intense FDG uptake corresponding to the known right upper lobe mass. There was no evidence of FDG-avid disease in the mediastinum, contralateral lung, or at any distant sites, including the liver, adrenal glands, and bones.
+- **MRI Brain:** A contrast-enhanced MRI of the brain was performed to complete staging and was negative for intracranial metastases.
+
+Based on this workup, the diagnosis is clinical Stage IIA (cT2b N0 M0) non-small cell lung cancer.
+
+**Molecular Studies:**
+Tissue from the diagnostic biopsy was sent for next-generation sequencing.
+- Comprehensive molecular profiling did not identify an actionable driver alteration. Testing was negative for mutations or rearrangements involving EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+- PD-L1 expression by immunohistochemistry was not tested.
+- Tumor Mutational Burden (TMB) was found to be intermediate (12 mutations/megabase).
+- Analysis did identify a loss-of-function mutation in the STK11 gene.
+
+**Problem Summary:**
+This is a 57-year-old with a new diagnosis of treatment-naive, clinical Stage IIA (cT2b N0 M0) non-small cell lung adenocarcinoma of the right upper lobe. The patient has an excellent performance status. Molecular profiling of the tumor is notable for the absence of common driver mutations but shows an STK11 loss-of-function mutation. The patient is here for evaluation and to discuss the implications of these findings.

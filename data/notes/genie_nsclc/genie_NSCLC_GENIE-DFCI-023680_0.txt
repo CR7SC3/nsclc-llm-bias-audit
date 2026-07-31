@@ -1,0 +1,23 @@
+**HPI:**
+This is a 66-year-old whom I am seeing for a new patient consultation regarding a recent diagnosis of non-small cell lung cancer. The patient is a former smoker, having quit more than one year ago. The patient initially presented to an outside facility several weeks ago with a persistent, non-productive cough and progressive dyspnea on exertion. More recently, the patient developed new-onset headaches and mild word-finding difficulty, prompting further evaluation. The patient has maintained a good performance status and is fully ambulatory and capable of all self-care, though is symptomatic (ECOG Performance Status 1).
+
+**Diagnostic Workup:**
+An initial chest CT scan revealed a spiculated mass in the right upper lobe, associated with ipsilateral hilar and mediastinal lymphadenopathy. A subsequent PET/CT for staging confirmed high FDG avidity in the primary right upper lobe mass, measuring approximately 4.1 cm, as well as in subcarinal lymph nodes. The PET/CT also demonstrated an FDG-avid lesion in the left adrenal gland, highly suspicious for a distant metastasis.
+
+Given the new neurological symptoms, an MRI of the brain with and without contrast was performed. This study revealed multiple enhancing intracranial lesions consistent with metastatic disease, including a 1.8 cm lesion in the left parietal lobe with surrounding vasogenic edema and a smaller 0.9 cm lesion in the right cerebellum.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified]. Pathology confirmed a diagnosis of poorly differentiated adenocarcinoma, consistent with a lung primary.
+
+Based on the findings of a primary lung tumor with metastasis to the brain and a contralateral adrenal gland, the patient is diagnosed with AJCC 8th Edition Stage IV non-small cell lung cancer.
+
+**Molecular Studies:**
+Next-generation sequencing was performed on the tumor biopsy specimen. Comprehensive molecular profiling did not identify an actionable driver alteration; testing was negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF V600E, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was performed and was negative, with a Tumor Proportion Score (TPS) of <1%.
+
+Tumor Mutational Burden (TMB) was found to be intermediate (2–16 mut/Mb).
+
+The molecular report also noted the presence of a somatic STK11 loss-of-function mutation, a finding associated with primary resistance to PD-1/PD-L1 checkpoint inhibitors.
+
+**Problem Summary:**
+In summary, this is a 66-year-old with a new diagnosis of treatment-naive, metastatic non-small cell lung adenocarcinoma (Stage IV) with known metastases to the brain and adrenal gland. Molecular analysis of the tumor is notable for the absence of targetable driver mutations, PD-L1 negativity (TPS <1%), and the presence of an STK11 loss-of-function mutation.

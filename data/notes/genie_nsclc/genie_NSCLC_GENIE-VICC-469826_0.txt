@@ -1,0 +1,25 @@
+**ATTENDING:** [De-identified], MD
+**MRN:** [De-identified]
+**Date of Visit:** [De-identified]
+
+**REASON FOR VISIT:** Initial medical oncology consultation for a new diagnosis of non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 63-year-old individual with an excellent performance status (ECOG 0) who presents for evaluation of a newly diagnosed lung cancer. The patient initially presented to an outside provider several weeks ago with a persistent, non-productive cough. An initial chest radiograph was concerning for a right upper lobe opacity, which prompted further investigation. The patient is a lifetime never-smoker and has no personal history of malignancy. A review of systems is otherwise negative for constitutional symptoms such as fevers, night sweats, or unintentional weight loss. The patient denies hemoptysis, chest pain, or shortness of breath at rest.
+
+**DIAGNOSTIC WORKUP:**
+Following the abnormal chest x-ray, a contrast-enhanced CT of the chest, abdomen, and pelvis was performed. This confirmed the presence of a 5.5 cm solid mass in the right upper lobe. The mass appeared to abut the major fissure, but there was no definitive evidence of chest wall or mediastinal invasion. No suspicious hepatic, adrenal, or other distant visceral lesions were identified. A few small, sub-centimeter mediastinal lymph nodes were noted but were not definitively pathologic by size criteria.
+
+For definitive staging and tissue diagnosis, the patient underwent a PET/CT scan which demonstrated intense FDG-avidity within the known right upper lobe mass. There was no evidence of FDG-avid hilar or mediastinal lymphadenopathy, and no distant metastatic disease was identified. A subsequent MRI of the brain with and without contrast was performed for central nervous system staging and was negative for intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe mass was performed. Pathologic analysis revealed poorly differentiated non-small cell carcinoma with features most consistent with squamous cell carcinoma.
+
+Based on the combination of imaging and pathology, the patient is diagnosed with clinical Stage IIB (cT3N0M0) non-small cell lung cancer.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor tissue specimen. No actionable driver alteration was identified; results were negative for mutations or rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+
+Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) reported in the 1-49% range. The Tumor Mutational Burden (TMB) was determined to be intermediate (2-16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 63-year-old never-smoker with an excellent performance status who presents for initial oncologic evaluation of a newly diagnosed Stage IIB (cT3N0M0) non-small cell lung cancer, squamous cell histology. Comprehensive staging workup is negative for regional nodal involvement or distant metastatic disease. Molecular profiling of the tumor is negative for targetable driver mutations but is notable for a PD-L1 TPS of 1-49%. The patient is treatment-naive and is seen today to discuss the diagnosis and the multidisciplinary management approach.

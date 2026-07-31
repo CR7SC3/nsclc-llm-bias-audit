@@ -1,0 +1,33 @@
+**MEDICAL ONCOLOGY INITIAL CONSULTATION**
+
+**PATIENT:** [De-identified]
+**MRN:** [De-identified]
+**DATE OF CONSULTATION:** [De-identified]
+
+**REASON FOR CONSULTATION:** Newly diagnosed Stage IV non-small cell lung cancer.
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 64-year-old with a history of smoking (former, quit over one year ago) who is seen in consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in their usual state of health until approximately two months prior to presentation, when they began to develop a persistent, non-productive cough and progressive dyspnea on exertion. This was associated with mild fatigue and an unintentional weight loss of approximately 10 pounds. Symptoms worsened, prompting a visit to an urgent care center, which led to a chest X-ray revealing a large right-sided pleural effusion and a suspicious lung mass.
+
+The patient was subsequently referred for further diagnostic evaluation. A CT scan of the chest confirmed a large, spiculated mass in the right upper lobe of the lung with an associated large, loculated right pleural effusion. The patient underwent a CT-guided thoracentesis for both diagnostic and therapeutic purposes. Cytological analysis of the pleural fluid confirmed the presence of malignant cells. Staging studies were completed, including a PET/CT and a brain MRI. The patient is now referred to medical oncology to discuss the diagnosis and establish care.
+
+On review of systems today, the patient notes some improvement in shortness of breath following the thoracentesis but still has a mild cough. Appetite is fair. The patient remains fully ambulatory and capable of all self-care but is restricted in physically strenuous activity. ECOG Performance Status is 1.
+
+**DIAGNOSTIC WORKUP:**
+
+**Imaging:**
+*   **CT Chest/Abdomen/Pelvis with Contrast, [De-identified Date]:** Revealed a 4.5 cm spiculated mass in the right upper lobe. There is a large, complex right-sided pleural effusion with associated pleural thickening, suspicious for malignant involvement. No other distant metastatic disease was identified in the abdomen or pelvis.
+*   **PET/CT, [De-identified Date]:** Confirmed intense hypermetabolic activity in the right upper lobe primary mass. Diffuse, intense hypermetabolic activity was noted throughout the right pleura, consistent with malignant pleural disease. No other sites of FDG-avid metastatic disease were identified.
+*   **MRI Brain with and without Contrast, [De-identified Date]:** Negative for intracranial metastasis.
+
+**Pathology:**
+*   **Right Pleural Fluid Cytology, [De-identified Date]:** Malignant cells present, consistent with adenocarcinoma. Immunohistochemical stains support a lung primary origin.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing (NGS) and ancillary testing were performed on the pleural fluid cell block. Results are as follows:
+*   **Driver Mutations:** No actionable driver alteration was identified. Testing was negative for mutations/rearrangements in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, KRAS, and ERBB2.
+*   **PD-L1 Immunohistochemistry (IHC):** Positive.
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mutations/megabase).
+
+**PROBLEM SUMMARY:**
+This is a 64-year-old former smoker with a new diagnosis of Stage IV non-small cell lung adenocarcinoma, confirmed by cytology from a malignant pleural effusion. Staging workup, including PET/CT and brain MRI, confirms disease is confined to the right hemithorax (primary mass and pleural metastases), consistent with AJCC 8th Edition Stage IV (pM1a) disease. Comprehensive molecular profiling is notable for positive PD-L1 expression but is negative for any identified actionable driver alterations. The patient has an excellent performance status (ECOG 1) and is treatment-naive.

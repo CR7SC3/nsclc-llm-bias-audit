@@ -1,0 +1,33 @@
+**MEDICAL ONCOLOGY NEW PATIENT CONSULTATION**
+**MRN:** [De-identified]
+**Date of Service:** [De-identified]
+
+**HISTORY OF PRESENT ILLNESS:**
+This is a 66-year-old individual with a history of being a never-smoker who is seen today for an initial oncology consultation regarding a new diagnosis of metastatic non-small cell lung cancer.
+
+The patient was in their usual state of health until approximately two months prior to presentation, when they began to experience progressive dyspnea on exertion and a persistent, non-productive cough. These symptoms gradually worsened, prompting a visit to an urgent care center. A chest X-ray performed at that time was notable for a large right-sided pleural effusion.
+
+The patient was subsequently referred to a pulmonologist for further evaluation. A diagnostic and therapeutic thoracentesis was performed, which removed 1.5 liters of serosanguinous fluid and provided significant symptomatic relief. Cytological analysis of the pleural fluid was positive for malignancy. A staging CT scan of the chest, abdomen, and pelvis was then obtained, which confirmed a primary mass in the right lung with an associated malignant pleural effusion, but no other sites of distant disease. A staging MRI of the brain was also performed and was negative for metastatic disease. A CT-guided core needle biopsy of the primary lung mass was performed to obtain tissue for definitive histology and molecular analysis.
+
+The patient has since been awaiting these results and this consultation. They report a fair appetite with an unintentional weight loss of approximately 10 pounds over the past three months. They deny fevers, chills, or significant chest pain. Their current ECOG performance status is 1, as they remain fully ambulatory and capable of self-care but are restricted in physically strenuous activity by their shortness of breath, which has partially recurred.
+
+**DIAGNOSTIC WORKUP:**
+I have personally reviewed the relevant imaging and pathology reports.
+
+**Imaging:**
+*   **CT Chest, Abdomen, and Pelvis with Contrast:** Revealed a 4.1 cm spiculated mass in the right lower lobe. A large, complex right-sided pleural effusion is present, with associated pleural thickening suspicious for malignant studding. No suspicious mediastinal or hilar lymphadenopathy was identified. The liver, adrenal glands, and visualized bones were without evidence of metastatic disease.
+*   **MRI Brain with and without Contrast:** Negative for intracranial metastases.
+
+**Pathology:**
+*   **Pleural Fluid Cytology:** Showed clusters of atypical cells consistent with adenocarcinoma.
+*   **CT-guided Core Biopsy, Right Lower Lobe Mass:** Histologic examination confirmed invasive adenocarcinoma, moderately differentiated.
+
+**MOLECULAR STUDIES:**
+Next-generation sequencing was performed on the tumor biopsy specimen. Key findings are as follows:
+*   **Actionable driver detected:** KRAS G12C mutation.
+*   **Additional testing was negative for pathogenic mutations or rearrangements in:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, NTRK, and ERBB2.
+*   **PD-L1 Expression:** Not tested (sequencing performed prior to standard implementation of testing).
+*   **Tumor Mutational Burden (TMB):** Intermediate (2–16 mut/Mb).
+
+**PROBLEM SUMMARY:**
+In summary, this is a 66-year-old never-smoker with a new diagnosis of Stage IV (AJCC 8th Ed., cT2a N0 M1a) non-small cell lung cancer of adenocarcinoma histology. The disease is metastatic to the pleura, confirmed by malignant effusion. Staging workup is negative for distant metastases to the brain, liver, adrenal glands, or bone. Molecular profiling of the tumor is notable for a KRAS G12C mutation. The patient is treatment-naive with an ECOG performance status of 1.

@@ -19,13 +19,20 @@ import matplotlib.pyplot as plt
 from src.analyze.soft_bias import detect_all
 from src.analyze.stats import wilson_ci
 
+# Unified typography across all Fig-5 panels (A/B/C/D): one family, one size.
+plt.rcParams.update({
+    "font.family": "sans-serif",
+    "font.sans-serif": ["DejaVu Sans"],
+    "font.size": 10,
+})
+
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
 # Shared note-type palette across the Fig 9 robustness panels (9a/9b/9c) so
 # each note source reads as its own colour; vendor stays encoded by panel + title.
 NOTE_COLORS = {
-    "synthetic": "#2CA6A4",   # teal   — synthetic stigma baseline (LLM / TAG notes)
+    "synthetic": "#adadad",   # gray baseline — original synthetic GENIE cohort (shared across panels)
     "template":  "#8E6CAE",   # purple — circularity control (deterministic template notes)
-    "real":      "#E8833A",   # orange — real PubMed Central notes
+    "real":      "#E69F00",   # orange — robustness condition (non-model palette; was green -> clashed with Llama)
     "prose":     "#4C9F70",   # green  — natural-prose embedding
 }
 STIGMA = ("adherence_compliance", "sdoh_generation")
@@ -87,11 +94,21 @@ def main():
                error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
                color=NOTE_COLORS["real"], edgecolor="k", linewidth=0.5,
                label="Real PMC notes (n=40)")
-        ax.set_title(model, color=MC[model], fontweight="bold")
-        ax.set_xticks(x); ax.set_xticklabels(labels, rotation=15)
-        ax.set_xlabel("Disadvantage stratum")
-        ax.legend(fontsize=9, framealpha=0.95)
+        ax.set_title(f"{model}  ·  real-note replication", fontsize=11, fontweight="bold")   # label each vendor sub-panel
+        ax.set_xticks(x); ax.set_xticklabels(labels, rotation=30, ha="right", rotation_mode="anchor")   # standardized 30° tilt
+        ax.set_yticks(range(0, 101, 20))   # 20% gridlines (match panel C)
+        ax.set_ylim(0, 100)   # shared 0-100 rate axis across both vendor sub-panels (fixes scale mismatch)
+        ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)   # grey gridlines (match panel C)
+        ax.legend(framealpha=0.95)   # standardized: framed, inherits unified 10 pt (match panel A)
     axes[0].set_ylabel("Stigmatizing-language rate (%)")
+    # titleless panel for combine_figures.py (Fig 5B); banner/suptitle goes to the caption.
+    # Fixed geometry so all Fig-5 panels share one height and their x-axes align
+    # (two-axis box, same bottom/top as the single-axis panels). No tight bbox.
+    PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
+    fig.set_size_inches(13.2, 5.2)
+    axes[0].set_position([0.055, 0.16, 0.43, 0.78])
+    axes[1].set_position([0.545, 0.16, 0.43, 0.78])
+    fig.savefig(PANELS / "p_pmc.png", dpi=200)
     fig.suptitle("The stigma gradient replicates on real notes\n"
                  "Synthetic GENIE cohort vs 40 real PubMed Central case reports "
                  "(95% Wilson CI)", fontsize=12, fontweight="bold", y=1.03)

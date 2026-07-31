@@ -1,0 +1,21 @@
+**HPI:**
+This is a 58-year-old with a history of smoking (quit over one year ago) who presents for an initial oncology consultation. The patient was in their usual state of health until approximately two months prior to evaluation, when they developed a persistent dry cough. This was initially treated as bronchitis without resolution. Due to the persistence of symptoms and the development of new, focal mid-back pain, a chest radiograph was performed which showed a right upper lobe lung opacity.
+
+A subsequent contrast-enhanced CT of the chest, abdomen, and pelvis was performed for further characterization. This confirmed a spiculated mass in the right upper lobe and also identified a suspicious lytic lesion in the thoracic spine. The patient's performance status is excellent; they remain fully ambulatory and capable of all self-care, though the back pain is a new and bothersome symptom (ECOG 1). A PET/CT was ordered for staging, which demonstrated intense FDG-avidity in the primary lung mass and the corresponding thoracic spine lesion, confirming metastatic disease. A dedicated MRI of the brain was performed for staging purposes and was negative for intracranial metastases. The patient was referred to interventional radiology for a biopsy to establish a tissue diagnosis.
+
+**Diagnostic Workup:**
+- **CT Chest/Abdomen/Pelvis:** Revealed a 3.5 cm spiculated mass in the right upper lobe of the lung. A 1.8 cm lytic lesion was noted in the T8 vertebral body. No other sites of distant disease were identified in the chest, abdomen, or pelvis.
+- **PET/CT:** Showed high metabolic activity (SUVmax 12.4) in the right upper lobe lung mass. Intense FDG uptake was also seen in the T8 vertebral body lytic lesion (SUVmax 9.8). No other suspicious hypermetabolic foci were identified.
+- **MRI Brain:** Performed with and without contrast, showed no evidence of intracranial metastatic disease.
+- **CT-Guided Core Biopsy (Right Lung Mass):** Pathology confirmed invasive adenocarcinoma, consistent with a primary lung origin.
+
+**Molecular Studies:**
+- **Histology:** Non-small cell lung cancer (NSCLC), adenocarcinoma.
+- **Next-Generation Sequencing (NGS) Panel:**
+  - **Actionable Mutation Detected:** KRAS G12C
+  - **Negative for:** EGFR, ALK, ROS1, BRAF, MET exon 14, RET, ERBB2 mutations/rearrangements.
+- **PD-L1 Immunohistochemistry (IHC):** Positive, Tumor Proportion Score (TPS) ≥50%.
+- **Tumor Mutational Burden (TMB):** Low (<2 mut/Mb).
+
+**Problem Summary:**
+This is a 58-year-old, treatment-naive patient with a new diagnosis of Stage IV (cT2a N0 M1b) non-small cell lung cancer of adenocarcinoma histology, metastatic to bone. Molecular profiling is notable for a KRAS G12C mutation and a high PD-L1 expression (TPS ≥50%). The patient is here to discuss the diagnosis and establish care.

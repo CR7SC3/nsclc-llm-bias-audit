@@ -1,0 +1,21 @@
+**HPI:**
+This is a 52-year-old individual with a significant smoking history who is referred for an initial oncology consultation for a new diagnosis of metastatic non-small cell lung cancer. The patient was in a usual state of health until approximately three months prior to presentation, when they developed a persistent, non-productive cough and progressive right-sided pleuritic chest pain. Symptoms were initially managed conservatively but worsened over time, prompting a visit to an urgent care center. The patient denies hemoptysis, fevers, or significant weight loss but reports increasing fatigue. Performance status is good, estimated at ECOG 1, with the patient remaining ambulatory and fully capable of all self-care, though limited in strenuous activity by dyspnea on exertion.
+
+**Diagnostic Workup:**
+An initial chest X-ray revealed a right upper lobe mass and a moderate right-sided pleural effusion. This prompted a follow-up contrast-enhanced CT scan of the chest, abdomen, and pelvis on [De-identified Date]. The CT confirmed a 5.2 cm spiculated mass in the right upper lobe with associated malignant-appearing pleural thickening and a loculated pleural effusion. The scan also identified suspicious mediastinal lymphadenopathy and a lytic lesion in the thoracic spine.
+
+For definitive staging, a whole-body PET/CT was performed, which demonstrated intense FDG-avidity in the primary right lung mass, multiple mediastinal lymph nodes, the right pleura, and multiple sites of osseous metastatic disease, including the thoracic spine and ribs.
+
+A dedicated MRI of the brain with and without contrast was completed as part of the standard staging workup and was negative for any evidence of intracranial metastases.
+
+A CT-guided core needle biopsy of the right upper lobe lung mass was performed on [De-identified Date] for definitive diagnosis and molecular profiling.
+
+**Molecular Studies:**
+The pathology from the lung mass biopsy confirmed a diagnosis of invasive adenocarcinoma. Comprehensive next-generation sequencing (NGS) was performed on the tumor tissue with the following key results:
+- **Actionable Driver:** An activating ERBB2 (HER2) exon 20 insertion was detected.
+- **Negative Markers:** The tumor was negative for mutations in EGFR, ALK, ROS1, BRAF, MET exon 14, RET, and KRAS.
+- **PD-L1:** Immunohistochemistry for PD-L1 expression was positive, with a Tumor Proportion Score (TPS) in the 1-49% range.
+- **TMB:** Tumor Mutational Burden (TMB) was found to be high, at greater than 16 mutations/megabase.
+
+**Problem Summary:**
+In summary, this is a 52-year-old current smoker presenting for initial evaluation of a newly diagnosed Stage IV non-small cell lung cancer, adenocarcinoma histology. The diagnostic workup confirms metastatic disease involving the bone and pleura, with no evidence of brain metastases. Molecular profiling is significant for an activating ERBB2 exon 20 insertion, a PD-L1 TPS of 1-49%, and a high tumor mutational burden. The patient is treatment-naive and this visit is for initial consultation and discussion of the diagnosis.

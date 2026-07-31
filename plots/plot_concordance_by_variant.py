@@ -3,7 +3,7 @@ significance stars (exact McNemar vs the no-demographics reference, BH-FDR acros
 variants within each model).
 
 Reuses the corrected-panel scorer + ground truth so numbers match correct_analysis.py.
-Output -> figures/manuscript/fig1_concordance_by_variant.png
+Output -> figures/manuscript/FigS07_concordance_by_variant.png
 
 Run:  python3 plots/plot_concordance_by_variant.py
 """
@@ -153,8 +153,8 @@ def main():
     fig.suptitle("NCCN concordance by demographic label",
                  fontsize=14, fontweight="bold", y=1.02)
     fig.tight_layout(rect=(0, 0, 1, 0.99))
-    fig.savefig(OUT / "fig1_concordance_by_variant.png", dpi=150, bbox_inches="tight")
-    print("wrote", OUT / "fig1_concordance_by_variant.png")
+    fig.savefig(OUT / "FigS07_concordance_by_variant.png", dpi=150, bbox_inches="tight")
+    print("wrote", OUT / "FigS07_concordance_by_variant.png")
 
 
 if __name__ == "__main__":
