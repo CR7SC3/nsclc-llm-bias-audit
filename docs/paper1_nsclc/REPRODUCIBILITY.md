@@ -17,9 +17,9 @@ detail could not be verified from the code it is flagged as **[VERIFY]**.
 
 ## 0. Environment
 
-- **Python**: 3.9.6 (the committed `venv/` is CPython 3.9.6; see
-  `venv/pyvenv.cfg`). All commands below invoke the interpreter explicitly as
-  `venv/bin/python` so the pinned environment is used.
+- **Python**: 3.9.6. `venv/` is local and gitignored, not part of a fresh clone -- create your
+  own with the Install step below, which pins the same version. All commands below invoke the
+  interpreter explicitly as `venv/bin/python` so the pinned environment is used consistently.
 - **Install**:
   ```bash
   python3.9 -m venv venv
@@ -285,10 +285,15 @@ venv/bin/python scripts/nsclc/build_judge_packet.py     # -> adjudication/judge_
 venv/bin/python scripts/nsclc/run_judge.py              # -> adjudication/judge_labels.json (Sonnet, batch)
 ```
 `finalize_panel.py` reads `adjudication/judge_labels.json` if present for the
-classifier-vs-judge inflation footnote. **Open item (per NARRATIVE_ORDER.md):**
-the 60-item gold set is a single self-labeled rater (κ=0.57, PABAK 0.83); a
-second independent rater on `adjudication/gold_random40_helper.csv` is
-required before the judge-dependent results are called validated.
+classifier-vs-judge inflation footnote. **Open item:** the 60-item gold set is a
+single self-labeled rater (κ=0.57, PABAK 0.83). Two second-rater packets exist
+for this: `adjudication/gold_flagged_rater{1,2}.csv` (classifier-flagged/contested
+subset, n=60) is complete (kappa 0.386, labeled by a co-author); the
+representative sample `adjudication/gold_random_rater{1,2}.csv` (n=60, the
+sample underlying the headline kappa=0.57) is still unlabeled and is required
+before the judge-dependent results are called fully validated. Re-score with
+`venv/bin/python scripts/nsclc/score_random_gold_v2.py --gold-tag random` (and
+`--gold-tag flagged`) once labeled.
 
 ---
 

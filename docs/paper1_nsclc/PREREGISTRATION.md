@@ -73,6 +73,15 @@ note is annotated with a demographic label — holding all clinical facts consta
   unadjusted p as secondary.
 - **Equivalence (H1/H3):** two one-sided tests (TOST), equivalence margin
   d = ±0.10 (pre-registered; ~quarter of the smallest effect of interest).
+  **Disclosed implementation deviation:** the confirmatory analysis
+  (`scripts/nsclc/correct_analysis.py`) applies this margin to the raw paired
+  tier-shift mean (±0.10 tier-scale units on the 1-8 ordinal scale), not to a
+  standardized Cohen's d as literally written above. The median implied SD of the
+  paired tier-shift is ≈1.0 across variants (range 0.65-1.69), so the two
+  formulations are numerically close but not identical; a handful of
+  boundary-case variant/model cells could in principle classify differently
+  under a strict Cohen's-d margin. The manuscript's Methods and Results report
+  the raw-tier-scale-units version throughout, consistently.
 - **Clinical anchoring:** benchmark the SES treatment-downgrade effect
   (observed d ≈ −0.03..−0.07 in DeepSeek) against NCCN intra-rater / acceptable-
   answer-set width, and state explicitly whether it is clinically meaningful.

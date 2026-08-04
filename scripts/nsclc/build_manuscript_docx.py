@@ -14,7 +14,7 @@ from docx.shared import RGBColor
 
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / "docs" / "paper1_nsclc" / "manuscript_nsclc.md"
-OUT = ROOT / "docs" / "paper1_nsclc" / "NSCLC_full_manuscript.docx"
+OUT = ROOT / "docs" / "paper1_nsclc" / "Sociodemographic_Bias_NSCLC_manuscript.docx"
 BLACK = RGBColor(0, 0, 0)
 
 

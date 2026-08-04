@@ -4,7 +4,7 @@
 
 EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics — and evaluates prompting strategies to reduce that bias. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing. Mitigation strategies including fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction are tested against the same case set to measure whether bias can be reduced without sacrificing clinical accuracy.
 
-> **A note on provenance and circularity.** The GENIE BPC cases are real, de-identified *structured* oncology records, but the free-text consultation notes sent to the models are **LLM-generated**: `gemini-2.5-flash` renders each structured case into a demographics-neutral note, using de-identified CORAL oncology notes as style anchors only. Because one audited model (Gemini) helps author the input text, circularity is ruled out empirically — the socioeconomic stigma gradient replicates at essentially the same magnitude on (1) fully deterministic, **LLM-free template notes** and (2) **real published PMC clinical notes** the models never generated (see the note-source controls in the manuscript, `docs/paper1_nsclc/manuscript_nsclc.md`, Figure 9).
+> **A note on provenance and circularity.** The GENIE BPC cases are real, de-identified *structured* oncology records, but the free-text consultation notes sent to the models are **LLM-generated**: `gemini-2.5-flash` renders each structured case into a demographics-neutral note, using de-identified CORAL oncology notes as style anchors only. Because one audited model (Gemini) helps author the input text, circularity is ruled out empirically — the socioeconomic stigma gradient replicates at essentially the same magnitude on (1) fully deterministic, **LLM-free template notes** and (2) **real published PMC clinical notes** the models never generated (see the note-source controls in the manuscript, `docs/paper1_nsclc/manuscript_nsclc.md`, Figure 6A-C).
 
 ---
 
@@ -38,11 +38,11 @@ Large language models are increasingly deployed in clinical decision support. Wh
 | Biomarkers available | 1,025 (97.8%) |
 | PD-L1 TPS available | 377 (36.0%) |
 
-Demographic distribution reflects real-world academic cancer center populations: White (80.7%), Asian (8.2%), Black or African American (5.8%), Other/Unknown (5.3%).
+Demographic distribution reflects real-world academic cancer center populations: White (80.7% by race, all ethnicities; 79.3% when restricted to non-Hispanic White, the figure used in the manuscript's Table 1), Asian (8.2%), Black or African American (5.8%), Other/Unknown (5.3%).
 
 **Clinical enrichment added for this study** (beyond standard GENIE BPC fields):
 
-- **Gene panel-aware biomarker calling** — each sample is mapped to its sequencing panel (11 panels in `equityGUIDEoncopanel/`). Genes not covered by a given panel are marked `not_on_panel` rather than negative, correcting false-negative driver calls on small panels (e.g., VICC-01-SOLIDTUMOR covers 31 genes)
+- **Gene panel-aware biomarker calling** — each sample is mapped to its sequencing panel (11 panels in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`). Genes not covered by a given panel are marked `not_on_panel` rather than negative, correcting false-negative driver calls on small panels (e.g., VICC-01-SOLIDTUMOR covers 31 genes)
 - **PD-L1 TPS from pathology reports** — 377 patients with actual percentage from `pathology_report_level_dataset.csv`; an additional ~80 with binary result from `data_clinical_sample.txt`; 501 not tested (pre-2016 sequencing, before routine PD-L1 testing — reflects real clinical practice)
 - **At-diagnosis metastatic sites** — 8 organ-specific fields from `data_clinical_patient.txt`, capturing sites present at initial consultation rather than ever-present disease
 - **Prior malignancy history** from `cancer_level_dataset_non_index.csv`
@@ -245,7 +245,6 @@ All models use the same pipeline, prompt, and variant set. The factory in `src/m
 EquityGUIDE/
 ├── src/
 │   ├── generate/
-│   │   ├── load_cases.py              # CancerGUIDE loading + demographic stripping
 │   │   ├── load_genie_bpc.py          # GENIE BPC NSCLC processing (14-file merge)
 │   │   ├── note_generator.py          # LLM-based free-text note generation
 │   │   ├── variant_injector.py        # V1 variant injection (6 intersectional profiles)
@@ -270,7 +269,7 @@ EquityGUIDE/
 ├── prompts/
 │   └── evaluation/
 │       └── prompt_templates.py        # baseline, fairness, guideline_grounded, structured_extraction
-├── equityGUIDEoncopanel/              # 11 gene panel definitions + gene matrix
+├── data/genie_bpc/nsclc/equityGUIDEoncopanel/  # 11 gene panel definitions + gene matrix
 ├── scripts/
 │   └── nsclc/                         # NSCLC pipeline scripts
 │       ├── run_experiment_v2.py       # Main experiment runner
@@ -296,10 +295,13 @@ EquityGUIDE/
     ├── METHODS.md                     # Full technical methods documentation
     ├── genie_bpc_pipeline.md          # GENIE BPC pipeline walkthrough with examples
     └── paper1_nsclc/                  # Manuscript and reproducibility docs
-        ├── manuscript_nsclc.md        # The manuscript itself (source of truth)
-        ├── REPRODUCIBILITY.md         # This paper's reproduction recipe
+        ├── manuscript_nsclc.md                          # The manuscript itself (source of truth)
+        ├── Sociodemographic_Bias_NSCLC_manuscript.docx  # Compiled manuscript (Word build)
+        ├── REPRODUCIBILITY.md                           # This paper's reproduction recipe
         ├── PREREGISTRATION.md
-        └── TRIPOD_LLM_checklist.md
+        ├── TRIPOD_LLM_checklist.md
+        ├── supplementary_table_29variants_per_model.csv # Supplementary Table S3
+        └── archive/                                     # Superseded drafts and internal working notes
 ```
 
 ---
@@ -325,7 +327,14 @@ ANTHROPIC_API_KEY=...     # optional
 DEEPSEEK_API_KEY=...      # for the deepseek-chat arm
 ```
 
-### CancerGUIDE experiment
+### CancerGUIDE experiment (archived pilot phase — not runnable from the main tree)
+
+CancerGUIDE was this project's early pilot dataset, used to sanity-check the NCCN scorer before
+the study moved to the real, 1,048-case GENIE BPC cohort below. It backs no result in the
+manuscript (cited only as a benchmark comparator, ref [8]) and its data/loader have been moved
+to `archive/cancerguide_pilot/` to keep the main tree focused on the GENIE BPC study. To rerun
+it, first move `archive/cancerguide_pilot/data/{raw,processed,variants}/*` back to `data/` and
+`archive/cancerguide_pilot/src/generate/load_cases.py` back to `src/generate/`, then:
 
 ```bash
 python scripts/nsclc/run_experiment_v2.py --subset synthetic_unstructured --model gemini-2.5-flash
@@ -334,7 +343,7 @@ python scripts/nsclc/analyze_results_v2.py --subset synthetic_unstructured --sav
 
 ### GENIE BPC experiment
 
-Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place source files in `data/genie_bpc/nsclc/` and gene panel files in `equityGUIDEoncopanel/`, then:
+Raw GENIE BPC files are available under data use agreement from [genie.cbioportal.org](https://genie.cbioportal.org). Place source files in `data/genie_bpc/nsclc/` and gene panel files in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`, then:
 
 ```bash
 # Step 1: Process raw GENIE BPC files
