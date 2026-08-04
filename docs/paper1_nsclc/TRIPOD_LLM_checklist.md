@@ -42,7 +42,7 @@ the checklist applies to the applicable modality (here: use/evaluation, not deve
 | 6 | **Participants / cases:** eligibility, setting, inclusion/exclusion, how cases were selected. | ADDRESSED | L93-102: three centers (MSK/DFCI/VICC), inclusion criteria (index NSCLC diagnosis, known AJCC stage, ≥1 first-line regimen), stage/histology/race distributions. Table 1 (L104-153). |
 | 7 | **Data preparation / preprocessing:** cleaning, harmonization, handling of structured→text conversion, de-identification. | ADDRESSED | L160-168: biomarker extraction with panel-aware not_on_panel coding (avoiding a false-negative on narrow panels), PD-L1 resolution, note generation. Data are de-identified at source (GENIE BPC). |
 | 8 | **Inputs / predictors (prompt inputs):** define the inputs presented to the LLM, incl. how demographic/context variables were encoded. | ADDRESSED | "Counterfactual Variant Design" (L170-190): 29 variants across nine sociodemographic categories plus the no_demographics anchor (30 versions/case), a single bracketed demographic tag prepended, clinical facts held constant. |
-| 9 | **Outcome / reference standard:** define the target/label and how it was determined; blinding of outcome assessment. | ADDRESSED | "Reference Standard" (L201-216): deterministic NCCN Category-1 decision-tree scorer returning an acceptable-answer set, blind to demographic label by construction; scorer pinned to NSCLC v6.2026, with the v1.2025→v6.2026 rescoring delta disclosed (L211-215: -3.0 to +0.4 pp per model in absolute concordance, an asymmetric range, not ±3.0 pp; every demographic-vs-reference differential unchanged within 0.5 pp). |
+| 9 | **Outcome / reference standard:** define the target/label and how it was determined; blinding of outcome assessment. | ADDRESSED | "Reference Standard" (L201-216): deterministic NCCN Category-1 decision-tree scorer returning an acceptable-answer set, blind to demographic label by construction; scorer pinned to NSCLC v6.2026, with the v1.2025→v6.2026 rescoring delta disclosed (L211-215). **Corrected 2026-08-04 (stats-verifier re-derivation):** the manuscript previously stated the shift as "-3.0 to +0.4 pp"; independently recomputing both scorer versions on the actual cohort found the true shift is uniformly positive, **+0.6 to +1.7 pp per model** (v6.2026 is higher for every model, since the guideline update only adds acceptable regimens; confirmed exactly against the six per-model concordance values in Results/Figure 2A). The manuscript now states the corrected range. The companion claim -- differentials unchanged within 0.5 pp -- was independently re-verified and does hold. |
 | 10 | **Missing data:** how missing data were handled. | ADDRESSED | Panel-aware `not_on_panel` coding (L163); Limitations NCCN-scorer paragraph (L660-670): ECOG defaults to 1 (not recorded in GENIE BPC), untested PD-L1 routes to the chemoimmunotherapy pathway, unlinked-panel biomarkers default to unknown, each an imputation applied identically across all demographic variants, not a case exclusion. |
 
 ## Methods: LLM / Model
@@ -123,6 +123,34 @@ Item 23 (public code URL) is confirmed public as of 2026-08-03 and fully closed;
 remaining note on it is optional (a Zenodo DOI snapshot is stronger than a live URL but not
 required). Also flagged as an author-judgment item, not a blocking GAP: item 1 (title framing)
 and item 26 (self-determined vs. formal IRB exemption); see the notes inline in each row above.
+
+**2026-08-04 verification sweep** (stats-verifier + red-team-reviewer, checking every number and
+cross-reference touched by the 2026-08-03/04 edits, not re-litigating settled items): found and
+fixed five issues, none blocking, all now corrected in the manuscript --
+(1) row 9's scorer-shift range was wrong in sign/magnitude ("-3.0 to +0.4 pp"; corrected to the
+independently-recomputed "+0.6 to +1.7 pp," see row 9); (2) the Limitations paragraph on the TOST
+margin deviation claimed the 163/174-vs-134/174 loss was "concentrated in one model"
+(Llama-3.1-8B) when the arithmetic shows that model accounts for only 13 of the 29 lost
+equivalences (45%) -- reworded to state the loss is panel-wide; (3) Table 1's footnote
+attributed the 8 double-counted patients to "MET amplification," but the actual overlapping
+pairs are co-occurring primary drivers (most commonly EGFR) -- corrected, the counts themselves
+were already exact; (4) the Models-section alias/snapshot caveat pointed to "Limitations," which
+does not discuss it -- repointed to Supplementary Methods, where it actually lives; (5) two
+residual spots (Supplementary Results mitigation summary; Table S3 column header) still framed
+"Cohen's d" as the TOST-gating metric after the Discussion/Figure S11 wording was already fixed
+-- aligned to the same raw-tier-units-primary framing. All five are prose/labeling fixes; no
+manuscript numbers changed as a result except the corrected scorer-shift range itself. Table 1's
+biomarker counts, the "2 of 12,576 control responses" denominator, and the v6.2026-vs-v1.2025
+concordance-number provenance were all independently re-derived from source and confirmed
+exactly correct as printed -- no longer open questions.
+
+**Data-hygiene note (not manuscript-facing, flagged for the author):** two files exist for the
+flagged/contested rater-2 packet -- `adjudication/gold_flagged_rater2.csv` (tracked, normalized
+APPROPRIATE/STIGMA labels, what the manuscript's numbers derive from) and
+`adjudication/gold_flagged_rater2_BB.csv` (untracked, raw Yes/No labels from the rater's original
+export). The manuscript only cites the normalized filename pattern, so this does not affect any
+printed claim, but the untracked raw file should be reconciled or removed before the code/data
+release so a replicator does not find two disagreeing versions of the same packet.
 
 *Prepared as a TRIPOD-LLM reporting supplement for the NSCLC counterfactual-audit manuscript.
 "ADDRESSED" reflects the manuscript state as of this revision (2026-08-03); re-verify line
