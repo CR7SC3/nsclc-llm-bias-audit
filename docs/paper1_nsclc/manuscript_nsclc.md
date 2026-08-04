@@ -191,10 +191,17 @@ representative.
 
 ### Models
 
-We evaluated six LLMs from five families: Gemini-2.5-flash (Google), DeepSeek-chat (DeepSeek),
-Llama-3.3-70B and Llama-3.1-8B (Meta), and GPT-4o and GPT-4o-mini (OpenAI). All ran at
+We evaluated six LLMs from five families: Gemini-2.5-flash (Google, direct API), DeepSeek-chat
+(DeepSeek, direct API), Llama-3.3-70B (`meta-llama/Llama-3.3-70B-Instruct-Turbo` via Together
+AI) and Llama-3.1-8B (`openrouter/meta-llama/llama-3.1-8b-instruct` via OpenRouter), and GPT-4o
+and GPT-4o-mini (OpenAI, direct API). All ran at
 temperature 0 with one identical prompt across all 1,048 cases × 30 variants (31,440 calls per
-model, 188,640 responses total). Three robustness controls (below) were run on Gemini and
+model, 188,640 responses total). Data collection ran 2026-06-25 to 2026-07-07 (per-model access
+windows in Supplementary Methods, reconstructed from API-call timestamps stored with each
+response); every model was called under its provider's floating alias (e.g. `gpt-4o`,
+`gemini-2.5-flash`) rather than a pinned dated snapshot, so which underlying checkpoint served
+each call cannot be independently verified after the fact -- a limitation shared with most
+unpinned-alias LLM audits and disclosed further in Limitations. Three robustness controls (below) were run on Gemini and
 DeepSeek only, given per-call cost. We disclose this rather than claim six-vendor
 representativeness.
 
@@ -216,7 +223,7 @@ unchanged within 0.5 points, so the choice of scorer version does not affect the
 
 ### Outcome Measures
 
-Our outcomes trace the same bias-severity gradient as the study design, from the treatment decision to the language wrapped around it. Three confirmatory outcomes, all primary, addressed the decision itself. The most basic, a treatment-recommendation flip rate, is the share of cases in which a variant's treatment category differs from the no-demographics reference, reported with Wilson 95% confidence intervals and averaged over the six models. Because a raw flip says nothing about guideline status, we next tested each variant against the reference for statistical equivalence in NCCN concordance, using two one-sided tests (TOST) on the paired treatment-tier shift (mean difference on the 1-8 ordinal scale, treated as approximately interval-spaced) against a pre-specified margin of ±0.10 tier-scale units, via a 95% CI (the conservative equivalent of one-sided alpha=0.025), and reporting the result per model. Finally, to recover direction where a change did occur, we restricted to cases whose category changed and tested the signed tier shift (1 = best supportive care to 8 = surgical resection) with a paired sign test, applying a single grid-wide Benjamini-Hochberg (BH) correction across all 174 tests (6 models × 29 variants) so that no cell borrowed significance from the rest.
+Our outcomes trace the same bias-severity gradient as the study design, from the treatment decision to the language wrapped around it. Three confirmatory outcomes, all primary, addressed the decision itself. The most basic, a treatment-recommendation flip rate, is the share of cases in which a variant's treatment category differs from the no-demographics reference, reported with Wilson 95% confidence intervals and averaged over the six models. Because a raw flip says nothing about guideline status, we next tested each variant against the reference for statistical equivalence in NCCN concordance, using two one-sided tests (TOST) on the paired treatment-tier shift (mean difference on the 1-8 ordinal scale, treated as approximately interval-spaced) against a pre-specified margin of ±0.10 tier-scale units (the raw, unstandardized paired mean shift; a deviation from the literal pre-registered Cohen's-d margin, disclosed in full with its numerical consequence in Limitations), via a 95% CI (the conservative equivalent of one-sided alpha=0.025), and reporting the result per model. Finally, to recover direction where a change did occur, we restricted to cases whose category changed and tested the signed tier shift (1 = best supportive care to 8 = surgical resection) with a paired sign test, applying a single grid-wide Benjamini-Hochberg (BH) correction across all 174 tests (6 models × 29 variants) so that no cell borrowed significance from the rest.
 
 Holding the decision fixed, a secondary care-intensity outcome measured which options a response chooses to foreground. For each response we scored whether it raised a clinical trial (advanced treatment) or palliative care (de-escalation) as a within-case change from the reference, taking fewer trial mentions and more de-escalation under a marginalization label as the a priori harm direction. This differs from the language-layer treatment of palliative framing below, which is excluded from the stigma composite because its absolute appropriateness cannot be judged out of context (56.7% of the cohort is Stage IV, where early palliative integration is itself guideline-concordant care). Here we instead ask a purely relative, within-case question: does the identical clinical case receive more palliative-care framing under a disadvantaged label than under no label at all? That question is informative regardless of whether palliative care is appropriate in the abstract, because the counterfactual holds every clinical fact fixed and isolates the demographic label as the only difference. Because the vendors are correlated, we fit a linear mixed-effects model with a random intercept per model, BH-corrected per axis group, and treated how many of the six vendors agree in direction (Figure 3B) as the more robust evidence than the mixed-model interval estimates alone, given the small number of vendor clusters (construction detail in Supplementary Methods); race-only is included here so that coverage matches the full variant design.
 
@@ -605,7 +612,8 @@ clinician to read.
 
 If warranted responsiveness and stigma are separable in measurement, are they also separable
 by instruction? Across four naive mitigation prompts on 151 cases and two vendors, the
-guideline decision held (pooled TOST, Cohen's d <= 0.061), but every prompt drove stigma to near
+guideline decision held (pooled TOST equivalence on the same raw-tier-scale-units margin as the
+main analysis; the standardized effect size was also small, Cohen's d <= 0.061), but every prompt drove stigma to near
 zero only by erasing 47 to 65 points of the warranted-care rate, stripping financial-counseling,
 social-work, specialist, and clinical-trial language along with it, collapsing the output to
 demographically blind boilerplate while still recommending a full regimen. A naive prompt-level
@@ -708,7 +716,18 @@ A few design-scope notes complete the picture. The protocol specified a five-mod
 including Claude Sonnet-4.6; credit constraints made Claude the judge instead, leaving
 Llama-3.1-8B and GPT-4o-mini as exploratory arms, though the headline dissociation, TOST, and
 gradient findings replicate across the four models that are both pre-registered and complete
-(Gemini-2.5-flash, DeepSeek-chat, Llama-3.3-70B, GPT-4o). Each model was queried once per case-
+(Gemini-2.5-flash, DeepSeek-chat, Llama-3.3-70B, GPT-4o). The TOST equivalence margin itself
+also deviates from the pre-registered definition: the confirmatory analysis applies ±0.10 to the
+raw paired tier-shift mean, not to a standardized Cohen's d as literally pre-registered
+(`PREREGISTRATION.md`). This is not a rounding difference -- re-deriving the exact Cohen's-d CI
+from the same data drops the total equivalence count from 163/174 to 134/174, concentrated in
+one model: Llama-3.1-8B falls from 28/29 to 15/29, because its paired tier-shift variance is low
+enough for several variants that a small raw shift inflates to a much larger standardized
+effect than for the other five models. We report the raw-tier-scale-units margin as primary
+because it fixes a single, model-independent clinical bound (at most one-tenth of one
+treatment-tier step), rather than a bound whose real-world size varies with each model's own
+response variance; the reader should weigh Llama-3.1-8B's equivalence claim specifically as
+sensitive to this choice. Each model was queried once per case-
 variant at temperature 0 with one baseline prompt, so prompt sensitivity, multi-turn drift, and
 newer model versions were not tested. The mitigation analysis (four prompts, two vendors, 151
 cases) is exploratory, not powered for per-variant inference, and supports only a bounded
@@ -750,10 +769,12 @@ available from the corresponding author upon reasonable request.
 **Pre-Registration:** The confirmatory hypotheses, primary outcomes, and analysis plan were
 locked prior to running the GPT-4o and Claude arms (2026-06-29) and are available as
 `docs/paper1_nsclc/PREREGISTRATION.md` in the repository above, including a disclosed addendum
-documenting one panel-composition deviation (the claude-sonnet-4-6 audit arm was dropped from
-the confirmatory panel; the model remains the blinded LLM judge, unaffected by this deviation).
-This is a repository-hosted record with an author-declared lock date, not a
-third-party-timestamped registry entry.
+documenting two deviations: a panel-composition change (the claude-sonnet-4-6 audit arm was
+dropped from the confirmatory panel; the model remains the blinded LLM judge, unaffected by this
+deviation) and a TOST equivalence-margin implementation deviation (the margin was applied to the
+raw paired tier-shift, not to a standardized Cohen's d as literally pre-registered; magnitude and
+rationale in Limitations). This is a repository-hosted record with an author-declared lock date,
+not a third-party-timestamped registry entry.
 
 **Ethics Approval:** This study involved secondary analysis of de-identified data under the
 AACR Project GENIE Biopharma Collaborative data-use agreement and did not constitute
@@ -1036,6 +1057,27 @@ seen and matches human labels 93.3% of the time.
 ---
 
 ### Supplementary Methods
+
+**Model access dates and identifiers.** Per-model data-collection windows below were
+reconstructed from the API-call timestamp stored with every response in the released results
+files (`results/baseline/v2_genie_bpc_nsclc*_checkpoint.json`), not from file modification
+times, and reflect the full 1,048-case x 30-variant run for each model.
+
+| Model (manuscript name) | API model identifier | Provider / route | First call (UTC) | Last call (UTC) |
+|---|---|---|---|---|
+| Gemini-2.5-flash | `gemini-2.5-flash` | Google, direct API | 2026-06-27 | 2026-06-28 |
+| DeepSeek-chat | `deepseek-chat` | DeepSeek, direct API | 2026-06-25 | 2026-06-26 |
+| Llama-3.3-70B | `meta-llama/Llama-3.3-70B-Instruct-Turbo` | Together AI | 2026-06-26 | 2026-07-01 |
+| Llama-3.1-8B | `openrouter/meta-llama/llama-3.1-8b-instruct` | OpenRouter | 2026-07-02 | 2026-07-07 |
+| GPT-4o | `gpt-4o` | OpenAI, direct API | 2026-06-30 | 2026-07-06 |
+| GPT-4o-mini | `gpt-4o-mini` | OpenAI, direct API | 2026-07-02 | 2026-07-06 |
+
+Every identifier above is the provider's floating alias, not a dated snapshot suffix (e.g.
+`gpt-4o`, not `gpt-4o-2024-08-06`); no response in the stored logs carries a
+provider-returned snapshot ID or fingerprint field, so the exact checkpoint each provider served
+during its access window cannot be reconstructed retroactively from this repository or from the
+API responses themselves. The access-date window is the strongest evidence available and is
+reported here in place of a pinned snapshot ID.
 
 **Statistical detail: care-intensity mixed model and trend-test permutation null.** The
 care-intensity mixed-effects model was BH-corrected per axis group (each group's own family,
@@ -1353,7 +1395,9 @@ the four mitigation prompts (fairness, structured extraction, counterfactual che
 and each vendor (DeepSeek, Gemini), the blinded-judge STIGMA / APPROPRIATE / NEUTRAL distribution
 pooled over socioeconomic variants, alongside the baseline. Every arm drives stigma to near zero but
 only by converting the baseline's appropriate-care share to NEUTRAL boilerplate; the guideline
-treatment tier is preserved throughout (pooled TOST, Cohen's d ≤ 0.061, every parser-scorable arm). Gemini
+treatment tier is preserved throughout (pooled TOST on the same raw-tier-scale-units margin as
+the main analysis, every parser-scorable arm; the standardized effect size was also small,
+Cohen's d ≤ 0.061). Gemini
 structured extraction is shown for stigma/care but is unscorable-by-construction on the decision axis
 (19/1,050 pairs parse). Companion to Supplementary Table S3.
 
