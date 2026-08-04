@@ -1,4 +1,4 @@
-# EquityGUIDE — Pre-Registration / Analysis Plan
+# EquityGUIDE: Pre-Registration / Analysis Plan
 
 **Status:** locked before GPT-4o and Claude arms are run (Gemini, DeepSeek complete;
 Llama in progress). Purpose: fix the confirmatory analysis so the remaining model
@@ -7,9 +7,9 @@ permitted but will be labelled as such.
 
 Author: Alvaro Cuervo · Date locked: 2026-06-29
 
-> **Deviations from pre-registration (addendum, 2026-07-10 — does not alter locked hypotheses):**
+> **Deviations from pre-registration (addendum, 2026-07-10; does not alter locked hypotheses):**
 > The locked plan named a 5-model audit panel including a `claude-sonnet-4-6` audit arm. As
-> executed, the confirmatory panel is **6 vendors, all at n=1,048** — gemini-2.5-flash,
+> executed, the confirmatory panel is **6 vendors, all at n=1,048**: gemini-2.5-flash,
 > deepseek-chat, llama-3.3-70B, **llama-3.1-8B**, gpt-4o, **gpt-4o-mini**. The **claude-sonnet-4-6
 > audit arm was dropped** (only a 25-case stub was run; 2026-07-09 decision). This is a lineup
 > change, not a hypothesis change. **claude-sonnet-4-6 remains the blinded LLM-judge** for
@@ -21,7 +21,7 @@ Author: Alvaro Cuervo · Date locked: 2026-06-29
 submission to **JMIR AI** (primary) or **BMC Medical Informatics & Decision Making**
 (backup); PLOS Digital Health / PLOS ONE as fallbacks. Optional health-AI workshop
 (ML4H / trustworthy-ML). Top medical venues are out of scope given synthetic notes,
-single-annotator validation, and moderate inter-rater κ — all disclosed.
+single-annotator validation, and moderate inter-rater κ, all disclosed.
 
 ---
 
@@ -29,7 +29,7 @@ single-annotator validation, and moderate inter-rater κ — all disclosed.
 
 Do LLMs alter (a) their guideline-concordant treatment recommendation, or (b) the
 rhetorical/clinical *framing* of their response, when a demographics-neutral NSCLC
-note is annotated with a demographic label — holding all clinical facts constant?
+note is annotated with a demographic label, holding all clinical facts constant?
 
 ## 2. Design
 
@@ -48,7 +48,7 @@ note is annotated with a demographic label — holding all clinical facts consta
    acceptable-answer set? Outcome = adherence score per (case × variant × model).
 2. **Stigmatizing soft-bias:** automated rubric count of stigmatizing elements
    (adherence-doubt, hallucinated SDOH, unprompted de-escalation). This is the
-   defensible bias signal — distinct from appropriate SES-responsive framing
+   defensible bias signal, distinct from appropriate SES-responsive framing
    (e.g., cost discussion for an uninsured patient), which is NOT counted as bias.
 
 ## 4. Confirmatory hypotheses
@@ -62,7 +62,7 @@ note is annotated with a demographic label — holding all clinical facts consta
 - **H3 (control holds):** stigmatizing soft-bias for race-only variants and
   `white_male_private` is ≈ 0 (not distinguishable from `no_demographics`).
 - **H4 (cross-model convergence):** the H2 direction replicates across ≥3 of the
-  5 models (sign agreement), reported per-model — never pooled across vendors.
+  5 models (sign agreement), reported per-model, never pooled across vendors.
 
 ## 5. Statistical plan
 
@@ -76,12 +76,23 @@ note is annotated with a demographic label — holding all clinical facts consta
   **Disclosed implementation deviation:** the confirmatory analysis
   (`scripts/nsclc/correct_analysis.py`) applies this margin to the raw paired
   tier-shift mean (±0.10 tier-scale units on the 1-8 ordinal scale), not to a
-  standardized Cohen's d as literally written above. The median implied SD of the
-  paired tier-shift is ≈1.0 across variants (range 0.65-1.69), so the two
-  formulations are numerically close but not identical; a handful of
-  boundary-case variant/model cells could in principle classify differently
-  under a strict Cohen's-d margin. The manuscript's Methods and Results report
-  the raw-tier-scale-units version throughout, consistently.
+  standardized Cohen's d as literally written above. This is a substantive
+  deviation, not a rounding difference: re-deriving the exact Cohen's-d CI from
+  the same underlying data (an exact rescaling of the raw CI by each cell's
+  implied SD) drops the total equivalence count from 163/174 to 134/174, and for
+  one model, Llama-3.1-8B, from 28/29 to 15/29 -- that model's paired tier-shift
+  variance is low enough for several variants (implied SD as low as ~0.65-0.72)
+  that a fixed raw shift translates into a much larger standardized effect than
+  for the other five models. We report the raw-tier-scale-units margin as
+  primary because it has a fixed, model-independent clinical meaning (at most
+  one-tenth of one treatment-tier step on the 1-8 scale, the same bound
+  regardless of a given model's response variance), whereas a per-model
+  standardized margin makes the effective clinical bar different for each
+  model. The manuscript's Methods and Results report the raw-tier-scale-units
+  version throughout, consistently; the Cohen's-d recount above is disclosed
+  here and in the manuscript's Limitations so the reader can weigh it,
+  particularly for Llama-3.1-8B, whose equivalence claim is the one genuinely
+  sensitive to this choice.
 - **Clinical anchoring:** benchmark the SES treatment-downgrade effect
   (observed d ≈ −0.03..−0.07 in DeepSeek) against NCCN intra-rater / acceptable-
   answer-set width, and state explicitly whether it is clinically meaningful.
@@ -93,11 +104,11 @@ note is annotated with a demographic label — holding all clinical facts consta
 Base notes in the main cohort are Gemini-generated, and Gemini is in the audit
 panel. Two pre-specified checks:
 
-- **C1 — self-favoring (already observed, retained):** Gemini scores its own notes
+- **C1, self-favoring (already observed, retained):** Gemini scores its own notes
   *lower* than DeepSeek does (NCCN concordance 2.32 vs 2.58 on identical notes),
   i.e., no self-upgrading. Reported as evidence against the dominant circularity
   mechanism.
-- **C2 — generator-invariance (deterministic templates):** re-run the pipeline on
+- **C2, generator-invariance (deterministic templates):** re-run the pipeline on
   notes rendered deterministically from the same GENIE structured fields
   (`genie_bpc_nsclc_templates100`, no LLM in the loop). **Pre-registered
   prediction:** H2/H3 replicate (stigma elevated for unhoused, ≈0 for controls).
@@ -112,7 +123,7 @@ human raters:
 
 - **Composite (pre-registered):** "stigma present" = `adherence_compliance` OR
   `sdoh_generation` (adherence-doubt OR hallucinated SDOH). `treatment_hedging`
-  and `watchful_waiting` are **excluded** — hedging fires on ~70% of responses in
+  and `watchful_waiting` are **excluded**: hedging fires on ~70% of responses in
   *all* strata (including white-male/race-only controls), i.e. it indexes ordinary
   clinical caution, not bias. The two-dim composite gives control 0% / race-only
   3% / disadvantaged 67% on a 180-item stratified sample.
@@ -132,11 +143,11 @@ human raters:
 
 ## 7. Exploratory (labelled non-confirmatory)
 
-- **Real-note cross-validation (PMC open-access NSCLC case reports — primary):**
+- **Real-note cross-validation (PMC open-access NSCLC case reports, primary):**
   fetch ~30-50 real, human-written NSCLC case reports from the PubMed Central OA subset,
   extract the case-presentation narrative, neutralize/strip demographics, inject the same
   30 demographic variants, and re-run the stigma detector. Confirms the disadvantaged>control
-  gradient replicates on genuine, on-domain clinical prose — the feasible substitute for
+  gradient replicates on genuine, on-domain clinical prose, the feasible substitute for
   "validate on real notes" (GENIE BPC releases no source notes; §8). The demographic
   contrast is WITHIN-case (variant vs. reference on the same note), so case-report
   selection bias affects clinical-mix generalizability only, not the demographic effect;
@@ -152,9 +163,9 @@ human raters:
 
 - Notes are synthetic vignettes derived from a curated registry; this is a bias-
   *measurement* study, not a clinical-validity study. Template notes (C2) read
-  less naturally than real clinical notes by construction — a generalizability,
+  less naturally than real clinical notes by construction: a generalizability,
   not a correctness, limitation.
-- **GENIE BPC releases no source free-text notes** — PRISSMM curation abstracts
+- **GENIE BPC releases no source free-text notes:** PRISSMM curation abstracts
   structured variables out of the EHR, and the original documents are withheld for
   PHI. We therefore synthesized notes from the structured fields; there was no
   real-note alternative for this cohort. Real-prose generalizability is addressed by

@@ -1,4 +1,4 @@
-# figures/manuscript/ — NSCLC figure set in manuscript narrative order
+# figures/manuscript/: NSCLC figure set in manuscript narrative order
 
 Working title: *Stigma Without Downgrade: Separating Warranted Socioeconomic
 Responsiveness From Generated Stigma in Large Language Model Cancer-Treatment
@@ -10,7 +10,7 @@ This folder (`figures/manuscript/`) now holds only the supplementary figures
 Full captions for the main figures are in
 `figures/manuscript_combined/CAPTIONS.md`; the panel-source build table is in
 `figures/manuscript_combined/README.md`. This file was previously the index
-for an interim 10-main-figure set under this folder — that set has since been
+for an interim 10-main-figure set under this folder: that set has since been
 superseded by the 6-figure architecture below, confirmed against what
 `docs/paper1_nsclc/manuscript_nsclc.md` actually embeds.
 
@@ -19,16 +19,16 @@ superseded by the 6-figure architecture below, confirmed against what
 | # | File | Legend |
 |---|------|--------|
 | 1 | Figure1_study_design.png | Study design and counterfactual audit workflow. (A) End-to-end pipeline: 1,048 GENIE BPC cases → demographics-neutral note → 29 demographic labels + no-demographics control (30 conditions × 1,048 cases = 31,440 queries) → 6 models = 188,640 responses → hard (NCCN concordance) + soft (stigma-framing) scoring vs. control (BH-FDR). (B) Counterfactual variant design across nine tiers / seven demographic axes. |
-| 2 | Figure2_decision_stability.png | Demographic labels do not change the guideline-concordant treatment decision. (A) NCCN concordance, reference vs. variants, six models, TOST equivalence (pre-registered confirmatory outcome). (B) Flip rate vs. reference — ≈17% for every variant including the privileged comparator, a noise floor, not demographic instability. (C) Per-model net aggressiveness-tier shift by variant. |
+| 2 | Figure2_decision_stability.png | Demographic labels do not change the guideline-concordant treatment decision. (A) NCCN concordance, reference vs. variants, six models, TOST equivalence (pre-registered confirmatory outcome). (B) Flip rate vs. reference: ≈17% for every variant including the privileged comparator, a noise floor, not demographic instability. (C) Per-model net aggressiveness-tier shift by variant. |
 | 3 | Figure3_care_intensity.png | Care intensity is the intermediate bias layer: with the guideline-concordant decision held constant (Fig 2), the treatment options a response foregrounds (trial mention, de-escalation language) shift against marginalized patients across several axes. (A) mixed-effects net change by axis group. (B) per-label detail. |
-| 4 | Figure4_ses_not_race.png | The framing shift is socioeconomic, not racial. (A) Volcano of all 174 model×variant framing contrasts. (B) Inter-model agreement (Spearman ρ) of the framing-effect vector. (C) Mean added framing intensity by axis — income/housing and insurance elevated, race/ethnicity ≈0. |
+| 4 | Figure4_ses_not_race.png | The framing shift is socioeconomic, not racial. (A) Volcano of all 174 model×variant framing contrasts. (B) Inter-model agreement (Spearman ρ) of the framing-effect vector. (C) Mean added framing intensity by axis: income/housing and insurance elevated, race/ethnicity ≈0. |
 | 5 | Figure5_stigma_anatomy.png | Anatomy of the stigma signal. (A) Appropriate SDOH-responsive content vs. stigmatizing content, net % by stratum. (B) Stigmatizing signal decomposed into 4 classifier dimensions (2 starred = pre-registered defensible composite). (C) Judge-adjudicated stigmatizing-language rate, Cochran-Armitage trend across 5 ordered SES strata (significant increasing trend in 5/6 models). |
 | 6 | Figure6_robustness_precision_filter.png | Signal is robust to note generation and label salience, and survives a stricter definition. (A) circularity control on LLM-free template notes. (B) real-note replication on 40 PMC case reports. (C) salience control (bracketed tag vs. natural prose). (D) grounding-aware bias decision-tree (condensed); full 4-panel decomposition in FigS10. |
 
 ## Supplementary figures (in this folder, `figures/manuscript/`)
 
 Legends below are condensed from the manuscript's own captions
-(`docs/paper1_nsclc/manuscript_nsclc.md`, Supplementary Figures section) —
+(`docs/paper1_nsclc/manuscript_nsclc.md`, Supplementary Figures section):
 that is the authoritative wording; this table is a navigation aid.
 
 | # | File | Legend |
@@ -49,7 +49,7 @@ that is the authoritative wording; this table is a navigation aid.
 ## Notes
 - Figure 6's panels A–C (circularity control, PMC replication, natural-prose salience) use a
   consistent color convention across the panel: template/baseline vs. real-note vs.
-  natural-embedding conditions — see the panel source scripts in `plots/` for the exact keys.
+  natural-embedding conditions: see the panel source scripts in `plots/` for the exact keys.
 
 ## Archived (not in the manuscript narrative)
 Moved to `figures/archive/not_in_narrative_2026-07/` (reversible): `Fig10_advanced_care_by_race`,
@@ -57,5 +57,5 @@ Moved to `figures/archive/not_in_narrative_2026-07/` (reversible): `Fig10_advanc
 `FigS_response_highlight` (png + pdf each). These are uncited candidates, not part of the paper.
 
 ## Still open (repo-side, not a figure-formatting fix)
-- **Judge validation** — a second independent rater on the retained 60-item gold set
+- **Judge validation**: a second independent rater on the retained 60-item gold set
   is still pending; disclosed as a single-rater limitation in Methods.

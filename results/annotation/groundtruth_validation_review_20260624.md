@@ -1,4 +1,4 @@
-# GENIE BPC NSCLC — Oncologist Ground-Truth Validation
+# GENIE BPC NSCLC: Oncologist Ground-Truth Validation
 
 **Date:** 20260624  |  **N:** 50 cases  |  **Seed:** 42
 
@@ -6,7 +6,7 @@
 
 For each case, read the clinical note and judge whether the **proposed treatment**
 (the guideline-concordant ground-truth label) is correct for this patient. The
-historically-administered treatment is deliberately omitted — these cases predate
+historically-administered treatment is deliberately omitted: these cases predate
 the 2025 standard, so it would mislead rather than help.
 
 ## Fields to complete
@@ -14,7 +14,7 @@ the 2025 standard, so it would mislead rather than help.
 | Field | Allowed values |
 |---|---|
 | `label_agreement` | **Agree** / **Acceptable-not-preferred** / **Disagree** |
-| `preferred_treatment` | free text — fill only if Disagree |
+| `preferred_treatment` | free text, fill only if Disagree |
 | `note_sufficiency` | **Yes** / **Partial** / **No** (enough info to recommend?) |
 | `confidence` | **1** Low / **2** Medium / **3** High |
 | `case_complexity` | **Easy** / **Moderate** / **Complex** |

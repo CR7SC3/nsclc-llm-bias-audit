@@ -1,10 +1,10 @@
-# EquityGUIDE — Next Steps (follow-up to the NSCLC project)
+# EquityGUIDE: Next Steps (follow-up to the NSCLC project)
 
 **Prepared:** 2026-07-08 · **Updated:** 2026-07-15 (manuscript draft now in-repo &
 fully validated by a 4-seat deep-dive; A2 GPT-4o fold-in done; A3 Claude Sonnet arm dropped;
 NSCLC two-rater gold sheets built). · **Scope:** what to do next
 given the state of Paper 1 (NSCLC) and the in-progress Paper 2 (BRCA + PANC) follow-up.
-Grounded in a read of the repo as of the update date, not the planning docs alone — several
+Grounded in a read of the repo as of the update date, not the planning docs alone: several
 planning docs are now stale (see §0).
 
 ---
@@ -23,7 +23,7 @@ the priority order:
    in the 6-vendor headline figure `Fig4_dissociation_6vendor.png` (2026-07-09 inspection):
    it appears as its own GPT-4o series in the legend and as points across all strata in both
    the treatment-selection and response-framing panels. **Gating item #2 in that assessment
-   is fully resolved — nothing left to do here** (was formerly A2; see below).
+   is fully resolved: nothing left to do here** (was formerly A2; see below).
 
 2. **The BRCA/PANC pilots are run and analyzable**, and the pilot signal trends
    **against the pre-registered primary hypothesis of Paper 2** (details in §2). This is
@@ -33,9 +33,9 @@ the priority order:
    `..._claude-sonnet-5_results.json` file was only a 25-case stub, never a real arm; per
    the 2026-07-09 decision it is dropped rather than completed, so the confirmatory NSCLC
    panel is the **6 vendors at n=1,048** (gemini-2.5-flash, deepseek-chat, llama-3.3-70B,
-   llama-3.1-8B, gpt-4o, gpt-4o-mini) — matching `finalize_panel.py` ARMS,
+   llama-3.1-8B, gpt-4o, gpt-4o-mini), matching `finalize_panel.py` ARMS,
    `results/analysis/panel_stigma_rates.csv`, and the `Fig4/Fig5_*_6vendor` figures. Note
-   this is a lineup decision only — **claude-sonnet-4-6 remains
+   this is a lineup decision only: **claude-sonnet-4-6 remains
    the blinded LLM-judge** for stigma-classifier validation (a different role; see §3), and
    is unaffected.
 
@@ -47,16 +47,16 @@ the priority order:
 The remaining NSCLC gating items are now narrower still:
 
 4. **The manuscript prose draft NOW EXISTS and is validated.** A complete ~59KB draft
-   (`docs/paper1_nsclc/manuscript_nsclc.md` — Abstract/Intro/Methods/Results/Discussion/
+   (`docs/paper1_nsclc/manuscript_nsclc.md`: Abstract/Intro/Methods/Results/Discussion/
    Limitations/Declarations/14 refs) was written into the repo 2026-07-15 (it had previously
    lived only as a Claude Science artifact, which is why earlier NEXT_STEPS said "no draft
    exists"). A four-seat validation deep-dive (stats / figures / red-team / codebase; see
    `adjudication/VALIDATION_REPORT.md` + `SUBMISSION_READINESS.md`) confirmed **every
-   quantitative claim reproduces exactly** from `results/` — flip means 6/6, Table 2 Cohen's d
+   quantitative claim reproduces exactly** from `results/`: flip means 6/6, Table 2 Cohen's d
    8/8, cohort counts, and the concordance table. The science is sound; what remains is
    editorial/disclosure (see A1 + the readiness checklist), not analysis.
 
-5. **The two-rater gold-set validation is scaffolded but not yet labeled** — the second
+5. **The two-rater gold-set validation is scaffolded but not yet labeled**: the second
    blinded rater closes the single-rater κ=0.57 (60-item random set) risk (see A1). Both the NSCLC random and
    classifier-flagged (APPROPRIATE-vs-STIGMA) two-rater sheets exist under `adjudication/`
    (`gold_random_rater{1,2}.csv`, `gold_flagged_rater{1,2}.csv`), built 2026-07-09; they need
@@ -64,7 +64,7 @@ The remaining NSCLC gating items are now narrower still:
 
 ---
 
-## 1. Priority A — Finish and ship Paper 1 (NSCLC). It is the follow-up's blocker.
+## 1. Priority A: Finish and ship Paper 1 (NSCLC). It is the follow-up's blocker.
 
 Paper 2's own timeline (`PAPER2_FRAME.md`) is explicit: *"Paper 1 submitted → immediately
 pre-register Paper 2 … Paper 2 full runs: after Paper 1 under review."* Paper 1 is the
@@ -74,13 +74,13 @@ critical path. The science is done; what remains is execution:
   Both `PAPER_FRAME.md` and the reviewer assessment call single-rater validation the one
   top risk for a paper whose contribution rests on a stigma classifier's validity.
   **The two-rater sheets now exist (built 2026-07-09):** `adjudication/gold_random_rater{1,2}.csv`
-  (60-item uniform sample, STIGMA/APPROPRIATE/NEUTRAL — prevalence + recall) and
+  (60-item uniform sample, STIGMA/APPROPRIATE/NEUTRAL: prevalence + recall) and
   `adjudication/gold_flagged_rater{1,2}.csv` (60 classifier-flagged items,
-  APPROPRIATE-vs-STIGMA — the contested-boundary reliability number). Both raters label
+  APPROPRIATE-vs-STIGMA: the contested-boundary reliability number). Both raters label
   the same blinded ids independently; `score_random_gold_v2.py --gold-tag {random,flagged}`
   then computes rater-vs-rater κ + consensus-vs-judge/classifier. What remains is the
-  human/logistics step — recruit the second rater (a lab-mate/mentor; a clinician is
-  stronger but not required) and label. **Do this first — it gates the credibility of
+  human/logistics step: recruit the second rater (a lab-mate/mentor; a clinician is
+  stronger but not required) and label. **Do this first; it gates the credibility of
   everything else and it has the longest lead time.** Report the κ you get (cite Viera &
   Garrett / Hallgren), and the stigma rate as a contested range, not a point estimate.
 - **A2. ~~Fold the completed GPT-4o arm into the corrected analysis.~~ DONE (2026-07-09
@@ -89,13 +89,13 @@ critical path. The science is done; what remains is execution:
   regenerated 6-vendor figures `Fig4_dissociation_6vendor.png` /
   `Fig5_forest_ses_vs_race_6vendor.png` (dated 2026-07-08). gpt-4o visually confirmed as its
   own plotted series in `Fig4_dissociation_6vendor.png` (2026-07-09). No action remaining.
-- **A3. ~~Decide the Claude Sonnet arm.~~ DONE — DROPPED (2026-07-09).** The 25-case
+- **A3. ~~Decide the Claude Sonnet arm.~~ DONE: DROPPED (2026-07-09).** The 25-case
   `..._claude-sonnet-5_results.json` stub is dropped from the model lineup, not completed.
   Confirmatory NSCLC panel = 6 vendors at n=1,048 (gemini-2.5-flash, deepseek-chat,
   llama-3.3-70B, llama-3.1-8B, gpt-4o, gpt-4o-mini). Ensure any lineup table in
   `STUDY_RUN_PLAN.md` / `METHODS.md` / `PREREGISTRATION.md` lists these six and does not
   imply a Sonnet audit arm. **Unchanged:** claude-sonnet-4-6 stays the blinded LLM-judge for classifier
-  validation — that is a separate role, not an audited model.
+  validation: that is a separate role, not an audited model.
 - **A4. Switch primary CIs to a case-clustered method** (bootstrap or cluster-robust
   variance). The reviewer's independent bootstrap already showed the pooled-response
   Wilson intervals understate uncertainty on this repeated-measures design. Low effort,
@@ -103,17 +103,17 @@ critical path. The science is done; what remains is execution:
 - **A5. Move the note-provenance / circularity framing to the top of the README** and
   point to Fig 9a (template) + Fig 9b (PMC). The evidence already rebuts the objection;
   the exposition just buries it.
-- **A6. ~~Write the actual manuscript.~~ DONE — draft exists & validated (2026-07-15).**
+- **A6. ~~Write the actual manuscript.~~ DONE: draft exists & validated (2026-07-15).**
   `docs/paper1_nsclc/manuscript_nsclc.md` is a complete ~59KB draft (Abstract, Intro,
   Methods, Results incl. Tables 1–2 and Figs 2–9, Discussion, Limitations, Declarations,
   14 refs). A four-seat deep-dive (`adjudication/VALIDATION_REPORT.md`) confirmed every
   quantitative claim reproduces exactly from `results/`. What remains is **revision, not
-  authoring** — see `adjudication/SUBMISSION_READINESS.md` for the itemized blockers
+  authoring**: see `adjudication/SUBMISSION_READINESS.md` for the itemized blockers
   (2 missing supplementary artifacts, reference placeholders, inline κ hedging, git-add).
 
 ---
 
-## 2. Priority B — Resolve the Paper 2 hypothesis crisis BEFORE the full runs
+## 2. Priority B: Resolve the Paper 2 hypothesis crisis BEFORE the full runs
 
 **This is the most important strategic decision in the project.** The pilot data
 (n≈50/cohort, gemini-flash + deepseek) already trends **against** Paper 2's pre-registered
@@ -129,11 +129,11 @@ the opposite direction in **both** models:
 | deepseek-chat | +63.9 pp | +54.0 pp | **−9.9 pp** | against |
 
 The controls behave exactly as designed (race-only ≈2%, `white_*_private` ≈0–4%,
-`no_demographics` ≈0–4%), so the instrument is working — the *cross-cancer ordering* is
+`no_demographics` ≈0–4%), so the instrument is working: the *cross-cancer ordering* is
 just not what was predicted. The within-cancer prognosis probe (§7) is likewise mixed and
 underpowered (PANC metastatic-vs-resectable DiD is +0.9 pp / −6.6 pp across the two models;
 BRCA TNBC arm is n≈7). Pilots are noisy and not age-adjusted, so this is not a confirmatory
-refutation — but it is a strong signal that **the full run is likely to reject H1.**
+refutation, but it is a strong signal that **the full run is likely to reject H1.**
 
 Three viable paths (a decision for the study team, not something to run on autopilot):
 
@@ -141,11 +141,11 @@ Three viable paths (a decision for the study team, not something to run on autop
    an "informative null on prognosis-modulation" as publishable-but-weaker. The pilot
    suggests something more interesting than a null: a **possible reversal** (favorable-
    prognosis BRCA elicits *more* SES stigma than grim PANC). If that holds at full n and
-   survives the age adjustment, "prognosis does **not** drive the gradient — cancer-type
+   survives the age adjustment, "prognosis does **not** drive the gradient: cancer-type
    *lay-stigma* or cohort composition does" is a genuine, non-incremental result. This is
    the strongest option **if** the frame is rewritten *before* the confirmatory runs to
    avoid HARKing.
-2. **Reframe the axis away from prognosis** to something the pilot supports — e.g. the
+2. **Reframe the axis away from prognosis** to something the pilot supports, e.g. the
    remarkable **cross-cancer stability** of the SES gradient (~52–64 pp in every
    cohort×model, race-only ≈0 everywhere), which would make Paper 2 a *generalization*
    paper ("the NSCLC dissociation is a property of the model, not the cancer") rather than
@@ -155,7 +155,7 @@ Three viable paths (a decision for the study team, not something to run on autop
    difference is confounded with a ~20-year age gap. The prereg's §5b mandates an
    age-adjusted model **and** a PANC≤56 matched re-run. If the −9 pp Δ *flips* under age
    matching, the headline becomes "apparent prognosis effects in cross-cancer LLM audits
-   are age-composition artifacts" — a methods contribution in the same spirit as Paper 1's
+   are age-composition artifacts", a methods contribution in the same spirit as Paper 1's
    measurement-correction framing.
 
 **Recommendation:** do **not** launch the four full-cohort runs (4 models × 2 cohorts ×
@@ -178,22 +178,22 @@ the pilots). **The against-H1 direction does not flip:**
 Reading: matching PANC to the BRCA age window narrows gemini's gap toward zero (−9.2 →
 −1.9 pp) but **does not reverse it to PANC>BRCA**, and deepseek stays firmly against H1
 (−10.6 pp). **The age confound is not the explanation for the against-H1 direction.** Two
-strong caveats: (i) the matched PANC subcohort is only **n=10** cases (of 50) — the ceiling
-falls at age 56 so almost all PANC pilot cases are excluded — so the matched read is
+strong caveats: (i) the matched PANC subcohort is only **n=10** cases (of 50): the ceiling
+falls at age 56 so almost all PANC pilot cases are excluded, so the matched read is
 directional at best; (ii) the age-adjusted GLM is **quasi-separated** at pilot n (reference
 stigma ≈0–4%), so its interaction estimate is uninterpretable (deepseek's CI spans
 ±22,000). Both problems are pilot-size artifacts and resolve at full n. Figure:
 `manuscript_brca_panc/figures/pilot_exploratory/fig_pilot_age_matched_gradient.png`.
 
 **Consequence for the decision above:** path 3 ("it's the age confound") is now the
-*least* supported of the three reframes — the pilot says age doesn't carry the effect.
+*least* supported of the three reframes: the pilot says age doesn't carry the effect.
 Paths 1 (pre-register the null/reversal) and 2 (cross-cancer *stability* of the SES
 gradient) are better supported and should lead the B2 reframe discussion. Confirm on the
 full cohorts (proper n for both the matched analysis and the GLM) before locking.
 
 ---
 
-## 3. Priority C — Paper 2 measurement-validity gate (parallel to A1, same lead time)
+## 3. Priority C: Paper 2 measurement-validity gate (parallel to A1, same lead time)
 
 Council requirement #4 is non-negotiable and shares the long human lead time with A1:
 
@@ -203,7 +203,7 @@ Council requirement #4 is non-negotiable and shares the long human lead time wit
 - **Action:** recruit the second rater once (they can label the NSCLC 40-item set for A1
   *and* the BRCA+PANC sheets in one sitting), then run `score_gold_v2.py`. The κ≥0.60 gate
   is per-cohort; the script surfaces PASS/FAIL but does **not** decide the response to a
-  fail — pre-decide now: retrain, add a third adjudicator, or report the cohort as
+  fail; pre-decide now: retrain, add a third adjudicator, or report the cohort as
   unvalidated.
 - **Model-pair flag (from `STATUS.md`):** the gold pool currently sources only from
   gemini + deepseek (the two pilots that existed). If the intended anchor is the full
@@ -219,8 +219,8 @@ Now ──┬─ A1  recruit 2nd rater  ─────────────�
       ├─ C   have them label NSCLC + BRCA/PANC gold sheets in one pass
       │      (NSCLC sheets already built: gold_{random,flagged}_rater{1,2}.csv)
       │
-      ├─ A2  ✔ DONE — GPT-4o folded into grid + 6-vendor figs
-      ├─ A3  ✔ DONE — Claude Sonnet arm dropped (5-vendor panel)
+      ├─ A2  ✔ DONE: GPT-4o folded into grid + 6-vendor figs
+      ├─ A3  ✔ DONE: Claude Sonnet arm dropped (5-vendor panel)
       ├─ A4  case-clustered CIs                                 } can run in
       ├─ A5  README circularity reframe                         } parallel
       │
@@ -234,8 +234,8 @@ Now ──┬─ A1  recruit 2nd rater  ─────────────�
             └─►  Paper 2 analysis + manuscript
 ```
 
-**One-line version:** *Ship NSCLC first — with GPT-4o already folded in and Sonnet dropped,
-what's left is the 2nd rater on the (now-built) gold sheets plus the manuscript write-up — and
+**One-line version:** *Ship NSCLC first: with GPT-4o already folded in and Sonnet dropped,
+what's left is the 2nd rater on the (now-built) gold sheets plus the manuscript write-up. And
 before spending compute on the BRCA/PANC full runs, resolve that the pilot data is pointing
-against Paper 2's prognosis hypothesis — reframe the prereg around the null/reversal or the
+against Paper 2's prognosis hypothesis: reframe the prereg around the null/reversal or the
 age confound, then run.*

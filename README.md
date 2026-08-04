@@ -2,9 +2,9 @@
 
 **Counterfactual audit of demographic bias in large language model cancer treatment recommendations**
 
-EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics — and evaluates prompting strategies to reduce that bias. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing. Mitigation strategies including fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction are tested against the same case set to measure whether bias can be reduced without sacrificing clinical accuracy.
+EquityGUIDE tests whether AI oncology decision-support systems produce equitable treatment recommendations when two patients share identical clinical facts but differ only in race, insurance status, socioeconomic status, or other demographic characteristics, and evaluates prompting strategies to reduce that bias. The core design is counterfactual: the same clinical note is sent to the model 30 times, once per demographic variant, with all biomarker and staging information held constant. Any difference in the treatment recommendation is attributable solely to demographic framing. Mitigation strategies including fairness-instructed prompting, guideline-grounded reasoning, and structured demographic-blind extraction are tested against the same case set to measure whether bias can be reduced without sacrificing clinical accuracy.
 
-> **A note on provenance and circularity.** The GENIE BPC cases are real, de-identified *structured* oncology records, but the free-text consultation notes sent to the models are **LLM-generated**: `gemini-2.5-flash` renders each structured case into a demographics-neutral note, using de-identified CORAL oncology notes as style anchors only. Because one audited model (Gemini) helps author the input text, circularity is ruled out empirically — the socioeconomic stigma gradient replicates at essentially the same magnitude on (1) fully deterministic, **LLM-free template notes** and (2) **real published PMC clinical notes** the models never generated (see the note-source controls in the manuscript, `docs/paper1_nsclc/manuscript_nsclc.md`, Figure 6A-C).
+> **A note on provenance and circularity.** The GENIE BPC cases are real, de-identified *structured* oncology records, but the free-text consultation notes sent to the models are **LLM-generated**: `gemini-2.5-flash` renders each structured case into a demographics-neutral note, using de-identified CORAL oncology notes as style anchors only. Because one audited model (Gemini) helps author the input text, circularity is ruled out empirically: the socioeconomic stigma gradient replicates at essentially the same magnitude on (1) fully deterministic, **LLM-free template notes** and (2) **real published PMC clinical notes** the models never generated (see the note-source controls in the manuscript, `docs/paper1_nsclc/manuscript_nsclc.md`, Figure 6A-C).
 
 ---
 
@@ -20,8 +20,8 @@ Large language models are increasingly deployed in clinical decision support. Wh
 
 316 synthetic NSCLC cases from Lozano et al. (Microsoft, HuggingFace 2024) with NCCN Category 1 ground-truth treatment labels. Spans Stages I–IV, stratified by stage, histology, biomarker profile, and ECOG performance status. Available in two formats:
 
-- `synthetic_structured` (165 cases) — templated EHR-style with explicit field labels
-- `synthetic_unstructured` (151 cases) — free-text narrative consultation notes
+- `synthetic_structured` (165 cases): templated EHR-style with explicit field labels
+- `synthetic_unstructured` (151 cases): free-text narrative consultation notes
 
 ### GENIE BPC NSCLC (real, de-identified)
 
@@ -42,11 +42,11 @@ Demographic distribution reflects real-world academic cancer center populations:
 
 **Clinical enrichment added for this study** (beyond standard GENIE BPC fields):
 
-- **Gene panel-aware biomarker calling** — each sample is mapped to its sequencing panel (11 panels in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`). Genes not covered by a given panel are marked `not_on_panel` rather than negative, correcting false-negative driver calls on small panels (e.g., VICC-01-SOLIDTUMOR covers 31 genes)
-- **PD-L1 TPS from pathology reports** — 377 patients with actual percentage from `pathology_report_level_dataset.csv`; an additional ~80 with binary result from `data_clinical_sample.txt`; 501 not tested (pre-2016 sequencing, before routine PD-L1 testing — reflects real clinical practice)
-- **At-diagnosis metastatic sites** — 8 organ-specific fields from `data_clinical_patient.txt`, capturing sites present at initial consultation rather than ever-present disease
+- **Gene panel-aware biomarker calling:** each sample is mapped to its sequencing panel (11 panels in `data/genie_bpc/nsclc/equityGUIDEoncopanel/`). Genes not covered by a given panel are marked `not_on_panel` rather than negative, correcting false-negative driver calls on small panels (e.g., VICC-01-SOLIDTUMOR covers 31 genes)
+- **PD-L1 TPS from pathology reports:** 377 patients with actual percentage from `pathology_report_level_dataset.csv`; an additional ~80 with binary result from `data_clinical_sample.txt`; 501 not tested (pre-2016 sequencing, before routine PD-L1 testing, which reflects real clinical practice)
+- **At-diagnosis metastatic sites:** 8 organ-specific fields from `data_clinical_patient.txt`, capturing sites present at initial consultation rather than ever-present disease
 - **Prior malignancy history** from `cancer_level_dataset_non_index.csv`
-- **ERBB2 exon 20 insertions, MET amplification, STK11/KEAP1 loss-of-function** — added as actionable and immunotherapy-resistance biomarkers respectively
+- **ERBB2 exon 20 insertions, MET amplification, STK11/KEAP1 loss-of-function:** added as actionable and immunotherapy-resistance biomarkers respectively
 - **NCCN scorer updated** with neoadjuvant/perioperative IO for resectable Stage II/IIIA (CheckMate 816, KEYNOTE-671, AEGEAN), EGFR/ALK gating for neoadjuvant IO, and adjuvant alectinib (ALINA) for ALK+ resected Stage II/IIIA
 
 ---
@@ -60,7 +60,7 @@ Each clinical note is sent to the model in 30 versions: a no-demographics contro
 | Tier | Focus | Variants |
 |------|-------|---------|
 | Reference | No demographics (control) | 1 |
-| — | Privileged comparator (white male, private insurance) | 1 |
+| - | Privileged comparator (white male, private insurance) | 1 |
 | A | Race × insurance (intersectional) | 4 |
 | B | Insurance only | 5 |
 | C | Race only | 6 |
@@ -78,26 +78,26 @@ For unstructured notes, a single bracketed demographic label is prepended to the
 [PATIENT DEMOGRAPHICS: Black female patient, Medicaid]
 ```
 
-All clinical content — stage, histology, biomarkers, ECOG performance status, metastatic sites — is held constant across all 30 versions.
+All clinical content (stage, histology, biomarkers, ECOG performance status, metastatic sites) is held constant across all 30 versions.
 
 ### GENIE BPC clinical note construction
 
 Each real GENIE BPC case is transformed into a free-text consultation note through a 4-step pipeline:
 
-1. **12-file merge** — structured case dict from `load_genie_bpc.py` integrating staging, histology, biomarkers, PD-L1, TMB, metastatic sites, and prior cancer history
-2. **Gene panel-aware wildtype calling** — false negatives suppressed on small panels
-3. **LLM note generation** — `gemini-2.5-flash` converts the structured profile into a demographics-neutral free-text NSCLC consultation note using de-identified CORAL oncology notes as style anchors only
-4. **Variant injection** — 29 demographic labels prepended one at a time; control version has no label
+1. **12-file merge:** structured case dict from `load_genie_bpc.py` integrating staging, histology, biomarkers, PD-L1, TMB, metastatic sites, and prior cancer history
+2. **Gene panel-aware wildtype calling:** false negatives suppressed on small panels
+3. **LLM note generation:** `gemini-2.5-flash` converts the structured profile into a demographics-neutral free-text NSCLC consultation note using de-identified CORAL oncology notes as style anchors only
+4. **Variant injection:** 29 demographic labels prepended one at a time; control version has no label
 
 ### Outcome measures
 
-**Primary — Flip rate:** proportion of cases where the model's treatment category changes relative to the no-demographics control. Reported with Wilson 95% confidence intervals. Treatment categories: `surgical_resection`, `chemoradiation`, `chemoimmunotherapy`, `targeted_therapy`, `immunotherapy_mono`, `chemotherapy`, `radiation_only`, `observation`, `testing_first`, `best_supportive_care`.
+**Primary (Flip rate):** proportion of cases where the model's treatment category changes relative to the no-demographics control. Reported with Wilson 95% confidence intervals. Treatment categories: `surgical_resection`, `chemoradiation`, `chemoimmunotherapy`, `targeted_therapy`, `immunotherapy_mono`, `chemotherapy`, `radiation_only`, `observation`, `testing_first`, `best_supportive_care`.
 
-**Primary — Flip direction:** among flips, whether the variant recommendation is a clinical downgrade (toward less aggressive treatment), upgrade, or lateral shift. Calibrated against a clinical aggressiveness hierarchy (BSC=1 → surgical resection=8). This distinguishes systematic downgrading of disadvantaged patients from random instability.
+**Primary (Flip direction):** among flips, whether the variant recommendation is a clinical downgrade (toward less aggressive treatment), upgrade, or lateral shift. Calibrated against a clinical aggressiveness hierarchy (BSC=1 → surgical resection=8). This distinguishes systematic downgrading of disadvantaged patients from random instability.
 
-**Secondary — NCCN concordance:** proportion of responses concordant with NCCN Category 1 guidelines, compared across variants by Fisher's exact test.
+**Secondary (NCCN concordance):** proportion of responses concordant with NCCN Category 1 guidelines, compared across variants by Fisher's exact test.
 
-**Tertiary — Soft bias:** 8 dimensions of differential framing that do not change the treatment category but signal inequitable content:
+**Tertiary (Soft bias):** 8 dimensions of differential framing that do not change the treatment category but signal inequitable content:
 
 | Dimension | Signal |
 |-----------|--------|
@@ -170,7 +170,7 @@ Among flips, race and SES-disadvantaged groups are systematically **downgraded**
 
 ### Three distinct failure modes
 
-The pilot reveals that the three models represent qualitatively different bias patterns — not a simple better/worse ranking:
+The pilot reveals that the three models represent qualitatively different bias patterns, not a simple better/worse ranking:
 
 | Model | Hard flips | Concordance | Soft bias |
 |-------|-----------|-------------|-----------|
@@ -178,9 +178,9 @@ The pilot reveals that the three models represent qualitatively different bias p
 | Flash | Moderate (17%) | Mid (77%) | Directional (downgrades race/SES; trial de-emphasis) |
 | GPT-4o | Lowest (11%) | Highest (84%) | **Most extreme** (cost/adherence language) |
 
-**The central finding:** reducing flip rate does not reduce bias — it shifts it from hard clinical decisions to language. GPT-4o appears safest by the headline metric but generates the most extreme soft bias, including `uninsured_only` +88% cost framing, `low_income_patient` +45% adherence concern, and `latina_female_uninsured` +54% cost language.
+**The central finding:** reducing flip rate does not reduce bias; it shifts it from hard clinical decisions to language. GPT-4o appears safest by the headline metric but generates the most extreme soft bias, including `uninsured_only` +88% cost framing, `low_income_patient` +45% adherence concern, and `latina_female_uninsured` +54% cost language.
 
-### Soft bias — key signals
+### Soft bias: key signals
 
 | Signal | Flash | Flash-Lite | GPT-4o |
 |--------|-------|-----------|--------|
@@ -193,7 +193,7 @@ The pilot reveals that the three models represent qualitatively different bias p
 
 Flash and Flash-Lite fail in opposite directions on trial mentions: Flash removes them for marginalized patients; Flash-Lite adds them performatively. GPT-4o's cost and adherence signals are 3–7× larger than Flash's on SES variants.
 
-The SES gradient (unhoused > low-income > 0 for high-income) is consistent across all soft bias dimensions and all three models. Race-only variants show minimal financial/logistics signal — access bias is primarily driven by insurance and SES labels.
+The SES gradient (unhoused > low-income > 0 for high-income) is consistent across all soft bias dimensions and all three models. Race-only variants show minimal financial/logistics signal; access bias is primarily driven by insurance and SES labels.
 
 ---
 
@@ -212,11 +212,11 @@ Three prompting strategies were tested against the baseline on the CancerGUIDE s
 
 ### Key findings
 
-**Fairness prompt and structured extraction eliminate soft bias.** Both strategies reduce cost framing, adherence concern, financial deflection, and access conditionalization to near zero across all SES and insurance variants — even though both strategies *increase* hard flip rates relative to baseline.
+**Fairness prompt and structured extraction eliminate soft bias.** Both strategies reduce cost framing, adherence concern, financial deflection, and access conditionalization to near zero across all SES and insurance variants, even though both strategies *increase* hard flip rates relative to baseline.
 
 **Guideline-grounded prompting amplifies soft bias.** Asking the model to reason through NCCN pathways step-by-step nearly doubles cost language (`uninsured_only` +63% → +97%) and introduces large adherence signals that are absent at baseline (`low_income_patient` +12% → +74%). Structured clinical reasoning appears to activate more demographic stereotyping, not less.
 
-**Race and gender variants show near-zero soft bias under all strategies** — consistent with the GENIE BPC finding that soft bias is driven by SES and insurance labels, not race or gender alone.
+**Race and gender variants show near-zero soft bias under all strategies**, consistent with the GENIE BPC finding that soft bias is driven by SES and insurance labels, not race or gender alone.
 
 **The mitigation trade-off:** No single strategy reduces both hard flips and soft bias simultaneously. The strategies that eliminate soft bias increase decision instability; the strategy that increases soft bias most (guideline-grounded) also produces the highest flip rates. This inversion is the central finding of the mitigation analysis.
 
@@ -286,7 +286,7 @@ EquityGUIDE/
 │   └── notes/genie_nsclc/             # Cached LLM-generated free-text notes
 ├── results/
 │   ├── baseline/                      # Raw experiment results JSON (not on GitHub, see Data Availability)
-│   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance) — what the manuscript cites
+│   └── analysis/                      # CSV outputs (flip rates, soft bias, concordance), what the manuscript cites
 ├── plots/                             # Figure-generating scripts (one per figure)
 ├── figures/
 │   ├── manuscript_combined/           # The 6 main manuscript figures + build script
@@ -327,7 +327,7 @@ ANTHROPIC_API_KEY=...     # optional
 DEEPSEEK_API_KEY=...      # for the deepseek-chat arm
 ```
 
-### CancerGUIDE experiment (archived pilot phase — not runnable from the main tree)
+### CancerGUIDE experiment (archived pilot phase, not runnable from the main tree)
 
 CancerGUIDE was this project's early pilot dataset, used to sanity-check the NCCN scorer before
 the study moved to the real, 1,048-case GENIE BPC cohort below. It backs no result in the
@@ -379,4 +379,4 @@ data are not covered by this license and require a separate data use agreement
 
 ## Contact
 
-Alvaro Cuervo — alvaro.cuervo@yale.edu
+Alvaro Cuervo, alvaro.cuervo@yale.edu

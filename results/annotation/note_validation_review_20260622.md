@@ -1,4 +1,4 @@
-# GENIE BPC NSCLC — Oncologist Note Validation Review
+# GENIE BPC NSCLC: Oncologist Note Validation Review
 
 **Date:** 20260622  |  **N:** 39 cases  |  **Seed:** 42
 

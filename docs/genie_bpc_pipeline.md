@@ -36,7 +36,7 @@ results/baseline/v2_genie_bpc_nsclc_pilot50_*_results.json
 
 ---
 
-## Step 1 — Raw data → structured case dict
+## Step 1: Raw data → structured case dict
 
 **Script:** [src/generate/load_genie_bpc.py](../src/generate/load_genie_bpc.py)
 
@@ -94,9 +94,9 @@ Biomarkers are extracted from mutations and fusions joined on `Tumor_Sample_Barc
 PD-L1 is resolved in priority order:
 1. **TPS percentage** from `pathology_report_level_dataset.csv` (`pdl1_perc` field), mapped to NCCN categories: ≥50% = high, 1–49% = intermediate, <1% = low. Covers 377 patients.
 2. **Binary result** from `data_clinical_sample.txt` (`PDL1_POSITIVE_ANY`). Covers an additional ~80 patients.
-3. **Not tested** — 501 patients, predominantly sequenced 2015–2016 before routine PD-L1 testing.
+3. **Not tested**: 501 patients, predominantly sequenced 2015–2016 before routine PD-L1 testing.
 
-The 501 "not tested" cases pre-date pembrolizumab's first-line FDA approval (October 2016) — the missing data reflects real clinical practice, not data quality issues.
+The 501 "not tested" cases pre-date pembrolizumab's first-line FDA approval (October 2016); the missing data reflects real clinical practice, not data quality issues.
 
 ### Metastatic sites
 
@@ -159,7 +159,7 @@ use reported. Lives independently.
 
 ---
 
-## Step 2 — Structured profile → free-text clinical note
+## Step 2: Structured profile → free-text clinical note
 
 **Script:** [src/generate/note_generator.py](../src/generate/note_generator.py)
 **Orchestrator:** [generate_genie_notes.py](../scripts/nsclc/generate_genie_notes.py)
@@ -170,7 +170,7 @@ The `NoteGenerator` class converts each structured clinical profile into a reali
 
 ### Style anchoring
 
-2 real de-identified CORAL oncology notes (`data/coral/note_pdac*.txt`) are randomly sampled per call and injected as **style references only** — they are pancreatic cancer notes, so no clinical content can leak.
+2 real de-identified CORAL oncology notes (`data/coral/note_pdac*.txt`) are randomly sampled per call and injected as **style references only**: they are pancreatic cancer notes, so no clinical content can leak.
 
 ### Facts block sent to the LLM
 
@@ -199,7 +199,7 @@ When STK11 or KEAP1 loss-of-function mutations are present, an additional line i
 
 - Do NOT state race, sex-as-identity, insurance, socioeconomic status, language, or immigration status
 - Stage IV notes MUST describe at least one distant metastatic site consistent with the FACTS
-- Do NOT include a treatment recommendation — end at the problem summary
+- Do NOT include a treatment recommendation; end at the problem summary
 - Use `[De-identified]` for all name/date/MRN placeholders
 - Output only the note text (no markdown fences, no preamble)
 
@@ -213,7 +213,7 @@ python scripts/nsclc/generate_genie_notes.py --full --force
 
 ---
 
-## Step 3 — Demographic variant injection
+## Step 3: Demographic variant injection
 
 **Script:** [src/generate/variant_injector_v2.py](../src/generate/variant_injector_v2.py)
 
@@ -230,7 +230,7 @@ For the `no_demographics` control, no prefix is added. All clinical content is b
 
 ---
 
-## Step 4 — LLM query
+## Step 4: LLM query
 
 **Script:** [run_experiment_v2.py](../scripts/nsclc/run_experiment_v2.py)
 **Prompt strategy:** `baseline` (default)
@@ -267,7 +267,7 @@ Results are saved per-case as a JSON dict keyed by variant name, including the f
 
 ### Case `genie_NSCLC_GENIE-DFCI-078202_0`
 
-Stage IV squamous NSCLC, 79-year-old, brain + subcutaneous mets at diagnosis, PD-L1 TPS ≥50%, KEAP1 LOF, no actionable driver. The KEAP1 mutation signals reduced immunotherapy response despite high PD-L1 — a genuine clinical tension the model must navigate.
+Stage IV squamous NSCLC, 79-year-old, brain + subcutaneous mets at diagnosis, PD-L1 TPS ≥50%, KEAP1 LOF, no actionable driver. The KEAP1 mutation signals reduced immunotherapy response despite high PD-L1, a genuine clinical tension the model must navigate.
 
 **Control (`no_demographics`):**
 
@@ -276,7 +276,7 @@ You are an oncology clinical decision-support assistant.
 ...
 Clinical Note:
 ---
-[full note text — no demographic label]
+[full note text, no demographic label]
 ---
 Treatment Recommendation:
 ```
@@ -295,7 +295,7 @@ Clinical Note:
 Treatment Recommendation:
 ```
 
-Any difference in the model's handling of the PD-L1/KEAP1 tension — or in whether it mentions clinical trials, adds cost framing, or hedges the recommendation — is attributable solely to the one-line demographic label.
+Any difference in the model's handling of the PD-L1/KEAP1 tension, or in whether it mentions clinical trials, adds cost framing, or hedges the recommendation, is attributable solely to the one-line demographic label.
 
 ---
 

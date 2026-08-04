@@ -1,8 +1,8 @@
-# SUBMISSION READINESS — EquityGUIDE Paper 1 (NSCLC)
+# SUBMISSION READINESS: EquityGUIDE Paper 1 (NSCLC)
 _Single source of truth for what remains before submission · 2026-07-15_
 _Target: medRxiv preprint → JMIR AI (primary) / BMC MIDM (backup)_
 
-## Verdict: **NOT YET — but close. The science is done and validated; what remains is editorial.**
+## Verdict: **NOT YET, but close. The science is done and validated; what remains is editorial.**
 
 A four-seat validation deep-dive (stats / figures / red-team / codebase; details in
 `VALIDATION_REPORT.md` + the four `archive/VALIDATION_*.md` files) confirmed the manuscript's
@@ -10,21 +10,21 @@ quantitative claims reproduce **exactly** from the results files: flip-rate mean
 Table 2 Cohen's d 8/8, cohort N / stage / histology / site / EGFR / PD-L1, and the full
 concordance table. The central finding (race≈0, monotone SES gradient, decision-stable /
 framing-shifted dissociation) is sound and robust. No fabricated numbers were found. The
-blockers below are disclosure, missing supplementary artifacts, and housekeeping — none
+blockers below are disclosure, missing supplementary artifacts, and housekeeping: none
 change a result.
 
 ---
 
-## BLOCKING — must clear before submission
+## BLOCKING: must clear before submission
 
 | # | Item | Why it blocks | Effort | Owner |
 |---|---|---|---|---|
 | B1 | **Second blinded rater labels the random gold set** (`gold_random_rater{1,2}.csv`), then run `score_random_gold_v2.py --gold-tag random` | Single-rater status (even at κ=0.57, PABAK 0.83) is a top reviewer risk; the sheet is built but unlabeled. Longest lead time (needs a human). | ~half-day of a second rater | Alvaro + 1 rater (lab-mate/mentor; clinician stronger) |
-| B2 | **Fill reference placeholders 7, 8, 14** (Funding — RESOLVED, states no external funding) | An editor will not accept a manuscript with `[Author to insert…]` in the reference list. Ref 7 = **NCCN NSCLC v6.2026** (scorer is pinned there). Ref 8 = CancerGUIDE dataset. Ref 14 = deployment-vendor sources. | ~1 hr | Alvaro |
+| B2 | **Fill reference placeholders 7, 8, 14** (Funding: RESOLVED, states no external funding) | An editor will not accept a manuscript with `[Author to insert…]` in the reference list. Ref 7 = **NCCN NSCLC v6.2026** (scorer is pinned there). Ref 8 = CancerGUIDE dataset. Ref 14 = deployment-vendor sources. | ~1 hr | Alvaro |
 | B3 | **Generate the two missing supplementary artifacts** the manuscript already cites: **FigS0** (cohort/PD-L1 breakdown) and **Supplementary Table S3** (`supplementary_table_29variants_per_model.csv`) | Both are referenced in-text but do not exist on disk. S3 is a straightforward export from `results/analysis/*_soft_intensity.csv` (per-model Cohen's d already there). | ~1–2 hr | Alvaro / me |
-| B4 | **Add inline single-rater hedge at every headline stigma number** (not just the Results epigraph + Limitations) — e.g. "(single-rater validated, κ=0.57; read as rank not magnitude)" | Reviewers quote the number, not the disclaimer paragraph. | ~30 min | Alvaro / me |
+| B4 | **Add inline single-rater hedge at every headline stigma number** (not just the Results epigraph + Limitations), e.g. "(single-rater validated, κ=0.57; read as rank not magnitude)" | Reviewers quote the number, not the disclaimer paragraph. | ~30 min | Alvaro / me |
 | B5 | **Cite a reliability benchmark** (Viera & Garrett 2005 or Hallgren 2012) next to "fair agreement," and replace "not possible within this study's scope" with a concrete 2nd-rater protocol stub | Anchors the κ label externally; converts a vague limitation into a committed plan. | ~20 min | Alvaro / me |
-| B6 | **Disclose English-only scope** in Limitations (one sentence) | Bears directly on the immigrant / limited-English variant tier's null claim — an English-only pipeline tests a label, not a language-access mechanism. Currently undisclosed. | ~10 min | me |
+| B6 | **Disclose English-only scope** in Limitations (one sentence) | Bears directly on the immigrant / limited-English variant tier's null claim: an English-only pipeline tests a label, not a language-access mechanism. Currently undisclosed. | ~10 min | me |
 | B7 | **`git add` + commit the manuscript** (`docs/paper1_nsclc/manuscript_nsclc.md` is currently untracked) | Not under version control. | 2 min | Alvaro |
 
 ---
@@ -40,9 +40,9 @@ change a result.
 
 ## NICE-TO-HAVE (post-submission or reviewer-response)
 
-- **A4 — case-clustered CIs** (bootstrap / cluster-robust) instead of pooled Wilson intervals. A reviewer bootstrap already showed Wilson understates uncertainty on this repeated-measures design. Closes a real statistical objection; strong to have ready for revision.
-- **README circularity reframe** — move the note-provenance / template + PMC rebuttal to the top (exposition only; evidence already exists).
-- **Soften the GPT-4o "appropriate-care displacement" anomaly** — it's an n=1-model observation; phrase as "cannot be distinguished from noise" rather than asserting a mechanism.
+- **A4: case-clustered CIs** (bootstrap / cluster-robust) instead of pooled Wilson intervals. A reviewer bootstrap already showed Wilson understates uncertainty on this repeated-measures design. Closes a real statistical objection; strong to have ready for revision.
+- **README circularity reframe**: move the note-provenance / template + PMC rebuttal to the top (exposition only; evidence already exists).
+- **Soften the GPT-4o "appropriate-care displacement" anomaly**: it's an n=1-model observation; phrase as "cannot be distinguished from noise" rather than asserting a mechanism.
 - **Fix duplicated `## Discussion` header** in the manuscript.
 - **Archive housekeeping** (non-manuscript): move superseded `results/baseline/*n300_gpt-4o*` (old n=209) and dropped `*claude-sonnet-5*` stubs to an `archive/` folder so a repo-inspecting reviewer isn't confused. Do not delete.
 
@@ -58,6 +58,6 @@ change a result.
 - ✅ Robustness controls (template notes, PMC real notes, natural-embedding A/B) present and cited.
 
 ## Critical-path order
-**B1 first** (longest lead time — recruit + label), in parallel with B2–B7 and D1–D2 (all quick).
+**B1 first** (longest lead time: recruit + label), in parallel with B2–B7 and D1–D2 (all quick).
 When B1's κ lands, drop it into the Judge-Validation + Limitations sections, resolve D1's footnote,
 and the manuscript is submission-ready for medRxiv + JMIR AI.

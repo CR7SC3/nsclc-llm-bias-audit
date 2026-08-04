@@ -1,4 +1,4 @@
-# Paper 1 (NSCLC) — Reproducibility Recipe
+# Paper 1 (NSCLC): Reproducibility Recipe
 
 End-to-end, linear recipe to reproduce the NSCLC manuscript
 (`docs/paper1_nsclc/manuscript_nsclc.md`) from the raw GENIE BPC download
@@ -34,7 +34,7 @@ detail could not be verified from the code it is flagged as **[VERIFY]**.
 - **Sanity check**: `venv/bin/python test_setup.py` verifies dependencies,
   API-key reachability, and that every `src/` module imports.
 
-> **requirements.txt completeness gap** — `requirements.txt` is present but
+> **requirements.txt completeness gap:** `requirements.txt` is present but
 > does **not** pin four packages the code imports directly:
 > `anthropic` (Sonnet arm + judge), `openai` (GPT-4o / GPT-4o-mini arms),
 > `groq` (Groq-hosted arms), and `synapseclient` (raw GENIE download).
@@ -66,7 +66,7 @@ detail could not be verified from the code it is flagged as **[VERIFY]**.
 
 ---
 
-## Step 0 — Raw data (ACCESS-GATED)
+## Step 0: Raw data (ACCESS-GATED)
 
 GENIE BPC is **not public**. It is released to qualified researchers through
 the AACR Project GENIE Biopharma Collaborative data-access process
@@ -93,7 +93,7 @@ Required NSCLC files (per `src/generate/load_genie_bpc.py`):
 
 ---
 
-## Step 1 — Build the processed cohort
+## Step 1: Build the processed cohort
 
 ```bash
 venv/bin/python src/generate/load_genie_bpc.py
@@ -108,7 +108,7 @@ TPS is "unknown" (GENIE BPC does not carry these); see the script docstring.
 
 ---
 
-## Step 2 — Generate free-text notes
+## Step 2: Generate free-text notes
 
 ```bash
 # Stratified pilot first (review, then full):
@@ -128,7 +128,7 @@ canonical `data/processed/genie_bpc_nsclc_with_notes.json`. QA runs via
 
 ---
 
-## Step 3 — Per-model experiment runs (the 6-model panel)
+## Step 3: Per-model experiment runs (the 6-model panel)
 
 Each model is run through the same 22-variant (v2) demographic-injection
 pipeline on all 1,048 cases. Cached, resumable checkpoints; re-running skips
@@ -145,7 +145,7 @@ venv/bin/python scripts/nsclc/run_experiment_genie_bpc.py --cohort nsclc --model
 ```
 
 > **These checkpoints and their final `_results.json` are not committed to
-> GitHub** — several are 100-400 MB, over GitHub's per-file limit, and the
+> GitHub**: several are 100-400 MB, over GitHub's per-file limit, and the
 > repo's Data Availability statement already covers them ("Generated notes
 > and results: available upon reasonable request"). `.gitignore` excludes
 > `results/baseline/*.json` (a small set of early pilot results committed
@@ -166,7 +166,7 @@ downstream `ARMS` maps expect (see `scripts/nsclc/finalize_panel.py`):
 | gpt-4o | `v2_genie_bpc_nsclc_gpt-4o_checkpoint.json` |
 | gpt-4o-mini | `v2_genie_bpc_nsclc_gpt-4o-mini_checkpoint.json` |
 
-**Anthropic (Sonnet) arm** — use the Message Batches runner (50% cheaper,
+**Anthropic (Sonnet) arm:** use the Message Batches runner (50% cheaper,
 byte-identical prompts, same checkpoint schema/path). Default is a safe dry
 run; `--submit` actually spends:
 
@@ -184,7 +184,7 @@ panel input.
 
 ---
 
-## Step 4 — Analysis (no API calls; runs on cached checkpoints)
+## Step 4: Analysis (no API calls; runs on cached checkpoints)
 
 ### 4a. Per-model figure-input CSVs (feeds Figs 4, 5, 5b)
 ```bash
@@ -193,7 +193,7 @@ venv/bin/python scripts/nsclc/analyze_results_v2.py --subset genie_bpc_nsclc --s
 # ...repeat --subset genie_bpc_nsclc_<model> for each of the other five arms
 ```
 Produces `..._soft_intensity.csv` (Cohen's d + BH q per variant) and
-`..._flip_rates.csv` (flip rate + Wilson CI) — the exact files
+`..._flip_rates.csv` (flip rate + Wilson CI): the exact files
 `plots/plot_publishable_nsclc.py` reads (`BASE = results/analysis/v2_genie_bpc_nsclc`).
 
 ### 4b. Corrected confirmatory statistics (Fig 4 equivalence annotations, Results text)
@@ -202,7 +202,7 @@ venv/bin/python scripts/nsclc/correct_analysis.py       # prints to stdout
 ```
 Directional decision test (sign test + signed tier-shift d/CI), TOST
 equivalence with pre-specified margin, grid-wide BH-FDR, and the
-soft-bias defensible-vs-stigma split. Console report — capture stdout for the
+soft-bias defensible-vs-stigma split. Console report: capture stdout for the
 manuscript's numeric claims.
 
 ### 4c/4d. Panel stigma gradient (feeds Figs 6, 7, 7b)
@@ -215,7 +215,7 @@ Stigma composite = `adherence_compliance OR sdoh_generation` (pre-registered).
 re-derives case-clustered CIs (N_BOOT=10000, SEED=20260715) that correctly
 widen the multi-variant strata.
 
-### 4e. Partial concordance (feeds Fig 2 panel B — secondary/exploratory)
+### 4e. Partial concordance (feeds Fig 2 panel B, secondary/exploratory)
 ```bash
 venv/bin/python scripts/nsclc/analyze_partial_concordance.py
 # -> results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv
@@ -231,7 +231,7 @@ Writes `*_adherence.csv`, `*_concordance_rates.csv`, `*_flip_rates.csv`,
 
 ---
 
-## Step 5 — Figures
+## Step 5: Figures
 
 The manuscript's **6 main figures** live in `figures/manuscript_combined/`
 (`Figure1_study_design.png` … `Figure6_robustness_precision_filter.png`).
@@ -278,7 +278,7 @@ Authoritative figure↔legend mapping and navigation aid:
 
 ---
 
-## Step J — Judge validation track (stigma-inflation footnote)
+## Step J: Judge validation track (stigma-inflation footnote)
 
 ```bash
 venv/bin/python scripts/nsclc/build_judge_packet.py     # -> adjudication/judge_items.jsonl
@@ -304,25 +304,25 @@ The manuscript draws its numbers/figures from these files (all under
 scheme (see `figures/manuscript/NARRATIVE_ORDER.md`), not the interim
 numbering used in earlier drafts of this document.
 
-- `results/baseline/v2_genie_bpc_nsclc[_<model>]_checkpoint.json` — the six raw
+- `results/baseline/v2_genie_bpc_nsclc[_<model>]_checkpoint.json`: the six raw
   model-output checkpoints (panel source of truth; **not distributed via
   GitHub**, see the note under Step 3).
 - `results/analysis/v2_genie_bpc_nsclc[_<model>]_soft_intensity.csv` and
-  `_flip_rates.csv` — per-model effect sizes / flip rates (Figures 2-5).
+  `_flip_rates.csv`: per-model effect sizes / flip rates (Figures 2-5).
 - `results/analysis/panel_stigma_rates.csv` and
-  `panel_stigma_rates_clustered.csv` — per-stratum stigma gradient (Figure 5,
+  `panel_stigma_rates_clustered.csv`: per-stratum stigma gradient (Figure 5,
   Figures S3, S4, S9).
-- `results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv` —
+- `results/analysis/v2_genie_bpc_nsclc_partial_concordance_summary.csv`:
   partial-concordance sensitivity check (background/exploratory; not currently
   cited by a numbered figure in the manuscript text).
-- `results/analysis/v2_genie_bpc_nsclc[_<model>]_{adherence,concordance_rates}.csv` —
+- `results/analysis/v2_genie_bpc_nsclc[_<model>]_{adherence,concordance_rates}.csv`:
   concordance null (Figure 2, Table 2).
 - `results/analysis/v2_genie_bpc_nsclc_restricted_bias_gap_by_variant.csv` and
-  `_restricted_venn_counts.csv` — restricted-to-concordant-control sensitivity
+  `_restricted_venn_counts.csv`: restricted-to-concordant-control sensitivity
   analysis (Figure S12, Supplementary Results). Computed with the pre-registered
-  2-dimension stigma composite (`adherence_compliance`, `sdoh_generation`) —
+  2-dimension stigma composite (`adherence_compliance`, `sdoh_generation`);
   do not substitute an older copy of this CSV computed with a broader composite.
-- `adjudication/judge_labels.json` — judge adjudication (Figure S6 + footnote).
+- `adjudication/judge_labels.json`: judge adjudication (Figure S6 + footnote).
 
 Robustness tracks (Figure 6) additionally use:
 `data/processed/genie_bpc_nsclc_templates_with_notes.json` (6A, circularity
@@ -332,5 +332,5 @@ control), with their analysis CSVs under `results/analysis/` (`v2_pmc_nsclc_*`,
 natural-embedding outputs).
 
 Do not treat any `synthetic_structured*` / `synthetic_unstructured*` files as
-manuscript inputs — those are the earlier CancerGUIDE synthetic-note track,
+manuscript inputs: those are the earlier CancerGUIDE synthetic-note track,
 superseded by the GENIE (`v2_genie_bpc_nsclc*`) runs for this paper.
