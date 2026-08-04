@@ -743,7 +743,7 @@ merely removes care.
 **Data Availability:** GENIE BPC data are available to qualified researchers via the AACR
 Project GENIE Biopharma Collaborative data access process (https://www.aacr.org/professionals/research/aacr-project-genie/biopharma-collaborative/).
 This study's derived case-level analysis outputs, demographic-variant injection code, and
-statistical analysis scripts are available at https://github.com/CR7SC3/equityGUIDE. The
+statistical analysis scripts are available at https://github.com/CR7SC3/nsclc-llm-bias-audit. The
 raw per-model response files are not distributed in the repository due to size and are
 available from the corresponding author upon reasonable request.
 
@@ -761,7 +761,7 @@ human-subjects research requiring IRB review (Methods, Ethical Considerations).
 
 **Code Availability:** All analysis code (variant injection, NCCN concordance scoring,
 soft-bias/stigma detection, statistical analysis, and figure generation) is available at
-https://github.com/CR7SC3/equityGUIDE under the MIT license.
+https://github.com/CR7SC3/nsclc-llm-bias-audit under the MIT license.
 
 **Conflicts of Interest:** The authors declare no competing interests relevant to this
 manuscript.
