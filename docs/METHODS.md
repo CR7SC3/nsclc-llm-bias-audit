@@ -50,7 +50,13 @@ CancerGUIDE notes were generated without demographic content by design, but resi
 
 ## 2. Dataset Loading and Demographic Stripping
 
-**File:** `src/generate/load_cases.py`
+> **Archived pilot phase.** This section documents the CancerGUIDE loading step from the
+> project's early pilot (see §1). The file and its output directories have since been moved to
+> `archive/cancerguide_pilot/` to keep the main tree focused on the GENIE BPC study the
+> manuscript reports; paths below are historical and not runnable in place without restoring
+> the archive first.
+
+**File:** `archive/cancerguide_pilot/src/generate/load_cases.py` (originally `src/generate/load_cases.py`)
 
 ### Loading
 
@@ -80,7 +86,8 @@ This step is critical for experimental validity. If a note already contains "she
 
 ### Output Structure
 
-Processed cases are saved to three directories:
+Processed cases were saved to three directories (now under `archive/cancerguide_pilot/`, see
+note above):
 
 - `data/raw/` — original HuggingFace records, unmodified
 - `data/processed/` — stripped notes with original labels (no variant texts)

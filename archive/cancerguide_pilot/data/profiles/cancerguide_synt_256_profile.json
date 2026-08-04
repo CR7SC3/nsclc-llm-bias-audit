@@ -1,0 +1,21 @@
+{
+  "stage": "IB",
+  "histology": "adenocarcinoma",
+  "egfr_status": "unknown",
+  "alk_status": "unknown",
+  "ros1_status": "unknown",
+  "braf_status": "unknown",
+  "met_status": "unknown",
+  "ret_status": "unknown",
+  "ntrk_status": "unknown",
+  "pdl1_tps_category": "unknown",
+  "treatment_phase": "post_resection",
+  "resectability": "resectable",
+  "resection_status": "R0",
+  "t_category": "T2a",
+  "ecog_ps": 1,
+  "brain_mets": false,
+  "medically_inoperable": false,
+  "prior_therapy": "naive",
+  "cancer_type": "nsclc"
+}
