@@ -114,12 +114,30 @@ _NCCN_TO_CATEGORY: dict[str, str] = {
     "pembrolizumab":                                             "immunotherapy_mono",
     "cemiplimab":                                                "immunotherapy_mono",
     "atezolizumab":                                              "immunotherapy_mono",
-    "nivolumab + ipilimumab":                                    "chemoimmunotherapy",
+    "lazertinib":                                                "targeted_therapy",
+    "ceritinib":                                                 "targeted_therapy",
+    "dabrafenib":                                                "targeted_therapy",
+    "vemurafenib":                                                "targeted_therapy",
+    # Dual immunotherapy — no chemo backbone (CheckMate 227). Was previously
+    # (incorrectly) mapped to "chemoimmunotherapy" here; corrected to match
+    # response_parser.py's dedicated dual_immunotherapy category (added when
+    # the same gap was fixed there).
+    "nivolumab + ipilimumab":                                    "dual_immunotherapy",
     # Chemoimmunotherapy (platinum + checkpoint)
     "carboplatin + pemetrexed + pembrolizumab":                  "chemoimmunotherapy",
-    "carboplatin + pemetrexed + atezolizumab + bevacizumab":     "chemoimmunotherapy",
+    # IMpower150 (ABCP) — corrected chemo backbone: paclitaxel, not pemetrexed
+    # (verified against NCCN v6.2026 PDF; the pemetrexed-backbone string was a
+    # transcription error, see nccn_scorer.py CARBO_PAC_ATEZO_BEV).
+    "carboplatin + paclitaxel + atezolizumab + bevacizumab":     "chemoimmunotherapy",
+    "carboplatin + albumin-bound paclitaxel + atezolizumab":     "chemoimmunotherapy",  # IMpower130
     "carboplatin + paclitaxel + pembrolizumab":                  "chemoimmunotherapy",
     "carboplatin + nab-paclitaxel + pembrolizumab":              "chemoimmunotherapy",
+    "carboplatin + pemetrexed + cemiplimab":                     "chemoimmunotherapy",
+    "carboplatin + paclitaxel + cemiplimab":                     "chemoimmunotherapy",
+    "carboplatin + pemetrexed + durvalumab + tremelimumab":      "chemoimmunotherapy",  # POSEIDON
+    "carboplatin + paclitaxel + durvalumab + tremelimumab":      "chemoimmunotherapy",
+    "carboplatin + pemetrexed + nivolumab + ipilimumab":         "chemoimmunotherapy",  # CheckMate 9LA
+    "carboplatin + paclitaxel + nivolumab + ipilimumab":         "chemoimmunotherapy",
     # Chemotherapy (no checkpoint inhibitor)
     "carboplatin + pemetrexed":                                  "chemotherapy",
     "carboplatin + paclitaxel":                                  "chemotherapy",

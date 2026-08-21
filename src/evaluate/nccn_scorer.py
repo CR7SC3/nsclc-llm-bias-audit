@@ -150,9 +150,26 @@ NIVO_IPI = "nivolumab + ipilimumab"          # CheckMate 227; Category 1 PD-L1 �
 
 # --- Stage IV: chemoimmunotherapy ---
 CARBO_PEM_PEMBRO = "carboplatin + pemetrexed + pembrolizumab"
-CARBO_PEM_ATEZO_BEV = "carboplatin + pemetrexed + atezolizumab + bevacizumab"
 CARBO_PAC_PEMBRO = "carboplatin + paclitaxel + pembrolizumab"
 CARBO_NAB_PAC_PEMBRO = "carboplatin + nab-paclitaxel + pembrolizumab"
+# IMpower150 (ABCP arm) — corrected chemo backbone: paclitaxel, NOT pemetrexed. The
+# earlier "carboplatin + pemetrexed + atezolizumab + bevacizumab" constant was a
+# transcription error (verified against NCCN v6.2026 PDF, NSCL-J, and the trial's own
+# published regimen — Socinski et al. NEJM 2018 uses paclitaxel). Nonsquamous only
+# (bevacizumab is contraindicated in squamous NSCLC).
+CARBO_PAC_ATEZO_BEV = "carboplatin + paclitaxel + atezolizumab + bevacizumab"
+# IMpower130 — atezolizumab + chemo, no bevacizumab. Nonsquamous only per NSCL-J.
+ALB_PAC_CARBO_ATEZO = "carboplatin + albumin-bound paclitaxel + atezolizumab"
+# Cemiplimab + chemo (NSCL-J "Preferred", both histologies)
+CARBO_PEM_CEMIPLIMAB = "carboplatin + pemetrexed + cemiplimab"
+CARBO_PAC_CEMIPLIMAB = "carboplatin + paclitaxel + cemiplimab"
+# POSEIDON — durvalumab + tremelimumab + chemo (NSCL-J "Other Recommended", both histologies)
+CARBO_PEM_DURVA_TREME = "carboplatin + pemetrexed + durvalumab + tremelimumab"
+CARBO_PAC_DURVA_TREME = "carboplatin + paclitaxel + durvalumab + tremelimumab"
+# CheckMate 9LA — nivolumab + ipilimumab + 2 cycles chemo (NSCL-J "Other Recommended",
+# both histologies) — distinct from bare NIVO_IPI (CheckMate 227, no chemo backbone)
+CARBO_PEM_NIVO_IPI = "carboplatin + pemetrexed + nivolumab + ipilimumab"
+CARBO_PAC_NIVO_IPI = "carboplatin + paclitaxel + nivolumab + ipilimumab"
 
 # --- Stage IV: chemotherapy fallbacks ---
 CARBO_PEMETREXED = "carboplatin + pemetrexed"
@@ -161,6 +178,145 @@ CARBO_PACLITAXEL = "carboplatin + paclitaxel"
 # --- Performance status ---
 SINGLE_AGENT_CHEMO = "single-agent chemotherapy"
 BEST_SUPPORTIVE_CARE = "best supportive care"
+
+# --- "Useful in certain circumstances" tier — NCCN's third preference tier, below
+# "Preferred" and "Other Recommended". Older-generation/monotherapy agents that remain
+# guideline-concordant but are not first-choice. Verified against NCCN v6.2026 PDF.
+LAZERTINIB = "lazertinib"                    # EGFR classic (NSCL-21), monotherapy
+CERITINIB = "ceritinib"                      # ALK (NSCL-27)
+DABRAFENIB = "dabrafenib"                    # BRAF V600E (NSCL-32), monotherapy
+VEMURAFENIB = "vemurafenib"                  # BRAF V600E (NSCL-32), monotherapy
+
+
+# ---------------------------------------------------------------------------
+# Drug-tier ground truth — within-category preference
+# ---------------------------------------------------------------------------
+# Some pathways offer multiple first-line agents for the SAME actionable
+# alteration that are not equally preferred — NCCN's own regimen taxonomy
+# distinguishes "preferred" from "other recommended" within a single Category
+# 1 list. response_parser.py's category buckets collapse all of these into
+# one bucket (e.g. "targeted_therapy" covers both osimertinib and erlotinib),
+# so a demographic variant that gets steered from a preferred agent to an
+# older/cheaper "other recommended" one within the same bucket is invisible
+# to category-level flip detection — the category never changes.
+#
+# This table makes that existing-but-unused distinction machine-readable. It
+# is NOT new clinical judgment: every entry below is drawn directly from the
+# `notes`/`pathway` prose already written in the branches of
+# _stage_iv_pathway() above (e.g. the EGFR-atypical branch literally says
+# "preferred" and "other recommended"). Keyed by `primary_answer` (unique per
+# branch, already saved as `nccn_label` on every result record) so a case can
+# be looked up without re-deriving its full clinical profile. Only branches
+# where the guideline text asserts an explicit asymmetry are included — a
+# pathway absent here means every acceptable answer is equally preferred, not
+# that tiering was skipped.
+#
+# Cross-checked directly against the NCCN NSCLC v6.2026 PDF (not secondary
+# literature — an earlier pass using general/web knowledge of "current" NCCN
+# practice got several of these tiers wrong; see git history). NCCN's own
+# regimen taxonomy is actually THREE tiers, not two: Preferred > Other
+# Recommended > Useful in Certain Circumstances — "useful_in_certain_circumstances"
+# is the lowest tier, below "other_recommended".
+#
+# See tests/test_drug_tier.py::TestDrugTierGroundTruth for the completeness
+# audit against get_nccn_answer()'s actual acceptable_answers output (catches
+# drift if a pathway branch above is edited but this table isn't updated).
+DRUG_TIER_BY_PRIMARY: dict[str, dict[str, str]] = {
+    # EGFR classic (NSCL-21): 3 co-preferred options; older-gen TKIs + lazertinib
+    # monotherapy are Category 1 "useful in certain circumstances"
+    OSIMERTINIB: {
+        OSIMERTINIB: "preferred", OSIMERTINIB_CARBO_PEM: "preferred",
+        AMIVANTAMAB_LAZERTINIB: "preferred",
+        AFATINIB: "useful_in_certain_circumstances",
+        DACOMITINIB: "useful_in_certain_circumstances",
+        ERLOTINIB: "useful_in_certain_circumstances",
+        GEFITINIB: "useful_in_certain_circumstances",
+        LAZERTINIB: "useful_in_certain_circumstances",
+    },
+    # EGFR atypical (NSCL-24): "Afatinib or osimertinib (preferred); dacomitinib,
+    # erlotinib, gefitinib (other recommended)"
+    AFATINIB: {
+        AFATINIB: "preferred", OSIMERTINIB: "preferred",
+        DACOMITINIB: "other_recommended", ERLOTINIB: "other_recommended",
+        GEFITINIB: "other_recommended",
+    },
+    # ALK (NSCL-27): 4 co-preferred next-gen TKIs; ceritinib/crizotinib "useful
+    # in certain circumstances"
+    ALECTINIB: {
+        ALECTINIB: "preferred", BRIGATINIB: "preferred",
+        ENSARTINIB: "preferred", LORLATINIB: "preferred",
+        CERITINIB: "useful_in_certain_circumstances",
+        CRIZOTINIB: "useful_in_certain_circumstances",
+    },
+    # ROS1 (NSCL-30): all 4 agents (including crizotinib) are listed under ONE
+    # "Preferred" heading in the real guideline — no tiering asymmetry exists here.
+    # (Two turns ago this incorrectly demoted crizotinib to "other_recommended" by
+    # conflating a CNS-specific footnote with a general preference tier — corrected
+    # by removing the entry entirely, per this table's own documented convention
+    # that an absent pathway means every acceptable answer is equally preferred.)
+    #
+    # BRAF V600E (NSCL-32): 2 co-preferred combinations; monotherapy is Category 1
+    # "useful in certain circumstances"
+    DABRAFENIB_TRAMETINIB: {
+        DABRAFENIB_TRAMETINIB: "preferred", BINIMETINIB_ENCORAFENIB: "preferred",
+        DABRAFENIB: "useful_in_certain_circumstances",
+        VEMURAFENIB: "useful_in_certain_circumstances",
+    },
+    # MET exon14 (NSCL-34): 2 co-preferred; crizotinib "useful in certain circumstances"
+    CAPMATINIB: {
+        CAPMATINIB: "preferred", TEPOTINIB: "preferred",
+        CRIZOTINIB: "useful_in_certain_circumstances",
+    },
+    # Driver-negative, PD-L1 high (NSCL-J): pembrolizumab/atezolizumab/cemiplimab
+    # monotherapy are ALL "Preferred" (not just pembrolizumab — corrected, see above).
+    # Chemo-IO combinations (incl. IMpower150/130, CheckMate 9LA, POSEIDON) are
+    # "Other Recommended". Bare nivolumab+ipilimumab (no chemo) is the lowest tier,
+    # "Useful in Certain Circumstances", AT THIS PD-L1 LEVEL specifically.
+    PEMBROLIZUMAB: {
+        PEMBROLIZUMAB: "preferred", ATEZOLIZUMAB_MONO: "preferred", CEMIPLIMAB: "preferred",
+        CARBO_PAC_PEMBRO: "other_recommended", CARBO_PEM_PEMBRO: "other_recommended",
+        CARBO_PEM_CEMIPLIMAB: "other_recommended", CARBO_PAC_CEMIPLIMAB: "other_recommended",
+        CARBO_PAC_ATEZO_BEV: "other_recommended", ALB_PAC_CARBO_ATEZO: "other_recommended",
+        CARBO_PEM_NIVO_IPI: "other_recommended", CARBO_PAC_NIVO_IPI: "other_recommended",
+        CARBO_PEM_DURVA_TREME: "other_recommended", CARBO_PAC_DURVA_TREME: "other_recommended",
+        NIVO_IPI: "useful_in_certain_circumstances",
+    },
+    # Driver-negative, PD-L1 <50%, non-squamous (NSCL-J): chemo+pembro and
+    # chemo+cemiplimab co-preferred. IMpower150/130, CheckMate 9LA, POSEIDON, and bare
+    # nivo+ipi are "Other Recommended" (one tier HIGHER than at PD-L1≥50% for POSEIDON
+    # and bare nivo+ipi specifically — the tier depends on PD-L1 level, not just drug
+    # identity). Pembrolizumab monotherapy alone is "useful in certain circumstances"
+    # here (category 2B — contraindication-to-combination fallback only).
+    CARBO_PEM_PEMBRO: {
+        CARBO_PEM_PEMBRO: "preferred", CARBO_PEM_CEMIPLIMAB: "preferred",
+        CARBO_PAC_ATEZO_BEV: "other_recommended", ALB_PAC_CARBO_ATEZO: "other_recommended",
+        CARBO_PEM_NIVO_IPI: "other_recommended", CARBO_PEM_DURVA_TREME: "other_recommended",
+        NIVO_IPI: "other_recommended",
+        PEMBROLIZUMAB: "useful_in_certain_circumstances",
+    },
+    # Driver-negative, PD-L1 <50%, squamous (NSCL-J): mirrors the non-squamous branch.
+    CARBO_PAC_PEMBRO: {
+        CARBO_PAC_PEMBRO: "preferred", CARBO_PAC_CEMIPLIMAB: "preferred",
+        CARBO_NAB_PAC_PEMBRO: "preferred",
+        CARBO_PAC_NIVO_IPI: "other_recommended", CARBO_PAC_DURVA_TREME: "other_recommended",
+        NIVO_IPI: "other_recommended",
+        PEMBROLIZUMAB: "useful_in_certain_circumstances",
+    },
+}
+
+
+def drug_tier(primary_answer: str, drug: str) -> str | None:
+    """Return "preferred" | "other_recommended" | "useful_in_certain_circumstances"
+    for *drug* within the pathway identified by *primary_answer* (a case's
+    ``nccn_label``) — NCCN's own three-tier regimen taxonomy.
+
+    Returns None when this pathway has no tiering data (the guideline draws
+    no preference distinction among its acceptable answers, or the pathway
+    isn't one of the branches covered above) or *drug* isn't recognised
+    within it — callers should treat None as "not classified", not as a
+    negative signal.
+    """
+    return DRUG_TIER_BY_PRIMARY.get(primary_answer, {}).get(drug)
 
 
 # ---------------------------------------------------------------------------
@@ -614,16 +770,22 @@ def _stage_iv_pathway(
     # EGFR classic sensitising mutations (exon 19 del or L858R) — NSCL-21
     if _is_egfr_classic_sensitising(egfr):
         return _result(
-            [OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB],
+            [OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB,
+             AFATINIB, DACOMITINIB, ERLOTINIB, GEFITINIB, LAZERTINIB],
             OSIMERTINIB,
             True,
             "Stage IV NSCLC → EGFR classic sensitising mutation (exon 19 del or L858R) → "
-            "Three Category 1 options: osimertinib (FLAURA), osimertinib + carbo/pem (FLAURA2), "
-            "amivantamab + lazertinib (MARIPOSA)",
-            "All three are NCCN Category 1 as of 2024. Osimertinib monotherapy remains most "
-            "widely used. FLAURA2 combination preferred for high-burden CNS disease. "
-            "MARIPOSA showed superior OS vs osimertinib. "
-            + ("Brain metastases: all three options have intracranial activity. " if brain_mets else ""),
+            "Three Category 1 preferred options: osimertinib (FLAURA), osimertinib + "
+            "carbo/pem (FLAURA2), amivantamab + lazertinib (MARIPOSA); afatinib, "
+            "dacomitinib, erlotinib, gefitinib, and lazertinib monotherapy are Category 1 "
+            "'useful in certain circumstances' [NSCL-21]",
+            "All three preferred options are NCCN Category 1 as of 2024. Osimertinib "
+            "monotherapy remains most widely used. FLAURA2 combination preferred for "
+            "high-burden CNS disease. MARIPOSA showed superior OS vs osimertinib. "
+            "Older-generation EGFR TKIs (afatinib, dacomitinib, erlotinib, gefitinib) and "
+            "lazertinib monotherapy remain NCCN Category 1 but sit in the lower 'useful in "
+            "certain circumstances' tier, not first-choice. "
+            + ("Brain metastases: all three preferred options have intracranial activity. " if brain_mets else ""),
         )
 
     # EGFR atypical mutations (S768I / L861Q / G719X) — NSCL-24 (SEPARATE pathway)
@@ -652,18 +814,20 @@ def _stage_iv_pathway(
 
     # ALK
     if alk == "positive":
-        acceptable = [ALECTINIB, BRIGATINIB, ENSARTINIB, LORLATINIB]
+        acceptable = [ALECTINIB, BRIGATINIB, ENSARTINIB, LORLATINIB, CERITINIB, CRIZOTINIB]
         return _result(
             acceptable,
             ALECTINIB,
             True,
             "Stage IV NSCLC → ALK rearrangement → "
             "Next-generation ALK TKI (Category 1 preferred: alectinib, brigatinib, "
-            "ensartinib, or lorlatinib) [NSCL-27]",
+            "ensartinib, or lorlatinib); ceritinib or crizotinib Category 1 'useful in "
+            "certain circumstances' [NSCL-27]",
             "Alectinib and brigatinib both have superior PFS over crizotinib. "
             "Lorlatinib (CROWN) also Category 1. Ensartinib (eXalt3) is a Category 1 "
-            "preferred first-line option added in v6.2026. "
-            + ("All have demonstrated CNS activity for brain metastases. " if brain_mets else ""),
+            "preferred first-line option added in v6.2026. Ceritinib and crizotinib remain "
+            "NCCN Category 1 but sit in the lower 'useful in certain circumstances' tier. "
+            + ("Preferred options have demonstrated CNS activity for brain metastases. " if brain_mets else ""),
         )
 
     # ROS1
@@ -682,24 +846,29 @@ def _stage_iv_pathway(
     # BRAF V600E
     if braf == "v600e":
         return _result(
-            [DABRAFENIB_TRAMETINIB, BINIMETINIB_ENCORAFENIB],
+            [DABRAFENIB_TRAMETINIB, BINIMETINIB_ENCORAFENIB, DABRAFENIB, VEMURAFENIB],
             DABRAFENIB_TRAMETINIB,
             True,
             "Stage IV NSCLC → BRAF V600E mutation → Dabrafenib + trametinib OR "
-            "binimetinib + encorafenib (both preferred combinations) [NSCL-32]",
-            "Combination BRAF/MEK inhibition required; BRAF monotherapy not recommended. "
-            "Binimetinib + encorafenib (PHAROS) added as co-preferred combination in v6.2026.",
+            "binimetinib + encorafenib (both preferred combinations); dabrafenib or "
+            "vemurafenib monotherapy Category 1 'useful in certain circumstances' [NSCL-32]",
+            "Combination BRAF/MEK inhibition is the preferred first-line approach. "
+            "Binimetinib + encorafenib (PHAROS) added as co-preferred combination in v6.2026. "
+            "Single-agent dabrafenib or vemurafenib is an NCCN Category 1 'useful in certain "
+            "circumstances' option when combination therapy isn't tolerated.",
         )
 
     # MET exon 14
     if met == "exon_14":
         return _result(
-            [CAPMATINIB, TEPOTINIB],
+            [CAPMATINIB, TEPOTINIB, CRIZOTINIB],
             CAPMATINIB,
             True,
             "Stage IV NSCLC → MET exon 14 skipping mutation → "
-            "Capmatinib or tepotinib (Category 1)",
-            "Capmatinib and tepotinib are both NCCN Category 1 for MET ex14.",
+            "Capmatinib or tepotinib (Category 1 preferred); crizotinib Category 1 "
+            "'useful in certain circumstances'",
+            "Capmatinib and tepotinib are both NCCN Category 1 preferred for MET ex14. "
+            "Crizotinib remains a Category 1 'useful in certain circumstances' option.",
         )
 
     # RET fusion
@@ -744,79 +913,118 @@ def _stage_iv_pathway(
     # falls through to the driver-negative PD-L1/chemo-IO branch below by design.
     # (Explicit no-op branch documents that this is intentional, not an oversight.)
 
-    # Driver-negative — PD-L1/chemoimmunotherapy
+    # Driver-negative — PD-L1/chemoimmunotherapy. Verified against NCCN v6.2026 PDF, NSCL-J
+    # (PD-L1 ≥1%) and NSCL-K (PD-L1 <1% / unknown). Three preference tiers per NCCN's own
+    # taxonomy: Preferred > Other Recommended > Useful in Certain Circumstances.
+    pembro_combo = CARBO_PAC_PEMBRO if is_squamous else CARBO_PEM_PEMBRO
+    cemiplimab_combo = CARBO_PAC_CEMIPLIMAB if is_squamous else CARBO_PEM_CEMIPLIMAB
+    poseidon = CARBO_PAC_DURVA_TREME if is_squamous else CARBO_PEM_DURVA_TREME
+    nivo_ipi_chemo = CARBO_PAC_NIVO_IPI if is_squamous else CARBO_PEM_NIVO_IPI
+
     if pdl1 == "high":
-        # Pembrolizumab mono is preferred; cemiplimab (EMPOWER-Lung 1) and atezolizumab
-        # (IMpower110) are Category 1 alternatives. Nivolumab+ipilimumab (CheckMate 227)
-        # is Category 1 for PD-L1 ≥1%. Chemoimmunotherapy acceptable for high burden.
-        pembro_combo = CARBO_PAC_PEMBRO if is_squamous else CARBO_PEM_PEMBRO
+        # Preferred: pembrolizumab, atezolizumab, or cemiplimab monotherapy (all Category 1).
+        # Other Recommended: chemo-IO combinations (incl. IMpower150/130, nonsquamous only —
+        # bevacizumab is contraindicated in squamous NSCLC), CheckMate 9LA, POSEIDON (cat 2B).
+        # Useful in Certain Circumstances: bare nivolumab+ipilimumab (CheckMate 227, no chemo).
+        acceptable = [PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO]
+        if is_nonsquamous:
+            acceptable += [CARBO_PAC_ATEZO_BEV, ALB_PAC_CARBO_ATEZO]
+        acceptable += [pembro_combo, cemiplimab_combo, nivo_ipi_chemo, poseidon, NIVO_IPI]
         return _result(
-            [PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, pembro_combo],
+            acceptable,
             PEMBROLIZUMAB,
             True,
             f"Stage IV NSCLC → {histology.title()} → No actionable driver → "
-            "PD-L1 ≥50% (high) → Pembrolizumab monotherapy (Category 1, KEYNOTE-024)",
-            "Pembrolizumab monotherapy is Category 1 and preferred for high PD-L1. "
-            "Cemiplimab (EMPOWER-Lung 1) and atezolizumab (IMpower110) are Category 1 "
-            "alternatives. Nivolumab + ipilimumab (CheckMate 227) is Category 1 for "
-            "PD-L1 ≥1%. Chemoimmunotherapy is also acceptable for high disease burden.",
+            "PD-L1 ≥50% (high) → Pembrolizumab, atezolizumab, or cemiplimab monotherapy "
+            "(Category 1 preferred, NSCL-J); chemo-IO combinations 'other recommended'; "
+            "bare nivolumab+ipilimumab 'useful in certain circumstances'",
+            "Pembrolizumab, atezolizumab (IMpower110), and cemiplimab (EMPOWER-Lung 1) "
+            "monotherapy are all Category 1 'Preferred' for PD-L1 ≥50%. Chemo-immunotherapy "
+            "combinations — with pembrolizumab, cemiplimab, atezolizumab+bevacizumab "
+            "(IMpower150, nonsquamous), atezolizumab alone (IMpower130, nonsquamous), "
+            "nivolumab+ipilimumab+chemo (CheckMate 9LA), or durvalumab+tremelimumab+chemo "
+            "(POSEIDON, category 2B) — are Category 1 'Other Recommended', appropriate for "
+            "high disease burden. Bare nivolumab+ipilimumab (CheckMate 227, no chemo) is "
+            "Category 1 but the lowest of NCCN's three tiers, 'Useful in Certain "
+            "Circumstances', at this PD-L1 level.",
         )
 
     if pdl1 in ("intermediate", "low"):
+        # Preferred: chemo + pembrolizumab OR chemo + cemiplimab (both Category 1).
+        # Other Recommended: IMpower150/130 (nonsquamous only), CheckMate 9LA, bare
+        # nivolumab+ipilimumab (Other Recommended at THIS PD-L1 level — one tier higher
+        # than at PD-L1≥50%), POSEIDON (Category 1 here, one tier higher than at ≥50%).
+        # Useful in Certain Circumstances: pembrolizumab monotherapy (cat 2B — "can be
+        # considered when there are contraindications to combination therapy").
         if is_nonsquamous:
+            acceptable = [CARBO_PEM_PEMBRO, cemiplimab_combo, CARBO_PAC_ATEZO_BEV,
+                          ALB_PAC_CARBO_ATEZO, nivo_ipi_chemo, poseidon, NIVO_IPI, PEMBROLIZUMAB]
             return _result(
-                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, NIVO_IPI],
+                acceptable,
                 CARBO_PEM_PEMBRO,
-                False,
+                True,
                 "Stage IV NSCLC → Adenocarcinoma/Non-squamous → No actionable driver → "
-                f"PD-L1 {pdl1} (<50%) → "
-                "Carboplatin + pemetrexed + pembrolizumab (Category 1, KEYNOTE-189)",
-                "KEYNOTE-189 established carbo/pem/pembro as standard of care for "
-                "non-squamous NSCLC with PD-L1 <50%. "
-                "Carbo/pem/atezo/bev (IMpower150) is an alternative Category 1 option. "
-                "Nivolumab + ipilimumab (CheckMate 227) is Category 1 for PD-L1 ≥1%.",
+                f"PD-L1 {pdl1} (<50%) → Carbo/pem + pembrolizumab or carbo/pem + cemiplimab "
+                "(Category 1 preferred, KEYNOTE-189/NSCL-J)",
+                "KEYNOTE-189 established carbo/pem/pembro as a Category 1 preferred option "
+                "for non-squamous NSCLC with PD-L1 <50%; carbo/pem/cemiplimab is co-preferred. "
+                "IMpower150 (with bevacizumab), IMpower130 (without), CheckMate 9LA "
+                "(nivolumab+ipilimumab+2 cycles chemo), and POSEIDON (durvalumab+tremelimumab"
+                "+chemo, Category 1 at this PD-L1 level) are 'Other Recommended', as is bare "
+                "nivolumab+ipilimumab (no chemo). Pembrolizumab monotherapy (category 2B) is "
+                "'useful in certain circumstances' when combination therapy isn't tolerated.",
             )
+        acceptable = [CARBO_PAC_PEMBRO, cemiplimab_combo, nivo_ipi_chemo, poseidon,
+                      NIVO_IPI, PEMBROLIZUMAB, CARBO_NAB_PAC_PEMBRO]
         return _result(
-            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, NIVO_IPI],
+            acceptable,
             CARBO_PAC_PEMBRO,
-            False,
+            True,
             "Stage IV NSCLC → Squamous cell carcinoma → No actionable driver → "
-            f"PD-L1 {pdl1} (<50%) → "
-            "Carboplatin + paclitaxel + pembrolizumab (Category 1, KEYNOTE-407)",
-            "KEYNOTE-407 established carbo/pac/pembro for squamous NSCLC. "
-            "Carboplatin + nab-paclitaxel + pembrolizumab is an equivalent alternative. "
-            "Nivolumab + ipilimumab (CheckMate 227) is Category 1 for PD-L1 ≥1%.",
+            f"PD-L1 {pdl1} (<50%) → Carbo/pac + pembrolizumab or carbo/pac + cemiplimab "
+            "(Category 1 preferred, KEYNOTE-407/NSCL-J)",
+            "KEYNOTE-407 established carbo/pac/pembro as a Category 1 preferred option for "
+            "squamous NSCLC with PD-L1 <50%; carbo/pac/cemiplimab is co-preferred, as is the "
+            "nab-paclitaxel formulation. CheckMate 9LA and POSEIDON (Category 1 at this PD-L1 "
+            "level) are 'Other Recommended', as is bare nivolumab+ipilimumab (no chemo). "
+            "Pembrolizumab monotherapy (category 2B) is 'useful in certain circumstances'.",
         )
 
     if pdl1 == "unknown":
-        # PD-L1 not measured — chemoimmunotherapy is universally acceptable;
-        # pembrolizumab monotherapy is also acceptable if PD-L1 turns out ≥50%.
-        # testing_first is clinically appropriate (test PD-L1 before choosing IO strategy).
-        # Mark ambiguous so concordance analysis can handle all possibilities.
+        # PD-L1 not measured — union of options appropriate across the full PD-L1 range;
+        # pembrolizumab/atezolizumab/cemiplimab monotherapy is only truly appropriate if
+        # PD-L1 turns out ≥50%. testing_first is clinically appropriate (test PD-L1 before
+        # choosing IO strategy). Mark ambiguous so concordance analysis handles all cases.
         if is_nonsquamous:
+            acceptable = [CARBO_PEM_PEMBRO, cemiplimab_combo, CARBO_PAC_ATEZO_BEV,
+                          ALB_PAC_CARBO_ATEZO, nivo_ipi_chemo, poseidon, NIVO_IPI,
+                          PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO, "testing_first"]
             return _result(
-                [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB,
-                 CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, "testing_first"],
+                acceptable,
                 CARBO_PEM_PEMBRO,
                 True,
                 "Stage IV NSCLC → Adenocarcinoma/Non-squamous → No actionable driver → "
                 "PD-L1 unknown → Carboplatin + pemetrexed + pembrolizumab (Category 1, KEYNOTE-189)",
-                "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-189) is appropriate at any "
-                "PD-L1 level. Pembrolizumab, cemiplimab, or atezolizumab monotherapy acceptable "
-                "if PD-L1 ≥50%. Nivolumab + ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. "
+                "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-189, and its IMpower150/130, "
+                "CheckMate 9LA, and POSEIDON alternatives) is appropriate at any PD-L1 level. "
+                "Pembrolizumab, cemiplimab, or atezolizumab monotherapy acceptable if PD-L1 "
+                "≥50%. Nivolumab + ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. "
                 "Testing PD-L1 first is also clinically reasonable.",
             )
+        acceptable = [CARBO_PAC_PEMBRO, cemiplimab_combo, nivo_ipi_chemo, poseidon,
+                      NIVO_IPI, PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO,
+                      CARBO_NAB_PAC_PEMBRO, "testing_first"]
         return _result(
-            [CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO, PEMBROLIZUMAB,
-             CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI, "testing_first"],
+            acceptable,
             CARBO_PAC_PEMBRO,
             True,
             "Stage IV NSCLC → Squamous cell carcinoma → No actionable driver → "
             "PD-L1 unknown → Carboplatin + paclitaxel + pembrolizumab (Category 1, KEYNOTE-407)",
-            "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-407) is appropriate at any "
-            "PD-L1 level. Pembrolizumab, cemiplimab, or atezolizumab monotherapy acceptable "
-            "if PD-L1 ≥50%. Nivolumab + ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. "
-            "Testing PD-L1 first is also clinically reasonable.",
+            "PD-L1 not available. Chemoimmunotherapy (KEYNOTE-407, and its CheckMate 9LA and "
+            "POSEIDON alternatives) is appropriate at any PD-L1 level. Pembrolizumab, "
+            "cemiplimab, or atezolizumab monotherapy acceptable if PD-L1 ≥50%. Nivolumab + "
+            "ipilimumab (CheckMate 227) acceptable for PD-L1 ≥1%. Testing PD-L1 first is "
+            "also clinically reasonable.",
         )
 
     return _unsupported(

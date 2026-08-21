@@ -10,6 +10,7 @@ chemoradiation         concurrent CRT (chemo + radiation together)
 chemotherapy           systemic chemo without concurrent radiation
 targeted_therapy       EGFR/ALK/ROS1/BRAF/MET/RET/NTRK targeted agents
 immunotherapy_mono     pembrolizumab / atezolizumab / durvalumab alone
+dual_immunotherapy     nivolumab + ipilimumab, no chemo backbone (CheckMate 227)
 chemoimmunotherapy     platinum doublet + checkpoint inhibitor
 radiation_only         SABR/SBRT, definitive RT, IGTA
 observation            active surveillance / watch-and-wait
@@ -46,6 +47,23 @@ _HEADER_RE = re.compile(
     r"Immediate\s+Priority|Initial\s+Step)",
     re.IGNORECASE | re.MULTILINE,
 )
+
+# Many models (esp. Gemini, DeepSeek) tag the actual regimen explicitly, e.g.
+# "### First-Line Treatment Recommendation:\n\n**Regimen:** Sotorasib ..." — the
+# tagged text is a tight, unambiguous statement of the recommendation. Prefer
+# extracting it directly over slicing a fixed character window, which can drag
+# in unrelated rationale text (e.g. a PD-L1-status sentence) that trips the
+# wrong category regex. Only the FIRST "regimen:" tag is used — later ones
+# belong to second-line/alternative options discussed further down.
+_REGIMEN_TAG_RE = re.compile(r"regimen\s*:\**\s*", re.IGNORECASE)
+# End the captured span at whichever comes first: a blank line, a "Rationale"
+# label (bold or not — sometimes runs on without a blank line before it), or
+# the next markdown header. _REGIMEN_TAG_MAX_LEN is a hard safety cap for
+# responses that never hit any of those boundaries.
+_REGIMEN_TAG_END_RE = re.compile(
+    r"\n\s*\n|\*{0,2}\s*rationale\s*:?|\n#{1,3}\s", re.IGNORECASE
+)
+_REGIMEN_TAG_MAX_LEN = 600
 
 # Ordered from most specific to most general — first match wins
 _CATEGORY_RULES: list[tuple[str, list[str]]] = [
@@ -116,6 +134,20 @@ _CATEGORY_RULES: list[tuple[str, list[str]]] = [
         r"(?:pembrolizumab|atezolizumab|nivolumab)\b[^.]*?(?:\+|combined\s+with|plus|with)\s*(?:carboplatin|cisplatin|paclitaxel|pemetrexed)",
         r"KEYNOTE-189",
         r"KEYNOTE-407",
+    ]),
+    # Dual immunotherapy (nivolumab + ipilimumab, no chemo backbone — CheckMate 227).
+    # Must come after chemoimmunotherapy so a nivo+ipi+chemo mention resolves there
+    # first, and before immunotherapy_mono so dual blockade isn't mistaken for mono.
+    ("dual_immunotherapy", [
+        # Excludes specific chemo DRUG NAMES only (not the bare word "chemo"/
+        # "chemotherapy" — a response saying "no chemotherapy indicated" is
+        # exactly the dual-IO-without-chemo-backbone case and must still match;
+        # see immunotherapy_mono's "(?!.*chemo)" for the bug this avoids).
+        r"nivolumab\b[^.]*?(?:\+|combined\s+with|plus|with)\s*ipilimumab"
+        r"(?!.*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
+        r"ipilimumab\b[^.]*?(?:\+|combined\s+with|plus|with)\s*nivolumab"
+        r"(?!.*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
+        r"CheckMate.?227",
     ]),
     # Immunotherapy monotherapy
     ("immunotherapy_mono", [
@@ -197,6 +229,8 @@ class ParsedRecommendation:
     matched_pattern: str    # which rule matched
     raw_text_len: int = 0
     notes: list[str] = field(default_factory=list)
+    regimen_tag: str | None = None    # exact text captured after a "Regimen:" tag, if present
+    extraction_method: str = "header_window"  # "regimen_tag" | "header_window" | "full_text_window"
 
 
 # ---------------------------------------------------------------------------
@@ -211,8 +245,21 @@ class ResponseParser:
         # Strip chain-of-thought reasoning blocks emitted by models such as
         # Qwen3 and DeepSeek R1 before any classification logic runs.
         response_text = _strip_thinking(response_text)
-        section = self._extract_primary_section(response_text)
-        category, pattern = self._classify(section)
+
+        # Prefer the explicit "Regimen:" tag when the model provides one — it is
+        # a tight, unambiguous statement of the recommendation, unlike a fixed
+        # character window that can bleed into unrelated rationale text.
+        regimen_tag = self._extract_regimen_tag(response_text)
+        section, extraction_method = regimen_tag, "regimen_tag"
+        category, pattern = self._classify(section) if section else ("unknown", "")
+
+        if category == "unknown":
+            # No tag, or the tagged text didn't classify — fall back to the
+            # header/character-window heuristic so recall doesn't regress.
+            section = self._extract_primary_section(response_text)
+            extraction_method = "header_window" if _HEADER_RE.search(response_text) else "full_text_window"
+            category, pattern = self._classify(section)
+
         confidence = "high" if category != "unknown" else "low"
         return ParsedRecommendation(
             category=category,
@@ -220,6 +267,8 @@ class ResponseParser:
             confidence=confidence,
             matched_pattern=pattern,
             raw_text_len=len(response_text),
+            regimen_tag=regimen_tag,
+            extraction_method=extraction_method,
         )
 
     def parse_checkpoint(
@@ -278,6 +327,18 @@ class ResponseParser:
     # ------------------------------------------------------------------
     # Private helpers
     # ------------------------------------------------------------------
+
+    def _extract_regimen_tag(self, text: str) -> str | None:
+        """Return the text captured after the first "Regimen:" tag, or None if
+        the response doesn't use one."""
+        m = _REGIMEN_TAG_RE.search(text)
+        if not m:
+            return None
+        window = text[m.end(): m.end() + _REGIMEN_TAG_MAX_LEN + 200]
+        end = _REGIMEN_TAG_END_RE.search(window)
+        cap = window[:end.start()] if end else window[:_REGIMEN_TAG_MAX_LEN]
+        cap = cap.strip(" *\t").strip()
+        return cap or None
 
     def _extract_primary_section(self, text: str) -> str:
         """Isolate the first recommendation section from the response."""

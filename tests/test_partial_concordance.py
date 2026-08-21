@@ -30,7 +30,7 @@ from src.analyze.adherence_scorer import (
 )
 from src.evaluate.nccn_scorer import (
     get_nccn_answer,
-    CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, OSIMERTINIB,
+    CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV, OSIMERTINIB,
 )
 from src.evaluate.concordance_checker import (
     ConcordanceResult,

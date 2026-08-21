@@ -63,6 +63,7 @@ TREATMENT_RANK: dict[str, int] = {
     "radiation_only":       5,
     "chemoimmunotherapy":   6,
     "targeted_therapy":     6,
+    "dual_immunotherapy":   6,
     "chemoradiation":       7,
     "surgical_resection":   8,
 }

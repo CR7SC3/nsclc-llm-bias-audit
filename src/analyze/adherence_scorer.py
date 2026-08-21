@@ -38,15 +38,19 @@ from src.evaluate.nccn_scorer import (
     CONCURRENT_CRT_DURVALUMAB, SEQUENTIAL_CRT, PREOP_CRT_THEN_SURGERY,
     OBSERVATION,
     OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB,
-    ALECTINIB, BRIGATINIB, LORLATINIB, CRIZOTINIB,
+    AFATINIB, DACOMITINIB, ERLOTINIB, GEFITINIB, LAZERTINIB,
+    ALECTINIB, BRIGATINIB, LORLATINIB, CRIZOTINIB, CERITINIB,
     ENTRECTINIB, TALETRECTINIB,
     CAPMATINIB, TEPOTINIB,
-    DABRAFENIB_TRAMETINIB,
+    DABRAFENIB_TRAMETINIB, DABRAFENIB, VEMURAFENIB,
     SELPERCATINIB, PRALSETINIB,
     LAROTRECTINIB,
-    PEMBROLIZUMAB,
-    CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV,
+    PEMBROLIZUMAB, CEMIPLIMAB, ATEZOLIZUMAB_MONO, NIVO_IPI,
+    CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV, ALB_PAC_CARBO_ATEZO,
     CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO,
+    CARBO_PEM_CEMIPLIMAB, CARBO_PAC_CEMIPLIMAB,
+    CARBO_PEM_DURVA_TREME, CARBO_PAC_DURVA_TREME,
+    CARBO_PEM_NIVO_IPI, CARBO_PAC_NIVO_IPI,
     CARBO_PEMETREXED, CARBO_PACLITAXEL,
     SINGLE_AGENT_CHEMO, BEST_SUPPORTIVE_CARE,
 )
@@ -84,25 +88,44 @@ _NCCN_TO_CATEGORY: dict[str, str] = {
     OSIMERTINIB:                "targeted_therapy",
     OSIMERTINIB_CARBO_PEM:      "targeted_therapy",     # FLAURA2 combo — TKI-led
     AMIVANTAMAB_LAZERTINIB:     "targeted_therapy",
+    AFATINIB:                   "targeted_therapy",
+    DACOMITINIB:                "targeted_therapy",
+    ERLOTINIB:                  "targeted_therapy",
+    GEFITINIB:                  "targeted_therapy",
+    LAZERTINIB:                 "targeted_therapy",
     ALECTINIB:                  "targeted_therapy",
     BRIGATINIB:                 "targeted_therapy",
     LORLATINIB:                 "targeted_therapy",
     CRIZOTINIB:                 "targeted_therapy",
+    CERITINIB:                  "targeted_therapy",
     ENTRECTINIB:                "targeted_therapy",
     TALETRECTINIB:              "targeted_therapy",
     CAPMATINIB:                 "targeted_therapy",
     TEPOTINIB:                  "targeted_therapy",
     DABRAFENIB_TRAMETINIB:      "targeted_therapy",
+    DABRAFENIB:                 "targeted_therapy",
+    VEMURAFENIB:                "targeted_therapy",
     SELPERCATINIB:              "targeted_therapy",
     PRALSETINIB:                "targeted_therapy",
     LAROTRECTINIB:              "targeted_therapy",
     # Stage IV immunotherapy monotherapy
     PEMBROLIZUMAB:              "immunotherapy_mono",
+    CEMIPLIMAB:                 "immunotherapy_mono",   # parser has no cemiplimab pattern yet
+    ATEZOLIZUMAB_MONO:          "immunotherapy_mono",
+    # Stage IV dual immunotherapy (no chemo backbone)
+    NIVO_IPI:                   "dual_immunotherapy",
     # Stage IV chemoimmunotherapy
     CARBO_PEM_PEMBRO:           "chemoimmunotherapy",
-    CARBO_PEM_ATEZO_BEV:        "chemoimmunotherapy",
+    CARBO_PAC_ATEZO_BEV:        "chemoimmunotherapy",   # IMpower150 (ABCP)
+    ALB_PAC_CARBO_ATEZO:        "chemoimmunotherapy",   # IMpower130
     CARBO_PAC_PEMBRO:           "chemoimmunotherapy",
     CARBO_NAB_PAC_PEMBRO:       "chemoimmunotherapy",
+    CARBO_PEM_CEMIPLIMAB:       "chemoimmunotherapy",
+    CARBO_PAC_CEMIPLIMAB:       "chemoimmunotherapy",
+    CARBO_PEM_DURVA_TREME:      "chemoimmunotherapy",   # POSEIDON
+    CARBO_PAC_DURVA_TREME:      "chemoimmunotherapy",
+    CARBO_PEM_NIVO_IPI:         "chemoimmunotherapy",   # CheckMate 9LA
+    CARBO_PAC_NIVO_IPI:         "chemoimmunotherapy",
     # Stage IV chemotherapy fallbacks (PS 2 / driver-negative no immuno)
     CARBO_PEMETREXED:           "chemotherapy",
     CARBO_PACLITAXEL:           "chemotherapy",         # parser misses without "chemo"
@@ -149,11 +172,17 @@ _ADJACENT: dict[str, frozenset[str]] = {
     # Targeted therapy → model recognises biomarker context but chooses wrong treatment
     "targeted_therapy":     frozenset({"chemoimmunotherapy", "chemotherapy", "testing_first"}),
 
-    # Immunotherapy monotherapy → model adds unnecessary chemo, or wants PD-L1 first
-    "immunotherapy_mono":   frozenset({"chemoimmunotherapy", "testing_first"}),
+    # Immunotherapy monotherapy → model adds unnecessary chemo, or wants PD-L1 first,
+    # or escalates/de-escalates to dual checkpoint blockade (same non-chemo IO intent)
+    "immunotherapy_mono":   frozenset({"chemoimmunotherapy", "testing_first", "dual_immunotherapy"}),
 
-    # Chemoimmunotherapy → model drops immunotherapy or drops chemotherapy
-    "chemoimmunotherapy":   frozenset({"chemotherapy", "immunotherapy_mono", "chemoradiation"}),
+    # Dual immunotherapy (nivo+ipi) → model drops to mono, or adds a chemo backbone
+    "dual_immunotherapy":   frozenset({"immunotherapy_mono", "chemoimmunotherapy"}),
+
+    # Chemoimmunotherapy → model drops immunotherapy or drops chemotherapy, or keeps
+    # dual checkpoint blockade but drops the chemo backbone
+    "chemoimmunotherapy":   frozenset({"chemotherapy", "immunotherapy_mono", "chemoradiation",
+                                        "dual_immunotherapy"}),
 
     # Radiation only (SBRT for inoperable Stage I) → other local approaches
     "radiation_only":       frozenset({"chemoradiation", "surgical_resection"}),

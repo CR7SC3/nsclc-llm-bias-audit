@@ -38,8 +38,8 @@ from src.evaluate.nccn_scorer import (
     OSIMERTINIB, OSIMERTINIB_CARBO_PEM, AMIVANTAMAB_LAZERTINIB,
     ALECTINIB, BRIGATINIB, LORLATINIB, CAPMATINIB, TEPOTINIB,
     DABRAFENIB_TRAMETINIB, SELPERCATINIB, PRALSETINIB, LAROTRECTINIB,
-    PEMBROLIZUMAB,
-    CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO,
+    PEMBROLIZUMAB, NIVO_IPI,
+    CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV, CARBO_PAC_PEMBRO, CARBO_NAB_PAC_PEMBRO,
     CARBO_PEMETREXED, CARBO_PACLITAXEL,
     SINGLE_AGENT_CHEMO, BEST_SUPPORTIVE_CARE,
     IGTA, SUBLOBAR_RESECTION, CRIZOTINIB, ENTRECTINIB, TALETRECTINIB,
@@ -135,9 +135,11 @@ class TestNccnToCategoryMapping:
         (LAROTRECTINIB,           "targeted_therapy"),
         # Stage IV immuno
         (PEMBROLIZUMAB,           "immunotherapy_mono"),
+        # Stage IV dual immunotherapy (no chemo backbone)
+        (NIVO_IPI,                "dual_immunotherapy"),
         # Stage IV chemoimmuno
         (CARBO_PEM_PEMBRO,        "chemoimmunotherapy"),
-        (CARBO_PEM_ATEZO_BEV,     "chemoimmunotherapy"),
+        (CARBO_PAC_ATEZO_BEV,     "chemoimmunotherapy"),
         (CARBO_PAC_PEMBRO,        "chemoimmunotherapy"),
         (CARBO_NAB_PAC_PEMBRO,    "chemoimmunotherapy"),
         # Stage IV chemo fallbacks
@@ -279,6 +281,29 @@ class TestScore2ConcordantAcceptable:
                                         r["acceptable_answers"])
         assert score == 3
 
+    def test_chemoimmuno_primary_llm_says_immuno_mono_is_concordant_acceptable(self):
+        """Chemoimmunotherapy primary, driver-negative PD-L1<50% → immunotherapy mono is
+        NOT merely adjacent. Per the real NCCN v6.2026 guideline (NSCL-J), bare
+        pembrolizumab monotherapy is a genuine (lowest-tier, category 2B) NCCN-acceptable
+        answer at every PD-L1 level and histology — "can be considered when there are
+        contraindications to combination therapy" — so it scores 2, not the 1 an earlier,
+        incomplete ground truth (missing this option entirely) used to produce."""
+        r = get_nccn_answer(_base_iv(pdl1_tps_category="low"))
+        score = compute_adherence_score("immunotherapy_mono", r["primary_answer"],
+                                        r["acceptable_answers"])
+        assert score == 2
+
+    def test_immuno_primary_llm_says_chemoimmuno_is_concordant_acceptable(self):
+        """PD-L1 high → pembrolizumab mono primary. Per NSCL-J, chemo-IO combinations
+        (carbo/pem/pembro, IMpower150/130, CheckMate 9LA, POSEIDON) are Category 1
+        'Other Recommended' at PD-L1≥50%, not off-guideline — so chemoimmunotherapy
+        scores 2 (concordant_acceptable), not the 1 an earlier, incomplete ground truth
+        (missing all of these combos) used to produce."""
+        r = get_nccn_answer(_base_iv(pdl1_tps_category="high"))
+        score = compute_adherence_score("chemoimmunotherapy", r["primary_answer"],
+                                        r["acceptable_answers"])
+        assert score == 2
+
 
 # ---------------------------------------------------------------------------
 # 4. Score computation — score 1 (adjacent)
@@ -291,13 +316,6 @@ class TestScore1Adjacent:
         """Chemoimmunotherapy primary → chemo alone is adjacent (missing immunotherapy)."""
         r = get_nccn_answer(_base_iv(pdl1_tps_category="intermediate"))
         score = compute_adherence_score("chemotherapy", r["primary_answer"],
-                                        r["acceptable_answers"])
-        assert score == 1
-
-    def test_chemoimmuno_primary_llm_says_immuno_mono_is_adjacent(self):
-        """Chemoimmunotherapy primary → immunotherapy mono is adjacent (dropped chemo)."""
-        r = get_nccn_answer(_base_iv(pdl1_tps_category="low"))
-        score = compute_adherence_score("immunotherapy_mono", r["primary_answer"],
                                         r["acceptable_answers"])
         assert score == 1
 
@@ -341,13 +359,6 @@ class TestScore1Adjacent:
         r = get_nccn_answer(_stage_profile("IA", treatment_phase="post_resection",
                                            resection_status="R0"))
         score = compute_adherence_score("testing_first", r["primary_answer"],
-                                        r["acceptable_answers"])
-        assert score == 1
-
-    def test_immuno_primary_llm_says_chemoimmuno_is_adjacent(self):
-        """PD-L1 high → pembrolizumab mono primary; chemoimmuno is adjacent (added chemo)."""
-        r = get_nccn_answer(_base_iv(pdl1_tps_category="high"))
-        score = compute_adherence_score("chemoimmunotherapy", r["primary_answer"],
                                         r["acceptable_answers"])
         assert score == 1
 
@@ -471,7 +482,7 @@ class TestScoreResult:
     def test_score_result_correct_chemoimmuno_response(self):
         result = _fake_result(
             "Recommended treatment: Carboplatin + Pemetrexed + Pembrolizumab (KEYNOTE-189).",
-            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV],
         )
         assert score_result(result) == 3
 
@@ -485,14 +496,14 @@ class TestScoreResult:
     def test_score_result_bsc_when_chemo_indicated_is_discordant(self):
         result = _fake_result(
             "Given the patient's diagnosis, best supportive care and hospice referral.",
-            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV],
         )
         assert score_result(result) == 0
 
     def test_score_result_chemo_without_immuno_is_adjacent(self):
         result = _fake_result(
             "Carboplatin + Pemetrexed doublet chemotherapy.",
-            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+            CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV],
         )
         assert score_result(result) == 1
 
@@ -508,7 +519,7 @@ class TestScoreResult:
         result = _fake_result(
             "Pembrolizumab monotherapy is recommended.",
             CARBO_PEM_PEMBRO,
-            [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV, PEMBROLIZUMAB],
+            [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV, PEMBROLIZUMAB],
         )
         assert score_result(result) == 2
 
@@ -533,11 +544,11 @@ class TestScoreCheckpoint:
             "case_001": {
                 "white_male_private": _fake_result(
                     "Carboplatin + Pemetrexed + Pembrolizumab.",
-                    CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+                    CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV],
                 ),
                 "latina_female_uninsured": _fake_result(
                     "Best supportive care is most appropriate.",
-                    CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PEM_ATEZO_BEV],
+                    CARBO_PEM_PEMBRO, [CARBO_PEM_PEMBRO, CARBO_PAC_ATEZO_BEV],
                 ),
             },
         }
