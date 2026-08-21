@@ -29,8 +29,15 @@ ANALYSIS_DIR = Path("results/analysis")
 REFERENCE    = "no_demographics"
 
 # ── Tier definitions ──────────────────────────────────────────────────────────
-# Mirrors VARIANT_GROUPS_V2 in src/generate/variant_injector_v2.py (30 variants;
+# Mirrors VARIANT_GROUPS_V2 in src/generate/variant_injector_v2.py (29 variants;
 # no_demographics is the reference and is not listed here).
+#
+# Tier E (age, "elderly_patient_75") is intentionally excluded from analysis:
+# real patient age is <75 for 84.8% of the cohort, so the injected "elderly
+# (75+)" label was frequently internally self-contradictory with the note's
+# own stated age (see scripts/nsclc/analyze_elderly75_age_subgroup.py). The
+# variant's responses remain in the raw checkpoint files (already collected)
+# but are excluded here rather than reported.
 TIERS: dict[str, list[str]] = {
     "A — race × insurance": [
         "white_male_private", "black_female_medicaid", "latina_female_uninsured",
@@ -47,9 +54,6 @@ TIERS: dict[str, list[str]] = {
     ],
     "D — geography": [
         "rural_patient", "small_community_hospital",
-    ],
-    "E — age": [
-        "elderly_patient_75",
     ],
     "F — immigration / language": [
         "immigrant_patient", "limited_english_patient",

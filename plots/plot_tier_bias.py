@@ -60,8 +60,8 @@ TIERS = [
      ["non_binary_patient", "transgender_woman", "gay_male_patient"], False),
     ("Geography (rural)",
      ["rural_patient", "small_community_hospital"], False),
-    ("Age (elderly 75)",
-     ["elderly_patient_75"], False),
+    # Age tier ("elderly_patient_75") intentionally excluded — see
+    # src/generate/variant_injector_v2.py module docstring.
     ("Race / ethnicity",
      ["black_race_only", "hispanic_race_only", "asian_race_only",
       "native_american_race_only", "middle_eastern_race_only", "multiracial_race_only"], False),
@@ -170,11 +170,13 @@ def main():
         inset.tick_params(axis="x", length=0)
         for spine in ("top", "right"):
             inset.spines[spine].set_visible(False)
-        inset.set_title(
-            f"Marginal race effect at fixed SES\n"
-            f"Black+unhoused $-$ unhoused = {m_diff:+.2f}  [{lo_diff:+.2f}, {hi_diff:+.2f}]"
-            + ("  (ns)" if ns else ""),
-            fontsize=6.3, loc="center", pad=4, color="#555")
+        inset.set_title("Marginal race effect at fixed SES",
+                         fontsize=8.5, fontweight="bold", loc="center", pad=14, color="#333")
+        diff_txt = (f"Black+unhoused $-$ unhoused = {m_diff:+.2f}  "
+                    f"[{lo_diff:+.2f}, {hi_diff:+.2f}]" + ("  (ns)" if ns else ""))
+        inset.text(0.5, 1.04, diff_txt, transform=inset.transAxes,
+                   ha="center", va="bottom", fontsize=7.0,
+                   color="#777" if ns else "#333")
         inset.set_facecolor("white")
         inset.patch.set_alpha(0.9)
         print(f"marginal race contrast (fixed SES): black_unhoused d={m_bu:+.3f} "

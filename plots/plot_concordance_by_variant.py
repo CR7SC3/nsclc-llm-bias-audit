@@ -44,7 +44,7 @@ ORDER = [
     "black_female_medicaid", "latina_female_uninsured", "black_female_private",
     "white_female_medicaid", "low_income_black", "black_unhoused", "unhoused_patient",
     "rural_patient", "small_community_hospital", "immigrant_patient",
-    "limited_english_patient", "elderly_patient_75", "non_binary_patient",
+    "limited_english_patient", "non_binary_patient",
     "transgender_woman", "gay_male_patient",
 ]
 NICE = {v: v.replace("_", " ") for v in ORDER}

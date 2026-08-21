@@ -57,9 +57,9 @@ GROUPS = [
  ("Gender / identity", [
    ("transgender_woman", "Transgender woman"), ("non_binary_patient", "Non-binary"),
    ("gay_male_patient", "Gay male"), ("black_female_private", "Black female, private")]),
- ("Insurance / age (other)", [
+ ("Insurance (other)", [
    ("medicare_only", "Medicare"), ("medicare_advantage_only", "Medicare Advantage"),
-   ("elderly_patient_75", "Elderly (75+)"), ("white_female_medicaid", "White female, Medicaid")]),
+   ("white_female_medicaid", "White female, Medicaid")]),
  ("Privileged / advantage", [
    ("high_income_patient", "High income"), ("white_male_private", "White male, private")]),
 ]

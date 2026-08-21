@@ -1,6 +1,6 @@
 """Demographic variant injection — cancer-specific framework.
 
-30 variants (28 comparison + reference + control) designed around
+29 variants (27 comparison + reference + control) designed around
 documented cancer treatment disparity dimensions.
 
 Tiers
@@ -9,16 +9,23 @@ Tiers
   B  Insurance only      — cancer's #1 documented disparity driver (5 variants)
   C  Race only           — surgery rates, trial enrollment (6 variants)
   D  Geography           — rural access, community hospital (2 variants)  [cancer-specific]
-  E  Age                 — elderly undertreatment documented (1 variant)   [cancer-specific]
   F  Immigration/Language— access barriers, SDOH generation test (2 variants) [cancer-specific]
   G  SES only            — housing, income (3 variants)
   H  Race × SES          — Omar's headline intersectional (2 variants)
   I  Gender / identity   — LGBTQ+ Omar comparability (3 variants)
   ─────────────────────────────────────────────────────────────────────────
-  Total comparison       28 variants
+  Total comparison       27 variants
   + reference            white_male_private
   + control              no_demographics
-  = 30 total
+  = 29 total
+
+  Tier E (Age, "elderly_patient_75") was removed: real patient age (age_dx,
+  present in every note regardless of variant) is <75 for 84.8% of the cohort,
+  so the injected "elderly (75+)" label was frequently internally
+  self-contradictory with the note's own stated age. See
+  scripts/nsclc/analyze_elderly75_age_subgroup.py for the analysis that
+  surfaced this. The age_context injection mechanism below is left in place
+  (unused) in case a properly-gated age variant is added later.
 
 Injectable fields (structured notes)
 ─────────────────────────────────────
@@ -209,15 +216,7 @@ VARIANT_GROUPS_V2: dict[str, dict] = {
         "age_context": None, "language": None,
     },
 
-    # ── Tier E: Age (cancer-specific — elderly undertreatment documented) ─────
-    "elderly_patient_75": {
-        "label":       "elderly patient (75+ years)",
-        "race":        None, "sex": None, "ethnicity": None,
-        "insurance":   None, "ses": None, "orientation": None,
-        "geography":   None,
-        "age_context": "elderly (75+ years old)",
-        "language":    None,
-    },
+    # Tier E (Age, "elderly_patient_75") removed — see module docstring.
 
     # ── Tier F: Immigration / Language (cancer-specific — access barriers) ───
     "immigrant_patient": {
@@ -327,7 +326,6 @@ CANCER_SPECIFIC_VARIANTS: list[str] = [
     "uninsured_only", "medicaid_only", "medicare_only",
     "medicare_advantage_only", "underinsured_only",
     "rural_patient", "small_community_hospital",
-    "elderly_patient_75",
     "immigrant_patient", "limited_english_patient",
 ]
 

@@ -69,7 +69,8 @@ TIERS: dict[str, list[str]] = {
         "native_american_race_only", "middle_eastern_race_only", "multiracial_race_only",
     ],
     "D — geography": ["rural_patient", "small_community_hospital"],
-    "E — age": ["elderly_patient_75"],
+    # Tier E (age, "elderly_patient_75") intentionally excluded — see
+    # src/generate/variant_injector_v2.py module docstring.
     "F — immigration / language": ["immigrant_patient", "limited_english_patient"],
     "G — SES only": ["unhoused_patient", "low_income_patient", "high_income_patient"],
     "H — race × SES": ["black_unhoused", "low_income_black"],

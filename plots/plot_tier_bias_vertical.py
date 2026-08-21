@@ -51,8 +51,8 @@ TIERS = [
      ["non_binary_patient", "transgender_woman", "gay_male_patient"], False),
     ("Geography\n(rural)",
      ["rural_patient", "small_community_hospital"], False),
-    ("Age\n(elderly 75)",
-     ["elderly_patient_75"], False),
+    # Age tier ("elderly_patient_75") intentionally excluded — see
+    # src/generate/variant_injector_v2.py module docstring.
     ("Race /\nethnicity",
      ["black_race_only", "hispanic_race_only", "asian_race_only",
       "native_american_race_only", "middle_eastern_race_only", "multiracial_race_only"], False),
