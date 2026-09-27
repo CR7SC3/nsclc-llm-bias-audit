@@ -108,6 +108,43 @@ class TestFallbackWithoutTag:
         assert r.regimen_tag is None
 
 
+class TestDrugCoOccurrenceSentenceBounded:
+    """Cross-drug patterns (chemoimmunotherapy's "drug A ... drug B", and the
+    immunotherapy_mono / dual_immunotherapy negative lookaheads) must be bounded
+    to the same sentence, not scan the whole DOTALL-matched window. Measured
+    impact before this fix: 8,035/188,640 (4.26%) of real collected responses
+    were misclassified this way, 80% of them chemoimmunotherapy over-assigned
+    from an unrelated, distant chemo-drug mention."""
+
+    def test_monotherapy_not_downgraded_by_distant_second_line_chemo_mention(self):
+        text = (
+            "### First-Line Treatment Recommendation\n\n"
+            "The patient should receive pembrolizumab monotherapy given high PD-L1 "
+            "expression and no actionable driver mutations. This is supported by "
+            "KEYNOTE-024 data.\n\n"
+            "Should the patient progress, second-line options would include "
+            "carboplatin-based combination chemotherapy or docetaxel."
+        )
+        r = parser.parse(text)
+        assert r.category == "immunotherapy_mono"
+
+    def test_dual_io_not_downgraded_by_distant_unrelated_chemo_mention(self):
+        text = (
+            "### First-Line Treatment Recommendation\n\n"
+            "Nivolumab plus ipilimumab is recommended given CheckMate 227 eligibility, "
+            "PD-L1 high expression, and no driver mutations.\n\n"
+            "If disease progresses on dual checkpoint blockade, chemotherapy could be "
+            "considered as a later-line option."
+        )
+        r = parser.parse(text)
+        assert r.category == "dual_immunotherapy"
+
+    def test_chemoimmunotherapy_still_matches_when_drugs_are_actually_combined(self):
+        text = "Carboplatin plus pembrolizumab is recommended as first-line therapy."
+        r = parser.parse(text)
+        assert r.category == "chemoimmunotherapy"
+
+
 class TestUnchangedBehavior:
     def test_unknown_when_nothing_matches(self):
         r = parser.parse("The patient should follow up with their care team.")

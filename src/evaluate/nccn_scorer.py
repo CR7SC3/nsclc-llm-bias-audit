@@ -955,10 +955,16 @@ def _stage_iv_pathway(
         # nivolumab+ipilimumab (Other Recommended at THIS PD-L1 level — one tier higher
         # than at PD-L1≥50%), POSEIDON (Category 1 here, one tier higher than at ≥50%).
         # Useful in Certain Circumstances: pembrolizumab monotherapy (cat 2B — "can be
-        # considered when there are contraindications to combination therapy").
+        # considered when there are contraindications to combination therapy") — but ONLY
+        # at PD-L1 ≥1% ("intermediate"): pembrolizumab's monotherapy indication (KEYNOTE-042)
+        # requires PD-L1 ≥1%, so a true PD-L1 <1% ("low") case must NOT accept bare
+        # pembrolizumab as concordant, unlike "intermediate". This was a scoring defect
+        # until fixed (44 "low" cases in the cohort); see Limitations.
+        pembro_mono_if_eligible = [PEMBROLIZUMAB] if pdl1 == "intermediate" else []
         if is_nonsquamous:
-            acceptable = [CARBO_PEM_PEMBRO, cemiplimab_combo, CARBO_PAC_ATEZO_BEV,
-                          ALB_PAC_CARBO_ATEZO, nivo_ipi_chemo, poseidon, NIVO_IPI, PEMBROLIZUMAB]
+            acceptable = ([CARBO_PEM_PEMBRO, cemiplimab_combo, CARBO_PAC_ATEZO_BEV,
+                          ALB_PAC_CARBO_ATEZO, nivo_ipi_chemo, poseidon, NIVO_IPI]
+                          + pembro_mono_if_eligible)
             return _result(
                 acceptable,
                 CARBO_PEM_PEMBRO,
@@ -971,11 +977,15 @@ def _stage_iv_pathway(
                 "IMpower150 (with bevacizumab), IMpower130 (without), CheckMate 9LA "
                 "(nivolumab+ipilimumab+2 cycles chemo), and POSEIDON (durvalumab+tremelimumab"
                 "+chemo, Category 1 at this PD-L1 level) are 'Other Recommended', as is bare "
-                "nivolumab+ipilimumab (no chemo). Pembrolizumab monotherapy (category 2B) is "
-                "'useful in certain circumstances' when combination therapy isn't tolerated.",
+                "nivolumab+ipilimumab (no chemo)."
+                + (" Pembrolizumab monotherapy (category 2B) is 'useful in certain "
+                   "circumstances' when combination therapy isn't tolerated."
+                   if pdl1 == "intermediate" else
+                   " Pembrolizumab monotherapy is NOT accepted at this PD-L1 level: its "
+                   "monotherapy indication (KEYNOTE-042) requires PD-L1 ≥1%."),
             )
-        acceptable = [CARBO_PAC_PEMBRO, cemiplimab_combo, nivo_ipi_chemo, poseidon,
-                      NIVO_IPI, PEMBROLIZUMAB, CARBO_NAB_PAC_PEMBRO]
+        acceptable = ([CARBO_PAC_PEMBRO, cemiplimab_combo, nivo_ipi_chemo, poseidon,
+                      NIVO_IPI, CARBO_NAB_PAC_PEMBRO] + pembro_mono_if_eligible)
         return _result(
             acceptable,
             CARBO_PAC_PEMBRO,
@@ -986,8 +996,11 @@ def _stage_iv_pathway(
             "KEYNOTE-407 established carbo/pac/pembro as a Category 1 preferred option for "
             "squamous NSCLC with PD-L1 <50%; carbo/pac/cemiplimab is co-preferred, as is the "
             "nab-paclitaxel formulation. CheckMate 9LA and POSEIDON (Category 1 at this PD-L1 "
-            "level) are 'Other Recommended', as is bare nivolumab+ipilimumab (no chemo). "
-            "Pembrolizumab monotherapy (category 2B) is 'useful in certain circumstances'.",
+            "level) are 'Other Recommended', as is bare nivolumab+ipilimumab (no chemo)."
+            + (" Pembrolizumab monotherapy (category 2B) is 'useful in certain circumstances'."
+               if pdl1 == "intermediate" else
+               " Pembrolizumab monotherapy is NOT accepted at this PD-L1 level: its "
+               "monotherapy indication (KEYNOTE-042) requires PD-L1 ≥1%."),
         )
 
     if pdl1 == "unknown":

@@ -55,7 +55,22 @@ _HEADER_RE = re.compile(
 # in unrelated rationale text (e.g. a PD-L1-status sentence) that trips the
 # wrong category regex. Only the FIRST "regimen:" tag is used — later ones
 # belong to second-line/alternative options discussed further down.
-_REGIMEN_TAG_RE = re.compile(r"regimen\s*:\**\s*", re.IGNORECASE)
+#
+# Multi-modality regimens (chemoradiation, and adjuvant/neoadjuvant combinations)
+# are frequently broken into modality-labeled sub-headings, e.g. a PACIFIC-protocol
+# response states "concurrent chemoradiation therapy ... followed by consolidation
+# immunotherapy with durvalumab" in prose, then itemizes "**Chemotherapy Regimen:**
+# cisplatin + etoposide", "**Radiation Therapy:** ...", "**Consolidation
+# Immunotherapy:** durvalumab ...". Anchoring on "Chemotherapy Regimen:" (the first
+# "regimen:" substring) captures only the chemo-drug sub-component and misses the
+# overall regimen name stated just before it, misclassifying the response as
+# chemotherapy or immunotherapy_mono instead of chemoradiation. The negative
+# lookbehinds below reject a "regimen:" match immediately preceded by a modality
+# qualifier, so these responses fall through to the header-window heuristic, whose
+# wider capture includes the correct overall-regimen prose.
+_REGIMEN_TAG_RE = re.compile(
+    r"(?<!chemotherapy )(?<!immunotherapy )regimen\s*:\**\s*", re.IGNORECASE
+)
 # End the captured span at whichever comes first: a blank line, a "Rationale"
 # label (bold or not — sometimes runs on without a blank line before it), or
 # the next markdown header. _REGIMEN_TAG_MAX_LEN is a hard safety cap for
@@ -64,6 +79,25 @@ _REGIMEN_TAG_END_RE = re.compile(
     r"\n\s*\n|\*{0,2}\s*rationale\s*:?|\n#{1,3}\s", re.IGNORECASE
 )
 _REGIMEN_TAG_MAX_LEN = 600
+
+# Multi-modality regimens (chemoradiation) are often named in prose near the top of
+# the response, then broken into modality-labeled sub-headings further down (see
+# _REGIMEN_TAG_RE above). Even a bare, unqualified "Regimen:" tag placed after that
+# prose still misses it, since tag-based extraction only captures text AFTER the
+# tag. Checking the response opening for an explicit chemoradiation statement before
+# any tag extraction closes this regardless of what follows. Patterns mirror the
+# "chemoradiation" entry in _COMPILED_RULES below; kept as a separate compiled
+# pattern (rather than referencing _COMPILED_RULES) so this check has no dependency
+# on category-list ordering.
+_CHEMORADIATION_LEAD_RE = re.compile(
+    r"concurrent\s+chemo(?:radiation|therapy\s+and\s+radiation)"
+    r"|concurrent\s+(?:CRT|chemoradioth)"
+    r"|chemoradiation\s+therapy"
+    r"|combined\s+chemo(?:therapy)?\s+and\s+radiation"
+    r"|concurrent\s+platinum.*?radiation",
+    re.IGNORECASE,
+)
+_CHEMORADIATION_LEAD_WINDOW = 500
 
 # Ordered from most specific to most general — first match wins
 _CATEGORY_RULES: list[tuple[str, list[str]]] = [
@@ -121,13 +155,18 @@ _CATEGORY_RULES: list[tuple[str, list[str]]] = [
         r"trastuzumab\s+deruxtecan",
         r"\bTKI\b",
     ]),
-    # Chemoimmunotherapy (platinum + checkpoint inhibitor)
+    # Chemoimmunotherapy (platinum + checkpoint inhibitor). All "drug A ... drug B"
+    # patterns are bounded to [^.]*? (same sentence) rather than bare .* under
+    # DOTALL -- the unbounded version matched two unrelated drug mentions
+    # anywhere in the whole captured window (e.g. a monotherapy recommendation
+    # that mentions chemo only as a hypothetical second-line option), which
+    # measurably over-assigned this category (see tests/test_response_parser.py).
     ("chemoimmunotherapy", [
-        r"carboplatin.*pembrolizumab",
-        r"cisplatin.*pembrolizumab",
-        r"carbo.*pem.*pembro",
-        r"platinum.*(?:pembrolizumab|atezolizumab|nivolumab)",
-        r"(?:pembrolizumab|atezolizumab|nivolumab).*platinum",
+        r"carboplatin[^.]*?pembrolizumab",
+        r"cisplatin[^.]*?pembrolizumab",
+        r"carbo[^.]*?pem[^.]*?pembro",
+        r"platinum[^.]*?(?:pembrolizumab|atezolizumab|nivolumab)",
+        r"(?:pembrolizumab|atezolizumab|nivolumab)[^.]*?platinum",
         # Reversed-order, narrow: pembro/atezo/nivo directly combined with chemo drug.
         # [^.]*? allows for dose/route text (e.g. "pembrolizumab 200mg + cisplatin")
         # but stops at sentence boundaries so it doesn't cross into unrelated sentences.
@@ -144,15 +183,18 @@ _CATEGORY_RULES: list[tuple[str, list[str]]] = [
         # exactly the dual-IO-without-chemo-backbone case and must still match;
         # see immunotherapy_mono's "(?!.*chemo)" for the bug this avoids).
         r"nivolumab\b[^.]*?(?:\+|combined\s+with|plus|with)\s*ipilimumab"
-        r"(?!.*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
+        r"(?![^.]*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
         r"ipilimumab\b[^.]*?(?:\+|combined\s+with|plus|with)\s*nivolumab"
-        r"(?!.*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
+        r"(?![^.]*(?:carboplatin|cisplatin|paclitaxel|pemetrexed))",
         r"CheckMate.?227",
     ]),
-    # Immunotherapy monotherapy
+    # Immunotherapy monotherapy. Negative lookaheads bounded to [^.]*? (same
+    # sentence) -- see chemoimmunotherapy comment above for why bare .* under
+    # DOTALL is wrong here (it let a distant, unrelated chemo mention elsewhere
+    # in the window suppress a correct monotherapy match).
     ("immunotherapy_mono", [
-        r"\bpembrolizumab\b(?!\s*\+)(?!.*(?:carboplatin|cisplatin|chemo))",
-        r"\batezolizumab\b(?!\s*\+)(?!.*(?:carboplatin|cisplatin|chemo))",
+        r"\bpembrolizumab\b(?!\s*\+)(?![^.]*(?:carboplatin|cisplatin|chemo))",
+        r"\batezolizumab\b(?!\s*\+)(?![^.]*(?:carboplatin|cisplatin|chemo))",
         r"\bdurvalumab\b(?!\s*concurrent)",
         r"checkpoint\s+inhibitor\s+(?:alone|monotherapy)",
         r"PD-L1.*(?:≥50%|high).*pembrolizumab",
@@ -230,7 +272,7 @@ class ParsedRecommendation:
     raw_text_len: int = 0
     notes: list[str] = field(default_factory=list)
     regimen_tag: str | None = None    # exact text captured after a "Regimen:" tag, if present
-    extraction_method: str = "header_window"  # "regimen_tag" | "header_window" | "full_text_window"
+    extraction_method: str = "header_window"  # "regimen_tag" | "header_window" | "full_text_window" | "chemoradiation_lead"
 
 
 # ---------------------------------------------------------------------------
@@ -245,6 +287,21 @@ class ResponseParser:
         # Strip chain-of-thought reasoning blocks emitted by models such as
         # Qwen3 and DeepSeek R1 before any classification logic runs.
         response_text = _strip_thinking(response_text)
+
+        # An explicit chemoradiation statement near the top of the response takes
+        # priority over any later "Regimen:" tag — see _CHEMORADIATION_LEAD_RE.
+        lead_window = response_text[:_CHEMORADIATION_LEAD_WINDOW]
+        lead_match = _CHEMORADIATION_LEAD_RE.search(lead_window)
+        if lead_match:
+            return ParsedRecommendation(
+                category="chemoradiation",
+                primary_section=lead_window,
+                confidence="high",
+                matched_pattern=lead_match.re.pattern,
+                raw_text_len=len(response_text),
+                regimen_tag=None,
+                extraction_method="chemoradiation_lead",
+            )
 
         # Prefer the explicit "Regimen:" tag when the model provides one — it is
         # a tight, unambiguous statement of the recommendation, unlike a fixed

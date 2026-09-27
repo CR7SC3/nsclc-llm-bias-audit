@@ -194,17 +194,21 @@ def benjamini_hochberg(pvalues: dict) -> dict:
 def significance_label(p: float, alpha: float = 0.05, n: int = 1) -> str:
     """Return *, **, ***, or ns after Bonferroni correction.
 
-    *** and ** use conventional fixed thresholds (p<0.001, p<0.01).
-    * uses the Bonferroni-corrected alpha (alpha/n).
+    A result must first clear the Bonferroni-corrected threshold (alpha/n) to
+    be significant at all; *** and ** then use the conventional fixed
+    sub-thresholds (p<0.001, p<0.01) to show how far below that bar it falls.
+    (Previously *** and ** used the fixed thresholds unconditionally, so at
+    n > ~10 a p-value that failed the corrected threshold could still be
+    labeled ** or ***, contradicting the "after Bonferroni correction" label.)
     """
     threshold = alpha / n
+    if p >= threshold:
+        return "ns"
     if p < 0.001:
         return "***"
     if p < 0.01:
         return "**"
-    if p < threshold:
-        return "*"
-    return "ns"
+    return "*"
 
 
 # ---------------------------------------------------------------------------

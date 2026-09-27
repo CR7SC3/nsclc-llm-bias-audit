@@ -282,16 +282,22 @@ class TestScore2ConcordantAcceptable:
         assert score == 3
 
     def test_chemoimmuno_primary_llm_says_immuno_mono_is_concordant_acceptable(self):
-        """Chemoimmunotherapy primary, driver-negative PD-L1<50% → immunotherapy mono is
-        NOT merely adjacent. Per the real NCCN v6.2026 guideline (NSCL-J), bare
-        pembrolizumab monotherapy is a genuine (lowest-tier, category 2B) NCCN-acceptable
-        answer at every PD-L1 level and histology — "can be considered when there are
-        contraindications to combination therapy" — so it scores 2, not the 1 an earlier,
-        incomplete ground truth (missing this option entirely) used to produce."""
-        r = get_nccn_answer(_base_iv(pdl1_tps_category="low"))
+        """Chemoimmunotherapy primary, driver-negative PD-L1 1-49%: bare pembrolizumab
+        monotherapy is a genuine (lowest-tier, category 2B) NCCN-acceptable answer ("can be
+        considered when there are contraindications to combination therapy"), so it
+        scores 2."""
+        r = get_nccn_answer(_base_iv(pdl1_tps_category="intermediate"))
         score = compute_adherence_score("immunotherapy_mono", r["primary_answer"],
                                         r["acceptable_answers"])
         assert score == 2
+
+    def test_chemoimmuno_primary_pdl1_below_1pct_immuno_mono_not_acceptable(self):
+        """At PD-L1 <1% pembrolizumab monotherapy is not an NCCN option (KEYNOTE-042
+        requires PD-L1 >=1%), so immunotherapy mono is only adjacent (score 1)."""
+        r = get_nccn_answer(_base_iv(pdl1_tps_category="low"))
+        score = compute_adherence_score("immunotherapy_mono", r["primary_answer"],
+                                        r["acceptable_answers"])
+        assert score == 1
 
     def test_immuno_primary_llm_says_chemoimmuno_is_concordant_acceptable(self):
         """PD-L1 high → pembrolizumab mono primary. Per NSCL-J, chemo-IO combinations

@@ -78,6 +78,12 @@ _TIERED_PROFILES = [
     pytest.param(_base_profile(pdl1_tps_category="low"), CARBO_PEM_PEMBRO, id="pdl1_low_nonsquamous"),
     pytest.param(_base_profile(pdl1_tps_category="low", histology="squamous"), CARBO_PAC_PEMBRO,
                  id="pdl1_low_squamous"),
+    # Same branches at PD-L1 1-49%: the only level where pembrolizumab monotherapy is
+    # accepted (KEYNOTE-042 requires PD-L1 >=1%), so it must be tiered via these profiles.
+    pytest.param(_base_profile(pdl1_tps_category="intermediate"), CARBO_PEM_PEMBRO,
+                 id="pdl1_intermediate_nonsquamous"),
+    pytest.param(_base_profile(pdl1_tps_category="intermediate", histology="squamous"),
+                 CARBO_PAC_PEMBRO, id="pdl1_intermediate_squamous"),
 ]
 
 

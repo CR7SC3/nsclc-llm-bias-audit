@@ -308,6 +308,19 @@ class TestAdenocarcinomaPDL1Pathways:
         result = get_nccn_answer(_base_profile(pdl1_tps_category="low"))
         assert result["primary_answer"] == CARBO_PEM_PEMBRO
 
+    def test_adeno_pdl1_low_rejects_bare_pembrolizumab(self):
+        """Adeno + PD-L1 <1% must NOT accept bare pembrolizumab monotherapy:
+        its label indication (KEYNOTE-042) requires PD-L1 >=1%. Regression test
+        for a scoring defect where "low" was bucketed with "intermediate"."""
+        result = get_nccn_answer(_base_profile(pdl1_tps_category="low"))
+        assert PEMBROLIZUMAB not in result["acceptable_answers"]
+
+    def test_adeno_pdl1_intermediate_still_accepts_bare_pembrolizumab(self):
+        """Adeno + PD-L1 1-49% still accepts bare pembrolizumab (cat 2B,
+        "useful in certain circumstances") — the fix must not remove this."""
+        result = get_nccn_answer(_base_profile(pdl1_tps_category="intermediate"))
+        assert PEMBROLIZUMAB in result["acceptable_answers"]
+
 
 class TestSquamousPDL1Pathways:
     """Squamous cell carcinoma, all drivers negative — NCCN reference §2.2"""
@@ -337,6 +350,21 @@ class TestSquamousPDL1Pathways:
             _base_profile(histology="squamous", pdl1_tps_category="intermediate")
         )
         assert result["primary_answer"] == CARBO_PAC_PEMBRO
+
+    def test_squamous_pdl1_low_rejects_bare_pembrolizumab(self):
+        """Squamous + PD-L1 <1% must NOT accept bare pembrolizumab monotherapy,
+        same rationale as the adenocarcinoma regression test above."""
+        result = get_nccn_answer(
+            _base_profile(histology="squamous", pdl1_tps_category="low")
+        )
+        assert PEMBROLIZUMAB not in result["acceptable_answers"]
+
+    def test_squamous_pdl1_intermediate_still_accepts_bare_pembrolizumab(self):
+        """Squamous + PD-L1 1-49% still accepts bare pembrolizumab (cat 2B)."""
+        result = get_nccn_answer(
+            _base_profile(histology="squamous", pdl1_tps_category="intermediate")
+        )
+        assert PEMBROLIZUMAB in result["acceptable_answers"]
 
 
 # ---------------------------------------------------------------------------
