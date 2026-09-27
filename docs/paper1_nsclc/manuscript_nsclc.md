@@ -18,27 +18,41 @@ case's clinical facts fixed and varying only a demographic label, testing whethe
 recommendation, the response framing, or both change.
 
 **Methods:** We generated demographic-neutral cases from 1,048 real, de-identified patients in
-the AACR Project GENIE Biopharma lung-cancer cohort. For each, we created 29 variants introducing
-demographic attributes across race, age, gender and sexual identity, insurance, socioeconomic status (SES), geography,
+the AACR Project GENIE Biopharma lung-cancer cohort. For each, we created 28 variants introducing
+demographic attributes across race, gender and sexual identity, insurance, socioeconomic status (SES), geography,
 immigration or language, and housing, individually and in select intersections. Six
-state-of-the-art LLMs evaluated each case (188,640 treatment recommendations and rationales).
+state-of-the-art LLMs evaluated each case (182,352 treatment recommendations and rationales).
 
 **Results:** Treatment recommendations stayed within a pre-specified equivalence margin (±0.10
-on the 1-8 treatment-tier scale, a raw-unit margin narrower under a standardized-effect-size
-formulation; see Limitations) of the no-demographics reference in 163 of 174 comparisons;
-most of the 11 exceptions were small and non-directional, though one socioeconomic label and
-one race-socioeconomic intersectional label, in a single model, showed a small net downgrade. Response framing diverged sharply: socioeconomic labels increased
-flagged language in five of six models (largest for "underinsured," d = 1.01, a large effect;
-q < .05, FDR-adjusted), most of it consisting of guideline-endorsed financial-counseling and
-social-work responsiveness, with a smaller, separable stigmatizing component concentrated in
-"unhoused." Race-only labels stayed near zero on framing (d ≤ 0.10); two of the six race-only
-labels (Native American, Middle Eastern) modestly reduced clinical-trial mentions, a separate
-care-intensity outcome (q = 0.01 pooled), while the other four showed no such shift. For "unhoused," flagged
-language rose from 2% to 47% of responses (pooled across all six models) under the raw keyword
-classifier, an upper bound because the label itself discloses housing status; a stricter,
-grounding-aware re-scoring attributed 38% of all unhoused responses to genuinely invented
-concern (single-rater validated and provisional; see Limitations), and this pattern
-replicated in two models on 40 real published case reports.
+on the 1-8 treatment-tier scale) of the no-demographics reference in 154 of 168 comparisons (6
+models x 28 variants). The 14 exceptions were not concentrated on socioeconomically
+disadvantaged or race-only labels, whose equivalence rates (91.7% and 97.2%) matched or exceeded
+the privileged control (91.7%); the lowest rate (88.3%) was in labels outside either axis
+(geography, immigration, and gender/sexual identity). Three of 168 directional tests showed a
+significant net downgrade after correction, all in DeepSeek-chat and all socioeconomic
+(underinsured_only, uninsured_only, latina_female_uninsured); this traces at least in part to a
+parser defect (below) whose correction lands asymmetrically more on the no-demographics reference
+than on these three variants, so we report it rather than suppress it but do not treat it as an
+established demographic effect. Absolute NCCN concordance ranged 44.8% to 90.7% across models; it
+moved higher under a demographic label than under no label at all in one model (+2.7 percentage
+points, Gemini-2.5-flash), a shift that a separately discovered and fixed parser defect had
+inflated to +4.0 points and had spuriously created for a second model (DeepSeek-chat: +2.6 points
+before the fix, -0.1 after). A label-by-label test found no variant significantly more concordant
+than the no-demographics reference in Gemini-2.5-flash or DeepSeek-chat after the fix, but 2 of 28
+variants significantly *less* concordant in GPT-4o (native_american_race_only,
+multiracial_race_only), a race-only pattern this manuscript's prior draft did not detect. Response
+framing diverged sharply: socioeconomic labels increased flagged language, most consistently for
+"underinsured" (largest effect, d = 1.01 mean, significant at q < .05 in all six models), most
+of it guideline-endorsed
+financial-counseling and social-work responsiveness, with a smaller, separable stigmatizing
+component concentrated in "unhoused." Race-only labels stayed near zero on framing (d ≤ 0.10), a
+separate care-intensity outcome, where all six modestly reduced clinical-trial mentions (q =
+0.014, race axis), while socioeconomic status modestly increased de-escalation (q = 0.022) but
+not trial mentions (q = 0.059, ns). For
+"unhoused," flagged language rose from 2% to 47% of responses under the raw keyword classifier, an
+upper bound since the label discloses housing status; a stricter, grounding-aware re-scoring
+attributed 38% to genuinely invented concern (single-rater validated, provisional), replicating in
+two models on 40 real published case reports.
 
 **Conclusions:** Bias in oncology LLMs manifests more in response framing than in treatment
 recommendations; because stigmatizing documentation persists in the record and can shape later
@@ -55,19 +69,19 @@ clinical decision support; lung cancer; social determinants of health; stigma
 
 ## Introduction
 
-A large language model (LLM) can recommend exactly the right cancer treatment and still harm the patient through the words it uses to describe them. These models are moving into routine oncology care: ambient scribes such as Abridge [15] and electronic health record (EHR)-integrated drafting assistants such as Epic's GPT-4 inbox drafting [14] already generate free text that clinicians review, lightly edit, and file into the permanent record at scale. Clinician review does not reliably remove stigmatizing language and may even add it [28].
+A large language model (LLM) can recommend exactly the right cancer treatment and still harm the patient through the words it uses to describe them. These models are moving into routine oncology care: ambient scribes such as Abridge [1] and electronic health record (EHR)-integrated drafting assistants such as Epic's GPT-4 inbox drafting [2] already generate free text that clinicians review, lightly edit, and file into the permanent record at scale. Clinician review does not reliably remove stigmatizing language and may even add it [3].
 
-The harm might be a doubt about adherence or a fabricated housing claim, written into a disadvantaged patient's chart, where it persists for every clinician who follows. This concern is not hypothetical, since stigmatizing language from one clinician measurably worsens the next clinician's attitudes and care decisions for the same patient [9], and such language is common in clinical notes [10,11] and can be detected at scale by LLMs [12]. Lung cancer is a particularly high-risk setting, carrying a documented stigma of smoking-related blame that distorts care: clinicians sometimes doubt patients' reported smoking history [21], and the stigma itself predicts delayed help-seeking [20]. A tool that drafts lung-cancer notes at scale could encode this bias automatically.
+The harm might be a doubt about adherence or a fabricated housing claim, written into a disadvantaged patient's chart, where it persists for every clinician who follows. This concern is not hypothetical, since stigmatizing language from one clinician measurably worsens the next clinician's attitudes and care decisions for the same patient [4], and such language is common in clinical notes [5,6] and can be detected at scale by LLMs [7]. Lung cancer is a particularly high-risk setting, carrying a documented stigma of smoking-related blame that distorts care: clinicians sometimes doubt patients' reported smoking history [8], and the stigma itself predicts delayed help-seeking [9]. A tool that drafts lung-cancer notes at scale could encode this bias automatically.
 
-Whether medical LLMs introduce or amplify such disparities is an active question. Omar et al. [1] gave nine LLMs 1,000 emergency-department cases in 32 sociodemographic variations and found that Black, unhoused, and LGBTQIA+ labels pushed cases toward more urgent or invasive care than a matched no-demographics control. Others report that LLMs stereotype how diseases present by demographic group and link race to different diagnostic work-ups [16], and repeat debunked race-based medical claims [17]. A systematic review reported bias in 22 of 24 studies examined [2]. But a literature in which almost every audit finds bias in the final decision tells us little about which mechanisms matter, which are fixable, and which reflect sound clinical judgment.
+Whether medical LLMs introduce or amplify such disparities is an active question. Omar et al. [10] gave nine LLMs 1,000 emergency-department cases in 32 sociodemographic variations and found that Black, unhoused, and LGBTQIA+ labels pushed cases toward more urgent or invasive care than a matched no-demographics control. Others report that LLMs stereotype how diseases present by demographic group and link race to different diagnostic work-ups [11], and repeat debunked race-based medical claims [12]. A systematic review reported bias in 22 of 24 studies examined [13]. But a literature in which almost every audit finds bias in the final decision tells us little about which mechanisms matter, which are fixable, and which reflect sound clinical judgment.
 
-Two limits explain that gap, both about what gets measured. Most audits score the final decision, not the language that carries it [1], and standard audit designs are increasingly recognized as ill-suited to the free text these models generate [22]. Yet the recommendation and the narrative around it are different outputs with different consequences: a recommendation can stay unchanged while the surrounding language still carries an unwarranted assumption that follows the patient forward. An audit that asks only whether the treatment category flips misses this harm and understates what a deployed drafting tool would write into the chart.
+Two limits explain that gap, both about what gets measured. Most audits score the final decision, not the language that carries it [10], and standard audit designs are increasingly recognized as ill-suited to the free text these models generate [14]. Yet the recommendation and the narrative around it are different outputs with different consequences: a recommendation can stay unchanged while the surrounding language still carries an unwarranted assumption that follows the patient forward. An audit that asks only whether the treatment category flips misses this harm and understates what a deployed drafting tool would write into the chart.
 
-The second limit is that the few audits reaching language bias score every demographic difference as bias, as if none could be clinically warranted [3,23], though many are. NCCN distress-management guidelines list financial and insurance problems on the standard screening list and direct referral to social work [24], and oncology bodies increasingly frame screening for and addressing these social needs as part of standard care [25]. Raising these for a patient whose note discloses instability is warranted care, not bias. Negative descriptors in real charts already track not only race but insurance status [18], which makes this distinction urgent for LLMs. To our knowledge, no prior LLM audit has split socioeconomic responsiveness into an appropriate-care component and a distinct stigmatizing one and asked whether the two behave differently.
+The second limit is that the few audits reaching language bias score every demographic difference as bias, as if none could be clinically warranted [15,16], though many are. NCCN distress-management guidelines list financial and insurance problems on the standard screening list and direct referral to social work [17], and oncology bodies increasingly frame screening for and addressing these social needs as part of standard care [18]. Raising these for a patient whose note discloses instability is warranted care, not bias. Negative descriptors in real charts already track not only race but insurance status [19], which makes this distinction urgent for LLMs. To our knowledge, no prior LLM audit has split socioeconomic responsiveness into an appropriate-care component and a distinct stigmatizing one and asked whether the two behave differently.
 
-This study addresses both limits in one design. Using the same demographic-variant approach as Omar et al. [1] on a large, real-world oncology cohort, we change only the demographic label on an otherwise identical case across six LLMs from five model families, splitting narrative framing into appropriate-care and stigmatizing components tested for a socioeconomic gradient and any race-specific effect. Because a recommendation is safe only if correct, we anchor the decision analysis to NCCN guideline concordance, since LLM oncology recommendations are wrong often enough that concordance must be measured, not assumed [19]. We ask, in sequence: whether demographic framing changes the NSCLC treatment recommendation (tested against a pre-specified equivalence margin); whether the surrounding narrative changes on its own, and if so, whether race or socioeconomic disadvantage drives it; and, when framing does change, how much reflects defensible social-needs care versus a separable stigmatizing signal, and whether that signal survives on notes the models did not generate.
+This study addresses both limits in one design. Using the same demographic-variant approach as Omar et al. [10] on a large, real-world oncology cohort, we change only the demographic label on an otherwise identical case across six LLMs from five model families, splitting narrative framing into appropriate-care and stigmatizing components tested for a socioeconomic gradient and any race-specific effect. Because a recommendation is safe only if correct, we anchor the decision analysis to NCCN guideline concordance, since LLM oncology recommendations are wrong often enough that concordance must be measured, not assumed [20]. We ask, in sequence: whether demographic framing changes the NSCLC treatment recommendation (tested against a pre-specified equivalence margin); whether the surrounding narrative changes on its own, and if so, whether race or socioeconomic disadvantage drives it; and, when framing does change, how much reflects defensible social-needs care versus a separable stigmatizing signal, and whether that signal survives on notes the models did not generate.
 
-Our finding also differs in mechanism from prior work. Where LLMs have been shown to amplify stigmatizing language already in a clinician's note [4], here they generate it unprompted, from a bare demographic label added to a note that contained none, a pattern that persists even when that label is embedded in natural prose rather than a salient tag (see Robustness, below).
+Our finding also differs in mechanism from prior work. Where LLMs have been shown to amplify stigmatizing language already in a clinician's note [21], here they generate it unprompted, from a bare demographic label added to a note that contained none, a pattern that persists even when that label is embedded in natural prose rather than a salient tag (see Robustness, below).
 
 ---
 
@@ -77,10 +91,10 @@ Our finding also differs in mechanism from prior work. Where LLMs have been show
 
 This is a counterfactual audit of six large language models (LLMs), testing their first-line
 treatment recommendations and response framing on a real-world oncology cohort. Each case went
-to each model in 30 versions differing only in a demographic label prepended to an otherwise
+to each model in 29 versions differing only in a demographic label prepended to an otherwise
 identical, demographics-neutral note. Staging, histology, biomarkers, and performance status
 stay constant, so any difference across variants traces to the label alone (counterfactual
-fairness [26]). We separated two axes a priori, hard-bias (does the
+fairness [22]). We separated two axes a priori, hard-bias (does the
 guideline-concordant decision change) and soft-bias (does the framing change), plus an
 intermediate care-intensity layer (which options a response foregrounds, decision fixed).
 Figure 1 shows the workflow (Figure 1A) and variant design (Figure 1B). The results follow a
@@ -89,13 +103,13 @@ to language framing (Figures 4–5) and its robustness (Figure 6). The reference
 no_demographics anchor, and white_male_private is a privileged variant, never the baseline.
 This study is an evaluation of off-the-shelf LLMs and is reported in accordance with the
 applicable items of the TRIPOD-LLM reporting guideline for large language models in health
-care [27] (completed checklist provided as a supplementary file,
+care [23] (completed checklist provided as a supplementary file,
 `docs/paper1_nsclc/TRIPOD_LLM_checklist.md`).
 
 ### Data Source and Cohort
 
 The cohort is 1,048 real, de-identified non-small-cell lung cancer (NSCLC) cases from the AACR
-Project GENIE Biopharma Collaborative (v2.0-public) [5,6], across three academic centers (MSK
+Project GENIE Biopharma Collaborative (v2.0-public) [24,25], across three academic centers (MSK
 n=556, DFCI n=343, VICC n=149). Cases required an index NSCLC diagnosis, known AJCC stage, and
 at least one first-line regimen. Stage was IV in 56.7% (n=594), III in 23.9% (n=251), and I–II
 in 19.4% (n=203). Histology was adenocarcinoma 84.4% (n=884), squamous 11.7% (n=123), and
@@ -165,20 +179,23 @@ KEAP1) was extracted from mutation, fusion, and copy-number files and mapped to 
 panel. Genes a panel did not cover were coded not_on_panel rather than negative, avoiding a
 false-negative on narrow panels. PD-L1 tumor proportion score was available for 377 patients
 (36.0%). The rest are coded untested. Each profile became a demographics-neutral consultation
-note written by gemini-2.5-flash using de-identified CORAL oncology notes [32] as style
+note written by gemini-2.5-flash using de-identified CORAL oncology notes [26] as style
 anchors only. The prompt excludes all demographic content, which is added only at the later injection
 step.
 
 ### Counterfactual Variant Design
 
-Each case received 29 demographic variants across nine sociodemographic categories:
+Each case received 28 demographic-variant notes across eight sociodemographic categories:
 intersectional race × insurance profiles (5, including the white_male_private privileged
 comparator, replicating Omar et al.), insurance alone (5: uninsured, Medicaid, Medicare,
 Medicare Advantage, underinsured), race/ethnicity alone (6), geography (2: rural, small
-community hospital), age (1: elderly, age 75), immigration/language (2), socioeconomic
+community hospital), immigration/language (2), socioeconomic
 status alone (3: unhoused, low-income, high-income), race × socioeconomic-status
-intersections (2), and gender/sexual identity (3). With the no_demographics anchor, this gives 30 versions per case.
-The 29 variants group into seven reporting axes. Each label was a single bracketed tag
+intersections (2), and gender/sexual identity (3). With the no_demographics anchor, this
+gives 29 versions per case. Age was not varied, because every note already states the
+patient's age from the GENIE record; an age-75+ label generated in the original panel was
+dropped from the design because it duplicated or contradicted that stated age.
+The 28 variants group into six reporting axes. Each label was a single bracketed tag
 prepended to the note (e.g., "[PATIENT DEMOGRAPHICS: Black female patient, Medicaid]"),
 isolating the demographic signal from any narrative-style change. The intersectional labels
 (e.g. `black_unhoused`, `low_income_black`) are paired with matched counter-examples that
@@ -197,8 +214,8 @@ We evaluated six LLMs from five families: Gemini-2.5-flash (Google, direct API),
 (DeepSeek, direct API), Llama-3.3-70B (`meta-llama/Llama-3.3-70B-Instruct-Turbo` via Together
 AI) and Llama-3.1-8B (`openrouter/meta-llama/llama-3.1-8b-instruct` via OpenRouter), and GPT-4o
 and GPT-4o-mini (OpenAI, direct API). All ran at
-temperature 0 with one identical prompt across all 1,048 cases × 30 variants (31,440 calls per
-model, 188,640 responses total). Data collection ran 2026-06-25 to 2026-07-07 (per-model access
+temperature 0 with one identical prompt across all 1,048 cases × 29 versions (30,392 calls per
+model, 182,352 responses total). Data collection ran 2026-06-25 to 2026-07-07 (per-model access
 windows in Supplementary Methods, reconstructed from API-call timestamps stored with each
 response); every model was called under its provider's floating alias (e.g. `gpt-4o`,
 `gemini-2.5-flash`) rather than a pinned dated snapshot, so which underlying checkpoint served
@@ -207,11 +224,35 @@ unpinned-alias LLM audits and disclosed further in Supplementary Methods. Three 
 DeepSeek only, given per-call cost. We disclose this rather than claim six-vendor
 representativeness.
 
+### Response Parsing
+
+Each response was mapped to one of eleven treatment categories, best supportive care,
+observation, testing first, chemotherapy, immunotherapy monotherapy, dual immunotherapy
+(nivolumab plus ipilimumab without a chemotherapy backbone), chemoimmunotherapy, radiation
+only, chemoradiation, targeted therapy, and surgical resection, by a rule-based parser applied
+to the response text. Dual immunotherapy was added as its own category; earlier versions of the
+parser folded it into immunotherapy monotherapy or left it unclassified.
+
+When a response stated an explicit "Regimen:" tag, common in the Gemini and DeepSeek outputs,
+the parser classified the text immediately following the tag. The captured span was capped at
+600 characters and ended at the first blank line, "Rationale" label, or markdown header,
+whichever came first. This tight span replaced an earlier approach that classified a fixed
+1000-character window starting at the first recognized section header. That window occasionally
+captured unrelated text, for example a PD-L1 status sentence discussed after the actual
+recommendation, and the response was misclassified as a result. When no tag was present, or the
+tagged text did not match any category, the parser fell back to the header-window heuristic. If
+no header was found either, it classified the first 1500 characters of the response.
+
+Category rules were regular expressions ordered from most specific to most general. Rules that
+require two drugs to co-occur, for example a checkpoint inhibitor combined with a platinum
+agent, were bounded to the same sentence, so an unrelated second-line alternative mentioned
+elsewhere in the response could not be read as part of the primary regimen.
+
 ### Reference Standard
 
 NCCN Category 1 concordance was scored by a deterministic decision tree encoding the NCCN NSCLC
-guideline [7] over stage, histology, ECOG status, resectability, and the biomarker cascade
-(EGFR/ALK/ROS1/BRAF/MET/RET/NTRK/PD-L1, in priority order). Because many biomarker profiles
+guideline [27] over stage, histology, ECOG status, a stage-based resectability default (Limitations),
+and the biomarker cascade (EGFR/ALK/ROS1/BRAF/MET/RET/NTRK/PD-L1, in priority order). Because many biomarker profiles
 allow several Category 1-equivalent options, the scorer returns the full set of acceptable
 first-line regimens, not one answer. A response is concordant if its treatment category matches
 any entry. This is an unvalidated research instrument -- a reference standard, not a clinically
@@ -224,28 +265,36 @@ model in absolute concordance (v6.2026 uniformly higher, since the update only a
 regimens) and left every demographic-versus-reference differential
 unchanged within 0.5 points, so the choice of scorer version does not affect the bias findings.
 
+The scorer also assigns each acceptable regimen an NCCN preference tier, preferred, other
+recommended, or useful in certain circumstances. For example, osimertinib is preferred for EGFR
+exon 19 deletion or L858R, while an earlier-generation EGFR inhibitor such as erlotinib is
+useful in certain circumstances for the same mutation. Category-level concordance, used for the
+outcomes below, cannot distinguish a same-category substitution of a lower-preference drug for a
+higher-preference one. The tiered ground truth makes that substitution detectable, but was not
+used for the confirmatory outcomes reported here.
+
 ### Outcome Measures
 
-Our outcomes trace the same bias-severity gradient as the study design, from the treatment decision to the language wrapped around it. Three confirmatory outcomes, all primary, addressed the decision itself. The most basic, a treatment-recommendation flip rate, is the share of cases in which a variant's treatment category differs from the no-demographics reference, reported with Wilson 95% confidence intervals and averaged over the six models. Because a raw flip says nothing about guideline status, we next tested each variant against the reference for statistical equivalence in NCCN concordance, using two one-sided tests (TOST) on the paired treatment-tier shift (mean difference on the 1-8 ordinal scale, treated as approximately interval-spaced) against a pre-specified margin of ±0.10 tier-scale units (the raw, unstandardized paired mean shift; a deviation from the literal pre-registered Cohen's-d margin, disclosed in full with its numerical consequence in Limitations), via a 95% CI (the conservative equivalent of one-sided alpha=0.025), and reporting the result per model. Finally, to recover direction where a change did occur, we restricted to cases whose category changed and tested the signed tier shift (1 = best supportive care to 8 = surgical resection) with a paired sign test, applying a single grid-wide Benjamini-Hochberg (BH) correction across all 174 tests (6 models × 29 variants) so that no cell borrowed significance from the rest.
+Our outcomes trace the same bias-severity gradient as the study design, from the treatment decision to the language wrapped around it. Three confirmatory outcomes, all primary, addressed the decision itself. The most basic, a treatment-recommendation flip rate, is the share of cases in which a variant's treatment category differs from the no-demographics reference, reported with Wilson 95% confidence intervals and averaged over the six models. Because a raw flip says nothing about guideline status, we next tested each variant against the reference for statistical equivalence in treatment-tier shift, a continuous proxy for guideline-concordant care, not NCCN concordance itself (a binary variable, compared separately via McNemar's test rather than an equivalence test, in the pooled label-level protocol below), using two one-sided tests (TOST) on the paired treatment-tier shift (mean difference on the 1-8 ordinal scale, treated as approximately interval-spaced) against a pre-specified margin of ±0.10 tier-scale units (the raw, unstandardized paired mean shift; a deviation from the literal pre-registered Cohen's-d margin, disclosed in full with its numerical consequence in Limitations), via a 95% CI (the conservative equivalent of one-sided alpha=0.025), and reporting the result per model. Finally, to recover direction where a change did occur, we restricted to cases whose category changed and tested the signed tier shift (1 = best supportive care to 8 = surgical resection; full 8-tier mapping in Supplementary Methods) with a paired sign test, applying a single grid-wide Benjamini-Hochberg (BH) correction across all 168 tests (6 models × 28 variants) so that no cell borrowed significance from the rest.
 
 Holding the decision fixed, a secondary care-intensity outcome measured which options a response chooses to foreground. For each response we scored whether it raised a clinical trial (advanced treatment) or palliative care (de-escalation) as a within-case change from the reference, taking fewer trial mentions and more de-escalation under a marginalization label as the a priori harm direction. This differs from the language-layer treatment of palliative framing below, which is excluded from the stigma composite because its absolute appropriateness cannot be judged out of context (56.7% of the cohort is Stage IV, where early palliative integration is itself guideline-concordant care). Here we instead ask a purely relative, within-case question: does the identical clinical case receive more palliative-care framing under a disadvantaged label than under no label at all? That question is informative regardless of whether palliative care is appropriate in the abstract, because the counterfactual holds every clinical fact fixed and isolates the demographic label as the only difference. Because the vendors are correlated, we fit a linear mixed-effects model with a random intercept per model, BH-corrected per axis group, and treated how many of the six vendors agree in direction (Figure 3B) as the more robust evidence than the mixed-model interval estimates alone, given the small number of vendor clusters (construction detail in Supplementary Methods); race-only is included here so that coverage matches the full variant design.
 
-The language layer, also secondary, was measured with a continuous soft-framing score computed per response from eight linguistic dimensions, each caught by a keyword classifier and adjudicated by an LLM judge (Claude Sonnet-4.6); a ninth, palliative framing, was detected but excluded because it fires on clinically appropriate end-of-life care. Rather than read this score as a single harm signal, and consistent with NCCN's endorsement of financial-counseling and social-work referral for disclosed barriers, we split its eight dimensions a priori into a stigmatizing set (adherence doubt, prognosis framing, unprompted social-determinants content, and watchful-waiting) and an appropriate set (financial-barrier, social-work, specialist, and clinical-trial language), with the pre-registered stigma metric being adherence doubt plus hallucinated social-determinants content. Watchful-waiting sits in the stigmatizing set by the same logic used to exclude palliative framing entirely (deferred treatment can be guideline-appropriate for early-stage or frail patients); we did not exclude it because, unlike palliative framing, it did not drive the results (it fires rarely and near-uniformly across variants), but we flag the same conceptual tension here for completeness. Each set's net percentage was tested with a paired sign test and BH-corrected within its own family (8 pre-specified socioeconomic and race comparator variants × 6 models = 48 tests, a smaller family than the 174-test grid used for the decision-level tests above), while per-variant effect sizes (Cohen's d) localized the shift and, through the Black plus unhoused minus unhoused contrast, isolated the race increment with disadvantage held constant.
+The language layer, also secondary, was measured with a continuous soft-framing score built from eleven linguistic dimensions (nine disadvantage-associated, "minority-higher," and two advantage-associated, "white-higher"), each caught by a keyword classifier and adjudicated by an LLM judge (Claude Sonnet-4.6); the score nets the minority-higher hit count against the white-higher hit count per response (range -2 to +9), and this full eleven-dimension score is what the per-variant Cohen's d in Figure 4 and the inter-model correlation in Figure 4B are computed from (all eleven listed with detection rationale in Supplementary Table S4). Rather than read this score as a single harm signal, and consistent with NCCN's endorsement of financial-counseling and social-work referral for disclosed barriers, we split eight of its eleven dimensions a priori into a stigmatizing set (adherence doubt, prognosis framing, unprompted social-determinants content, and watchful-waiting) and an appropriate set (financial-barrier, social-work, specialist, and clinical-trial language), with the pre-registered stigma metric being adherence doubt plus hallucinated social-determinants content; this narrower eight-dimension split, not the full eleven-dimension score, is what Figure 5 reports. The remaining three dimensions contribute to the Figure 4 score but sit outside the Figure 5 split: palliative framing, excluded because its appropriateness cannot be judged out of context (56.7% of the cohort is Stage IV, where early palliative integration is itself guideline-concordant care); and hedged/conditional language and comorbidity emphasis, which fire rarely and near-uniformly across variants and were not part of the pre-registered stigma/appropriate contrast. Watchful-waiting sits in the stigmatizing set by the same out-of-context-appropriateness logic used to exclude palliative framing from that set (deferred treatment can be guideline-appropriate for early-stage or frail patients); we did not exclude it because, unlike palliative framing, it did not drive the results (it fires rarely and near-uniformly across variants), but we flag the same conceptual tension here for completeness. Each set's net percentage was tested with a paired sign test and BH-corrected within its own family (8 pre-specified socioeconomic and race comparator variants × 6 models = 48 tests, a smaller family than the 168-test grid used for the decision-level tests above), while per-variant effect sizes (Cohen's d) on the full eleven-dimension score localized the shift and, through the Black plus unhoused minus unhoused contrast, isolated the race increment with disadvantage held constant.
 
-Two final analyses probed the shape and generality of that framing signal. To confirm the stigmatizing gradient rises with disadvantage rather than merely appearing to, we ran a Cochran-Armitage trend test per model across five ordered strata (control < uninsured < underinsured < low income < unhoused), using the no-demographics note as the control anchor. Because the five strata are repeated measures on the same cases, the standard normal-theory p-value is invalid here, so significance was assessed instead by a case-clustered permutation null (construction detail in Supplementary Methods). Because both the direction and the ordering were pre-registered before any rate was seen, the test is confirmatory rather than fit to the data, and race-only, carrying no disadvantage, is compared to control directly instead of placed on the ladder. To confirm the effect reflects a shared mechanism rather than one model's idiosyncrasy, we compared the 29-variant effect vector (Cohen's d per variant) pairwise across the six models by Spearman correlation.
+Two final analyses probed the shape and generality of that framing signal. To confirm the stigmatizing gradient rises with disadvantage rather than merely appearing to, we ran a Cochran-Armitage trend test per model across five ordered strata (control < uninsured < underinsured < low income < unhoused), using the no-demographics note as the control anchor. Because the five strata are repeated measures on the same cases, the standard normal-theory p-value is invalid here, so significance was assessed instead by a case-clustered permutation null (construction detail in Supplementary Methods). Because both the direction and the ordering were pre-registered before any rate was seen, the test is confirmatory rather than fit to the data, and race-only, carrying no disadvantage, is compared to control directly instead of placed on the ladder. To confirm the effect reflects a shared mechanism rather than one model's idiosyncrasy, we compared the 28-variant effect vector (Cohen's d per variant) pairwise across the six models by Spearman correlation.
 
 ### Judge Validation
 
-Following precedent for LLM-based detection of stigmatizing clinical language at scale [12],
+Following precedent for LLM-based detection of stigmatizing clinical language at scale [7],
 and because the accuracy of such LLM-based detection is known to depend on model configuration
-[29], the keyword classifier and the LLM judge were validated against a human gold set.
+[28], the keyword classifier and the LLM judge were validated against a human gold set.
 The gold set was 60 responses drawn at random (seed 17) from the Gemini and
-DeepSeek arms, preserving the natural ~10% stigma prevalence, labeled by the study author
+DeepSeek arms, of which the 58 from analyzed variants were scored, preserving the natural ~10% stigma prevalence, labeled by the study author
 (single rater) blinded to variant as STIGMA, APPROPRIATE, or NEUTRAL, then binarized to STIGMA
 versus not. Because Cohen's kappa is sensitive to the skewed ~10% STIGMA prevalence and can
 understate agreement even when raw agreement is high, we also report the prevalence-and-bias-
-adjusted kappa (PABAK [33]), which corrects for this by assuming a balanced 2x2 table. Judge–human agreement was 91.7% (Cohen's kappa 0.57, PABAK 0.83), regex–human 95.0%
-(0.77, 0.90), and bias-tree–human 93.3% (0.68, 0.87). At ~10% prevalence (6–9 STIGMA items) the
+adjusted kappa (PABAK [29]), which corrects for this by assuming a balanced 2x2 table. Judge–human agreement was 91.4% (Cohen's kappa 0.57, PABAK 0.83), regex–human 94.8%
+(0.77, 0.90), and bias-tree–human 93.1% (0.68, 0.86). At ~10% prevalence (6–9 STIGMA items) the
 kappa estimates are base-rate-fragile and cannot rank the three instruments, so raw agreement
 and PABAK are the reportable quantities. Reported stigma rates use the regex composite
 (adherence doubt OR hallucinated social-determinants content). The gold set was labeled by a
@@ -291,7 +340,8 @@ figure.
 This study involved secondary analysis of de-identified data obtained under the AACR Project
 GENIE Biopharma Collaborative data-use agreement; no identifiable patient information was
 accessed and no patient contact occurred. As secondary analysis of de-identified data, this
-study did not constitute human-subjects research requiring IRB review. The NCCN concordance
+study's determination that it did not require institutional review board (IRB) review was an
+investigator self-determination, not a formal exemption letter. The NCCN concordance
 scorer is a research instrument only, explicitly not validated for clinical or patient-facing
 use. No treatment decisions in this study affected real patients.
 
@@ -306,24 +356,38 @@ result reflects non-ordering or non-reporting to the registry rather than tumor-
 
 ### The treatment decision stays stable across demographic variants
 
-Demographic labels did not move the treatment recommendation. The flip rate relative to the
-no-demographics reference did not vary systematically across the 29 variants: for every
-model, each variant's flip rate overlapped that model's own mean (11.7% to 22.1% across the
-six models; per-model detail in Supplementary Table S1), with every label flipping at about
-the same ~17% averaged across models (Figure 2B), tracking each model's baseline decision
-instability rather than any demographic signal. Guideline concordance told the same story
-under a pre-registered
-equivalence test: two one-sided tests (TOST, margin ±0.10 tier-scale units) on the paired
-treatment-tier shift established equivalence between the reference and all 29 variants in
-Llama-3.3-70B and GPT-4o, 28 of 29 in Llama-3.1-8B, 27 of 29 in DeepSeek-chat and GPT-4o-mini,
-and 23 of 29 in Gemini-2.5-flash (Figure 2A); raw concordance deltas stayed within ±1.0
-percentage point in every model despite absolute concordance varying widely (49.9% to 89.0%
-across models on the unique-answer-scorable subset used for this comparison, a narrower base
-than the full 1,048-case cohort the TOST test above runs on), reflecting baseline
-guideline-following competence rather than demographic sensitivity. Only two of the 174 directional decision tests (6 models x 29 variants) survived
-correction, both in DeepSeek-chat and both socioeconomic: underinsured_only (91 downgrades vs.
-40 upgrades; p = 9.8e-6, q = 0.0017) and latina_female_uninsured (92 vs. 43; p = 3.0e-5, q =
-0.0026), each a net shift to less aggressive treatment for a single vendor (Figure 2C).
+Demographic labels did not move the treatment recommendation in a demographically patterned
+way. The flip rate relative to the no-demographics reference varied by model (range 11.0% to
+25.4%, mean 18.4% across the six models; per-model detail in Supplementary Table S1), but for
+every model, each variant's flip rate overlapped that model's own mean, tracking each model's
+baseline decision instability rather than any demographic signal (Figure 2B). Guideline
+concordance was less uniformly stable under a pre-registered equivalence test: two one-sided
+tests (TOST, margin ±0.10 tier-scale units) on the paired treatment-tier shift established
+equivalence between the reference and 28 of 28 variants in DeepSeek-chat and Llama-3.3-70B, 27 of
+28 in Llama-3.1-8B, 26 of 28 in GPT-4o, 23 of 28 in GPT-4o-mini, and 22 of 28 in
+Gemini-2.5-flash (Figure 2A), for 154 of 168 comparisons overall. This equivalence rate did not
+track demographic disadvantage: pooled across models, the socioeconomically disadvantaged and
+race-only variants (91.7% and 97.2% equivalent) matched or exceeded the privileged control
+(91.7%), and the lowest rate (88.3%) fell among labels outside either axis (geography,
+immigration, gender and sexual identity). Absolute concordance moved opposite to a
+demographic-harm prediction for one model: demographic-labeled responses were on average 2.7
+percentage points more concordant than the no-demographics reference in Gemini-2.5-flash
+(absolute concordance ranged 44.8% to 90.7% across models on the unique-answer-scorable subset
+used for this comparison, a narrower base than the full 1,048-case cohort the TOST test above
+runs on -- 529 cases (50.5%), composition in Limitations). A separately discovered and fixed
+parser defect (Limitations) had inflated Gemini-2.5-flash's shift from 2.7 to 4.0 points and had
+spuriously produced an apparent 2.8-point shift in DeepSeek-chat that the corrected analysis
+shows as -0.1 points, effectively null. A label-by-label test found no variant significantly
+more concordant than the reference in Gemini-2.5-flash or DeepSeek-chat after the fix -- the
+apparent "weaker no-demographics baseline" pattern, including the previously-reported
+significance of the privileged white_male_private control in Gemini-2.5-flash, did not survive
+the fix -- but found 2 of 28 variants (native_american_race_only, multiracial_race_only)
+significantly *less* concordant than the reference in GPT-4o, a race-only pattern the
+pre-fix analysis did not detect. Three of the 168 directional decision tests (6 models x 28
+variants) showed a significant net downgrade after correction, all in DeepSeek-chat and all
+socioeconomic (underinsured_only, uninsured_only, latina_female_uninsured; Figure 2C;
+Limitations discusses why this likely reflects a residual measurement artifact rather than an
+established demographic effect).
 
 ### Care intensity tilts against marginalized patients
 
@@ -342,12 +406,15 @@ false-discovery-rate correction (q < 0.05) for geography, immigration/language,
 gender/identity, and race on advanced treatment, and for socioeconomic/housing and
 immigration/language on de-escalation, with honest exceptions (uninsured received more trial
 mentions, not fewer). Its strongest support is directional: on the flagged variants, all or
-nearly all six vendors moved the same way (Figure 3B). Unlike the framing signal below, this
-layer was affected by two race-only labels (Native American, Middle Eastern) as well as
-socioeconomic status (fewer trials, q = 0.01 pooled; Figure 3B), while the other four race-only
-labels were flat, so the "socioeconomic, not race" result is specific to framing. Magnitudes are small
-(1 to 4 points), so we read this as a directionally consistent tilt, not a demonstrated
-change in delivered treatment.
+nearly all six vendors moved the same way (Figure 3B). Unlike the framing signal below, on
+trial mentions specifically this layer was driven by race (q = 0.014 pooled), not socioeconomic
+status (q = 0.059 pooled, ns on this metric); all six race-only labels reduced trial mentions in
+a majority of models (4/6 to 6/6, strongest for middle_eastern_race_only and black_race_only at
+6/6 each), so this is not a two-label effect. Socioeconomic status instead drove the
+de-escalation metric (q = 0.022 pooled; Figure 3B), so "socioeconomic, not race" describes which
+axis drives which care-intensity metric, and separately describes the language layer below.
+Magnitudes are small (1 to 4 points), so we read this as a directionally consistent tilt, not a
+demonstrated change in delivered treatment.
 
 ### Framing diverges with socioeconomic disadvantage, not race
 
@@ -363,10 +430,10 @@ race-only and reference-adjacent variants clustered near zero, while unhoused, u
 uninsured, and low-income variants showed materially larger effects (Figure 4C). Across
 models, mean d for the six race-only variants ran only -0.03 to 0.10 (the spread of per-variant
 means within that family), an order of magnitude below the 0.03 to 1.01 range spanned by the
-seven socioeconomic variants' own means, and plotting all 174
+seven socioeconomic variants' own means, and plotting all 168
 contrasts by effect size against significance made the separation explicit: socioeconomic
 contrasts fanned to high significance and large effect size, while race-only, control, and
-other identity or context variants (geography, age, immigration/language, and the three
+other identity or context variants (geography, immigration/language, and the three
 gender/sexual-identity variants) clustered near the null (Figure 4A). The underinsured_only
 variant carried the largest average effect (mean d = 1.01, range across models 0.46-1.55), with
 uninsured_only, low_income_patient, and unhoused_patient each in the 0.76-0.82 range, while the high-income control stayed near zero (d
@@ -381,8 +448,8 @@ variants.
 Two checks localized the signal to socioeconomic status specifically. Holding disadvantage
 constant, adding race did not raise framing: the race increment at fixed socioeconomic
 status (Black+unhoused minus unhoused) was -0.08 (95% CI -0.18 to +0.01, ns; Figure 4C
-inset). And the effect was not one model's idiosyncrasy: the 29-variant effect ranking was
-highly correlated across models (off-diagonal median Spearman rho = 0.72, strong within the
+inset). And the effect was not one model's idiosyncrasy: the 28-variant effect ranking was
+highly correlated across models (off-diagonal median Spearman rho = 0.74, strong within the
 Gemini/Llama/DeepSeek cluster at 0.82-0.91 and weaker for GPT at 0.58-0.62; Figure 4B). The
 stigmatizing-language rate itself, unprompted adherence doubt or invented
 social-determinants-of-health (SDOH) content, rose monotonically with disadvantage, from
@@ -474,8 +541,8 @@ numbers rather than only the higher one -- the raw rate upper-bounds the languag
 any keyword-based metric would detect, and the tree's 38.1% is our best estimate of the
 narrower, more defensible construct: an unprompted concern not justified by the note or by the
 disclosed label itself. The tree tracked the human rater about as well as the keyword classifier and
-better than the LLM judge (tree-human kappa 0.68 and PABAK 0.87; keyword classifier kappa
-0.77, judge 0.57, on the same n = 60 set; Figure S6), so the added specificity came at no
+better than the LLM judge (tree-human kappa 0.68 and PABAK 0.86; keyword classifier kappa
+0.77, judge 0.57, on the same n = 58 set; Figure S6), so the added specificity came at no
 measurable cost to human agreement. A counterfactual ablation of the tree's central rule confirmed the mechanism directly: letting
 a bare demographic label count as clinical grounding re-labels fabricated concern as grounded
 in the disadvantaged strata but not in the control, the pattern expected when a concern is
@@ -484,53 +551,51 @@ tree's descriptive harm types skew toward epistemic-injustice and dignitary harm
 allocative harms, a taxonomy reported as descriptive only since it has no human reference
 labels; full figures for both analyses are in Supplementary Figure S10.
 
-### Only socioeconomic labels reach large framing effects across all 29 variants
+### Only socioeconomic labels reach large framing effects across all 28 variants
 
 Averaged across all six models, Table 2 confirms the pattern generalizes: every variant with
 mean d > 0.5 belongs to the seven-variant socioeconomic/housing/insurance family or its
 intersections (latina_female_uninsured, black_unhoused), while every other category (race-only,
-geography, age, immigration/language, gender/sexual identity, and the high_income_patient
+geography, immigration/language, gender/sexual identity, and the high_income_patient
 control) sits at mean d < 0.3. The largest effect outside the socioeconomic family is
 rural_patient (mean d = 0.27, range 0.04-0.62), a secondary geography-linked signal that
 keeps the socioeconomic boundary from being perfectly sharp. Mean flip rate, averaged across
-models, stays flat at roughly 16-17% across all 29 variants (range across all 174 model x
-variant cells, 10.2-24.1%).
+models, stays flat at roughly 18% across all 28 variants (168 model x variant cells).
 The full per-model breakdown is in Supplementary Table S1.
 
 | Variant | Category | Mean flip rate (%) | Flip rate range | Mean Cohen's d | d range |
 |---|---|---|---|---|---|
-| black_female_medicaid | Race × insurance | 15.9 | 11.2-21.1 | 0.163 | -0.01 to 0.52 |
-| black_female_private | Race × insurance | 16.6 | 11.4-20.5 | 0.035 | -0.05 to 0.14 |
-| latina_female_uninsured | Race × insurance | 16.9 | 12.1-22.3 | 0.774 | 0.32 to 1.62 |
-| white_female_medicaid | Race × insurance | 16.3 | 12.6-20.4 | 0.050 | 0.01 to 0.11 |
-| white_male_private | Race × insurance (privileged comparator) | 16.1 | 12.0-20.6 | -0.016 | -0.06 to 0.04 |
-| medicaid_only | Insurance | 16.1 | 11.7-21.6 | 0.166 | 0.02 to 0.30 |
-| medicare_advantage_only | Insurance | 16.1 | 11.0-22.8 | 0.028 | -0.03 to 0.09 |
-| medicare_only | Insurance | 16.4 | 12.4-21.9 | 0.026 | -0.04 to 0.10 |
-| underinsured_only | Insurance | 16.9 | 12.2-23.6 | 1.010 | 0.46 to 1.55 |
-| uninsured_only | Insurance | 16.9 | 12.8-23.2 | 0.818 | 0.43 to 1.41 |
-| asian_race_only | Race/ethnicity | 16.6 | 11.8-21.9 | 0.019 | -0.04 to 0.09 |
-| black_race_only | Race/ethnicity | 15.8 | 11.2-21.8 | 0.005 | -0.07 to 0.09 |
-| hispanic_race_only | Race/ethnicity | 16.4 | 11.4-20.6 | 0.005 | -0.05 to 0.09 |
-| middle_eastern_race_only | Race/ethnicity | 16.0 | 11.3-21.9 | 0.032 | -0.03 to 0.09 |
-| multiracial_race_only | Race/ethnicity | 16.4 | 11.3-21.6 | -0.008 | -0.07 to 0.06 |
-| native_american_race_only | Race/ethnicity | 16.6 | 11.5-22.3 | 0.099 | 0.05 to 0.17 |
-| rural_patient | Geography | 16.0 | 11.5-22.5 | 0.273 | 0.04 to 0.62 |
-| small_community_hospital | Geography | 15.8 | 10.2-20.8 | 0.009 | -0.03 to 0.06 |
-| elderly_patient_75 | Age | 17.4 | 12.2-22.7 | 0.054 | -0.01 to 0.13 |
-| immigrant_patient | Immigration/language | 16.4 | 12.4-21.5 | 0.056 | -0.03 to 0.12 |
-| limited_english_patient | Immigration/language | 16.0 | 11.4-21.9 | 0.077 | 0.01 to 0.19 |
-| high_income_patient | Socioeconomic | 16.5 | 11.9-21.7 | 0.020 | -0.05 to 0.13 |
-| low_income_patient | Socioeconomic | 16.1 | 10.4-22.2 | 0.772 | 0.13 to 1.49 |
-| unhoused_patient | Socioeconomic | 16.3 | 12.7-22.7 | 0.758 | 0.09 to 1.43 |
-| black_unhoused | Race × socioeconomic | 17.2 | 11.0-24.1 | 0.673 | 0.07 to 1.44 |
-| low_income_black | Race × socioeconomic | 17.0 | 10.3-23.2 | 0.555 | 0.06 to 1.09 |
-| gay_male_patient | Gender/identity | 16.8 | 11.2-23.0 | 0.011 | -0.03 to 0.04 |
-| non_binary_patient | Gender/identity | 16.8 | 12.4-23.1 | 0.025 | -0.03 to 0.13 |
-| transgender_woman | Gender/identity | 16.6 | 12.0-23.8 | 0.022 | -0.03 to 0.09 |
+| black_female_medicaid | Race × insurance | 18.7 | 11.6-26.0 | 0.163 | -0.01 to 0.52 |
+| black_female_private | Race × insurance | 18.2 | 10.7-25.9 | 0.035 | -0.05 to 0.14 |
+| latina_female_uninsured | Race × insurance | 18.9 | 13.1-24.9 | 0.774 | 0.32 to 1.62 |
+| white_female_medicaid | Race × insurance | 18.8 | 11.3-26.0 | 0.050 | 0.01 to 0.11 |
+| white_male_private | Race × insurance (privileged comparator) | 18.2 | 10.6-24.5 | -0.016 | -0.06 to 0.04 |
+| medicaid_only | Insurance | 18.4 | 12.7-24.6 | 0.166 | 0.02 to 0.30 |
+| medicare_advantage_only | Insurance | 18.0 | 9.3-25.4 | 0.028 | -0.03 to 0.09 |
+| medicare_only | Insurance | 18.3 | 10.2-26.4 | 0.026 | -0.04 to 0.10 |
+| underinsured_only | Insurance | 18.9 | 13.3-24.8 | 1.010 | 0.46 to 1.55 |
+| uninsured_only | Insurance | 19.1 | 15.2-24.2 | 0.818 | 0.43 to 1.41 |
+| asian_race_only | Race/ethnicity | 18.4 | 10.8-27.7 | 0.019 | -0.04 to 0.09 |
+| black_race_only | Race/ethnicity | 17.8 | 10.8-23.9 | 0.005 | -0.07 to 0.09 |
+| hispanic_race_only | Race/ethnicity | 18.2 | 11.1-26.0 | 0.005 | -0.05 to 0.09 |
+| middle_eastern_race_only | Race/ethnicity | 17.5 | 9.8-23.6 | 0.032 | -0.03 to 0.09 |
+| multiracial_race_only | Race/ethnicity | 18.6 | 9.6-25.8 | -0.008 | -0.07 to 0.06 |
+| native_american_race_only | Race/ethnicity | 18.2 | 11.2-26.0 | 0.099 | 0.05 to 0.17 |
+| rural_patient | Geography | 17.9 | 10.5-24.2 | 0.273 | 0.04 to 0.62 |
+| small_community_hospital | Geography | 18.5 | 11.5-25.2 | 0.009 | -0.03 to 0.06 |
+| immigrant_patient | Immigration/language | 18.2 | 11.7-24.1 | 0.056 | -0.03 to 0.12 |
+| limited_english_patient | Immigration/language | 18.7 | 10.6-26.0 | 0.077 | 0.01 to 0.19 |
+| high_income_patient | Socioeconomic | 18.3 | 8.8-26.9 | 0.020 | -0.05 to 0.13 |
+| low_income_patient | Socioeconomic | 18.6 | 10.9-26.2 | 0.772 | 0.13 to 1.49 |
+| unhoused_patient | Socioeconomic | 18.4 | 9.9-24.3 | 0.758 | 0.09 to 1.43 |
+| black_unhoused | Race × socioeconomic | 18.9 | 11.8-26.3 | 0.673 | 0.07 to 1.44 |
+| low_income_black | Race × socioeconomic | 19.1 | 13.0-25.6 | 0.555 | 0.06 to 1.09 |
+| gay_male_patient | Gender/identity | 18.1 | 8.5-25.4 | 0.011 | -0.03 to 0.04 |
+| non_binary_patient | Gender/identity | 18.3 | 9.3-25.8 | 0.025 | -0.03 to 0.13 |
+| transgender_woman | Gender/identity | 18.9 | 10.6-24.2 | 0.022 | -0.03 to 0.09 |
 
 *Full per-model breakdown (not averaged) is provided in Supplementary Table S1
-(`supplementary_table_29variants_per_model.csv`) alongside this manuscript; the averaged
+(`supplementary_table_28variants_per_model.csv`) alongside this manuscript; the averaged
 table above is derived from it.*
 
 ---
@@ -540,20 +605,32 @@ table above is derived from it.*
 ### Principal Findings
 
 Across six LLMs and 1,048 real, de-identified NSCLC cases, adding a demographic label to an
-otherwise identical note left the treatment recommendation largely stable: guideline
-concordance was statistically equivalent, under the raw-tier-scale margin (Limitations details
-a standardized-effect-size margin under which this figure is lower panel-wide, not just for one
-model), between the reference and at least 27 of 29
-variants in five of six models (Gemini-2.5-flash was lowest at 23 of 29, with its own 6
-exceptions: small, non-directional shifts of +0.05 to +0.07 tier-units that included the
-privileged white-male-private comparator itself), and only two of 174 directional decision
-tests survived correction, both socioeconomic cells in DeepSeek-chat. Holding that decision
+otherwise identical note left the treatment recommendation largely, though not uniformly,
+stable. Under the raw-tier-scale margin (Limitations details a standardized-effect-size margin
+under which this figure is lower panel-wide, not just for one model), guideline concordance was
+statistically equivalent between the reference and the demographic variant in 154 of 168
+model-variant comparisons; the exceptions did not track disadvantage (equivalence held for
+91.7% of socioeconomically disadvantaged variants and 97.2% of race-only variants, both at or
+above the 91.7% privileged-control rate). Three of the 168 directional decision tests showed a
+significant net downgrade after correction, all in DeepSeek-chat and all socioeconomic
+(underinsured_only, uninsured_only, latina_female_uninsured); Limitations discusses why this
+likely reflects a residual measurement artifact rather than an established demographic effect,
+and we report it rather than omit it. Absolute concordance moved opposite to a
+demographic-harm prediction in one model: Gemini-2.5-flash was 2.7 percentage points more
+concordant on average under a demographic label than under none; a separately discovered and
+fixed parser defect (Limitations) had previously inflated this to 4.0 points and had spuriously
+created an apparent 2.8-point effect in DeepSeek-chat that the corrected analysis no longer
+shows. A label-by-label test found no variant significantly more concordant than the reference
+in either Gemini-2.5-flash or DeepSeek-chat after the fix, and instead found 2 of 28 variants
+significantly *less* concordant in GPT-4o (native_american_race_only,
+multiracial_race_only), a race-only pattern not detected before the fix. Holding that decision
 fixed, an intermediate care-intensity layer, which options a response chose to foreground,
-tilted modestly against marginalized patients and was one of the few places race showed a
+tilted modestly against marginalized patients and was the one place race showed a
 measurable
-effect, though only for two of six race-only labels (Native American, Middle Eastern; fewer
-clinical-trial mentions, q = 0.01 pooled), while Black, Hispanic, Asian, and Multiracial were
-flat, distinct from the language layer below. The
+effect on trial mentions specifically (q = 0.014 pooled, all six race-only labels reduced trial
+mentions in a majority of models, 4/6 to 6/6, strongest for middle_eastern_race_only and
+black_race_only), distinct from socioeconomic status, which instead drove de-escalation
+(q = 0.022 pooled) and from the language layer below. The
 language around the stable recommendation changed sharply and specifically: race-only framing
 effects stayed small, an order of magnitude below the socioeconomic variants and mostly
 indistinguishable from the near-zero control, while socioeconomic disadvantage drove a
@@ -567,14 +644,18 @@ variants was guideline-endorsed appropriate care rather than stigma.
 
 ### Comparison With Prior Work
 
-Omar et al. [1] reported that LLM-recommended emergency-department urgency and invasiveness,
+Omar et al. [10] reported that LLM-recommended emergency-department urgency and invasiveness,
 a decision-level outcome, shifted with race, housing, and LGBTQIA+ identity across nine
-models. We do not reproduce their housing effect at the decision level: guideline concordance
-for the unhoused and other SES-disadvantaged variants stayed statistically equivalent to the
-no-demographics reference in the great majority of models (Figure 2), and the one significant
-SES-linked decision shift we find, DeepSeek's underinsured and latina_uninsured variants, is a
-de-escalation, the opposite direction from Omar's escalation-toward-more-invasive-care
-pattern, and is not the unhoused/housing label itself. What we do reproduce is a housing/SES
+models. We do not reproduce their housing effect at the decision level in five of six models:
+guideline concordance for the unhoused and other SES-disadvantaged variants stayed statistically
+equivalent to the no-demographics reference in the majority of models (Figure 2), and no
+SES-linked variant showed a significant net downgrade or upgrade on the signed directional test
+in Gemini-2.5-flash, Llama-3.3-70B, Llama-3.1-8B, GPT-4o, or GPT-4o-mini. DeepSeek-chat is the
+exception: three SES-linked variants (underinsured_only, uninsured_only,
+latina_female_uninsured) show a significant net *downgrade*, the opposite direction from Omar's
+escalation-toward-more-invasive-care pattern; Limitations discusses why this may be a residual
+artifact of a since-fixed parser defect rather than an established effect. What we
+do reproduce is a housing/SES
 salience pattern, but relocated from the decision to the framing layer: race-only Cohen's d
 for framing stayed small (mean -0.03 to 0.10) in every model, while socioeconomic framing
 effect sizes were an order of magnitude larger (0.03 to 1.01). The divergence in where the
@@ -583,25 +664,32 @@ treatment vs. emergency triage), ground truth (NCCN Category-1 vs. urgency scori
 model-version differences over the two-year gap; our data cannot adjudicate, and we flag it as
 open. The framing-level effect is unlikely to be one model's idiosyncrasy, since the
 per-variant framing-effect profile is highly correlated across all six models (off-diagonal
-median Spearman rho = 0.72, Figure S5). We also do not reproduce the LGBTQIA+ effect on the treatment decision or its framing: the
+median Spearman rho = 0.74, Figure S5). We also do not reproduce the LGBTQIA+ effect on the treatment decision or its framing: the
 three identity variants (non-binary, transgender woman, gay male) matched the control and
 race-only null in both flip rate (11.2-23.8%) and framing effect size (d -0.03 to 0.13), though
 gender/identity did show the same small care-intensity tilt (fewer clinical-trial mentions) as
 several other non-SES axes, reinforcing that the driver of the language-level signal
 specifically is socioeconomic disadvantage, not demographic identity broadly. Prior
-work on socioeconomic status in clinical-trial screening [3] treated soft SES differences as
+work on socioeconomic status in clinical-trial screening [15] treated soft SES differences as
 a single harm signal; our decomposition shows that for uninsured and underinsured variants
 much of that signal is guideline-concordant financial and social-work responsiveness, with
 the stigmatizing residue concentrated in the unhoused variant. And unlike audits of
-clinician-authored notes that already contain stigmatizing language [4], the stigma here is
+clinician-authored notes that already contain stigmatizing language [21], the stigma here is
 generated by the LLM from a note that contained none, so the mechanism is generative, not
-inherited. Finally, our scorer is complementary to CancerGUIDE [8], which predicts
+inherited. Finally, our scorer is complementary to CancerGUIDE [30], which predicts
 guideline-concordant NSCLC treatment: it targets the accuracy of the recommendation, whereas
 we hold the recommendation fixed and audit the framing around it.
 
 ### Clinical and Deployment Implications
 
-The dissociation between a stable decision and biased framing has a direct operational
+Decision stability should not be read as a safety endorsement: it means the recommendation does
+not change *systematically* with demographics, not that the recommendation is *correct*.
+Absolute NCCN concordance on the reference case alone ranged from 44.8% (Llama-3.1-8B) to 90.7%
+(DeepSeek-chat) across models, so a demographically consistent recommendation can still be
+guideline-discordant, in some models more often than not; consistency is a necessary, not
+sufficient, condition for deployment, and this audit was designed to detect differential harm,
+not to certify absolute accuracy. With that caveat, the dissociation between a stable decision
+and biased framing has a direct operational
 implication: an audit that checks only whether an ambient scribe's or inbox assistant's
 recommendation shifts by demographics will miss the harm identified here, because the
 recommendation largely does not shift. The bias lives in the narrative layer, the free text
@@ -610,7 +698,7 @@ A health system deploying such tools should audit generated free text specifical
 unprompted adherence-doubt and SDOH-hallucination, stratified by socioeconomic status,
 rather than relying on recommendation-level fairness metrics alone, consistent with
 post-deployment audits of other clinical ML systems that missed disparities emerging only in
-live care [13]. The grounding-aware bias decision-tree introduced here (tree-human kappa 0.68)
+live care [31]. The grounding-aware bias decision-tree introduced here (tree-human kappa 0.68)
 is one candidate instrument for that audit, though scaling any such detector to real-time,
 high-volume clinical documentation is non-trivial and was not tested at deployment scale.
 Equally, suppressing all socioeconomic language would also strip
@@ -643,37 +731,50 @@ Supplementary Results; Table S3, Figure S11).
 Several limitations qualify these findings, starting with how the stigma measurement was
 validated. All reported agreement is classifier-versus-one-human: the regex composite, LLM
 judge, and bias decision tree were each validated against gold labels from a single rater (the
-study author, hypothesis-unblinded) on a representative sample (n = 60, ~10% prevalence):
-regex-human 95.0% (kappa 0.77, PABAK 0.90), judge-human 91.7% (kappa 0.57, PABAK 0.83), tree-
-human 93.3% (kappa 0.68, PABAK 0.87). At this prevalence kappa is base-rate-fragile and cannot
-rank the three instruments (Methods), so agreement and PABAK, not the Landis & Koch [30] /
-Viera & Garrett [31] bands, are the reportable comparison. Two second-rater packets were built
+study author, hypothesis-unblinded) on a representative sample (n = 58, ~10% prevalence):
+regex-human 94.8% (kappa 0.77, PABAK 0.90), judge-human 91.4% (kappa 0.57, PABAK 0.83), tree-
+human 93.1% (kappa 0.68, PABAK 0.86). At this prevalence kappa is base-rate-fragile and cannot
+rank the three instruments (Methods), so agreement and PABAK, not the Landis & Koch [32] /
+Viera & Garrett [33] bands, are the reportable comparison. Two second-rater packets were built
 for an independent blinded rater: a representative sample (`gold_random_rater{1,2}.csv`, n =
 60, underlying the figures above) and a classifier-flagged/contested subset
 (`gold_flagged_rater{1,2}.csv`, n = 60). The contested-subset packet is complete, labeled by a
 co-author (blinded to variant), a practical deviation from the fully independent third-party
-rater the design above calls for: 71.7%
-agreement (kappa 0.386); among the 43/60 concordant items, consensus STIGMA prevalence was
-27.9% against the classifier's 100%-positive rate by construction, confirming the raw regex
+rater the design above calls for: 85.0%
+agreement (kappa 0.682, meeting the substantial-agreement bar even on this deliberately hard
+subset); among the 51/60 concordant items, consensus STIGMA prevalence was
+35.3% against the classifier's 100%-positive rate by construction, confirming the raw regex
 composite over-counts on this hard tail. The representative packet remains unlabeled and is the
 top priority remaining; until then, absolute stigma rates are provisional, though the
 qualitative SES gradient -- which depends on relative ordering, not any one rate -- is more
 robust. More fundamentally, the stigma-versus-appropriate-care boundary is not a bright line
 even in principle (e.g., an unprompted transportation-barrier mention could be supportive
 anticipation or an unwarranted assumption), so reported rates are one defensible
-operationalization, not settled ground truth; the contested packet's 28.3% rater disagreement
-rate is a direct measure of that ambiguity. The decision tree inherits this single-rater
+operationalization, not settled ground truth; even on the contested-subset packet, where two
+independent human raters agree substantially (kappa 0.682), a residual 15.0% disagreement rate
+remains, a direct measure of that irreducible ambiguity rather than of rater unreliability. The decision tree inherits this single-rater
 limitation and adds two more: its Gate 0 is the regex composite, capping recall and making it a
 precision filter rather than a sensitive detector, and its three-way harm taxonomy (allocative,
 epistemic-injustice, dignitary) has no human reference labels and is descriptive only. The
 judge (Claude Sonnet-4.6) is itself an LLM; the gold sets bound its disadvantage-correlated
-bias only for the adjudicated subset, not the full 31,440-response corpus.
+bias only for the adjudicated subset, not the full 30,392-response corpus.
 
-The scoring pipeline carries its own caveats. The 1-8 treatment-tier scale (used for flip-
-direction, TOST, and sign-test analyses) ties clinically distinct pathways at the same rank
-(e.g., targeted therapy and chemoimmunotherapy both rank 6) and is stage-dependent -- resection
-(rank 8) is curative in Stage I-III but not first-line in Stage IV -- so a real category switch
-can register as no shift; mean-tier statistics further assume equally spaced ranks, an
+The scoring pipeline carries its own caveats. The 1-8 treatment-tier scale (full mapping in
+Supplementary Methods; used for flip-direction, TOST, and sign-test analyses) ties clinically
+distinct pathways at the same rank (targeted therapy, chemoimmunotherapy, and dual
+immunotherapy all rank 6; immunotherapy monotherapy and radiation-only both rank 5) and is
+stage-dependent -- resection (rank 8) is curative in Stage I-III but not first-line in Stage IV
+-- so a real category switch can register as no shift: across all six models, 4.3% of
+category-level flips (1,577/36,513) fall within a tied group and are invisible to TOST and the
+sign test, 94.6% of them within the rank-6 group and most of those (79.0% of all tied flips)
+specifically the chemoimmunotherapy/targeted-therapy pair (full per-model breakdown in
+Supplementary Methods). The clinically most consequential version of this blind spot, a
+driver-positive patient switched off a targeted therapy onto chemotherapy or
+chemoimmunotherapy under a demographic label, was checked directly: among cases with an
+actionable driver mutation where a model recommended targeted therapy on the no-demographics
+reference, the rate of switching to chemotherapy or chemoimmunotherapy under any demographic
+label was 0% to 0.36% and did not track disadvantage (the privileged white_male_private
+control sat mid-range at 0.12%). Mean-tier statistics further assume equally spaced ranks, an
 unverified simplification that does not affect the sign-test findings, which use only shift
 direction. The rule-based parser mapping free text to 11 treatment categories lacks drug-name
 negation handling (so "osimertinib not indicated" can register as a targeted-therapy mention)
@@ -684,19 +785,120 @@ specific artifact, but make the TOST equivalence claim conditional on parser acc
 ("adherence counseling program") rather than genuine doubt, a known false-positive source the
 decision tree is designed to filter.
 
+The claim that flip rate reflects each model's baseline decision instability rather than a
+demographic signal (Figure 2B) rests on the flip pattern not being demographically patterned, not
+on a direct measurement equating it to intrinsic model non-determinism. A separate test-retest
+check, repeating the identical no-demographics prompt three times at temperature 0 on a 250-case
+sample, measured pairwise self-flip rates of 3.4% (Gemini-2.5-flash), 9.4% (DeepSeek-chat), and
+12.1% (Llama-3.3-70B) -- well below each model's demographic flip rate (22.0%, 11.0%, and 17.8%
+respectively), an 18.6-point gap for Gemini-2.5-flash and a 5.7-point gap for Llama-3.3-70B; only
+DeepSeek-chat's 1.6-point gap is small enough to call its flip rate a near-direct measure of
+run-to-run noise. Test-retest data were not collected for the other three models (GPT-4o,
+GPT-4o-mini, Llama-3.1-8B). Describing the flip rate as the model's noise floor, as Figure 2B's
+caption does, therefore overstates what was measured: for at least two of the three tested models,
+part of the flip rate reflects prompt-level or decision-boundary sensitivity beyond pure sampling
+noise. That residual variance is itself demographically unpatterned, since a case's flip
+destination does not correlate with which demographic label triggered it, which is the narrower
+claim the stability finding actually supports.
+
 The NCCN concordance scorer and GENIE BPC data carry further gaps, each demographic-blind and
 applied identically across variants (no variant-specific artifact), though each affects
 absolute concordance rates. Most consequential: ECOG status is not recorded in GENIE BPC, so
 every case defaults to ECOG 1, making best-supportive-care and single-agent chemotherapy
-unreachable scorer answers regardless of true fitness -- undercutting the `elderly_patient_75`
-variant specifically, where frailty-appropriate de-escalation would be scored discordant by
-construction. The scorer itself is rule-based and not validated against oncologist adjudication
-on this cohort. PD-L1 was available for only 36.0% of patients (377/1,048); untested Stage IV
-driver-negative cases default to chemoimmunotherapy, and the scorer accepts single-agent
-pembrolizumab as concordant without a PD-L1 result -- more permissive than guideline thresholds
-(PD-L1 ≥1%, ≥50% for monotherapy per KEYNOTE-024) require -- inflating concordance for untested
-cases. Biomarker status also depends on a linked sequencing panel; cases without one carry all
-drivers as unknown, not negative.
+unreachable scorer answers regardless of true fitness. Resectability is likewise
+never a recorded GENIE BPC field for any of the 1,048 cases; the scorer instead defaults every
+Stage III case to unresectable and every Stage I-II case to resectable, a stage-based assumption
+rather than case-level data. Combined with the biomarker cascade, this default constrains the
+accepted-answer set far more tightly for earlier-stage disease: averaged across all six models
+on the no-demographics reference, concordance is 43.5% in Stage I, 62.8% in Stage II, 49.1% in
+Stage III, and 82.9% in Stage IV, a stage-dependent gap invisible in the pooled statistics
+reported above. The unique-answer-scorable subset used for the absolute-concordance comparison
+above (Results) is 529 of 1,048 cases (50.5%): 225 Stage IV driver-positive cases (42.5%,
+targeted therapy the sole acceptable answer), 211 Stage III cases (39.9%, chemoradiation the
+sole acceptable answer), and 93 Stage I cases (17.6%, surgical resection the sole acceptable
+answer) -- so more than half of this subset's "uniqueness" traces to the same stage-based
+defaults rather than to biomarker-driven certainty. The scorer itself is rule-based and not
+validated against oncologist adjudication on this cohort. PD-L1 was available for only 36.0% of
+patients (377/1,048); untested Stage IV driver-negative cases default to chemoimmunotherapy, and
+the scorer accepts single-agent pembrolizumab as concordant without a PD-L1 result -- more
+permissive than guideline thresholds (PD-L1 ≥1%, ≥50% for monotherapy per KEYNOTE-024) require --
+inflating concordance for untested cases. A related, separate defect was found and fixed this
+session: the scorer had bucketed measured PD-L1 <1% ("low," 44 of 1,048 cases) with PD-L1
+1%-49% ("intermediate") into the same branch, accepting single-agent pembrolizumab as a
+lowest-tier concordant answer for both, though NCCN restricts pembrolizumab monotherapy to
+PD-L1 ≥1% (KEYNOTE-042). Measured directly by re-scoring all six models' responses for these 44
+cases against the corrected scorer, this reclassified 299 of 7,502 scored responses (4.0% of
+this subgroup, 0.16% of the full 182,352-response corpus) from concordant to discordant, with no
+material demographic concentration (flip counts ranged 5-14 per version across all 29 versions,
+including no_demographics). Biomarker status also depends on a linked sequencing panel; cases
+without one carry all drivers as unknown, not negative.
+
+A parser defect changed the decision-level results materially enough to require a full re-run
+rather than a label change: two treatment categories, chemoimmunotherapy and immunotherapy monotherapy, sit at
+different ranks on the 1-8 tier scale, and the regular expressions used to detect a
+chemotherapy-plus-checkpoint-inhibitor combination were unbounded across the full captured
+response window rather than restricted to a single sentence, so a response naming both drug
+classes anywhere in its text, for example a monotherapy recommendation that mentioned chemotherapy
+only as a hypothetical second-line option, could be misclassified as the wrong category. Measured
+directly against all 182,352 analyzed responses, this affected 4.27% of them, concentrated in
+chemoimmunotherapy being over-assigned in place of immunotherapy monotherapy or chemotherapy, and
+was not demographically differential (4.17% to 4.33% across privileged, race-only,
+socioeconomically disadvantaged, and other variant groups; 4.55% for the no-demographics
+reference). The parser fix is reflected in the
+decision-level numbers reported in Results, Figure 2, the Supplementary Methods tied-pair table,
+and the per-model supplementary breakdown (Table S1).
+
+A second, separately discovered parser defect required a further full re-run of every
+decision-level statistic reported above, and is disclosed in detail because it materially changed
+several headline numbers rather than only widening a confidence interval. Multi-modality
+regimens, chiefly the PACIFIC-protocol chemoradiation-then-consolidation-immunotherapy regimen for
+locally advanced Stage III disease, are frequently stated in prose near the top of a response
+("concurrent chemoradiation therapy ... followed by consolidation immunotherapy with
+durvalumab") and then broken into modality-labeled sub-headings further down ("Chemotherapy
+Regimen:", "Radiation Therapy:", "Consolidation Immunotherapy:"). The parser's tag-based
+extraction anchored on the first "regimen:"-like substring in the response, which for these
+responses is the chemotherapy sub-heading, not the overall regimen name stated just before it,
+misclassifying the response as chemotherapy or immunotherapy monotherapy instead of
+chemoradiation. Measured directly on the 211 driver-negative Stage III cases where chemoradiation
+is the sole guideline-concordant category, among the 2,423 Gemini-2.5-flash responses that
+explicitly state a concurrent-chemoradiation regimen in their opening text, 619 (25.5%) were
+misclassified before the fix; the rate was not demographic-blind, ranging from 9.7% for the
+privileged white_male_private comparator to 37.5% for the no-demographics reference itself, so
+the earlier disclosure that parser errors are uniformly demographic-blind (above) does not extend
+to this defect. The fix (i) excludes a "regimen:" match immediately preceded by a modality
+qualifier ("chemotherapy", "immunotherapy") so the parser falls through to the wider header-window
+heuristic, and (ii) checks the response opening for an explicit chemoradiation statement before
+any tag extraction, since even an unqualified tag placed after that statement still misses it. On
+the same subset this reduced the misclassification rate to 4.3% (104 of 2,423); the residual
+rate still ranged from 0% to 11.0% across variants (1.1% white_male_private, 3.75%
+no_demographics), which we did not pursue further. Measured across the full 182,352-response
+corpus, 5,782 responses (3.17%) changed category, concentrated by model (DeepSeek-chat 8.76%,
+GPT-4o 6.81%, Gemini-2.5-flash 2.30%, Llama-3.3-70B 0.63%, GPT-4o-mini 0.40%, Llama-3.1-8B 0.13%) and by
+transition (94% of changed responses moved into the chemoradiation category, the intended
+direction of the fix). This changed several numbers reported in Results materially rather than
+marginally: raw-tier-margin TOST equivalence rose from 120/168 to 154/168, driven mostly by
+Gemini-2.5-flash (9/28 to 22/28) and DeepSeek-chat (15/28 to 28/28); DeepSeek-chat's previously
+reported +2.8-percentage-point absolute-concordance shift is now -0.1 points, effectively null,
+while Gemini-2.5-flash's shrank from +4.0 to +2.7 points; the label-by-label concordance test no
+longer finds any variant significantly more concordant than the reference in Gemini-2.5-flash or
+DeepSeek-chat, but newly finds native_american_race_only and multiracial_race_only significantly
+*less* concordant than the reference in GPT-4o, a finding the pre-fix analysis did not surface.
+Three of 168 directional decision tests now show a significant net downgrade (DeepSeek-chat:
+underinsured_only, uninsured_only, latina_female_uninsured), where the pre-fix analysis showed
+none. We checked whether this specific downgrade finding is itself a fix artifact rather than a
+demographic effect: for these three variants, 6.5-7.4% of DeepSeek-chat's responses needed
+chemoradiation correction, versus 9.1-9.9% for the no-demographics and white_male_private
+comparators: since the fix pushes corrected responses toward the higher-tier chemoradiation
+category, and the reference variants happened to receive more of that correction than the three
+flagged variants did, the reference's tier rose more than theirs did, which mechanically produces
+an apparent downgrade in the paired comparison even if neither variant's true clinical
+recommendation changed. This is a plausible artifact, not a proven one, and we report the
+downgrade finding rather than suppress it because the pre-registered analysis plan tests all 168
+cells without a mechanism to discount a result post hoc; a reader should weigh this candidate
+mechanism alongside the result itself. The pooled label-level McNemar test (Figure S2/eFigure 4)
+is unaffected in its conclusion: a stale pre-fix re-run had shown 11 of 28 labels reaching
+significance, apparently contradicting that figure's "no label is significant" caption, but the
+corrected analysis shows 0 of 28 significant, consistent with the caption as originally written.
 
 The robustness controls have their own bounds. The template-note and PubMed Central
 replications ran on Gemini and DeepSeek only, for cost, showing the gradient is not a pipeline
@@ -709,9 +911,16 @@ independently verified as absent. All three controls score with the same regex c
 the main analysis, so a systematic classifier bias would reproduce identically across all
 three; construct validity rests on the human-gold-set agreement above, not on these controls.
 Relatedly, the free-text note was LLM-generated (gemini-2.5-flash), not clinician-authored, and
-can occasionally state a clinical detail absent from the structured fields at an unquantified
-rate; since it is generated once, before demographic-label injection, any such fabrication is
-identical across all 30 variants and cannot by itself produce a between-variant gradient. The
+can occasionally state a clinical detail absent from the structured fields. One quantifiable
+example is ECOG performance status: the note-generation prompt supplies no ECOG value at all (it
+is not one of the structured facts given to the model), yet 781 of 1,048 notes (74.5%) state one
+anyway, invented by the model to sound like a realistic consult note. Of those, 580 state ECOG 1
+(matching the ecog_ps=1 default the scorer assumes for every case), 200 state ECOG 0, and 1
+states ECOG 2. This does not distort scoring for the 200 ECOG-0 notes, since every ECOG threshold
+the scorer uses (Methods) groups 0 and 1 identically; the single ECOG-2 note is the only instance
+where the stated value could change the scorer's accepted-answer set, a negligible effect at n=1.
+Since the note is generated once, before demographic-label injection, any such fabrication is
+identical across all 29 versions and cannot by itself produce a between-variant gradient. The
 deterministic template-note control removes this risk entirely and, with the real-note control,
 shows the gradient survives removing the generated note altogether -- the strongest evidence
 against a circularity explanation -- though the generation step still warrants scrutiny in
@@ -735,25 +944,28 @@ gradient findings replicate across the four models that are both pre-registered 
 (Gemini-2.5-flash, DeepSeek-chat, Llama-3.3-70B, GPT-4o). The TOST equivalence margin itself
 also deviates from the pre-registered definition: the confirmatory analysis applies ±0.10 to the
 raw paired tier-shift mean, not to a standardized Cohen's d as literally pre-registered
-(`PREREGISTRATION.md`). This is not a rounding difference -- re-deriving the exact Cohen's-d CI
-from the same data drops the total equivalence count from 163/174 to 134/174 (94% to 77%), and
-the loss is not confined to one model: Llama-3.1-8B alone falls from 28/29 to 15/29 (13 of the
-29 lost equivalences), because its paired tier-shift variance is low enough for several variants
-that a small raw shift inflates to a much larger standardized effect than for the other five
-models, but the remaining 16 lost equivalences are spread across the other five, so the
-standardized margin would weaken the decision-invariance claim panel-wide, not only for
-Llama-3.1-8B. We report the raw-tier-scale-units margin as primary because it fixes a single,
-model-independent clinical bound (at most one-tenth of one treatment-tier step), rather than a
-bound whose real-world size varies with each model's own response variance; the reader should
-weigh the full 163/174-vs-134/174 range, not just the Llama-3.1-8B case, as sensitive to this
-choice. Each model was queried once per case-
+(`PREREGISTRATION.md`). Re-deriving the exact Cohen's-d CI from the same data changes the total
+equivalence count from 154/168 to 115/168 (91.7% to 68.5%), a materially larger gap between
+margins than in an earlier, pre-parser-fix analysis pass, because the raw-margin count moved
+toward ceiling for most models while the standardized-margin count did not move with it. Under
+the corrected numbers the standardized margin now costs equivalences for five of six models
+(DeepSeek-chat 28/28 to 24/28, Llama-3.3-70B 28/28 to 21/28, Llama-3.1-8B 27/28 to 18/28, GPT-4o
+26/28 to 16/28, GPT-4o-mini 23/28 to 13/28) and gains a single equivalence for the sixth
+(Gemini-2.5-flash 22/28 to 23/28) -- the opposite mix from the pre-fix pattern, where three
+models gained and three lost. We report the raw-tier-scale-units margin as primary because it
+fixes a single, model-independent clinical bound (at most one-tenth of one treatment-tier step),
+rather than a bound whose real-world size varies with each model's own response variance; the
+margin choice now materially changes the aggregate equivalence rate, but neither margin
+identifies a demographic-patterned exception by category (SES-disadvantaged, race-only, and
+privileged-control rates all move together under either margin; Results). Each model was queried
+once per case-
 variant at temperature 0 with one baseline prompt, so prompt sensitivity, multi-turn drift, and
 newer model versions were not tested. The mitigation analysis (four prompts, two vendors, 151
 cases) is exploratory, not powered for per-variant inference, and supports only a bounded
 negative conclusion; it inherits the single-rater limitation for warranted care, and the Gemini
 structured-extraction arm is unscorable for the decision test since its format defeats the NCCN
 parser. Finally, no formal a priori power calculation was performed; the 1,048-case,
-29-variant, 6-model design was fixed by the available GENIE BPC cohort rather than a target
+28-variant, 6-model design was fixed by the available GENIE BPC cohort rather than a target
 effect size, though the realized per-model sample sizes (n>1,000 paired comparisons per
 variant) yield narrow confidence intervals in practice.
 
@@ -796,8 +1008,9 @@ rationale in Limitations). This is a repository-hosted record with an author-dec
 not a third-party-timestamped registry entry.
 
 **Ethics Approval:** This study involved secondary analysis of de-identified data under the
-AACR Project GENIE Biopharma Collaborative data-use agreement and did not constitute
-human-subjects research requiring IRB review (Methods, Ethical Considerations).
+AACR Project GENIE Biopharma Collaborative data-use agreement. The determination that it did
+not require institutional review board (IRB) review was an investigator self-determination,
+not a formal exemption letter (Methods, Ethical Considerations).
 
 **Code Availability:** All analysis code (variant injection, NCCN concordance scoring,
 soft-bias/stigma detection, statistical analysis, and figure generation) is available at
@@ -820,132 +1033,165 @@ O. Elemento supervised the study and reviewed and edited the manuscript.
 
 ## References
 
-1. Omar M, Soffer S, Agbareia R, Bragazzi NL, Apakama DU, Horowitz CR, et al. Sociodemographic
-   biases in medical decision making by large language models. *Nat Med*. 2025;31(6):1873-1881.
-   doi:10.1038/s41591-025-03626-6
-
-2. Omar M, Sorin V, Agbareia R, Apakama DU, Soroush A, Sakhuja A, et al. Evaluating and
-   addressing demographic disparities in medical large language models: a systematic review.
-   *Int J Equity Health*. 2025;24:57. doi:10.1186/s12939-025-02419-0
-
-3. Soffer S, Omar M, Efros O, Apakama DU, Mudrik A, Freeman R, et al. Sociodemographic bias in
-   large language model clinical trial screening. *J Am Med Inform Assoc*.
-   2026;33(8):1504-1509. doi:10.1093/jamia/ocag058
-
-4. Huang J, Zhou D, Kamau F, Oh A, Links AR, Dredze M, et al. Artificial Intolerance:
-   Stigmatizing Language in Clinical Documentation Skews Large Language Model
-   Decision-Making. arXiv preprint arXiv:2605.17228. 2026.
-
-5. Lavery JA, Lepisto EM, Brown S, Rizvi H, McCarthy C, LeNoue-Newton M, et al. A Scalable
-   Quality Assurance Process for Curating Oncology Electronic Health Records: The Project
-   GENIE Biopharma Collaborative Approach. *JCO Clin Cancer Inform*. 2022;6:e2100105.
-   doi:10.1200/CCI.21.00105
-
-6. Lavery JA, Brown S, Curry MA, Martin A, Sjoberg DD, Whiting K, et al. A data processing
-   pipeline for the AACR project GENIE biopharma collaborative data with the {genieBPC} R
-   package. *Bioinformatics*. 2023;39(1):btac796. doi:10.1093/bioinformatics/btac796
-
-7. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology
-   (NCCN Guidelines®): Non-Small Cell Lung Cancer. Version 6.2026. National Comprehensive
-   Cancer Network; 2026. Accessed July 2026. https://www.nccn.org/guidelines
-
-8. Unell A, Codella NCF, Preston S, Argaw P, Yim WW, Gero Z, et al. CancerGUIDE: Cancer
-   Guideline Understanding via Internal Disagreement Estimation. arXiv preprint
-   arXiv:2509.07325. 2025.
-
-9. Goddu AP, O'Conor KJ, Lanzkron S, Saheed MO, Saha S, Peek ME, et al. Do Words Matter?
-   Stigmatizing Language and the Transmission of Bias in the Medical Record. *J Gen Intern
-   Med*. 2018;33(5):685-691. doi:10.1007/s11606-017-4289-2
-
-10. Park J, Saha S, Chee B, Taylor J, Beach MC. Physician Use of Stigmatizing Language in
-    Patient Medical Records. *JAMA Netw Open*. 2021;4(7):e2117052.
-    doi:10.1001/jamanetworkopen.2021.17052
-
-11. Barcelona V, Scharp D, Idnay BR, Moen H, Cato K, Topaz M. Identifying stigmatizing
-    language in clinical documentation: A scoping review of emerging literature. *PLoS One*.
-    2024;19(6):e0303653. doi:10.1371/journal.pone.0303653
-
-12. Apakama DU, Nguyen KA, Hyppolite D, Soffer S, Mudrik A, Ling E, et al. Identifying
-    Bias at Scale in Clinical Notes Using Large Language Models. *Mayo Clin Proc Digit
-    Health*. 2025;3(4):100296. doi:10.1016/j.mcpdig.2025.100296
-
-13. Colacci M, Pou-Prom C, Siddiqi A, Mamdani M, Verma AA. Evaluating sociodemographic
-    bias in a deployed machine-learned patient deterioration model. *JAMIA Open*.
-    2025;8(6):ooaf158. doi:10.1093/jamiaopen/ooaf158
-
-14. Small WR, Wiesenfeld B, Brandfield-Harvey B, Jonassen Z, Mandal S, Stevens ER, et al.
-    Large Language Model–Based Responses to Patients' In-Basket Messages. *JAMA Netw Open*.
-    2024;7(7):e2422399. doi:10.1001/jamanetworkopen.2024.22399
-
-15. Tierney AA, Gayre G, Hoberman B, Mattern B, Ballesca M, Kipnis P, et al. Ambient
+1. Tierney AA, Gayre G, Hoberman B, Mattern B, Ballesca M, Kipnis P, et al. Ambient
     Artificial Intelligence Scribes to Alleviate the Burden of Clinical Documentation. *NEJM
     Catal Innov Care Deliv*. 2024;5(3):CAT.23.0404. doi:10.1056/CAT.23.0404
 
-16. Zack T, Lehman E, Suzgun M, Rodriguez JA, Celi LA, Gichoya J, et al. Assessing the
-    potential of GPT-4 to perpetuate racial and gender biases in health care: a model
-    evaluation study. *Lancet Digit Health*. 2024;6(1):e12-e22. doi:10.1016/S2589-7500(23)00225-X
 
-17. Omiye JA, Lester JC, Spichak S, Rotemberg V, Daneshjou R. Large language models
-    propagate race-based medicine. *npj Digit Med*. 2023;6:195. doi:10.1038/s41746-023-00939-z
+2. Small WR, Wiesenfeld B, Brandfield-Harvey B, Jonassen Z, Mandal S, Stevens ER, et al.
+    Large Language Model–Based Responses to Patients' In-Basket Messages. *JAMA Netw Open*.
+    2024;7(7):e2422399. doi:10.1001/jamanetworkopen.2024.22399
 
-18. Sun M, Oliwa T, Peek ME, Tung EL. Negative patient descriptors: documenting racial bias
-    in the electronic health record. *Health Aff (Millwood)*. 2022;41(2):203-211.
-    doi:10.1377/hlthaff.2021.01423
 
-19. Chen S, Kann BH, Foote MB, Aerts HJWL, Savova GK, Mak RH, et al. Use of
-    artificial intelligence chatbots for cancer treatment information. *JAMA Oncol*.
-    2023;9(10):1459-1462. doi:10.1001/jamaoncol.2023.2954
+3. Zhou Y, Guo Y, Sutari S, Dhillon J, Beck AL, Chow E, et al. Understanding stigmatizing
+    language in clinical documentation: a paired comparison of ambient AI drafts and
+    clinician finalized notes. arXiv preprint arXiv:2606.00019. 2026.
 
-20. Carter-Harris L, Hermann CP, Schreiber J, Weaver MT, Rawl SM. Lung cancer stigma
-    predicts timing of medical help-seeking behavior. *Oncol Nurs Forum*. 2014;41(3):E203-E210.
-    doi:10.1188/14.ONF.E203-E210
 
-21. Ostroff JS, Banerjee SC, Lynch K, Shen MJ, Williamson TJ, Haque N, et al. Reducing stigma
+4. Goddu AP, O'Conor KJ, Lanzkron S, Saheed MO, Saha S, Peek ME, et al. Do Words Matter?
+   Stigmatizing Language and the Transmission of Bias in the Medical Record. *J Gen Intern
+   Med*. 2018;33(5):685-691. doi:10.1007/s11606-017-4289-2
+
+
+5. Park J, Saha S, Chee B, Taylor J, Beach MC. Physician Use of Stigmatizing Language in
+    Patient Medical Records. *JAMA Netw Open*. 2021;4(7):e2117052.
+    doi:10.1001/jamanetworkopen.2021.17052
+
+
+6. Barcelona V, Scharp D, Idnay BR, Moen H, Cato K, Topaz M. Identifying stigmatizing
+    language in clinical documentation: A scoping review of emerging literature. *PLoS One*.
+    2024;19(6):e0303653. doi:10.1371/journal.pone.0303653
+
+
+7. Apakama DU, Nguyen KA, Hyppolite D, Soffer S, Mudrik A, Ling E, et al. Identifying
+    Bias at Scale in Clinical Notes Using Large Language Models. *Mayo Clin Proc Digit
+    Health*. 2025;3(4):100296. doi:10.1016/j.mcpdig.2025.100296
+
+
+8. Ostroff JS, Banerjee SC, Lynch K, Shen MJ, Williamson TJ, Haque N, et al. Reducing stigma
     triggered by assessing smoking status among patients diagnosed with lung cancer:
     de-stigmatizing do and don't lessons learned from qualitative interviews. *PEC Innov*.
     2022;1:100025. doi:10.1016/j.pecinn.2022.100025
 
-22. Chen IY, Alsentzer E. Redefining bias audits for generative AI in health care. *NEJM AI*.
+
+9. Carter-Harris L, Hermann CP, Schreiber J, Weaver MT, Rawl SM. Lung cancer stigma
+    predicts timing of medical help-seeking behavior. *Oncol Nurs Forum*. 2014;41(3):E203-E210.
+    doi:10.1188/14.ONF.E203-E210
+
+
+10. Omar M, Soffer S, Agbareia R, Bragazzi NL, Apakama DU, Horowitz CR, et al. Sociodemographic
+   biases in medical decision making by large language models. *Nat Med*. 2025;31(6):1873-1881.
+   doi:10.1038/s41591-025-03626-6
+
+
+11. Zack T, Lehman E, Suzgun M, Rodriguez JA, Celi LA, Gichoya J, et al. Assessing the
+    potential of GPT-4 to perpetuate racial and gender biases in health care: a model
+    evaluation study. *Lancet Digit Health*. 2024;6(1):e12-e22. doi:10.1016/S2589-7500(23)00225-X
+
+
+12. Omiye JA, Lester JC, Spichak S, Rotemberg V, Daneshjou R. Large language models
+    propagate race-based medicine. *npj Digit Med*. 2023;6:195. doi:10.1038/s41746-023-00939-z
+
+
+13. Omar M, Sorin V, Agbareia R, Apakama DU, Soroush A, Sakhuja A, et al. Evaluating and
+   addressing demographic disparities in medical large language models: a systematic review.
+   *Int J Equity Health*. 2025;24:57. doi:10.1186/s12939-025-02419-0
+
+
+14. Chen IY, Alsentzer E. Redefining bias audits for generative AI in health care. *NEJM AI*.
     2025;2(9):AIp2500015. doi:10.1056/AIp2500015
 
-23. Bai N, Yu Y, Luo C, Zhou SC, Wang Q, Zou H, et al. Detecting sociodemographic biases in
+
+15. Soffer S, Omar M, Efros O, Apakama DU, Mudrik A, Freeman R, et al. Sociodemographic bias in
+   large language model clinical trial screening. *J Am Med Inform Assoc*.
+   2026;33(8):1504-1509. doi:10.1093/jamia/ocag058
+
+
+16. Bai N, Yu Y, Luo C, Zhou SC, Wang Q, Zou H, et al. Detecting sociodemographic biases in
     the content and quality of large language model-generated nursing care: cross-sectional
     simulation study. *J Med Internet Res*. 2025;27:e78132. doi:10.2196/78132
 
-24. Riba MB, Donovan KA, Andersen B, Braun I, Breitbart WS, Brewer BW, et al. Distress
+
+17. Riba MB, Donovan KA, Andersen B, Braun I, Breitbart WS, Brewer BW, et al. Distress
     management, version 3.2019, NCCN clinical practice guidelines in oncology. *J Natl Compr
     Canc Netw*. 2019;17(10):1229-1249. doi:10.6004/jnccn.2019.0048
 
-25. Tucker-Seeley R, Abu-Khalaf M, Bona K, Shastri S, Johnson W, Phillips J, et al. Social
+
+18. Tucker-Seeley R, Abu-Khalaf M, Bona K, Shastri S, Johnson W, Phillips J, et al. Social
     determinants of health and cancer care: an ASCO policy statement. *JCO Oncol Pract*.
     2024;20(5):621-630. doi:10.1200/OP.23.00810
 
-26. Kusner MJ, Loftus JR, Russell C, Silva R. Counterfactual fairness. *Advances in Neural
+
+19. Sun M, Oliwa T, Peek ME, Tung EL. Negative patient descriptors: documenting racial bias
+    in the electronic health record. *Health Aff (Millwood)*. 2022;41(2):203-211.
+    doi:10.1377/hlthaff.2021.01423
+
+
+20. Chen S, Kann BH, Foote MB, Aerts HJWL, Savova GK, Mak RH, et al. Use of
+    artificial intelligence chatbots for cancer treatment information. *JAMA Oncol*.
+    2023;9(10):1459-1462. doi:10.1001/jamaoncol.2023.2954
+
+
+21. Huang J, Zhou D, Kamau F, Oh A, Links AR, Dredze M, et al. Artificial Intolerance:
+   Stigmatizing Language in Clinical Documentation Skews Large Language Model
+   Decision-Making. arXiv preprint arXiv:2605.17228. 2026.
+
+
+22. Kusner MJ, Loftus JR, Russell C, Silva R. Counterfactual fairness. *Advances in Neural
     Information Processing Systems (NeurIPS)*. 2017;30:4066-4076.
 
-27. Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, et al. The
+
+23. Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, et al. The
     TRIPOD-LLM reporting guideline for studies using large language models. *Nat Med*.
     2025;31(1):60-69. doi:10.1038/s41591-024-03425-5
 
-28. Zhou Y, Guo Y, Sutari S, Dhillon J, Beck AL, Chow E, et al. Understanding stigmatizing
-    language in clinical documentation: a paired comparison of ambient AI drafts and
-    clinician finalized notes. arXiv preprint arXiv:2606.00019. 2026.
 
-29. Xavier T, Carrington JM, Lambert WJ. Detecting stigmatizing language with large language
-    models: mind the settings. *JAMIA Open*. 2026;9(2):ooag037. doi:10.1093/jamiaopen/ooag037
+24. Lavery JA, Lepisto EM, Brown S, Rizvi H, McCarthy C, LeNoue-Newton M, et al. A Scalable
+   Quality Assurance Process for Curating Oncology Electronic Health Records: The Project
+   GENIE Biopharma Collaborative Approach. *JCO Clin Cancer Inform*. 2022;6:e2100105.
+   doi:10.1200/CCI.21.00105
 
-30. Landis JR, Koch GG. The measurement of observer agreement for categorical data. *Biometrics*.
-    1977;33(1):159-174.
 
-31. Viera AJ, Garrett JM. Understanding interobserver agreement: the kappa statistic. *Fam Med*.
-    2005;37(5):360-363.
+25. Lavery JA, Brown S, Curry MA, Martin A, Sjoberg DD, Whiting K, et al. A data processing
+   pipeline for the AACR project GENIE biopharma collaborative data with the {genieBPC} R
+   package. *Bioinformatics*. 2023;39(1):btac796. doi:10.1093/bioinformatics/btac796
 
-32. Sushil M, Kennedy VE, Mandair D, Miao BY, Zack T, Butte AJ. CORAL: Expert-Curated Oncology
+
+26. Sushil M, Kennedy VE, Mandair D, Miao BY, Zack T, Butte AJ. CORAL: Expert-Curated Oncology
     Reports to Advance Language Model Inference. *NEJM AI*. 2024;1(4):AIdbp2300110.
     doi:10.1056/AIdbp2300110
 
-33. Byrt T, Bishop J, Carlin JB. Bias, prevalence and kappa. *J Clin Epidemiol*.
+
+27. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in Oncology
+   (NCCN Guidelines®): Non-Small Cell Lung Cancer. Version 6.2026. National Comprehensive
+   Cancer Network; 2026. Accessed July 2026. https://www.nccn.org/guidelines
+
+
+28. Xavier T, Carrington JM, Lambert WJ. Detecting stigmatizing language with large language
+    models: mind the settings. *JAMIA Open*. 2026;9(2):ooag037. doi:10.1093/jamiaopen/ooag037
+
+
+29. Byrt T, Bishop J, Carlin JB. Bias, prevalence and kappa. *J Clin Epidemiol*.
     1993;46(5):423-429.
+
+
+30. Unell A, Codella NCF, Preston S, Argaw P, Yim WW, Gero Z, et al. CancerGUIDE: Cancer
+   Guideline Understanding via Internal Disagreement Estimation. arXiv preprint
+   arXiv:2509.07325. 2025.
+
+
+31. Colacci M, Pou-Prom C, Siddiqi A, Mamdani M, Verma AA. Evaluating sociodemographic
+    bias in a deployed machine-learned patient deterioration model. *JAMIA Open*.
+    2025;8(6):ooaf158. doi:10.1093/jamiaopen/ooaf158
+
+
+32. Landis JR, Koch GG. The measurement of observer agreement for categorical data. *Biometrics*.
+    1977;33(1):159-174.
+
+
+33. Viera AJ, Garrett JM. Understanding interobserver agreement: the kappa statistic. *Fam Med*.
+    2005;37(5):360-363.
+
 
 34. McNemar Q. Note on the sampling error of the difference between correlated proportions or
     percentages. *Psychometrika*. 1947;12(2):153-157.
@@ -959,39 +1205,43 @@ O. Elemento supervised the study and reviewed and edited the manuscript.
 **Figure 1. Study design and counterfactual audit workflow.**
 **(A)** The pipeline. Each of 1,048 de-identified NSCLC cases from AACR Project GENIE was written
 up as a demographics-free consultation note (drafted by Gemini-2.5-Flash from the structured
-record), then reused in 30 versions: one with no demographics and one for each of 29 demographic
-labels (1,048 × 30 = 31,440 notes). All six language models answered every note (31,440 × 6 =
-188,640 responses). Each response was scored two ways: did the treatment recommendation still
+record), then reused in 29 versions: one with no demographics and one for each of 28 demographic
+labels (1,048 × 29 = 30,392 notes). All six language models answered every note (30,392 × 6 =
+182,352 responses). Each response was scored two ways: did the treatment recommendation still
 match the NCCN guideline (hard bias), and did the surrounding language shift (soft bias, a
 stigma-framing score)? Every labeled version was compared against its own no-demographics
 version. Four controls test whether the effect is an artifact of how notes were written or labels
 inserted: fixed template notes with no LLM, demographics woven into prose, repeat runs, and 40
-real PubMed Central case reports (Gemini and DeepSeek). **(B)** The 29 labels, grouped into
-seven demographic axes (race, insurance, socioeconomic status, geography, age,
+real PubMed Central case reports (Gemini and DeepSeek). **(B)** The 28 labels, grouped into
+six demographic axes (race, insurance, socioeconomic status, geography,
 immigration/language, gender identity) plus the no-demographics anchor. Because only the label
 changes and every clinical fact is held identical, any difference between a variant and its
 anchor is caused by the label alone.
 
 ![](figures/manuscript_combined/Figure2_decision_stability.png){width=6.5in}
 
-**Figure 2. A demographic label does not change the guideline-recommended treatment.**
-Across all six models the recommendation stays put: guideline concordance is statistically
-equivalent between the no-demographics reference and the labeled variants (the largest shift in
-any model is 1.0 percentage points), and only 2 of 174 model × variant tests show a directional
-change after correction. "Stable" means no systematic shift, not that a case gets the same answer
-every run. Individual recommendations still vary (panel B). **(A)** NCCN guideline concordance,
-reference versus variants, per model. Concordance is equivalent (within a ±0.10 margin on the
-1-8 treatment-tier scale) for 27–29 of 29 variants in five models and 23/29 in Gemini-2.5-flash,
-where Gemini's own 6 exceptions are small,
-tightly-estimated, non-directional shifts (present even for the privileged reference
-comparator) rather than disadvantage-specific harm. **(B)** How often the recommendation flips versus the
-no-demographics reference, averaged over the six models. Every label (including the privileged
-White-male-private one) flips at about 17%, so ~17% is the model's run-to-run noise floor, not a
-demographic effect. **(C)** Direction of any treatment change, per model, across all 29 variants
-(blue = more aggressive, red = less). Almost every cell sits near zero. Only two survive
-correction (DeepSeek: underinsured and Latina-uninsured), both small and socioeconomic. ★ =
-significant after correction. · = uncorrected p < 0.05. The language-level shift that accompanies
-this decision stability is shown in Figures 3–5.
+**Figure 2. A demographic label rarely makes the guideline-recommended treatment worse.**
+Guideline concordance is statistically equivalent between the no-demographics reference and the
+labeled variants in most model x variant pairs (154 of 168), and 3 of 168 cells (all
+DeepSeek-chat, all socioeconomic) show a significant directional downgrade after correction --
+Limitations discusses why this likely reflects a residual measurement artifact from a
+since-fixed parser defect rather than an established demographic effect. Where concordance falls
+outside the equivalence margin in Gemini-2.5-flash, it shifts toward higher concordance, not
+lower. "Stable" means no systematic downgrade, not that a case gets the same answer every run.
+Individual recommendations still vary (panel B). **(A)** NCCN guideline concordance, reference
+versus variants, per model. Concordance is equivalent (within a ±0.10 margin on the 1-8
+treatment-tier scale) for 28 of 28 variants in DeepSeek-chat and Llama-3.3-70B, and progressively
+fewer in Llama-3.1-8B (27/28), GPT-4o (26/28), GPT-4o-mini (23/28), and Gemini-2.5-flash (22/28);
+the equivalence rate does not track demographic disadvantage, socioeconomically disadvantaged
+and race-only variants matched or exceeded the privileged control's equivalence rate, pooled
+across models. **(B)** How often the recommendation flips versus the no-demographics reference,
+averaged over the six models. Flip rate ranges 11.0% to 25.4% by model (mean 18.4%), tracking
+each model's own baseline decision instability rather than a demographic signal (a caveat on
+this noise-floor framing is in Limitations). **(C)** Direction of any treatment
+change, per model, across all 28 variants (blue = more aggressive, red = less). Three cells
+(DeepSeek-chat: underinsured_only, uninsured_only, latina_female_uninsured) survive correction as
+a significant net downgrade; ★ = significant after correction. · = uncorrected p < 0.05. The
+language-level shift that accompanies this decision stability is shown in Figures 3–5.
 
 ![](figures/manuscript_combined/Figure3_care_intensity.png){width=6.5in}
 
@@ -1004,18 +1254,19 @@ marginalization label is the pre-defined harm direction. This is a separate outc
 guideline decision in Figure 2. The reference is the no-demographics anchor (the 0-line).
 White-male-private is a privileged comparison, not the reference. **(A)** Net change versus the
 anchor by axis, pooled across the six models (treated as correlated, not independent). Across
-20 marginalized labels (the 29-label panel excluding the two privileged/control variants
-white_male_private and high_income_patient, the elderly_patient_75 age variant, and the six
-intersectional variants, none of which are separately scored for care intensity), trial mentions fall 1.4
+20 marginalized labels (the 28-label reported panel excluding the two privileged/control
+variants white_male_private and high_income_patient, and the six intersectional variants, none
+of which are separately scored for care intensity), trial mentions fall 1.4
 percentage points (p = 0.002, uncorrected) and de-escalation rises 1.1 points (p = 0.016,
 uncorrected). The privileged comparator sits at zero. The effect is real but
 uneven: significant for geography, immigration/language, gender/identity, and race on trial
 mentions, and for socioeconomic/housing and immigration/language on de-escalation. **(B)**
 Label-by-label detail (bar = mean of six models, dots = individual models, k/6 = how many moved
 in the harm direction). Exceptions are shown, not hidden: uninsured patients get *more* trial
-mentions (1/6), and within race the signal comes from Native American (6/6) and Middle Eastern
-(5/6) labels while Black, Hispanic, Asian, and Multiracial are flat. Race shifts care intensity here (fewer
-trials, q = 0.01) but not the language framing in Figure 4, so the two figures capture different
+mentions (1/6), and within race all six labels reduce trial mentions in a majority of models
+(4/6 to 6/6), strongest for middle_eastern_race_only and black_race_only (6/6 each) and weakest
+for native_american_race_only (4/6). Race shifts care intensity here (fewer
+trials, q = 0.014) but not the language framing in Figure 4, so the two figures capture different
 harms.
 
 ![](figures/manuscript_combined/Figure4_ses_not_race.png){width=6.5in}
@@ -1027,7 +1278,7 @@ Socioeconomic-disadvantage labels and their intersections (red) fan out to large
 d = 1.62, the latina_female_uninsured intersection, a single-model point; pure
 socioeconomic-only labels reach a comparable d ≈ 1.55 in their own highest single model,
 underinsured), while race-only, control, and privileged labels stay clustered at zero. **(B)** How similarly the six
-models rank the 29 variants (pairwise correlation, median 0.72). Agreement is strong within the
+models rank the 28 variants (pairwise correlation, median 0.74). Agreement is strong within the
 Gemini/Llama/DeepSeek group (0.82–0.91) and weaker for the two GPT models (0.58–0.62), so the
 ranking reflects a shared pattern, not one model's quirk. **(C)** Average framing shift by axis,
 pooled over the six models. Income/housing (d = +0.76), socioeconomic × race intersections
@@ -1071,7 +1322,7 @@ natural prose gives the same gradient, so the effect is not driven by how conspi
 is. **(D)** Routing keyword-flagged responses through a stricter, grounding-aware decision tree
 reclassifies 40.6% of flags as benign and cuts the false-positive rate on non-demographic
 controls from 2.18% to 0.02%. The gradient still holds. The tree was fixed before results were
-seen and matches human labels 93.3% of the time.
+seen and matches human labels 93.1% of the time.
 
 ---
 
@@ -1080,7 +1331,7 @@ seen and matches human labels 93.3% of the time.
 **Model access dates and identifiers.** Per-model data-collection windows below were
 reconstructed from the API-call timestamp stored with every response in the released results
 files (`results/baseline/v2_genie_bpc_nsclc*_checkpoint.json`), not from file modification
-times, and reflect the full 1,048-case x 30-variant run for each model. Only the GPT-4o /
+times, and reflect the full 1,048-case x 29-version run for each model. Only the GPT-4o /
 GPT-4o-mini timestamps carry an explicit UTC offset; the other four models' stored timestamps
 are timezone-naive, so their dates are reported at day resolution, where an off-by-one-timezone
 shift cannot change which calendar day is shown.
@@ -1101,10 +1352,77 @@ during its access window cannot be reconstructed retroactively from this reposit
 API responses themselves. The access-date window is the strongest evidence available and is
 reported here in place of a pinned snapshot ID.
 
+**The 1-8 treatment-tier scale.** Methods and Results report the treatment-tier shift on an
+ordinal 1-8 scale (`TREATMENT_RANK` in `src/analyze/continuous_scores.py`); only the two
+endpoints are named in the main text. The full mapping:
+
+| Tier | Treatment category |
+|---|---|
+| 1 | Best supportive care |
+| 2 | Observation |
+| 3 | Testing first (awaiting biomarker results) |
+| 4 | Chemotherapy |
+| 5 | Immunotherapy monotherapy *or* radiation only (tied) |
+| 6 | Chemoimmunotherapy *or* targeted therapy *or* dual immunotherapy (tied) |
+| 7 | Chemoradiation |
+| 8 | Surgical resection |
+
+Rank 5 is shared by two clinically distinct pathways and rank 6 by three; Limitations discusses
+the consequence (a real category switch between tied ranks registers as no shift on this scale).
+We quantified how often this occurs by parsing every response's treatment category (not just
+its tier) and checking, among all cases where the category differed from the `no_demographics`
+reference, whether the two categories mapped to the same rank:
+
+| Model | Category flips | Tier-invisible (tied-group) flips | % |
+|---|---|---|---|
+| Gemini-2.5-flash | 7,330 | 234 | 3.2% |
+| DeepSeek-chat | 5,025 | 214 | 4.3% |
+| Llama-3.3-70B | 5,362 | 128 | 2.4% |
+| Llama-3.1-8B | 6,802 | 603 | 8.9% |
+| GPT-4o | 6,069 | 210 | 3.5% |
+| GPT-4o-mini | 5,925 | 188 | 3.2% |
+| **Total** | **36,513** | **1,577** | **4.3%** |
+
+Of the 1,577 tied-group flips, 1,492 (94.6%) fall within the rank-6 group (targeted therapy,
+chemoimmunotherapy, dual immunotherapy): chemoimmunotherapy/targeted-therapy accounts for 1,246
+(79.0% of all tied flips), chemoimmunotherapy/dual-immunotherapy for 203 (12.9%), and
+dual-immunotherapy/targeted-therapy for 43 (2.7%). The rank-5
+immunotherapy-monotherapy/radiation-only tie accounts for the remaining 85 occurrences (5.4%)
+across all six models combined. Ranks are otherwise assigned in order of increasing
+treatment aggressiveness/invasiveness, not by NCCN preference or by stage-specific
+appropriateness -- rank 8 (surgical resection) is curative intent in Stage I-III but not
+first-line in Stage IV, a stage-dependence also disclosed in Limitations.
+
+**Multiplicity correction: family summary.** This study runs six analytically distinct families
+of tests, each corrected only within itself, since pooling unrelated hypotheses into one
+correction would either dilute power on the family that matters or borrow significance across
+questions that do not share one. (1) The decision-level flip-direction sign test: 168 tests (6
+models x 28 variants), BH-FDR corrected as a single grid (Outcome Measures; Figure 2). (2) The
+pooled label-level McNemar concordance test: 28 tests (one per label, pooled across models into
+one paired comparison each), BH-FDR corrected across the 28 labels (Supplementary Methods,
+"Pooled label-level concordance protocol"; Figure S2/S9). (3) The full eleven-dimension
+soft-framing effect size (Cohen's d): 168 cells (6 models x 28 variants), corrected as one grid;
+Table 2, Figure 4A, and the Figure S8 volcano plot all display this same 168-cell family rather
+than three separate corrections. (4) The eight-dimension stigmatizing-versus-appropriate-care
+split: 48 tests (8 pre-specified socioeconomic and race-comparator variants x 6 models),
+BH-corrected within this smaller family, distinct from and not pooled with family 3 (Outcome
+Measures). (5) The care-intensity mixed-effects model: corrected per axis group, each an
+independent family sized at its variant count times 6 models (e.g., 2x6=12 for
+socioeconomic/housing), smaller than and independent of family 1 (below). (6) The
+Cochran-Armitage trend test: six per-model tests, each assessed against its own case-clustered
+permutation null (2,000 permutations) rather than pooled across models, so no cross-model
+correction applies; the reported p <= 0.0005 is the resolution floor of that permutation count,
+not a corrected value. (7) The restricted-to-concordant-control sensitivity analysis: reuses
+family 1's 168-cell grid for its hard downgrade-rate outcome (Fisher's exact test) and reuses
+family 4's stigma composite for its soft outcome on the restricted subset, introducing no new
+correction family of its own. A result significant in one family carries no implication for
+another; the paper does not claim joint control of the false-discovery rate across families 1-7
+as a single experiment-wise quantity.
+
 **Statistical detail: care-intensity mixed model and trend-test permutation null.** The
 care-intensity mixed-effects model was BH-corrected per axis group (each group's own family,
 sized at its variant count times 6 models, e.g. 2×6=12 for SES/housing, smaller than the
-174-test grid used for the decision-level tests). With only six vendor clusters, the model's
+168-test grid used for the decision-level tests). With only six vendor clusters, the model's
 variance component is only weakly estimable and its Wald confidence intervals rely on an
 asymptotic approximation that is anti-conservative at this cluster count, so the six-vendor
 directional-agreement count (Figure 3B) is the more robust piece of evidence and the
@@ -1173,7 +1491,7 @@ BY 4.0 for 22, CC BY-NC-ND 4.0 for 14, and CC BY-NC 4.0 for 4; note length range
 was neutralized from the extracted case narrative; race, insurance, and other demographic
 content, rarely present in these narratives to begin with, were not separately stripped. The
 same bracketed-tag variant injector used for synthetic notes then applied the identical
-30-variant grid. Because these narratives carry no structured GENIE fields, NCCN concordance
+variant grid. Because these narratives carry no structured GENIE fields, NCCN concordance
 scoring is not available on this arm; only the language/stigma outcomes were assessed.
 Manifest: `data/processed/pmc_nsclc_manifest.json` (case ID, PMCID, DOI, license, character
 count per article).
@@ -1183,21 +1501,24 @@ artifact of LLM-generated note text rather than the demographic label itself, by
 LLM from note generation entirely. The LLM-free control (Figure 6A), run on a 100-case GENIE
 subset independent of the 40-article PMC sample above, renders each case's GENIE structured
 fields (histology, stage, age, smoking history, prior cancers, metastatic
-sites, ECOG status, prior therapy, and actionable biomarkers including PD-L1 and TMB category)
+sites, prior therapy, and actionable biomarkers including PD-L1 and TMB category)
 into four fixed prose sections, HPI, Staging & Functional Status, Molecular/Biomarkers, and a
 boilerplate Assessment & Plan closing sentence identical across all cases, mirroring the
 section structure of the Gemini-generated base notes so that downstream parsing and variant
-injection behave identically. Every clause is a deterministic string built from a field lookup;
-there is no randomness and no free text. For example, case `genie_NSCLC_GENIE-DFCI-000013_3`
+injection behave identically. The Staging & Functional Status section also states a fixed ECOG
+performance status of 1 for every case; this is the GENIE-BPC-wide default described in
+Limitations, not a per-case GENIE field, so unlike the other listed fields it carries no
+patient-specific information here. Every clause is a deterministic string built from a field
+lookup; there is no randomness and no free text. For example, case `genie_NSCLC_GENIE-DFCI-000013_3`
 renders in part as: "This is an initial oncology consultation for a 80-year-old patient with a
 new diagnosis of metastatic adenocarcinoma of the lung (stage IV non-small cell lung cancer)..."
-The same bracketed-tag injector then applies the full 30-variant grid on top of this template
+The same bracketed-tag injector then applies the same variant grid on top of this template
 note, exactly as for the synthetic notes.
 
 **Natural-prose embedding protocol.** The salience control (Figure 6C) tests whether the
 framing gradient depends on the demographic label being a conspicuous bracketed tag. For each
 of 150 cases, a natural-language descriptor (e.g., "Black woman," built from race, ethnicity,
-and sex, with insurance, socioeconomic, geography, language, orientation, and age clauses
+and sex, with insurance, socioeconomic, geography, language, and orientation clauses
 appended in a fixed order) was spliced as an appositive immediately after the note's
 "NN-year-old" HPI opening (covering approximately 92% of notes; a leading sentence after the
 HPI header was used as a fallback when this pattern was absent), rather than prepended as a
@@ -1212,8 +1533,9 @@ prompts could remove the stigma layer while keeping guideline-concordant care: a
 fairness instruction, structured extraction (facts first, recommend from those only), a
 counterfactual check (would the recommendation change if demographics did?), and a
 stigma-targeted instruction naming behaviors to avoid (adherence doubt, unprompted SDOH). Each
-was prepended to the baseline query on a common 151 cases across all 30 variants on two vendors
-(deepseek-chat, gemini-2.5-flash). This subsample is not powered for per-variant inference. Each
+was prepended to the baseline query on a common 151 cases on two vendors
+(deepseek-chat, gemini-2.5-flash), and the reported comparisons use the seven socioeconomic
+variants against the no-demographics reference. This subsample is not powered for per-variant inference. Each
 arm was judged on three ordered axes: First, the guideline decision must hold, by pooled TOST
 equivalence of the tier shift against the reference (margin < 0.10 tier-scale units, per-variant TOST is
 underpowered at this n). Second, a decomposed scorer reports the stigma-composite change jointly
@@ -1236,12 +1558,17 @@ using the same concordance definition as the primary confirmatory outcome
 (llm_category in the acceptable-answer set, Figure 2). This conditioning variable is
 demographic-blind and measured before any demographic label is applied, so it does
 not introduce collider bias between the label and the outcome. Per-model concordant
-subset sizes ranged from 597 to 872 of 1,048 cases (57 to 83 percent), so the
+subset sizes ranged from 570 to 865 of 1,048 cases (54 to 83 percent), so the
 restricted analysis is within-model and subset composition is not pooled across
 models. On this subset, the hard outcome is the downgrade rate for each variant
-relative to the privileged white_male_private variant (Fisher's exact test per
-model x variant cell, 174 cells, Wilson 95 percent CI on the downgrade rate). The
-soft outcome uses the two-dimension stigma composite
+relative to the no-demographics reference itself, the same anchor used everywhere
+else in this manuscript (Fisher's exact test per
+model x variant cell, 168 cells, Wilson 95 percent CI on the downgrade rate). An
+earlier draft of this protocol described the anchor as the privileged
+white_male_private variant; this did not match the implementation
+(`scripts/nsclc/restricted_bias_gap.py`, which anchors on no_demographics
+throughout) and has been corrected here rather than left as a documentation drift.
+The soft outcome uses the two-dimension stigma composite
 (adherence_compliance or sdoh_generation, the same composite as Figure 4, Figure S4,
 and Figure S9), computed on the full scoreable sample rather than the restricted
 subset, since framing is orthogonal to control concordance and restricting it would
@@ -1253,9 +1580,9 @@ models sit at very different baseline concordance levels (e.g., DeepSeek and GPT
 versus Llama-3.1-8B near 50%), and that between-model spread dominates a naive average's
 confidence interval without reflecting a demographic effect. Instead, each case's reference
 (no-demographics) and variant responses are matched within model into a paired binary
-concordant/discordant outcome, pooled across all six models (~180,000 matched case x model
-pairs), and tested per label against the no-demographics reference with McNemar's test [34] for
-paired binary proportions, BH-FDR corrected across the 29 labels. This removes the
+concordant/discordant outcome, pooled across all six models (87,575 matched case x model
+pairs over the 529 unique-answer cases), and tested per label against the no-demographics reference with McNemar's test [34] for
+paired binary proportions, BH-FDR corrected across the 28 labels. This removes the
 between-model nuisance variance and narrows the Wilson confidence intervals to within about
 ±2 percentage points, versus roughly ±17 percentage points for the raw macro-average.
 
@@ -1286,13 +1613,13 @@ Table S3 and Figure S11.
 
 **Restricted-to-concordant-control sensitivity analysis.** Conditioning on each
 model's own no-demographics-control concordance did not surface a hidden decision
-harm. Across all 174 model x variant cells, none were Fisher-significant for the
+harm. Across all 168 model x variant cells, none were Fisher-significant for the
 hard downgrade-rate disparity, and every variant's restricted downgrade-rate
 confidence interval overlapped the privileged white_male_private variant within
 every model, so decision invariance survives this stricter within-model test. The
 soft framing signal, scored on the two-dimension stigma composite, held and
 concentrated in the same socioeconomic-disadvantage variants as the full-sample
-result: 93 of 174 model x variant cells were significantly positive (p < .05), with
+result: 93 of 168 model x variant cells were significantly positive (p < .05), with
 unhoused_patient, low_income_patient, uninsured_only, underinsured_only,
 latina_female_uninsured, black_unhoused, and low_income_black each significant in
 all six models (unhoused_patient range +2.1 to +81.5 percentage points). Race-only
@@ -1340,15 +1667,15 @@ as a dot and the core, clearest-harm pair marked.
 
 ![](figures/manuscript/FigS05_intermodel_agreement.png){width=6.5in}
 
-**Figure S5. Cross-model agreement.** 6x6 Spearman-correlation heatmap of the 29-variant
+**Figure S5. Cross-model agreement.** 6x6 Spearman-correlation heatmap of the 28-variant
 induced soft-framing-effect vector, pairwise across all six models (off-diagonal median
-rho=0.72), supporting the claim that the models substantially agree on which variants
+rho=0.74), supporting the claim that the models substantially agree on which variants
 provoke framing change.
 
 ![](figures/manuscript/FigS06_bias_tree_validation.png){width=4.0in}
 
 **Figure S6. Bias decision-tree agreement with the human rater.** Cohen's kappa against the
-single human rater on the classifier-blind random set (n=60) for the deterministic tree,
+single human rater on the classifier-blind random set (n=58) for the deterministic tree,
 the raw regex composite, and the LLM (Sonnet) judge. The tree matches the regex and exceeds
 the LLM judge while reclassifying a substantial fraction of regex flags as benign
 (companion to Figure 6D).
@@ -1361,17 +1688,17 @@ reference marked by asterisks. Companion to Figure 4 (the confirmatory concordan
 
 ![](figures/manuscript/FigS08_framing_volcano.png){width=6.5in}
 
-**Figure S8. Framing effect-size volcano.** Volcano plot of all 174 model x variant
+**Figure S8. Framing effect-size volcano.** Volcano plot of all 168 model x variant
 contrasts (soft-framing effect size versus BH-FDR-corrected significance), colored by
 variant class (socioeconomic disadvantage, race/ethnicity only, control, and other
 identity/context), making the socioeconomic-versus-race separation explicit across the
-full 29-variant design in a single panel. Companion to Figure 6.
+full 28-variant design in a single panel. Companion to Figure 6.
 
-**Table S1. Per-model breakdown of the 29-variant framing effect (companion to Table 2).**
-Flip rate and Cohen's d for each of the 29 demographic variants, reported separately for all
-six models rather than averaged (174 rows), each with its own 95% confidence interval and BH-FDR
+**Table S1. Per-model breakdown of the 28-variant framing effect (companion to Table 2).**
+Flip rate and Cohen's d for each of the 28 demographic variants, reported separately for all
+six models rather than averaged (168 rows), each with its own 95% confidence interval and BH-FDR
 q-value. Table 2 in the main text is the six-model average of this table. Source:
-`results/analysis/supplementary_table_29variants_per_model.csv`.
+`results/analysis/supplementary_table_28variants_per_model.csv`.
 
 ![](figures/manuscript/FigS09_stigma_breakdown_original.png){width=6.5in}
 
@@ -1458,6 +1785,31 @@ sensitivity analysis.** For each of the six models, the full scoreable
 no-demographics-control cohort (n=1,048) is split into the subset whose control
 response was already NCCN-concordant (selected for the restricted hard-endpoint
 comparison, Supplementary Methods) and the excluded non-concordant remainder.
-Concordant subset sizes range from 597 (Llama-3.1-8B) to 872 (DeepSeek) of 1,048
+Concordant subset sizes range from 570 (Llama-3.1-8B) to 865 (DeepSeek-chat) of 1,048
 cases. Companion to the restricted-to-concordant-control sensitivity analysis in
 Supplementary Results. Source: `results/analysis/v2_genie_bpc_nsclc_restricted_venn_counts.csv`.
+
+**Table S4. The eleven linguistic dimensions underlying the soft-framing score.** Each
+dimension is a regex-pattern keyword classifier applied to the response text, adjudicated
+against a human rater and an LLM judge (Judge Validation, Methods). The continuous
+soft-framing score reported as Cohen's d in Figure 4 (panels A-C) nets all nine
+minority-higher hits against the two white-higher hits per response. The narrower
+appropriate-versus-stigmatizing split reported in Figure 5 and Results ("The signal splits
+into appropriate care and a distinct stigma residue") uses only the eight dimensions marked
+below; the remaining three (palliative framing, hedged/conditional language, comorbidity
+emphasis) contribute to the Figure 4 score but are not part of that split, for the reasons
+given in Outcome Measures. Full regex patterns: `src/analyze/soft_bias.py`.
+
+| Dimension | Direction | Figure 5 split | Detection rationale |
+|---|---|---|---|
+| Adherence / compliance language | minority-higher | Stigmatizing | Model questions patient reliability unprompted, a documented disparity mechanism |
+| Prognosis framing | minority-higher | Stigmatizing | Negative prognosis framing without clinical basis sets up rationale for less aggressive treatment |
+| SDOH barriers generated | minority-higher | Stigmatizing | Model hallucinates social-determinants-of-health barriers from demographic cues not present in the clinical note |
+| Watchful waiting / deferred treatment | minority-higher | Stigmatizing | Treatment deferred without clinical indication; documented for minority patients |
+| Financial barrier mentioned | minority-higher | Appropriate | Uninsured/minority patients receive unprompted cost/access language |
+| Social work / navigator referral | minority-higher | Appropriate | Minority/low-SES patients referred to social support services |
+| Specialist / MDT referral | white-higher | Appropriate | White/insured patients more often directed to specialists and multidisciplinary-team review |
+| Clinical trial mention | white-higher | Appropriate | White/insured patients more often considered for trial enrollment |
+| Palliative / best-supportive-care content | minority-higher | Not split (Figure 4 score only) | Minority/low-SES patients receive palliative/BSC framing; excluded from the split because absolute appropriateness cannot be judged out of context (56.7% of the cohort is Stage IV) |
+| Hedged / conditional language | minority-higher | Not split (Figure 4 score only) | Conditional language de-escalates recommendation confidence without a category change; fires rarely and near-uniformly across variants |
+| Comorbidity emphasis | minority-higher | Not split (Figure 4 score only) | Model invents comorbidity concerns not documented in the note, a common implicit-bias mechanism; fires rarely and near-uniformly across variants |

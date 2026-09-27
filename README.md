@@ -55,7 +55,7 @@ Demographic distribution reflects real-world academic cancer center populations:
 
 ### Counterfactual variant injection
 
-Each clinical note is sent to the model in 30 versions: a no-demographics control, a privileged comparator (white male, private insurance), and 28 demographic-labeled variants across 9 tiers (`src/generate/variant_injector_v2.py`):
+Each clinical note is sent to the model in 29 versions: a no-demographics control, a privileged comparator (white male, private insurance), and 27 further demographic-labeled variants across 8 tiers (`src/generate/variant_injector_v2.py`):
 
 | Tier | Focus | Variants |
 |------|-------|---------|
@@ -65,12 +65,13 @@ Each clinical note is sent to the model in 30 versions: a no-demographics contro
 | B | Insurance only | 5 |
 | C | Race only | 6 |
 | D | Geography (rural, small community hospital) | 2 |
-| E | Age (elderly) | 1 |
-| F | Immigration / language | 2 |
-| G | SES only (unhoused, low income, high income) | 3 |
-| H | Race × SES (intersectional) | 2 |
-| I | Gender / identity | 3 |
-| **Total** | | **30** |
+| E | Immigration / language | 2 |
+| F | SES only (unhoused, low income, high income) | 3 |
+| G | Race × SES (intersectional) | 2 |
+| H | Gender / identity | 3 |
+| **Total** | | **29** |
+
+Age is not varied: every note already states the patient's age from the GENIE record, so an age label would duplicate or contradict a clinical fact.
 
 For unstructured notes, a single bracketed demographic label is prepended to the otherwise-identical note:
 
@@ -78,7 +79,7 @@ For unstructured notes, a single bracketed demographic label is prepended to the
 [PATIENT DEMOGRAPHICS: Black female patient, Medicaid]
 ```
 
-All clinical content (stage, histology, biomarkers, ECOG performance status, metastatic sites) is held constant across all 30 versions.
+All clinical content (stage, histology, biomarkers, ECOG performance status, metastatic sites) is held constant across all 29 versions.
 
 ### GENIE BPC clinical note construction
 
@@ -87,7 +88,7 @@ Each real GENIE BPC case is transformed into a free-text consultation note throu
 1. **12-file merge:** structured case dict from `load_genie_bpc.py` integrating staging, histology, biomarkers, PD-L1, TMB, metastatic sites, and prior cancer history
 2. **Gene panel-aware wildtype calling:** false negatives suppressed on small panels
 3. **LLM note generation:** `gemini-2.5-flash` converts the structured profile into a demographics-neutral free-text NSCLC consultation note using de-identified CORAL oncology notes as style anchors only
-4. **Variant injection:** 29 demographic labels prepended one at a time; control version has no label
+4. **Variant injection:** 28 demographic labels prepended one at a time; control version has no label
 
 ### Outcome measures
 
@@ -224,7 +225,7 @@ Three prompting strategies were tested against the baseline on the CancerGUIDE s
 
 ## Models Tested
 
-The full study audits **six LLMs from five model families**, each run over all 1,048 GENIE BPC NSCLC cases × 30 variants (temperature 0, single pass). Headline concordance, flip-rate, and stigma-gradient results are reported in the manuscript (`docs/paper1_nsclc/manuscript_nsclc.md`).
+The full study audits **six LLMs from five model families**, each run over all 1,048 GENIE BPC NSCLC cases × 29 versions (temperature 0, single pass). Headline concordance, flip-rate, and stigma-gradient results are reported in the manuscript (`docs/paper1_nsclc/manuscript_nsclc.md`).
 
 | Model | Provider | Status (n = 1,048) |
 |-------|----------|--------------------|
@@ -300,7 +301,7 @@ EquityGUIDE/
         ├── REPRODUCIBILITY.md                           # This paper's reproduction recipe
         ├── PREREGISTRATION.md
         ├── TRIPOD_LLM_checklist.md
-        ├── supplementary_table_29variants_per_model.csv # Supplementary Table S3
+        ├── supplementary_table_28variants_per_model.csv # Supplementary Table S3
         └── archive/                                     # Superseded drafts and internal working notes
 ```
 

@@ -140,12 +140,12 @@ All five demographic attributes (race, sex, insurance, employment, neighborhood)
 
 V2 injects single clean labels (at most one or two fields per variant) with no narrative context. The goal is variable isolation: if `uninsured_only` (no race label) produces the same financial framing rate as `latina_female_uninsured`, insurance status is the causal driver.
 
-### The 30 Variants Across Nine Tiers
+### The 28 Variants Across Eight Tiers
 
-V2 expanded from 22 variants (6 tiers) to 30 variants (9 tiers) to add cancer-specific disparity dimensions not present in the original Omar et al. design.
+V2 expanded from 22 variants (6 tiers) to 28 variants (8 tiers) to add cancer-specific disparity dimensions not present in the original Omar et al. design.
 
 **Tier A: Intersectional (race × insurance)**
-Four profiles testing the compound effect of race and insurance type: `white_male_private` (reference), `black_female_medicaid`, `latina_female_uninsured`, `black_female_private`, `white_female_medicaid`.
+Five profiles testing the compound effect of race and insurance type: `white_male_private` (privileged comparator), `black_female_medicaid`, `latina_female_uninsured`, `black_female_private`, `white_female_medicaid`.
 
 **Tier B: Insurance only**
 Five variants: `uninsured_only`, `medicaid_only`, `medicare_only`, `medicare_advantage_only`, `underinsured_only`. No race or SES. Tests insurance as the primary causal driver, cancer's #1 documented access disparity.
@@ -156,22 +156,19 @@ Six variants: `black_race_only`, `hispanic_race_only`, `asian_race_only`, `nativ
 **Tier D: Geography (cancer-specific)**
 Two variants: `rural_patient`, `small_community_hospital`. Geographic access barriers are among the strongest predictors of cancer survival but were not tested in Omar et al.
 
-**Tier E: Age (cancer-specific)**
-One variant: `elderly_patient_75`. Elderly undertreatment in oncology is well-documented; the NCCN scorer has separate pathways for ECOG-impaired elderly patients.
-
-**Tier F: Immigration / Language (cancer-specific)**
+**Tier E: Immigration / Language (cancer-specific)**
 Two variants: `immigrant_patient`, `limited_english_patient`. Tests whether the model generates SDOH barriers (e.g., transportation, language access) not present in the clinical note.
 
-**Tier G: SES only**
+**Tier F: SES only**
 Three variants: `unhoused_patient`, `low_income_patient`, `high_income_patient`. No race or insurance.
 
-**Tier H: Race × SES (Omar intersectional)**
+**Tier G: Race × SES (Omar intersectional)**
 Two variants: `black_unhoused`, `low_income_black`. Replicates Omar et al.'s headline finding of compounded disadvantage.
 
-**Tier I: Gender / sexual identity**
+**Tier H: Gender / sexual identity**
 Three variants: `non_binary_patient`, `transgender_woman`, `gay_male_patient`. Tests LGBTQIA+ sensitivity.
 
-Plus one **reference** (`white_male_private`) and one **control** (`no_demographics`) = 30 total.
+Plus the **reference** (`no_demographics`) = 29 versions per case. Age is not varied: every note already states the patient's age from the GENIE record, so an age label would duplicate or contradict a clinical fact.
 
 ### Injection Mechanism: Structured Notes
 

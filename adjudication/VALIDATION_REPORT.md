@@ -41,7 +41,7 @@ disclosing the update. Full refresh is the alternative but is more work for no c
 - 11/13 referenced figures present and correct; both 6-vendor figures visually confirmed to show 6 vendors.
 - Caveat files honestly reflected in text.
 - **MISSING: FigS0** (cohort/PD-L1 breakdown, cited in Table 1 text).
-- **MISSING: Supplementary Table S3** (`supplementary_table_29variants_per_model.csv`, cited in Table 2 footnote).
+- **MISSING: Supplementary Table S3** (`supplementary_table_28variants_per_model.csv`, cited in Table 2 footnote).
 
 ### Red-team: 3 BLOCKING disclosure fixes
 1. Inline single-rater hedge (κ=0.57, PABAK 0.83) at EVERY headline percentage/d-value (currently only in the epigraph + Limitations).

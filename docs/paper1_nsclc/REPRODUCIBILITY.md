@@ -288,7 +288,7 @@ venv/bin/python scripts/nsclc/run_judge.py              # -> adjudication/judge_
 classifier-vs-judge inflation footnote. **Open item:** the 60-item gold set is a
 single self-labeled rater (κ=0.57, PABAK 0.83). Two second-rater packets exist
 for this: `adjudication/gold_flagged_rater{1,2}.csv` (classifier-flagged/contested
-subset, n=60) is complete (kappa 0.386, labeled by a co-author); the
+subset, n=60) is complete (kappa 0.682, substantial agreement, labeled by a co-author); the
 representative sample `adjudication/gold_random_rater{1,2}.csv` (n=60, the
 sample underlying the headline kappa=0.57) is still unlabeled and is required
 before the judge-dependent results are called fully validated. Re-score with

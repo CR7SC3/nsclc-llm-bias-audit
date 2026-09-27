@@ -17,6 +17,38 @@ Author: Alvaro Cuervo · Date locked: 2026-06-29
 > time, was completed to the full 1,048 (2026-07-08). All deviations are disclosed here rather
 > than edited into the locked text above.
 
+> **Deviations from pre-registration (addendum, 2026-08-22; does not alter locked hypotheses):**
+> The locked plan's variant panel was 29 demographic variants plus the no-demographics anchor
+> (30 versions per case). One variant, `elderly_patient_75` (an injected age-75+ label), was
+> generated along with the rest but is **excluded from the confirmatory analysis**, 28 variants
+> analyzed, not 29, because the injected age was frequently internally contradictory with the
+> case note's own stated age, and because a separate scorer artifact (ECOG defaults to 1 for
+> every case, since GENIE BPC does not record it) made frailty-appropriate de-escalation
+> unreachable for this variant by construction rather than by any demographic effect (full
+> rationale in `manuscript_nsclc.md` Limitations). Separately, a response-parser defect was
+> found and fixed: the regular expressions detecting a chemotherapy-plus-checkpoint-inhibitor
+> combination were unbounded across the full captured response window instead of restricted to
+> one sentence, causing chemoimmunotherapy to be over-assigned in place of immunotherapy
+> monotherapy or chemotherapy for 4.26% of all 188,640 collected responses, measured directly and
+> confirmed non-differential across demographic groups (4.24% to 4.55%). Both changes required a
+> full re-run of the confirmatory pipeline rather than a label edit; the resulting numbers
+> (TOST equivalence, tied-tier flip rate, label-by-label concordance) are reported in
+> `manuscript_nsclc.md` Results and are not the numbers that appear in the § 5 deviation note
+> above from the original 2026-07-10 disclosure, which described the pre-fix 174-test grid.
+
+> **Addendum, 2026-09-27 (supersedes the age-variant rationale above; does not alter locked
+> hypotheses):** The `elderly_patient_75` label is now removed from the study design entirely,
+> not treated as an analysis exclusion. Age is a clinical fact already stated in every case note
+> from the GENIE record, so an injected age label either duplicated or contradicted it; it was
+> never a valid demographic manipulation in a design where only the demographic label varies.
+> The manuscript therefore describes the design as 28 demographic variants plus the
+> no-demographics anchor (29 versions per case; 1,048 × 29 × 6 = 182,352 analyzed responses).
+> Responses to the dropped label remain in the raw checkpoint files and are not analyzed.
+> Secondary figures previously measured over the full 188,640-response collection (the
+> parser-defect rates above) are re-measured on the 182,352-response corpus in the manuscript.
+> The ECOG-default scorer artifact named above remains a disclosed limitation for every variant,
+> but is no longer offered as a reason for dropping the age label.
+
 **Target venue:** medRxiv preprint (primary, near-term citable artifact) → journal
 submission to **JMIR AI** (primary) or **BMC Medical Informatics & Decision Making**
 (backup); PLOS Digital Health / PLOS ONE as fallbacks. Optional health-AI workshop
@@ -69,30 +101,37 @@ note is annotated with a demographic label, holding all clinical facts constant?
 - **Effect sizes + CIs:** report Cohen's *d* with 95% CIs for every variant-vs-
   reference contrast. Do **not** report point estimates without CIs.
 - **Multiplicity:** Benjamini–Hochberg FDR across the full
-  (29 variants × outcome) grid, **per model**. Report q-values as primary,
-  unadjusted p as secondary.
+  (28 variants × outcome) grid, **per model**. Report q-values as primary,
+  unadjusted p as secondary. (The age-75+ label in the original panel was
+  dropped from the design because every note already states the patient's
+  age; see the 2026-09-27 addendum above. 28 variants, not the 29 originally
+  planned.)
 - **Equivalence (H1/H3):** two one-sided tests (TOST), equivalence margin
   d = ±0.10 (pre-registered; ~quarter of the smallest effect of interest).
   **Disclosed implementation deviation:** the confirmatory analysis
   (`scripts/nsclc/correct_analysis.py`) applies this margin to the raw paired
   tier-shift mean (±0.10 tier-scale units on the 1-8 ordinal scale), not to a
-  standardized Cohen's d as literally written above. This is a substantive
-  deviation, not a rounding difference: re-deriving the exact Cohen's-d CI from
-  the same underlying data (an exact rescaling of the raw CI by each cell's
-  implied SD) drops the total equivalence count from 163/174 to 134/174, and for
-  one model, Llama-3.1-8B, from 28/29 to 15/29 -- that model's paired tier-shift
-  variance is low enough for several variants (implied SD as low as ~0.65-0.72)
-  that a fixed raw shift translates into a much larger standardized effect than
-  for the other five models. We report the raw-tier-scale-units margin as
-  primary because it has a fixed, model-independent clinical meaning (at most
-  one-tenth of one treatment-tier step on the 1-8 scale, the same bound
-  regardless of a given model's response variance), whereas a per-model
-  standardized margin makes the effective clinical bar different for each
-  model. The manuscript's Methods and Results report the raw-tier-scale-units
-  version throughout, consistently; the Cohen's-d recount above is disclosed
-  here and in the manuscript's Limitations so the reader can weigh it,
-  particularly for Llama-3.1-8B, whose equivalence claim is the one genuinely
-  sensitive to this choice.
+  standardized Cohen's d as literally written above. On the corrected
+  28-variant grid, with a separately-discovered response-parser defect also
+  fixed (chemoimmunotherapy was being over-assigned by an unbounded regex;
+  see manuscript Limitations), re-deriving the exact Cohen's-d CI from the
+  same underlying data changes the total equivalence count from 120/168 to
+  115/168. This is a smaller sensitivity than in the pre-fix analysis: the
+  margin choice now cuts in both directions by model (Gemini-2.5-flash,
+  DeepSeek-chat, and GPT-4o gain equivalences under the standardized margin;
+  Llama-3.3-70B, Llama-3.1-8B, and GPT-4o-mini lose them) rather than
+  penalizing one low-variance model uniformly. We report the raw-tier-scale-
+  units margin as primary because it has a fixed, model-independent clinical
+  meaning (at most one-tenth of one treatment-tier step on the 1-8 scale, the
+  same bound regardless of a given model's response variance), whereas a
+  per-model standardized margin makes the effective clinical bar different
+  for each model. The manuscript's Methods and Results report the
+  raw-tier-scale-units version throughout, consistently; the Cohen's-d
+  recount above is disclosed here and in the manuscript's Limitations so the
+  reader can weigh it. Neither margin identifies a demographic-patterned
+  exception: equivalence rates for socioeconomically disadvantaged (71.7%)
+  and race-only (77.8%) variants matched or exceeded the privileged control
+  (75.0%).
 - **Clinical anchoring:** benchmark the SES treatment-downgrade effect
   (observed d ≈ −0.03..−0.07 in DeepSeek) against NCCN intra-rater / acceptable-
   answer-set width, and state explicitly whether it is clinically meaningful.
