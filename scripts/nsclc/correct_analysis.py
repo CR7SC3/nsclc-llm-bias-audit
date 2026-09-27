@@ -98,11 +98,27 @@ def directional_decision(scored: dict, variant: str) -> dict:
 
 
 def tost_equivalent(tier_ci: tuple) -> bool:
-    """Equivalence (no meaningful decision shift) iff the tier-shift d CI lies
-    entirely within +/- D_MARGIN (MAJOR-6)."""
+    """Equivalence (no meaningful decision shift) iff the raw paired tier-shift
+    mean's CI lies entirely within +/- D_MARGIN tier-scale units (MAJOR-6,
+    reported-as-primary margin per PREREGISTRATION.md's disclosed deviation)."""
     lo, hi = tier_ci
     if lo is None or hi is None:
         return False
+    return lo > -D_MARGIN and hi < D_MARGIN
+
+
+def tost_equivalent_standardized(cohens_d: float | None, n: int) -> bool:
+    """Equivalence under the literal pre-registered margin: d = +/-0.10 on the
+    STANDARDIZED paired Cohen's d, not the raw tier-shift mean. The CI on
+    cohens_d is an exact rescaling of the raw-delta CI by the implied SD (both
+    share the same t_crit and n, and cohens_d = delta / SD), so
+    ci = cohens_d +/- t_crit / sqrt(n) without needing SD again."""
+    if cohens_d is None or n < 2:
+        return False
+    from scipy.stats import t as _t
+    t_crit = _t.ppf(0.975, n - 1)
+    half_width = t_crit / (n ** 0.5)
+    lo, hi = cohens_d - half_width, cohens_d + half_width
     return lo > -D_MARGIN and hi < D_MARGIN
 
 
@@ -143,28 +159,67 @@ def run():
     print("CORRECTED ANALYSIS — addressing adversarial-panel statistical findings")
     print("=" * 78)
 
-    scored_by_model, raw_by_model = {}, {}
+    # Single streaming pass over models: load, score, extract every per-model
+    # result this script needs, then drop the raw+scored data before moving to
+    # the next model. The original version kept all 6 models' raw AND scored
+    # dicts (each easily hundreds of MB) alive simultaneously for the whole
+    # run, which made a ~15-minute job take 2+ hours under memory-compression
+    # pressure. Nothing statistical changes here, only when memory is freed.
+    key_ses = ["uninsured_only", "underinsured_only", "low_income_patient", "unhoused_patient",
+               "black_female_medicaid", "black_race_only", "hispanic_race_only", "white_male_private"]
+
+    variants: list[str] | None = None
+    sign_pvals, rows = {}, {}
+    raw_equiv_by_model, std_equiv_by_model = {}, {}
+    splits: dict[tuple[str, str], dict] = {}
+    p_stig: dict[str, float] = {}
+    p_appr: dict[str, float] = {}
+    models_loaded: list[str] = []
+
     for m, path in MODELS.items():
         if not Path(path).exists():
             print(f"  (skip {m}: {path} not found)"); continue
         raw = _load(path)
-        raw_by_model[m] = raw
-        scored_by_model[m] = score_checkpoint(raw)
+        scored = score_checkpoint(raw)
+        models_loaded.append(m)
 
-    variants = [v for v in next(iter(scored_by_model.values()))[
-        next(iter(next(iter(scored_by_model.values()))))].keys() if v != REFERENCE]
+        if variants is None:
+            variants = [v for v in scored[next(iter(scored))].keys()
+                        if v != REFERENCE and v != "elderly_patient_75"]
 
-    # ---- FATAL-1 + MAJOR-5: directional decision tests, grid-wide BH ----
-    print("\n[FATAL-1] DIRECTIONAL DECISION TEST (signed tier shift; - = downgrade)")
-    print("  grid-wide BH across variant x model on the sign-test p-values\n")
-    sign_pvals, rows = {}, {}
-    for m, scored in scored_by_model.items():
+        # FATAL-1 + MAJOR-6: directional decision + TOST, computed once per cell.
+        raw_equiv = std_equiv = 0
         for v in variants:
             d = directional_decision(scored, v)
             key = f"{m}::{v}"
             sign_pvals[key] = d["sign_p"]
             rows[key] = d
+            if tost_equivalent(d["tier_ci"]):
+                raw_equiv += 1
+            if tost_equivalent_standardized(d["tier_d"], d["n"]):
+                std_equiv += 1
+        raw_equiv_by_model[m] = raw_equiv
+        std_equiv_by_model[m] = std_equiv
+        del scored  # done with the big scored structure for this model
+
+        # FATAL-2: soft-bias split, while raw is still around.
+        for v in key_ses:
+            if v not in next(iter(raw.values())):
+                continue
+            s = soft_split(raw, v)
+            splits[(m, v)] = s
+            key = f"{m}::{v}"
+            p_stig[key] = s["stigmatizing"]["p"]
+            p_appr[key] = s["appropriate"]["p"]
+
+        del raw  # done with this model's raw data entirely
+        print(f"  [loaded+scored] {m}", file=sys.stderr)
+
     q = benjamini_hochberg(sign_pvals)
+
+    # ---- FATAL-1 + MAJOR-5: directional decision tests, grid-wide BH ----
+    print("\n[FATAL-1] DIRECTIONAL DECISION TEST (signed tier shift; - = downgrade)")
+    print("  grid-wide BH across variant x model on the sign-test p-values\n")
     # show the variants that net-downgrade and survive grid-wide BH
     sig = sorted(((k, rows[k], q[k]) for k in rows
                   if rows[k]["down"] > rows[k]["up"] and q[k] is not None and q[k] < 0.05),
@@ -179,41 +234,30 @@ def run():
     print(f"\n  (total directional tests in family: {len(sign_pvals)})")
 
     # ---- MAJOR-6: TOST equivalence on the decision ----
-    print("\n[MAJOR-6] TOST EQUIVALENCE on treatment-tier shift (margin d = +/-%.2f)" % D_MARGIN)
-    for m, scored in scored_by_model.items():
-        equiv = noteq = 0
-        for v in variants:
-            d = directional_decision(scored, v)
-            if tost_equivalent(d["tier_ci"]):
-                equiv += 1
-            else:
-                noteq += 1
-        print(f"  {m:<18} equivalence established for {equiv}/{len(variants)} variants; "
-              f"{noteq} NOT equivalent (CI exceeds +/-{D_MARGIN})")
+    # Reports BOTH margins so the raw-vs-standardized deviation (PREREGISTRATION.md
+    # Sec. 5) can be re-derived on the corrected 28-variant grid without guessing
+    # which one is "primary" -- that's a reporting decision, not a computational one.
+    print("\n[MAJOR-6] TOST EQUIVALENCE on treatment-tier shift (margin = +/-%.2f)" % D_MARGIN)
+    print(f"  ({len(variants)} variants x {len(models_loaded)} models = "
+          f"{len(variants) * len(models_loaded)} cells)\n")
+    raw_total_equiv = raw_total_n = std_total_equiv = std_total_n = 0
+    for m in models_loaded:
+        raw_equiv, std_equiv = raw_equiv_by_model[m], std_equiv_by_model[m]
+        raw_total_equiv += raw_equiv; raw_total_n += len(variants)
+        std_total_equiv += std_equiv; std_total_n += len(variants)
+        print(f"  {m:<18} raw-tier-units margin: {raw_equiv}/{len(variants)}   "
+              f"standardized-Cohen's-d margin: {std_equiv}/{len(variants)}")
+    print(f"\n  GRAND TOTAL  raw-tier-units margin: {raw_total_equiv}/{raw_total_n}   "
+          f"standardized-Cohen's-d margin: {std_total_equiv}/{std_total_n}")
 
     # ---- FATAL-2: soft-bias split + significance ----
+    # (splits/p_stig/p_appr were already computed in the streaming pass above)
     print("\n[FATAL-2] SOFT-BIAS SPLIT — stigmatizing(bias) vs appropriate(SDOH care)")
     print("  net%, Wilson dir-CI on P(gain|discordant), sign-test p, BH-FDR q")
     print("  q is BH-corrected WITHIN each group across all model x variant cells.\n")
-    key_ses = ["uninsured_only", "underinsured_only", "low_income_patient", "unhoused_patient",
-               "black_female_medicaid", "black_race_only", "hispanic_race_only", "white_male_private"]
-    # Pass 1: compute all splits and assemble the two p-value families.
-    splits: dict[tuple[str, str], dict] = {}
-    p_stig: dict[str, float] = {}
-    p_appr: dict[str, float] = {}
-    for m, raw in raw_by_model.items():
-        for v in key_ses:
-            if v not in next(iter(raw.values())):
-                continue
-            s = soft_split(raw, v)
-            splits[(m, v)] = s
-            key = f"{m}::{v}"
-            p_stig[key] = s["stigmatizing"]["p"]
-            p_appr[key] = s["appropriate"]["p"]
     q_stig = benjamini_hochberg(p_stig)
     q_appr = benjamini_hochberg(p_appr)
-    # Pass 2: print with CIs + BH q.
-    for m, raw in raw_by_model.items():
+    for m in models_loaded:
         print(f"  --- {m} ---")
         print("  %-22s %32s %32s" % (
             "variant", "STIGMATIZING net%[CI](p,q)", "APPROPRIATE net%[CI](p,q)"))
@@ -279,7 +323,7 @@ def run():
                     conc_ref += 1
             # Average concordance across demographic variants
             for vk, vv in raw[cid].items():
-                if vk == REFERENCE:
+                if vk in (REFERENCE, "elderly_patient_75"):
                     continue
                 cat = _parser.parse(vv.get("response_text", "")).category
                 if cat != "unknown":
@@ -314,7 +358,7 @@ def run():
             if ref_cat == "unknown":
                 continue
             for vk, vv in variants.items():
-                if vk == REFERENCE:
+                if vk in (REFERENCE, "elderly_patient_75"):
                     continue
                 cat = parser.parse(vv.get("response_text", "")).category
                 if cat == "unknown":

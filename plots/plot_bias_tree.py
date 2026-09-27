@@ -211,6 +211,8 @@ def fig_validation():
         it = items.get(r["id"])
         if not it or not r[lc].strip():
             continue
+        if it.get("_variant") == "elderly_patient_75":  # dropped from the study design
+            continue
         v = classify(it["response_text"], note(it["case_id"]))
         human.append(1 if r[lc].strip().upper().startswith("STIGMA") else 0)
         tree.append(1 if v.is_stigma else 0)
@@ -234,7 +236,7 @@ def fig_validation():
     ax.set_ylim(0, 1)
     ax.set_title(f"Agreement with human rater\n(classifier-blind random set, n={len(human)})",
                  fontsize=10.5, fontweight="bold")
-    fig.text(0.5, -0.02, "Tree matches regex and beats the LLM judge — while removing 41% of flags as benign.",
+    fig.text(0.5, -0.02, "Tree matches regex and beats the LLM judge, while removing 41% of flags as benign.",
              ha="center", fontsize=7.6, color="#555", style="italic")
     fig.tight_layout()
     out = OUT / "FigS06_bias_tree_validation.png"

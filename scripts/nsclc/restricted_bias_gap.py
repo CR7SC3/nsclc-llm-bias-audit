@@ -137,7 +137,8 @@ def analyse_model(model: str, raw: dict) -> tuple[list[dict], dict]:
     Single parse pass: concordance and stigmatizing-asymmetry are each computed
     once per (case, variant), then all aggregation is pure counting over id sets.
     """
-    variants = [v for v in next(iter(raw.values())).keys() if v != REFERENCE]
+    variants = [v for v in next(iter(raw.values())).keys()
+                if v != REFERENCE and v != "elderly_patient_75"]
 
     # Per-case reference concordance + acceptable-cat set (computed once).
     ref_conc: dict[str, bool | None] = {}

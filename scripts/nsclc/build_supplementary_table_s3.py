@@ -1,10 +1,12 @@
-"""Build Supplementary Table S3 (`supplementary_table_29variants_per_model.csv`)
+"""Build Supplementary Table S1 (`supplementary_table_28variants_per_model.csv`)
 for Paper 1 (NSCLC): the full, non-averaged per-model breakdown underlying the
 averaged Table 2 in `docs/paper1_nsclc/manuscript_nsclc.md`.
 
 Sources: the same per-model `*_soft_intensity.csv` / `*_flip_rates.csv` files
 `plots/plot_publishable_nsclc.py` reads for Fig. 4/5 — same MODELS/SUF/BASE, so
-this table is guaranteed consistent with the figures.
+this table is guaranteed consistent with the figures. The 28 variants exclude
+elderly_patient_75 (dropped from the study); 28 variants x 6 models = 168 rows.
+Written to results/analysis/ and mirrored to docs/paper1_nsclc/.
 
 Run:  venv/bin/python scripts/nsclc/build_supplementary_table_s3.py
 Verifies its own output by recomputing Table 2's per-variant mean/range and
@@ -22,9 +24,11 @@ SUF = {"gemini-2.5-flash": "", "deepseek-chat": "_deepseek-chat",
        "llama-3.1-8B": "_openrouter-meta-llama-llama-3.1-8b-instruct",
        "gpt-4o": "_gpt-4o", "gpt-4o-mini": "_gpt-4o-mini"}
 BASE = "results/analysis/v2_genie_bpc_nsclc"
-OUT = Path("results/analysis/supplementary_table_29variants_per_model.csv")
+OUT = Path("results/analysis/supplementary_table_28variants_per_model.csv")
+OUT_DOCS = Path("docs/paper1_nsclc/supplementary_table_28variants_per_model.csv")
 
-# variant -> category, exactly as published in manuscript Table 2 (29 variants)
+# variant -> category, exactly as published in manuscript Table 2 (28 variants;
+# elderly_patient_75 excluded)
 CATEGORY = {
     "black_female_medicaid": "Race x insurance",
     "black_female_private": "Race x insurance",
@@ -60,21 +64,21 @@ VARIANTS = list(CATEGORY.keys())
 # Table 2 as published (mean flip%, mean d) — checked against recomputed
 # values below before the file is written.
 PUBLISHED = {
-    "black_female_medicaid": (15.9, 0.163), "black_female_private": (16.6, 0.035),
-    "latina_female_uninsured": (16.9, 0.774), "white_female_medicaid": (16.3, 0.050),
-    "white_male_private": (16.1, -0.016), "medicaid_only": (16.1, 0.166),
-    "medicare_advantage_only": (16.1, 0.028), "medicare_only": (16.4, 0.026),
-    "underinsured_only": (16.9, 1.010), "uninsured_only": (16.9, 0.818),
-    "asian_race_only": (16.6, 0.019), "black_race_only": (15.8, 0.005),
-    "hispanic_race_only": (16.4, 0.005), "middle_eastern_race_only": (16.0, 0.032),
-    "multiracial_race_only": (16.4, -0.008), "native_american_race_only": (16.6, 0.099),
-    "rural_patient": (16.0, 0.273), "small_community_hospital": (15.8, 0.009),
-    "immigrant_patient": (16.4, 0.056),
-    "limited_english_patient": (16.0, 0.077), "high_income_patient": (16.5, 0.020),
-    "low_income_patient": (16.1, 0.772), "unhoused_patient": (16.3, 0.758),
-    "black_unhoused": (17.2, 0.673), "low_income_black": (17.0, 0.555),
-    "gay_male_patient": (16.8, 0.011), "non_binary_patient": (16.8, 0.025),
-    "transgender_woman": (16.6, 0.022),
+    "black_female_medicaid": (18.7, 0.163), "black_female_private": (18.2, 0.035),
+    "latina_female_uninsured": (18.9, 0.774), "white_female_medicaid": (18.8, 0.050),
+    "white_male_private": (18.2, -0.016), "medicaid_only": (18.4, 0.166),
+    "medicare_advantage_only": (18.0, 0.028), "medicare_only": (18.3, 0.026),
+    "underinsured_only": (18.9, 1.010), "uninsured_only": (19.1, 0.818),
+    "asian_race_only": (18.4, 0.019), "black_race_only": (17.8, 0.005),
+    "hispanic_race_only": (18.2, 0.005), "middle_eastern_race_only": (17.5, 0.032),
+    "multiracial_race_only": (18.6, -0.008), "native_american_race_only": (18.2, 0.099),
+    "rural_patient": (17.9, 0.273), "small_community_hospital": (18.5, 0.009),
+    "immigrant_patient": (18.2, 0.056),
+    "limited_english_patient": (18.7, 0.077), "high_income_patient": (18.3, 0.020),
+    "low_income_patient": (18.6, 0.772), "unhoused_patient": (18.4, 0.758),
+    "black_unhoused": (18.9, 0.673), "low_income_black": (19.1, 0.555),
+    "gay_male_patient": (18.1, 0.011), "non_binary_patient": (18.3, 0.025),
+    "transgender_woman": (18.9, 0.022),
 }
 
 
@@ -140,12 +144,14 @@ def main() -> None:
     print(f"Self-check passed: recomputed means match manuscript Table 2 for all {len(VARIANTS)} variants "
           f"(flip% within 0.15pp, d within 0.01).")
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT, "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
-        w.writeheader()
-        w.writerows(rows)
-    print(f"wrote {OUT} ({len(rows)} rows = {len(VARIANTS)} variants x {len(MODELS)} models)")
+    assert "elderly_patient_75" not in VARIANTS and len(rows) == 28 * len(MODELS)
+    for out in (OUT, OUT_DOCS):
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with open(out, "w", newline="") as fh:
+            w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+            w.writeheader()
+            w.writerows(rows)
+        print(f"wrote {out} ({len(rows)} rows = {len(VARIANTS)} variants x {len(MODELS)} models)")
 
 
 if __name__ == "__main__":

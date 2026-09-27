@@ -109,7 +109,9 @@ def main() -> None:
         return
 
     # ── Rater-vs-rater reliability (headline) ───────────────────────────────
-    common = sorted(set(r1) & set(r2))
+    # The age-75+ label was dropped from the study design; its responses are not scored.
+    common = sorted(i for i in set(r1) & set(r2)
+                    if items.get(i, {}).get("_variant") != "elderly_patient_75")
     if not common:
         print("No overlapping items between rater1 and rater2 — cannot score.")
         return

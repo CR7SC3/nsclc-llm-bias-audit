@@ -228,6 +228,9 @@ def validate_human():
         jid = r["id"]; it = items.get(jid)
         if not it or not r[lbl_col].strip():
             continue
+        # The age-75+ label was dropped from the study design; its responses are not scored.
+        if it.get("_variant") == "elderly_patient_75":
+            continue
         v = classify(it["response_text"], _note(it["case_id"]))
         human.append(1 if r[lbl_col].strip().upper().startswith("STIGMA") else 0)
         tree.append(1 if v.is_stigma else 0)

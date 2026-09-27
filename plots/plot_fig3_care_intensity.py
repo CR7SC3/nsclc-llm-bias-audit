@@ -43,6 +43,16 @@ plt.rcParams.update({
 C_HARM = "#C1272D"; C_NS = "#D9B3B2"; C_SAFE = "#6E8CA0"; C_REF = "#9E9E9E"
 C_DOT = "#9AA7B0"; C_POOL = "#7A1519"
 
+# fixed per-model palette (project-wide convention; see plot_publishable_nsclc.py /
+# plot_concordance_by_variant.py / plot_restricted_attrition.py -- reused verbatim, not invented)
+MODEL_ORDER = ["gemini-2.5-flash", "deepseek-chat", "llama-3.3-70B",
+               "llama-3.1-8B", "gpt-4o", "gpt-4o-mini"]
+MC = {"gemini-2.5-flash": "#4C72B0", "deepseek-chat": "#C44E52", "llama-3.3-70B": "#55A868",
+      "llama-3.1-8B": "#937860", "gpt-4o": "#8172B3", "gpt-4o-mini": "#CCB974"}
+ML = {"gemini-2.5-flash": "Gemini-2.5-flash", "deepseek-chat": "DeepSeek-chat",
+      "llama-3.3-70B": "Llama-3.3-70B", "llama-3.1-8B": "Llama-3.1-8B",
+      "gpt-4o": "GPT-4o", "gpt-4o-mini": "GPT-4o-mini"}
+
 NICE = {
     "uninsured_only": "uninsured", "medicaid_only": "Medicaid", "underinsured_only": "underinsured",
     "medicare_only": "Medicare", "medicare_advantage_only": "Medicare Advantage",
@@ -124,20 +134,32 @@ def fmt_q(q):
     return "q<0.001" if q < 1e-3 else (f"q={q:.2f}" if q >= 0.01 else f"q={q:.3f}")
 
 
-def panelA(ax, stats, qmap, mkey, harm_neg, title, subtitle):
-    rows = [("All marginalized", ("pooled", mkey), True, None)]
+def panelA(ax, df, models, stats, qmap, mkey, harm_neg, title, subtitle):
+    """Mixed-effects forest plot: one horizontal row per axis-group category, each
+    showing (1) the pooled mixed-effects estimate as a dot + 95% CI line (primary
+    encoding) and (2) six small semi-transparent per-model mean dots jittered
+    vertically within the row (secondary encoding, same jitter pattern as panelB's
+    `jit` list), so a reader sees both the formal pooled effect and which model(s)
+    drive the spread without connecting unordered categories with lines."""
+    rows = [("All marginalized", ("pooled", mkey), True, None, MARGINAL)]
     for name, labs, marg in GROUPS:
         if marg:
-            rows.append((name, (name, mkey), False, qmap.get((name, mkey))))
-    rows.append(("White male private", ("priv", mkey), False, None))
+            rows.append((name, (name, mkey), False, qmap.get((name, mkey)), labs))
+    rows.append(("White male private", ("priv", mkey), False, None, [PRIV_REF]))
     y = np.arange(len(rows))[::-1]
-    # harm-side shading
+
+    # harm-side shading (vertical bands -- original forest-plot convention)
     if harm_neg:
         ax.axvspan(BXLIM[0], 0, color="#F6ECEC", zorder=0)
     else:
         ax.axvspan(0, BXLIM[1], color="#F6ECEC", zorder=0)
     ax.axvline(0, color="#333", lw=1.0, zorder=2)
-    for yi, (lab, key, bold, q) in zip(y, rows):
+
+    # vertical jitter offsets for the six per-model dots within a row (same construction
+    # as panelB's `jit`, adapted from a horizontal bar-row jitter to a forest-row jitter)
+    jit = [(-0.20 + 0.40 * k / (len(models) - 1)) for k in range(len(models))]
+
+    for ri, (yi, (lab, key, bold, q, labs)) in enumerate(zip(y, rows)):
         est, lo, hi, p = stats[key]
         if bold:
             col = C_POOL
@@ -145,20 +167,35 @@ def panelA(ax, stats, qmap, mkey, harm_neg, title, subtitle):
             col = C_REF
         else:
             col = C_HARM if q < 0.05 else C_NS
-        ax.plot([lo, hi], [yi, yi], color=col, lw=2.0, zorder=3, solid_capstyle="round")
-        ax.plot(est, yi, "o", ms=6.5, color=col, zorder=4, markeredgecolor="white", mew=0.7)
-        # significance label placed INSIDE the panel on the non-harm side (harm side is shaded)
+
+        # secondary encoding: each model's own mean over the variants in this row,
+        # jittered vertically so all six are visible without overlapping (labelled
+        # only once, on the first row, so the shared legend gets one entry per model)
+        for k, m in enumerate(models):
+            sub = df[(df.model == m) & (df.variant.isin(labs))]
+            if len(sub):
+                mval = sub[mkey].mean()
+                ax.plot(mval, yi + jit[k], "o", ms=4.2, color=MC.get(m, "#999"),
+                         alpha=0.55, zorder=3, mew=0,
+                         label=(ML.get(m, m) if ri == 0 else None))
+
+        # primary encoding: pooled mixed-effects estimate + 95% CI
+        ax.plot([lo, hi], [yi, yi], color=col, lw=2.0, zorder=4, solid_capstyle="round")
+        ax.plot(est, yi, "o", ms=6.5, color=col, zorder=5, markeredgecolor="white", mew=0.7,
+                 label=("Pooled (mixed-effects)" if bold else None))
+
+        # significance label placed INSIDE the panel on the non-harm side (harm side shaded)
         if bold:
             txt = "p<0.001" if p < 1e-3 else f"p={p:.3f}"; tc = col
         elif q is None:
             txt = "ns" if p >= 0.05 else ("p<0.001" if p < 1e-3 else f"p={p:.3f}"); tc = "#999"
         else:
             txt = fmt_q(q) if q < 0.05 else "ns"; tc = C_HARM if q < 0.05 else "#999"
-        # inset 1.3 from the frame on the non-harm side so labels clear the long y-tick
-        # labels (e.g. "White male, private (privileged)") and never touch the axis edge
         tx, tha = (BXLIM[1] - 1.3, "right") if harm_neg else (BXLIM[0] + 1.3, "left")
         ax.text(tx, yi, txt, va="center", ha=tha, fontsize=7.6,
-                fontweight="bold" if (bold or (q is not None and q < 0.05)) else "normal", color=tc)
+                 fontweight="bold" if (bold or (q is not None and q < 0.05)) else "normal",
+                 color=tc, zorder=6)
+
     ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows], fontsize=8.0)
     for lbl, r in zip(ax.get_yticklabels(), rows):
         if r[2]:
@@ -218,16 +255,24 @@ def panelB(ax, df, models, mkey, harm_neg):
 
 def main():
     df = load()
-    models = sorted(df.model.unique())
+    present = set(df.model.unique())
+    models = [m for m in MODEL_ORDER if m in present] + \
+        sorted(present - set(MODEL_ORDER))  # any unrecognized model still gets plotted
     stats, qmap = group_stats(df)
-    fig = plt.figure(figsize=(13.4, 11.0))
-    gs = GridSpec(2, 2, height_ratios=[1.35, 3.0], hspace=0.30, wspace=0.30,
-                  left=0.17, right=0.90, top=0.93, bottom=0.055)
+    fig = plt.figure(figsize=(13.4, 12.2))
+    gs = GridSpec(2, 2, height_ratios=[1.5, 3.0], hspace=0.42, wspace=0.30,
+                  left=0.08, right=0.98, top=0.90, bottom=0.055)
+    axesA = []
     for col, (title, sub, mkey, harm_neg) in enumerate(METRICS):
-        panelA(fig.add_subplot(gs[0, col]), stats, qmap, mkey, harm_neg, title, sub)
+        axA = fig.add_subplot(gs[0, col])
+        panelA(axA, df, models, stats, qmap, mkey, harm_neg, title, sub)
         panelB(fig.add_subplot(gs[1, col]), df, models, mkey, harm_neg)
-    fig.text(0.045, 0.945, "A", fontsize=20, fontweight="bold")
-    fig.text(0.045, 0.60, "B", fontsize=20, fontweight="bold")
+        axesA.append(axA)
+    handles, labels = axesA[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=len(handles), frameon=False,
+               fontsize=8.6, bbox_to_anchor=(0.5, 0.975), handlelength=1.8, columnspacing=1.3)
+    fig.text(0.02, 0.935, "A", fontsize=20, fontweight="bold")
+    fig.text(0.02, 0.60, "B", fontsize=20, fontweight="bold")
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / "Figure3_care_intensity.png"
     fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")

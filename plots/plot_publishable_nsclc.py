@@ -144,20 +144,29 @@ def _load_aggressiveness():
 
 
 def fig2_concordance():
-    # reference / with-demographics concordance recomputed from plot_concordance_by_variant.py
-    # (confirmatory NCCN scorer, no_demographics reference), 2026-07 verification.
-    ref = {"gemini-2.5-flash": 78.8, "deepseek-chat": 89.0, "llama-3.3-70B": 73.9,
-           "llama-3.1-8B": 49.9, "gpt-4o": 86.7, "gpt-4o-mini": 53.1}
-    dem = {"gemini-2.5-flash": 79.8, "deepseek-chat": 88.5, "llama-3.3-70B": 73.8,
-           "llama-3.1-8B": 49.5, "gpt-4o": 85.7, "gpt-4o-mini": 54.1}
-    n_ref = {"gemini-2.5-flash": 590, "deepseek-chat": 601, "llama-3.3-70B": 598,
-             "llama-3.1-8B": 570, "gpt-4o": 603, "gpt-4o-mini": 585}
-    n_dem = {"gemini-2.5-flash": 17119, "deepseek-chat": 17425, "llama-3.3-70B": 17311,
-             "llama-3.1-8B": 16635, "gpt-4o": 17437, "gpt-4o-mini": 17022}
+    # reference / with-demographics concordance recomputed from
+    # scripts/nsclc/correct_analysis.py's CONCORDANCE section (unique-answer cases,
+    # BOTH parser fixes applied -- the unbounded chemoimmunotherapy regex AND the
+    # chemoradiation modality-sub-heading defect in src/analyze/response_parser.py --
+    # 28-variant grid, elderly_patient_75 removed from the study design entirely),
+    # 2026-09-27 verification. (The prior values in this dict predated the second
+    # parser fix and still carried the dropped elderly_patient_75 label; they are
+    # stale and did not match the manuscript prose, which already carried these
+    # corrected numbers.)
+    ref = {"gemini-2.5-flash": 74.7, "deepseek-chat": 90.7, "llama-3.3-70B": 75.0,
+           "llama-3.1-8B": 44.8, "gpt-4o": 87.5, "gpt-4o-mini": 56.9}
+    dem = {"gemini-2.5-flash": 77.4, "deepseek-chat": 90.6, "llama-3.3-70B": 74.6,
+           "llama-3.1-8B": 44.8, "gpt-4o": 86.6, "gpt-4o-mini": 57.7}
+    n_ref = {"gemini-2.5-flash": 529, "deepseek-chat": 529, "llama-3.3-70B": 529,
+             "llama-3.1-8B": 500, "gpt-4o": 529, "gpt-4o-mini": 529}
+    n_dem = {"gemini-2.5-flash": 14808, "deepseek-chat": 14812, "llama-3.3-70B": 14801,
+             "llama-3.1-8B": 14190, "gpt-4o": 14812, "gpt-4o-mini": 14803}
     # TOST equivalence counts recomputed from the confirmatory pipeline
-    # (scripts/nsclc/correct_analysis.py MAJOR-6, margin d=+/-0.10), 2026-07 verification.
-    tost = {"gemini-2.5-flash": "23/29", "deepseek-chat": "27/29", "llama-3.3-70B": "29/29",
-            "llama-3.1-8B": "28/29", "gpt-4o": "29/29", "gpt-4o-mini": "27/29"}
+    # (scripts/nsclc/correct_analysis.py MAJOR-6, raw-tier-units margin d=+/-0.10,
+    # both parser fixes applied, 28-variant grid), 2026-09-27 verification.
+    # Total 154/168, matching the manuscript's reported equivalence rate.
+    tost = {"gemini-2.5-flash": "22/28", "deepseek-chat": "28/28", "llama-3.3-70B": "28/28",
+            "llama-3.1-8B": "27/28", "gpt-4o": "26/28", "gpt-4o-mini": "23/28"}
 
     def _ci(rate, n):
         lo, hi = wilson_ci(round(rate / 100 * n), n)
@@ -487,8 +496,8 @@ SOFT_SPLIT_DATA = {
                              stig=[6.9, 7.6, 8.6, 25.1, 5.1, 4.3, 2.9]),
     "gpt-4o":           dict(appr=[60.4, 62.8, 49.2, -6.4, 1.0, -3.0, 1.0],
                              stig=[5.3, 11.2, 32.3, 52.4, 0.8, 0.3, 0.2]),
-    "gpt-4o-mini":      dict(appr=[3.2, 1.8, 5.9, 0.2, 0.4, 0.1, 0.0],
-                             stig=[0.5, 0.4, 1.2, 2.0, 0.2, 0.1, 0.0]),
+    "gpt-4o-mini":      dict(appr=[48.2, 56.3, 5.9, 0.2, -0.7, -1.0, 0.5],
+                             stig=[6.7, 2.5, 1.2, 2.0, 0.9, 0.8, 0.7]),
 }
 
 

@@ -2,7 +2,7 @@
 
 Single-outcome volcano (framing Cohen's d only — NOT co-plotted with concordance,
 which would be an incommensurable axis): x = added soft-framing intensity (Cohen's
-d vs no-demographics), y = -log10(q), for all 6 models x 29 demographic variants.
+d vs no-demographics), y = -log10(q), for all 6 models x 28 demographic variants.
 Points are coloured by variant CLASS (not model). The socioeconomic-disadvantage
 contrasts march out to the upper right (large, significant); race-only and
 control/privileged contrasts cluster at the null origin. That is the paper's
@@ -114,10 +114,6 @@ def draw(ax, pts, sig_y, yceil):
     ax.set_ylim(-0.3, band_hi + 0.4)
     ax.text(0.995, sig_y, " q=0.05", va="bottom", ha="right", fontsize=8, color="0.4",
             transform=ax.get_yaxis_transform())
-    ax.text(0.995, band_hi, "q < 1e-6 (jittered for density;\nheight above break not meaningful)",
-            va="top", ha="right", fontsize=7.5, color="0.5",
-            transform=ax.get_yaxis_transform(),
-            bbox=dict(boxstyle="round,pad=0.2", fc="white", ec="none", alpha=0.85))
     ax.set_xlabel("Added soft-framing intensity (Cohen's $d$)", fontsize=10)
     ax.set_ylabel("$-\\log_{10}$ q  (BH-FDR)", fontsize=10)
     ax.grid(True, ls=":", alpha=0.4, zorder=0)
@@ -143,7 +139,7 @@ def main():
     fig, ax = plt.subplots(figsize=(9.2, 6.4))
     draw(ax, pts, sig_y, yceil)
     ax.set_title("Framing bias is socioeconomic, not racial: every model×variant contrast\n"
-                 "(6 models × 29 variants); SES contrasts (red) fan right at high significance, "
+                 "(6 models × 28 variants); SES contrasts (red) fan right at high significance, "
                  "race-only and\ncontrols cluster at the null origin",
                  fontsize=11.5, fontweight="bold")
     fig.tight_layout()

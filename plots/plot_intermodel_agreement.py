@@ -3,7 +3,7 @@ demographic labels the same way?
 
 Robustness argument that the framing signal is a shared cross-vendor construct, not
 one model's quirk. For each model we take its vector of label-induced framing effects
-(Cohen's d vs no-demographics) across the 29 demographic variants, then compute the
+(Cohen's d vs no-demographics) across the 28 demographic variants, then compute the
 Spearman rank correlation between every pair of models.
 
 Why per-VARIANT deltas and Spearman (not per-case Pearson): correlating raw per-case
@@ -85,7 +85,7 @@ def main():
                  f"(Spearman ρ of per-variant induced framing effect; off-diagonal median ρ={med:.2f})",
                  fontsize=11.5, fontweight="bold")
     cb = fig.colorbar(im, ax=ax, shrink=0.82)
-    cb.set_label("Spearman ρ across 29 demographic variants")
+    cb.set_label("Spearman ρ across 28 demographic variants")
     fig.tight_layout()
     fig.savefig(OUT / "FigS05_intermodel_agreement.png", dpi=150, bbox_inches="tight")
 
