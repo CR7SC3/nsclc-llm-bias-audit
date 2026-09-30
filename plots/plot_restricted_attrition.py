@@ -28,6 +28,8 @@ import csv
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+from matplotlib.legend_handler import HandlerTuple
+from matplotlib.patches import Patch
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "results/analysis/v2_genie_bpc_nsclc_restricted_venn_counts.csv"
@@ -37,6 +39,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({
     "font.family": "sans-serif",
     "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"],
+    "font.size": 12,
     "figure.facecolor": "white",
     "axes.facecolor": "white",
     "savefig.facecolor": "white",
@@ -47,8 +50,6 @@ plt.rcParams.update({
     "axes.spines.right": False,
 })
 
-# House model color mapping (fixed across all Paper 1 figures) — reused here
-# for the "selected/concordant" segment so each bar keeps its model identity.
 NICE = {
     "gemini-2.5-flash": "Gemini-2.5-flash",
     "deepseek-chat": "DeepSeek-chat",
@@ -57,16 +58,20 @@ NICE = {
     "gpt-4o": "GPT-4o",
     "gpt-4o-mini": "GPT-4o-mini",
 }
+# Canonical model order used throughout the paper's per-model figures.
+ORDER = ["gemini-2.5-flash", "deepseek-chat", "llama-3.3-70b",
+         "llama-3.1-8b", "gpt-4o", "gpt-4o-mini"]
+
+# House model colors (fixed across all Paper 1 figures) for the retained
+# segment; otherwise styled to match eFigure 4 (plot_pmc_provenance.py): grey
+# excluded fill, thin black outlines, regular-weight labels, no grid.
 MC = {
     "gemini-2.5-flash": "#4C72B0", "deepseek-chat": "#C44E52",
     "llama-3.3-70b": "#55A868", "llama-3.1-8b": "#937860",
     "gpt-4o": "#8172B3", "gpt-4o-mini": "#CCB974",
 }
-# Canonical model order used throughout the paper's per-model figures.
-ORDER = ["gemini-2.5-flash", "deepseek-chat", "llama-3.3-70b",
-         "llama-3.1-8b", "gpt-4o", "gpt-4o-mini"]
-
-C_EXCLUDED = "#B7C0C4"  # muted neutral grey (matches the house "excluded/neutral" grey)
+C_EXCLUDED = "#adadad"
+EDGE = dict(edgecolor="k", linewidth=0.5)
 
 
 def load():
@@ -78,6 +83,12 @@ def load():
                 "n_ctrl_concordant": int(r["n_ctrl_concordant"]),
             }
     return rows
+
+
+def text_color(hex_color):
+    """Black on light fills, white on dark ones (relative luminance)."""
+    r, g, b = (int(hex_color[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return "k" if 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.65 else "white"
 
 
 def main():
@@ -96,30 +107,27 @@ def main():
         exc = total - sel
         pct = 100.0 * sel / total
 
-        # selected/concordant segment (model color)
-        ax.barh(yi, sel, height=height, color=MC[m], edgecolor="white",
-                linewidth=0.6, zorder=3, label="Guideline-concordant reference "
-                "(retained)" if yi == y[0] else None)
-        # excluded/non-concordant segment (muted grey, hatched)
-        ax.barh(yi, exc, height=height, left=sel, color=C_EXCLUDED,
-                edgecolor="white", linewidth=0.6, hatch="//", zorder=3,
-                label="Not concordant (excluded)" if yi == y[0] else None)
+        ax.barh(yi, sel, height=height, color=MC[m], **EDGE, zorder=3)
+        ax.barh(yi, exc, height=height, left=sel, color=C_EXCLUDED, **EDGE, zorder=3)
 
         ax.text(sel / 2, yi, f"{sel:,} ({pct:.0f}%)", ha="center", va="center",
-                fontsize=11.5, color="white", fontweight="bold", zorder=4)
+                fontsize=11, color=text_color(MC[m]), zorder=4)
 
     ax.set_yticks(y)
-    ax.set_yticklabels([NICE[m] for m in models], fontsize=12)
+    ax.set_yticklabels([NICE[m] for m in models], fontsize=11.5)
     ax.set_xlim(0, 1100); ax.tick_params(axis="x", labelsize=11)
     ax.set_xlabel("No-demographics reference responses (n = 1,048)", fontsize=12)
     ax.set_ylim(-0.7, n - 0.3)
-    ax.xaxis.grid(True, linestyle="--", alpha=0.4, zorder=0)
-    ax.set_axisbelow(True)
     ax.tick_params(axis="y", length=0)
 
-    handles, labels = ax.get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", fontsize=11, frameon=False,
-               ncol=2, bbox_to_anchor=(0.55, -0.02))
+    # retained entry shows all 6 model colors side by side
+    retained = tuple(Patch(facecolor=MC[m], **EDGE) for m in models)
+    excluded = Patch(facecolor=C_EXCLUDED, **EDGE)
+    fig.legend([retained, excluded],
+               ["Guideline-concordant reference (retained)", "Not concordant (excluded)"],
+               handler_map={tuple: HandlerTuple(ndivide=None, pad=0)},
+               loc="lower center", fontsize=11, frameon=False, ncol=2,
+               bbox_to_anchor=(0.55, -0.02), handlelength=4)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     fig.subplots_adjust(top=0.97, bottom=0.22, left=0.19, right=0.97)
