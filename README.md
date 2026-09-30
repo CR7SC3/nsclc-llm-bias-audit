@@ -300,7 +300,7 @@ EquityGUIDE/
         ├── Sociodemographic_Bias_NSCLC_manuscript.docx  # Compiled manuscript (Word build)
         ├── REPRODUCIBILITY.md                           # This paper's reproduction recipe
         ├── PREREGISTRATION.md
-        ├── TRIPOD_LLM_checklist.md
+        ├── TRIPOD_LLM_checklist_JAMA_NetworkOpen.docx
         ├── supplementary_table_28variants_per_model.csv # Supplementary Table S3
         └── archive/                                     # Superseded drafts and internal working notes
 ```

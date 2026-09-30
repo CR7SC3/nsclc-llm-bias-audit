@@ -103,7 +103,10 @@ _PROCESSED_PATHS = {
     "genie_bpc_nsclc_templates":    "data/processed/genie_bpc_nsclc_templates_with_notes.json",
     "genie_bpc_nsclc_templates100": "data/processed/genie_bpc_nsclc_templates100_with_notes.json",
     # Shared stratified frame for credited extra arms (GPT-4o/Claude) — Gemini notes,
-    # same case_ids as the full arms so head-to-head analysis is paired.
+    # same case_ids as the full arms so head-to-head analysis is paired. Drawn by
+    # generate_template_notes._stratified(n=300, seed=17) (stage-stratified, from
+    # data/processed/genie_bpc_nsclc_processed.json in file order); reverse-verified
+    # 2026-09-29, all 300 case_ids match.
     "genie_bpc_nsclc_n300":         "data/processed/genie_bpc_nsclc_n300_with_notes.json",
     # 151-case mitigation head-to-head: exactly the cases present in ALL DeepSeek mitigation
     # arms (the salvage intersection), so the Gemini ladder is matched case-for-case to DeepSeek.

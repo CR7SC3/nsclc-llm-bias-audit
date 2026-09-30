@@ -126,7 +126,7 @@ def main():
             lbl.set_color("#777")
     ax.set_ylim(-0.12, 1.35)
     ax.set_xlim(-0.7, len(rows) - 0.3)
-    ax.set_ylabel("Added soft-framing intensity (Cohen's $d$)", fontsize=9)
+    ax.set_ylabel("Flagged-language effect (Cohen $d$)", fontsize=9)
     ax.set_title("Bias by demographic axis", fontsize=12, fontweight="bold",
                  loc="left", pad=8)
     ax.tick_params(length=0)

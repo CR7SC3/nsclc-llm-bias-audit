@@ -358,9 +358,12 @@ def _continuous_stats(raw: dict, metric_key: str) -> dict[str, dict]:
             by_variant.setdefault(variant, {})[case_id] = scores.get(metric_key)
     ref_scores = by_variant.get(REFERENCE, {})
     stats = {v: paired_delta(ref_scores, by_variant.get(v, {})) for v in by_variant}
-    # Benjamini-Hochberg FDR across the comparison family (all variants vs REFERENCE,
-    # excluding the reference itself). q-value = FDR-adjusted p.
-    pvals = {v: s["p_value"] for v, s in stats.items() if v != REFERENCE}
+    # Benjamini-Hochberg FDR across the comparison family: the analyzed variants
+    # (ALL_COMPARE) vs REFERENCE. Variants present in the raw results but dropped from
+    # the design (elderly_patient_75) are excluded so they do not inflate the family.
+    # q-value = FDR-adjusted p, per model; the manuscript's flagged-language grid
+    # correction across all 168 model x variant cells is applied downstream.
+    pvals = {v: s["p_value"] for v, s in stats.items() if v in ALL_COMPARE}
     qvals = benjamini_hochberg(pvals)
     for v, s in stats.items():
         s["q_value"] = qvals.get(v)

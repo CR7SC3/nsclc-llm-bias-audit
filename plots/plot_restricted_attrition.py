@@ -88,7 +88,7 @@ def main():
     y = list(range(n))[::-1]  # first model at top
     height = 0.62
 
-    fig, ax = plt.subplots(figsize=(8.8, 6.0))
+    fig, ax = plt.subplots(figsize=(8.0, 4.6))
 
     for yi, m in zip(y, models):
         total = data[m]["n_scoreable"]
@@ -98,45 +98,31 @@ def main():
 
         # selected/concordant segment (model color)
         ax.barh(yi, sel, height=height, color=MC[m], edgecolor="white",
-                linewidth=0.6, zorder=3, label="Concordant with guidelines "
-                "(selected for hard-endpoint bias-gap)" if yi == y[0] else None)
+                linewidth=0.6, zorder=3, label="Guideline-concordant reference "
+                "(retained)" if yi == y[0] else None)
         # excluded/non-concordant segment (muted grey, hatched)
         ax.barh(yi, exc, height=height, left=sel, color=C_EXCLUDED,
                 edgecolor="white", linewidth=0.6, hatch="//", zorder=3,
                 label="Not concordant (excluded)" if yi == y[0] else None)
 
         ax.text(sel / 2, yi, f"{sel:,} ({pct:.0f}%)", ha="center", va="center",
-                fontsize=8.6, color="white", fontweight="bold", zorder=4)
-        ax.text(total + 14, yi, f"n={total:,} total", ha="left", va="center",
-                fontsize=7.6, color="#666666", zorder=4)
+                fontsize=11.5, color="white", fontweight="bold", zorder=4)
 
     ax.set_yticks(y)
-    ax.set_yticklabels([NICE[m] for m in models], fontsize=9.5)
-    ax.set_xlim(0, 1048 * 1.20)
-    ax.set_xlabel("no_demographics control cases (n = 1,048 scoreable)", fontsize=9.5)
+    ax.set_yticklabels([NICE[m] for m in models], fontsize=12)
+    ax.set_xlim(0, 1100); ax.tick_params(axis="x", labelsize=11)
+    ax.set_xlabel("No-demographics reference responses (n = 1,048)", fontsize=12)
     ax.set_ylim(-0.7, n - 0.3)
     ax.xaxis.grid(True, linestyle="--", alpha=0.4, zorder=0)
     ax.set_axisbelow(True)
     ax.tick_params(axis="y", length=0)
 
-    fig.suptitle(
-        "Control-cohort restriction for the hard-endpoint bias-gap analysis",
-        fontsize=12.5, fontweight="bold", x=0.5, y=0.985,
-    )
-    fig.text(
-        0.5, 0.90,
-        "Control = no_demographics reference (not white_male_private). Cases are restricted to those where\n"
-        "the model's own no_demographics recommendation is already NCCN-guideline-concordant, before computing\n"
-        "the HARD (downgrade) bias-gap; retention varies by model. The SOFT (stigma-framing) endpoint is\n"
-        "unaffected and uses the full n=1,048 sample.",
-        ha="center", va="top", fontsize=8.2, color="#555555",
-    )
-
     handles, labels = ax.get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", fontsize=8.4, frameon=False,
-               ncol=1, bbox_to_anchor=(0.5, 0.005))
-
-    fig.subplots_adjust(top=0.76, bottom=0.20, left=0.16, right=0.95)
+    fig.legend(handles, labels, loc="lower center", fontsize=11, frameon=False,
+               ncol=2, bbox_to_anchor=(0.55, -0.02))
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
+    fig.subplots_adjust(top=0.97, bottom=0.22, left=0.19, right=0.97)
 
     png = OUT / "FigS12_restricted_control_attrition.png"
     pdf = OUT / "FigS12_restricted_control_attrition.pdf"

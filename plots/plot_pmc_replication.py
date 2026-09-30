@@ -20,10 +20,12 @@ from src.analyze.soft_bias import detect_all
 from src.analyze.stats import wilson_ci
 
 # Unified typography across all Fig-5 panels (A/B/C/D): one family, one size.
+# eFigure 2 panels share one font, one size and one panel geometry (8.0 x 4.8 in)
+# so the 2 x 2 composite prints near 6 pt at journal width.
 plt.rcParams.update({
     "font.family": "sans-serif",
-    "font.sans-serif": ["DejaVu Sans"],
-    "font.size": 10,
+    "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"],
+    "font.size": 14,
 })
 
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
@@ -49,10 +51,13 @@ STRATA = {
 # panel_stigma_rates.csv stratum names
 SYN_NAME = {"control": "control", "race-only": "race_only", "uninsured": "uninsured",
             "low income": "low_income", "unhoused": "unhoused"}
+DISPLAY = {"control": "Control", "race-only": "Race / ethnicity only", "uninsured": "Uninsured",
+           "low income": "Low income", "unhoused": "Unhoused"}
 PMC = {"Gemini": "results/baseline/v2_pmc_nsclc_results.json",
        "DeepSeek": "results/baseline/v2_pmc_nsclc_deepseek-chat_results.json"}
 SYN_MODEL = {"Gemini": "gemini-2.5-flash", "DeepSeek": "deepseek-chat"}
 MC = {"Gemini": "#4C72B0", "DeepSeek": "#C44E52"}
+FULL_NAME = {"Gemini": "Gemini-2.5-flash", "DeepSeek": "DeepSeek-chat"}
 
 
 def pmc_rate(raw, vkeys):
@@ -89,25 +94,26 @@ def main():
         ax.bar(x - w/2, syn_r, w, yerr=[syn_lo, syn_hi],
                error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
                color=NOTE_COLORS["synthetic"], edgecolor="k", linewidth=0.5,
-               label="Synthetic notes (n=1,048)")
+               label="Generated notes (n = 1,048)")
         ax.bar(x + w/2, pmc_r, w, yerr=[np.clip(pmc_lo, 0, None), np.clip(pmc_hi, 0, None)],
                error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
                color=NOTE_COLORS["real"], edgecolor="k", linewidth=0.5,
-               label="Real PMC notes (n=40)")
-        ax.set_title(f"{model}  ·  real-note replication", fontsize=11, fontweight="bold")   # label each vendor sub-panel
-        ax.set_xticks(x); ax.set_xticklabels(labels, rotation=30, ha="right", rotation_mode="anchor")   # standardized 30° tilt
+               label="Published case reports (n = 40)")
+        ax.set_title(FULL_NAME[model], fontsize=14, fontweight="bold")   # label each vendor sub-panel
+        ax.set_xticks(x); ax.set_xticklabels([DISPLAY[s].replace("ethnicity only", "ethnicity\nonly") for s in labels], rotation=40, ha="right", rotation_mode="anchor", fontsize=12)   # standardized 30° tilt
         ax.set_yticks(range(0, 101, 20))   # 20% gridlines (match panel C)
         ax.set_ylim(0, 100)   # shared 0-100 rate axis across both vendor sub-panels (fixes scale mismatch)
         ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)   # grey gridlines (match panel C)
-        ax.legend(framealpha=0.95)   # standardized: framed, inherits unified 10 pt (match panel A)
+
     axes[0].set_ylabel("Stigmatizing-language rate (%)")
+    axes[0].legend(framealpha=0.95, loc="upper left", fontsize=11)
     # titleless panel for combine_figures.py (Fig 5B); banner/suptitle goes to the caption.
     # Fixed geometry so all Fig-5 panels share one height and their x-axes align
     # (two-axis box, same bottom/top as the single-axis panels). No tight bbox.
     PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
-    fig.set_size_inches(13.2, 5.2)
-    axes[0].set_position([0.055, 0.16, 0.43, 0.78])
-    axes[1].set_position([0.545, 0.16, 0.43, 0.78])
+    fig.set_size_inches(8.0, 4.8)
+    axes[0].set_position([0.105, 0.26, 0.41, 0.64])
+    axes[1].set_position([0.575, 0.26, 0.41, 0.64])
     fig.savefig(PANELS / "p_pmc.png", dpi=200)
     fig.suptitle("The stigma gradient replicates on real notes\n"
                  "Synthetic GENIE cohort vs 40 real PubMed Central case reports "

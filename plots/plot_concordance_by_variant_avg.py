@@ -18,7 +18,10 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import json
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+plt.rcParams.update({"font.family": "sans-serif", "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"]})
 from scipy.stats import binomtest
 
 from src.analyze.response_parser import ResponseParser
@@ -30,6 +33,22 @@ from plots.plot_concordance_by_variant import (
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
 BAR_COLOR = "#4C72B0"
 BELOW_COLOR = "#BBBBBB"
+SES = "#C1272D"; RACE = "#6A51A3"; OTHER = "#1B7837"; REFC = "#666666"
+GROUPS = [   # same 9 categories, order and colours as Figure 1B (regen_flip_avg.py)
+    ("Income / housing", ["low_income_patient", "unhoused_patient"], SES),
+    ("Insurance", ["underinsured_only", "uninsured_only", "medicaid_only", "medicare_only",
+                   "medicare_advantage_only"], SES),
+    ("Race + disadvantage", ["low_income_black", "black_unhoused", "black_female_medicaid",
+                             "latina_female_uninsured"], SES),
+    ("Race / ethnicity only", ["black_race_only", "hispanic_race_only", "asian_race_only",
+                               "native_american_race_only", "middle_eastern_race_only",
+                               "multiracial_race_only"], RACE),
+    ("Geography", ["rural_patient", "small_community_hospital"], OTHER),
+    ("Immigration / language", ["immigrant_patient", "limited_english_patient"], OTHER),
+    ("Gender / sexual identity", ["transgender_woman", "non_binary_patient", "gay_male_patient"], OTHER),
+    ("Matched counterexamples", ["black_female_private", "white_female_medicaid"], REFC),
+    ("Privileged comparators", ["white_male_private", "high_income_patient"], REFC),
+]
 
 
 def load_all():
@@ -76,29 +95,50 @@ def fig_paired(raws, uniq, cat_map, parser):
     q = benjamini_hochberg(praw)
     rate = {v: 100 * correct[v] / total[v] if total[v] else 0 for v in ORDER}
     ci = {v: wilson_ci(correct[v], total[v]) if total[v] else (0, 0) for v in ORDER}
-    order = sorted(ORDER, key=lambda v: rate[v])
+    ref_ci = wilson_ci(ref_correct, ref_total)
 
-    fig, ax = plt.subplots(figsize=(9.5, 10.5))
-    y = np.arange(len(order))
-    lo = [rate[v] - 100 * ci[v][0] for v in order]
-    hi = [100 * ci[v][1] - rate[v] for v in order]
-    colors = [BAR_COLOR if rate[v] >= ref_rate else BELOW_COLOR for v in order]
-    ax.barh(y, [rate[v] for v in order], xerr=[lo, hi],
-            error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
-            color=colors, edgecolor="k", linewidth=0.4)
-    for i, v in enumerate(order):
-        sx = 100 * ci[v][1] + 1.5
+    # rows grouped into the 9 label categories and colours used in Figure 1
+    rows, ylab, ycol, spans = [], [], [], []
+    for gname, keys, col in GROUPS:
+        start = len(rows)
+        for v in keys:
+            rows.append(v); ylab.append(NICE[v]); ycol.append(col)
+        spans.append((gname, start, len(rows), col))
+    assert sorted(rows) == sorted(ORDER) and len(rows) == 28
+
+    fig, ax = plt.subplots(figsize=(7.2, 9.6))
+    y = np.arange(len(rows))
+    ax.axvspan(100 * ref_ci[0], 100 * ref_ci[1], color="0.88", zorder=0)
+    ax.axvline(ref_rate, color="k", ls="--", lw=1.1, zorder=1)
+    for i, v in enumerate(rows):
+        ax.errorbar(rate[v], i, xerr=[[rate[v] - 100 * ci[v][0]], [100 * ci[v][1] - rate[v]]],
+                    fmt="o", ms=6.5, color=ycol[i], ecolor=ycol[i], elinewidth=1.3, capsize=2.5,
+                    markeredgecolor="white", markeredgewidth=0.6, zorder=3)
         if q[v] is not None and q[v] < 0.05:
-            ax.text(sx, i, "★", va="center", fontsize=12, color="#B8860B")
+            ax.plot(100 * ci[v][1] + 0.5, i, marker="*", ms=11, color="k", zorder=4)
         elif praw[v] < 0.05:
-            ax.text(sx, i, "☆", va="center", fontsize=12, color="#B8860B")
-    ax.set_yticks(y); ax.set_yticklabels([NICE[v] for v in order], fontsize=9)
-    ax.invert_yaxis()
-    ax.set_xlim(0, 100)
-    ax.set_title("NCCN concordance by demographic label",
-                 fontsize=12.5, fontweight="bold")
+            ax.plot(100 * ci[v][1] + 0.45, i, marker="o", ms=4, color="k", zorder=4)
+    for gname, s0, e0, col in spans:
+        if s0:
+            ax.axhline(s0 - 0.5, color="#cccccc", lw=0.8, zorder=0)
+        ax.text(1.02, (s0 + e0 - 1) / 2, gname.replace(" / ", " /\n") if e0 - s0 <= 2 else gname,
+                transform=ax.get_yaxis_transform(), va="center", ha="left",
+                fontsize=10, color=col, fontweight="bold", linespacing=1.1)
+    ax.set_yticks(y); ax.set_yticklabels(ylab, fontsize=11.5)
+    for t, col in zip(ax.get_yticklabels(), ycol):
+        t.set_color(col)
+    ax.invert_yaxis(); ax.set_ylim(len(rows) - 0.4, -0.6)
+    ax.set_xlim(66, 78)
+    ax.tick_params(axis="x", labelsize=11); ax.tick_params(axis="y", length=0)
+    ax.set_xlabel("NCCN guideline concordance (%)", fontsize=12)
+    ax.text(ref_rate, -0.9, f"Reference {ref_rate:.1f}%", ha="center", va="bottom", fontsize=10.5)
+    ax.xaxis.grid(True, ls=":", alpha=0.5); ax.set_axisbelow(True)
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
     fig.tight_layout()
-    fig.savefig(OUT / "FigS02_concordance_by_variant_avg_paired.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT / "FigS02_concordance_by_variant_avg_paired.png", dpi=200, bbox_inches="tight")
+    print(f"pooled reference {ref_rate:.2f}% [{100*ref_ci[0]:.2f}, {100*ref_ci[1]:.2f}] (n={ref_total})")
+    print("uncorrected P<.05:", [(v, round(rate[v], 2), round(praw[v], 4), round(q[v], 3)) for v in ORDER if praw[v] < 0.05])
     nsig = sum(1 for v in ORDER if q[v] is not None and q[v] < 0.05)
     print("wrote", OUT / "FigS02_concordance_by_variant_avg_paired.png",
           f"(pooled ref={ref_rate:.1f}%; BH-significant labels: {nsig})")

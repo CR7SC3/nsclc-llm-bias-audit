@@ -39,6 +39,7 @@ OUT = ROOT / "figures/manuscript_combined"
 plt.rcParams.update({
     "font.family": "sans-serif", "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"],
     "savefig.facecolor": "white", "axes.spines.top": False, "axes.spines.right": False,
+    "mathtext.fontset": "custom", "mathtext.rm": "Helvetica", "mathtext.it": "Helvetica:italic",
 })
 C_HARM = "#C1272D"; C_NS = "#D9B3B2"; C_SAFE = "#6E8CA0"; C_REF = "#9E9E9E"
 C_DOT = "#9AA7B0"; C_POOL = "#7A1519"
@@ -53,34 +54,46 @@ ML = {"gemini-2.5-flash": "Gemini-2.5-flash", "deepseek-chat": "DeepSeek-chat",
       "llama-3.3-70B": "Llama-3.3-70B", "llama-3.1-8B": "Llama-3.1-8B",
       "gpt-4o": "GPT-4o", "gpt-4o-mini": "GPT-4o-mini"}
 
-NICE = {
-    "uninsured_only": "uninsured", "medicaid_only": "Medicaid", "underinsured_only": "underinsured",
+NICE = {   # display names match Figure 1 (regen_flip_avg.py / plot_flip_direction_heatmap.py)
+    "uninsured_only": "Uninsured", "medicaid_only": "Medicaid", "underinsured_only": "Underinsured",
     "medicare_only": "Medicare", "medicare_advantage_only": "Medicare Advantage",
-    "low_income_patient": "low-income", "high_income_patient": "high-income",
-    "unhoused_patient": "unhoused", "rural_patient": "rural",
-    "small_community_hospital": "community hospital", "immigrant_patient": "immigrant",
-    "limited_english_patient": "limited-English", "non_binary_patient": "non-binary",
-    "transgender_woman": "transgender woman", "gay_male_patient": "gay male",
+    "low_income_patient": "Low income", "high_income_patient": "High income",
+    "unhoused_patient": "Unhoused", "rural_patient": "Rural",
+    "small_community_hospital": "Small community hospital", "immigrant_patient": "Immigrant",
+    "limited_english_patient": "Limited English", "non_binary_patient": "Non-binary",
+    "transgender_woman": "Transgender woman", "gay_male_patient": "Gay male",
     "black_race_only": "Black", "hispanic_race_only": "Hispanic", "asian_race_only": "Asian",
     "native_american_race_only": "Native American", "middle_eastern_race_only": "Middle Eastern",
-    "multiracial_race_only": "multiracial",
-    "white_male_private": "White male private", "white_female_medicaid": "White female Medicaid",
+    "multiracial_race_only": "Multiracial",
+    "low_income_black": "Low income, Black", "black_unhoused": "Black + unhoused",
+    "black_female_medicaid": "Black female, Medicaid",
+    "latina_female_uninsured": "Hispanic female, uninsured",
+    "white_male_private": "White male, private", "white_female_medicaid": "White female, Medicaid",
+    "black_female_private": "Black female, private",
 }
-# axis groups (marginalized first); race-only included so coverage matches the 29-variant design
+# Same 9 categories and order as Figure 1. Third field: True = single-axis marginalized
+# group entering the mixed-effects family (panel A, 20 labels); None = panel B only
+# (multi-axis labels, not in the model); False = comparator.
 GROUPS = [
-    ("SES / housing", ["unhoused_patient", "low_income_patient"], True),
+    ("Income / housing", ["unhoused_patient", "low_income_patient"], True),
     ("Insurance", ["medicaid_only", "underinsured_only", "uninsured_only",
                    "medicare_only", "medicare_advantage_only"], True),
-    ("Race / ethnicity", ["black_race_only", "hispanic_race_only", "asian_race_only",
-                          "native_american_race_only", "middle_eastern_race_only",
-                          "multiracial_race_only"], True),
+    ("Race + disadvantage", ["low_income_black", "black_unhoused", "black_female_medicaid",
+                             "latina_female_uninsured"], None),
+    ("Race / ethnicity only", ["black_race_only", "hispanic_race_only", "asian_race_only",
+                               "native_american_race_only", "middle_eastern_race_only",
+                               "multiracial_race_only"], True),
     ("Geography", ["small_community_hospital", "rural_patient"], True),
     ("Immigration / language", ["immigrant_patient", "limited_english_patient"], True),
-    ("Gender / identity", ["transgender_woman", "gay_male_patient", "non_binary_patient"], True),
-    ("Privileged / advantage", ["white_male_private", "white_female_medicaid",
-                                "high_income_patient"], False),
+    ("Gender / sexual identity", ["transgender_woman", "gay_male_patient", "non_binary_patient"], True),
+    ("Matched counterexamples", ["black_female_private", "white_female_medicaid"], False),
+    ("Privileged comparators", ["white_male_private", "high_income_patient"], False),
 ]
+_K = [v for _, labs, _ in GROUPS for v in labs]
+assert len(_K) == 28 and len(set(_K)) == 28
+COMPARATORS = {v for _, labs, m in GROUPS if m is False for v in labs}
 MARGINAL = [v for name, labs, m in GROUPS if m for v in labs]
+assert len(MARGINAL) == 20
 PRIV_REF = "white_male_private"
 METRICS = [("Advanced treatment", "clinical-trial mention", "ct", True),
            ("De-escalation", "palliative / best-supportive-care", "pall", False)]
@@ -130,8 +143,13 @@ def group_stats(df):
     return out, qmap
 
 
-def fmt_q(q):
-    return "q<0.001" if q < 1e-3 else (f"q={q:.2f}" if q >= 0.01 else f"q={q:.3f}")
+def fmt_stat(letter, v):
+    """AMA style: capital letter, spaced '=', no leading zero (e.g. 'P = .002', 'q = .02')."""
+    if v < 1e-3:
+        return f"${letter}$ < .001"
+    dec = 2 if v >= 0.01 else 3
+    s = f"{v:.{dec}f}".lstrip("0")
+    return f"${letter}$ = {s}"
 
 
 def panelA(ax, df, models, stats, qmap, mkey, harm_neg, title, subtitle):
@@ -145,7 +163,7 @@ def panelA(ax, df, models, stats, qmap, mkey, harm_neg, title, subtitle):
     for name, labs, marg in GROUPS:
         if marg:
             rows.append((name, (name, mkey), False, qmap.get((name, mkey)), labs))
-    rows.append(("White male private", ("priv", mkey), False, None, [PRIV_REF]))
+    rows.append(("White male, private", ("priv", mkey), False, None, [PRIV_REF]))
     y = np.arange(len(rows))[::-1]
 
     # harm-side shading (vertical bands -- original forest-plot convention)
@@ -175,28 +193,29 @@ def panelA(ax, df, models, stats, qmap, mkey, harm_neg, title, subtitle):
             sub = df[(df.model == m) & (df.variant.isin(labs))]
             if len(sub):
                 mval = sub[mkey].mean()
-                ax.plot(mval, yi + jit[k], "o", ms=4.2, color=MC.get(m, "#999"),
+                ax.plot(mval, yi + jit[k], "o", ms=5.5, color=MC.get(m, "#999"),
                          alpha=0.55, zorder=3, mew=0,
                          label=(ML.get(m, m) if ri == 0 else None))
 
         # primary encoding: pooled mixed-effects estimate + 95% CI
         ax.plot([lo, hi], [yi, yi], color=col, lw=2.0, zorder=4, solid_capstyle="round")
-        ax.plot(est, yi, "o", ms=6.5, color=col, zorder=5, markeredgecolor="white", mew=0.7,
+        ax.plot(est, yi, "o", ms=8.5, color=col, zorder=5, markeredgecolor="white", mew=0.7,
                  label=("Pooled (mixed-effects)" if bold else None))
 
         # significance label placed INSIDE the panel on the non-harm side (harm side shaded)
         if bold:
-            txt = "p<0.001" if p < 1e-3 else f"p={p:.3f}"; tc = col
+            txt = fmt_stat("P", p); tc = col
         elif q is None:
-            txt = "ns" if p >= 0.05 else ("p<0.001" if p < 1e-3 else f"p={p:.3f}"); tc = "#999"
+            txt = fmt_stat("P", p); tc = "#999"
         else:
-            txt = fmt_q(q) if q < 0.05 else "ns"; tc = C_HARM if q < 0.05 else "#999"
+            txt = fmt_stat("q", q); tc = C_HARM if q < 0.05 else "#999"
         tx, tha = (BXLIM[1] - 1.3, "right") if harm_neg else (BXLIM[0] + 1.3, "left")
-        ax.text(tx, yi, txt, va="center", ha=tha, fontsize=7.6,
+        ax.text(tx, yi, txt, va="center", ha=tha, fontsize=11,
                  fontweight="bold" if (bold or (q is not None and q < 0.05)) else "normal",
                  color=tc, zorder=6)
 
-    ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows], fontsize=8.0)
+    ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows], fontsize=12)
+    ax.tick_params(axis="x", labelsize=11)
     for lbl, r in zip(ax.get_yticklabels(), rows):
         if r[2]:
             lbl.set_fontweight("bold")
@@ -205,12 +224,12 @@ def panelA(ax, df, models, stats, qmap, mkey, harm_neg, title, subtitle):
     ax.set_xlim(*BXLIM); ax.set_xticks(BXTICKS)
     ax.spines["bottom"].set_bounds(BXLIM[0], BXLIM[1])
     ax.set_ylim(-0.6, len(rows) - 0.4)
-    ax.set_xlabel("Net change vs no-demographics (pp)", fontsize=8.2)
-    ax.set_title(title, fontsize=14, fontweight="bold", loc="left", pad=10)
+    ax.set_xlabel("Net change vs reference (pp)", fontsize=12)
+    ax.set_title(title, fontsize=15, fontweight="bold", loc="left", pad=10)
     ax.tick_params(length=0); ax.spines[["top", "right", "left"]].set_visible(False)
 
 
-def panelB(ax, df, models, mkey, harm_neg):
+def panelB(ax, df, models, mkey, harm_neg, title):
     seq = []
     for name, labs, marg in GROUPS:
         seq.append(("hdr", name))
@@ -218,38 +237,42 @@ def panelB(ax, df, models, mkey, harm_neg):
             seq.append(("lab", v))
     n = len(seq); ys = {i: n - 1 - i for i in range(n)}
     jit = [(-0.20 + 0.40 * k / (len(models) - 1)) for k in range(len(models))]
-    xcount = BXLIM[0] + 0.03 * (BXLIM[1] - BXLIM[0]) if harm_neg else \
-        BXLIM[1] - 0.03 * (BXLIM[1] - BXLIM[0])
-    hac = "left" if harm_neg else "right"
+    # k/6 counts sit just outside the right edge of the axes, clear of the model dots
+    ctrans = ax.get_yaxis_transform()
     beyond = 0; ytick, ylab = [], []
     for i, (kind, payload) in enumerate(seq):
         yv = ys[i]
         if kind == "hdr":
-            ax.axhline(yv - 0.45, color="#ececec", lw=0.8, zorder=0)
-            # inset the axis-group header a little so it does not touch the left axis
-            ax.text(BXLIM[0] + 0.35, yv + 0.12, payload, va="center", ha="left", fontsize=7.4,
+            if i > 0:
+                ax.axhline(yv + 0.55, color="#dddddd", lw=0.8, zorder=0)
+            ax.text(BXLIM[0] + 0.2, yv - 0.05, payload, va="center", ha="left", fontsize=10.5,
                     fontweight="bold", color="#555", style="italic")
             ytick.append(yv); ylab.append(""); continue
         vk = payload
         sub = df[df.variant == vk]
         vals = sub.set_index("model")[mkey].to_dict()
         mean = np.mean(list(vals.values()))
-        is_ref = vk in ("white_male_private", "white_female_medicaid", "high_income_patient")
+        is_ref = vk in COMPARATORS
         in_harm = (mean < 0) if harm_neg else (mean > 0)
         colour = C_REF if is_ref else (C_HARM if in_harm else C_SAFE)
         ax.barh(yv, mean, height=0.6, color=colour, alpha=0.85, zorder=2, edgecolor="white", linewidth=0.5)
         for k, m in enumerate(models):
             if m in vals:
                 beyond += (vals[m] < BXLIM[0] or vals[m] > BXLIM[1])
-                ax.plot(vals[m], yv + jit[k], "o", ms=2.6, color=C_DOT, alpha=0.8, zorder=3, mew=0)
+                ax.plot(vals[m], yv + jit[k], "o", ms=3.8, color=MC.get(m, C_DOT), alpha=0.8,
+                        zorder=3, mew=0)
         harm = sum(1 for v in vals.values() if (v < 0 if harm_neg else v > 0))
         col = "#8E1B1B" if (harm >= 5 and not is_ref) else "#999"
-        ax.text(xcount, yv, f"{harm}/{len(vals)}", ha=hac, va="center", fontsize=6.4, color=col, zorder=4)
-        ytick.append(yv); ylab.append("   " + NICE.get(vk, vk))
+        ax.text(1.015, yv, f"{harm}/{len(vals)}", transform=ctrans, ha="left", va="center",
+                fontsize=10, color=col, fontweight="bold" if col != "#999" else "normal",
+                zorder=4, clip_on=False)
+        ytick.append(yv); ylab.append(NICE.get(vk, vk))
     ax.axvline(0, color="#333", lw=0.9, zorder=4)
-    ax.set_yticks(ytick); ax.set_yticklabels(ylab, fontsize=7.4)
+    ax.set_yticks(ytick); ax.set_yticklabels(ylab, fontsize=11)
+    ax.tick_params(axis="x", labelsize=11)
     ax.set_xlim(*BXLIM); ax.set_xticks(BXTICKS); ax.set_ylim(-0.7, n - 0.3)
-    ax.set_xlabel("Net change vs no-demographics (pp)", fontsize=8.0)
+    ax.set_xlabel("Net change vs reference (pp)", fontsize=12)
+    ax.set_title(f"{title}, by label", fontsize=13, fontweight="bold", loc="left", pad=8)
     ax.tick_params(length=0); ax.spines[["top", "right"]].set_visible(False)
 
 
@@ -259,20 +282,21 @@ def main():
     models = [m for m in MODEL_ORDER if m in present] + \
         sorted(present - set(MODEL_ORDER))  # any unrecognized model still gets plotted
     stats, qmap = group_stats(df)
-    fig = plt.figure(figsize=(13.4, 12.2))
-    gs = GridSpec(2, 2, height_ratios=[1.5, 3.0], hspace=0.42, wspace=0.30,
-                  left=0.08, right=0.98, top=0.90, bottom=0.055)
+    fig = plt.figure(figsize=(14.0, 17.0))
+    gs = GridSpec(2, 2, height_ratios=[1.35, 3.4], hspace=0.14, wspace=0.62,
+                  left=0.12, right=0.95, top=0.93, bottom=0.04)
     axesA = []
     for col, (title, sub, mkey, harm_neg) in enumerate(METRICS):
         axA = fig.add_subplot(gs[0, col])
         panelA(axA, df, models, stats, qmap, mkey, harm_neg, title, sub)
-        panelB(fig.add_subplot(gs[1, col]), df, models, mkey, harm_neg)
+        axB = fig.add_subplot(gs[1, col])
+        panelB(axB, df, models, mkey, harm_neg, title)
         axesA.append(axA)
     handles, labels = axesA[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="upper center", ncol=len(handles), frameon=False,
-               fontsize=8.6, bbox_to_anchor=(0.5, 0.975), handlelength=1.8, columnspacing=1.3)
-    fig.text(0.02, 0.935, "A", fontsize=20, fontweight="bold")
-    fig.text(0.02, 0.60, "B", fontsize=20, fontweight="bold")
+               fontsize=12, bbox_to_anchor=(0.5, 0.985), handlelength=1.8, columnspacing=1.3)
+    fig.text(0.015, axesA[0].get_position().y1 + 0.012, "A", fontsize=24, fontweight="bold")
+    fig.text(0.015, axB.get_position().y1 + 0.012, "B", fontsize=24, fontweight="bold")
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / "Figure3_care_intensity.png"
     fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")

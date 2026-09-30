@@ -5,8 +5,8 @@ classifier dimensions so you can see WHICH stigma behavior fires. Net% per dim =
 100 * (#cases variant-adds-dim  -  #cases variant-drops-dim) / n, vs the
 no-demographics reference. Faceted by model.
 
-Defensible-composite note (see project memory): adherence_compliance +
-sdoh_generation are the defensible stigma dims; prognosis_framing fires broadly
+Core stigma composite note (see project memory): adherence_compliance +
+sdoh_generation are the core stigma dims; prognosis_framing fires broadly
 (ordinary clinical caution); watchful_waiting ~0.
 
 Recomputes from raw results. Output -> figures/manuscript/FigS09_stigma_breakdown_original.png
@@ -34,21 +34,21 @@ MODELS = {
 }
 # variant key -> display label, ordered by disadvantage
 VARIANTS = [
-    ("white_male_private", "white-male (comparison)"),
-    ("black_race_only", "race-only"),
-    ("black_female_medicaid", "Black + medicaid"),
-    ("uninsured_only", "uninsured"),
-    ("underinsured_only", "underinsured"),
-    ("low_income_patient", "low income"),
-    ("unhoused_patient", "unhoused"),
+    ("white_male_private", "White male, private"),
+    ("black_race_only", "Black"),
+    ("black_female_medicaid", "Black female, Medicaid"),
+    ("uninsured_only", "Uninsured"),
+    ("underinsured_only", "Underinsured"),
+    ("low_income_patient", "Low income"),
+    ("unhoused_patient", "Unhoused"),
 ]
-# stigma dimensions -> (key, label, color, hatch).  * = defensible-composite dim.
-# CVD-safe + grayscale-separable: the two defensible (starred) dims are warm, the two
+# stigma dimensions -> (key, label, color, hatch).  * = core stigma composite dim.
+# CVD-safe + grayscale-separable: the two core (starred) dims are warm, the two
 # broad/benign dims are cool, and each segment carries a distinct hatch so colour is not
 # the sole encoder in the stacked bars (council: dataviz BLOCKER).
 DIMS = [
     ("adherence_compliance", "Adherence doubt *", "#8E1B1B", ""),
-    ("sdoh_generation",      "Hallucinated SDOH *", "#E69F00", "///"),
+    ("sdoh_generation",      "Invented SDOH *", "#E69F00", "///"),
     ("prognosis_framing",    "Prognosis framing", "#4C72B0", ".."),
     ("watchful_waiting",     "Watchful waiting", "#55A868", "xx"),
 ]
@@ -86,29 +86,45 @@ def main():
     # global max (summed across dims) for a shared, fair x-axis
     gmax = max(sum(max(0, data[nm][vk][d]) for d, _, _, _ in DIMS)
                for nm in names for vk, _ in VARIANTS)
-    fig, axes = plt.subplots(1, len(names), figsize=(5.4 * len(names), 5.6),
-                             sharey=True, sharex=True)
-    if len(names) == 1:
-        axes = [axes]
-    y = np.arange(len(VARIANTS))
-    for ax, name in zip(axes, names):
-        left = np.zeros(len(VARIANTS))
-        for d, dlabel, color, hatch in DIMS:
-            vals = np.array([max(0, data[name][vk][d]) for vk, _ in VARIANTS])
-            ax.barh(y, vals, left=left, color=color, edgecolor="k", linewidth=0.3,
-                    hatch=hatch, label=dlabel)
-            left += vals
-        ax.set_title(name, fontweight="bold")
-        ax.set_xlabel("Net % of cases, summed across dimensions")
-        ax.set_yticks(y); ax.set_yticklabels([lbl for _, lbl in VARIANTS])
-        ax.invert_yaxis()
-        ax.set_xlim(0, gmax * 1.05)
-    axes[0].legend(loc="lower right", fontsize=9, framealpha=0.95, title="Stigma dimension")
-    fig.suptitle("Stigma decomposed by behavior (* = defensible composite: "
-                 "adherence-doubt + hallucinated SDOH)", fontsize=13, fontweight="bold", y=1.02)
-    fig.tight_layout(rect=(0, 0, 1, 0.99))
-    fig.savefig(OUT / "FigS09_stigma_breakdown_original.png", dpi=150, bbox_inches="tight")
+    # eFigure 6: per-model companion to Figure 4B, 2 x 3 grid, rows as in Figure 4A/B
+    vorder = list(reversed(VARIANTS))              # most disadvantaged on top
+    y = np.arange(len(vorder))
+    neg = []
+    with plt.rc_context({"font.family": "sans-serif",
+                         "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"]}):
+        fig, axes = plt.subplots(2, 3, figsize=(10.0, 7.6), sharey=True, sharex=True)
+        for ax, name in zip(axes.flat, names):
+            left = np.zeros(len(vorder))
+            for d, dlabel, color, hatch in DIMS:
+                raw_vals = [data[name][vk][d] for vk, _ in vorder]
+                neg += [(name, vk, d, v) for (vk, _), v in zip(vorder, raw_vals) if v < 0]
+                vals = np.array([max(0, v) for v in raw_vals])
+                ax.barh(y, vals, left=left, color=color, edgecolor="k", linewidth=0.4,
+                        hatch=hatch, label=dlabel)
+                left += vals
+            ax.set_title(name, fontsize=12.5, fontweight="bold")
+            ax.set_yticks(y); ax.set_yticklabels([lbl for _, lbl in vorder], fontsize=11)
+            ax.tick_params(axis="x", labelsize=10.5); ax.tick_params(axis="y", length=0)
+            ax.set_xlim(0, gmax * 1.05)
+            ax.xaxis.grid(True, ls=":", alpha=0.5); ax.set_axisbelow(True)
+            for sp in ("top", "right"):
+                ax.spines[sp].set_visible(False)
+        axes[0, 0].invert_yaxis()
+        for ax in axes[1]:
+            ax.set_xlabel("Net % of cases vs reference,\nsummed across dimensions", fontsize=11)
+        h, l = axes[0, 0].get_legend_handles_labels()
+        fig.legend(h, l, loc="lower center", ncol=4, fontsize=11, frameon=False,
+                   bbox_to_anchor=(0.5, -0.045))
+        fig.tight_layout(h_pad=1.6)
+        fig.savefig(OUT / "FigS09_stigma_breakdown_original.png", dpi=200, bbox_inches="tight")
+    plt.close(fig)
     print("wrote", OUT / "FigS09_stigma_breakdown_original.png")
+    print(f"negative net values shown as 0: {len(neg)}; most negative:",
+          sorted(neg, key=lambda t: t[3])[:3])
+    tot = {nm: {lbl: round(sum(max(0, data[nm][vk][d]) for d, _, _, _ in DIMS), 1)
+                for vk, lbl in VARIANTS} for nm in names}
+    for nm in names:
+        print(" ", nm, tot[nm])
 
     render_avg(data)
 
@@ -142,11 +158,10 @@ def render_avg(data):
     for i in range(n):
         ax.scatter(tot[i], y + offs[i], s=15, color="#222", edgecolor="white",
                    linewidth=0.3, zorder=3)
-    ax.set_yticks(y); ax.set_yticklabels(vlabs, fontsize=9.5)
+    ax.set_yticks(y); ax.set_yticklabels(vlabs, fontsize=13)
     ax.invert_yaxis()
-    ax.set_xlabel("Net % of cases, summed across dimensions  "
-                  "(stacked bar = mean of 6 models; dots = per-model total; no CI)",
-                  fontsize=8.5)
+    ax.tick_params(axis="x", labelsize=12)
+    ax.set_xlabel("Net % of cases vs reference, summed across dimensions", fontsize=13)
     dot_proxy = mlines.Line2D([], [], color="#222", marker="o", linestyle="none",
                               markersize=5, markeredgecolor="white", label=f"Per-model total (n={n})")
     handles, _ = ax.get_legend_handles_labels()
@@ -160,7 +175,7 @@ def render_avg(data):
     print("wrote", PANELS / "p_stigma_breakdown_avg.png")
 
     ax.set_title("Stigma decomposed by behavior, averaged across models\n"
-                 "(* = defensible composite: adherence-doubt + hallucinated SDOH)",
+                 "(* = core stigma composite: adherence doubt + invented SDOH)",
                  fontsize=12, fontweight="bold")
     fig.tight_layout()
     fig.savefig(OUT / "FigS04_stigma_breakdown_avg.png", dpi=150, bbox_inches="tight")

@@ -12,6 +12,8 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import json
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.stats import binomtest
 
@@ -47,7 +49,26 @@ ORDER = [
     "limited_english_patient", "non_binary_patient",
     "transgender_woman", "gay_male_patient",
 ]
-NICE = {v: v.replace("_", " ") for v in ORDER}
+NICE = {
+    "white_male_private": "White male, private",
+    "black_race_only": "Black", "hispanic_race_only": "Hispanic",
+    "asian_race_only": "Asian", "native_american_race_only": "Native American",
+    "middle_eastern_race_only": "Middle Eastern", "multiracial_race_only": "Multiracial",
+    "uninsured_only": "Uninsured", "underinsured_only": "Underinsured",
+    "medicaid_only": "Medicaid", "medicare_only": "Medicare",
+    "medicare_advantage_only": "Medicare Advantage", "low_income_patient": "Low income",
+    "high_income_patient": "High income",
+    "black_female_medicaid": "Black female, Medicaid",
+    "latina_female_uninsured": "Hispanic female, uninsured",
+    "black_female_private": "Black female, private",
+    "white_female_medicaid": "White female, Medicaid",
+    "low_income_black": "Low income, Black", "black_unhoused": "Black + unhoused",
+    "unhoused_patient": "Unhoused", "rural_patient": "Rural",
+    "small_community_hospital": "Small community hospital",
+    "immigrant_patient": "Immigrant", "limited_english_patient": "Limited English",
+    "non_binary_patient": "Non-binary", "transgender_woman": "Transgender woman",
+    "gay_male_patient": "Gay male",
+}
 
 
 def build_ground_truth():
@@ -65,6 +86,9 @@ def build_ground_truth():
         except Exception:
             pass
     return uniq, cat_map
+
+
+LAST_REF = [None]
 
 
 def concordance_by_variant(raw, uniq, cat_map, parser):
@@ -97,6 +121,7 @@ def concordance_by_variant(raw, uniq, cat_map, parser):
                 elif v_ok and not r_ok:
                     cc[v] += 1
     ref_rate = 100 * ref_correct / ref_n if ref_n else 0
+    LAST_REF[0] = (ref_correct, ref_n)   # for the reference CI band (signature unchanged)
     out = {}
     for v in ORDER:
         rate = 100 * correct[v] / total[v] if total[v] else 0
@@ -110,12 +135,13 @@ def concordance_by_variant(raw, uniq, cat_map, parser):
 def main():
     uniq, cat_map = build_ground_truth()
     parser = ResponseParser()
-    results, ref_rates = {}, {}
+    results, ref_rates, ref_cis = {}, {}, {}
     for name, path in MODELS.items():
         if not Path(path).exists():
             print("skip", name); continue
         raw = json.loads(Path(path).read_text())
         results[name], ref_rates[name] = concordance_by_variant(raw, uniq, cat_map, parser)
+        ref_cis[name] = wilson_ci(*LAST_REF[0])
         # BH across variants within model
         q = benjamini_hochberg({v: results[name][v][2] for v in ORDER})
         results[name] = {v: (*results[name][v], q[v]) for v in ORDER}
@@ -123,39 +149,54 @@ def main():
         print(f"{name}: ref={ref_rates[name]:.1f}%  significant variants (q<0.05): {nsig}")
 
     names = list(results.keys())
-    fig, axes = plt.subplots(1, len(names), figsize=(5.2 * len(names), 8.5), sharey=True)
-    if len(names) == 1:
-        axes = [axes]
-    y = np.arange(len(ORDER))
-    for ax, name in zip(axes, names):
-        rates = [results[name][v][0] for v in ORDER]
-        praw = [results[name][v][2] for v in ORDER]
-        lo = [rates[i] - results[name][v][3] for i, v in enumerate(ORDER)]
-        hi = [results[name][v][4] - rates[i] for i, v in enumerate(ORDER)]
-        qs = [results[name][v][5] for v in ORDER]
-        ref = ref_rates[name]
-        colors = [MC[name] if r >= ref else "#BBBBBB" for r in rates]
-        ax.barh(y, rates, xerr=[lo, hi], error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
-                color=colors, edgecolor="k", linewidth=0.4)
-        ax.axvline(ref, color="k", ls="--", lw=1.2)
-        ax.text(ref, len(ORDER) - 0.2, f" ref {ref:.0f}%", fontsize=9, va="top", color="k")
-        for i, (v, qq, pr) in enumerate(zip(ORDER, qs, praw)):
-            sx = results[name][v][4] + 2  # just past the upper CI bound
-            if qq is not None and qq < 0.05:      # survives BH-FDR
-                ax.text(sx, i, "★", va="center", fontsize=13, color="#B8860B")
-            elif pr < 0.05:                         # raw-significant only
-                ax.text(sx, i, "☆", va="center", fontsize=13, color="#B8860B")
-        ax.set_title(name, color=MC[name], fontweight="bold")
-        ax.set_xlabel("Concordance with NCCN label (%)")
-        ax.set_xlim(0, 100)
-    axes[0].set_yticks(y); axes[0].set_yticklabels([NICE[v] for v in ORDER], fontsize=9)
-    axes[0].invert_yaxis()
-    fig.suptitle("NCCN concordance by demographic label",
-                 fontsize=14, fontweight="bold", y=1.02)
-    fig.tight_layout(rect=(0, 0, 1, 0.99))
-    fig.savefig(OUT / "FigS07_concordance_by_variant.png", dpi=150, bbox_inches="tight")
+    # rows grouped into Figure 1's 9 categories (same order/colours as eFigure 4)
+    from plots.plot_concordance_by_variant_avg import GROUPS
+    rows, ycol, spans = [], [], []
+    for gname, keys, col in GROUPS:
+        spans.append((gname, len(rows), len(rows) + len(keys), col))
+        rows += keys; ycol += [col] * len(keys)
+    assert sorted(rows) == sorted(ORDER)
+    plt.rcParams.update({"font.family": "sans-serif",
+                         "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"]})
+    fig, axes = plt.subplots(2, 3, figsize=(10.0, 13.0), sharey=True)
+    y = np.arange(len(rows))
+    for ax, name in zip(axes.flat, names):
+        ref = ref_rates[name]; rlo, rhi = ref_cis[name]
+        ax.axvspan(100 * rlo, 100 * rhi, color="0.88", zorder=0)
+        ax.axvline(ref, color="k", ls="--", lw=1.0, zorder=1)
+        for i, v in enumerate(rows):
+            rate, _, pr, lo, hi, qq = results[name][v]
+            ax.errorbar(rate, i, xerr=[[rate - lo], [hi - rate]], fmt="o", ms=5.5,
+                        color=ycol[i], ecolor=ycol[i], elinewidth=1.1, capsize=2,
+                        markeredgecolor="white", markeredgewidth=0.5, zorder=3)
+            if qq is not None and qq < 0.05:
+                ax.plot(hi + 1.2, i, marker="*", ms=11, color="k", zorder=4)
+            elif pr < 0.05:
+                ax.plot(hi + 1.0, i, marker="o", ms=3.8, color="k", zorder=4)
+        for _, s0, _, _ in spans:
+            if s0:
+                ax.axhline(s0 - 0.5, color="#cccccc", lw=0.7, zorder=0)
+        ax.set_xlim(ref - 14, min(ref + 14, 100.5))
+        ax.set_title(f"{name}\nreference {ref:.1f}%", fontsize=12, fontweight="bold")
+        ax.tick_params(axis="x", labelsize=10.5); ax.tick_params(axis="y", length=0)
+        ax.xaxis.grid(True, ls=":", alpha=0.5); ax.set_axisbelow(True)
+        for sp in ("top", "right"):
+            ax.spines[sp].set_visible(False)
+    for ax in axes[1]:
+        ax.set_xlabel("NCCN guideline concordance (%)", fontsize=11.5)
+    for ax in axes[:, 0]:
+        ax.set_yticks(y); ax.set_yticklabels([NICE[v] for v in rows], fontsize=10.5)
+        for t, col in zip(ax.get_yticklabels(), ycol):
+            t.set_color(col)
+    axes[0, 0].set_ylim(len(rows) - 0.4, -0.6)
+    fig.tight_layout(h_pad=2.0)
+    fig.savefig(OUT / "FigS07_concordance_by_variant.png", dpi=200, bbox_inches="tight")
     print("wrote", OUT / "FigS07_concordance_by_variant.png")
-
+    for name in names:
+        hits = [(v, round(results[name][v][0], 1), round(results[name][v][2], 4), results[name][v][5])
+                for v in ORDER if results[name][v][2] < 0.05]
+        print(f"  {name}: ref {ref_rates[name]:.1f}%  P<.05: {len(hits)}  "
+              + "; ".join(f"{v} {r}% P={p} q={q if q is None else round(q,3)}" for v, r, p, q in hits))
 
 if __name__ == "__main__":
     main()

@@ -42,76 +42,115 @@ REF = "no_demographics"
 
 # grouped, ordered variant rows (stratum -> [(key, pretty)])
 GROUPS = [
- ("Socioeconomic disadvantage", [
+ # same 9 categories and membership as Figure 1B (regen_flip_avg.py)
+ ("Income / housing", [
+   ("low_income_patient", "Low income"), ("unhoused_patient", "Unhoused")]),
+ ("Insurance", [
    ("underinsured_only", "Underinsured"), ("uninsured_only", "Uninsured"),
-   ("medicaid_only", "Medicaid"), ("low_income_patient", "Low income"),
-   ("low_income_black", "Low income, Black"), ("latina_female_uninsured", "Latina, uninsured"),
-   ("black_unhoused", "Black + unhoused"), ("unhoused_patient", "Unhoused"),
-   ("rural_patient", "Rural"), ("small_community_hospital", "Small community hospital"),
-   ("immigrant_patient", "Immigrant"), ("limited_english_patient", "Limited English"),
-   ("black_female_medicaid", "Black female, Medicaid")]),
+   ("medicaid_only", "Medicaid"), ("medicare_only", "Medicare"),
+   ("medicare_advantage_only", "Medicare Advantage")]),
+ ("Race + disadvantage", [
+   ("low_income_black", "Low income, Black"), ("black_unhoused", "Black + unhoused"),
+   ("black_female_medicaid", "Black female, Medicaid"),
+   ("latina_female_uninsured", "Hispanic female, uninsured")]),
  ("Race / ethnicity only", [
    ("black_race_only", "Black"), ("hispanic_race_only", "Hispanic"),
    ("asian_race_only", "Asian"), ("native_american_race_only", "Native American"),
    ("middle_eastern_race_only", "Middle Eastern"), ("multiracial_race_only", "Multiracial")]),
- ("Gender / identity", [
+ ("Geography", [
+   ("rural_patient", "Rural"), ("small_community_hospital", "Small community hospital")]),
+ ("Immigration / language", [
+   ("immigrant_patient", "Immigrant"), ("limited_english_patient", "Limited English")]),
+ ("Gender / sexual identity", [
    ("transgender_woman", "Transgender woman"), ("non_binary_patient", "Non-binary"),
-   ("gay_male_patient", "Gay male"), ("black_female_private", "Black female, private")]),
- ("Insurance (other)", [
-   ("medicare_only", "Medicare"), ("medicare_advantage_only", "Medicare Advantage"),
+   ("gay_male_patient", "Gay male")]),
+ ("Matched counterexamples", [
+   ("black_female_private", "Black female, private"),
    ("white_female_medicaid", "White female, Medicaid")]),
- ("Privileged / advantage", [
-   ("high_income_patient", "High income"), ("white_male_private", "White male, private")]),
+ ("Privileged comparators", [
+   ("white_male_private", "White male, private"), ("high_income_patient", "High income")]),
 ]
+_KEYS = [k for _, items in GROUPS for k, _ in items]
+assert len(_KEYS) == 28 and len(set(_KEYS)) == 28 and "elderly_patient_75" not in _KEYS
+
+# two-line wraps for narrow-span group headers in the landscape (transpose=True)
+# panel, so labels don't collide with their neighbors.
+HEADER_WRAP = {
+    "Income / housing": "Income /\nhousing",
+    "Immigration / language": "Immigration /\nlanguage",
+    "Gender / sexual identity": "Gender / sexual\nidentity",
+    "Matched counterexamples": "Matched\ncounterexamples",
+    "Privileged comparators": "Privileged\ncomparators",
+}
 
 
 def tier(v):
     return aggressiveness_score(v.get("response_text", "")) if isinstance(v, dict) else None
 
 
-def _draw_heatmap(ax, M, rows, labels, models, groupspans, bh, pval, norm, transpose):
+def _draw_heatmap(ax, M, rows, labels, models, groupspans, bh, pval, norm, transpose,
+                  show_values=True):
     """Draw the annotated net-shift heatmap. transpose=False -> variants on rows,
     models on columns (portrait); transpose=True -> models on rows, variants on
     columns (landscape, for the Figure-2 panel)."""
     ncol = len(models)
     im = ax.imshow(M.T if transpose else M, cmap="RdBu", norm=norm, aspect="auto")
     if not transpose:
-        ax.set_xticks(range(ncol)); ax.set_xticklabels(models, rotation=30, ha="right", fontsize=9)
-        ax.set_yticks(range(len(rows))); ax.set_yticklabels(labels, fontsize=8.5)
+        ax.set_xticks(range(ncol)); ax.set_xticklabels(models, rotation=30, ha="right", fontsize=11.5)
+        ax.set_yticks(range(len(rows))); ax.set_yticklabels(labels, fontsize=11)
     else:
-        ax.set_xticks(range(len(rows))); ax.set_xticklabels(labels, rotation=45, ha="right", fontsize=8.0)
-        ax.set_yticks(range(ncol)); ax.set_yticklabels(models, fontsize=9)
+        xfs, yfs = (8.0, 9) if show_values else (11, 12)
+        ax.set_xticks(range(len(rows))); ax.set_xticklabels(labels, rotation=45, ha="right", fontsize=xfs)
+        ax.set_yticks(range(ncol)); ax.set_yticklabels(models, fontsize=yfs)
     ax.tick_params(length=0)
-    afs = 6.2 if transpose else 7.0
+    afs = 6.2 if transpose else 9.5
     for i, key in enumerate(rows):
         for j, m in enumerate(models):
             if np.isnan(M[i, j]): continue
             val = M[i, j]
             sig_bh = bh.get((key, m), 1) < 0.05
             unc = pval.get(key, {}).get(m, 1) < 0.05
-            txt = f"{val:+.1f}" + ("·" if (unc and not sig_bh) else "")
-            tc = "white" if abs(val) > 3.0 else "#222"
             xx, yy = (i, j) if transpose else (j, i)
+            if not show_values:
+                # main-figure panel: colour carries the value; markers carry significance
+                if sig_bh:
+                    ax.plot(xx, yy, marker="*", ms=15, color="white", markeredgecolor="k",
+                            markeredgewidth=0.8, zorder=6)
+                elif unc:
+                    ax.plot(xx, yy, marker="o", ms=4.5, color="k", zorder=6)
+                continue
+            txt = f"{val:+.1f}" + ("•" if (unc and not sig_bh) else "")
+            tc = "white" if abs(val) > 3.0 else "#222"
             ax.text(xx, yy, txt, ha="center", va="center", fontsize=afs,
                     color=tc, fontweight="bold" if sig_bh else "normal")
             if sig_bh:  # font-free star marker in the corner
-                mx, my = (i + 0.30, j - 0.32) if transpose else (j + 0.33, i - 0.30)
-                ax.plot(mx, my, marker="*", ms=6 if transpose else 7,
+                mx, my = (i + 0.30, j - 0.32) if transpose else (j + 0.36, i - 0.28)
+                ax.plot(mx, my, marker="*", ms=6 if transpose else 9,
                         color="white", markeredgecolor="k", markeredgewidth=0.4,
                         zorder=6, clip_on=False)
     for gname, s, e in groupspans:
         if not transpose:
             if s > 0:
                 ax.axhline(s - 0.5, color="k", lw=1.4)
-            ax.text(-0.34, (s + e - 1) / 2, gname, transform=ax.get_yaxis_transform(),
-                    ha="center", va="center", rotation=90, fontsize=8.5, fontweight="bold",
-                    color="#555", clip_on=False)
+            # narrow groups (few rows) get the wrapped header + a smaller font so the
+            # rotated text stays inside its own row-span instead of bleeding into
+            # the next group's label (portrait layout has little vertical room).
+            narrow = (e - s) <= 3
+            gtxt = HEADER_WRAP.get(gname, gname) if narrow else gname
+            fs = (7.8 if (e - s) <= 2 else 9.0) if narrow else 10.5
+            ax.text(-0.47, (s + e - 1) / 2, gtxt, transform=ax.get_yaxis_transform(),
+                    ha="center", va="center", rotation=90, fontsize=fs, fontweight="bold",
+                    color="#555", clip_on=False, linespacing=1.15)
         else:
             if s > 0:
                 ax.axvline(s - 0.5, color="k", lw=1.4)
-            ax.text((s + e - 1) / 2, 1.015, gname, transform=ax.get_xaxis_transform(),
-                    ha="center", va="bottom", fontsize=8.0, fontweight="bold",
-                    color="#555", clip_on=False)
+            # narrow groups (few columns) need the header wrapped to two lines
+            # so adjacent group labels don't collide in the landscape layout.
+            gtxt = HEADER_WRAP.get(gname, gname) if (e - s) <= 3 else gname
+            ax.text((s + e - 1) / 2, 1.015, gtxt, transform=ax.get_xaxis_transform(),
+                    ha="center", va="bottom",
+                    fontsize=7.0 if show_values else (9.0 if (e - s) <= 2 else 10.5), fontweight="bold",
+                    color="#555", clip_on=False, linespacing=1.15)
     if not transpose:
         for j in range(1, ncol):
             ax.axvline(j - 0.5, color="white", lw=1.0)
@@ -178,10 +217,12 @@ def main():
     # ---- Landscape panel for combine_figures.py (Fig 2D): models on rows, variants
     # on columns so the annotated cells get width and the grid reads full-width along
     # the figure bottom. Titleless — banner + footnotes belong to the caption.
-    figL, axL = plt.subplots(figsize=(16.5, 5.4))
-    imL = _draw_heatmap(axL, M, rows, labels, models, groupspans, bh, pval, norm, transpose=True)
-    cbL = figL.colorbar(imL, ax=axL, fraction=0.018, pad=0.045, extend="both")
-    cbL.set_label("Net treatment-tier shift\nvs no-demographics (%)", fontsize=8.5)
+    figL, axL = plt.subplots(figsize=(15.0, 5.4))
+    imL = _draw_heatmap(axL, M, rows, labels, models, groupspans, bh, pval, norm, transpose=True,
+                        show_values=False)
+    cbL = figL.colorbar(imL, ax=axL, fraction=0.018, pad=0.02, extend="both")
+    cbL.set_label("Net treatment-tier shift\nvs reference (%)", fontsize=11.5)
+    cbL.ax.tick_params(labelsize=11)
     # significance-glyph key moved to the caption (per figure edit).
     figL.tight_layout()
     figL.savefig(PANELS / "p_flip_heatmap.png", dpi=200, bbox_inches="tight")
@@ -189,28 +230,15 @@ def main():
     print("wrote", PANELS / "p_flip_heatmap.png")
 
     # ---- Portrait standalone supplement (FigS): variants on rows, models on columns.
-    fig, ax = plt.subplots(figsize=(8.2, 12.0))
+    fig, ax = plt.subplots(figsize=(8.2, 13.2))
     im = _draw_heatmap(ax, M, rows, labels, models, groupspans, bh, pval, norm, transpose=False)
     cb = fig.colorbar(im, ax=ax, fraction=0.030, pad=0.02, extend="both")
-    cb.set_label("Net treatment-tier shift vs no-demographics (%)", fontsize=9)
+    cb.set_label("Net treatment-tier shift vs reference (%)", fontsize=11.5)
+    cb.ax.tick_params(labelsize=10.5)
 
-    ax.set_title("Direction of treatment change by demographic variant and model\n"
-                 "net% = upgrades − downgrades   (red = less aggressive / “worse”,  blue = more aggressive)",
-                 fontsize=11.5, fontweight="bold", pad=16)
-
-    # marker + source legend at the bottom
-    ax.plot(0.005, -0.105, marker="*", ms=8, color="white", markeredgecolor="k",
-            markeredgewidth=0.5, transform=ax.transAxes, clip_on=False)
-    ax.text(0.022, -0.105,
-            "= survives grid-wide Benjamini-Hochberg q<0.05      · = uncorrected sign-test p<0.05 only",
-            transform=ax.transAxes, fontsize=8, color="#333", va="center")
-    ax.text(0.0, -0.128,
-            "1,048 GENIE NSCLC cases × 6 models. Tier scale 1 = best supportive care … 8 = surgical resection. "
-            "Most cells sit near 0 (decision stable).",
-            transform=ax.transAxes, fontsize=7.2, color="#666", va="center")
-
+    # titleless supplement figure (eFigure 3): title, marker key and source line
+    # live in the legend, matching the other eFigures.
     fig.tight_layout()
-    fig.subplots_adjust(bottom=0.12)
     fig.savefig(OUT / "FigS_flip_direction.png", dpi=300)
     fig.savefig(OUT / "FigS_flip_direction.pdf")
     print("wrote", OUT / "FigS_flip_direction.png")

@@ -42,15 +42,15 @@ plt.rcParams.update({
 # CVD-safe + grayscale-separable: stigma = warm red (matches Fig-series
 # C_SES / "Hallucinated SDOH" hue family used elsewhere), warranted care =
 # cool blue (matches the "prognosis framing" / benign-dimension hue family).
-C_STIGMA = "#D96666"   # warm red -- want this LOW
-C_CARE = "#4C72B0"     # cool blue -- should stay HIGH but doesn't
+C_STIGMA = "#C0392B"   # same red/blue as Figure 4A   # warm red -- want this LOW
+C_CARE = "#7FB3D5"     # cool blue -- should stay HIGH but doesn't
 
 ARMS = [
-    ("baseline", "baseline"),
-    ("fairness", "fairness"),
-    ("structured_extraction", "structured\nextraction"),
-    ("counterfactual_check", "counterfactual\ncheck"),
-    ("stigma_targeted", "stigma-\ntargeted"),
+    ("baseline", "Baseline"),
+    ("fairness", "Fairness"),
+    ("structured_extraction", "Structured\nextraction"),
+    ("counterfactual_check", "Counter-\nfactual\ncheck"),
+    ("stigma_targeted", "Stigma\ntargeted"),
 ]
 
 DATA = {
@@ -88,61 +88,52 @@ def draw_panel(ax, vendor):
     care_vals = [d[k][1] for k, _ in ARMS]
 
     bars_s = ax.bar(x - w / 2, stigma_vals, width=w, color=C_STIGMA,
-                     edgecolor="k", linewidth=0.5, label="Generated stigma", zorder=3)
+                     edgecolor="k", linewidth=0.5, label="Stigmatizing language", zorder=3)
     bars_c = ax.bar(x + w / 2, care_vals, width=w, color=C_CARE,
-                     edgecolor="k", linewidth=0.5, label="Warranted SES-responsive care", zorder=3)
+                     edgecolor="k", linewidth=0.5, label="Appropriate care", zorder=3)
 
     # baseline guide line at baseline warranted-care level
     base_care = d["baseline"][1]
-    ax.axhline(base_care, color=C_CARE, lw=1.0, ls="--", alpha=0.55, zorder=1)
-    ax.text(n - 1 + w / 2 + 0.12, base_care, f"baseline\ncare = {base_care:.1f}%",
-            fontsize=7.2, color=C_CARE, va="center", ha="left", alpha=0.85)
+    ax.axhline(base_care, color="#555555", lw=1.0, ls="--", alpha=0.7, zorder=1)
 
     # value labels
     for rect, val in zip(bars_s, stigma_vals):
         ax.text(rect.get_x() + rect.get_width() / 2, val + 1.0, f"{val:.1f}",
-                ha="center", va="bottom", fontsize=8.2, fontweight="bold", color="#7a1f1f")
+                ha="center", va="bottom", fontsize=10.5, color="#7a1f1f")
     for rect, val in zip(bars_c, care_vals):
         ax.text(rect.get_x() + rect.get_width() / 2, val + 1.0, f"{val:.1f}",
-                ha="center", va="bottom", fontsize=8.2, fontweight="bold", color="#2b3f66")
+                ha="center", va="bottom", fontsize=10.5, color="#1f3b57")
 
     # unscorable-arm footnote marker
     for i, (key, _) in enumerate(ARMS):
         if (vendor, key) in UNSCORABLE:
-            ax.text(x[i], -6.5, "*", ha="center", va="top", fontsize=13,
+            ax.text(x[i], -9.5, "*", ha="center", va="top", fontsize=15,
                     color="#333", fontweight="bold")
 
     ax.set_xticks(x)
-    ax.set_xticklabels([lbl for _, lbl in ARMS], fontsize=9)
+    ax.set_xticklabels([lbl for _, lbl in ARMS], fontsize=11)
     ax.set_ylim(0, 70)
-    ax.set_title(f"({PANEL_LETTER[vendor]})  {vendor}", fontsize=10.5, fontweight="bold", pad=8)
-    ax.tick_params(axis="y", labelsize=8.5)
+    ax.set_title(vendor, fontsize=13, fontweight="bold", pad=8)
+    ax.text(-0.02, 1.06, PANEL_LETTER[vendor], transform=ax.transAxes, fontsize=16,
+            fontweight="bold", ha="right", va="bottom")
+    ax.tick_params(axis="y", labelsize=11)
+    for sp in ("top", "right"):
+        ax.spines[sp].set_visible(False)
     ax.tick_params(length=0)
 
 
 def main():
-    fig, axes = plt.subplots(1, 2, figsize=(11.0, 5.0), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(11.0, 4.8), sharey=True)
 
     for ax, vendor in zip(axes, DATA):
         draw_panel(ax, vendor)
 
-    axes[0].set_ylabel("% of SES-variant x case pairs (blinded judge)", fontsize=9.5)
+    axes[0].set_ylabel("Socioeconomic label \u00d7 case pairs, %", fontsize=12)
 
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=2, fontsize=9,
-               frameon=False, bbox_to_anchor=(0.5, 1.02))
+    axes[1].legend(handles, labels, loc="center right", fontsize=11.5, frameon=False)
 
-    fig.suptitle("Naive prompt mitigation erases warranted care while removing stigma "
-                 "(both vendors)", fontsize=12, fontweight="bold", y=1.10)
-
-    fig.text(0.5, -0.04,
-              "* Gemini structured_extraction: NCCN decision unscorable (output format); "
-              "care/stigma rates shown are still descriptively valid.\n"
-              "Blinded Sonnet-4.6 judge, primary estimator; rates pooled over 7 SES variants, "
-              "n=151 cases per vendor. Reference row = no_demographics (definitional zero anchor).",
-              ha="center", va="top", fontsize=7.4, color="#555555", style="italic")
-
-    fig.tight_layout(rect=(0, 0.02, 1, 1))
+    fig.tight_layout(rect=(0, 0.02, 1, 0.97))
 
     out_path = OUT / "FigS11_mitigation_overcorrection.png"
     fig.savefig(out_path, dpi=200, bbox_inches="tight")

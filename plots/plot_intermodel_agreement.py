@@ -65,7 +65,7 @@ def main():
     # hierarchical leaf order (correlation distance) so similar models sit together
     dist = 1 - corr
     np.fill_diagonal(dist, 0.0)
-    order = leaves_list(linkage(squareform(dist, checks=False), method="average")) if n > 2 else list(range(n))
+    order = list(range(n))   # project-wide model order (same as every other figure)
     C = corr[np.ix_(order, order)]
     labels = [ML[MODELS[k]] for k in order]
 
@@ -74,18 +74,19 @@ def main():
     # a diverging red/blue map wastes half its scale and makes near-equal rho cells look
     # identical (council: dataviz). Printed values keep it grayscale-safe.
     im = ax.imshow(C, cmap="Reds", vmin=0.5, vmax=1.0, aspect="equal")
-    ax.set_xticks(range(n)); ax.set_xticklabels(labels, rotation=30, ha="right", fontsize=9)
-    ax.set_yticks(range(n)); ax.set_yticklabels(labels, fontsize=9)
+    ax.set_xticks(range(n)); ax.set_xticklabels(labels, rotation=30, ha="right", fontsize=13)
+    ax.set_yticks(range(n)); ax.set_yticklabels(labels, fontsize=13)
     for i in range(n):
         for j in range(n):
-            ax.text(j, i, f"{C[i, j]:.2f}", ha="center", va="center", fontsize=9,
+            ax.text(j, i, f"{C[i, j]:.2f}", ha="center", va="center", fontsize=13,
                     color="white" if C[i, j] > 0.82 else "0.15")
     med = np.median(C[np.triu_indices(n, 1)])
     ax.set_title("Vendors share one demographic-response profile\n"
                  f"(Spearman ρ of per-variant induced framing effect; off-diagonal median ρ={med:.2f})",
                  fontsize=11.5, fontweight="bold")
     cb = fig.colorbar(im, ax=ax, shrink=0.82)
-    cb.set_label("Spearman ρ across 28 demographic variants")
+    cb.set_label("Spearman ρ across 28 demographic labels", fontsize=13)
+    cb.ax.tick_params(labelsize=12)
     fig.tight_layout()
     fig.savefig(OUT / "FigS05_intermodel_agreement.png", dpi=150, bbox_inches="tight")
 

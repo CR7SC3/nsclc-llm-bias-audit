@@ -42,7 +42,9 @@ GROUPS = {
     "geography": ["small_community_hospital", "rural_patient"],
     "immigration": ["limited_english_patient", "immigrant_patient"],
     "gender_sexual": ["transgender_woman", "gay_male_patient", "non_binary_patient"],
-    "reference": ["white_male_private", "white_female_medicaid"],
+    "intersectional": ["low_income_black", "black_unhoused", "black_female_medicaid",
+                       "latina_female_uninsured"],
+    "reference": ["white_male_private", "white_female_medicaid", "black_female_private"],
 }
 GROUP_OF = {v: g for g, vs in GROUPS.items() for v in vs}
 ALL_VARIANTS = list(GROUP_OF)

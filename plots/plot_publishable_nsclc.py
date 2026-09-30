@@ -214,13 +214,16 @@ def fig2_concordance():
             if partial is not None:
                 top = max(top, p_ref[m], p_dem[m])
             a.text(i, top + 4.5, f"$\\Delta$={d:+.1f} pp\nTOST {tost[m]} equiv.",
-                   ha="center", va="bottom", fontsize=9)
-        a.set_xticks(x); a.set_xticklabels([ML[m] for m in MODELS], rotation=12, ha="right")
-        a.set_ylabel("Concordance with NCCN guideline label (%)")
-        a.set_ylim(0, 118)
+                   ha="center", va="bottom", fontsize=11)
+        a.set_xticks(x); a.set_xticklabels([ML[m] for m in MODELS], rotation=12, ha="right",
+                                           fontsize=11.5)
+        a.tick_params(axis="y", labelsize=11)
+        a.set_ylabel("NCCN guideline concordance (%)", fontsize=12)
+        a.set_ylim(0, 126)
+        a.set_yticks([0, 20, 40, 60, 80, 100])
         handles = [
             Patch(facecolor="0.4", alpha=0.55, edgecolor="k", label="No-demographics (reference)"),
-            Patch(facecolor="0.4", alpha=1.0, edgecolor="k", hatch="///", label="With demographics"),
+            Patch(facecolor="0.4", alpha=1.0, edgecolor="k", hatch="///", label="Labeled versions (pooled)"),
         ]
         if partial is not None:
             handles += [
@@ -229,7 +232,7 @@ def fig2_concordance():
                       label="Partial concordance (secondary/exploratory)"),
             ]
         a.legend(handles=handles, loc="upper left", bbox_to_anchor=legend_anchor,
-                 fontsize=8.0, framealpha=0.95, ncol=1, borderaxespad=0.4)
+                 fontsize=10.5, framealpha=0.95, ncol=1, borderaxespad=0.4)
         # equivalence margin (d = +/- 0.10) stated in the caption, not on-panel
 
     draw_conc(ax, legend_anchor=(1.01, 1.0) if agg is None else None)
@@ -367,7 +370,7 @@ def fig4_dissociation():
         axB.scatter(xs, y + off, s=[26 if s else 16 for s in sig], color=colour,
                     zorder=3, edgecolor="white", linewidth=0.3)
     axB.set_xlim(-0.3, 2.05)
-    axB.set_xlabel("Added soft-framing intensity (Cohen's $d$)", fontsize=9.5)
+    axB.set_xlabel("Flagged-language effect (Cohen $d$)", fontsize=9.5)
     axB.set_title("(B)  Response framing", fontsize=10.5, fontweight="bold", pad=8)
     axB.xaxis.grid(True, ls="--", alpha=0.35, zorder=0)
 
@@ -461,7 +464,7 @@ def fig5_forest():
                     rotation=90, ha="center", va="center", fontsize=8.0, fontweight="bold",
                     color=colour, annotation_clip=False)
     ax.set_ylim(-0.6, n - 0.4); ax.set_xlim(-0.55, 2.05)
-    ax.set_xlabel("Added soft-framing intensity (Cohen's $d$ vs no-demographics, 95% CI)", fontsize=9.5)
+    ax.set_xlabel("Flagged-language effect (Cohen $d$ vs no-demographics, 95% CI)", fontsize=9.5)
     ax.set_title("Fig. 5 | Framing bias is socioeconomic, not racial, and generalizes\n"
                  "across all six complete vendor arms (1,048 GENIE NSCLC cases)",
                  fontsize=12, fontweight="bold", pad=10)
@@ -484,7 +487,9 @@ def fig5_forest():
 
 # ───────────── Fig 6: money figure, axes harmonized across models ──────────
 SOFT_SPLIT_VARIANTS = ["uninsured", "underinsured", "low income", "unhoused",
-                       "black+medicaid", "race-only", "white-male (comparison)"]
+                       "Black + Medicaid", "race-only", "White male, private"]
+# the single race-only label in the appropriate-vs-stigmatizing split rows
+SOFT_SPLIT_RACE_ROW = "Black"
 SOFT_SPLIT_DATA = {
     "gemini-2.5-flash": dict(appr=[88.9, 93.2, 87.5, 65.7, 37.6, -1.8, 1.0],
                              stig=[9.6, 19.0, 39.5, 71.1, 12.9, 2.7, 0.6]),
@@ -513,12 +518,12 @@ def fig6_soft_split():
     y = np.arange(len(variants)); h = 0.38
     for ax, m in zip(axes, MODELS):
         ax.barh(y + h / 2, data[m]["appr"], h, color="#7FB3D5", edgecolor="k",
-                linewidth=0.5, label="Appropriate SDOH care")
+                linewidth=0.5, label="Appropriate care")
         ax.barh(y - h / 2, data[m]["stig"], h, color="#C0392B", edgecolor="k",
                 linewidth=0.5, label="Stigmatizing")
         ax.axvline(0, color="k", lw=0.8)
         ax.set_title(ML[m], color=MC[m], fontweight="bold", fontsize=10.5)
-        ax.set_xlabel("Net % vs. no-demographics", fontsize=8.5)
+        ax.set_xlabel("Net % of cases vs reference", fontsize=8.5)
         ax.set_xlim(*xlim)
         ax.set_yticks(y); ax.set_yticklabels(variants, fontsize=9)
         ax.invert_yaxis()
@@ -553,6 +558,12 @@ def fig6_soft_split_avg():
         return np.array([SOFT_SPLIT_DATA[m][key] for m in models])  # (n_models, n_variants)
 
     appr = per_model("appr"); stig = per_model("stig")
+    # display order and names shared with Figure 4B (plot_stigma_breakdown.py):
+    # most disadvantaged on top; names as in Figure 1
+    order = [3, 2, 1, 0, 4, 5, 6]
+    variants = ["Unhoused", "Low income", "Underinsured", "Uninsured",
+                "Black female, Medicaid", SOFT_SPLIT_RACE_ROW, "White male, private"]
+    appr = appr[:, order]; stig = stig[:, order]
     appr_m = appr.mean(axis=0); stig_m = stig.mean(axis=0)
 
     y = np.arange(len(variants)); h = 0.38
@@ -561,7 +572,7 @@ def fig6_soft_split_avg():
 
     fig, ax = plt.subplots(figsize=(9.0, 5.8))
     ax.barh(y + h / 2, appr_m, h, color="#7FB3D5", edgecolor="k", linewidth=0.5,
-            label="Appropriate SDOH care", zorder=1)
+            label="Appropriate care", zorder=1)
     ax.barh(y - h / 2, stig_m, h, color="#C0392B", edgecolor="k", linewidth=0.5,
             label="Stigmatizing", zorder=1)
     # overlay the six per-model values as dots on each bar
@@ -571,9 +582,10 @@ def fig6_soft_split_avg():
         ax.scatter(stig[i], y - h / 2 + offs[i], s=16, color="#4d1414",
                    edgecolor="white", linewidth=0.4, zorder=3)
     ax.axvline(0, color="k", lw=0.9)
-    ax.set_yticks(y); ax.set_yticklabels(variants, fontsize=9.5)
+    ax.set_yticks(y); ax.set_yticklabels(variants, fontsize=13)
     ax.invert_yaxis()
-    ax.set_xlabel("Net % vs. no-demographics", fontsize=9.5)
+    ax.tick_params(axis="x", labelsize=12)
+    ax.set_xlabel("Net % of cases vs reference", fontsize=13)
     # proxy handle for the per-model dots
     dot_proxy = mlines.Line2D([], [], color="#333333", marker="o", linestyle="none",
                               markersize=5, markeredgecolor="white", label=f"Individual model (n={n})")
@@ -601,10 +613,10 @@ def fig7_stigma_gradient():
     df = pd.read_csv("results/analysis/panel_stigma_rates.csv")
     order = ["control", "race_only", "uninsured", "underinsured", "low_income",
              "black_unhoused", "unhoused"]
-    nice = {"control": "control", "race_only": "race-only",
-            "uninsured": "uninsured", "underinsured": "underinsured",
-            "low_income": "low income", "black_unhoused": "Black+unhoused",
-            "unhoused": "unhoused"}
+    nice = {"control": "Control", "race_only": "Race / ethnicity\nonly",
+            "uninsured": "Uninsured", "underinsured": "Underinsured",
+            "low_income": "Low income", "black_unhoused": "Black +\nunhoused",
+            "unhoused": "Unhoused"}
     x = np.arange(len(order)); w = 0.8 / len(MODELS)
     fig, ax = plt.subplots(figsize=(13, 5.8))
     for j, m in enumerate(MODELS):
@@ -615,11 +627,11 @@ def fig7_stigma_gradient():
         ax.bar(x + (j - (len(MODELS) - 1) / 2) * w, rates, w, yerr=[lo, hi], capsize=2,
                color=MC[m], edgecolor="k", linewidth=0.5, label=ML[m])
     ax.axvspan(-0.5, 1.5, color="0.9", zorder=0)
-    ax.set_xticks(x); ax.set_xticklabels([nice[s] for s in order])
-    ax.set_ylabel("Stigmatizing-language rate (%)")
-    ax.set_xlabel(r"Increasing socioeconomic disadvantage  $\rightarrow$   "
-                  "(grey band = non-SES anchors)", fontsize=10)
-    ax.legend(fontsize=10, framealpha=0.9, loc="upper left")
+    ax.set_xticks(x); ax.set_xticklabels([nice[s] for s in order], fontsize=13)
+    ax.tick_params(axis="y", labelsize=12)
+    ax.set_ylabel("Stigmatizing-language rate (%)", fontsize=13)
+    ax.set_xlabel("Label group, ordered by increasing socioeconomic disadvantage", fontsize=13)
+    ax.legend(fontsize=12, framealpha=0.9, loc="upper left")
 
     # titleless panel for combine_figures.py -> Figure4 panel C (banner headline -> caption)
     PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)

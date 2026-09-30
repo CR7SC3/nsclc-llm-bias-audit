@@ -42,33 +42,31 @@ MODEL_SUFFIXES = [
     "_openrouter-meta-llama-llama-3.1-8b-instruct",
 ]
 
-C_SES = "#d96666"     # socioeconomic / structural-identity axes (elevated) — Fig 5 shared red
-C_NULL = "#adadad"    # race-only axis + privileged control (on zero) — Fig 5 shared baseline grey
+# category colours shared with Figure 1B (regen_flip_avg.py)
+C_SESC = "#C1272D"; C_RACE = "#6A51A3"; C_OTHER = "#1B7837"; C_REF = "#666666"
 
-# tier -> (variant keys, is_elevated_axis). Order is cosmetic; bars re-sort by mean.
+# tier -> (variant keys, colour). Same 9 categories and membership as Figures 1 and 2.
+# Order is cosmetic; bars re-sort by mean.
 TIERS = [
-    ("Intersectional (SES × race)",
-     ["latina_female_uninsured", "black_unhoused", "low_income_black", "black_female_medicaid"], True),
-    ("Insurance status",
-     ["uninsured_only", "medicaid_only", "underinsured_only", "medicare_only",
-      "medicare_advantage_only", "white_female_medicaid"], True),
-    ("Income / housing",
-     ["low_income_patient", "unhoused_patient"], True),
-    ("Immigration / language",
-     ["immigrant_patient", "limited_english_patient"], False),
-    ("Gender / sexual identity",
-     ["non_binary_patient", "transgender_woman", "gay_male_patient"], False),
-    ("Geography (rural)",
-     ["rural_patient", "small_community_hospital"], False),
-    # Age tier ("elderly_patient_75") intentionally excluded — see
+    ("Income / housing", ["low_income_patient", "unhoused_patient"], C_SESC),
+    ("Insurance", ["uninsured_only", "medicaid_only", "underinsured_only", "medicare_only",
+                   "medicare_advantage_only"], C_SESC),
+    ("Race + disadvantage", ["latina_female_uninsured", "black_unhoused", "low_income_black",
+                             "black_female_medicaid"], C_SESC),
+    ("Race / ethnicity only", ["black_race_only", "hispanic_race_only", "asian_race_only",
+                               "native_american_race_only", "middle_eastern_race_only",
+                               "multiracial_race_only"], C_RACE),
+    ("Geography", ["rural_patient", "small_community_hospital"], C_OTHER),
+    ("Immigration / language", ["immigrant_patient", "limited_english_patient"], C_OTHER),
+    ("Gender / sexual identity", ["non_binary_patient", "transgender_woman", "gay_male_patient"],
+     C_OTHER),
+    # Age tier ("elderly_patient_75") intentionally excluded -- see
     # src/generate/variant_injector_v2.py module docstring.
-    ("Race / ethnicity",
-     ["black_race_only", "hispanic_race_only", "asian_race_only",
-      "native_american_race_only", "middle_eastern_race_only", "multiracial_race_only"], False),
-    ("Privileged (control)",
-     ["white_male_private", "high_income_patient"], False),
+    ("Matched counterexamples", ["black_female_private", "white_female_medicaid"], C_REF),
+    ("Privileged comparators", ["white_male_private", "high_income_patient"], C_REF),
 ]
-
+_K = [k for _, ks, _ in TIERS for k in ks]
+assert len(_K) == 28 and len(set(_K)) == 28
 
 def load_d():
     """variant -> list of Cohen's d, one per model that reports it."""
@@ -99,7 +97,7 @@ def mean_ci(vals):
 def main():
     dvals = load_d()
     rows = []  # (label, mean, lo, hi, elevated, n)
-    for label, variants, elevated in TIERS:
+    for label, variants, elevated in TIERS:   # "elevated" slot now holds the colour
         cells = [v for vk in variants for v in dvals.get(vk, [])]
         if not cells:
             continue
@@ -115,10 +113,10 @@ def main():
     means = [r[1] for r in rows]
     lo = [r[1] - r[2] for r in rows]
     hi = [r[3] - r[1] for r in rows]
-    colours = [C_SES if r[4] else C_NULL for r in rows]
+    colours = [r[4] for r in rows]
     ys = range(len(rows))
 
-    fig, ax = plt.subplots(figsize=(6.6, 5.6))
+    fig, ax = plt.subplots(figsize=(6.6, 6.0))
     ax.axvline(0, color="#333", lw=0.8, zorder=1)
     ax.barh(list(ys), means, color=colours, height=0.68, zorder=2,
             edgecolor="k", linewidth=0.5,
@@ -126,20 +124,18 @@ def main():
             xerr=[lo, hi])
     for y, r in zip(ys, rows):
         ns = r[2] < 0 < r[3]                    # 95% CI crosses zero -> not significant
-        txt = f"{r[1]:+.2f}" + ("  (ns)" if ns else "")
+        txt = f"{r[1]:+.2f}"
         ax.text(r[3] + 0.025, y, txt, va="center", ha="left",
-                fontsize=8.0, color="#777" if ns else "#333")   # just past the upper whisker
+                fontsize=11, color="#777" if ns else "#333")   # just past the upper whisker
 
     ax.set_yticks(list(ys))
-    ax.set_yticklabels(labels, fontsize=9)
+    ax.set_yticklabels(labels, fontsize=12)
     for lbl, r in zip(ax.get_yticklabels(), rows):
-        if not r[4]:
-            lbl.set_color("#777")
+        lbl.set_color(r[4])
+    ax.tick_params(axis="x", labelsize=11)
     ax.set_xlim(-0.15, 2.05)   # extra right margin reserved for the marginal-race-effect inset
     ax.set_ylim(-0.7, len(rows) - 0.3)
-    ax.set_xlabel("Added soft-framing intensity (Cohen's $d$)", fontsize=9)
-    ax.set_title("Bias by demographic axis", fontsize=11, fontweight="bold",
-                 loc="left", pad=8)
+    ax.set_xlabel("Flagged-language effect (Cohen $d$)", fontsize=12)
     ax.tick_params(length=0)
     fig.tight_layout()
 
@@ -157,26 +153,19 @@ def main():
         m_diff, lo_diff, hi_diff = mean_ci(diffs)
         ns = lo_diff < 0 < hi_diff
 
-        inset = ax.inset_axes([0.72, 0.70, 0.27, 0.27])
+        inset = ax.inset_axes([0.66, 0.40, 0.33, 0.30])
         xs = [0, 1]
         inset.bar(xs, [m_up, m_bu], width=0.55,
-                  color=[C_SES, C_SES], edgecolor="k", linewidth=0.5,
+                  color=[C_SESC, C_SESC], edgecolor="k", linewidth=0.5,
                   yerr=[[m_up - lo_up, m_bu - lo_bu], [hi_up - m_up, hi_bu - m_bu]],
                   error_kw=dict(ecolor="#444", elinewidth=1.0, capsize=2.5), zorder=2)
         inset.set_xticks(xs)
-        inset.set_xticklabels(["unhoused", "Black +\nunhoused"], fontsize=6.5)
-        inset.set_ylabel("Cohen's $d$", fontsize=6.5, labelpad=2)
-        inset.tick_params(axis="y", labelsize=6.5, length=0)
+        inset.set_xticklabels(["Unhoused", "Black +\nunhoused"], fontsize=10.5)
+        inset.set_ylabel("Cohen $d$", fontsize=10.5, labelpad=2)
+        inset.tick_params(axis="y", labelsize=10, length=0)
         inset.tick_params(axis="x", length=0)
         for spine in ("top", "right"):
             inset.spines[spine].set_visible(False)
-        inset.set_title("Marginal race effect at fixed SES",
-                         fontsize=8.5, fontweight="bold", loc="center", pad=14, color="#333")
-        diff_txt = (f"Black+unhoused $-$ unhoused = {m_diff:+.2f}  "
-                    f"[{lo_diff:+.2f}, {hi_diff:+.2f}]" + ("  (ns)" if ns else ""))
-        inset.text(0.5, 1.04, diff_txt, transform=inset.transAxes,
-                   ha="center", va="bottom", fontsize=7.0,
-                   color="#777" if ns else "#333")
         inset.set_facecolor("white")
         inset.patch.set_alpha(0.9)
         print(f"marginal race contrast (fixed SES): black_unhoused d={m_bu:+.3f} "

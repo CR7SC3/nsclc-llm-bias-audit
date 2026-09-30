@@ -18,16 +18,19 @@ from src.analyze.soft_bias import detect_all
 from src.analyze.stats import wilson_ci
 
 # Unified typography across all Fig-5 panels (A/B/C/D): one family, one size.
+# eFigure 2 panels share one font, one size and one panel geometry (8.0 x 4.8 in)
+# so the 2 x 2 composite prints near 6 pt at journal width.
 plt.rcParams.update({
     "font.family": "sans-serif",
-    "font.sans-serif": ["DejaVu Sans"],
-    "font.size": 10,
+    "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"],
+    "font.size": 14,
 })
 
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
 STIGMA = ("adherence_compliance", "sdoh_generation")  # defensible composite
-GROUPS = [("unhoused_patient", "unhoused"), ("black_unhoused", "Black+unhoused"),
-          ("black_race_only", "race-only"), ("white_male_private", "control")]
+# ordered by increasing disadvantage, as in panels B to D
+GROUPS = [("white_male_private", "White male, private"), ("black_race_only", "Black"),
+          ("black_unhoused", "Black + unhoused"), ("unhoused_patient", "Unhoused")]
 FILES = {
     "Gemini": {"llm": "results/baseline/v2_genie_bpc_nsclc_results.json",
                "tmpl": "results/baseline/v2_genie_bpc_nsclc_templates100_results.json"},
@@ -63,47 +66,32 @@ def main():
                 "llm": stigma_rate(llm, ids, vkey),
                 "tmpl": stigma_rate(tmpl, ids, vkey),
             }
-        print(model, "n cases:", data[model]["unhoused"]["tmpl"][3])
+        print(model, "n cases:", data[model]["Unhoused"]["tmpl"][3])
 
     glabels = [g for _, g in GROUPS]
-    x = np.arange(len(glabels)); w = 0.2
-    fig, ax = plt.subplots(figsize=(9.8, 5.2))
-    # note-type by colour (teal = synthetic LLM note, purple = template/circularity
-    # control); vendor by hatch (Gemini solid, DeepSeek hatched)
-    # shared gray baseline (original LLM note) + Fig 5A claim color (light blue = template note)
-    C_MAIN, C_ALT = "#adadad", "#E69F00"   # grey = original note · orange = robustness condition (non-model palette)
-    specs = [("Gemini", "llm", C_MAIN, "", "Gemini · LLM note", -1.5),
-             ("Gemini", "tmpl", C_ALT, "", "Gemini · template note", -0.5),
-             ("DeepSeek", "llm", C_MAIN, "////", "DeepSeek · LLM note", 0.5),
-             ("DeepSeek", "tmpl", C_ALT, "////", "DeepSeek · template note", 1.5)]
-    for model, nt, color, hatch, label, off in specs:
-        rates = [data[model][g][nt][0] for g in glabels]
-        lo = np.clip([data[model][g][nt][0] - data[model][g][nt][1] for g in glabels], 0, None)
-        hi = np.clip([data[model][g][nt][2] - data[model][g][nt][0] for g in glabels], 0, None)
-        ax.bar(x + off * w, rates, w, yerr=[lo, hi],
-               error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
-               color=color, hatch=hatch, edgecolor="k", linewidth=0.5, label=label)
-    ax.set_xticks(x); ax.set_xticklabels(glabels, rotation=30, ha="right", rotation_mode="anchor")   # standardized 30° tilt
-    ax.set_ylabel("Stigmatizing-language rate (%)")
-    ax.set_ylim(0, 125)   # headroom so the legend clears the ~92% bars
-    ax.set_yticks(range(0, 101, 20))
-    ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)   # grey 20% gridlines (match panel C)
-    ax.legend(ncol=2, framealpha=0.95, loc="upper center",
-              columnspacing=1.2, handletextpad=0.5, handlelength=1.6, borderaxespad=0.4)
-    # titleless panel for combine_figures.py (Fig 5A); banner goes to the caption.
-    # Fixed geometry so all Fig-5 panels share one height and their x-axes align
-    # (single-axis box). No tight bbox — the axes rectangle is what fixes alignment.
+    x = np.arange(len(glabels)); w = 0.38
+    C_MAIN, C_ALT = "#adadad", "#E69F00"   # grey = original condition, orange = alternative
+    fig, axes = plt.subplots(1, 2, figsize=(8.0, 4.8), sharey=True)
+    for ax, (model, full) in zip(axes, [("Gemini", "Gemini-2.5-flash"), ("DeepSeek", "DeepSeek-chat")]):
+        for nt, color, label, off in [("llm", C_MAIN, "LLM-generated note", -0.5),
+                                      ("tmpl", C_ALT, "Template note (no LLM)", 0.5)]:
+            r = [data[model][g][nt] for g in glabels]
+            ax.bar(x + off * w, [v[0] for v in r], w,
+                   yerr=[np.clip([v[0] - v[1] for v in r], 0, None),
+                         np.clip([v[2] - v[0] for v in r], 0, None)],
+                   error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
+                   color=color, edgecolor="k", linewidth=0.5, label=label)
+        ax.set_title(full, fontsize=14, fontweight="bold")
+        ax.set_xticks(x); ax.set_xticklabels([g.replace(" + ", " +\n") for g in glabels], rotation=40, ha="right", rotation_mode="anchor", fontsize=12)
+        ax.set_ylim(0, 118); ax.set_yticks(range(0, 101, 20))   # headroom for the legend
+        ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)
+    axes[0].set_ylabel("Stigmatizing-language rate (%)")
+    axes[0].legend(framealpha=0.95, loc="upper left", fontsize=11)
+    axes[0].set_position([0.105, 0.26, 0.41, 0.64])
+    axes[1].set_position([0.575, 0.26, 0.41, 0.64])
     PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
-    fig.set_size_inches(6.6, 5.2)
-    ax.set_position([0.10, 0.16, 0.87, 0.78])
     fig.savefig(PANELS / "p_template.png", dpi=200)
-    # restore layout for the standalone banner figure
-    fig.set_size_inches(9.8, 5.2)
-    ax.set_title("Circularity ruled out: stigma REPLICATES on demographics-neutral,\n"
-                 "LLM-free deterministic template notes (95% Wilson CI; same 100 cases)",
-                 fontsize=12, fontweight="bold")
-    fig.tight_layout()
-    fig.savefig(OUT / "fig4_circularity.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT / "fig4_circularity.png", dpi=150)
     print("wrote", OUT / "fig4_circularity.png")
 
 

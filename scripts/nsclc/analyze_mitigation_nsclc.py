@@ -42,7 +42,7 @@ Usage
     python scripts/nsclc/analyze_mitigation_nsclc.py --model deepseek-chat \
         --subset genie_bpc_nsclc_n300 --baseline-subset genie_bpc_nsclc
     python scripts/nsclc/analyze_mitigation_nsclc.py --model gemini-2.5-flash \
-        --subset genie_bpc_nsclc_n300_mitig151 --baseline-subset genie_bpc_nsclc
+        --subset genie_bpc_nsclc_mitig151 --baseline-subset genie_bpc_nsclc
 """
 from __future__ import annotations
 

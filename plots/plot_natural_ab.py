@@ -25,10 +25,12 @@ import matplotlib.pyplot as plt
 from scripts.nsclc.finalize_panel import STRATA, _is_stigma, _wilson
 
 # Unified typography across all Fig-5 panels (A/B/C/D): one family, one size.
+# eFigure 2 panels share one font, one size and one panel geometry (8.0 x 4.8 in)
+# so the 2 x 2 composite prints near 6 pt at journal width.
 plt.rcParams.update({
     "font.family": "sans-serif",
-    "font.sans-serif": ["DejaVu Sans"],
-    "font.size": 10,
+    "font.sans-serif": ["Helvetica", "Arial", "DejaVu Sans"],
+    "font.size": 14,
 })
 
 OUT = Path("figures/manuscript"); OUT.mkdir(parents=True, exist_ok=True)
@@ -51,12 +53,14 @@ ARMS = {
                  "results/baseline/v2_genie_bpc_nsclc_natural150_deepseek-chat_results.json"),
 }
 
+FULL_NAME = {"Gemini": "Gemini-2.5-flash", "DeepSeek": "DeepSeek-chat"}
+
 # disadvantage-ordered; the gradient claim = disadvantaged >> control
 ORDER = ["control", "race_only", "uninsured", "underinsured", "low_income",
          "black_unhoused", "unhoused"]
-PRETTY = {"control": "control", "race_only": "race-only", "uninsured": "uninsured",
-          "underinsured": "underinsured", "low_income": "low income",
-          "black_unhoused": "Black + unhoused", "unhoused": "unhoused"}
+PRETTY = {"control": "Control", "race_only": "Race / ethnicity only", "uninsured": "Uninsured",
+          "underinsured": "Underinsured", "low_income": "Low income",
+          "black_unhoused": "Black + unhoused", "unhoused": "Unhoused"}
 
 
 def _rates(path: str, case_ids: set | None):
@@ -100,25 +104,27 @@ def main():
         ax.bar(x - w / 2, tag_r, w, yerr=[tag_lo, tag_hi],
                error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
                color=NOTE_COLORS["synthetic"], edgecolor="k", linewidth=0.5,
-               label="Bracketed TAG")
+               label="Bracketed tag")
         ax.bar(x + w / 2, nat_r, w, yerr=[nat_lo, nat_hi],
                error_kw=dict(ecolor="0.3", lw=0.9, capsize=2),
                color=NOTE_COLORS["prose"], edgecolor="k", linewidth=0.5,
-               label="Natural PROSE")
+               label="Natural prose")
 
-        ax.set_xticks(x); ax.set_xticklabels([PRETTY[s] for s in ORDER], rotation=30, ha="right", rotation_mode="anchor")   # standardized 30° tilt
-        ax.legend(framealpha=0.95, loc="upper left")   # standardized: framed, inherits unified 10 pt (match panel A)
-        ax.set_ylim(0, 100)
+        ax.set_title(FULL_NAME[vendor], fontsize=14, fontweight="bold")
+        ax.set_xticks(x); ax.set_xticklabels([PRETTY[s] for s in ORDER], rotation=55, ha="right", rotation_mode="anchor", fontsize=11)   # standardized 30° tilt
+
+        ax.set_ylim(0, 100); ax.set_yticks(range(0, 101, 20))
         ax.grid(axis="y", alpha=0.25); ax.set_axisbelow(True)   # grey gridlines behind bars (match panels A/B/D)
 
     axes[0].set_ylabel("Stigmatizing-language rate (%)")
+    axes[0].legend(framealpha=0.95, loc="upper left", fontsize=11)
     # titleless panel for combine_figures.py (Fig 5C); banner/suptitle goes to the caption.
     # Fixed geometry so all Fig-5 panels share one height and their x-axes align
     # (two-axis box, same bottom/top as the single-axis panels). No tight bbox.
     PANELS = Path("figures/manuscript_combined/panels"); PANELS.mkdir(parents=True, exist_ok=True)
-    fig.set_size_inches(13.2, 5.2)
-    axes[0].set_position([0.055, 0.16, 0.43, 0.78])
-    axes[1].set_position([0.545, 0.16, 0.43, 0.78])
+    fig.set_size_inches(8.0, 4.8)
+    axes[0].set_position([0.105, 0.26, 0.41, 0.64])
+    axes[1].set_position([0.575, 0.26, 0.41, 0.64])
     fig.savefig(PANELS / "p_natural.png", dpi=200)
     fig.set_size_inches(13, 5.4)
     fig.suptitle("The stigma gradient is not a salience artifact\n"

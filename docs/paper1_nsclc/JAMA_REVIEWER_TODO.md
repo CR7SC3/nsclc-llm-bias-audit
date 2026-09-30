@@ -157,7 +157,7 @@ they need, not by which reviewer raised them. Checkboxes are for tracking across
 - [ ] Reconcile the gold-set sampling deviation from `PREREGISTRATION.md` §6b (spec: 40-item
   stratified subset from 60/60/60) against what was actually done (60 items, random, preserving
   ~10% prevalence). Add to the deviation addendum; nothing currently documents this change.
-- [ ] Refresh `TRIPOD_LLM_checklist.md` — its own citation numbers and line references are stale
+- [x] TRIPOD-LLM checklist rebuilt as `TRIPOD_LLM_checklist_JAMA_NetworkOpen.docx` against the official item list (2026-09-28); old .md deleted
   against the current manuscript (it already warns it "has previously gone stale").
 - [ ] Report the denominator (n) behind the "unique-answer-scorable subset" used for the
   1.0-percentage-point absolute-concordance-shift bound; currently unstated.
